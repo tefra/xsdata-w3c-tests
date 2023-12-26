@@ -11,13 +11,13 @@ class Test:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     bar: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

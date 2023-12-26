@@ -14,7 +14,7 @@ class Local:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Root:
             "name": "Local",
             "type": "Element",
             "required": True,
-        }
+        },
     )

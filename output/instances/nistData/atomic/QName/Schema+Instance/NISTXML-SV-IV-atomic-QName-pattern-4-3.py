@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern4(
-    value="luser-and-that.business_inte"
+    value='luser-and-that.business_inte'
 )

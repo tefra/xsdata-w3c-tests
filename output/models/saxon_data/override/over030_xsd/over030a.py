@@ -13,21 +13,21 @@ class InlineType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     base: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -67,7 +67,7 @@ class InlineType:
                     "namespace": "http://example.org/ns/document",
                 },
             ),
-        }
+        },
     )
 
 
@@ -82,7 +82,7 @@ class Xsdextra:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -145,34 +145,34 @@ class Blockquote:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     p: Optional["P"] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     role: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     base: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
 
 
@@ -185,21 +185,21 @@ class ParaType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     base: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -244,7 +244,7 @@ class ParaType:
                     "namespace": "http://example.org/ns/document",
                 },
             ),
-        }
+        },
     )
 
 
@@ -266,15 +266,15 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     xsdextra: Optional[Xsdextra] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    p_or_blockquote: List[Union[Blockquote, P]] = field(
+    p_or_blockquote: List[Union[P, Blockquote]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -288,25 +288,25 @@ class Doc:
                     "type": Blockquote,
                 },
             ),
-        }
+        },
     )
     role: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     base: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )

@@ -4,6 +4,6 @@ from output.models.ms_data.attribute.att_lc002_xsd.att_lc002 import Doc
 
 obj = Doc(
     elem=AttRef(
-        ca1="123"
+        ca1='123'
     )
 )

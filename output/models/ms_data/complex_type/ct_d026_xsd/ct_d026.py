@@ -13,5 +13,5 @@ class Root:
         metadata={
             "required": True,
             "fraction_digits": 5,
-        }
+        },
     )

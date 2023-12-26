@@ -25,7 +25,7 @@ class Base:
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 
@@ -50,7 +50,7 @@ class Testing(Base):
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 

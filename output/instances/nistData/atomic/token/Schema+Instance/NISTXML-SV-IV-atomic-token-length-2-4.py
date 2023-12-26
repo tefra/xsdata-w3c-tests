@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenLength2(
-    value="ipulate and display context-rich data In particular XML Schemas define intuitive methods for creating complex documents The Document Object Model DOM defines methods for interacting with XML and HTML permitting the dynamic creation and manipulation of documents The Extensible Stylesheetcqylqany"
+    value='ipulate and display context-rich data In particular XML Schemas define intuitive methods for creating complex documents The Document Object Model DOM defines methods for interacting with XML and HTML permitting the dynamic creation and manipulation of documents The Extensible Stylesheetcqylqany'
 )

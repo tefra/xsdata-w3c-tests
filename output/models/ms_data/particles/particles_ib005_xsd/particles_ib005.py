@@ -15,7 +15,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class Base:
     class Meta:
         name = "base"
 
-    foo_or_bar: List[Union[object, Foo]] = field(
+    foo_or_bar: List[Union[Foo, object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -41,7 +41,7 @@ class Base:
                 },
             ),
             "max_occurs": 4,
-        }
+        },
     )
 
 

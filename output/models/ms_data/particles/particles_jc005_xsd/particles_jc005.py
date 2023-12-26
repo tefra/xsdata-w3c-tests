@@ -12,7 +12,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class R(B):
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

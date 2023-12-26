@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriPattern5(
-    value="gopher://whoservi.theXSL.fact.ma.net"
+    value='gopher://whoservi.theXSL.fact.ma.net'
 )

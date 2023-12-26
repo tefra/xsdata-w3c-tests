@@ -5,23 +5,23 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=Derived(
-        annotation="",
+        annotation='',
         element_or_any=[
             AnyElement(
-                qname="element",
-                text=""
+                qname='element',
+                text=''
             ),
             AnyElement(
-                qname="element",
-                text=""
+                qname='element',
+                text=''
             ),
             AnyElement(
-                qname="element",
-                text=""
+                qname='element',
+                text=''
             ),
             AnyElement(
-                qname="element",
-                text=""
+                qname='element',
+                text=''
             ),
         ]
     )

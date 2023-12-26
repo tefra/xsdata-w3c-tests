@@ -11,13 +11,13 @@ class PseudoId:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -30,13 +30,13 @@ class PseudoIdref:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idref: List[Union["Node", PseudoIdref, PseudoId]] = field(
+    node_or_id_or_idref: List[Union["Node", PseudoId, PseudoIdref]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -63,7 +63,7 @@ class Node:
                     "type": PseudoIdref,
                 },
             ),
-        }
+        },
     )
 
 
@@ -77,5 +77,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

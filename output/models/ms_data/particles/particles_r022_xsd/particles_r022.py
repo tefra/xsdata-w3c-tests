@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.ms_data.particles.particles_r022_xsd.particles_r022_imp import ImpElem1
+from output.models.ms_data.particles.particles_r022_xsd.particles_r022_imp import (
+    ImpElem1,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -12,14 +14,14 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     local_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -30,7 +32,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
@@ -39,7 +41,7 @@ class R:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -55,5 +57,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

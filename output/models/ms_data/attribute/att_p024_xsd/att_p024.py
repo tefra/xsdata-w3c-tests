@@ -14,7 +14,7 @@ class AttRef:
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

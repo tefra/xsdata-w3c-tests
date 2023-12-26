@@ -7,126 +7,126 @@ obj = Root(
     choice=[
         Item(
             any_element=AnyElement(
-                text="abc"
+                text='abc'
             )
         ),
         Item(
             any_element=AnyElement(
-                text="123",
+                text='123',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}int",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}int',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="4.56",
+                text='4.56',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}float",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}float',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="this is a string",
+                text='this is a string',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}string",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}string',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="false",
+                text='false',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}boolean",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}boolean',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="45",
+                text='45',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}decimal',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="P1347Y",
+                text='P1347Y',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}duration",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}duration',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="1999-05-31T13:20:00-05:00",
+                text='1999-05-31T13:20:00-05:00',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}dateTime',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="13:20:00-05:00",
+                text='13:20:00-05:00',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}time",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}time',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="1999-05-31",
+                text='1999-05-31',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}date",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}date',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="1999",
+                text='1999',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}gYear",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}gYear',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="--02-13",
+                text='--02-13',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}gMonthDay",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}gMonthDay',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="abcd",
+                text='abcd',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}hexBinary",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}hexBinary',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="http://tempuri",
+                text='http://tempuri',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}anyURI',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="123",
+                text='123',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}anySimpleType',
                 }
             )
         ),
         Item(
             any_element=AnyElement(
-                text="123",
+                text='123',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}anyType',
                 }
             )
         ),

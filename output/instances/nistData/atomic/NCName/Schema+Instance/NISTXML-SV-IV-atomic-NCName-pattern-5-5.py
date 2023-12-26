@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern5(
-    value="sthis_those_industry_and_automate.file.such-due-discussions-of.p"
+    value='sthis_those_industry_and_automate.file.such-due-discussions-of.p'
 )

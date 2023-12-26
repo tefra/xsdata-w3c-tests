@@ -6,10 +6,10 @@ from output.models.sun_data.combined.xsd011.xsd011_xsd.xsd011 import Root
 obj = Root(
     non_nillable_or_nillable1_or_nillable2=[
         NonNillable(
-            x=""
+            x=''
         ),
         Nillable1(
-            x=""
+            x=''
         ),
         Nillable1(
 

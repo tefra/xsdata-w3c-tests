@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength1(
-    value="_and.exchange_known-use-to_data_means.implemen"
+    value='_and.exchange_known-use-to_data_means.implemen'
 )

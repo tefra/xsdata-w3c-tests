@@ -4,21 +4,21 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = DerivedElement(
-    qname="computer",
+    qname='computer',
     value=QuietComputer(
-        cpu="Intel",
-        memory="4Gb",
-        monitor="17inch",
+        cpu='Intel',
+        memory='4Gb',
+        monitor='17inch',
         any_element=[
             AnyElement(
-                qname="disk",
-                text="Seagate"
+                qname='disk',
+                text='Seagate'
             ),
             AnyElement(
-                qname="mouse",
-                text="USB"
+                qname='mouse',
+                text='USB'
             ),
         ]
     ),
-    type="quietComputer"
+    type='quietComputer'
 )

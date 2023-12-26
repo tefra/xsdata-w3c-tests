@@ -15,7 +15,7 @@ class Ct:
             "required": True,
             "min_exclusive": 2,
             "min_inclusive": 2,
-        }
+        },
     )
     e2: Optional[int] = field(
         default=None,
@@ -25,7 +25,7 @@ class Ct:
             "required": True,
             "min_exclusive": 2,
             "min_inclusive": 3,
-        }
+        },
     )
 
 

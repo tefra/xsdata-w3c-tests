@@ -7,124 +7,124 @@ obj = Doc(
     elem=R(
         choice=[
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
             AnyElement(
-                qname="c1",
-                text=""
+                qname='c1',
+                text=''
             ),
         ]
     )

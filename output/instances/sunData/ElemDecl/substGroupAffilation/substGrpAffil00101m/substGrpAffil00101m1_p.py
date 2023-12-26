@@ -7,9 +7,9 @@ from xsdata.models.datatype import XmlPeriod
 obj = BookStore(
     magazine_or_book=[
         Book(
-            title="The Old Man and the Sea",
+            title='The Old Man and the Sea',
             author=[
-                "Ernest Hemingway",
+                'Ernest Hemingway',
             ]
         ),
         Magazine(

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_
 
 
 obj = NistschemaSvIvAtomicNegativeIntegerPattern5(
-    value="-931566117363638157"
+    value='-931566117363638157'
 )

@@ -5,8 +5,8 @@ from output.models.sun_data.combined.identity.identity_test_suite.pkg_003.test_x
 obj = Root(
     key_or_ref=[
         Root.Key(
-            id=Decimal("0")
+            id=Decimal('0')
         ),
-        Decimal("-0"),
+        Decimal('-0'),
     ]
 )

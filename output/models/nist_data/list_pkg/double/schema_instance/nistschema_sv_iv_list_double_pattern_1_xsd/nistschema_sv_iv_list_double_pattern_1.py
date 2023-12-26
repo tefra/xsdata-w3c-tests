@@ -15,5 +15,5 @@ class NistschemaSvIvListDoublePattern1:
         metadata={
             "pattern": r"\d{1}E\-\d{3} \.\d{4}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1} \d{13}E\d{2} \d{1}\.\d{16}E\d{3}",
             "tokens": True,
-        }
+        },
     )

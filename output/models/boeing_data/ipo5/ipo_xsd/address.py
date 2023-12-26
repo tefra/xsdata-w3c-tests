@@ -12,7 +12,7 @@ class AddressType:
             "type": "Element",
             "namespace": "http://www.example.com/add",
             "required": True,
-        }
+        },
     )
     street: Optional[str] = field(
         default=None,
@@ -20,7 +20,7 @@ class AddressType:
             "type": "Element",
             "namespace": "http://www.example.com/add",
             "required": True,
-        }
+        },
     )
     city: Optional[str] = field(
         default=None,
@@ -28,5 +28,5 @@ class AddressType:
             "type": "Element",
             "namespace": "http://www.example.com/add",
             "required": True,
-        }
+        },
     )

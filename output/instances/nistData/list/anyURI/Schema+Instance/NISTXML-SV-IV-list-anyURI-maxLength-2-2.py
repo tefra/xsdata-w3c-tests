@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.any_uri.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListAnyUriMaxLength2(
     value=[
-        "ftp://me.wi.gov",
-        "ftp://i.com",
-        "gopher://XM.bui.gov",
-        "gopher://har.suc.org",
-        "gopher://eb.org",
+        'ftp://me.wi.gov',
+        'ftp://i.com',
+        'gopher://XM.bui.gov',
+        'gopher://har.suc.org',
+        'gopher://eb.org',
     ]
 )

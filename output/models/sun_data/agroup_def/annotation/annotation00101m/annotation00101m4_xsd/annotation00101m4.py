@@ -11,13 +11,13 @@ class A:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

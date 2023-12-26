@@ -11,13 +11,13 @@ class T:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     col: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

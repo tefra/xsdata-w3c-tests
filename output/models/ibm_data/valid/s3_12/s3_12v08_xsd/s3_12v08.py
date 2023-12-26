@@ -13,13 +13,13 @@ class ChildType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     type2: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -27,7 +27,7 @@ class ChildType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -36,9 +36,7 @@ class DerivedType1(ChildType):
     class Meta:
         name = "derivedType1"
 
-    value: Optional[bool] = field(
-        default=None
-    )
+    value: Optional[bool] = field(default=None)
 
 
 @dataclass
@@ -46,9 +44,7 @@ class DerivedType2(ChildType):
     class Meta:
         name = "derivedType2"
 
-    value: Optional[int] = field(
-        default=None
-    )
+    value: Optional[int] = field(default=None)
 
 
 @dataclass
@@ -63,5 +59,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

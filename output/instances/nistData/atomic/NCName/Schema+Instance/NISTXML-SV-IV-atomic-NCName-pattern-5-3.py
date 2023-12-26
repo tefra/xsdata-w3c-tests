@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern5(
-    value="gand.program_for-that-effective-process-a.and_standards.help-use"
+    value='gand.program_for-that-effective-process-a.and_standards.help-use'
 )

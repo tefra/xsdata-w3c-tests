@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.base64_binary.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListBase64BinaryMaxLength3(
     value=[
-        b"cigqyneoh",
-        b"irgrvfjsp",
-        b"shpwntkwp",
-        b"lqbqrfyhj",
-        b"qyotvdkpe",
+        b'cigqyneoh',
+        b'irgrvfjsp',
+        b'shpwntkwp',
+        b'lqbqrfyhj',
+        b'qyotvdkpe',
     ]
 )

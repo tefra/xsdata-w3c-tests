@@ -15,5 +15,5 @@ class Test:
         metadata={
             "required": True,
             "max_exclusive": 11.0,
-        }
+        },
     )

@@ -3,7 +3,9 @@ from output.models.ms_data.particles.particles_q017_xsd.particles_q017 import (
     R,
     Doc,
 )
-from output.models.ms_data.particles.particles_q017_xsd.particles_q017_imp import Foo
+from output.models.ms_data.particles.particles_q017_xsd.particles_q017_imp import (
+    Foo,
+)
 
 __all__ = [
     "B",

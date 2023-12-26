@@ -13,13 +13,13 @@ class A1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     t: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

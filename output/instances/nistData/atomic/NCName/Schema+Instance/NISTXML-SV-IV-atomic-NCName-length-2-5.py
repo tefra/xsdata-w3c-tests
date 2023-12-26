@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength2(
-    value="jmanual.disseminate-for.consortium.performance-foster_provide"
+    value='jmanual.disseminate-for.consortium.performance-foster_provide'
 )

@@ -12,7 +12,7 @@ class CType:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class CsType:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -39,14 +39,14 @@ class BType:
         metadata={
             "type": "Element",
             "max_occurs": 11,
-        }
+        },
     )
     att_b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -60,7 +60,7 @@ class BsType:
         metadata={
             "type": "Element",
             "max_occurs": 11,
-        }
+        },
     )
 
 
@@ -74,20 +74,20 @@ class AType:
         metadata={
             "type": "Element",
             "max_occurs": 11,
-        }
+        },
     )
     cs: Optional[CsType] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     att_a: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -101,7 +101,7 @@ class RType:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 

@@ -9,28 +9,28 @@ class X:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -41,14 +41,14 @@ class X:
                 "type": "Element",
                 "namespace": "",
                 "min_occurs": 1,
-            }
+            },
         )
         a_count: Optional[int] = field(
             default=None,
             metadata={
                 "name": "aCount",
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -59,28 +59,28 @@ class Y:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -91,14 +91,14 @@ class Y:
                 "type": "Element",
                 "namespace": "",
                 "min_occurs": 1,
-            }
+            },
         )
         a_count: Optional[int] = field(
             default=None,
             metadata={
                 "name": "aCount",
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -113,7 +113,7 @@ class Test:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     y: Optional[Y] = field(
         default=None,
@@ -121,5 +121,5 @@ class Test:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

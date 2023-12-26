@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.g_month.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicGMonthPattern4(
-    value="--06"
+    value='--06'
 )

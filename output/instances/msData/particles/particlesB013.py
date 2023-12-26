@@ -7,8 +7,8 @@ obj = Doc(
     elem=Elem(
         any_element=[
             AnyElement(
-                qname="{foo}b",
-                text=""
+                qname='{foo}b',
+                text=''
             ),
         ]
     )

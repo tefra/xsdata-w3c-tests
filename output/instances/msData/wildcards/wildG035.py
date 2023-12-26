@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Foo(
     local_w3_org_1999_xhtml_element=AnyElement(
-        qname="bar",
-        text="foo bar"
+        qname='bar',
+        text='foo bar'
     )
 )

@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameMinLength4(
     value=[
-        "eof_supply.the.p",
-        "qfoster_referenc",
-        "obrowsers.is_cre",
-        "_etc.enabling.en",
-        "jchallenges_part",
-        "oin.and_in-that-",
-        "_two_four.partne",
-        "yspecification_a",
+        'eof_supply.the.p',
+        'qfoster_referenc',
+        'obrowsers.is_cre',
+        '_etc.enabling.en',
+        'jchallenges_part',
+        'oin.and_in-that-',
+        '_two_four.partne',
+        'yspecification_a',
     ]
 )

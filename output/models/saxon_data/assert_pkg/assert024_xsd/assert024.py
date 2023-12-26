@@ -12,7 +12,7 @@ class Test:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -22,5 +22,5 @@ class Test:
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )

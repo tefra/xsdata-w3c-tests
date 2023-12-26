@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameLength3(
     value=[
-        "xpartici",
-        "utechnol",
-        "ua.globa",
-        "yhighly.",
-        ":to.data",
-        "qdirecti",
-        "uof.enfo",
+        'xpartici',
+        'utechnol',
+        'ua.globa',
+        'yhighly.',
+        ':to.data',
+        'qdirecti',
+        'uof.enfo',
     ]
 )

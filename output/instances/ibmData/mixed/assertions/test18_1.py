@@ -7,24 +7,24 @@ obj = Test(
     x=X(
         a=X.A(
             a1=[
-                "aaa",
-                "aaa..",
+                'aaa',
+                'aaa..',
             ],
             a_count=2
         ),
-        b="world",
-        d="world.."
+        b='world',
+        d='world..'
     ),
     y=Y(
         a=Y.A(
             a1=[
-                "aaa",
-                "aaa..",
+                'aaa',
+                'aaa..',
             ],
             a_count=2
         ),
-        b="world",
-        c="hello..",
-        d="world.."
+        b='world',
+        c='hello..',
+        d='world..'
     )
 )

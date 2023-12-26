@@ -9,7 +9,7 @@ class ProductType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -20,7 +20,7 @@ class ExtendedProductType(ProductType):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

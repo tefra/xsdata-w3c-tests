@@ -8,27 +8,27 @@ obj = Foo(
     target_namespace_w3_org_1999_xhtml_element=[
         Foo(
             any_element=AnyElement(
-                text="foo bar"
+                text='foo bar'
             )
         ),
         B(
-            value="testing"
+            value='testing'
         ),
         Foo(
             any_element=AnyElement(
-                text="foo bar"
+                text='foo bar'
             )
         ),
         Foo(
             any_element=AnyElement(
-                text="foo bar"
+                text='foo bar'
             )
         ),
         B(
-            value="testing"
+            value='testing'
         ),
         B(
-            value="testing"
+            value='testing'
         ),
     ]
 )

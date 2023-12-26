@@ -8,14 +8,14 @@ obj = Root(
     a_or_item=[
         Item(
             any_element=AnyElement(
-                text=" kjhad 254 987 lnfa "
+                text=' kjhad 254 987 lnfa '
             )
         ),
         A(
-            value="123456"
+            value='123456'
         ),
         A(
-            value="abcdefgh"
+            value='abcdefgh'
         ),
     ]
 )

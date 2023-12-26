@@ -7,7 +7,7 @@ obj = Root(
     key_or_ref=[
         QName("{abc}abc"),
         DerivedElement(
-            qname="{foo}ref",
+            qname='{foo}ref',
             value=QName("{abc}abc")
         ),
     ]

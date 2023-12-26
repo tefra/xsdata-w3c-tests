@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriMinLength5(
-    value="gopher://XMLisbuilds.rintXMLsig.ificanteli.inatetoXML.easur.com"
+    value='gopher://XMLisbuilds.rintXMLsig.ificanteli.inatetoXML.easur.com'
 )

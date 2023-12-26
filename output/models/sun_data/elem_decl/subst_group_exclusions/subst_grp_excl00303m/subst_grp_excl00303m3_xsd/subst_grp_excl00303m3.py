@@ -12,7 +12,7 @@ class HeadType:
             "name": "Ear",
             "type": "Element",
             "namespace": "ElemDecl/substGroupExclusions",
-        }
+        },
     )
     eye: Optional[object] = field(
         default=None,
@@ -20,7 +20,7 @@ class HeadType:
             "name": "Eye",
             "type": "Element",
             "namespace": "ElemDecl/substGroupExclusions",
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class Member3(HeadType):
         metadata={
             "name": "Nose",
             "type": "Element",
-        }
+        },
     )
 
 
@@ -56,5 +56,5 @@ class Root:
             "name": "Head",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

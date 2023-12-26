@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_ju002_xsd.particles_ju002_imp import ImpElem1
+from output.models.ms_data.particles.particles_ju002_xsd.particles_ju002_imp import (
+    ImpElem1,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -15,7 +17,7 @@ class B:
                 "##local foo ##targetNamespace http://importedXSD bar"
             ),
             "max_occurs": 10,
-        }
+        },
     )
 
 
@@ -29,7 +31,7 @@ class R(B):
             "namespace": "http://importedXSD",
             "min_occurs": 2,
             "max_occurs": 5,
-        }
+        },
     )
 
 
@@ -45,5 +47,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

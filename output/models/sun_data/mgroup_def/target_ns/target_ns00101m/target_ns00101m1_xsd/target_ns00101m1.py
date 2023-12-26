@@ -10,7 +10,7 @@ class A1:
     class Meta:
         name = "A"
 
-    c_or_date: Optional[Union[XmlDate, int]] = field(
+    c_or_date: Optional[Union[int, XmlDate]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -26,7 +26,7 @@ class A1:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.qname.schema_instance.nistschema_sv_iv_lis
 
 obj = NistschemaSvIvListQnamePattern3(
     value=[
-        "ris.industries:usoftware-hardware-frameworks-rapidly_variety.to-and.add",
-        "_manual-involved-globa",
-        "fmu:rdefining.test.thes",
-        "yaspects-:_choices_to.by.design_related_fed-as.these",
-        "iparadigm_data.gain",
+        'ris.industries:usoftware-hardware-frameworks-rapidly_variety.to-and.add',
+        '_manual-involved-globa',
+        'fmu:rdefining.test.thes',
+        'yaspects-:_choices_to.by.design_related_fed-as.these',
+        'iparadigm_data.gain',
     ]
 )

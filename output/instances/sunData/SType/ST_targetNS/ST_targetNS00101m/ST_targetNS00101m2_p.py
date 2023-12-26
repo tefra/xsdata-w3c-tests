@@ -3,9 +3,9 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = DerivedElement(
-    qname="{ST_targetNSa}test",
+    qname='{ST_targetNSa}test',
     value=Test(
-        value="3"
+        value='3'
     ),
-    type="{ST_targetNSa}Test"
+    type='{ST_targetNSa}Test'
 )

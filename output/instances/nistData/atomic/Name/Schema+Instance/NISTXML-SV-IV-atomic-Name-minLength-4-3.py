@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength4(
-    value="cdeveloping:be.information-creation-both-will.repository:i"
+    value='cdeveloping:be.information-creation-both-will.repository:i'
 )

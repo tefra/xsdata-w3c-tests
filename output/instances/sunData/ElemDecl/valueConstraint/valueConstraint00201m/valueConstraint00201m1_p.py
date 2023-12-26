@@ -3,7 +3,7 @@ from output.models.sun_data.elem_decl.value_constraint.value_constraint00201m.va
 
 obj = Root(
     twelve=[
-        "12",
-        "",
+        '12',
+        '',
     ]
 )

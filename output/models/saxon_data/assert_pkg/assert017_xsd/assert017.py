@@ -13,7 +13,7 @@ class DatedEvent:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -33,5 +33,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

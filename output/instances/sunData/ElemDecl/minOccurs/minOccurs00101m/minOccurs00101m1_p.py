@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.min_occurs.min_occurs00101m.min_occurs0010
 
 
 obj = Root(
-    local="2"
+    local='2'
 )

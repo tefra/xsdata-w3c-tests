@@ -16,7 +16,7 @@ class Chap:
             "type": "Element",
             "namespace": "http://id044.ly/",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -25,20 +25,20 @@ class Chap:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         nr: Optional[Decimal] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )
         ref: Optional[Decimal] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -62,5 +62,5 @@ class Doc:
                     "type": Chap,
                 },
             ),
-        }
+        },
     )

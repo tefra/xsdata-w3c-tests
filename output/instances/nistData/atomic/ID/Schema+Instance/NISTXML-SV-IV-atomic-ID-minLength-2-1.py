@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength2(
-        value="_mechanism-tools.to.for_documents_application"
+        value='_mechanism-tools.to.for_documents_application'
     )
 )

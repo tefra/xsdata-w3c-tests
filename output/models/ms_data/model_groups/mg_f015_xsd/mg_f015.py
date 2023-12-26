@@ -12,28 +12,28 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     two: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     three: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     four: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     five_or_five2: Optional[object] = field(
         default=None,
@@ -51,7 +51,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     six_or_six2: Optional[object] = field(
         default=None,
@@ -69,7 +69,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     seven_or_seven2: Optional[object] = field(
         default=None,
@@ -87,7 +87,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     eight_or_eight2: Optional[object] = field(
         default=None,
@@ -105,7 +105,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

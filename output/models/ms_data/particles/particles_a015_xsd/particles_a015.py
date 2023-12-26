@@ -14,7 +14,7 @@ class Elem:
             "namespace": "##any",
             "max_occurs": 1000000,
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

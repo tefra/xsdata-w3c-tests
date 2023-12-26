@@ -6,13 +6,13 @@ obj = Root(
         Root.Sub(
             idelt=Root.Sub.Idelt(
                 value=17,
-                attr="1"
+                attr='1'
             )
         ),
         Root.Sub(
             idelt=Root.Sub.Idelt(
                 value=18,
-                attr="1"
+                attr='1'
             )
         ),
     ]

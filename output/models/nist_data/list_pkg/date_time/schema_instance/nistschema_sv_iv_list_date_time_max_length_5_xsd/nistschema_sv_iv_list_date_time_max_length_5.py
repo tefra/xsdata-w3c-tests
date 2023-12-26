@@ -16,5 +16,5 @@ class NistschemaSvIvListDateTimeMaxLength5:
         metadata={
             "max_length": 10,
             "tokens": True,
-        }
+        },
     )

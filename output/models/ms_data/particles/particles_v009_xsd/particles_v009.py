@@ -28,7 +28,7 @@ class B:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -41,7 +41,7 @@ class R(B):
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -57,5 +57,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

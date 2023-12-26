@@ -14,7 +14,7 @@ class A1:
         default="a1",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class A2:
         default="a2",
         metadata={
             "required": True,
-        }
+        },
     )

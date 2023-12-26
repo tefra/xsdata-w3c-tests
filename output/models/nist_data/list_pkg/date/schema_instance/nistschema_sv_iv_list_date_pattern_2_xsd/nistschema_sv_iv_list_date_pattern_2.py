@@ -15,5 +15,5 @@ class NistschemaSvIvListDatePattern2:
         metadata={
             "pattern": r"\d\d56-\d1-0\d \d\d57-0\d-2\d \d\d49-1\d-\d4 18\d\d-\d3-2\d 19\d\d-\d7-\d7 19\d\d-1\d-0\d",
             "tokens": True,
-        }
+        },
     )

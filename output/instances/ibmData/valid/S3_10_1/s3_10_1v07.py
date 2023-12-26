@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Root(
     a_element=AnyElement(
-        qname="{a}xx",
-        text="2"
+        qname='{a}xx',
+        text='2'
     )
 )

@@ -16,7 +16,7 @@ class Name:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -25,11 +25,11 @@ class Name:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         name: Optional[object] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

@@ -15,7 +15,7 @@ class Mod2Sequence:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 

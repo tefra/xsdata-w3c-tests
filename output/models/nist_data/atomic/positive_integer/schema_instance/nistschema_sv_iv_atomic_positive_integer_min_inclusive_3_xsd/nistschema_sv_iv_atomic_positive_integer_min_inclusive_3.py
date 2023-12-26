@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicPositiveIntegerMinInclusive3:
         metadata={
             "required": True,
             "min_inclusive": 828758841369869991,
-        }
+        },
     )

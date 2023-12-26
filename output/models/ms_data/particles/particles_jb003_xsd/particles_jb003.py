@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class R(B):
             "namespace": "http://xsdtesting",
             "min_occurs": 1,
             "max_occurs": 9999999,
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

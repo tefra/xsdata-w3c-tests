@@ -18,7 +18,7 @@ class DTimeStampRoot:
             "namespace": "",
             "required": True,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
-        }
+        },
     )
     eld_time_stamp_list_a: List[List[XmlDateTime]] = field(
         default_factory=list,
@@ -28,7 +28,7 @@ class DTimeStampRoot:
             "namespace": "",
             "min_occurs": 1,
             "tokens": True,
-        }
+        },
     )
     eld_time_stamp_list_b: List[str] = field(
         default_factory=list,
@@ -38,7 +38,7 @@ class DTimeStampRoot:
             "namespace": "",
             "required": True,
             "tokens": True,
-        }
+        },
     )
     eld_time_stamp_list_c: List[str] = field(
         default_factory=list,
@@ -49,7 +49,7 @@ class DTimeStampRoot:
             "required": True,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -64,7 +64,7 @@ class EldTimeStampListC:
         metadata={
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "tokens": True,
-        }
+        },
     )
 
 

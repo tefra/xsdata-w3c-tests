@@ -13,21 +13,21 @@ class E1:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e4: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e5: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Root:
         metadata={
             "type": "Element",
             "nillable": True,
-        }
+        },
     )

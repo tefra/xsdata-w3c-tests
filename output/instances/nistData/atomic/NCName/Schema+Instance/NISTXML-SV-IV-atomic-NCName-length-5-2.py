@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength5(
-    value="_as_be.for.must_of-the-for-its.time_asked_organizations_implemen"
+    value='_as_be.for.must_of-the-for-its.time_asked_organizations_implemen'
 )

@@ -14,14 +14,14 @@ class Facet:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     value: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -35,7 +35,7 @@ class LongType(Facet):
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -50,7 +50,7 @@ class YesNo(Facet):
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class Int(LongType):
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -82,7 +82,7 @@ class Generic:
         name = "generic"
         namespace = "foo"
 
-    choice: List[Union[Facet, YesNo, Long, Int]] = field(
+    choice: List[Union[Int, Long, YesNo, Facet]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -104,7 +104,7 @@ class Generic:
                     "type": Facet,
                 },
             ),
-        }
+        },
     )
 
 
@@ -118,18 +118,18 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     restricted: Optional["Root.Restricted"] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
     @dataclass
     class Restricted:
-        int_or_long: List[Union[Long, Int]] = field(
+        int_or_long: List[Union[Int, Long]] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
@@ -143,5 +143,5 @@ class Root:
                         "type": Long,
                     },
                 ),
-            }
+            },
         )

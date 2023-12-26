@@ -14,7 +14,7 @@ class Global:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Root:
             "name": "Global",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     local: Optional[object] = field(
         default=None,
@@ -38,5 +38,5 @@ class Root:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

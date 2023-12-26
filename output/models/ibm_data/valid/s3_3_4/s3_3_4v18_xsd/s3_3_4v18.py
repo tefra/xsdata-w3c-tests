@@ -11,11 +11,11 @@ class Root:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     idref: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

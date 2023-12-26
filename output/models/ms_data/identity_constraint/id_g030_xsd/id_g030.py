@@ -11,7 +11,7 @@ class Ctype:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -19,7 +19,7 @@ class Ctype:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class Ctype2(Ctype):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -47,7 +47,7 @@ class Tabletype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -67,5 +67,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

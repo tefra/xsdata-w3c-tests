@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    key_or_ref: List[Union[Decimal, "Root.Key"]] = field(
+    key_or_ref: List[Union["Root.Key", Decimal]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -25,7 +25,7 @@ class Root:
                     "type": Decimal,
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -34,5 +34,5 @@ class Root:
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

@@ -12,13 +12,13 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "importNS",
-        }
+        },
     )
     val: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

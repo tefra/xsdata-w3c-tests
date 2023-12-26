@@ -53,7 +53,7 @@ obj = Root(
             )
         ),
         DerivedElement(
-            qname="{foo}item2",
+            qname='{foo}item2',
             value=B(
                 foo=Empty(
 
@@ -61,31 +61,31 @@ obj = Root(
             )
         ),
         DerivedElement(
-            qname="{foo}item2",
+            qname='{foo}item2',
             value=B(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}B"
+            type='{foo}B'
         ),
         DerivedElement(
-            qname="{foo}item2",
+            qname='{foo}item2',
             value=Dr(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Dr"
+            type='{foo}Dr'
         ),
         DerivedElement(
-            qname="{foo}item2",
+            qname='{foo}item2',
             value=Drr(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Drr"
+            type='{foo}Drr'
         ),
     ]
 )

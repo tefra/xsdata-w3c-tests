@@ -15,114 +15,114 @@ obj = Datafile(
             1,
             92232036854775807,
             DerivedElement(
-                qname="int",
+                qname='int',
                 value=-2147483648
             ),
             DerivedElement(
-                qname="int",
+                qname='int',
                 value=-1
             ),
             DerivedElement(
-                qname="int",
+                qname='int',
                 value=0
             ),
             DerivedElement(
-                qname="int",
+                qname='int',
                 value=1
             ),
             DerivedElement(
-                qname="int",
+                qname='int',
                 value=2147483647
             ),
             DerivedElement(
-                qname="smallint",
+                qname='smallint',
                 value=-32768
             ),
             DerivedElement(
-                qname="smallint",
+                qname='smallint',
                 value=-1
             ),
             DerivedElement(
-                qname="smallint",
+                qname='smallint',
                 value=0
             ),
             DerivedElement(
-                qname="smallint",
+                qname='smallint',
                 value=1
             ),
             DerivedElement(
-                qname="smallint",
+                qname='smallint',
                 value=32767
             ),
             DerivedElement(
-                qname="tinyint",
+                qname='tinyint',
                 value=0
             ),
             DerivedElement(
-                qname="tinyint",
+                qname='tinyint',
                 value=1
             ),
             DerivedElement(
-                qname="tinyint",
+                qname='tinyint',
                 value=33
             ),
             DerivedElement(
-                qname="tinyint",
+                qname='tinyint',
                 value=254
             ),
             DerivedElement(
-                qname="tinyint",
+                qname='tinyint',
                 value=255
             ),
-            Decimal("-9954645.9999"),
-            Decimal("-99232423454645.999900"),
-            Decimal("0.9999"),
-            Decimal("995464234235.999900"),
-            Decimal("9954645.9999"),
-            Decimal("-9954645.9999"),
-            Decimal("-99232423454645.999900"),
-            Decimal("0.9999"),
-            Decimal("995464234235.999900"),
-            Decimal("9954645.9999"),
+            Decimal('-9954645.9999'),
+            Decimal('-99232423454645.999900'),
+            Decimal('0.9999'),
+            Decimal('995464234235.999900'),
+            Decimal('9954645.9999'),
+            Decimal('-9954645.9999'),
+            Decimal('-99232423454645.999900'),
+            Decimal('0.9999'),
+            Decimal('995464234235.999900'),
+            Decimal('9954645.9999'),
             DerivedElement(
-                qname="money",
-                value=Decimal("-18888888888.5808")
+                qname='money',
+                value=Decimal('-18888888888.5808')
             ),
             DerivedElement(
-                qname="money",
-                value=Decimal("-188.5808")
+                qname='money',
+                value=Decimal('-188.5808')
             ),
             DerivedElement(
-                qname="money",
-                value=Decimal("0")
+                qname='money',
+                value=Decimal('0')
             ),
             DerivedElement(
-                qname="money",
-                value=Decimal("188.5808")
+                qname='money',
+                value=Decimal('188.5808')
             ),
             DerivedElement(
-                qname="money",
-                value=Decimal("18888888888.5808")
+                qname='money',
+                value=Decimal('18888888888.5808')
             ),
             DerivedElement(
-                qname="smallmoney",
-                value=Decimal("-121212.1112")
+                qname='smallmoney',
+                value=Decimal('-121212.1112')
             ),
             DerivedElement(
-                qname="smallmoney",
-                value=Decimal("-1.11")
+                qname='smallmoney',
+                value=Decimal('-1.11')
             ),
             DerivedElement(
-                qname="smallmoney",
-                value=Decimal("0.0")
+                qname='smallmoney',
+                value=Decimal('0.0')
             ),
             DerivedElement(
-                qname="smallmoney",
-                value=Decimal("1.11")
+                qname='smallmoney',
+                value=Decimal('1.11')
             ),
             DerivedElement(
-                qname="smallmoney",
-                value=Decimal("121212.1112")
+                qname='smallmoney',
+                value=Decimal('121212.1112')
             ),
             -1.79e+308,
             -1.79,
@@ -130,49 +130,49 @@ obj = Datafile(
             1.79,
             1.79e+308,
             DerivedElement(
-                qname="real",
+                qname='real',
                 value=-3.4e+38
             ),
             DerivedElement(
-                qname="real",
+                qname='real',
                 value=2.79e+38
             ),
             DerivedElement(
-                qname="real",
+                qname='real',
                 value=0.0
             ),
             DerivedElement(
-                qname="real",
+                qname='real',
                 value=2.79e+38
             ),
             DerivedElement(
-                qname="real",
+                qname='real',
                 value=3.4e+38
             ),
             MyDateTime(
                 date=XmlDate(2000, 10, 10),
-                time="12:54:00.000",
-                localized_dt="12-May-2000 12:54:00.345 AM"
+                time='12:54:00.000',
+                localized_dt='12-May-2000 12:54:00.345 AM'
             ),
             MySmallDateTime(
                 date=XmlDate(2000, 10, 10),
-                time="12:54:00",
-                localized_sdt="10-15-2001 12:03:00 PM"
+                time='12:54:00',
+                localized_sdt='10-15-2001 12:03:00 PM'
             ),
         ]
     ),
     stringsection=Datafile.Stringsection(
         string=[
-            "aqopkde#^90d",
-            "qpweipqweiaqopkde#^90d",
-            "aqopkde#^90asdaskdl;asd",
-            "aqopkdejgdlepsdf#^90d",
-            "aqopkde#^90kl;345l3;lkldf345d",
-            "alg;ldfqopkde34059-fld;#^90d",
-            "aqodfflkgd;flpkd%$e(*34534)$#%#^90d",
-            "aqopfskdjflknmvkde#^90d",
-            "sdfsdfsdaqopkde#^90d430985dflskjsdf",
-            "aqopdsflsd;lf0495-304kde#^90d",
+            'aqopkde#^90d',
+            'qpweipqweiaqopkde#^90d',
+            'aqopkde#^90asdaskdl;asd',
+            'aqopkdejgdlepsdf#^90d',
+            'aqopkde#^90kl;345l3;lkldf345d',
+            'alg;ldfqopkde34059-fld;#^90d',
+            'aqodfflkgd;flpkd%$e(*34534)$#%#^90d',
+            'aqopfskdjflknmvkde#^90d',
+            'sdfsdfsdaqopkde#^90d430985dflskjsdf',
+            'aqopdsflsd;lf0495-304kde#^90d',
         ]
     )
 )

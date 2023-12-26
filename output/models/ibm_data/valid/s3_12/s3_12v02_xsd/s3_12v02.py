@@ -14,7 +14,7 @@ class TitleType:
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -22,7 +22,7 @@ class TitleType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -31,9 +31,7 @@ class MixedTitleType(TitleType):
     class Meta:
         name = "mixedTitleType"
 
-    value: Union[int, str] = field(
-        default=""
-    )
+    value: Union[int, str] = field(default="")
 
 
 @dataclass
@@ -42,24 +40,22 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    title: List[Union[TitleType, MixedTitleType, "Root.TypeText", "Root.TypeNumber"]] = field(
+    title: List[
+        Union[TitleType, MixedTitleType, "Root.TypeText", "Root.TypeNumber"]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )
 
     @dataclass
     class TypeText(TitleType):
-        value: str = field(
-            default=""
-        )
+        value: str = field(default="")
 
     @dataclass
     class TypeNumber(TitleType):
-        value: Optional[int] = field(
-            default=None
-        )
+        value: Optional[int] = field(default=None)

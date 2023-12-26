@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNmtokenPattern5:
         metadata={
             "required": True,
             "pattern": r"\c{18}",
-        }
+        },
     )

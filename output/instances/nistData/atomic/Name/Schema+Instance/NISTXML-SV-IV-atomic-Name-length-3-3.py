@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength3(
-    value="_its:resource-fact-new-tools.communication:availability.a:da"
+    value='_its:resource-fact-new-tools.communication:availability.a:da'
 )

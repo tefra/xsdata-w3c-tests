@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength3(
-    value="jcalled-by-is.automate_in-file-profiles_file-a-succes"
+    value='jcalled-by-is.automate_in-file-profiles_file-a-succes'
 )

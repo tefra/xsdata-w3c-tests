@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.unsigned_int.schema_instance.nistschema_sv
 
 obj = NistschemaSvIvListUnsignedIntPattern5(
     value=[
-        "6",
-        "75",
-        "463",
-        "8186",
-        "94722",
-        "657884",
-        "4182234164",
+        '6',
+        '75',
+        '463',
+        '8186',
+        '94722',
+        '657884',
+        '4182234164',
     ]
 )

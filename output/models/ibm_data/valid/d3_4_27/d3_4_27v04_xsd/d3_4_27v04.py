@@ -19,7 +19,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "min_inclusive": XmlDuration("P1DT535.4S"),
-        }
+        },
     )
     ely_mdmin_inclusive_min_exclusive: List[XmlDuration] = field(
         default_factory=list,
@@ -30,7 +30,7 @@ class Root:
             "min_occurs": 1,
             "min_exclusive": XmlDuration("P2D"),
             "min_inclusive": XmlDuration("P1D"),
-        }
+        },
     )
     ely_mdmin_inclusive_max_inclusive: List[XmlDuration] = field(
         default_factory=list,
@@ -41,7 +41,7 @@ class Root:
             "min_occurs": 1,
             "min_inclusive": XmlDuration("P1D"),
             "max_inclusive": XmlDuration("P3452DT2H"),
-        }
+        },
     )
     ely_mdmin_inclusive_max_exclusive: List[XmlDuration] = field(
         default_factory=list,
@@ -52,5 +52,5 @@ class Root:
             "min_occurs": 1,
             "min_inclusive": XmlDuration("P1D"),
             "max_exclusive": XmlDuration("P43DT43M"),
-        }
+        },
     )

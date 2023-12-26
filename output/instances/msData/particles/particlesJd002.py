@@ -4,6 +4,6 @@ from output.models.ms_data.particles.particles_jd002_xsd.particles_jd002 import 
 
 obj = Doc(
     elem=R(
-        e1=""
+        e1=''
     )
 )

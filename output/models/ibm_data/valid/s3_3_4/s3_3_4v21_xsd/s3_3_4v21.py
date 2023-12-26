@@ -7,14 +7,12 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[int, bool, str] = field(
-        default=""
-    )
+    value: Union[int, bool, str] = field(default="")
     idref_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -28,5 +26,5 @@ class Wrapper:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

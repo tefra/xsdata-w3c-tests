@@ -8,7 +8,7 @@ obj = Doc(
     elem=R(
         imp_elem1=ImpElem1(
             any_element=AnyElement(
-                text="testing"
+                text='testing'
             )
         )
     )

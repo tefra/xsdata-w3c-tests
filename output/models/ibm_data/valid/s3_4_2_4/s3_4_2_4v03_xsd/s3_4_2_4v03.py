@@ -17,21 +17,21 @@ class Root:
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
             "required": True,
-        }
+        },
     )
     e1: Optional["Root.E1"] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     e2: Optional["Root.E2"] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -43,7 +43,7 @@ class Root:
                 "type": "Attribute",
                 "namespace": "http://xstest-tns/schema11_S3_4_2_4",
                 "required": True,
-            }
+            },
         )
 
     @dataclass
@@ -55,5 +55,5 @@ class Root:
                 "type": "Attribute",
                 "namespace": "http://xstest-tns/schema11_S3_4_2_4",
                 "required": True,
-            }
+            },
         )

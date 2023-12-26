@@ -3,5 +3,5 @@ from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicDecimalFractionDigits5(
-    value=Decimal("123456.789123456789")
+    value=Decimal('123456.789123456789')
 )

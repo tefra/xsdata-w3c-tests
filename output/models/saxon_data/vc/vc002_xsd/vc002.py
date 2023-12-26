@@ -10,5 +10,5 @@ class Temp:
         default="",
         metadata={
             "pattern": r"2008.*",
-        }
+        },
     )

@@ -23,12 +23,12 @@ obj = TestSet(
                 Documentation(
                     content=[
                         AnyElement(
-                            qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                            text="Tests for XSD 1.1 open content models"
+                            qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                            text='Tests for XSD 1.1 open content models'
                         ),
                         AnyElement(
-                            qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                            text="A number of tests, both valid and invalid, demonstrating use of the new&#10;                XSD 1.1 feature for open content models."
+                            qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                            text='A number of tests, both valid and invalid, demonstrating use of the new\n                XSD 1.1 feature for open content models.'
                         ),
                     ]
                 ),
@@ -43,12 +43,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic suffixed open content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic suffixed open content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace at end of content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any element in specified namespace at end of content'
                                 ),
                             ]
                         ),
@@ -57,22 +57,22 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open001.xsd"
+                        href='../saxonData/Open/open001.xsd'
                     ),
                 ],
                 expected=[
@@ -84,7 +84,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open001.xsd"
+                name='open001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -93,14 +93,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.v1.xml"
+                        href='../saxonData/Open/open001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -111,7 +111,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.v1.xml"
+                    name='open001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -119,14 +119,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.v2.xml"
+                        href='../saxonData/Open/open001.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -137,7 +137,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.v2.xml"
+                    name='open001.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -145,14 +145,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.v3.xml"
+                        href='../saxonData/Open/open001.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -163,7 +163,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.v3.xml"
+                    name='open001.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -171,14 +171,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content must come last.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content must come last.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n1.xml"
+                        href='../saxonData/Open/open001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -189,7 +189,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.n1.xml"
+                    name='open001.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -197,14 +197,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content comes before mandatory elements.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content comes before mandatory elements.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n2.xml"
+                        href='../saxonData/Open/open001.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -215,7 +215,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.n2.xml"
+                    name='open001.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -223,14 +223,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, suffixed content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n3.xml"
+                        href='../saxonData/Open/open001.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -241,7 +241,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.n3.xml"
+                    name='open001.n3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -249,14 +249,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, suffixed content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n4.xml"
+                        href='../saxonData/Open/open001.n4.xml'
                     ),
                     expected=[
                         Expected(
@@ -267,10 +267,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open001.n4.xml"
+                    name='open001.n4.xml'
                 ),
             ],
-            name="open001",
+            name='open001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -282,12 +282,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Suffixed open content defined by defaultOpenContent element"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Suffixed open content defined by defaultOpenContent element'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Same as open001 except for the schema."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Same as open001 except for the schema.'
                                 ),
                             ]
                         ),
@@ -296,19 +296,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open002.xsd"
+                        href='../saxonData/Open/open002.xsd'
                     ),
                 ],
                 expected=[
@@ -320,7 +320,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open002.xsd"
+                name='open002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -329,14 +329,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.v1.xml"
+                        href='../saxonData/Open/open001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -347,7 +347,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.v1.xml"
+                    name='open002.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -355,14 +355,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.v2.xml"
+                        href='../saxonData/Open/open001.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -373,7 +373,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.v2.xml"
+                    name='open002.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -381,14 +381,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.v3.xml"
+                        href='../saxonData/Open/open001.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -399,7 +399,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.v3.xml"
+                    name='open002.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -407,14 +407,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content must come last.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content must come last.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n1.xml"
+                        href='../saxonData/Open/open001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -425,7 +425,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.n1.xml"
+                    name='open002.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -433,14 +433,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content comes before mandatory elements.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content comes before mandatory elements.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n2.xml"
+                        href='../saxonData/Open/open001.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -451,7 +451,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.n2.xml"
+                    name='open002.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -459,14 +459,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, suffixed content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n3.xml"
+                        href='../saxonData/Open/open001.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -477,7 +477,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.n3.xml"
+                    name='open002.n3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -485,14 +485,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, suffixed content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open001.n4.xml"
+                        href='../saxonData/Open/open001.n4.xml'
                     ),
                     expected=[
                         Expected(
@@ -503,10 +503,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open002.n4.xml"
+                    name='open002.n4.xml'
                 ),
             ],
-            name="open002",
+            name='open002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -518,12 +518,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Explicit open content takes precedence over default open content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Explicit open content takes precedence over default open content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Different namespaces for the local open content and default open content wildcards."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Different namespaces for the local open content and default open content wildcards.'
                                 ),
                             ]
                         ),
@@ -532,16 +532,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open003.xsd"
+                        href='../saxonData/Open/open003.xsd'
                     ),
                 ],
                 expected=[
@@ -553,7 +553,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open003.xsd"
+                name='open003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -562,14 +562,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses local open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses local open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open003.v1.xml"
+                        href='../saxonData/Open/open003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -580,7 +580,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open003.v1.xml"
+                    name='open003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -588,14 +588,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default open content namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses default open content namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open003.n1.xml"
+                        href='../saxonData/Open/open003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -606,10 +606,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open003.n1.xml"
+                    name='open003.n1.xml'
                 ),
             ],
-            name="open003",
+            name='open003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -621,12 +621,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='mode="none" takes precedence over default open content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open content not allowed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Open content not allowed.'
                                 ),
                             ]
                         ),
@@ -635,16 +635,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open004.xsd"
+                        href='../saxonData/Open/open004.xsd'
                     ),
                 ],
                 expected=[
@@ -656,7 +656,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open004.xsd"
+                name='open004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -665,14 +665,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open004.v1.xml"
+                        href='../saxonData/Open/open004.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -683,7 +683,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open004.v1.xml"
+                    name='open004.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -691,14 +691,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default open content namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses default open content namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open004.n1.xml"
+                        href='../saxonData/Open/open004.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -709,10 +709,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open004.n1.xml"
+                    name='open004.n1.xml'
                 ),
             ],
-            name="open004",
+            name='open004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -724,12 +724,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic interleaved open content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic interleaved open content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace anywhere in content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any element in specified namespace anywhere in content'
                                 ),
                             ]
                         ),
@@ -738,16 +738,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open005.xsd"
+                        href='../saxonData/Open/open005.xsd'
                     ),
                 ],
                 expected=[
@@ -759,7 +759,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open005.xsd"
+                name='open005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -768,14 +768,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v1.xml"
+                        href='../saxonData/Open/open005.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -786,7 +786,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.v1.xml"
+                    name='open005.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -794,14 +794,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v2.xml"
+                        href='../saxonData/Open/open005.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -812,7 +812,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.v2.xml"
+                    name='open005.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -820,14 +820,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v3.xml"
+                        href='../saxonData/Open/open005.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -838,7 +838,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.v3.xml"
+                    name='open005.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -846,14 +846,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v4.xml"
+                        href='../saxonData/Open/open005.v4.xml'
                     ),
                     expected=[
                         Expected(
@@ -864,7 +864,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.v4.xml"
+                    name='open005.v4.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -872,14 +872,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.n1.xml"
+                        href='../saxonData/Open/open005.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -890,7 +890,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.n1.xml"
+                    name='open005.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -898,14 +898,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not match regular content model.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not match regular content model.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.n2.xml"
+                        href='../saxonData/Open/open005.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -916,7 +916,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.n2.xml"
+                    name='open005.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -924,14 +924,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, suffixed content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.n3.xml"
+                        href='../saxonData/Open/open005.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -942,10 +942,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open005.n3.xml"
+                    name='open005.n3.xml'
                 ),
             ],
-            name="open005",
+            name='open005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -957,12 +957,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic interleaved open content using defaultOpenContent definition"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic interleaved open content using defaultOpenContent definition'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace anywhere in content.&#10;                Same as open005 except for the schema."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any element in specified namespace anywhere in content.\n                Same as open005 except for the schema.'
                                 ),
                             ]
                         ),
@@ -971,16 +971,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open006.xsd"
+                        href='../saxonData/Open/open006.xsd'
                     ),
                 ],
                 expected=[
@@ -992,7 +992,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open006.xsd"
+                name='open006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1001,14 +1001,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v1.xml"
+                        href='../saxonData/Open/open005.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1019,7 +1019,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.v1.xml"
+                    name='open006.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1027,14 +1027,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v2.xml"
+                        href='../saxonData/Open/open005.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1045,7 +1045,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.v2.xml"
+                    name='open006.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1053,14 +1053,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v3.xml"
+                        href='../saxonData/Open/open005.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1071,7 +1071,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.v3.xml"
+                    name='open006.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1079,14 +1079,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.v4.xml"
+                        href='../saxonData/Open/open005.v4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1097,7 +1097,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.v4.xml"
+                    name='open006.v4.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1105,14 +1105,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.n1.xml"
+                        href='../saxonData/Open/open005.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1123,7 +1123,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.n1.xml"
+                    name='open006.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1131,14 +1131,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not match regular content model.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not match regular content model.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.n2.xml"
+                        href='../saxonData/Open/open005.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1149,7 +1149,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.n2.xml"
+                    name='open006.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1157,14 +1157,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, suffixed content does not match wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open005.n3.xml"
+                        href='../saxonData/Open/open005.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1175,10 +1175,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open006.n3.xml"
+                    name='open006.n3.xml'
                 ),
             ],
-            name="open006",
+            name='open006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1190,12 +1190,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Interleaved open content within a counting content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Interleaved open content within a counting content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Designed to test that counting still works correctly."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Designed to test that counting still works correctly.'
                                 ),
                             ]
                         ),
@@ -1204,16 +1204,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open007.xsd"
+                        href='../saxonData/Open/open007.xsd'
                     ),
                 ],
                 expected=[
@@ -1225,7 +1225,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open007.xsd"
+                name='open007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1234,14 +1234,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open007.v1.xml"
+                        href='../saxonData/Open/open007.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1252,7 +1252,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open007.v1.xml"
+                    name='open007.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1260,14 +1260,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open007.v2.xml"
+                        href='../saxonData/Open/open007.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1278,7 +1278,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open007.v2.xml"
+                    name='open007.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1286,14 +1286,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, maxOccurs violation.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, maxOccurs violation.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open007.n1.xml"
+                        href='../saxonData/Open/open007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1304,7 +1304,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open007.n1.xml"
+                    name='open007.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1312,14 +1312,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, minOccurs violation.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, minOccurs violation.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open007.n2.xml"
+                        href='../saxonData/Open/open007.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1330,10 +1330,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open007.n2.xml"
+                    name='open007.n2.xml'
                 ),
             ],
-            name="open007",
+            name='open007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1345,12 +1345,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Interleaved open content in an xs:all group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Interleaved open content in an xs:all group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace anywhere in xs:all content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any element in specified namespace anywhere in xs:all content'
                                 ),
                             ]
                         ),
@@ -1359,16 +1359,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open008.xsd"
+                        href='../saxonData/Open/open008.xsd'
                     ),
                 ],
                 expected=[
@@ -1380,7 +1380,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open008.xsd"
+                name='open008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1389,14 +1389,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open008.v1.xml"
+                        href='../saxonData/Open/open008.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1407,7 +1407,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open008.v1.xml"
+                    name='open008.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1415,14 +1415,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open008.v2.xml"
+                        href='../saxonData/Open/open008.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1433,7 +1433,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open008.v2.xml"
+                    name='open008.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1441,14 +1441,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open008.v3.xml"
+                        href='../saxonData/Open/open008.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1459,7 +1459,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open008.v3.xml"
+                    name='open008.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1467,14 +1467,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content in wrong namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content in wrong namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open008.n1.xml"
+                        href='../saxonData/Open/open008.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1485,7 +1485,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open008.n1.xml"
+                    name='open008.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1493,14 +1493,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many a elements.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many a elements.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open008.n2.xml"
+                        href='../saxonData/Open/open008.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1511,7 +1511,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open008.n2.xml"
+                    name='open008.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1519,14 +1519,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few a elements.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few a elements.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open008.n3.xml"
+                        href='../saxonData/Open/open008.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1537,10 +1537,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open008.n3.xml"
+                    name='open008.n3.xml'
                 ),
             ],
-            name="open008",
+            name='open008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1552,12 +1552,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Suffix open content in an xs:all group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Suffix open content in an xs:all group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace at end of xs:all content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any element in specified namespace at end of xs:all content'
                                 ),
                             ]
                         ),
@@ -1566,19 +1566,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open009.xsd"
+                        href='../saxonData/Open/open009.xsd'
                     ),
                 ],
                 expected=[
@@ -1590,7 +1590,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open009.xsd"
+                name='open009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1599,14 +1599,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open009.v1.xml"
+                        href='../saxonData/Open/open009.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1617,7 +1617,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open009.v1.xml"
+                    name='open009.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1625,14 +1625,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open009.v2.xml"
+                        href='../saxonData/Open/open009.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1643,7 +1643,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open009.v2.xml"
+                    name='open009.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1651,14 +1651,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content in wrong place.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content in wrong place.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open009.n1.xml"
+                        href='../saxonData/Open/open009.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1669,7 +1669,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open009.n1.xml"
+                    name='open009.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1677,14 +1677,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few a elements.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few a elements.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open009.n2.xml"
+                        href='../saxonData/Open/open009.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1695,10 +1695,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open009.n2.xml"
+                    name='open009.n2.xml'
                 ),
             ],
-            name="open009",
+            name='open009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1710,12 +1710,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content in an (otherwise) empty content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Open content in an (otherwise) empty content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any element in specified namespace'
                                 ),
                             ]
                         ),
@@ -1724,19 +1724,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open010.xsd"
+                        href='../saxonData/Open/open010.xsd'
                     ),
                 ],
                 expected=[
@@ -1748,7 +1748,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open010.xsd"
+                name='open010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1757,14 +1757,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.v1.xml"
+                        href='../saxonData/Open/open010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1775,7 +1775,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open010.v1.xml"
+                    name='open010.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1783,14 +1783,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.v2.xml"
+                        href='../saxonData/Open/open010.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1801,7 +1801,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open010.v2.xml"
+                    name='open010.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1809,14 +1809,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, content does not match open content wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, content does not match open content wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.n1.xml"
+                        href='../saxonData/Open/open010.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1827,7 +1827,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open010.n1.xml"
+                    name='open010.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1835,14 +1835,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, text content not allowed&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, text content not allowed\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.n2.xml"
+                        href='../saxonData/Open/open010.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1853,10 +1853,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open010.n2.xml"
+                    name='open010.n2.xml'
                 ),
             ],
-            name="open010",
+            name='open010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1868,12 +1868,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content in an (otherwise) empty content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Open content in an (otherwise) empty content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Defined by defaultOpenContent with appliesToEmpty=true. Uses&#10;                            same instances as open010."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Defined by defaultOpenContent with appliesToEmpty=true. Uses\n                            same instances as open010.'
                                 ),
                             ]
                         ),
@@ -1882,19 +1882,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open011.xsd"
+                        href='../saxonData/Open/open011.xsd'
                     ),
                 ],
                 expected=[
@@ -1906,7 +1906,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open011.xsd"
+                name='open011.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1915,14 +1915,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.v1.xml"
+                        href='../saxonData/Open/open010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1933,7 +1933,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open011.v1.xml"
+                    name='open011.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1941,14 +1941,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.v2.xml"
+                        href='../saxonData/Open/open010.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1959,7 +1959,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open011.v2.xml"
+                    name='open011.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1967,14 +1967,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, content does not match open content wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, content does not match open content wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.n1.xml"
+                        href='../saxonData/Open/open010.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1985,7 +1985,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open011.n1.xml"
+                    name='open011.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1993,14 +1993,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, text content not allowed&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, text content not allowed\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open010.n2.xml"
+                        href='../saxonData/Open/open010.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2011,10 +2011,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open011.n2.xml"
+                    name='open011.n2.xml'
                 ),
             ],
-            name="open011",
+            name='open011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2026,12 +2026,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Schema defines default open content but not applying to an empty content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Schema defines default open content but not applying to an empty content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Defined by defaultOpenContent with appliesToEmpty=false. "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Defined by defaultOpenContent with appliesToEmpty=false. '
                                 ),
                             ]
                         ),
@@ -2040,19 +2040,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open012.xsd"
+                        href='../saxonData/Open/open012.xsd'
                     ),
                 ],
                 expected=[
@@ -2064,7 +2064,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open012.xsd"
+                name='open012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2073,14 +2073,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open012.v1.xml"
+                        href='../saxonData/Open/open012.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2091,7 +2091,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open012.v1.xml"
+                    name='open012.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2099,14 +2099,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content is not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content is not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open012.n1.xml"
+                        href='../saxonData/Open/open012.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2117,7 +2117,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open012.n1.xml"
+                    name='open012.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2125,14 +2125,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, text content not allowed&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, text content not allowed\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open012.n2.xml"
+                        href='../saxonData/Open/open012.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2143,7 +2143,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open012.n2.xml"
+                    name='open012.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2151,14 +2151,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, even whitespace is not allowed&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, even whitespace is not allowed\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open012.n3.xml"
+                        href='../saxonData/Open/open012.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -2169,10 +2169,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open012.n3.xml"
+                    name='open012.n3.xml'
                 ),
             ],
-            name="open012",
+            name='open012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2184,12 +2184,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Schema defines default open content not applying to an empty content model -&#10;                       but it does apply to a mixed content model with an empty particle"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Schema defines default open content not applying to an empty content model -\n                       but it does apply to a mixed content model with an empty particle'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Defined by defaultOpenContent with appliesToEmpty=false. "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Defined by defaultOpenContent with appliesToEmpty=false. '
                                 ),
                             ]
                         ),
@@ -2198,22 +2198,22 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open013.xsd"
+                        href='../saxonData/Open/open013.xsd'
                     ),
                 ],
                 expected=[
@@ -2225,7 +2225,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open013.xsd"
+                name='open013.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2234,14 +2234,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open013.v1.xml"
+                        href='../saxonData/Open/open013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2252,10 +2252,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open013.v1.xml"
+                    name='open013.v1.xml'
                 ),
             ],
-            name="open013",
+            name='open013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2267,12 +2267,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has open content, restricted type does not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type has open content, restricted type does not'
                                 ),
                             ]
                         ),
@@ -2281,16 +2281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open014.xsd"
+                        href='../saxonData/Open/open014.xsd'
                     ),
                 ],
                 expected=[
@@ -2302,7 +2302,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open014.xsd"
+                name='open014.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2311,14 +2311,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open014.v1.xml"
+                        href='../saxonData/Open/open014.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2329,7 +2329,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open014.v1.xml"
+                    name='open014.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2337,14 +2337,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, tries to use open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, tries to use open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open014.n1.xml"
+                        href='../saxonData/Open/open014.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2355,10 +2355,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open014.n1.xml"
+                    name='open014.n1.xml'
                 ),
             ],
-            name="open014",
+            name='open014',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2370,12 +2370,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has open content, restricted type has identical open content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type has open content, restricted type has identical open content'
                                 ),
                             ]
                         ),
@@ -2384,16 +2384,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open015.xsd"
+                        href='../saxonData/Open/open015.xsd'
                     ),
                 ],
                 expected=[
@@ -2405,7 +2405,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open015.xsd"
+                name='open015.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2414,14 +2414,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open015.v1.xml"
+                        href='../saxonData/Open/open015.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2432,7 +2432,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open015.v1.xml"
+                    name='open015.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2440,14 +2440,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, tries to a child not defined in derived type.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, tries to a child not defined in derived type.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open015.n1.xml"
+                        href='../saxonData/Open/open015.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2458,10 +2458,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open015.n1.xml"
+                    name='open015.n1.xml'
                 ),
             ],
-            name="open015",
+            name='open015',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2473,12 +2473,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content: no effect on complex types with simple content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Open content: no effect on complex types with simple content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default open content ignored on a CT-with-SC"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Default open content ignored on a CT-with-SC'
                                 ),
                             ]
                         ),
@@ -2487,16 +2487,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open016.xsd"
+                        href='../saxonData/Open/open016.xsd'
                     ),
                 ],
                 expected=[
@@ -2508,7 +2508,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open016.xsd"
+                name='open016.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2517,14 +2517,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no attempt to use open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no attempt to use open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open016.v1.xml"
+                        href='../saxonData/Open/open016.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2535,7 +2535,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open016.v1.xml"
+                    name='open016.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2543,14 +2543,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, tries to use an open content child, not allowed with simple content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, tries to use an open content child, not allowed with simple content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open016.n1.xml"
+                        href='../saxonData/Open/open016.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2561,10 +2561,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open016.n1.xml"
+                    name='open016.n1.xml'
                 ),
             ],
-            name="open016",
+            name='open016',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2576,12 +2576,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An invalid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type has open content, base does not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type has open content, base does not'
                                 ),
                             ]
                         ),
@@ -2590,16 +2590,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open016.bad.xsd"
+                        href='../saxonData/Open/open016.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2611,9 +2611,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open016.xsd"
+                name='open016.xsd'
             ),
-            name="open016.bad",
+            name='open016.bad',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2625,12 +2625,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An invalid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type has more permissive wildcard than base"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type has more permissive wildcard than base'
                                 ),
                             ]
                         ),
@@ -2639,16 +2639,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open017.bad.xsd"
+                        href='../saxonData/Open/open017.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2660,9 +2660,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open017.xsd"
+                name='open017.xsd'
             ),
-            name="open017",
+            name='open017',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2674,12 +2674,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An invalid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type has more permissive wildcard processContents than base"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type has more permissive wildcard processContents than base'
                                 ),
                             ]
                         ),
@@ -2688,16 +2688,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open018.bad.xsd"
+                        href='../saxonData/Open/open018.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2709,9 +2709,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open018.xsd"
+                name='open018.xsd'
             ),
-            name="open018",
+            name='open018',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2723,12 +2723,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An invalid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type allows interleaved open content, base only allows suffixed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type allows interleaved open content, base only allows suffixed'
                                 ),
                             ]
                         ),
@@ -2737,16 +2737,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open019.bad.xsd"
+                        href='../saxonData/Open/open019.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2758,9 +2758,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open019.xsd"
+                name='open019.xsd'
             ),
-            name="open019",
+            name='open019',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2772,12 +2772,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has suffixed open content, restricted type has interleaved open content,&#10;                but it's OK because the restricted type is otherwise empty."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Base type has suffixed open content, restricted type has interleaved open content,\n                but it's OK because the restricted type is otherwise empty."
                                 ),
                             ]
                         ),
@@ -2786,16 +2786,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open020.xsd"
+                        href='../saxonData/Open/open020.xsd'
                     ),
                 ],
                 expected=[
@@ -2807,7 +2807,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open020.xsd"
+                name='open020.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2816,14 +2816,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open020.v1.xml"
+                        href='../saxonData/Open/open020.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2834,10 +2834,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open020.v1.xml"
+                    name='open020.v1.xml'
                 ),
             ],
-            name="open020",
+            name='open020',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2849,12 +2849,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has suffixed open content, restricted type has interleaved open content,&#10;                but it's OK because the restricted type is otherwise empty (well, &quot;mixed empty&quot;)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type has suffixed open content, restricted type has interleaved open content,\n                but it\'s OK because the restricted type is otherwise empty (well, "mixed empty").'
                                 ),
                             ]
                         ),
@@ -2863,19 +2863,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open021.xsd"
+                        href='../saxonData/Open/open021.xsd'
                     ),
                 ],
                 expected=[
@@ -2887,7 +2887,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open021.xsd"
+                name='open021.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2896,14 +2896,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open021.v1.xml"
+                        href='../saxonData/Open/open021.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2914,10 +2914,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open021.v1.xml"
+                    name='open021.v1.xml'
                 ),
             ],
-            name="open021",
+            name='open021',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2929,12 +2929,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="A valid restriction (though Saxon can't yet handle it)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has an explicit wildcard, restricted type has interleaved open content,&#10;                all instances of the restricted type are valid against the base type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type has an explicit wildcard, restricted type has interleaved open content,\n                all instances of the restricted type are valid against the base type.'
                                 ),
                             ]
                         ),
@@ -2943,16 +2943,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open022.xsd"
+                        href='../saxonData/Open/open022.xsd'
                     ),
                 ],
                 expected=[
@@ -2964,7 +2964,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open022.xsd"
+                name='open022.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2973,14 +2973,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open022.v1.xml"
+                        href='../saxonData/Open/open022.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2991,10 +2991,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open022.v1.xml"
+                    name='open022.v1.xml'
                 ),
             ],
-            name="open022",
+            name='open022',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3006,12 +3006,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open content in base type allows more namespaces than open content in derived type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Open content in base type allows more namespaces than open content in derived type'
                                 ),
                             ]
                         ),
@@ -3020,16 +3020,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open023.xsd"
+                        href='../saxonData/Open/open023.xsd'
                     ),
                 ],
                 expected=[
@@ -3041,7 +3041,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open023.xsd"
+                name='open023.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3050,14 +3050,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open023.v1.xml"
+                        href='../saxonData/Open/open023.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3068,10 +3068,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open023.v1.xml"
+                    name='open023.v1.xml'
                 ),
             ],
-            name="open023",
+            name='open023',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3083,12 +3083,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open content in base type has weaker processContents than open content in derived type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Open content in base type has weaker processContents than open content in derived type'
                                 ),
                             ]
                         ),
@@ -3097,16 +3097,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open024.xsd"
+                        href='../saxonData/Open/open024.xsd'
                     ),
                 ],
                 expected=[
@@ -3118,7 +3118,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open024.xsd"
+                name='open024.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3127,14 +3127,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open023.v1.xml"
+                        href='../saxonData/Open/open023.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3145,10 +3145,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open024.v1.xml"
+                    name='open024.v1.xml'
                 ),
             ],
-            name="open024",
+            name='open024',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3160,12 +3160,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content and regular content match the same instances"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Open content and regular content match the same instances'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Show that regular particles take precedence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Show that regular particles take precedence'
                                 ),
                             ]
                         ),
@@ -3174,16 +3174,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open025.xsd"
+                        href='../saxonData/Open/open025.xsd'
                     ),
                 ],
                 expected=[
@@ -3195,7 +3195,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 5)
                 ),
-                name="open025.xsd"
+                name='open025.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3204,14 +3204,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open025.v1.xml"
+                        href='../saxonData/Open/open025.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3222,7 +3222,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open025.v1.xml"
+                    name='open025.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3230,14 +3230,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, element i must be an integer.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, element i must be an integer.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open025.n1.xml"
+                        href='../saxonData/Open/open025.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3248,10 +3248,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 8, 5)
                     ),
-                    name="open025.n1.xml"
+                    name='open025.n1.xml'
                 ),
             ],
-            name="open025",
+            name='open025',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3263,12 +3263,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has suffix open content, extended type does not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type has suffix open content, extended type does not'
                                 ),
                             ]
                         ),
@@ -3277,16 +3277,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open027.xsd"
+                        href='../saxonData/Open/open027.xsd'
                     ),
                 ],
                 expected=[
@@ -3298,7 +3298,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open027.xsd"
+                name='open027.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3307,14 +3307,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v1.xml"
+                        href='../saxonData/Open/open027.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3325,7 +3325,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open027.v1.xml"
+                    name='open027.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3333,14 +3333,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content after extension content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content after extension content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v2.xml"
+                        href='../saxonData/Open/open027.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3351,7 +3351,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open027.v2.xml"
+                    name='open027.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3359,14 +3359,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content at end, no extension content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content at end, no extension content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v3.xml"
+                        href='../saxonData/Open/open027.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -3377,7 +3377,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open027.v3.xml"
+                    name='open027.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3385,14 +3385,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, tries to use open content not at the end.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, tries to use open content not at the end.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.n1.xml"
+                        href='../saxonData/Open/open027.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3403,10 +3403,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open027.n1.xml"
+                    name='open027.n1.xml'
                 ),
             ],
-            name="open027",
+            name='open027',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3418,12 +3418,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Derived type has suffix open content, base type does not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Derived type has suffix open content, base type does not'
                                 ),
                             ]
                         ),
@@ -3432,16 +3432,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open028.xsd"
+                        href='../saxonData/Open/open028.xsd'
                     ),
                 ],
                 expected=[
@@ -3453,7 +3453,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open028.xsd"
+                name='open028.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3462,14 +3462,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v1.xml"
+                        href='../saxonData/Open/open027.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3480,7 +3480,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open028.v1.xml"
+                    name='open028.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3488,14 +3488,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content after extension content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content after extension content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v2.xml"
+                        href='../saxonData/Open/open027.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3506,7 +3506,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open028.v2.xml"
+                    name='open028.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3514,14 +3514,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content at end, no extension content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content at end, no extension content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v3.xml"
+                        href='../saxonData/Open/open027.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -3532,7 +3532,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open028.v3.xml"
+                    name='open028.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3540,14 +3540,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, tries to use open content not at the end.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, tries to use open content not at the end.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.n1.xml"
+                        href='../saxonData/Open/open027.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3558,10 +3558,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open028.n1.xml"
+                    name='open028.n1.xml'
                 ),
             ],
-            name="open028",
+            name='open028',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3573,12 +3573,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type takes openContent from the default open content&#10;                             of the schema in preference to that of the base type. This makes the extension invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='complex type extension: derived type takes openContent from the default open content\n                             of the schema in preference to that of the base type. This makes the extension invalid.'
                                 ),
                             ]
                         ),
@@ -3587,16 +3587,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open030.xsd"
+                        href='../saxonData/Open/open030.xsd'
                     ),
                 ],
                 expected=[
@@ -3608,9 +3608,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open030.xsd"
+                name='open030.xsd'
             ),
-            name="open030",
+            name='open030',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3622,12 +3622,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type takes openContent from the base type ignoring&#10;                      the defaultOpenContent when the type is empty and default open content does not apply to empty&#10;                "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='complex type extension: derived type takes openContent from the base type ignoring\n                      the defaultOpenContent when the type is empty and default open content does not apply to empty\n                '
                                 ),
                             ]
                         ),
@@ -3636,19 +3636,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open031.xsd"
+                        href='../saxonData/Open/open031.xsd'
                     ),
                 ],
                 expected=[
@@ -3660,7 +3660,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open031.xsd"
+                name='open031.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3669,14 +3669,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no open content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v1.xml"
+                        href='../saxonData/Open/open027.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3687,7 +3687,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open031.v1.xml"
+                    name='open031.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3695,14 +3695,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content after extension content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content after extension content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v2.xml"
+                        href='../saxonData/Open/open027.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3713,7 +3713,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open031.v2.xml"
+                    name='open031.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3721,14 +3721,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content at end, no extension content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content at end, no extension content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.v3.xml"
+                        href='../saxonData/Open/open027.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -3739,7 +3739,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open031.v3.xml"
+                    name='open031.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3747,14 +3747,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, tries to use open content not at the end.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, tries to use open content not at the end.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open027.n1.xml"
+                        href='../saxonData/Open/open027.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3765,7 +3765,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open031.v4.xml"
+                    name='open031.v4.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3773,14 +3773,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, tries to use open content in the wrong namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, tries to use open content in the wrong namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open029.n2.xml"
+                        href='../saxonData/Open/open029.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3791,10 +3791,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open031.n2.xml"
+                    name='open031.n2.xml'
                 ),
             ],
-            name="open031",
+            name='open031',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3806,12 +3806,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An invalid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has interleaved open content, extension has suffix open content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type has interleaved open content, extension has suffix open content'
                                 ),
                             ]
                         ),
@@ -3820,16 +3820,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open033.bad.xsd"
+                        href='../saxonData/Open/open033.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3841,9 +3841,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open033.xsd"
+                name='open033.xsd'
             ),
-            name="open033",
+            name='open033',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3855,12 +3855,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid open content: it's not an error for open content to &#10;                             compete with ordinary wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Valid open content: it's not an error for open content to \n                             compete with ordinary wildcards"
                                 ),
                             ]
                         ),
@@ -3869,16 +3869,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open034.xsd"
+                        href='../saxonData/Open/open034.xsd'
                     ),
                 ],
                 expected=[
@@ -3890,9 +3890,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open034.xsd"
+                name='open034.xsd'
             ),
-            name="open034",
+            name='open034',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3904,12 +3904,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test defaultAttributesApply on an anonymous complex type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test defaultAttributesApply on an anonymous complex type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute is allowed on both named and unnamed types"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute is allowed on both named and unnamed types'
                                 ),
                             ]
                         ),
@@ -3918,16 +3918,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open035.xsd"
+                        href='../saxonData/Open/open035.xsd'
                     ),
                 ],
                 expected=[
@@ -3939,7 +3939,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2009, 7, 6)
                 ),
-                name="open035.xsd"
+                name='open035.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3948,14 +3948,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses default attributes correctly.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses default attributes correctly.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open035.v1.xml"
+                        href='../saxonData/Open/open035.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3966,7 +3966,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2009, 7, 6)
                     ),
-                    name="open035.v1.xml"
+                    name='open035.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3974,14 +3974,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, defaultAttributesApply=false disallows id attribute on BookStore.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, defaultAttributesApply=false disallows id attribute on BookStore.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open035.n1.xml"
+                        href='../saxonData/Open/open035.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3992,7 +3992,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2009, 7, 6)
                     ),
-                    name="open035.n1.xml"
+                    name='open035.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4000,14 +4000,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, defaultAttributes do not apply to simple types.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, defaultAttributes do not apply to simple types.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open035.n2.xml"
+                        href='../saxonData/Open/open035.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4018,10 +4018,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2009, 7, 6)
                     ),
-                    name="open035.n2.xml"
+                    name='open035.n2.xml'
                 ),
             ],
-            name="open035",
+            name='open035',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4033,11 +4033,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An invalid restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Spec bug 7069 - openContent mode="none" with a wildcard child'
                                 ),
                             ]
@@ -4047,16 +4047,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open036.bad.xsd"
+                        href='../saxonData/Open/open036.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4068,9 +4068,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 8, 14)
                 ),
-                name="open036.xsd"
+                name='open036.xsd'
             ),
-            name="open036",
+            name='open036',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4082,11 +4082,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Two annotation children"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Two annotation children'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="You're not allowed two annotation children, for some reason"
                                 ),
                             ]
@@ -4096,16 +4096,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open037.bad.xsd"
+                        href='../saxonData/Open/open037.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4117,9 +4117,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open037.xsd"
+                name='open037.xsd'
             ),
-            name="open037",
+            name='open037',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4131,11 +4131,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Two annotation children"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Two annotation children'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="You're not allowed two opencontent elements with the same ID"
                                 ),
                             ]
@@ -4145,16 +4145,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open038.bad.xsd"
+                        href='../saxonData/Open/open038.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4166,9 +4166,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open038.xsd"
+                name='open038.xsd'
             ),
-            name="open038",
+            name='open038',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4180,11 +4180,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Two annotation children"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Two annotation children'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="You're not allowed two opencontent elements with the same ID"
                                 ),
                             ]
@@ -4194,16 +4194,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open039.bad.xsd"
+                        href='../saxonData/Open/open039.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4215,9 +4215,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open039.xsd"
+                name='open039.xsd'
             ),
-            name="open039",
+            name='open039',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4229,12 +4229,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultOpenContent is scoped to a schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='defaultOpenContent is scoped to a schema document'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultOpenContent does not apply to types included from a different schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='defaultOpenContent does not apply to types included from a different schema document'
                                 ),
                             ]
                         ),
@@ -4243,16 +4243,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open040.xsd"
+                        href='../saxonData/Open/open040.xsd'
                     ),
                 ],
                 expected=[
@@ -4264,7 +4264,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open040.xsd"
+                name='open040.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4273,14 +4273,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content only where allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content only where allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open040.v1.xml"
+                        href='../saxonData/Open/open040.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4291,7 +4291,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open040.v1.xml"
+                    name='open040.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4299,14 +4299,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses open content on type beta where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses open content on type beta where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open040.n1.xml"
+                        href='../saxonData/Open/open040.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4317,10 +4317,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open040.n1.xml"
+                    name='open040.n1.xml'
                 ),
             ],
-            name="open040",
+            name='open040',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4332,12 +4332,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultOpenContent is scoped to a schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='defaultOpenContent is scoped to a schema document'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultOpenContent does not apply to types included from a different schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='defaultOpenContent does not apply to types included from a different schema document'
                                 ),
                             ]
                         ),
@@ -4346,16 +4346,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open041.xsd"
+                        href='../saxonData/Open/open041.xsd'
                     ),
                 ],
                 expected=[
@@ -4367,7 +4367,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open041.xsd"
+                name='open041.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4376,14 +4376,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content only where allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content only where allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open041.v1.xml"
+                        href='../saxonData/Open/open041.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4394,7 +4394,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open041.v1.xml"
+                    name='open041.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4402,14 +4402,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses open content on type alpha where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses open content on type alpha where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open041.n1.xml"
+                        href='../saxonData/Open/open041.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4420,10 +4420,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open041.n1.xml"
+                    name='open041.n1.xml'
                 ),
             ],
-            name="open041",
+            name='open041',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4435,12 +4435,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultOpenContent applies to types defined within xs:redefine"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='defaultOpenContent applies to types defined within xs:redefine'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultOpenContent applies to types defined within xs:redefine"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='defaultOpenContent applies to types defined within xs:redefine'
                                 ),
                             ]
                         ),
@@ -4449,16 +4449,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open042.xsd"
+                        href='../saxonData/Open/open042.xsd'
                     ),
                 ],
                 expected=[
@@ -4470,7 +4470,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open042.xsd"
+                name='open042.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4479,14 +4479,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses open content only where allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses open content only where allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open042.v1.xml"
+                        href='../saxonData/Open/open042.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4497,7 +4497,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open042.v1.xml"
+                    name='open042.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4505,14 +4505,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses open content on type alpha where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses open content on type alpha where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open042.n1.xml"
+                        href='../saxonData/Open/open042.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4523,7 +4523,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open042.n1.xml"
+                    name='open042.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4531,14 +4531,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open042.n2.xml"
+                        href='../saxonData/Open/open042.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4549,10 +4549,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open042.n2.xml"
+                    name='open042.n2.xml'
                 ),
             ],
-            name="open042",
+            name='open042',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4564,12 +4564,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.&#10;                Test revised 2011-10-10 in response to bug 13458."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.\n                Test revised 2011-10-10 in response to bug 13458.'
                                 ),
                             ]
                         ),
@@ -4578,16 +4578,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToOverride"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToOverride'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open043.xsd"
+                        href='../saxonData/Open/open043.xsd'
                     ),
                 ],
                 expected=[
@@ -4599,7 +4599,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 17)
                 ),
-                name="open043.xsd"
+                name='open043.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4608,14 +4608,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses no open content&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses no open content\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open043.v1.xml"
+                        href='../saxonData/Open/open043.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4626,7 +4626,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open043.v1.xml"
+                    name='open043.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4634,14 +4634,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses open content on type alpha where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses open content on type alpha where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open043.n1.xml"
+                        href='../saxonData/Open/open043.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4652,7 +4652,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open043.n1.xml"
+                    name='open043.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4660,14 +4660,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses open content on type beta where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses open content on type beta where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open043.n2.xml"
+                        href='../saxonData/Open/open043.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4678,10 +4678,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 17)
                     ),
-                    name="open043.n2.xml"
+                    name='open043.n2.xml'
                 ),
             ],
-            name="open043",
+            name='open043',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4693,12 +4693,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultAttributes applies to types defined within xs:redefine"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='defaultAttributes applies to types defined within xs:redefine'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultAttributes applies to types defined within xs:redefine"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='defaultAttributes applies to types defined within xs:redefine'
                                 ),
                             ]
                         ),
@@ -4707,19 +4707,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open044.xsd"
+                        href='../saxonData/Open/open044.xsd'
                     ),
                 ],
                 expected=[
@@ -4731,7 +4731,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="open044.xsd"
+                name='open044.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4740,14 +4740,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses default attributes only where allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses default attributes only where allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open044.v1.xml"
+                        href='../saxonData/Open/open044.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4758,7 +4758,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="open044.v1.xml"
+                    name='open044.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4766,14 +4766,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default attributes on type alpha where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses default attributes on type alpha where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open044.n1.xml"
+                        href='../saxonData/Open/open044.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4784,7 +4784,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="open044.n1.xml"
+                    name='open044.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4792,14 +4792,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default attributes where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses default attributes where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open044.n2.xml"
+                        href='../saxonData/Open/open044.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4810,10 +4810,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="open044.n2.xml"
+                    name='open044.n2.xml'
                 ),
             ],
-            name="open044",
+            name='open044',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4825,12 +4825,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultAttributes does not apply to types defined within xs:override"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='defaultAttributes does not apply to types defined within xs:override'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultAttributes does not apply to types defined within xs:override.&#10;                Test rewritten 2011-10-10 to reflect the fact that for a complexType defined within xs:override,&#10;                the defaultAttributes that apply are those defined within the overridden schema document, not the&#10;                overriding schema document."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='defaultAttributes does not apply to types defined within xs:override.\n                Test rewritten 2011-10-10 to reflect the fact that for a complexType defined within xs:override,\n                the defaultAttributes that apply are those defined within the overridden schema document, not the\n                overriding schema document.'
                                 ),
                             ]
                         ),
@@ -4839,19 +4839,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open045.xsd"
+                        href='../saxonData/Open/open045.xsd'
                     ),
                 ],
                 expected=[
@@ -4863,7 +4863,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="open045.xsd"
+                name='open045.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4872,14 +4872,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses no default attributes.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses no default attributes.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open045.v1.xml"
+                        href='../saxonData/Open/open045.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4890,7 +4890,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="open045.v1.xml"
+                    name='open045.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4898,14 +4898,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default attributes on type alpha where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses default attributes on type alpha where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open045.n1.xml"
+                        href='../saxonData/Open/open045.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4916,7 +4916,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="open045.n1.xml"
+                    name='open045.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4924,14 +4924,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default attributes on type beta where it is not applicable.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses default attributes on type beta where it is not applicable.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open045.n2.xml"
+                        href='../saxonData/Open/open045.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4942,10 +4942,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="open045.n2.xml"
+                    name='open045.n2.xml'
                 ),
             ],
-            name="open045",
+            name='open045',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4957,12 +4957,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type takes openContent from the base type ignoring&#10;                      the defaultOpenContent when the type is empty and default open content does not apply to empty.&#10;                      This test was formerly open031 and was believed to be valid; see bug 13459.&#10;                "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='complex type extension: derived type takes openContent from the base type ignoring\n                      the defaultOpenContent when the type is empty and default open content does not apply to empty.\n                      This test was formerly open031 and was believed to be valid; see bug 13459.\n                '
                                 ),
                             ]
                         ),
@@ -4971,19 +4971,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open046.bad.xsd"
+                        href='../saxonData/Open/open046.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4995,9 +4995,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 10)
                 ),
-                name="open046.xsd"
+                name='open046.xsd'
             ),
-            name="open046",
+            name='open046',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5009,12 +5009,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A valid extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type's open content allows the union of the wildcards&#10;                specified for the base type and for the extension.&#10;                "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="complex type extension: derived type's open content allows the union of the wildcards\n                specified for the base type and for the extension.\n                "
                                 ),
                             ]
                         ),
@@ -5023,16 +5023,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open047.xsd"
+                        href='../saxonData/Open/open047.xsd'
                     ),
                 ],
                 expected=[
@@ -5044,7 +5044,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 17)
                 ),
-                name="open047.xsd"
+                name='open047.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5053,14 +5053,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content permitted by the base type.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content permitted by the base type.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open047.v1.xml"
+                        href='../saxonData/Open/open047.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5071,7 +5071,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 17)
                     ),
-                    name="open047.v1.xml"
+                    name='open047.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5079,14 +5079,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content permitted by the extension.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content permitted by the extension.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open047.v2.xml"
+                        href='../saxonData/Open/open047.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5097,7 +5097,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 17)
                     ),
-                    name="open047.v2.xml"
+                    name='open047.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5105,14 +5105,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, open content permitted by the extension.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, open content permitted by the extension.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open047.v3.xml"
+                        href='../saxonData/Open/open047.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -5123,7 +5123,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 17)
                     ),
-                    name="open047.v3.xml"
+                    name='open047.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5131,14 +5131,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, open content violates dynamic EDC rule&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, open content violates dynamic EDC rule\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open047.n1.xml"
+                        href='../saxonData/Open/open047.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5149,10 +5149,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 17)
                     ),
-                    name="open047.n1.xml"
+                    name='open047.n1.xml'
                 ),
             ],
-            name="open047",
+            name='open047',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5164,12 +5164,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxOccurs not allowed on xs:any within xs:openContent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxOccurs not allowed on xs:any within xs:openContent'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Was open042, unintended error reported in bug 15618"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Was open042, unintended error reported in bug 15618'
                                 ),
                             ]
                         ),
@@ -5178,16 +5178,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open048.bad.xsd"
+                        href='../saxonData/Open/open048.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -5199,9 +5199,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 1, 20)
                 ),
-                name="open048.xsd"
+                name='open048.xsd'
             ),
-            name="open048",
+            name='open048',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5213,12 +5213,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of defaultAttributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Basic test of defaultAttributes'
                                 ),
                             ]
                         ),
@@ -5227,16 +5227,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open201.xsd"
+                        href='../saxonData/Open/open201.xsd'
                     ),
                 ],
                 expected=[
@@ -5248,7 +5248,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open201.xsd"
+                name='open201.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5257,14 +5257,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses default attributes.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses default attributes.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open201.v1.xml"
+                        href='../saxonData/Open/open201.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5275,7 +5275,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open201.v1.xml"
+                    name='open201.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5283,14 +5283,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, omits default attributes.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, omits default attributes.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open201.v2.xml"
+                        href='../saxonData/Open/open201.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5301,10 +5301,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open201.v2.xml"
+                    name='open201.v2.xml'
                 ),
             ],
-            name="open201",
+            name='open201',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5316,12 +5316,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of defaultAttributes with defaultAttributesApply=false"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Basic test of defaultAttributes with defaultAttributesApply=false'
                                 ),
                             ]
                         ),
@@ -5330,16 +5330,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open202.xsd"
+                        href='../saxonData/Open/open202.xsd'
                     ),
                 ],
                 expected=[
@@ -5351,7 +5351,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open202.xsd"
+                name='open202.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5360,14 +5360,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses default attributes as appropriate.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses default attributes as appropriate.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open202.v1.xml"
+                        href='../saxonData/Open/open202.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5378,7 +5378,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open202.v1.xml"
+                    name='open202.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5386,14 +5386,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default attributes where they don't apply.&#10;&#9;&#9;            ",
+                                        "\n\t\t                Invalid, uses default attributes where they don't apply.\n\t\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open202.n1.xml"
+                        href='../saxonData/Open/open202.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5404,10 +5404,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open202.n1.xml"
+                    name='open202.n1.xml'
                 ),
             ],
-            name="open202",
+            name='open202',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5419,12 +5419,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unresolved reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Unresolved reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Unresolved reference to default attribute group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Unresolved reference to default attribute group'
                                 ),
                             ]
                         ),
@@ -5433,16 +5433,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open203.bad.xsd"
+                        href='../saxonData/Open/open203.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -5454,9 +5454,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open203.xsd"
+                name='open203.xsd'
             ),
-            name="open203",
+            name='open203',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5468,12 +5468,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unresolved reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Unresolved reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default attribute group in unimported namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Default attribute group in unimported namespace'
                                 ),
                             ]
                         ),
@@ -5482,16 +5482,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open204.bad.xsd"
+                        href='../saxonData/Open/open204.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -5503,9 +5503,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open204.xsd"
+                name='open204.xsd'
             ),
-            name="open204",
+            name='open204',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5517,12 +5517,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultAttributes in an imported namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='defaultAttributes in an imported namespace'
                                 ),
                             ]
                         ),
@@ -5531,16 +5531,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Open/open205.xsd"
+                        href='../saxonData/Open/open205.xsd'
                     ),
                 ],
                 expected=[
@@ -5552,7 +5552,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 13)
                 ),
-                name="open205.xsd"
+                name='open205.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5561,14 +5561,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, uses default attributes as appropriate.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, uses default attributes as appropriate.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open205.v1.xml"
+                        href='../saxonData/Open/open205.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5579,7 +5579,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open205.v1.xml"
+                    name='open205.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5587,14 +5587,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses default attributes where they don't apply because the type&#10;&#9;&#9;                is defined in a different schema document with no defaultAttributes&#10;&#9;&#9;            ",
+                                        "\n\t\t                Invalid, uses default attributes where they don't apply because the type\n\t\t                is defined in a different schema document with no defaultAttributes\n\t\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Open/open205.n1.xml"
+                        href='../saxonData/Open/open205.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5605,21 +5605,21 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 13)
                     ),
-                    name="open205.n1.xml"
+                    name='open205.n1.xml'
                 ),
             ],
-            name="open205",
+            name='open205',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="Open",
+    contributor='Saxonica',
+    name='Open',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

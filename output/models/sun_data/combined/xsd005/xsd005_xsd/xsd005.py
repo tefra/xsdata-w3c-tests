@@ -14,21 +14,21 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
 
 
@@ -42,14 +42,14 @@ class Ext(Base):
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     e: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
 
 
@@ -64,7 +64,7 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 

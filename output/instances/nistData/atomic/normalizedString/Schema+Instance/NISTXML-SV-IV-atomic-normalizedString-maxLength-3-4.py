@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMaxLength3(
-    value="cepts from the publishing community has led to the creation of a second-generation Internet language called the Extensible Markup Language  XML   which is rapidly becoming one of the most popular languages in the world "
+    value='cepts from the publishing community has led to the creation of a second-generation Internet language called the Extensible Markup Language  XML   which is rapidly becoming one of the most popular languages in the world '
 )

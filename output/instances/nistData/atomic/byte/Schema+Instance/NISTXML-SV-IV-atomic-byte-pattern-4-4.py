@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicBytePattern4(
-    value="5"
+    value='5'
 )

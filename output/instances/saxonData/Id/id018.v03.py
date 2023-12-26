@@ -5,7 +5,7 @@ from output.models.saxon_data.id.id018_xsd.id018 import Para
 obj = Doc(
     para=[
         Para(
-            entity="entity2"
+            entity='entity2'
         ),
     ]
 )

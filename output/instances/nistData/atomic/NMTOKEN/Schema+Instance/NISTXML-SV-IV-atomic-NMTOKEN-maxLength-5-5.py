@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMaxLength5(
-    value="with.the_partnership.build_that.and-four.OASIS:of.and:first_o"
+    value='with.the_partnership.build_that.and-four.OASIS:of.and:first_o'
 )

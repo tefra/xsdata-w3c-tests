@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern1(
-    value="provides.facilitates:known-discussions:o"
+    value='provides.facilitates:known-discussions:o'
 )

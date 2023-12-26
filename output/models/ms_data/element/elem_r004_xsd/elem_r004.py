@@ -15,7 +15,7 @@ class Usaddress:
             "type": "Element",
             "namespace": "testNS",
             "required": True,
-        }
+        },
     )
     street: Optional[str] = field(
         default=None,
@@ -23,13 +23,13 @@ class Usaddress:
             "type": "Element",
             "namespace": "testNS",
             "required": True,
-        }
+        },
     )
     country: str = field(
         default="US",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -43,7 +43,7 @@ class Comment:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class PurchaseOrderType:
             "type": "Element",
             "namespace": "testNS",
             "required": True,
-        }
+        },
     )
     bill_to: Optional[Usaddress] = field(
         default=None,
@@ -65,14 +65,14 @@ class PurchaseOrderType:
             "type": "Element",
             "namespace": "testNS",
             "required": True,
-        }
+        },
     )
     comment: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "testNS",
-        }
+        },
     )
 
 

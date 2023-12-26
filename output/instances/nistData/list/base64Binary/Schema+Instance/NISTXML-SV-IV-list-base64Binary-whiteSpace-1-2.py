@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.base64_binary.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListBase64BinaryWhiteSpace1(
     value=[
-        b"mecbtkddcsyjqtivvpvrgxsgkscg",
-        b"bfgvmguthtpobxpawhrjrbwrwqmy",
-        b"jvwbvixfefqclnyutxctigmcntmh",
-        b"kftavfcdlnglxeavckfbubaturmg",
-        b"wpjqterknuthijaqksqvlllvbkbs",
-        b"mcqrboecnihknbpqiojsnvbjgjvu",
-        b"jsreoqndkfnnxoivlysqyyuktfjc",
-        b"ejfjakkjrwdvowmatjgqqibqrrlo",
-        b"qchlndmymfahhmpsmvepwmojslni",
+        b'mecbtkddcsyjqtivvpvrgxsgkscg',
+        b'bfgvmguthtpobxpawhrjrbwrwqmy',
+        b'jvwbvixfefqclnyutxctigmcntmh',
+        b'kftavfcdlnglxeavckfbubaturmg',
+        b'wpjqterknuthijaqksqvlllvbkbs',
+        b'mcqrboecnihknbpqiojsnvbjgjvu',
+        b'jsreoqndkfnnxoivlysqyyuktfjc',
+        b'ejfjakkjrwdvowmatjgqqibqrrlo',
+        b'qchlndmymfahhmpsmvepwmojslni',
     ]
 )

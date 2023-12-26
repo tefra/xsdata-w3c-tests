@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength5(
-    value="sinformation-to_is_industry_engineering_object-models-voiced-and"
+    value='sinformation-to_is_industry_engineering_object-models-voiced-and'
 )

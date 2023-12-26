@@ -18,7 +18,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_inclusive": XmlTime(8, 0, 0, 0, 600),
-        }
+        },
     )
     el_time2: List[XmlTime] = field(
         default_factory=list,
@@ -27,7 +27,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_inclusive": XmlTime(0, 0, 0, 0, 60),
-        }
+        },
     )
     el_time3: List[XmlTime] = field(
         default_factory=list,
@@ -36,7 +36,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_inclusive": XmlTime(10, 0, 0, 0, 780),
-        }
+        },
     )
     el_time4: List[XmlTime] = field(
         default_factory=list,
@@ -45,5 +45,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_inclusive": XmlTime(3, 0, 0, 0, 240),
-        }
+        },
     )

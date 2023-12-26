@@ -16,13 +16,13 @@ class ElementWithAttr:
         metadata={
             "type": "Attribute",
             "namespace": "AttrDecl/type",
-        }
+        },
     )
     price: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class Root:
             "name": "elementWithAttr",
             "type": "Element",
             "required": True,
-        }
+        },
     )

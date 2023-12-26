@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength4(
-    value="of.which:is_Internet-Although-addressing.will.to:market_amon"
+    value='of.which:is_Internet-Although-addressing.will.to:market_amon'
 )

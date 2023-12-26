@@ -13,7 +13,7 @@ class Foo:
             "type": "Wildcard",
             "namespace": "http://www.w3.org/1999/xhtml",
             "process_contents": "skip",
-        }
+        },
     )
 
 

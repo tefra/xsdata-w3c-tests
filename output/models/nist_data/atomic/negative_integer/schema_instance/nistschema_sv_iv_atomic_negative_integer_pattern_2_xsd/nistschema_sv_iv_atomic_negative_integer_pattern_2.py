@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNegativeIntegerPattern2:
         metadata={
             "required": True,
             "pattern": r"\-\d{5}",
-        }
+        },
     )

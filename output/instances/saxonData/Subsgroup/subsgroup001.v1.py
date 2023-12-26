@@ -6,14 +6,14 @@ from output.models.saxon_data.subsgroup.subsgroup001_xsd.subsgroup001 import Doc
 obj = Doc(
     body=Body(
         para=[
-            "one",
-            "two",
+            'one',
+            'two',
         ]
     ),
     back=Back(
         para=[
-            "one",
-            "two",
+            'one',
+            'two',
         ]
     )
 )

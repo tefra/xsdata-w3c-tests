@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicHexBinaryMinLength1:
             "required": True,
             "min_length": 1,
             "format": "base16",
-        }
+        },
     )

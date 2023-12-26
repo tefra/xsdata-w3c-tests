@@ -12,5 +12,5 @@ class Doc:
         default=None,
         metadata={
             "explicit_timezone": "prohibited",
-        }
+        },
     )

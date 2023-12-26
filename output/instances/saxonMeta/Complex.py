@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complexType/@mixed must not conflict with complexContent/@mixed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complexType/@mixed must not conflict with complexContent/@mixed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The two attributes if both present must be the same"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The two attributes if both present must be the same'
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex001.bad.xsd"
+                        href='../saxonData/Complex/complex001.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -61,9 +61,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 8, 12)
                 ),
-                name="complex001.xsd"
+                name='complex001.xsd'
             ),
-            name="complex001",
+            name='complex001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -75,12 +75,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complexType/@mixed must not conflict with complexContent/@mixed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complexType/@mixed must not conflict with complexContent/@mixed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The two attributes if both present must be the same"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The two attributes if both present must be the same'
                                 ),
                             ]
                         ),
@@ -89,16 +89,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex002.bad.xsd"
+                        href='../saxonData/Complex/complex002.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -110,9 +110,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 8, 12)
                 ),
-                name="complex002.xsd"
+                name='complex002.xsd'
             ),
-            name="complex002",
+            name='complex002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -124,12 +124,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type default"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:type default'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default value for xsi:type is allowed but ignored"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Default value for xsi:type is allowed but ignored'
                                 ),
                             ]
                         ),
@@ -138,13 +138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -153,7 +153,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Supply default value for xsi:type that would be invalid if it were validated&#10;                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4&#10;                ",
+                                    '\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                ',
                                 ]
                             ),
                         ]
@@ -161,7 +161,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex003.xsd"
+                        href='../saxonData/Complex/complex003.xsd'
                     ),
                 ],
                 expected=[
@@ -173,7 +173,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex003.xsd"
+                name='complex003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -182,14 +182,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance that ignores the xsi:type&#10;                ",
+                                        '\n                    Valid instance that ignores the xsi:type\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex003.v1.xml"
+                        href='../saxonData/Complex/complex003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,7 +200,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex003.v1.xml"
+                    name='complex003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -208,14 +208,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, satisfies the xsi:type but this should be ignored&#10;                ",
+                                        '\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex003.n1.xml"
+                        href='../saxonData/Complex/complex003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -226,10 +226,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex003.n1.xml"
+                    name='complex003.n1.xml'
                 ),
             ],
-            name="complex003",
+            name='complex003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -241,12 +241,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type default"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:type default'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default value for xsi:type is allowed but ignored"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Default value for xsi:type is allowed but ignored'
                                 ),
                             ]
                         ),
@@ -255,13 +255,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -270,7 +270,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Supply default value for xsi:type that would be invalid if it were validated&#10;                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4&#10;                ",
+                                    '\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                ',
                                 ]
                             ),
                         ]
@@ -278,7 +278,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex004.xsd"
+                        href='../saxonData/Complex/complex004.xsd'
                     ),
                 ],
                 expected=[
@@ -290,7 +290,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex004.xsd"
+                name='complex004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -299,14 +299,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance that ignores the xsi:type&#10;                ",
+                                        '\n                    Valid instance that ignores the xsi:type\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex004.v1.xml"
+                        href='../saxonData/Complex/complex004.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -317,7 +317,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex004.v1.xml"
+                    name='complex004.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -325,14 +325,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, satisfies the xsi:type but this should be ignored&#10;                ",
+                                        '\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex004.n1.xml"
+                        href='../saxonData/Complex/complex004.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -343,7 +343,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex004.n1.xml"
+                    name='complex004.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -351,14 +351,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;                    Valid instance, the default value of xsi:type is not valid in the context where it is used&#10;                    (undeclared namespace prefix "xs"), but this does not matter because the default value&#10;                    has no effect. See bug 13457.&#10;                ',
+                                        '\n                    Valid instance, the default value of xsi:type is not valid in the context where it is used\n                    (undeclared namespace prefix "xs"), but this does not matter because the default value\n                    has no effect. See bug 13457.\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex004.n2.xml"
+                        href='../saxonData/Complex/complex004.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -375,10 +375,10 @@ obj = TestSet(
                             date=XmlDate(2011, 2, 7)
                         ),
                     ],
-                    name="complex004.v2.xml"
+                    name='complex004.v2.xml'
                 ),
             ],
-            name="complex004",
+            name='complex004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -390,12 +390,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type fixed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:type fixed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Fixed value for xsi:type is allowed but ignored,&#10;                except that the instance must match"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Fixed value for xsi:type is allowed but ignored,\n                except that the instance must match'
                                 ),
                             ]
                         ),
@@ -404,13 +404,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -419,7 +419,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Supply fixed value for xsi:type &#10;                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4&#10;                ",
+                                    '\n                    Supply fixed value for xsi:type \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                ',
                                 ]
                             ),
                         ]
@@ -427,7 +427,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex005.xsd"
+                        href='../saxonData/Complex/complex005.xsd'
                     ),
                 ],
                 expected=[
@@ -439,7 +439,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex005.xsd"
+                name='complex005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -448,14 +448,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect &#10;                ",
+                                        '\n                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect \n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex005.v2.xml"
+                        href='../saxonData/Complex/complex005.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -466,7 +466,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex005.v2.xml"
+                    name='complex005.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -474,14 +474,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type must conform to the fixed value if present&#10;                ",
+                                        '\n                    Invalid instance, xsi:type must conform to the fixed value if present\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex005.n1.xml"
+                        href='../saxonData/Complex/complex005.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -492,7 +492,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex005.n1.xml"
+                    name='complex005.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -500,14 +500,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid&#10;                ",
+                                        '\n                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex005.n2.xml"
+                        href='../saxonData/Complex/complex005.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -518,7 +518,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex005.n2.xml"
+                    name='complex005.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -526,14 +526,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived&#10;                    from the declared type (the declared type is complex, but the xsi:type is a simple type)&#10;                ",
+                                        '\n                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived\n                    from the declared type (the declared type is complex, but the xsi:type is a simple type)\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex005.v1.xml"
+                        href='../saxonData/Complex/complex005.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -544,10 +544,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="complex005.n3.xml"
+                    name='complex005.n3.xml'
                 ),
             ],
-            name="complex005",
+            name='complex005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -559,12 +559,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil default"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil default'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default value for xsi:nil is allowed but ignored"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Default value for xsi:nil is allowed but ignored'
                                 ),
                             ]
                         ),
@@ -573,13 +573,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -588,7 +588,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Supply default value for xsi:nil &#10;                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4&#10;                ",
+                                    '\n                    Supply default value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                ',
                                 ]
                             ),
                         ]
@@ -596,7 +596,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex006.xsd"
+                        href='../saxonData/Complex/complex006.xsd'
                     ),
                 ],
                 expected=[
@@ -608,7 +608,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex006.xsd"
+                name='complex006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -617,14 +617,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:nil is ignored&#10;                ",
+                                        '\n                    Valid instance; xsi:nil is ignored\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.v1.xml"
+                        href='../saxonData/Complex/complex006.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -635,7 +635,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex006.v1.xml"
+                    name='complex006.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -643,14 +643,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:nil is ignored&#10;                ",
+                                        '\n                    Valid instance; xsi:nil is ignored\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.v2.xml"
+                        href='../saxonData/Complex/complex006.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -661,7 +661,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex006.v2.xml"
+                    name='complex006.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -669,14 +669,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:nil in the instance is effective&#10;                ",
+                                        '\n                    Invalid instance, xsi:nil in the instance is effective\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.n1.xml"
+                        href='../saxonData/Complex/complex006.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -687,7 +687,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex006.n1.xml"
+                    name='complex006.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -695,14 +695,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:nil in the instance is effective&#10;                ",
+                                        '\n                    Invalid instance, xsi:nil in the instance is effective\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.n2.xml"
+                        href='../saxonData/Complex/complex006.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -713,7 +713,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex006.n2.xml"
+                    name='complex006.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -721,14 +721,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:nil in the instance does not default to the value in the schema&#10;                ",
+                                        '\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.n3.xml"
+                        href='../saxonData/Complex/complex006.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -739,10 +739,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex006.n3.xml"
+                    name='complex006.n3.xml'
                 ),
             ],
-            name="complex006",
+            name='complex006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -754,12 +754,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil fixed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil fixed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Fixed value for xsi:nil is allowed but ignored,&#10;                except if present in the instance it must match and be obeyed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Fixed value for xsi:nil is allowed but ignored,\n                except if present in the instance it must match and be obeyed'
                                 ),
                             ]
                         ),
@@ -768,13 +768,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -783,7 +783,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Supply fixed value for xsi:nil &#10;                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4&#10;                ",
+                                    '\n                    Supply fixed value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                ',
                                 ]
                             ),
                         ]
@@ -791,7 +791,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex007.xsd"
+                        href='../saxonData/Complex/complex007.xsd'
                     ),
                 ],
                 expected=[
@@ -803,7 +803,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex007.xsd"
+                name='complex007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -812,14 +812,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:nil is ignored&#10;                ",
+                                        '\n                    Valid instance; xsi:nil is ignored\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.v1.xml"
+                        href='../saxonData/Complex/complex006.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -830,7 +830,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex007.v1.xml"
+                    name='complex007.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -838,14 +838,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:nil is ignored&#10;                ",
+                                        '\n                    Valid instance; xsi:nil is ignored\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.v2.xml"
+                        href='../saxonData/Complex/complex006.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -856,7 +856,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex007.v2.xml"
+                    name='complex007.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -864,14 +864,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:nil in the instance is effective&#10;                ",
+                                        '\n                    Invalid instance, xsi:nil in the instance is effective\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.n1.xml"
+                        href='../saxonData/Complex/complex006.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -882,7 +882,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex007.n1.xml"
+                    name='complex007.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -890,14 +890,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:nil in the instance is effective&#10;                ",
+                                        '\n                    Invalid instance, xsi:nil in the instance is effective\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.n2.xml"
+                        href='../saxonData/Complex/complex006.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -908,7 +908,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex007.n2.xml"
+                    name='complex007.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -916,14 +916,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:nil in the instance does not default to the value in the schema&#10;                ",
+                                        '\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex006.n3.xml"
+                        href='../saxonData/Complex/complex006.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -934,10 +934,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex007.n3.xml"
+                    name='complex007.n3.xml'
                 ),
             ],
-            name="complex007",
+            name='complex007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -949,12 +949,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="xsi:type doesn't resolve"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xsi:type must resolve to a known type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xsi:type must resolve to a known type'
                                 ),
                             ]
                         ),
@@ -963,10 +963,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve'
                 ),
             ],
             schema_test=SchemaTest(
@@ -975,7 +975,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Valid schema, no particular features&#10;                ",
+                                    '\n                    Valid schema, no particular features\n                ',
                                 ]
                             ),
                         ]
@@ -983,7 +983,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex008.xsd"
+                        href='../saxonData/Complex/complex008.xsd'
                     ),
                 ],
                 expected=[
@@ -995,7 +995,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex008.xsd"
+                name='complex008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1004,14 +1004,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, unknown type in XSD namespace&#10;                ",
+                                        '\n                    Invalid instance, unknown type in XSD namespace\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex008.n1.xml"
+                        href='../saxonData/Complex/complex008.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1022,7 +1022,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex008.n1.xml"
+                    name='complex008.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1030,14 +1030,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, invalid QName (undeclared prefix)&#10;                ",
+                                        '\n                    Invalid instance, invalid QName (undeclared prefix)\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex008.n2.xml"
+                        href='../saxonData/Complex/complex008.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1048,7 +1048,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex008.n2.xml"
+                    name='complex008.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1056,14 +1056,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type is an unknown QName&#10;                ",
+                                        '\n                    Invalid instance, xsi:type is an unknown QName\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex008.n3.xml"
+                        href='../saxonData/Complex/complex008.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1074,7 +1074,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex008.n3.xml"
+                    name='complex008.n3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1082,14 +1082,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type is not lexically a QName&#10;                ",
+                                        '\n                    Invalid instance, xsi:type is not lexically a QName\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex008.n4.xml"
+                        href='../saxonData/Complex/complex008.n4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1100,10 +1100,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex008.n4.xml"
+                    name='complex008.n4.xml'
                 ),
             ],
-            name="complex008",
+            name='complex008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1115,11 +1115,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='xsi:type use="required'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Specifying use="required" for xsi:type is allowed and effective'
                                 ),
                             ]
@@ -1129,13 +1129,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1144,7 +1144,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Make xsi:type mandatory&#10;                ",
+                                    '\n                    Make xsi:type mandatory\n                ',
                                 ]
                             ),
                         ]
@@ -1152,7 +1152,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex009.xsd"
+                        href='../saxonData/Complex/complex009.xsd'
                     ),
                 ],
                 expected=[
@@ -1164,7 +1164,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex009.xsd"
+                name='complex009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1173,14 +1173,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:type is present&#10;                ",
+                                        '\n                    Valid instance; xsi:type is present\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex009.v1.xml"
+                        href='../saxonData/Complex/complex009.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1191,7 +1191,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex009.v1.xml"
+                    name='complex009.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1199,14 +1199,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:type is present&#10;                ",
+                                        '\n                    Valid instance; xsi:type is present\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex009.v2.xml"
+                        href='../saxonData/Complex/complex009.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1217,7 +1217,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex009.v2.xml"
+                    name='complex009.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1225,14 +1225,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type is omitted&#10;                ",
+                                        '\n                    Invalid instance, xsi:type is omitted\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex009.n1.xml"
+                        href='../saxonData/Complex/complex009.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1243,7 +1243,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex009.n1.xml"
+                    name='complex009.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1251,14 +1251,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type is present but instance doesn't conform to it&#10;                ",
+                                        "\n                    Invalid instance, xsi:type is present but instance doesn't conform to it\n                ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex009.n2.xml"
+                        href='../saxonData/Complex/complex009.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1269,10 +1269,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex009.n2.xml"
+                    name='complex009.n2.xml'
                 ),
             ],
-            name="complex009",
+            name='complex009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1284,11 +1284,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='xsi:noNamespaceSchemaLocation use="required'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Specifying use="required" for xsi:noNamespaceSchemaLocation is allowed and effective'
                                 ),
                             ]
@@ -1298,13 +1298,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1313,7 +1313,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                    Make xsi:noNamespaceSchemaLocation mandatory&#10;                ",
+                                    '\n                    Make xsi:noNamespaceSchemaLocation mandatory\n                ',
                                 ]
                             ),
                         ]
@@ -1321,7 +1321,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex010.xsd"
+                        href='../saxonData/Complex/complex010.xsd'
                     ),
                 ],
                 expected=[
@@ -1333,7 +1333,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex010.xsd"
+                name='complex010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1342,14 +1342,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; xsi:noNamespaceSchemaLocation is present&#10;                ",
+                                        '\n                    Valid instance; xsi:noNamespaceSchemaLocation is present\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex010.v1.xml"
+                        href='../saxonData/Complex/complex010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1360,7 +1360,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex010.v1.xml"
+                    name='complex010.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1368,14 +1368,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted&#10;                ",
+                                        '\n                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex010.n1.xml"
+                        href='../saxonData/Complex/complex010.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1386,10 +1386,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex010.n1.xml"
+                    name='complex010.n1.xml'
                 ),
             ],
-            name="complex010",
+            name='complex010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1401,12 +1401,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil on complex type with simple content (not specific to 1.1)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil on complex type with simple content (not specific to 1.1)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All combinations of xsi:nil with value present or absent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All combinations of xsi:nil with value present or absent'
                                 ),
                             ]
                         ),
@@ -1415,7 +1415,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1424,7 +1424,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                   Specifies element as nillable&#10;                ",
+                                    '\n                   Specifies element as nillable\n                ',
                                 ]
                             ),
                         ]
@@ -1432,7 +1432,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex011.xsd"
+                        href='../saxonData/Complex/complex011.xsd'
                     ),
                 ],
                 expected=[
@@ -1444,7 +1444,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex011.xsd"
+                name='complex011.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1453,14 +1453,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; not nil&#10;                ",
+                                        '\n                    Valid instance; not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex011.v1.xml"
+                        href='../saxonData/Complex/complex011.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1471,7 +1471,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex011.v1.xml"
+                    name='complex011.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1479,14 +1479,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil&#10;                ",
+                                        '\n                    Valid instance; nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex011.v2.xml"
+                        href='../saxonData/Complex/complex011.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1497,7 +1497,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex011.v2.xml"
+                    name='complex011.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1505,14 +1505,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, value missing but not nil&#10;                ",
+                                        '\n                    Invalid instance, value missing but not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex011.n1.xml"
+                        href='../saxonData/Complex/complex011.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1523,7 +1523,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex011.n1.xml"
+                    name='complex011.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1531,14 +1531,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance,value present but nil&#10;                ",
+                                        '\n                    Invalid instance,value present but nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex011.n2.xml"
+                        href='../saxonData/Complex/complex011.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1549,7 +1549,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex011.n2.xml"
+                    name='complex011.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1557,14 +1557,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, child present but nil&#10;                ",
+                                        '\n                    Invalid instance, child present but nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex011.n3.xml"
+                        href='../saxonData/Complex/complex011.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1575,10 +1575,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex011.n3.xml"
+                    name='complex011.n3.xml'
                 ),
             ],
-            name="complex011"
+            name='complex011'
         ),
         TestGroup(
             annotation=[
@@ -1587,12 +1587,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil on complex type with mixede content (not specific to 1.1)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil on complex type with mixede content (not specific to 1.1)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All combinations of xsi:nil with value present or absent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All combinations of xsi:nil with value present or absent'
                                 ),
                             ]
                         ),
@@ -1601,7 +1601,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1610,7 +1610,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                   Specifies element as nillable with mixed content&#10;                ",
+                                    '\n                   Specifies element as nillable with mixed content\n                ',
                                 ]
                             ),
                         ]
@@ -1618,7 +1618,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex012.xsd"
+                        href='../saxonData/Complex/complex012.xsd'
                     ),
                 ],
                 expected=[
@@ -1630,7 +1630,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex012.xsd"
+                name='complex012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1639,14 +1639,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; not nil&#10;                ",
+                                        '\n                    Valid instance; not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.v1.xml"
+                        href='../saxonData/Complex/complex012.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1657,7 +1657,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.v1.xml"
+                    name='complex012.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1665,14 +1665,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil&#10;                ",
+                                        '\n                    Valid instance; nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.v2.xml"
+                        href='../saxonData/Complex/complex012.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1683,7 +1683,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.v2.xml"
+                    name='complex012.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1691,14 +1691,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil&#10;                ",
+                                        '\n                    Valid instance; nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.v3.xml"
+                        href='../saxonData/Complex/complex012.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1709,7 +1709,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.v3.xml"
+                    name='complex012.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1717,14 +1717,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil&#10;                ",
+                                        '\n                    Valid instance; nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.v4.xml"
+                        href='../saxonData/Complex/complex012.v4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1735,7 +1735,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.v4.xml"
+                    name='complex012.v4.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1743,14 +1743,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil element can contain a comment&#10;                ",
+                                        '\n                    Valid instance; nil element can contain a comment\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.v5.xml"
+                        href='../saxonData/Complex/complex012.v5.xml'
                     ),
                     expected=[
                         Expected(
@@ -1761,7 +1761,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.v5.xml"
+                    name='complex012.v5.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1769,14 +1769,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil element can contain a PI&#10;                ",
+                                        '\n                    Valid instance; nil element can contain a PI\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.v6.xml"
+                        href='../saxonData/Complex/complex012.v6.xml'
                     ),
                     expected=[
                         Expected(
@@ -1787,7 +1787,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.v6.xml"
+                    name='complex012.v6.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1795,14 +1795,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, value missing but not nil&#10;                ",
+                                        '\n                    Invalid instance, value missing but not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.n1.xml"
+                        href='../saxonData/Complex/complex012.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1813,7 +1813,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.n1.xml"
+                    name='complex012.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1821,14 +1821,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance,value present but nil&#10;                ",
+                                        '\n                    Invalid instance,value present but nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.n2.xml"
+                        href='../saxonData/Complex/complex012.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1839,7 +1839,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.n2.xml"
+                    name='complex012.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1847,14 +1847,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, child present but nil&#10;                ",
+                                        '\n                    Invalid instance, child present but nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex012.n3.xml"
+                        href='../saxonData/Complex/complex012.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1865,10 +1865,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex012.n3.xml"
+                    name='complex012.n3.xml'
                 ),
             ],
-            name="complex012"
+            name='complex012'
         ),
         TestGroup(
             annotation=[
@@ -1877,12 +1877,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil on complex type with element-only content (not specific to 1.1)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil on complex type with element-only content (not specific to 1.1)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All combinations of xsi:nil with value present or absent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All combinations of xsi:nil with value present or absent'
                                 ),
                             ]
                         ),
@@ -1891,7 +1891,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1900,7 +1900,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                   Specifies element as nillable, element-only content, not emptiable&#10;                ",
+                                    '\n                   Specifies element as nillable, element-only content, not emptiable\n                ',
                                 ]
                             ),
                         ]
@@ -1908,7 +1908,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex013.xsd"
+                        href='../saxonData/Complex/complex013.xsd'
                     ),
                 ],
                 expected=[
@@ -1920,7 +1920,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex013.xsd"
+                name='complex013.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1929,14 +1929,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; not nil&#10;                ",
+                                        '\n                    Valid instance; not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.v1.xml"
+                        href='../saxonData/Complex/complex013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1947,7 +1947,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex013.v1.xml"
+                    name='complex013.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1955,14 +1955,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil&#10;                ",
+                                        '\n                    Valid instance; nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.v2.xml"
+                        href='../saxonData/Complex/complex013.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1973,7 +1973,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex013.v2.xml"
+                    name='complex013.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1981,14 +1981,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, value missing but not nil&#10;                ",
+                                        '\n                    Invalid instance, value missing but not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.n1.xml"
+                        href='../saxonData/Complex/complex013.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1999,7 +1999,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex013.n1.xml"
+                    name='complex013.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2007,14 +2007,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance,value present but nil&#10;                ",
+                                        '\n                    Invalid instance,value present but nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.n2.xml"
+                        href='../saxonData/Complex/complex013.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2025,10 +2025,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex013.n2.xml"
+                    name='complex013.n2.xml'
                 ),
             ],
-            name="complex013"
+            name='complex013'
         ),
         TestGroup(
             annotation=[
@@ -2037,12 +2037,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil on complex type with element-only content, xs:all compositor (not specific to 1.1)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil on complex type with element-only content, xs:all compositor (not specific to 1.1)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All combinations of xsi:nil with value present or absent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All combinations of xsi:nil with value present or absent'
                                 ),
                             ]
                         ),
@@ -2051,7 +2051,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2060,7 +2060,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                   Specifies element as nillable, element-only content, not emptiable&#10;                ",
+                                    '\n                   Specifies element as nillable, element-only content, not emptiable\n                ',
                                 ]
                             ),
                         ]
@@ -2068,7 +2068,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex014.xsd"
+                        href='../saxonData/Complex/complex014.xsd'
                     ),
                 ],
                 expected=[
@@ -2080,7 +2080,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 4)
                 ),
-                name="complex014.xsd"
+                name='complex014.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2089,14 +2089,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; not nil&#10;                ",
+                                        '\n                    Valid instance; not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.v1.xml"
+                        href='../saxonData/Complex/complex013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2107,7 +2107,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex014.v1.xml"
+                    name='complex014.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2115,14 +2115,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Valid instance; nil&#10;                ",
+                                        '\n                    Valid instance; nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.v2.xml"
+                        href='../saxonData/Complex/complex013.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2133,7 +2133,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex014.v2.xml"
+                    name='complex014.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2141,14 +2141,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, value missing but not nil&#10;                ",
+                                        '\n                    Invalid instance, value missing but not nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.n1.xml"
+                        href='../saxonData/Complex/complex013.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2159,7 +2159,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex014.n1.xml"
+                    name='complex014.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2167,14 +2167,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance,value present but nil&#10;                ",
+                                        '\n                    Invalid instance,value present but nil\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex013.n2.xml"
+                        href='../saxonData/Complex/complex013.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2185,10 +2185,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 4)
                     ),
-                    name="complex014.n2.xml"
+                    name='complex014.n2.xml'
                 ),
             ],
-            name="complex014"
+            name='complex014'
         ),
         TestGroup(
             annotation=[
@@ -2197,12 +2197,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type on complex type must resolve"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:type on complex type must resolve'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Instance is invalid if xsi:type not present in schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Instance is invalid if xsi:type not present in schema'
                                 ),
                             ]
                         ),
@@ -2211,10 +2211,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2223,7 +2223,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;                   Unremarkable schema&#10;                ",
+                                    '\n                   Unremarkable schema\n                ',
                                 ]
                             ),
                         ]
@@ -2231,7 +2231,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex015.xsd"
+                        href='../saxonData/Complex/complex015.xsd'
                     ),
                 ],
                 expected=[
@@ -2243,7 +2243,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="complex015.xsd"
+                name='complex015.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2252,14 +2252,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, xsi:type doesn't resolve&#10;                ",
+                                        "\n                    Invalid instance, xsi:type doesn't resolve\n                ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex015.n1.xml"
+                        href='../saxonData/Complex/complex015.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2270,10 +2270,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="complex015.n1.xml"
+                    name='complex015.n1.xml'
                 ),
             ],
-            name="complex015"
+            name='complex015'
         ),
         TestGroup(
             annotation=[
@@ -2282,12 +2282,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Redefine an attribute group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Redefine an attribute group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Redefine an attribute group to make one of the attributes required"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Redefine an attribute group to make one of the attributes required'
                                 ),
                             ]
                         ),
@@ -2296,13 +2296,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex016.xsd"
+                        href='../saxonData/Complex/complex016.xsd'
                     ),
                 ],
                 expected=[
@@ -2314,9 +2314,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 20)
                 ),
-                name="complex016.xsd"
+                name='complex016.xsd'
             ),
-            name="complex016"
+            name='complex016'
         ),
         TestGroup(
             annotation=[
@@ -2325,12 +2325,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Complex type derived by extension violating Element Declarations Consistent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Complex type derived by extension violating Element Declarations Consistent'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two children with the same name but different types. Test contributed&#10;                by Priscilla Walmsley."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two children with the same name but different types. Test contributed\n                by Priscilla Walmsley.'
                                 ),
                             ]
                         ),
@@ -2339,16 +2339,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex017.bad.xsd"
+                        href='../saxonData/Complex/complex017.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2360,9 +2360,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 20)
                 ),
-                name="complex017.xsd"
+                name='complex017.xsd'
             ),
-            name="complex017"
+            name='complex017'
         ),
         TestGroup(
             annotation=[
@@ -2371,12 +2371,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="See spec bug 16786 from Priscilla Walmsley"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='See spec bug 16786 from Priscilla Walmsley'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The XML representation summary appears to allow this but the S4S does not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The XML representation summary appears to allow this but the S4S does not'
                                 ),
                             ]
                         ),
@@ -2385,16 +2385,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-MixedInCTAndCC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex018.bad.xsd"
+                        href='../saxonData/Complex/complex018.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2406,9 +2406,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 20)
                 ),
-                name="complex018.xsd"
+                name='complex018.xsd'
             ),
-            name="complex018"
+            name='complex018'
         ),
         TestGroup(
             annotation=[
@@ -2417,12 +2417,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Disallow minOccurs on child of named xs:group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Disallow minOccurs on child of named xs:group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2'
                                 ),
                             ]
                         ),
@@ -2432,7 +2432,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex019.bad.xsd"
+                        href='../saxonData/Complex/complex019.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2444,9 +2444,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2014, 1, 9)
                 ),
-                name="complex019.xsd"
+                name='complex019.xsd'
             ),
-            name="complex019"
+            name='complex019'
         ),
         TestGroup(
             annotation=[
@@ -2455,12 +2455,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Disallow maxOccurs on child of named xs:group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Disallow maxOccurs on child of named xs:group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2'
                                 ),
                             ]
                         ),
@@ -2470,7 +2470,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex020.bad.xsd"
+                        href='../saxonData/Complex/complex020.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2482,9 +2482,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2014, 1, 9)
                 ),
-                name="complex020.xsd"
+                name='complex020.xsd'
             ),
-            name="complex020"
+            name='complex020'
         ),
         TestGroup(
             annotation=[
@@ -2493,12 +2493,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element declared with an abstract type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element declared with an abstract type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Instance is invalid because the type is abstract"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Instance is invalid because the type is abstract'
                                 ),
                             ]
                         ),
@@ -2508,7 +2508,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex021.xsd"
+                        href='../saxonData/Complex/complex021.xsd'
                     ),
                 ],
                 expected=[
@@ -2520,7 +2520,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2014, 7, 3)
                 ),
-                name="complex021.xsd"
+                name='complex021.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2529,14 +2529,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, validation against an abstract type&#10;                ",
+                                        '\n                    Invalid instance, validation against an abstract type\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex021.n1.xml"
+                        href='../saxonData/Complex/complex021.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2547,10 +2547,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2014, 7, 3)
                     ),
-                    name="complex021.n1.xml"
+                    name='complex021.n1.xml'
                 ),
             ],
-            name="complex021"
+            name='complex021'
         ),
         TestGroup(
             annotation=[
@@ -2559,12 +2559,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Empty choice should accept no instances"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Empty choice should accept no instances'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A content model defined as an empty choice should reject all instances,&#10;                because the instance needs to satisfy at least on branch of the choice, which is not&#10;                possible if there are no branches."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A content model defined as an empty choice should reject all instances,\n                because the instance needs to satisfy at least on branch of the choice, which is not\n                possible if there are no branches.'
                                 ),
                             ]
                         ),
@@ -2574,7 +2574,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/complex022.xsd"
+                        href='../saxonData/Complex/complex022.xsd'
                     ),
                 ],
                 expected=[
@@ -2586,7 +2586,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2015, 6, 2)
                 ),
-                name="complex022.xsd"
+                name='complex022.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2595,14 +2595,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, empty content does not satisfy empty choice&#10;                ",
+                                        '\n                    Invalid instance, empty content does not satisfy empty choice\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex022.n1.xml"
+                        href='../saxonData/Complex/complex022.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2613,7 +2613,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2015, 6, 2)
                     ),
-                    name="complex022.n1.xml"
+                    name='complex022.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2621,14 +2621,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                    Invalid instance, element content does not satisfy empty choice&#10;                ",
+                                        '\n                    Invalid instance, element content does not satisfy empty choice\n                ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/complex022.n2.xml"
+                        href='../saxonData/Complex/complex022.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2639,10 +2639,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2015, 6, 2)
                     ),
-                    name="complex022.n2.xml"
+                    name='complex022.n2.xml'
                 ),
             ],
-            name="complex022"
+            name='complex022'
         ),
         TestGroup(
             annotation=[
@@ -2651,12 +2651,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test uniqueness constraint on a field having a complex type with simple content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test uniqueness constraint on a field having a complex type with simple content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='See comment in the schema document, and bug 10236. In the XSD 1.0 spec, see clause 3&#10;                of "Identity Constraint Satisfied" in 3.11.4 Identity-constraint Definition Validation Rules.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='See comment in the schema document, and bug 10236. In the XSD 1.0 spec, see clause 3\n                of "Identity Constraint Satisfied" in 3.11.4 Identity-constraint Definition Validation Rules.'
                                 ),
                             ]
                         ),
@@ -2665,13 +2665,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/unique001.xsd"
+                        href='../saxonData/Complex/unique001.xsd'
                     ),
                 ],
                 expected=[
@@ -2683,7 +2683,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 8, 12)
                 ),
-                name="unique001.xsd"
+                name='unique001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2692,14 +2692,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid (despite the 1.0 spec): the field has a complex type with simple content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid (despite the 1.0 spec): the field has a complex type with simple content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique001.v1.xml"
+                        href='../saxonData/Complex/unique001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2710,7 +2710,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 8, 12)
                     ),
-                    name="unique001.v1.xml"
+                    name='unique001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2718,14 +2718,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid: two fields with the same value.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid: two fields with the same value.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique001.n1.xml"
+                        href='../saxonData/Complex/unique001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2736,10 +2736,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 8, 12)
                     ),
-                    name="unique001.n1.xml"
+                    name='unique001.n1.xml'
                 ),
             ],
-            name="unique001"
+            name='unique001'
         ),
         TestGroup(
             annotation=[
@@ -2748,12 +2748,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test uniqueness constraint on a field having a complex type with mixed content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test uniqueness constraint on a field having a complex type with mixed content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="In both XSD 1.0 and 1.1 the schema is valid, but all instances are invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='In both XSD 1.0 and 1.1 the schema is valid, but all instances are invalid.'
                                 ),
                             ]
                         ),
@@ -2762,13 +2762,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/unique002.xsd"
+                        href='../saxonData/Complex/unique002.xsd'
                     ),
                 ],
                 expected=[
@@ -2780,7 +2780,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 8, 12)
                 ),
-                name="unique002.xsd"
+                name='unique002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2789,14 +2789,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid: the field has a complex type with mixed content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid: the field has a complex type with mixed content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique002.n1.xml"
+                        href='../saxonData/Complex/unique002.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2807,10 +2807,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 8, 12)
                     ),
-                    name="unique002.n1.xml"
+                    name='unique002.n1.xml'
                 ),
             ],
-            name="unique002"
+            name='unique002'
         ),
         TestGroup(
             annotation=[
@@ -2819,12 +2819,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="For the purposes of uniqueness constraints, NaN is effectively equal to NaN"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='For the purposes of uniqueness constraints, NaN is effectively equal to NaN'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='For the purposes of uniqueness constraints, NaN is effectively equal to NaN. &#10;                (Uniqueness is violated if the values are "identical or equal"). See bug 9196.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For the purposes of uniqueness constraints, NaN is effectively equal to NaN. \n                (Uniqueness is violated if the values are "identical or equal"). See bug 9196.'
                                 ),
                             ]
                         ),
@@ -2834,7 +2834,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Complex/unique003.xsd"
+                        href='../saxonData/Complex/unique003.xsd'
                     ),
                 ],
                 expected=[
@@ -2846,7 +2846,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 6)
                 ),
-                name="unique003.xsd"
+                name='unique003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2855,14 +2855,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Value: values are distinct.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Value: values are distinct.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique003.v1.xml"
+                        href='../saxonData/Complex/unique003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2873,7 +2873,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="unique003.v1.xml"
+                    name='unique003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2881,14 +2881,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Value: values are distinct.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Value: values are distinct.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique003.v2.xml"
+                        href='../saxonData/Complex/unique003.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2899,7 +2899,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="unique003.v2.xml"
+                    name='unique003.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2907,14 +2907,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid: values are duplicates.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid: values are duplicates.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique003.n1.xml"
+                        href='../saxonData/Complex/unique003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2925,7 +2925,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="unique003.n1.xml"
+                    name='unique003.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2933,14 +2933,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid: values NaN and NaN are considered duplicates.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid: values NaN and NaN are considered duplicates.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Complex/unique003.n2.xml"
+                        href='../saxonData/Complex/unique003.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2951,15 +2951,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="unique003.n2.xml"
+                    name='unique003.n2.xml'
                 ),
             ],
-            name="unique003"
+            name='unique003'
         ),
     ],
-    contributor="Saxonica",
-    name="Complex",
+    contributor='Saxonica',
+    name='Complex',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

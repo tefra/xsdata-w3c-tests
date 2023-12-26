@@ -15,7 +15,7 @@ class Child:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class MyType:
             "type": "Element",
             "namespace": "foo",
             "required": True,
-        }
+        },
     )
 
 

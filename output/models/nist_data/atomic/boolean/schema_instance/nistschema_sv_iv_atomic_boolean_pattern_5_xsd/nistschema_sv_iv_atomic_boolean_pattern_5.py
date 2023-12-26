@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicBooleanPattern5:
         metadata={
             "required": True,
             "pattern": r"[1]{1}",
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameWhiteSpace1(
-    value="tstandardization.a.retrie"
+    value='tstandardization.a.retrie'
 )

@@ -13,7 +13,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class Foo1(Foo):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -37,7 +37,7 @@ class Bar:
         name = "bar"
         namespace = "foo"
 
-    foo1_or_foo_or_bar: List[Union[Foo, Foo1, "Bar"]] = field(
+    foo1_or_foo_or_bar: List[Union[Foo1, Foo, "Bar"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -56,5 +56,5 @@ class Bar:
                     "type": Type["Bar"],
                 },
             ),
-        }
+        },
     )

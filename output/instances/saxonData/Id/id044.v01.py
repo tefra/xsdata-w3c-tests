@@ -9,42 +9,42 @@ obj = Doc(
         Chap(
             section=[
                 Chap.Section(
-                    nr=Decimal("1"),
-                    ref=Decimal("4")
+                    nr=Decimal('1'),
+                    ref=Decimal('4')
                 ),
                 Chap.Section(
-                    nr=Decimal("2"),
-                    ref=Decimal("3")
+                    nr=Decimal('2'),
+                    ref=Decimal('3')
                 ),
                 Chap.Section(
-                    nr=Decimal("3"),
-                    ref=Decimal("2")
+                    nr=Decimal('3'),
+                    ref=Decimal('2')
                 ),
                 Chap.Section(
-                    nr=Decimal("4"),
-                    ref=Decimal("1")
+                    nr=Decimal('4'),
+                    ref=Decimal('1')
                 ),
             ]
         ),
         DerivedElement(
-            qname="{http://id044.ly/}appx",
+            qname='{http://id044.ly/}appx',
             value=Chap(
                 section=[
                     Chap.Section(
-                        nr=Decimal("1"),
-                        ref=Decimal("1")
+                        nr=Decimal('1'),
+                        ref=Decimal('1')
                     ),
                     Chap.Section(
-                        nr=Decimal("2"),
-                        ref=Decimal("2")
+                        nr=Decimal('2'),
+                        ref=Decimal('2')
                     ),
                     Chap.Section(
-                        nr=Decimal("3"),
-                        ref=Decimal("3")
+                        nr=Decimal('3'),
+                        ref=Decimal('3')
                     ),
                     Chap.Section(
-                        nr=Decimal("4"),
-                        ref=Decimal("4")
+                        nr=Decimal('4'),
+                        ref=Decimal('4')
                     ),
                 ]
             )

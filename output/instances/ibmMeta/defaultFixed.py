@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#xsi_nil",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#xsi_nil',
                     },
                     content=[
-                        "Default/fixed values for xsi:type and xsi:nil",
+                        'Default/fixed values for xsi:type and xsi:nil',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type must resolve to a type definition",
+                                'xsi:type must resolve to a type definition',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsi_nil"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsi_nil'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_7_1/s2_7_1v01.xsd"
+                        href='../ibmData/valid/S2_7_1/s2_7_1v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_7_1v01s"
+                name='s2_7_1v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_7_1/s2_7_1v01.xml"
+                        href='../ibmData/valid/S2_7_1/s2_7_1v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_7_1v01i"
+                    name='s2_7_1v01i'
                 ),
             ],
-            name="s2_7_1v01",
+            name='s2_7_1v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type must resolve to a type definition ",
+                                'xsi:type must resolve to a type definition ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsi_type"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsi_type'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S2_7_1/s2_7_1ii01.xsd"
+                        href='../ibmData/instance_invalid/S2_7_1/s2_7_1ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_7_1ii01s"
+                name='s2_7_1ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S2_7_1/s2_7_1ii01.xml"
+                        href='../ibmData/instance_invalid/S2_7_1/s2_7_1ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_7_1ii01i"
+                    name='s2_7_1ii01i'
                 ),
             ],
-            name="s2_7_1ii01",
+            name='s2_7_1ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'When an xsi:type attribute appears on an element, and has a QName as its value,&#10; but the QName does not resolve to a known type definition, processors are now &#10; required to "fall back" to lax validation, using the declared {type definition}  &#10; of the governing element declaration as the governing type definition. ',
+                                'When an xsi:type attribute appears on an element, and has a QName as its value,\n but the QName does not resolve to a known type definition, processors are now \n required to "fall back" to lax validation, using the declared {type definition}  \n of the governing element declaration as the governing type definition. ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsi_type"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsi_type'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xsd"
+                        href='../ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_7_1ii02s"
+                name='s2_7_1ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xml"
+                        href='../ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_7_1ii02i"
+                    name='s2_7_1ii02i'
                 ),
             ],
-            name="s2_7_1ii02",
+            name='s2_7_1ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Structures introduces a mechanism for signaling that an element &#10;&#9;&#9;must be accepted as 'valid'  when it has no content despite a content type which &#10;&#9;&#9;does not require or even necessarily allow empty content. An element can be 'valid'  &#10;&#9;&#9;without content if it has the attribute xsi:nil  with the value true. An element &#10;&#9;&#9;so labeled must  be empty, but can carry attributes if permitted by the corresponding &#10;&#9;&#9;complex type. ",
+                                "Structures introduces a mechanism for signaling that an element \n\t\tmust be accepted as 'valid'  when it has no content despite a content type which \n\t\tdoes not require or even necessarily allow empty content. An element can be 'valid'  \n\t\twithout content if it has the attribute xsi:nil  with the value true. An element \n\t\tso labeled must  be empty, but can carry attributes if permitted by the corresponding \n\t\tcomplex type. ",
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsi_nil"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsi_nil'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_7_2/s2_7_2v01.xsd"
+                        href='../ibmData/valid/S2_7_2/s2_7_2v01.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_7_2v01s"
+                name='s2_7_2v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_7_2/s2_7_2v01.xml"
+                        href='../ibmData/valid/S2_7_2/s2_7_2v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_7_2v01i"
+                    name='s2_7_2v01i'
                 ),
             ],
-            name="s2_7_2v01"
+            name='s2_7_2v01'
         ),
         TestGroup(
             annotation=[
@@ -270,7 +270,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "default values for xsi:nil",
+                                'default values for xsi:nil',
                             ]
                         ),
                     ]
@@ -278,16 +278,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsi_nil"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsi_nil'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S2_7_2/s2_7_2ii01.xsd"
+                        href='../ibmData/instance_invalid/S2_7_2/s2_7_2ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -299,12 +299,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_7_2ii01s"
+                name='s2_7_2ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S2_7_2/s2_7_2ii01.xml"
+                        href='../ibmData/instance_invalid/S2_7_2/s2_7_2ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -315,18 +315,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_7_2ii01i"
+                    name='s2_7_2ii01i'
                 ),
             ],
-            name="s2_7_2ii01",
+            name='s2_7_2ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="DefaultFixed",
+    contributor='IBM',
+    name='DefaultFixed',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

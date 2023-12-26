@@ -14,7 +14,7 @@ class A:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class B:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class C:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class D:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -81,14 +81,14 @@ class T:
                     "namespace": "a",
                 },
             ),
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     c: Optional[int] = field(
         default=None,
@@ -96,7 +96,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
 
 

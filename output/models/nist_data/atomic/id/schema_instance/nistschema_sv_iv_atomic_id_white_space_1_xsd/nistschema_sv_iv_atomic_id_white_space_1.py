@@ -15,7 +15,7 @@ class NistschemaSvIvAtomicIdWhiteSpace1:
         metadata={
             "required": True,
             "white_space": "collapse",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

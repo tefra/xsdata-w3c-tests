@@ -16,5 +16,5 @@ class NistschemaSvIvListBase64BinaryLength1:
             "length": 5,
             "tokens": True,
             "format": "base64",
-        }
+        },
     )

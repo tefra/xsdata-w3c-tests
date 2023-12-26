@@ -13,7 +13,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     idref: List[str] = field(
         default_factory=list,
@@ -21,5 +21,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.any_uri.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListAnyUriMaxLength5(
     value=[
-        "http://forc.thatu.a.its.gov",
-        "gopher://A.a.edu",
-        "gopher://co.theado.edu",
-        "telnet://wo.alik.SMEsu.gov",
-        "gopher://discus.s.edu",
-        "telnet://le.imple.gov",
-        "news://pro.edu",
-        "ftp://O.aske.exer.andwil.gov",
-        "ftp://w.top.will.edu",
+        'http://forc.thatu.a.its.gov',
+        'gopher://A.a.edu',
+        'gopher://co.theado.edu',
+        'telnet://wo.alik.SMEsu.gov',
+        'gopher://discus.s.edu',
+        'telnet://le.imple.gov',
+        'news://pro.edu',
+        'ftp://O.aske.exer.andwil.gov',
+        'ftp://w.top.will.edu',
     ]
 )

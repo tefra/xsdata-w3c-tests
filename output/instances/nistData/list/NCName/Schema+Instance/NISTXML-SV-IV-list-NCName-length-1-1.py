@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameLength1(
     value=[
-        "pcontained.underst",
-        "hfor-medium-sized_",
-        "_and_creation_to_l",
-        "fby.pervasive.spec",
-        "wto.to_of-provide_",
+        'pcontained.underst',
+        'hfor-medium-sized_',
+        '_and_creation_to_l',
+        'fby.pervasive.spec',
+        'wto.to_of-provide_',
     ]
 )

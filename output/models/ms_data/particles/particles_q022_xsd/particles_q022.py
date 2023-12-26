@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q022_xsd.particles_q022_imp import Foo
+from output.models.ms_data.particles.particles_q022_xsd.particles_q022_imp import (
+    Foo,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -12,7 +14,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     local_element: List[object] = field(
         default_factory=list,
@@ -20,7 +22,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##local",
             "max_occurs": 4,
-        }
+        },
     )
 
 
@@ -32,7 +34,7 @@ class R:
             "name": "foo",
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     foo: List[Foo] = field(
         default_factory=list,
@@ -40,7 +42,7 @@ class R:
             "type": "Element",
             "namespace": "",
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -55,5 +57,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

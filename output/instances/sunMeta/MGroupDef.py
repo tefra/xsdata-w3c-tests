@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a model group definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a model group definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group definition.'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,10 +72,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -84,12 +84,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a model group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a model group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group definition.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group definition.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -98,13 +98,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -116,9 +116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -127,12 +127,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for a model group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for a model group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group definition.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group definition.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -141,13 +141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -159,9 +159,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -170,12 +170,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a model group definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a model group definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group definition.'
                                 ),
                             ]
                         ),
@@ -184,13 +184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -202,12 +202,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m4_p.xml"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -218,10 +218,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -230,12 +230,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a model group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a model group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group definition.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group definition.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -244,13 +244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m5.xsd"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -262,9 +262,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m5"
+                name='annotation00101m5'
             ),
-            name="annotation00101m5"
+            name='annotation00101m5'
         ),
         TestGroup(
             annotation=[
@@ -273,12 +273,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for a model group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for a model group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group definition.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group definition.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -287,13 +287,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/annotation/annotation00101m/annotation00101m6.xsd"
+                        href='../sunData/MGroupDef/annotation/annotation00101m/annotation00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -305,9 +305,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m6"
+                name='annotation00101m6'
             ),
-            name="annotation00101m6"
+            name='annotation00101m6'
         ),
         TestGroup(
             annotation=[
@@ -316,12 +316,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A model group is &lt;all&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A model group is <all> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group which is the {term} of a particle corresponding to the &lt;all&gt;,&#10;                              &lt;choice&gt; or &lt;sequence&gt; among the [children]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group which is the {term} of a particle corresponding to the <all>,\n                              <choice> or <sequence> among the [children].'
                                 ),
                             ]
                         ),
@@ -330,13 +330,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -348,12 +348,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00101m1"
+                name='modelGroup00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1_p.xml"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -364,11 +364,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1_n.xml"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -379,10 +379,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="modelgroup00101m1"
+            name='modelgroup00101m1'
         ),
         TestGroup(
             annotation=[
@@ -391,12 +391,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A model group is &lt;choice&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A model group is <choice> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group which is the {term} of a particle corresponding to the &lt;all&gt;,&#10;                              &lt;choice&gt; or &lt;sequence&gt; among the [children]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group which is the {term} of a particle corresponding to the <all>,\n                              <choice> or <sequence> among the [children].'
                                 ),
                             ]
                         ),
@@ -405,13 +405,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -423,12 +423,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00101m2"
+                name='modelGroup00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2_p.xml"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -439,11 +439,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2_n.xml"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -454,10 +454,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="modelgroup00101m2"
+            name='modelgroup00101m2'
         ),
         TestGroup(
             annotation=[
@@ -466,12 +466,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A model group is &lt;sequence&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A model group is <sequence> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group which is the {term} of a particle corresponding to the &lt;all&gt;,&#10;                              &lt;choice&gt; or &lt;sequence&gt; among the [children]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group which is the {term} of a particle corresponding to the <all>,\n                              <choice> or <sequence> among the [children].'
                                 ),
                             ]
                         ),
@@ -480,13 +480,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -498,12 +498,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00101m3"
+                name='modelGroup00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3_p.xml"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -514,11 +514,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3_n.xml"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -529,10 +529,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="modelgroup00101m3"
+            name='modelgroup00101m3'
         ),
         TestGroup(
             annotation=[
@@ -541,12 +541,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="2 model groups: &lt;all&gt;, &lt;all&gt; (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='2 model groups: <all>, <all> (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group must be one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group must be one.'
                                 ),
                             ]
                         ),
@@ -555,13 +555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m1.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -573,9 +573,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00102m1"
+                name='modelGroup00102m1'
             ),
-            name="modelgroup00102m1"
+            name='modelgroup00102m1'
         ),
         TestGroup(
             annotation=[
@@ -584,12 +584,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="2 model groups: &lt;all&gt;, &lt;choice&gt; (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='2 model groups: <all>, <choice> (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group must be one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group must be one.'
                                 ),
                             ]
                         ),
@@ -598,13 +598,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m2.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m2.xsd'
                     ),
                 ],
                 expected=[
@@ -616,9 +616,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00102m2"
+                name='modelGroup00102m2'
             ),
-            name="modelgroup00102m2"
+            name='modelgroup00102m2'
         ),
         TestGroup(
             annotation=[
@@ -627,12 +627,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="2 model groups: &lt;all&gt;, &lt;sequence&gt; (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='2 model groups: <all>, <sequence> (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group must be one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group must be one.'
                                 ),
                             ]
                         ),
@@ -641,13 +641,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m3.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m3.xsd'
                     ),
                 ],
                 expected=[
@@ -659,9 +659,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00102m3"
+                name='modelGroup00102m3'
             ),
-            name="modelgroup00102m3"
+            name='modelgroup00102m3'
         ),
         TestGroup(
             annotation=[
@@ -670,12 +670,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="2 model groups: &lt;choice&gt;, &lt;choice&gt; (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='2 model groups: <choice>, <choice> (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group must be one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group must be one.'
                                 ),
                             ]
                         ),
@@ -684,13 +684,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m4.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m4.xsd'
                     ),
                 ],
                 expected=[
@@ -702,9 +702,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00102m4"
+                name='modelGroup00102m4'
             ),
-            name="modelgroup00102m4"
+            name='modelgroup00102m4'
         ),
         TestGroup(
             annotation=[
@@ -713,12 +713,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="2 model groups: &lt;choice&gt;, &lt;sequence&gt; (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='2 model groups: <choice>, <sequence> (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group must be one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group must be one.'
                                 ),
                             ]
                         ),
@@ -727,13 +727,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m5.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m5.xsd'
                     ),
                 ],
                 expected=[
@@ -745,9 +745,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00102m5"
+                name='modelGroup00102m5'
             ),
-            name="modelgroup00102m5"
+            name='modelgroup00102m5'
         ),
         TestGroup(
             annotation=[
@@ -756,12 +756,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="2 model groups: &lt;sequence&gt;, &lt;sequence&gt; (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='2 model groups: <sequence>, <sequence> (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A model group must be one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A model group must be one.'
                                 ),
                             ]
                         ),
@@ -770,13 +770,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m6.xsd"
+                        href='../sunData/MGroupDef/modelGroup/modelGroup00102m/modelGroup00102m6.xsd'
                     ),
                 ],
                 expected=[
@@ -788,9 +788,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="modelGroup00102m6"
+                name='modelGroup00102m6'
             ),
-            name="modelgroup00102m6"
+            name='modelgroup00102m6'
         ),
         TestGroup(
             annotation=[
@@ -799,12 +799,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Identify a model group definition by name (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Identify a model group definition by name (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Model group definitions are identified by their {name} and {target namespace};&#10;                              model group identities must be unique within an *XML Schema*."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Model group definitions are identified by their {name} and {target namespace};\n                              model group identities must be unique within an *XML Schema*.'
                                 ),
                             ]
                         ),
@@ -813,13 +813,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/name/name00101m/name00101m1.xsd"
+                        href='../sunData/MGroupDef/name/name00101m/name00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -831,12 +831,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m1"
+                name='name00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/name/name00101m/name00101m1_p.xml"
+                        href='../sunData/MGroupDef/name/name00101m/name00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -847,11 +847,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/name/name00101m/name00101m1_n.xml"
+                        href='../sunData/MGroupDef/name/name00101m/name00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -862,10 +862,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="name00101m1"
+            name='name00101m1'
         ),
         TestGroup(
             annotation=[
@@ -874,12 +874,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A model group definition with the name already defined one (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A model group definition with the name already defined one (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Model group definitions are identified by their {name} and {target namespace};&#10;                              model group identities must be unique within an *XML Schema*."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Model group definitions are identified by their {name} and {target namespace};\n                              model group identities must be unique within an *XML Schema*.'
                                 ),
                             ]
                         ),
@@ -888,13 +888,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/name/name00101m/name00101m2.xsd"
+                        href='../sunData/MGroupDef/name/name00101m/name00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -906,9 +906,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m2"
+                name='name00101m2'
             ),
-            name="name00101m2"
+            name='name00101m2'
         ),
         TestGroup(
             annotation=[
@@ -917,12 +917,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The auxiliary schema for targetNS00101m2.xsd (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The auxiliary schema for targetNS00101m2.xsd (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Model group definitions are identified by their {name} and {target namespace};&#10;                              model group identities must be unique within an *XML Schema*."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Model group definitions are identified by their {name} and {target namespace};\n                              model group identities must be unique within an *XML Schema*.'
                                 ),
                             ]
                         ),
@@ -931,13 +931,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1.xsd"
+                        href='../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -949,12 +949,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m1"
+                name='targetNS00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1_p.xml"
+                        href='../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -965,11 +965,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1_n.xml"
+                        href='../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -980,10 +980,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00101m1"
+            name='targetns00101m1'
         ),
         TestGroup(
             annotation=[
@@ -992,12 +992,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use the model group definition defined in other namespace (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use the model group definition defined in other namespace (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Model group definitions are identified by their {name} and {target namespace};&#10;                              model group identities must be unique within an *XML Schema*."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Model group definitions are identified by their {name} and {target namespace};\n                              model group identities must be unique within an *XML Schema*.'
                                 ),
                             ]
                         ),
@@ -1006,13 +1006,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2.xsd"
+                        href='../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1024,12 +1024,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m2"
+                name='targetNS00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2_p.xml"
+                        href='../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1040,11 +1040,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2_n.xml"
+                        href='../sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1055,15 +1055,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00101m2"
+            name='targetns00101m2'
         ),
     ],
-    contributor="SUN",
-    name="MGroupDef",
+    contributor='SUN',
+    name='MGroupDef',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

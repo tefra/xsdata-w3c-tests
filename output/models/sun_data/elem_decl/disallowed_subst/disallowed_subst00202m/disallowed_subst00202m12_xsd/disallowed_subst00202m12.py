@@ -12,7 +12,7 @@ class HeadType:
             "name": "Ear",
             "type": "Element",
             "namespace": "ElemDecl/disallowedSubst",
-        }
+        },
     )
     eye: Optional[object] = field(
         default=None,
@@ -20,7 +20,7 @@ class HeadType:
             "name": "Eye",
             "type": "Element",
             "namespace": "ElemDecl/disallowedSubst",
-        }
+        },
     )
 
 
@@ -108,5 +108,5 @@ class Root:
             "name": "Head",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

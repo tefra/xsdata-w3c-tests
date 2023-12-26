@@ -15,7 +15,7 @@ class FooType:
             "required": True,
             "max_length": 5,
             "format": "base16",
-        }
+        },
     )
 
 

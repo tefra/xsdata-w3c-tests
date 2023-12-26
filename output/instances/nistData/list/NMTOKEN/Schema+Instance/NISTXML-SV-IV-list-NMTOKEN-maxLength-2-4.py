@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMaxLength2(
     value=[
-        "process.the.",
-        "prominent.ne",
-        "further-netw",
-        "clean:large.",
-        "and_and_via_",
-        "configuratio",
+        'process.the.',
+        'prominent.ne',
+        'further-netw',
+        'clean:large.',
+        'and_and_via_',
+        'configuratio',
     ]
 )

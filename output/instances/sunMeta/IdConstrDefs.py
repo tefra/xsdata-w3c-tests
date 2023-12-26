@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for an Identity-constraint Definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for an Identity-constraint Definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an Identity-constraint Definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an Identity-constraint Definition.'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,10 +72,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -84,12 +84,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for an Identity-constraint Definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for an Identity-constraint Definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an Identity-constraint Definition.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an Identity-constraint Definition.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -98,13 +98,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -116,9 +116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -127,12 +127,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for an Identity-constraint Definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for an Identity-constraint Definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an Identity-constraint Definition.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an Identity-constraint Definition.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -141,13 +141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -159,9 +159,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -170,12 +170,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for an Identity-constraint Definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for an Identity-constraint Definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an Identity-constraint Definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an Identity-constraint Definition.'
                                 ),
                             ]
                         ),
@@ -184,13 +184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -202,12 +202,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m4_p.xml"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -218,10 +218,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -230,12 +230,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for an Identity-constraint Definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for an Identity-constraint Definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an Identity-constraint Definition.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an Identity-constraint Definition.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -244,13 +244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m5.xsd"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -262,9 +262,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m5"
+                name='annotation00101m5'
             ),
-            name="annotation00101m5"
+            name='annotation00101m5'
         ),
         TestGroup(
             annotation=[
@@ -273,12 +273,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for an Identity-constraint Definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for an Identity-constraint Definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an Identity-constraint Definition.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an Identity-constraint Definition.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -287,13 +287,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m6.xsd"
+                        href='../sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -305,9 +305,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m6"
+                name='annotation00101m6'
             ),
-            name="annotation00101m6"
+            name='annotation00101m6'
         ),
         TestGroup(
             annotation=[
@@ -316,12 +316,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fields may have different types (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fields may have different types (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define a uniqueness constraint with fields of different types."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define a uniqueness constraint with fields of different types.'
                                 ),
                             ]
                         ),
@@ -330,13 +330,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00101m/fields00101m1.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00101m/fields00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -348,12 +348,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00101m1"
+                name='fields00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00101m/fields00101m1_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00101m/fields00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -364,10 +364,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00101m1"
+            name='fields00101m1'
         ),
         TestGroup(
             annotation=[
@@ -376,12 +376,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;type is decimal, values are 3.0 and -3 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ntype is decimal, values are 3.0 and -3 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields of type decimal have values 3.0 and &#10;                             -3."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields of type decimal have values 3.0 and \n                             -3.'
                                 ),
                             ]
                         ),
@@ -390,13 +390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m1.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -408,12 +408,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00201m1"
+                name='fields00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m1_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -424,10 +424,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00201m1"
+            name='fields00201m1'
         ),
         TestGroup(
             annotation=[
@@ -436,12 +436,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;type is decimal, values are 3.0 and 3 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ntype is decimal, values are 3.0 and 3 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields of type decimal have values 3.0 and &#10;                             3."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields of type decimal have values 3.0 and \n                             3.'
                                 ),
                             ]
                         ),
@@ -450,13 +450,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m2.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m2.xsd'
                     ),
                 ],
                 expected=[
@@ -468,12 +468,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00201m2"
+                name='fields00201m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m2_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -484,10 +484,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00201m2"
+            name='fields00201m2'
         ),
         TestGroup(
             annotation=[
@@ -496,12 +496,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;type is decimal, values are 3.0 and 3.0 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ntype is decimal, values are 3.0 and 3.0 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields of type decimal have values 3.0 and &#10;                             3.0."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields of type decimal have values 3.0 and \n                             3.0.'
                                 ),
                             ]
                         ),
@@ -510,13 +510,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m3.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m3.xsd'
                     ),
                 ],
                 expected=[
@@ -528,12 +528,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00201m3"
+                name='fields00201m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m3_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -544,10 +544,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00201m3"
+            name='fields00201m3'
         ),
         TestGroup(
             annotation=[
@@ -556,12 +556,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;type is string, values are 3.0 and 3 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ntype is string, values are 3.0 and 3 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields of type string have values 3.0 and &#10;                             3."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields of type string have values 3.0 and \n                             3.'
                                 ),
                             ]
                         ),
@@ -570,13 +570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m4.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m4.xsd'
                     ),
                 ],
                 expected=[
@@ -588,12 +588,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00201m4"
+                name='fields00201m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m4_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -604,10 +604,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00201m4"
+            name='fields00201m4'
         ),
         TestGroup(
             annotation=[
@@ -616,12 +616,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;type is string, values are 3.0 and 3.0 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ntype is string, values are 3.0 and 3.0 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields of type string have values 3.0 and &#10;                             3.0."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields of type string have values 3.0 and \n                             3.0.'
                                 ),
                             ]
                         ),
@@ -630,13 +630,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m5.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m5.xsd'
                     ),
                 ],
                 expected=[
@@ -648,12 +648,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00201m5"
+                name='fields00201m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00201m/fields00201m5_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00201m/fields00201m5_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -664,10 +664,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00201m5"
+            name='fields00201m5'
         ),
         TestGroup(
             annotation=[
@@ -676,12 +676,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with decimal(-3) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with decimal(-3) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the first field of type string has value "3.0". The&#10;                             second field of type decimal has value "-3".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the first field of type string has value "3.0". The\n                             second field of type decimal has value "-3".'
                                 ),
                             ]
                         ),
@@ -690,13 +690,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m1.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -708,12 +708,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00202m1"
+                name='fields00202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m1_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -724,10 +724,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00202m1"
+            name='fields00202m1'
         ),
         TestGroup(
             annotation=[
@@ -736,12 +736,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with decimal(3) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with decimal(3) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the first field of type string has value "3.0". The&#10;                             second field of type decimal has value "3".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the first field of type string has value "3.0". The\n                             second field of type decimal has value "3".'
                                 ),
                             ]
                         ),
@@ -750,13 +750,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m2.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m2.xsd'
                     ),
                 ],
                 expected=[
@@ -768,12 +768,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00202m2"
+                name='fields00202m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m2_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -784,10 +784,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00202m2"
+            name='fields00202m2'
         ),
         TestGroup(
             annotation=[
@@ -796,12 +796,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with decimal(3.0) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with decimal(3.0) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the first field of type string has value "3.0". The&#10;                             second field of type decimal has value "3.0".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the first field of type string has value "3.0". The\n                             second field of type decimal has value "3.0".'
                                 ),
                             ]
                         ),
@@ -810,13 +810,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m3.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m3.xsd'
                     ),
                 ],
                 expected=[
@@ -828,12 +828,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00202m3"
+                name='fields00202m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m3_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -844,10 +844,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00202m3"
+            name='fields00202m3'
         ),
         TestGroup(
             annotation=[
@@ -856,12 +856,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with string(3) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with string(3) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the first field of type string has value "3.0". The&#10;                             second field of type string has value "3".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the first field of type string has value "3.0". The\n                             second field of type string has value "3".'
                                 ),
                             ]
                         ),
@@ -870,13 +870,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m4.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m4.xsd'
                     ),
                 ],
                 expected=[
@@ -888,12 +888,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00202m4"
+                name='fields00202m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m4_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -904,10 +904,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00202m4"
+            name='fields00202m4'
         ),
         TestGroup(
             annotation=[
@@ -916,12 +916,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with string(3.0) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with string(3.0) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the first field of type string has value "3.0". The&#10;                             second field of type string has value "3.0".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the first field of type string has value "3.0". The\n                             second field of type string has value "3.0".'
                                 ),
                             ]
                         ),
@@ -930,13 +930,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m5.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m5.xsd'
                     ),
                 ],
                 expected=[
@@ -948,12 +948,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00202m5"
+                name='fields00202m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00202m/fields00202m5_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00202m/fields00202m5_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -964,10 +964,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00202m5"
+            name='fields00202m5'
         ),
         TestGroup(
             annotation=[
@@ -976,12 +976,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;decimal(3.0) compares with decimal(-3) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ndecimal(3.0) compares with decimal(-3) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields have local type decimal and&#10;                             values "3.0" and "-3".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields have local type decimal and\n                             values "3.0" and "-3".'
                                 ),
                             ]
                         ),
@@ -990,13 +990,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m1.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1008,12 +1008,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00203m1"
+                name='fields00203m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m1_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1024,10 +1024,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00203m1"
+            name='fields00203m1'
         ),
         TestGroup(
             annotation=[
@@ -1036,12 +1036,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;decimal(3.0) compares with decimal(3) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ndecimal(3.0) compares with decimal(3) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields have local type decimal and&#10;                             values "3.0" and "3".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields have local type decimal and\n                             values "3.0" and "3".'
                                 ),
                             ]
                         ),
@@ -1050,13 +1050,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m2.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1068,12 +1068,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00203m2"
+                name='fields00203m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m2_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1084,10 +1084,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00203m2"
+            name='fields00203m2'
         ),
         TestGroup(
             annotation=[
@@ -1096,12 +1096,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;decimal(3.0) compares with decimal(3.0) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \ndecimal(3.0) compares with decimal(3.0) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields have local type decimal and&#10;                             values "3.0" and "3.0".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields have local type decimal and\n                             values "3.0" and "3.0".'
                                 ),
                             ]
                         ),
@@ -1110,13 +1110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m3.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m3.xsd'
                     ),
                 ],
                 expected=[
@@ -1128,12 +1128,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00203m3"
+                name='fields00203m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m3_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1144,10 +1144,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00203m3"
+            name='fields00203m3'
         ),
         TestGroup(
             annotation=[
@@ -1156,12 +1156,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with string(3) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with string(3) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields have local type string and&#10;                             values "3.0" and "3".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields have local type string and\n                             values "3.0" and "3".'
                                 ),
                             ]
                         ),
@@ -1170,13 +1170,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m4.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m4.xsd'
                     ),
                 ],
                 expected=[
@@ -1188,12 +1188,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00203m4"
+                name='fields00203m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m4_p.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1204,10 +1204,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="fields00203m4"
+            name='fields00203m4'
         ),
         TestGroup(
             annotation=[
@@ -1216,12 +1216,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="values of the fields are checked for equality: &#10;string(3.0) compares with string(3.0) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='values of the fields are checked for equality: \nstring(3.0) compares with string(3.0) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The equality and inequality conditions appealed to in checking these &#10;                             constraints apply to the value of the fields selected, so that for example &#10;                             3.0 and 3 would be conflicting keys if they were both number, but &#10;                             non-conflicting if they were both strings, or one was a string and &#10;                             one a number.&#10;                              In the test the fields have local type string and&#10;                             values "3.0" and "3.0".'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The equality and inequality conditions appealed to in checking these \n                             constraints apply to the value of the fields selected, so that for example \n                             3.0 and 3 would be conflicting keys if they were both number, but \n                             non-conflicting if they were both strings, or one was a string and \n                             one a number.\n                              In the test the fields have local type string and\n                             values "3.0" and "3.0".'
                                 ),
                             ]
                         ),
@@ -1230,13 +1230,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m5.xsd"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m5.xsd'
                     ),
                 ],
                 expected=[
@@ -1248,12 +1248,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="fields00203m5"
+                name='fields00203m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/fields/fields00203m/fields00203m5_n.xml"
+                        href='../sunData/IdConstrDefs/fields/fields00203m/fields00203m5_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1264,10 +1264,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="fields00203m5"
+            name='fields00203m5'
         ),
         TestGroup(
             annotation=[
@@ -1276,12 +1276,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="In one namespace Identity-constraint definition names must be unique: &#10;the names are KEY0 and KEY1  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='In one namespace Identity-constraint definition names must be unique: \nthe names are KEY0 and KEY1  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element. Define a key identity constraint. &#10;                             Define another key identity constraint with &#10;                             another name.&#10;                             Check that the schema is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Define a key identity constraint. \n                             Define another key identity constraint with \n                             another name.\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -1290,13 +1290,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/name/name00101m/name00101m1.xsd"
+                        href='../sunData/IdConstrDefs/name/name00101m/name00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1308,12 +1308,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m1"
+                name='name00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/name/name00101m/name00101m1_p.xml"
+                        href='../sunData/IdConstrDefs/name/name00101m/name00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1324,10 +1324,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00101m1"
+            name='name00101m1'
         ),
         TestGroup(
             annotation=[
@@ -1336,12 +1336,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="In one namespace Identity-constraint definition names must be unique: &#10;the names are KEY1 and KEY1  (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='In one namespace Identity-constraint definition names must be unique: \nthe names are KEY1 and KEY1  (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element. Define a key identity constraint. &#10;                             Define another key identity constraint with &#10;                             the same name.&#10;                             Check that the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Define a key identity constraint. \n                             Define another key identity constraint with \n                             the same name.\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -1350,13 +1350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/name/name00101m/name00101m2.xsd"
+                        href='../sunData/IdConstrDefs/name/name00101m/name00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1368,9 +1368,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m2"
+                name='name00101m2'
             ),
-            name="name00101m2"
+            name='name00101m2'
         ),
         TestGroup(
             annotation=[
@@ -1379,12 +1379,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="constraints have separate symbol space (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='constraints have separate symbol space (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="With the same name declare a global element, a local element, an attribute, define a type &#10;                             and a constraint. Check that there is no name clash."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='With the same name declare a global element, a local element, an attribute, define a type \n                             and a constraint. Check that there is no name clash.'
                                 ),
                             ]
                         ),
@@ -1393,13 +1393,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/name/name00201m/name00201m1.xsd"
+                        href='../sunData/IdConstrDefs/name/name00201m/name00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1411,12 +1411,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00201m1"
+                name='name00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/name/name00201m/name00201m1_p.xml"
+                        href='../sunData/IdConstrDefs/name/name00201m/name00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1427,10 +1427,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00201m1"
+            name='name00201m1'
         ),
         TestGroup(
             annotation=[
@@ -1439,12 +1439,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Identity-constraint definition identities must be unique: different namespaces  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Identity-constraint definition identities must be unique: different namespaces  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element. Define a key identity constraint and a keyref to that key inside the&#10;                             element declaration. Declare another element with the same key and keyref.&#10;                             Check that if the second element declaration is in the same namespace,&#10;                             that the schema is invalid, otherwise it is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Define a key identity constraint and a keyref to that key inside the\n                             element declaration. Declare another element with the same key and keyref.\n                             Check that if the second element declaration is in the same namespace,\n                             that the schema is invalid, otherwise it is valid.'
                                 ),
                             ]
                         ),
@@ -1453,13 +1453,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m1.xsd"
+                        href='../sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1471,12 +1471,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m1"
+                name='targetNS00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m1_p.xml"
+                        href='../sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1487,10 +1487,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="targetns00101m1"
+            name='targetns00101m1'
         ),
         TestGroup(
             annotation=[
@@ -1499,12 +1499,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Identity-constraint definition identities must be unique: the same namespace  (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Identity-constraint definition identities must be unique: the same namespace  (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element. Define a key identity constraint and a keyref to that key inside the&#10;                             element declaration. Declare another element with the same key and keyref.&#10;                             Check that if the second element declaration is in the same namespace,&#10;                             that the schema is invalid, otherwise it is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Define a key identity constraint and a keyref to that key inside the\n                             element declaration. Declare another element with the same key and keyref.\n                             Check that if the second element declaration is in the same namespace,\n                             that the schema is invalid, otherwise it is valid.'
                                 ),
                             ]
                         ),
@@ -1513,13 +1513,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cIdentity-constraint_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m2.xsd"
+                        href='../sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1531,14 +1531,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m2"
+                name='targetNS00101m2'
             ),
-            name="targetns00101m2"
+            name='targetns00101m2'
         ),
     ],
-    contributor="SUN",
-    name="IdConstrDefs",
+    contributor='SUN',
+    name='IdConstrDefs',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -15,5 +15,5 @@ class Root:
             "min_occurs": 1,
             "max_occurs": 10,
             "pattern": r"Española",
-        }
+        },
     )

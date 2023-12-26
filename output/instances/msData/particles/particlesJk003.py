@@ -18,7 +18,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -35,7 +35,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -52,7 +52,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -69,7 +69,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -86,7 +86,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -103,7 +103,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -120,7 +120,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -137,7 +137,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -154,7 +154,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -171,7 +171,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -188,7 +188,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -205,7 +205,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -222,7 +222,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -239,7 +239,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -256,7 +256,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -273,7 +273,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -290,7 +290,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -307,7 +307,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -324,7 +324,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -341,7 +341,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -358,7 +358,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -375,7 +375,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -392,7 +392,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -409,7 +409,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -426,7 +426,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -443,7 +443,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -460,7 +460,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -477,7 +477,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -494,7 +494,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -511,7 +511,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -528,7 +528,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -545,7 +545,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -562,7 +562,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -579,7 +579,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -596,7 +596,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -613,7 +613,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -630,7 +630,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -647,7 +647,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -664,7 +664,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -681,7 +681,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -698,7 +698,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -715,7 +715,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -732,7 +732,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -749,7 +749,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -766,7 +766,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -783,7 +783,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -800,7 +800,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -817,7 +817,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -834,7 +834,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -851,7 +851,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -868,7 +868,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -885,7 +885,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -902,7 +902,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -919,7 +919,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -936,7 +936,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -953,7 +953,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -970,7 +970,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -987,7 +987,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1004,7 +1004,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1021,7 +1021,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1038,7 +1038,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1055,7 +1055,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1072,7 +1072,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1089,7 +1089,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1106,7 +1106,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1123,7 +1123,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1140,7 +1140,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1157,7 +1157,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(
@@ -1174,7 +1174,7 @@ obj = Doc(
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    text="&#10;testing&#10;"
+                    text='\ntesting\n'
                 )
             ),
             ImpElem1(

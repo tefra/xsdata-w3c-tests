@@ -10,7 +10,7 @@ class ActionType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

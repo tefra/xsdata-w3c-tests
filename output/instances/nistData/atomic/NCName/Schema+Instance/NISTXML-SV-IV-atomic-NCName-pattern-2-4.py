@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern2(
-    value="ocreating_file_and-in_and_the.information"
+    value='ocreating_file_and-in_and_the.information'
 )

@@ -8,12 +8,14 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-nonPositiveInteger-maxExclusive-2-NS"
 class NistschemaSvIvAtomicNonPositiveIntegerMaxExclusive2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonPositiveInteger-maxExclusive-2"
-        namespace = "NISTSchema-SV-IV-atomic-nonPositiveInteger-maxExclusive-2-NS"
+        namespace = (
+            "NISTSchema-SV-IV-atomic-nonPositiveInteger-maxExclusive-2-NS"
+        )
 
     value: Optional[int] = field(
         default=None,
         metadata={
             "required": True,
             "max_exclusive": -267691436022826633,
-        }
+        },
     )

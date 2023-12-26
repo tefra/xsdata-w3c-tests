@@ -13,7 +13,7 @@ class Ct:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -22,14 +22,14 @@ class Ct:
             default="default",
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         att2: str = field(
             init=False,
             default="fixed",
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 

@@ -5,7 +5,7 @@ from output.models.ms_data.datatypes.decimal_xsd.decimal import Root
 
 obj = Root(
     complex_test=ComplexTest(
-        comp_foo=Decimal("987654321098765432")
+        comp_foo=Decimal('987654321098765432')
     ),
-    simple_test=Decimal("987654321098765432")
+    simple_test=Decimal('987654321098765432')
 )

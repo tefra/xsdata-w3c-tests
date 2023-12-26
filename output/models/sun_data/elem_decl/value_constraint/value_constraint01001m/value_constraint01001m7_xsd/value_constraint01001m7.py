@@ -15,7 +15,7 @@ class Id:
         default="alpha",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

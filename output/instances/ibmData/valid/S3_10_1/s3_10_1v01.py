@@ -5,12 +5,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     any_element=[
         AnyElement(
-            qname="{a}notDefinedInSchema",
-            text="hi"
+            qname='{a}notDefinedInSchema',
+            text='hi'
         ),
         AnyElement(
-            qname="{b}a",
-            text="hihi"
+            qname='{b}a',
+            text='hihi'
         ),
     ]
 )

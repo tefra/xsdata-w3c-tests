@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern2(
-    value="rwith_s.vir:ddevices.ensure.to_to"
+    value='rwith_s.vir:ddevices.ensure.to_to'
 )

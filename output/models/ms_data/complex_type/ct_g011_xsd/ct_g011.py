@@ -12,14 +12,14 @@ class MyType:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -35,14 +35,14 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 

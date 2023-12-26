@@ -5,14 +5,14 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = A(
     any_element=AnyElement(
-        text="&#10;1242&#10;        ",
+        text='\n1242\n        ',
         children=[
             B(
 
             ),
         ],
         attributes={
-            "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType",
+            '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}anyType',
         }
     )
 )

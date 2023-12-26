@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicUnsignedShortPattern4:
         metadata={
             "required": True,
             "pattern": r"\d{4}",
-        }
+        },
     )

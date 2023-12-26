@@ -15,5 +15,5 @@ class C(D):
         metadata={
             "type": "Element",
             "namespace": "c",
-        }
+        },
     )

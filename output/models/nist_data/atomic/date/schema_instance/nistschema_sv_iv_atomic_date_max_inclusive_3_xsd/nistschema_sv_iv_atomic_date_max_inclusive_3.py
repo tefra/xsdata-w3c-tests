@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDateMaxInclusive3:
         metadata={
             "required": True,
             "max_inclusive": XmlDate(2020, 12, 27),
-        }
+        },
     )

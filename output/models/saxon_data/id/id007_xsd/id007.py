@@ -29,7 +29,7 @@ class Node:
                     "tokens": True,
                 },
             ),
-        }
+        },
     )
     mixed_a_attribute: List[str] = field(
         default_factory=list,
@@ -37,7 +37,7 @@ class Node:
             "name": "mixedA",
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     mixed_b_attribute: List[str] = field(
         default_factory=list,
@@ -45,7 +45,7 @@ class Node:
             "name": "mixedB",
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -59,5 +59,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern2(
-    value="ldesktop_object.needs_some:in:collaborating.of-be:app"
+    value='ldesktop_object.needs_some:in:collaborating.of-be:app'
 )

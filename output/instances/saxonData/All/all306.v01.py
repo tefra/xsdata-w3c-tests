@@ -8,22 +8,22 @@ obj = Doc(
         B(
             content=[
                 None,
-                "text",
+                'text',
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
-            tail="text"
+            qname='a',
+            text='',
+            tail='text'
         ),
         AnyElement(
-            qname="d",
-            text="",
-            tail="text"
+            qname='d',
+            text='',
+            tail='text'
         ),
         AnyElement(
-            qname="a",
-            text=""
+            qname='a',
+            text=''
         ),
     ]
 )

@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMinLength1(
     value=[
-        "ofor:with_understand-commerce.te",
-        "asecurity_same:program:of-implem",
-        "_information.related.has_discuss",
-        "_object-and-four_known:in.and_pr",
-        "_to_global:filter:the:by-as-infl",
-        "fof-fact.provide_life.is-help-de",
+        'ofor:with_understand-commerce.te',
+        'asecurity_same:program:of-implem',
+        '_information.related.has_discuss',
+        '_object-and-four_known:in.and_pr',
+        '_to_global:filter:the:by-as-infl',
+        'fof-fact.provide_life.is-help-de',
     ]
 )

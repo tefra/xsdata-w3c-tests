@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameLength1(
     value=[
-        "halso.technologies",
-        "ainteroperable.and",
-        "vuse.in.first.subj",
-        "tto_discovery_conf",
-        "athe.be_review.wit",
+        'halso.technologies',
+        'ainteroperable.and',
+        'vuse.in.first.subj',
+        'tto_discovery_conf',
+        'athe.be_review.wit',
     ]
 )

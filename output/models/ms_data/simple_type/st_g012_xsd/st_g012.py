@@ -12,7 +12,7 @@ class FooTest:
         metadata={
             "pattern": r"[A-C]{0,2}",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Root:
             "required": True,
             "pattern": r"[A-C]{0,2}",
             "tokens": True,
-        }
+        },
     )

@@ -13,5 +13,5 @@ class NistschemaSvIvUnionAnyUriFloatPattern4:
         default="",
         metadata={
             "pattern": r"\c{3,6}://(\c{1,5}\.){1,4}\c{3}",
-        }
+        },
     )

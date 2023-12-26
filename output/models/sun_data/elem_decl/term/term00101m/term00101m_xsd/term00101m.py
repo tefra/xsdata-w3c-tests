@@ -13,7 +13,7 @@ class Local:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Root:
             "name": "Local",
             "type": "Element",
             "required": True,
-        }
+        },
     )

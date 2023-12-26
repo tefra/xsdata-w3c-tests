@@ -2,5 +2,5 @@ from output.models.nist_data.union.any_uri_float.schema_instance.nistschema_sv_i
 
 
 obj = NistschemaSvIvUnionAnyUriFloatPattern2(
-    value="telnet://issuessp.tha.particular.unb.com"
+    value='telnet://issuessp.tha.particular.unb.com'
 )

@@ -14,14 +14,14 @@ class Address:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     zip: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class E3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -47,21 +47,21 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e2: Optional[Address] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e3: Optional[E3] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -82,5 +82,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

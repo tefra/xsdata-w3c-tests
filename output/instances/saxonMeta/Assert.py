@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple assertion on an attribute value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple assertion on an attribute value'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple assertion on an attribute value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple assertion on an attribute value'
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert001.xsd"
+                        href='../saxonData/Assert/assert001.xsd'
                     ),
                 ],
                 expected=[
@@ -61,7 +61,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert001.xsd"
+                name='assert001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -70,14 +70,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert001.v1.xml"
+                        href='../saxonData/Assert/assert001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -88,7 +88,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert001.v1.xml"
+                    name='assert001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -96,14 +96,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert001.n1.xml"
+                        href='../saxonData/Assert/assert001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -114,10 +114,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert001.n1.xml"
+                    name='assert001.n1.xml'
                 ),
             ],
-            name="assert001",
+            name='assert001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -129,12 +129,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Cross validation between two attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Cross validation between two attributes'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cross validation between two attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Cross validation between two attributes'
                                 ),
                             ]
                         ),
@@ -143,16 +143,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert002.xsd"
+                        href='../saxonData/Assert/assert002.xsd'
                     ),
                 ],
                 expected=[
@@ -164,7 +164,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert002.xsd"
+                name='assert002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -173,14 +173,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert002.v1.xml"
+                        href='../saxonData/Assert/assert002.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -191,7 +191,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert002.v1.xml"
+                    name='assert002.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -199,14 +199,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert002.n1.xml"
+                        href='../saxonData/Assert/assert002.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -217,10 +217,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert002.n1.xml"
+                    name='assert002.n1.xml'
                 ),
             ],
-            name="assert002",
+            name='assert002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -232,12 +232,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Cross validation between elements and attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Cross validation between elements and attributes'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Asserts that existence of an attribute and a descendant element&#10;                          are mutually exclusive"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Asserts that existence of an attribute and a descendant element\n                          are mutually exclusive'
                                 ),
                             ]
                         ),
@@ -246,16 +246,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert003.xsd"
+                        href='../saxonData/Assert/assert003.xsd'
                     ),
                 ],
                 expected=[
@@ -267,7 +267,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert003.xsd"
+                name='assert003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -276,14 +276,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, only the attribute exists.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, only the attribute exists.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert003.v1.xml"
+                        href='../saxonData/Assert/assert003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -294,7 +294,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert003.v1.xml"
+                    name='assert003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -302,14 +302,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, only the element exists.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, only the element exists.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert003.v2.xml"
+                        href='../saxonData/Assert/assert003.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -320,7 +320,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert003.v2.xml"
+                    name='assert003.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -328,14 +328,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, both nodes exist.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, both nodes exist.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert003.n1.xml"
+                        href='../saxonData/Assert/assert003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -346,7 +346,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert003.n1.xml"
+                    name='assert003.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -354,14 +354,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, neither node exists.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, neither node exists.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert003.n2.xml"
+                        href='../saxonData/Assert/assert003.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -372,10 +372,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert003.n2.xml"
+                    name='assert003.n2.xml'
                 ),
             ],
-            name="assert003",
+            name='assert003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -387,12 +387,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Constraints at more than one level"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Constraints at more than one level'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Imposes constraints at two levels of the same tree; also tests that&#10;                constraints at the inner level are rooted at the node being validated."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Imposes constraints at two levels of the same tree; also tests that\n                constraints at the inner level are rooted at the node being validated.'
                                 ),
                             ]
                         ),
@@ -401,16 +401,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert004.xsd"
+                        href='../saxonData/Assert/assert004.xsd'
                     ),
                 ],
                 expected=[
@@ -422,7 +422,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert004.xsd"
+                name='assert004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -431,14 +431,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert004.v1.xml"
+                        href='../saxonData/Assert/assert004.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -449,7 +449,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert004.v1.xml"
+                    name='assert004.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -457,14 +457,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert004.v2.xml"
+                        href='../saxonData/Assert/assert004.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -475,7 +475,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert004.v2.xml"
+                    name='assert004.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -483,14 +483,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, outer constraint not satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, outer constraint not satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert004.n1.xml"
+                        href='../saxonData/Assert/assert004.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -501,7 +501,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert004.n1.xml"
+                    name='assert004.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -509,14 +509,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, inner constraint not satisfied on second inner element.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, inner constraint not satisfied on second inner element.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert004.n2.xml"
+                        href='../saxonData/Assert/assert004.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -527,10 +527,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert004.n2.xml"
+                    name='assert004.n2.xml'
                 ),
             ],
-            name="assert004",
+            name='assert004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -542,12 +542,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Multiple constraints on an inner level, no constraint at outer level"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Multiple constraints on an inner level, no constraint at outer level'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests the ability to construct multiple subtrees for validation,&#10;                             including use of preceding axis designed to stress the Saxon implementation."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests the ability to construct multiple subtrees for validation,\n                             including use of preceding axis designed to stress the Saxon implementation.'
                                 ),
                             ]
                         ),
@@ -556,19 +556,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert005.xsd"
+                        href='../saxonData/Assert/assert005.xsd'
                     ),
                 ],
                 expected=[
@@ -580,7 +580,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert005.xsd"
+                name='assert005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -589,14 +589,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert005.v1.xml"
+                        href='../saxonData/Assert/assert005.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -607,7 +607,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert005.v1.xml"
+                    name='assert005.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -615,14 +615,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert005.v2.xml"
+                        href='../saxonData/Assert/assert005.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -633,7 +633,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert005.v2.xml"
+                    name='assert005.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -641,14 +641,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, first constraint not satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, first constraint not satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert005.n1.xml"
+                        href='../saxonData/Assert/assert005.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -659,7 +659,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert005.n1.xml"
+                    name='assert005.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -667,14 +667,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, second constraint not satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, second constraint not satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert005.n2.xml"
+                        href='../saxonData/Assert/assert005.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -685,10 +685,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert005.n2.xml"
+                    name='assert005.n2.xml'
                 ),
             ],
-            name="assert005",
+            name='assert005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -700,12 +700,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Inheritance of constraints in a type derived by restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Inheritance of constraints in a type derived by restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests inheritance of constraints; also imposes a constraint on a text&#10;                        node in a type with simple content."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests inheritance of constraints; also imposes a constraint on a text\n                        node in a type with simple content.'
                                 ),
                             ]
                         ),
@@ -714,16 +714,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert006.xsd"
+                        href='../saxonData/Assert/assert006.xsd'
                     ),
                 ],
                 expected=[
@@ -735,7 +735,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert006.xsd"
+                name='assert006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -744,14 +744,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert006.v1.xml"
+                        href='../saxonData/Assert/assert006.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -762,7 +762,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert006.v1.xml"
+                    name='assert006.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -770,14 +770,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, base constraint not satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, base constraint not satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert006.n1.xml"
+                        href='../saxonData/Assert/assert006.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -788,7 +788,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert006.n1.xml"
+                    name='assert006.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -796,14 +796,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, derived constraint not satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, derived constraint not satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert006.n2.xml"
+                        href='../saxonData/Assert/assert006.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -814,10 +814,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert006.n2.xml"
+                    name='assert006.n2.xml'
                 ),
             ],
-            name="assert006",
+            name='assert006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -829,12 +829,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Inheritance of constraints in a type derived by extension"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Inheritance of constraints in a type derived by extension'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests inheritance of constraints; also imposes a constraint on a text&#10;                        node in a type with complex content; also uses namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests inheritance of constraints; also imposes a constraint on a text\n                        node in a type with complex content; also uses namespaces'
                                 ),
                             ]
                         ),
@@ -843,16 +843,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert007.xsd"
+                        href='../saxonData/Assert/assert007.xsd'
                     ),
                 ],
                 expected=[
@@ -864,7 +864,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 3, 5)
                 ),
-                name="assert007.xsd"
+                name='assert007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -873,14 +873,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.v1.xml"
+                        href='../saxonData/Assert/assert007.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -891,7 +891,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert007.v1.xml"
+                    name='assert007.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -899,14 +899,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, two moves by same player in succession.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, two moves by same player in succession.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n1.xml"
+                        href='../saxonData/Assert/assert007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -917,7 +917,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert007.n1.xml"
+                    name='assert007.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -925,14 +925,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, white castles twice.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, white castles twice.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n2.xml"
+                        href='../saxonData/Assert/assert007.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -943,7 +943,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert007.n2.xml"
+                    name='assert007.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -951,14 +951,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unrecognized result.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unrecognized result.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n3.xml"
+                        href='../saxonData/Assert/assert007.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -969,10 +969,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert007.n3.xml"
+                    name='assert007.n3.xml'
                 ),
             ],
-            name="assert007",
+            name='assert007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -984,12 +984,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use xpathDefaultNamespace on xs:assert"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use xpathDefaultNamespace on xs:assert'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of assert007 written with xpathDefaultNamespace. Same instance documents."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Variant of assert007 written with xpathDefaultNamespace. Same instance documents.'
                                 ),
                             ]
                         ),
@@ -998,19 +998,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert008.xsd"
+                        href='../saxonData/Assert/assert008.xsd'
                     ),
                 ],
                 expected=[
@@ -1022,7 +1022,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="assert008.xsd"
+                name='assert008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1031,14 +1031,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.v1.xml"
+                        href='../saxonData/Assert/assert007.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1049,7 +1049,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="assert008.v1.xml"
+                    name='assert008.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1057,14 +1057,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, two moves by same player in succession.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, two moves by same player in succession.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n1.xml"
+                        href='../saxonData/Assert/assert007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1075,7 +1075,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="assert008.n1.xml"
+                    name='assert008.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1083,14 +1083,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, white castles twice.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, white castles twice.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n2.xml"
+                        href='../saxonData/Assert/assert007.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1101,7 +1101,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert008.n2.xml"
+                    name='assert008.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1109,14 +1109,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unrecognized result.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unrecognized result.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n3.xml"
+                        href='../saxonData/Assert/assert007.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1127,10 +1127,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 3, 5)
                     ),
-                    name="assert008.n3.xml"
+                    name='assert008.n3.xml'
                 ),
             ],
-            name="assert008",
+            name='assert008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1142,12 +1142,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use xpathDefaultNamespace on xs:schema element"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use xpathDefaultNamespace on xs:schema element'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of assert007 written with xpathDefaultNamespace. Same instance documents."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Variant of assert007 written with xpathDefaultNamespace. Same instance documents.'
                                 ),
                             ]
                         ),
@@ -1156,16 +1156,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert008a.xsd"
+                        href='../saxonData/Assert/assert008a.xsd'
                     ),
                 ],
                 expected=[
@@ -1177,7 +1177,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 5, 29)
                 ),
-                name="assert008a.xsd"
+                name='assert008a.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1186,14 +1186,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both constraints satisfied.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.v1.xml"
+                        href='../saxonData/Assert/assert007.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1204,7 +1204,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert008a.v1.xml"
+                    name='assert008a.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1212,14 +1212,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, two moves by same player in succession.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, two moves by same player in succession.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n1.xml"
+                        href='../saxonData/Assert/assert007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1230,7 +1230,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert008a.n1.xml"
+                    name='assert008a.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1238,14 +1238,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, white castles twice.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, white castles twice.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n2.xml"
+                        href='../saxonData/Assert/assert007.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1256,7 +1256,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert008a.n2.xml"
+                    name='assert008a.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1264,14 +1264,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unrecognized result.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unrecognized result.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert007.n3.xml"
+                        href='../saxonData/Assert/assert007.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1282,10 +1282,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert008a.n3.xml"
+                    name='assert008a.n3.xml'
                 ),
             ],
-            name="assert008a",
+            name='assert008a',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1297,12 +1297,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assert that a node-set is empty - error diagnostics handled specially by Saxon"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assert that a node-set is empty - error diagnostics handled specially by Saxon'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple assertion on an attribute value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple assertion on an attribute value'
                                 ),
                             ]
                         ),
@@ -1311,16 +1311,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert009.xsd"
+                        href='../saxonData/Assert/assert009.xsd'
                     ),
                 ],
                 expected=[
@@ -1332,7 +1332,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 2, 14)
                 ),
-                name="assert009.xsd"
+                name='assert009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1341,14 +1341,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert009.v1.xml"
+                        href='../saxonData/Assert/assert009.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1359,7 +1359,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 14)
                     ),
-                    name="assert009.v1.xml"
+                    name='assert009.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1367,14 +1367,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert009.n1.xml"
+                        href='../saxonData/Assert/assert009.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1385,10 +1385,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 14)
                     ),
-                    name="assert009.n1.xml"
+                    name='assert009.n1.xml'
                 ),
             ],
-            name="assert009",
+            name='assert009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1400,12 +1400,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a complex type with simple content"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a complex type with simple content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Co-occurrence constraint between the text content and an attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Co-occurrence constraint between the text content and an attribute.'
                                 ),
                             ]
                         ),
@@ -1414,16 +1414,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert010.xsd"
+                        href='../saxonData/Assert/assert010.xsd'
                     ),
                 ],
                 expected=[
@@ -1435,7 +1435,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert010.xsd"
+                name='assert010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1444,14 +1444,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert010.v1.xml"
+                        href='../saxonData/Assert/assert010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1462,7 +1462,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert010.v1.xml"
+                    name='assert010.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1470,14 +1470,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert010.n1.xml"
+                        href='../saxonData/Assert/assert010.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1488,10 +1488,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert010.n1.xml"
+                    name='assert010.n1.xml'
                 ),
             ],
-            name="assert010",
+            name='assert010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1503,12 +1503,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion involving a call to the doc() function"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion involving a call to the doc() function'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Uses an external document as a lookup table.&#10;                Had this working at one stage. But the current state of play (Saxon 9.2) is that doc() in an assertion is disallowed&#10;                both in the spec and in Saxon"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Uses an external document as a lookup table.\n                Had this working at one stage. But the current state of play (Saxon 9.2) is that doc() in an assertion is disallowed\n                both in the spec and in Saxon'
                                 ),
                             ]
                         ),
@@ -1517,16 +1517,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert011.xsd"
+                        href='../saxonData/Assert/assert011.xsd'
                     ),
                 ],
                 expected=[
@@ -1538,7 +1538,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 15)
                 ),
-                name="assert011.xsd"
+                name='assert011.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1547,14 +1547,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, satisfies the assertion. (calls to doc() don't work)&#10;&#9;&#9;            ",
+                                        "\n\t\t                Invalid, satisfies the assertion. (calls to doc() don't work)\n\t\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert011.v1.xml"
+                        href='../saxonData/Assert/assert011.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1565,7 +1565,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 15)
                     ),
-                    name="assert011.v1.xml"
+                    name='assert011.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1573,14 +1573,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert011.n1.xml"
+                        href='../saxonData/Assert/assert011.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1591,10 +1591,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 15)
                     ),
-                    name="assert011.n1.xml"
+                    name='assert011.n1.xml'
                 ),
             ],
-            name="assert011",
+            name='assert011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1606,12 +1606,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion involving dynamic error in XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion involving dynamic error in XPath expression'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Divide by zero in assertion, same as returning false"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Divide by zero in assertion, same as returning false'
                                 ),
                             ]
                         ),
@@ -1620,16 +1620,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert012.xsd"
+                        href='../saxonData/Assert/assert012.xsd'
                     ),
                 ],
                 expected=[
@@ -1641,7 +1641,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert012.xsd"
+                name='assert012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1650,14 +1650,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, because the assertion throws an error&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion, because the assertion throws an error\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert012.n1.xml"
+                        href='../saxonData/Assert/assert012.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1668,10 +1668,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 20)
                     ),
-                    name="assert012.n1.xml"
+                    name='assert012.n1.xml'
                 ),
             ],
-            name="assert012",
+            name='assert012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1683,12 +1683,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute within subtree is typed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute within subtree is typed'
                                 ),
                             ]
                         ),
@@ -1697,16 +1697,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert013.xsd"
+                        href='../saxonData/Assert/assert013.xsd'
                     ),
                 ],
                 expected=[
@@ -1718,7 +1718,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert013.xsd"
+                name='assert013.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1727,14 +1727,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, the attribute has the required type&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, the attribute has the required type\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert013.v1.xml"
+                        href='../saxonData/Assert/assert013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1745,10 +1745,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert013.v1.xml"
+                    name='assert013.v1.xml'
                 ),
             ],
-            name="assert013",
+            name='assert013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1760,12 +1760,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element root of subtree is anyType"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Element root of subtree is anyType'
                                 ),
                             ]
                         ),
@@ -1774,16 +1774,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert014.xsd"
+                        href='../saxonData/Assert/assert014.xsd'
                     ),
                 ],
                 expected=[
@@ -1795,7 +1795,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert014.xsd"
+                name='assert014.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1804,14 +1804,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, the element is anyType so atomizing it does not produce a date&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, the element is anyType so atomizing it does not produce a date\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert013.v1.xml"
+                        href='../saxonData/Assert/assert013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1822,10 +1822,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert014.v1.xml"
+                    name='assert014.v1.xml'
                 ),
             ],
-            name="assert014",
+            name='assert014',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1837,12 +1837,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="$value is typed (complex type with simple content)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='$value is typed (complex type with simple content)'
                                 ),
                             ]
                         ),
@@ -1851,16 +1851,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert015.xsd"
+                        href='../saxonData/Assert/assert015.xsd'
                     ),
                 ],
                 expected=[
@@ -1872,7 +1872,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert015.xsd"
+                name='assert015.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1881,14 +1881,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, $value is a date&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, $value is a date\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert013.v1.xml"
+                        href='../saxonData/Assert/assert013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1899,10 +1899,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert015.v1.xml"
+                    name='assert015.v1.xml'
                 ),
             ],
-            name="assert015",
+            name='assert015',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1914,12 +1914,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Atomizing the element succeeds (it has type xs:anyType, not a type with element-only content)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Atomizing the element succeeds (it has type xs:anyType, not a type with element-only content)'
                                 ),
                             ]
                         ),
@@ -1928,16 +1928,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert016.xsd"
+                        href='../saxonData/Assert/assert016.xsd'
                     ),
                 ],
                 expected=[
@@ -1949,7 +1949,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert015.xsd"
+                name='assert015.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1958,14 +1958,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, atomization succeeds&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, atomization succeeds\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert016.v1.xml"
+                        href='../saxonData/Assert/assert016.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1976,10 +1976,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert016.v1.xml"
+                    name='assert016.v1.xml'
                 ),
             ],
-            name="assert016",
+            name='assert016',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1991,12 +1991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Atomizing the element succeeds, and the result is untypedAtomic"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Atomizing the element succeeds, and the result is untypedAtomic'
                                 ),
                             ]
                         ),
@@ -2005,16 +2005,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert017.xsd"
+                        href='../saxonData/Assert/assert017.xsd'
                     ),
                 ],
                 expected=[
@@ -2026,7 +2026,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert017.xsd"
+                name='assert017.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2035,14 +2035,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, atomization succeeds&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, atomization succeeds\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert016.v1.xml"
+                        href='../saxonData/Assert/assert016.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2053,10 +2053,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert017.v1.xml"
+                    name='assert017.v1.xml'
                 ),
             ],
-            name="assert017",
+            name='assert017',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2068,12 +2068,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Elements below the assertion root are properly typed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Elements below the assertion root are properly typed'
                                 ),
                             ]
                         ),
@@ -2082,16 +2082,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert018.xsd"
+                        href='../saxonData/Assert/assert018.xsd'
                     ),
                 ],
                 expected=[
@@ -2103,7 +2103,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert018.xsd"
+                name='assert018.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2112,14 +2112,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, atomization succeeds&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, atomization succeeds\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert016.v1.xml"
+                        href='../saxonData/Assert/assert016.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2130,10 +2130,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert018.v1.xml"
+                    name='assert018.v1.xml'
                 ),
             ],
-            name="assert018",
+            name='assert018',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2145,12 +2145,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Elements below the assertion root are properly typed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Elements below the assertion root are properly typed'
                                 ),
                             ]
                         ),
@@ -2159,16 +2159,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert019.xsd"
+                        href='../saxonData/Assert/assert019.xsd'
                     ),
                 ],
                 expected=[
@@ -2180,7 +2180,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 20)
                 ),
-                name="assert019.xsd"
+                name='assert019.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2189,14 +2189,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with a complex type, $value is the empty sequence&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with a complex type, $value is the empty sequence\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert016.v1.xml"
+                        href='../saxonData/Assert/assert016.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2207,10 +2207,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert019.v1.xml"
+                    name='assert019.v1.xml'
                 ),
             ],
-            name="assert019",
+            name='assert019',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2222,11 +2222,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion combined with chameleon include"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion combined with chameleon include'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Effect of xpathDefaultNamespace="##targetNamespace"'
                                 ),
                             ]
@@ -2236,16 +2236,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert020.xsd"
+                        href='../saxonData/Assert/assert020.xsd'
                     ),
                 ],
                 expected=[
@@ -2257,7 +2257,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="assert020.xsd"
+                name='assert020.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2266,14 +2266,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert020.v1.xml"
+                        href='../saxonData/Assert/assert020.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2284,7 +2284,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert020.v1.xml"
+                    name='assert020.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2292,14 +2292,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unsatisfies the assertion, nested too deep&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unsatisfies the assertion, nested too deep\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert020.n1.xml"
+                        href='../saxonData/Assert/assert020.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2310,10 +2310,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert020.n1.xml"
+                    name='assert020.n1.xml'
                 ),
             ],
-            name="assert020",
+            name='assert020',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2325,11 +2325,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion combined with chameleon include"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion combined with chameleon include'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Effect of xpathDefaultNamespace="##targetNamespace"'
                                 ),
                             ]
@@ -2339,16 +2339,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert021.xsd"
+                        href='../saxonData/Assert/assert021.xsd'
                     ),
                 ],
                 expected=[
@@ -2360,7 +2360,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="assert021.xsd"
+                name='assert021.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2369,14 +2369,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert021.v1.xml"
+                        href='../saxonData/Assert/assert021.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2387,7 +2387,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert021.v1.xml"
+                    name='assert021.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2395,14 +2395,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unsatisfies the assertion, nested too deep&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unsatisfies the assertion, nested too deep\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert021.n1.xml"
+                        href='../saxonData/Assert/assert021.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2413,10 +2413,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert021.n1.xml"
+                    name='assert021.n1.xml'
                 ),
             ],
-            name="assert021",
+            name='assert021',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2428,12 +2428,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion testing type of data'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Elements below the assertion root are properly typed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Elements below the assertion root are properly typed'
                                 ),
                             ]
                         ),
@@ -2442,16 +2442,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert022.xsd"
+                        href='../saxonData/Assert/assert022.xsd'
                     ),
                 ],
                 expected=[
@@ -2463,7 +2463,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="assert022.xsd"
+                name='assert022.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2472,14 +2472,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, with a complex type, $value is the empty sequence&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, with a complex type, $value is the empty sequence\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert022.v1.xml"
+                        href='../saxonData/Assert/assert022.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2490,10 +2490,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="assert022.v1.xml"
+                    name='assert022.v1.xml'
                 ),
             ],
-            name="assert022",
+            name='assert022',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2505,12 +2505,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Check that comments are by default not visible in assertions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Check that comments are by default not visible in assertions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema asserts that comments are not allowed. Result depends on configuration&#10;                  setting (see resolution of spec bug 13935"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema asserts that comments are not allowed. Result depends on configuration\n                  setting (see resolution of spec bug 13935'
                                 ),
                             ]
                         ),
@@ -2519,19 +2519,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"
+                    href='http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert023.xsd"
+                        href='../saxonData/Assert/assert023.xsd'
                     ),
                 ],
                 expected=[
@@ -2543,7 +2543,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 5, 20)
                 ),
-                name="assert023.xsd"
+                name='assert023.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2552,14 +2552,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert023.v1.xml"
+                        href='../saxonData/Assert/assert023.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2570,7 +2570,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 5, 20)
                     ),
-                    name="assert023.v1.xml"
+                    name='assert023.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2578,14 +2578,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Result depends on processor settings.&#10;&#9;&#9;                By default it is valid, that is it satisfies the assertion, &#10;&#9;&#9;                because although there is a comment present, it is not visible&#10;&#9;&#9;                to the assertion in the absence of a user option to make it so.&#10;&#9;&#9;                If a processor option is set to make comments and processing instructions&#10;&#9;&#9;                visible, then the instance becomes invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Result depends on processor settings.\n\t\t                By default it is valid, that is it satisfies the assertion, \n\t\t                because although there is a comment present, it is not visible\n\t\t                to the assertion in the absence of a user option to make it so.\n\t\t                If a processor option is set to make comments and processing instructions\n\t\t                visible, then the instance becomes invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert023.n1.xml"
+                        href='../saxonData/Assert/assert023.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2595,7 +2595,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 11, 29),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935'
                     ),
                     prior=[
                         Prior(
@@ -2603,10 +2603,10 @@ obj = TestSet(
                             date=XmlDate(2011, 5, 20)
                         ),
                     ],
-                    name="assert023.v2.xml"
+                    name='assert023.v2.xml'
                 ),
             ],
-            name="assert023",
+            name='assert023',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2618,12 +2618,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Namespace-aware assertions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Namespace-aware assertions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The subtree being validated must include copies of in-scope namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The subtree being validated must include copies of in-scope namespaces'
                                 ),
                             ]
                         ),
@@ -2632,19 +2632,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"
+                    href='http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert024.xsd"
+                        href='../saxonData/Assert/assert024.xsd'
                     ),
                 ],
                 expected=[
@@ -2656,7 +2656,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 10, 17)
                 ),
-                name="assert024.xsd"
+                name='assert024.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2665,14 +2665,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert024.v1.xml"
+                        href='../saxonData/Assert/assert024.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2683,10 +2683,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 10, 17)
                     ),
-                    name="assert024.v1.xml"
+                    name='assert024.v1.xml'
                 ),
             ],
-            name="assert024",
+            name='assert024',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2698,12 +2698,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: date must be in the past"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion on a simple type: date must be in the past'
                                 ),
                             ]
                         ),
@@ -2712,16 +2712,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple001.xsd"
+                        href='../saxonData/Assert/assert-simple001.xsd'
                     ),
                 ],
                 expected=[
@@ -2733,7 +2733,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 12, 8)
                 ),
-                name="assert-simple001.xsd"
+                name='assert-simple001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2742,14 +2742,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple001.v1.xml"
+                        href='../saxonData/Assert/assert-simple001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2760,7 +2760,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 12, 8)
                     ),
-                    name="assert-simple001.v1.xml"
+                    name='assert-simple001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2768,14 +2768,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple001.n1.xml"
+                        href='../saxonData/Assert/assert-simple001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2786,10 +2786,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 12, 8)
                     ),
-                    name="assert-simple001.n1.xml"
+                    name='assert-simple001.n1.xml'
                 ),
             ],
-            name="assert-simple001",
+            name='assert-simple001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2801,12 +2801,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type using xpathDefaultNamespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type using xpathDefaultNamespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: value must be castable to xs:double"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion on a simple type: value must be castable to xs:double'
                                 ),
                             ]
                         ),
@@ -2815,19 +2815,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple003.xsd"
+                        href='../saxonData/Assert/assert-simple003.xsd'
                     ),
                 ],
                 expected=[
@@ -2839,7 +2839,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 5, 29)
                 ),
-                name="assert-simple003.xsd"
+                name='assert-simple003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2848,14 +2848,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple003.v1.xml"
+                        href='../saxonData/Assert/assert-simple003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2866,7 +2866,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert-simple003.v1.xml"
+                    name='assert-simple003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2874,14 +2874,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple003.n1.xml"
+                        href='../saxonData/Assert/assert-simple003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2892,10 +2892,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert-simple003.n1.xml"
+                    name='assert-simple003.n1.xml'
                 ),
             ],
-            name="assert-simple003",
+            name='assert-simple003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2907,12 +2907,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type using xpathDefaultNamespace on xs:schema element"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type using xpathDefaultNamespace on xs:schema element'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: value must be castable to xs:double"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion on a simple type: value must be castable to xs:double'
                                 ),
                             ]
                         ),
@@ -2921,19 +2921,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple004.xsd"
+                        href='../saxonData/Assert/assert-simple004.xsd'
                     ),
                 ],
                 expected=[
@@ -2945,7 +2945,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 5, 29)
                 ),
-                name="assert-simple004.xsd"
+                name='assert-simple004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2954,14 +2954,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple003.v1.xml"
+                        href='../saxonData/Assert/assert-simple003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2972,7 +2972,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert-simple004.v1.xml"
+                    name='assert-simple004.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2980,14 +2980,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple003.n1.xml"
+                        href='../saxonData/Assert/assert-simple003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2998,10 +2998,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 29)
                     ),
-                    name="assert-simple004.n1.xml"
+                    name='assert-simple004.n1.xml'
                 ),
             ],
-            name="assert-simple004",
+            name='assert-simple004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3013,12 +3013,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type with variety list"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type with variety list'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: $value contains the typed value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion on a simple type: $value contains the typed value'
                                 ),
                             ]
                         ),
@@ -3027,19 +3027,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple005.xsd"
+                        href='../saxonData/Assert/assert-simple005.xsd'
                     ),
                 ],
                 expected=[
@@ -3051,7 +3051,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert-simple005.xsd"
+                name='assert-simple005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3060,14 +3060,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple005.v1.xml"
+                        href='../saxonData/Assert/assert-simple005.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3078,7 +3078,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple005.v1.xml"
+                    name='assert-simple005.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3086,14 +3086,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple005.n1.xml"
+                        href='../saxonData/Assert/assert-simple005.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3104,10 +3104,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple005.n1.xml"
+                    name='assert-simple005.n1.xml'
                 ),
             ],
-            name="assert-simple005",
+            name='assert-simple005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3119,12 +3119,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type with variety union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type with variety union'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: $value contains the typed value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion on a simple type: $value contains the typed value'
                                 ),
                             ]
                         ),
@@ -3133,19 +3133,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple006.xsd"
+                        href='../saxonData/Assert/assert-simple006.xsd'
                     ),
                 ],
                 expected=[
@@ -3157,7 +3157,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert-simple006.xsd"
+                name='assert-simple006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3166,14 +3166,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple006.v1.xml"
+                        href='../saxonData/Assert/assert-simple006.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3184,7 +3184,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple006.v1.xml"
+                    name='assert-simple006.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3192,14 +3192,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple006.n1.xml"
+                        href='../saxonData/Assert/assert-simple006.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3210,10 +3210,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple006.n1.xml"
+                    name='assert-simple006.n1.xml'
                 ),
             ],
-            name="assert-simple006",
+            name='assert-simple006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3225,11 +3225,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type fails with dynamic XPath error'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Assertion tries to construct a date from a string that isn't a lexical date"
                                 ),
                             ]
@@ -3239,19 +3239,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple007.xsd"
+                        href='../saxonData/Assert/assert-simple007.xsd'
                     ),
                 ],
                 expected=[
@@ -3263,7 +3263,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert-simple007.xsd"
+                name='assert-simple007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3272,14 +3272,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple007.n1.xml"
+                        href='../saxonData/Assert/assert-simple007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3290,10 +3290,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple007.n1.xml"
+                    name='assert-simple007.n1.xml'
                 ),
             ],
-            name="assert-simple007",
+            name='assert-simple007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3305,12 +3305,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type fails with dynamic XPath error'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion references context item which is undefined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion references context item which is undefined'
                                 ),
                             ]
                         ),
@@ -3319,19 +3319,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple008.xsd"
+                        href='../saxonData/Assert/assert-simple008.xsd'
                     ),
                 ],
                 expected=[
@@ -3343,7 +3343,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert-simple008.xsd"
+                name='assert-simple008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3352,14 +3352,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple007.n1.xml"
+                        href='../saxonData/Assert/assert-simple007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3370,10 +3370,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple007.n1.xml"
+                    name='assert-simple007.n1.xml'
                 ),
             ],
-            name="assert-simple008",
+            name='assert-simple008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3385,12 +3385,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type fails with dynamic XPath error'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion references context position which is undefined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion references context position which is undefined'
                                 ),
                             ]
                         ),
@@ -3399,19 +3399,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple009.xsd"
+                        href='../saxonData/Assert/assert-simple009.xsd'
                     ),
                 ],
                 expected=[
@@ -3423,7 +3423,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert-simple009.xsd"
+                name='assert-simple009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3432,14 +3432,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple007.n1.xml"
+                        href='../saxonData/Assert/assert-simple007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3450,10 +3450,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple007.n1.xml"
+                    name='assert-simple007.n1.xml'
                 ),
             ],
-            name="assert-simple009",
+            name='assert-simple009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3465,12 +3465,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Assertion on a simple type fails with dynamic XPath error'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion references context size which is undefined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Assertion references context size which is undefined'
                                 ),
                             ]
                         ),
@@ -3479,19 +3479,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cAssertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Assert/assert-simple010.xsd"
+                        href='../saxonData/Assert/assert-simple010.xsd'
                     ),
                 ],
                 expected=[
@@ -3503,7 +3503,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 6, 11)
                 ),
-                name="assert-simple010.xsd"
+                name='assert-simple010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3512,14 +3512,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Assert/assert-simple007.n1.xml"
+                        href='../saxonData/Assert/assert-simple007.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3530,21 +3530,21 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 6, 11)
                     ),
-                    name="assert-simple007.n1.xml"
+                    name='assert-simple007.n1.xml'
                 ),
             ],
-            name="assert-simple010",
+            name='assert-simple010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="Assert",
+    contributor='Saxonica',
+    name='Assert',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

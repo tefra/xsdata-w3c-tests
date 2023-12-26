@@ -28,7 +28,7 @@ class B:
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -39,21 +39,21 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -69,5 +69,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

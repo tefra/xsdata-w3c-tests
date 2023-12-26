@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicGYearMaxInclusive2:
         metadata={
             "required": True,
             "max_inclusive": XmlPeriod("1975"),
-        }
+        },
     )

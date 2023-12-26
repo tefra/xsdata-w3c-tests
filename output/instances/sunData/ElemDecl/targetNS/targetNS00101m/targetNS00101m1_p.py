@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.target_ns.target_ns00101m.target_ns00101m_
 
 
 obj = Number(
-    value="XII"
+    value='XII'
 )

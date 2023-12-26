@@ -11,7 +11,7 @@ class ListType:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -27,5 +27,5 @@ class Outer:
             "type": "Element",
             "min_occurs": 1,
             "tokens": True,
-        }
+        },
     )

@@ -16,5 +16,5 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "pattern": r"[a-c]",
-        }
+        },
     )

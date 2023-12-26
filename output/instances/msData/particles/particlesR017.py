@@ -5,7 +5,7 @@ from output.models.ms_data.particles.particles_r017_xsd.particles_r017_imp impor
 
 obj = Doc(
     elem=R(
-        foo="",
+        foo='',
         imp_elem1_or_imp_elem2=ImpElem2(
 
         )

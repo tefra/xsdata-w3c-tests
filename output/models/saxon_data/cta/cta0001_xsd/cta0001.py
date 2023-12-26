@@ -23,14 +23,14 @@ class MessageType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -38,7 +38,7 @@ class MessageType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -57,7 +57,7 @@ class MessageTypeBase64(MessageType):
         default=None,
         metadata={
             "format": "base64",
-        }
+        },
     )
 
 
@@ -66,9 +66,7 @@ class MessageTypeDate(MessageType):
     class Meta:
         name = "messageTypeDate"
 
-    value: Optional[XmlDate] = field(
-        default=None
-    )
+    value: Optional[XmlDate] = field(default=None)
 
 
 @dataclass
@@ -76,9 +74,7 @@ class MessageTypeString(MessageType):
     class Meta:
         name = "messageTypeString"
 
-    value: str = field(
-        default=""
-    )
+    value: str = field(default="")
 
 
 @dataclass
@@ -86,9 +82,7 @@ class MessageTypeTime(MessageType):
     class Meta:
         name = "messageTypeTime"
 
-    value: Optional[XmlTime] = field(
-        default=None
-    )
+    value: Optional[XmlTime] = field(default=None)
 
 
 @dataclass
@@ -101,7 +95,7 @@ class MessageTypeXml(MessageType):
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -115,5 +109,5 @@ class Messages:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

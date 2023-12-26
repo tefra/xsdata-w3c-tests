@@ -11,7 +11,7 @@ class AttgRef:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -26,5 +26,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

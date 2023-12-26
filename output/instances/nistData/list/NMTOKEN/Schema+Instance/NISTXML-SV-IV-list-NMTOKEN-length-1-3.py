@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenLength1(
     value=[
-        "be:To.discovery.Language.structure:needed.h",
-        "and-pico-cellular.process.issues-ensure:abl",
-        "and_software.measurement.Additionally-servi",
-        "methods_a.government:basis:conformance.thes",
-        "for_be:defining_the_in:between.chain_techno",
+        'be:To.discovery.Language.structure:needed.h',
+        'and-pico-cellular.process.issues-ensure:abl',
+        'and_software.measurement.Additionally-servi',
+        'methods_a.government:basis:conformance.thes',
+        'for_be:defining_the_in:between.chain_techno',
     ]
 )

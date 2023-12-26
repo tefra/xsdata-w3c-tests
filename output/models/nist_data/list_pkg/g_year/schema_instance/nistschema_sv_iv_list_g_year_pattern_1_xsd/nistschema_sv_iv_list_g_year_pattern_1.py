@@ -15,5 +15,5 @@ class NistschemaSvIvListGYearPattern1:
         metadata={
             "pattern": r"\d\d81 \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27",
             "tokens": True,
-        }
+        },
     )

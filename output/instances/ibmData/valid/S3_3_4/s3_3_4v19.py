@@ -5,8 +5,8 @@ obj = Root(
     union_of_ids_element=[
         123,
         True,
-        "abc",
+        'abc',
         False,
     ],
-    idref_attr="abc"
+    idref_attr='abc'
 )

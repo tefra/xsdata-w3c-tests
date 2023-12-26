@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength3(
-    value="electronic-our:must:DOM-The_role:these_and:the:si"
+    value='electronic-our:must:DOM-The_role:these_and:the:si'
 )

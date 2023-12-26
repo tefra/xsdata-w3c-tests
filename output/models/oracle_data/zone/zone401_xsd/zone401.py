@@ -18,5 +18,5 @@ class Doc:
         default=None,
         metadata={
             "explicit_timezone": "required",
-        }
+        },
     )

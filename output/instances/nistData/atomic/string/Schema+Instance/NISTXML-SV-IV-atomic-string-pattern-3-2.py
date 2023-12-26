@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringPattern3(
-    value="138 Provides Available Related Efforts Street&#10;Act , IN 13420-1016"
+    value='138 Provides Available Related Efforts Street\nAct , IN 13420-1016'
 )

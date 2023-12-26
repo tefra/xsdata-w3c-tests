@@ -4,7 +4,7 @@ from output.models.ms_data.particles.particles_fa002_xsd.particles_fa002 import 
 
 obj = Doc(
     e1=A(
-        a=""
+        a=''
     ),
-    e2=""
+    e2=''
 )

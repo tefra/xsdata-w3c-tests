@@ -12,7 +12,7 @@ class Data:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -26,5 +26,5 @@ class Item:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )

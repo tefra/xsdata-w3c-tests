@@ -15,5 +15,5 @@ class Root:
         metadata={
             "name": "Local",
             "type": "Element",
-        }
+        },
     )

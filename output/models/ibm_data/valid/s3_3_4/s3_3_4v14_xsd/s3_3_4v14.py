@@ -14,7 +14,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "tokens": True,
-        }
+        },
     )
     idref_element: Optional[str] = field(
         default=None,
@@ -22,11 +22,11 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     idref_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

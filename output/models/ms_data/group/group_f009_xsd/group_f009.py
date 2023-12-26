@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -35,7 +35,7 @@ class Elem(B):
                 },
             ),
             "max_occurs": 999999999999999,
-        }
+        },
     )
 
 
@@ -49,5 +49,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

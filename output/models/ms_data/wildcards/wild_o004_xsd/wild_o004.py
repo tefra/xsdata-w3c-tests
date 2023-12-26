@@ -14,12 +14,12 @@ class Foo:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )

@@ -19,5 +19,5 @@ class Root:
             "min_occurs": 1,
             "min_inclusive": -12.0,
             "max_inclusive": 12.0,
-        }
+        },
     )

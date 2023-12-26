@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicQnamePattern3:
         metadata={
             "required": True,
             "pattern": r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{33}",
-        }
+        },
     )

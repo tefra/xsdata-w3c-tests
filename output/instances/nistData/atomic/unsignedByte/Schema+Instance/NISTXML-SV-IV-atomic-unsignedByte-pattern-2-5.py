@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.unsigned_byte.schema_instance.nistschema_sv_
 
 
 obj = NistschemaSvIvAtomicUnsignedBytePattern2(
-    value="88"
+    value='88'
 )

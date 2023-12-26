@@ -15,7 +15,7 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -31,5 +31,5 @@ class Doc:
                 "type": "Attribute",
                 "namespace": "http://xsdtesting",
                 "tokens": True,
-            }
+            },
         )

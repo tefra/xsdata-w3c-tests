@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.unsigned_short.schema_instance.nistschema_
 
 obj = NistschemaSvIvListUnsignedShortPattern5(
     value=[
-        "8",
-        "85",
-        "638",
-        "4278",
-        "62321",
-        "7",
-        "66",
+        '8',
+        '85',
+        '638',
+        '4278',
+        '62321',
+        '7',
+        '66',
     ]
 )

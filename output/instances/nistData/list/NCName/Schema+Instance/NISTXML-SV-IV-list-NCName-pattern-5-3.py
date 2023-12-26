@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnamePattern5(
     value=[
-        "memerging_product.has-communications-tool",
-        "eproblems_paradigm_lacking_registry_and-in.vendors-conforman",
-        "fto_to-a-and_of.software.specifications-respect_devices_",
-        "jwho-second-generation_these_to-through.so",
-        "qemerging_ele",
-        "_documents_will_challenges",
+        'memerging_product.has-communications-tool',
+        'eproblems_paradigm_lacking_registry_and-in.vendors-conforman',
+        'fto_to-a-and_of.software.specifications-respect_devices_',
+        'jwho-second-generation_these_to-through.so',
+        'qemerging_ele',
+        '_documents_will_challenges',
     ]
 )

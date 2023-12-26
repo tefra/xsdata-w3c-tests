@@ -15,7 +15,7 @@ class Chap:
             "type": "Element",
             "namespace": "http://simple001.ly/",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -24,20 +24,20 @@ class Chap:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         nr: float = field(
             default=float("inf"),
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         ref: str = field(
             init=False,
             default="+INF",
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -61,5 +61,5 @@ class Doc:
                     "type": Chap,
                 },
             ),
-        }
+        },
     )

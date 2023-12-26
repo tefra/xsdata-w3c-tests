@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringPattern3(
-    value="8333 Chair Of Pc Languages Street&#10;To , IA 13420-1016"
+    value='8333 Chair Of Pc Languages Street\nTo , IA 13420-1016'
 )

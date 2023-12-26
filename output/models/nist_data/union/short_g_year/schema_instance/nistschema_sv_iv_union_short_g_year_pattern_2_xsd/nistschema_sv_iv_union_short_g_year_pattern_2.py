@@ -13,5 +13,5 @@ class NistschemaSvIvUnionShortGYearPattern2:
         default="",
         metadata={
             "pattern": r"\-\d{3}",
-        }
+        },
     )

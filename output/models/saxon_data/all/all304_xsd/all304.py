@@ -12,20 +12,20 @@ class B:
         metadata={
             "type": "Element",
             "max_occurs": 5,
-        }
+        },
     )
     b: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "max_occurs": 5,
-        }
+        },
     )
     c: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     one_com_element: List[object] = field(
         default_factory=list,
@@ -34,7 +34,7 @@ class B:
             "namespace": "http://one.com/",
             "max_occurs": 2,
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -47,14 +47,14 @@ class E(B):
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     f: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "max_occurs": 4,
-        }
+        },
     )
     two_com_element: List[object] = field(
         default_factory=list,
@@ -63,7 +63,7 @@ class E(B):
             "namespace": "http://two.com/",
             "max_occurs": 2,
             "process_contents": "skip",
-        }
+        },
     )
 
 

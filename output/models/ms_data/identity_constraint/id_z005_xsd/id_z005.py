@@ -12,7 +12,7 @@ class BType:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class BsType:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -38,20 +38,20 @@ class AType:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     c: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     att_a: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class RType:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 

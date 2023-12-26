@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicGYearMaxExclusive2:
         metadata={
             "required": True,
             "max_exclusive": XmlPeriod("2022"),
-        }
+        },
     )

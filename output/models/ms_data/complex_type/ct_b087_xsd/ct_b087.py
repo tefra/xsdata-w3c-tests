@@ -12,7 +12,7 @@ class FooType:
         metadata={
             "name": "attrTest",
             "type": "Attribute",
-        }
+        },
     )
 
 

@@ -15,5 +15,5 @@ class A:
         metadata={
             "type": "Attributes",
             "namespace": "ns_test1 ns_test2",
-        }
+        },
     )

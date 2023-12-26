@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.g_year.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicGYearPattern5(
-    value="1921"
+    value='1921'
 )

@@ -15,14 +15,14 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     ga1: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
     @dataclass
@@ -32,12 +32,12 @@ class Doc:
             metadata={
                 "type": "Attribute",
                 "namespace": "http://xsdtesting",
-            }
+            },
         )
         ga2: Optional[int] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "namespace": "http://xsdtesting",
-            }
+            },
         )

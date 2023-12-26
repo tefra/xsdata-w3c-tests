@@ -5,15 +5,15 @@ from output.models.saxon_data.id.id050_xsd.id050 import EmpType
 obj = Doc(
     emp=[
         EmpType(
-            name="John",
+            name='John',
             nr=23
         ),
         EmpType(
-            name="Mary",
+            name='Mary',
             nr=29
         ),
         EmpType(
-            name="Ahmed",
+            name='Ahmed',
             nr=42
         ),
     ]

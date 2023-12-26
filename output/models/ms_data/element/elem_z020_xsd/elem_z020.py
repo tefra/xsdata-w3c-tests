@@ -6,7 +6,7 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class B:
-    choice: List[Union[int, bool]] = field(
+    choice: List[Union[bool, int]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -28,7 +28,7 @@ class B:
                 },
             ),
             "max_occurs": 1000,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class E1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class Foo:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 

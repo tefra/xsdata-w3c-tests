@@ -5,19 +5,19 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=Elem(
-        x="",
+        x='',
         a1_or_a2=[
             AnyElement(
-                qname="A1",
-                text=""
+                qname='A1',
+                text=''
             ),
             AnyElement(
-                qname="A2",
-                text=""
+                qname='A2',
+                text=''
             ),
             AnyElement(
-                qname="A1",
-                text=""
+                qname='A1',
+                text=''
             ),
         ]
     )

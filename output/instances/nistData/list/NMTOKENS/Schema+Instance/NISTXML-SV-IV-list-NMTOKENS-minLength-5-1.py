@@ -3,15 +3,15 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMinLength5(
     value=[
-        "The-acad",
-        "chair:In",
-        "retrieve",
-        "of-for-s",
-        "Schemas:",
-        "helping-",
-        "XML.for:",
-        "an-to.th",
-        "with_sen",
-        "of-known",
+        'The-acad',
+        'chair:In',
+        'retrieve',
+        'of-for-s',
+        'Schemas:',
+        'helping-',
+        'XML.for:',
+        'an-to.th',
+        'with_sen',
+        'of-known',
     ]
 )

@@ -3,9 +3,9 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    name="",
+    name='',
     local_target_namespace_element=AnyElement(
-        qname="zhang",
-        text=""
+        qname='zhang',
+        text=''
     )
 )

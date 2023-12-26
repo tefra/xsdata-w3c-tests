@@ -8,33 +8,33 @@ obj = Doc(
             node_or_id=[
                 Node(
                     id_one=[
-                        "ccc",
-                        "ccc",
+                        'ccc',
+                        'ccc',
                     ],
                     any_attributes={
-                        "id-two": "ddd ddd",
+                        'id-two': 'ddd ddd',
                     }
                 ),
                 Node(
                     id_one=[
-                        "eee",
+                        'eee',
                     ],
                     any_attributes={
-                        "id-two": "",
+                        'id-two': '',
                     }
                 ),
                 [
-                    "zzz",
-                    "bbb",
+                    'zzz',
+                    'bbb',
                 ],
                 [
-                    "aaa",
-                    "zzz",
-                    "bbb",
+                    'aaa',
+                    'zzz',
+                    'bbb',
                 ],
             ],
             any_attributes={
-                "id": "aaa bbb",
+                'id': 'aaa bbb',
             }
         ),
     ]

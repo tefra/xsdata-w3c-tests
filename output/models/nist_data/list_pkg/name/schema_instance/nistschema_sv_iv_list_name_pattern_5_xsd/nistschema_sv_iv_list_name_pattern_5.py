@@ -15,5 +15,5 @@ class NistschemaSvIvListNamePattern5:
         metadata={
             "pattern": r"\i\c{21} \i\c{22} \i\c{35} \i\c{25} \i\c{26} \i\c{12} \i\c{48} \i\c{33} \i\c{44} \i\c{57}",
             "tokens": True,
-        }
+        },
     )

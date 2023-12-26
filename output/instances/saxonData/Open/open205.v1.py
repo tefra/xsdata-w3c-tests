@@ -7,7 +7,7 @@ from xsdata.models.datatype import XmlDate
 
 obj = Doc(
     a=AType(
-        extra_number=Decimal("23.45"),
+        extra_number=Decimal('23.45'),
         extra_date=XmlDate(2007, 12, 12)
     ),
     b=BType(

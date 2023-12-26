@@ -12,26 +12,26 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     local_com_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://local.com/",
-        }
+        },
     )

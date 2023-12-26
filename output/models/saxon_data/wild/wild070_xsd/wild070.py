@@ -13,7 +13,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
@@ -21,7 +21,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
@@ -29,7 +29,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
@@ -37,7 +37,7 @@ class Zing:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
 
 

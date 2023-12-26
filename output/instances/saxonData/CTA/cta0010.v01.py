@@ -5,12 +5,12 @@ from output.models.saxon_data.cta.cta0010_xsd.cta0010 import Doc
 obj = Doc(
     chap=[
         Chap(
-            de="",
-            lang="de"
+            de='',
+            lang='de'
         ),
         Chap(
-            de=""
+            de=''
         ),
     ],
-    lang="de"
+    lang='de'
 )

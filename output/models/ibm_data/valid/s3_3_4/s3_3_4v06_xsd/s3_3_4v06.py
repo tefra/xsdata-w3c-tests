@@ -11,7 +11,7 @@ class Ids:
         default="zxc",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -26,5 +26,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

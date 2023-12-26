@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicAnyUriMaxLength3:
         metadata={
             "required": True,
             "max_length": 26,
-        }
+        },
     )

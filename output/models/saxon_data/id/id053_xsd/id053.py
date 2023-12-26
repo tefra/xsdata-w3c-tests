@@ -15,7 +15,7 @@ class EmpType:
             "type": "Element",
             "namespace": "http://id050.ly/",
             "required": True,
-        }
+        },
     )
     nr: Optional[int] = field(
         default=None,
@@ -23,14 +23,14 @@ class EmpType:
             "type": "Element",
             "namespace": "http://id050.ly/",
             "required": True,
-        }
+        },
     )
     manager: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://id050.ly/",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -14,5 +14,5 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "pattern": r"\p{Nd}{2}:\d\d:\d\d(\-\d\d:\d\d)?",
-        }
+        },
     )

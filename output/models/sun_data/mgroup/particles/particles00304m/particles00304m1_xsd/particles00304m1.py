@@ -17,7 +17,7 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     marked: Optional[bool] = field(
         default=None,
@@ -25,7 +25,7 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     num: Optional[int] = field(
         default=None,
@@ -33,5 +33,5 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

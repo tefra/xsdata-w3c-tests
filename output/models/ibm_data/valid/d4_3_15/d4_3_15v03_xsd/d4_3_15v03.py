@@ -10,14 +10,14 @@ class ParentType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     grandchild: Optional["ParentType.Grandchild"] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -26,13 +26,13 @@ class ParentType:
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         dob: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
     @dataclass
@@ -41,13 +41,13 @@ class ParentType:
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         dob: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -57,13 +57,13 @@ class TimerType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     iterations: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -79,7 +79,7 @@ class Data:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )
     parent: List[ParentType] = field(
         default_factory=list,
@@ -88,5 +88,5 @@ class Data:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )

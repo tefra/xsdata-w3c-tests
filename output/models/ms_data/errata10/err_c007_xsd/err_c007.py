@@ -16,7 +16,7 @@ class Root:
             "name": "localElement1",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     local_element2: Optional[object] = field(
         default=None,
@@ -24,7 +24,7 @@ class Root:
             "name": "localElement2",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class TestContent:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

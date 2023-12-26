@@ -5,11 +5,11 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdLength1(
         value=[
-            "_registry_retrieval",
-            "_the-investigation-",
-            "_to.that.use-provid",
-            "jensure-organizatio",
-            "xuse_interoperabili",
+            '_registry_retrieval',
+            '_the-investigation-',
+            '_to.that.use-provid',
+            'jensure-organizatio',
+            'xuse_interoperabili',
         ]
     )
 )

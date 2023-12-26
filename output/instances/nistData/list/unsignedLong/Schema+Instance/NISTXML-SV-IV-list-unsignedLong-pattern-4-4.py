@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.unsigned_long.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListUnsignedLongPattern4(
     value=[
-        "5",
-        "6774",
-        "8896288",
-        "8861464541",
-        "7128863757631",
-        "928722648777267761",
+        '5',
+        '6774',
+        '8896288',
+        '8861464541',
+        '7128863757631',
+        '928722648777267761',
     ]
 )

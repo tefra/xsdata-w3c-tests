@@ -28,5 +28,5 @@ class Root:
                     "min_length": 5,
                 },
             ),
-        }
+        },
     )

@@ -6,8 +6,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     p=D(
         any_element=AnyElement(
-            qname="qwe",
-            text="asd"
+            qname='qwe',
+            text='asd'
         ),
         x=1,
         y=2,

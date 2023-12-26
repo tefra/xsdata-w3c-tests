@@ -22,7 +22,7 @@ obj = Doc(
             ]
         ),
         DerivedElement(
-            qname="{http://simple001.ly/}appx",
+            qname='{http://simple001.ly/}appx',
             value=Chap(
                 section=[
                     Chap.Section(

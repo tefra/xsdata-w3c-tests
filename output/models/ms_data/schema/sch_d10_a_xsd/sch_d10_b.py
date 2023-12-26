@@ -26,7 +26,7 @@ class BCt:
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )
 
 

@@ -3,11 +3,11 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a_or_a="",
+    a_or_a='',
     any_element=[
         AnyElement(
-            qname="a",
-            text=""
+            qname='a',
+            text=''
         ),
     ]
 )

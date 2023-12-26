@@ -6,12 +6,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     elem=R(
         c1_or_c2=AnyElement(
-            qname="c1",
-            text="1"
+            qname='c1',
+            text='1'
         ),
         d1_or_d2=AnyElement(
-            qname="d2",
-            text="testing"
+            qname='d2',
+            text='testing'
         )
     )
 )

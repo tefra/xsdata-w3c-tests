@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.int_pkg.int_pattern001_xsd.int_patte
 
 
 obj = Test(
-    foo="5"
+    foo='5'
 )

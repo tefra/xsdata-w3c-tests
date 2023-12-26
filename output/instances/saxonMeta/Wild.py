@@ -23,12 +23,12 @@ obj = TestSet(
                 Documentation(
                     content=[
                         AnyElement(
-                            qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                            text="Tests for XSD 1.1 wildcard extensions"
+                            qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                            text='Tests for XSD 1.1 wildcard extensions'
                         ),
                         AnyElement(
-                            qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                            text="A number of tests, both valid and invalid, demonstrating use of the new&#10;                XSD 1.1 features for wildcards, for example the notNamespace and notQName attributes."
+                            qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                            text='A number of tests, both valid and invalid, demonstrating use of the new\n                XSD 1.1 features for wildcards, for example the notNamespace and notQName attributes.'
                         ),
                     ]
                 ),
@@ -43,12 +43,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:anyAttribute with notNamespace attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:anyAttribute with notNamespace attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any attribute except for two designated namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any attribute except for two designated namespaces'
                                 ),
                             ]
                         ),
@@ -57,16 +57,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild001.xsd"
+                        href='../saxonData/Wild/wild001.xsd'
                     ),
                 ],
                 expected=[
@@ -78,7 +78,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild001.xsd"
+                name='wild001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -87,14 +87,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild001.v1.xml"
+                        href='../saxonData/Wild/wild001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -105,7 +105,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild001.v1.xml"
+                    name='wild001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -113,14 +113,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild001.v2.xml"
+                        href='../saxonData/Wild/wild001.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -131,7 +131,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild001.v2.xml"
+                    name='wild001.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -139,14 +139,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild001.n1.xml"
+                        href='../saxonData/Wild/wild001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -157,7 +157,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild001.n1.xml"
+                    name='wild001.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -165,14 +165,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild001.n2.xml"
+                        href='../saxonData/Wild/wild001.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -183,10 +183,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild001.n2.xml"
+                    name='wild001.n2.xml'
                 ),
             ],
-            name="wild001",
+            name='wild001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -198,12 +198,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:anyAttribute with notNamespace attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:anyAttribute with notNamespace attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any attribute except for two designated namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any attribute except for two designated namespaces'
                                 ),
                             ]
                         ),
@@ -212,16 +212,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild002.xsd"
+                        href='../saxonData/Wild/wild002.xsd'
                     ),
                 ],
                 expected=[
@@ -233,7 +233,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild002.xsd"
+                name='wild002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -242,14 +242,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild002.v1.xml"
+                        href='../saxonData/Wild/wild002.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -260,7 +260,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild002.v1.xml"
+                    name='wild002.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -268,14 +268,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild002.v2.xml"
+                        href='../saxonData/Wild/wild002.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -286,7 +286,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild002.v2.xml"
+                    name='wild002.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -294,14 +294,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild002.n1.xml"
+                        href='../saxonData/Wild/wild002.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -312,7 +312,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild002.n1.xml"
+                    name='wild002.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -320,14 +320,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed atchildrentributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed atchildrentributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild002.n2.xml"
+                        href='../saxonData/Wild/wild002.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -338,10 +338,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild002.n2.xml"
+                    name='wild002.n2.xml'
                 ),
             ],
-            name="wild002",
+            name='wild002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -353,11 +353,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:anyAttribute with notNamespace = ##local"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:anyAttribute with notNamespace = ##local'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any attribute so long as it's in a namespace"
                                 ),
                             ]
@@ -367,16 +367,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild003.xsd"
+                        href='../saxonData/Wild/wild003.xsd'
                     ),
                 ],
                 expected=[
@@ -388,7 +388,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild003.xsd"
+                name='wild003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -397,14 +397,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild003.v1.xml"
+                        href='../saxonData/Wild/wild003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -415,7 +415,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild003.v1.xml"
+                    name='wild003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -423,14 +423,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild003.v2.xml"
+                        href='../saxonData/Wild/wild003.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -441,7 +441,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild003.v2.xml"
+                    name='wild003.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -449,14 +449,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild003.n1.xml"
+                        href='../saxonData/Wild/wild003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -467,10 +467,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild003.n1.xml"
+                    name='wild003.n1.xml'
                 ),
             ],
-            name="wild003",
+            name='wild003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -482,11 +482,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:any with notNamespace = ##local"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:any with notNamespace = ##local'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any child so long as it's in a namespace"
                                 ),
                             ]
@@ -496,16 +496,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild004.xsd"
+                        href='../saxonData/Wild/wild004.xsd'
                     ),
                 ],
                 expected=[
@@ -517,7 +517,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild004.xsd"
+                name='wild004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -526,14 +526,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild004.v1.xml"
+                        href='../saxonData/Wild/wild004.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -544,7 +544,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild004.v1.xml"
+                    name='wild004.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -552,14 +552,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted child present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted child present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild004.v2.xml"
+                        href='../saxonData/Wild/wild004.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -570,7 +570,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild004.v2.xml"
+                    name='wild004.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -578,14 +578,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed child present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed child present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild004.n1.xml"
+                        href='../saxonData/Wild/wild004.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -596,10 +596,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild004.n1.xml"
+                    name='wild004.n1.xml'
                 ),
             ],
-            name="wild004",
+            name='wild004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -611,11 +611,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in a no-namespace schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in a no-namespace schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any attribute so long as it's in a namespace"
                                 ),
                             ]
@@ -625,16 +625,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild005.xsd"
+                        href='../saxonData/Wild/wild005.xsd'
                     ),
                 ],
                 expected=[
@@ -646,7 +646,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild005.xsd"
+                name='wild005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -655,14 +655,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild003.v1.xml"
+                        href='../saxonData/Wild/wild003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -673,7 +673,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild005.v1.xml"
+                    name='wild005.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -681,14 +681,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild003.v2.xml"
+                        href='../saxonData/Wild/wild003.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -699,7 +699,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild005.v2.xml"
+                    name='wild005.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -707,14 +707,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild003.n1.xml"
+                        href='../saxonData/Wild/wild003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -725,10 +725,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild005.n1.xml"
+                    name='wild005.n1.xml'
                 ),
             ],
-            name="wild005",
+            name='wild005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -740,11 +740,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:any with notNamespace = ##targetNamespace in a no-namespace schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:any with notNamespace = ##targetNamespace in a no-namespace schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any child so long as it's in a namespace"
                                 ),
                             ]
@@ -754,16 +754,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild006.xsd"
+                        href='../saxonData/Wild/wild006.xsd'
                     ),
                 ],
                 expected=[
@@ -775,7 +775,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild006.xsd"
+                name='wild006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -784,14 +784,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild004.v1.xml"
+                        href='../saxonData/Wild/wild004.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -802,7 +802,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild006.v1.xml"
+                    name='wild006.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -810,14 +810,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted child present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted child present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild004.v2.xml"
+                        href='../saxonData/Wild/wild004.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -828,7 +828,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild006.v2.xml"
+                    name='wild006.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -836,14 +836,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed child present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed child present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild004.n1.xml"
+                        href='../saxonData/Wild/wild004.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -854,10 +854,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild006.n1.xml"
+                    name='wild006.n1.xml'
                 ),
             ],
-            name="wild006",
+            name='wild006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -869,12 +869,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Cannot mix namespace and notNamespace attributes within anyAttribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Cannot mix namespace and notNamespace attributes within anyAttribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid schema'
                                 ),
                             ]
                         ),
@@ -883,16 +883,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild007.bad.xsd"
+                        href='../saxonData/Wild/wild007.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -904,9 +904,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild007.xsd"
+                name='wild007.xsd'
             ),
-            name="wild007",
+            name='wild007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -918,12 +918,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Cannot mix namespace and notNamespace attributes within xs:any"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Cannot mix namespace and notNamespace attributes within xs:any'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid schema'
                                 ),
                             ]
                         ),
@@ -932,16 +932,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild008.bad.xsd"
+                        href='../saxonData/Wild/wild008.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -953,9 +953,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild008.xsd"
+                name='wild008.xsd'
             ),
-            name="wild008",
+            name='wild008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -967,11 +967,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of xs:anyAttribute with notNamespace = ##targetNamespace in a namespaced schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of xs:anyAttribute with notNamespace = ##targetNamespace in a namespaced schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any attribute so long as it's in a namespace other than target"
                                 ),
                             ]
@@ -981,16 +981,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild009.xsd"
+                        href='../saxonData/Wild/wild009.xsd'
                     ),
                 ],
                 expected=[
@@ -1002,7 +1002,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild009.xsd"
+                name='wild009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1011,14 +1011,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.v1.xml"
+                        href='../saxonData/Wild/wild009.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1029,7 +1029,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild009.v1.xml"
+                    name='wild009.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1037,14 +1037,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.v2.xml"
+                        href='../saxonData/Wild/wild009.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1055,7 +1055,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild009.v2.xml"
+                    name='wild009.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1063,14 +1063,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.n1.xml"
+                        href='../saxonData/Wild/wild009.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1081,7 +1081,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild009.n1.xml"
+                    name='wild009.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1089,14 +1089,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.n2.xml"
+                        href='../saxonData/Wild/wild009.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1107,10 +1107,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild009.n2.xml"
+                    name='wild009.n2.xml'
                 ),
             ],
-            name="wild009",
+            name='wild009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1122,11 +1122,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of xs:any with notNamespace = ##targetNamespace in a namespaced schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of xs:any with notNamespace = ##targetNamespace in a namespaced schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any child so long as it's in a namespace other than target"
                                 ),
                             ]
@@ -1136,16 +1136,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild010.xsd"
+                        href='../saxonData/Wild/wild010.xsd'
                     ),
                 ],
                 expected=[
@@ -1157,7 +1157,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild010.xsd"
+                name='wild010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1166,14 +1166,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.v1.xml"
+                        href='../saxonData/Wild/wild010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1184,7 +1184,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild010.v1.xml"
+                    name='wild010.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1192,14 +1192,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.v2.xml"
+                        href='../saxonData/Wild/wild010.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1210,7 +1210,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild010.v2.xml"
+                    name='wild010.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1218,14 +1218,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.n1.xml"
+                        href='../saxonData/Wild/wild010.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1236,7 +1236,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild010.n1.xml"
+                    name='wild010.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1244,14 +1244,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.n2.xml"
+                        href='../saxonData/Wild/wild010.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1262,10 +1262,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild010.n2.xml"
+                    name='wild010.n2.xml'
                 ),
             ],
-            name="wild010",
+            name='wild010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1277,11 +1277,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of xs:anyAttribute with notNamespace = ##targetNamespace in a chameleon schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of xs:anyAttribute with notNamespace = ##targetNamespace in a chameleon schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any attribute so long as it's in a namespace other than target"
                                 ),
                             ]
@@ -1291,16 +1291,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild011.xsd"
+                        href='../saxonData/Wild/wild011.xsd'
                     ),
                 ],
                 expected=[
@@ -1312,7 +1312,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild011.xsd"
+                name='wild011.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1321,14 +1321,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.v1.xml"
+                        href='../saxonData/Wild/wild009.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1339,7 +1339,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild011.v1.xml"
+                    name='wild011.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1347,14 +1347,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.v2.xml"
+                        href='../saxonData/Wild/wild009.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1365,7 +1365,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild011.v2.xml"
+                    name='wild011.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1373,14 +1373,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.n1.xml"
+                        href='../saxonData/Wild/wild009.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1391,7 +1391,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild011.n1.xml"
+                    name='wild011.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1399,14 +1399,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild009.n2.xml"
+                        href='../saxonData/Wild/wild009.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1417,10 +1417,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild011.n2.xml"
+                    name='wild011.n2.xml'
                 ),
             ],
-            name="wild011",
+            name='wild011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1432,11 +1432,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of xs:any with notNamespace = ##targetNamespace in a namespaced schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of xs:any with notNamespace = ##targetNamespace in a namespaced schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Allows any child so long as it's in a namespace other than target"
                                 ),
                             ]
@@ -1446,16 +1446,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild012.xsd"
+                        href='../saxonData/Wild/wild012.xsd'
                     ),
                 ],
                 expected=[
@@ -1467,7 +1467,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild012.xsd"
+                name='wild012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1476,14 +1476,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.v1.xml"
+                        href='../saxonData/Wild/wild010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1494,7 +1494,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild012.v1.xml"
+                    name='wild012.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1502,14 +1502,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, permitted children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, permitted children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.v2.xml"
+                        href='../saxonData/Wild/wild010.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1520,7 +1520,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild012.v2.xml"
+                    name='wild012.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1528,14 +1528,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.n1.xml"
+                        href='../saxonData/Wild/wild010.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1546,7 +1546,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild012.n1.xml"
+                    name='wild012.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1554,14 +1554,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed children present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed children present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild010.n2.xml"
+                        href='../saxonData/Wild/wild010.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1572,10 +1572,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild012.n2.xml"
+                    name='wild012.n2.xml'
                 ),
             ],
-            name="wild012",
+            name='wild012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1587,12 +1587,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union of two wildcards using notNamespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Union of two wildcards using notNamespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The union allows anything"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The union allows anything'
                                 ),
                             ]
                         ),
@@ -1601,16 +1601,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild013.xsd"
+                        href='../saxonData/Wild/wild013.xsd'
                     ),
                 ],
                 expected=[
@@ -1622,7 +1622,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild013.xsd"
+                name='wild013.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1631,14 +1631,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, all attributes are permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, all attributes are permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild013.v1.xml"
+                        href='../saxonData/Wild/wild013.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1649,10 +1649,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild013.v1.xml"
+                    name='wild013.v1.xml'
                 ),
             ],
-            name="wild013",
+            name='wild013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1664,12 +1664,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union of two wildcards using notNamespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Union of two wildcards using notNamespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The union allows abel but not cain"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The union allows abel but not cain'
                                 ),
                             ]
                         ),
@@ -1678,16 +1678,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild014.xsd"
+                        href='../saxonData/Wild/wild014.xsd'
                     ),
                 ],
                 expected=[
@@ -1699,7 +1699,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild014.xsd"
+                name='wild014.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1708,14 +1708,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, abel is permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, abel is permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild014.v1.xml"
+                        href='../saxonData/Wild/wild014.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1726,7 +1726,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild014.v1.xml"
+                    name='wild014.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1734,14 +1734,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, cain is banished.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, cain is banished.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild014.n1.xml"
+                        href='../saxonData/Wild/wild014.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1752,10 +1752,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild014.n1.xml"
+                    name='wild014.n1.xml'
                 ),
             ],
-            name="wild014",
+            name='wild014',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1767,12 +1767,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union of two wildcards using namespace and notNamespace respectively"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Union of two wildcards using namespace and notNamespace respectively'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The union allows adam, eve, and abel but not cain"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The union allows adam, eve, and abel but not cain'
                                 ),
                             ]
                         ),
@@ -1781,16 +1781,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild015.xsd"
+                        href='../saxonData/Wild/wild015.xsd'
                     ),
                 ],
                 expected=[
@@ -1802,7 +1802,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild015.xsd"
+                name='wild015.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1811,14 +1811,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, all three attributes permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, all three attributes permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild015.v1.xml"
+                        href='../saxonData/Wild/wild015.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1829,7 +1829,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild015.v1.xml"
+                    name='wild015.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1837,14 +1837,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, cain is banished.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, cain is banished.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild015.n1.xml"
+                        href='../saxonData/Wild/wild015.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1855,10 +1855,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild015.n1.xml"
+                    name='wild015.n1.xml'
                 ),
             ],
-            name="wild015",
+            name='wild015',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1870,12 +1870,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union of two wildcards using namespace and notNamespace respectively"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Union of two wildcards using namespace and notNamespace respectively'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The union allows adam, eve, and abel but not cain.&#10;                             Inversion of wild015.xsd."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The union allows adam, eve, and abel but not cain.\n                             Inversion of wild015.xsd.'
                                 ),
                             ]
                         ),
@@ -1884,16 +1884,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild016.xsd"
+                        href='../saxonData/Wild/wild016.xsd'
                     ),
                 ],
                 expected=[
@@ -1905,7 +1905,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild016.xsd"
+                name='wild016.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1914,14 +1914,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, all three attributes permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, all three attributes permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild015.v1.xml"
+                        href='../saxonData/Wild/wild015.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1932,7 +1932,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild016.v1.xml"
+                    name='wild016.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1940,14 +1940,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, cain is banished.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, cain is banished.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild015.n1.xml"
+                        href='../saxonData/Wild/wild015.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1958,10 +1958,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild016.n1.xml"
+                    name='wild016.n1.xml'
                 ),
             ],
-            name="wild016",
+            name='wild016',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1973,12 +1973,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid restriction of wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid restriction of wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type disallows more namespaces than the base type disallows"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type disallows more namespaces than the base type disallows'
                                 ),
                             ]
                         ),
@@ -1987,16 +1987,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild017.xsd"
+                        href='../saxonData/Wild/wild017.xsd'
                     ),
                 ],
                 expected=[
@@ -2008,7 +2008,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild017.xsd"
+                name='wild017.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2017,14 +2017,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.v1.xml"
+                        href='../saxonData/Wild/wild017.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2035,7 +2035,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild017.v1.xml"
+                    name='wild017.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2043,14 +2043,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n1.xml"
+                        href='../saxonData/Wild/wild017.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2061,7 +2061,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild017.n1.xml"
+                    name='wild017.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2069,14 +2069,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n2.xml"
+                        href='../saxonData/Wild/wild017.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2087,7 +2087,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild017.n2.xml"
+                    name='wild017.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2095,14 +2095,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n3.xml"
+                        href='../saxonData/Wild/wild017.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -2113,10 +2113,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild017.n3.xml"
+                    name='wild017.n3.xml'
                 ),
             ],
-            name="wild017",
+            name='wild017',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2128,12 +2128,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid restriction of wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid restriction of wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type disallows more namespaces than the base type disallows"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type disallows more namespaces than the base type disallows'
                                 ),
                             ]
                         ),
@@ -2142,16 +2142,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild018.xsd"
+                        href='../saxonData/Wild/wild018.xsd'
                     ),
                 ],
                 expected=[
@@ -2163,7 +2163,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild018.xsd"
+                name='wild018.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2172,14 +2172,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.v1.xml"
+                        href='../saxonData/Wild/wild017.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2190,7 +2190,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild018.v1.xml"
+                    name='wild018.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2198,14 +2198,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n1.xml"
+                        href='../saxonData/Wild/wild017.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2216,7 +2216,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild018.n1.xml"
+                    name='wild018.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2224,14 +2224,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n2.xml"
+                        href='../saxonData/Wild/wild017.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2242,7 +2242,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild018.n2.xml"
+                    name='wild018.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2250,14 +2250,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n3.xml"
+                        href='../saxonData/Wild/wild017.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -2268,10 +2268,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild018.n3.xml"
+                    name='wild018.n3.xml'
                 ),
             ],
-            name="wild018",
+            name='wild018',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2283,12 +2283,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid restriction of wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Valid restriction of wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type disallows more namespaces than the base type disallows"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type disallows more namespaces than the base type disallows'
                                 ),
                             ]
                         ),
@@ -2297,16 +2297,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild019.xsd"
+                        href='../saxonData/Wild/wild019.xsd'
                     ),
                 ],
                 expected=[
@@ -2318,7 +2318,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild019.xsd"
+                name='wild019.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2327,14 +2327,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.v1.xml"
+                        href='../saxonData/Wild/wild017.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2345,7 +2345,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild019.v1.xml"
+                    name='wild019.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2353,14 +2353,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n1.xml"
+                        href='../saxonData/Wild/wild017.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2371,7 +2371,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild019.n1.xml"
+                    name='wild019.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2379,14 +2379,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n2.xml"
+                        href='../saxonData/Wild/wild017.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2397,7 +2397,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild019.n2.xml"
+                    name='wild019.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2405,14 +2405,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild017.n3.xml"
+                        href='../saxonData/Wild/wild017.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -2423,10 +2423,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild019.n3.xml"
+                    name='wild019.n3.xml'
                 ),
             ],
-            name="wild019",
+            name='wild019',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2438,12 +2438,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid restriction of wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid restriction of wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type allows more namespaces than base type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type allows more namespaces than base type'
                                 ),
                             ]
                         ),
@@ -2452,16 +2452,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild020.bad.xsd"
+                        href='../saxonData/Wild/wild020.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2473,9 +2473,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild020.xsd"
+                name='wild020.xsd'
             ),
-            name="wild020",
+            name='wild020',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2487,12 +2487,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid restriction of wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid restriction of wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type allows more namespaces than base type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type allows more namespaces than base type'
                                 ),
                             ]
                         ),
@@ -2501,16 +2501,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild021.bad.xsd"
+                        href='../saxonData/Wild/wild021.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2522,9 +2522,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild021.xsd"
+                name='wild021.xsd'
             ),
-            name="wild021",
+            name='wild021',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2536,12 +2536,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid restriction of wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid restriction of wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type allows more namespaces than base type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type allows more namespaces than base type'
                                 ),
                             ]
                         ),
@@ -2550,16 +2550,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild022.bad.xsd"
+                        href='../saxonData/Wild/wild022.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2571,9 +2571,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild022.xsd"
+                name='wild022.xsd'
             ),
-            name="wild022",
+            name='wild022',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2585,12 +2585,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard intersection"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard intersection'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type allows anything allowed by all the attribute wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type allows anything allowed by all the attribute wildcards'
                                 ),
                             ]
                         ),
@@ -2599,16 +2599,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild023.xsd"
+                        href='../saxonData/Wild/wild023.xsd'
                     ),
                 ],
                 expected=[
@@ -2620,7 +2620,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild023.xsd"
+                name='wild023.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2629,14 +2629,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild023.v1.xml"
+                        href='../saxonData/Wild/wild023.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2647,7 +2647,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild023.v1.xml"
+                    name='wild023.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2655,14 +2655,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild023.n1.xml"
+                        href='../saxonData/Wild/wild023.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2673,7 +2673,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild023.n1.xml"
+                    name='wild023.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2681,14 +2681,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in no namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in no namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild023.n2.xml"
+                        href='../saxonData/Wild/wild023.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2699,10 +2699,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild023.n2.xml"
+                    name='wild023.n2.xml'
                 ),
             ],
-            name="wild023",
+            name='wild023',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2714,12 +2714,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard intersection"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard intersection'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type allows anything allowed by all the attribute wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type allows anything allowed by all the attribute wildcards'
                                 ),
                             ]
                         ),
@@ -2728,16 +2728,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild024.xsd"
+                        href='../saxonData/Wild/wild024.xsd'
                     ),
                 ],
                 expected=[
@@ -2749,7 +2749,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild024.xsd"
+                name='wild024.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2758,14 +2758,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild023.v1.xml"
+                        href='../saxonData/Wild/wild023.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2776,7 +2776,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild024.v1.xml"
+                    name='wild024.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2784,14 +2784,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute in no namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute in no namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild024.v2.xml"
+                        href='../saxonData/Wild/wild024.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2802,7 +2802,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild024.v2.xml"
+                    name='wild024.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2810,14 +2810,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild023.n1.xml"
+                        href='../saxonData/Wild/wild023.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2828,10 +2828,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild024.n1.xml"
+                    name='wild024.n1.xml'
                 ),
             ],
-            name="wild024",
+            name='wild024',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2843,12 +2843,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard intersection"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard intersection'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type allows anything allowed by all the attribute wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type allows anything allowed by all the attribute wildcards'
                                 ),
                             ]
                         ),
@@ -2857,16 +2857,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild025.xsd"
+                        href='../saxonData/Wild/wild025.xsd'
                     ),
                 ],
                 expected=[
@@ -2878,7 +2878,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild025.xsd"
+                name='wild025.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2887,14 +2887,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.v1.xml"
+                        href='../saxonData/Wild/wild025.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2905,7 +2905,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild025.v1.xml"
+                    name='wild025.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2913,14 +2913,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n1.xml"
+                        href='../saxonData/Wild/wild025.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2931,7 +2931,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild025.n1.xml"
+                    name='wild025.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2939,14 +2939,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n2.xml"
+                        href='../saxonData/Wild/wild025.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2957,7 +2957,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild025.n2.xml"
+                    name='wild025.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2965,14 +2965,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n3.xml"
+                        href='../saxonData/Wild/wild025.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -2983,7 +2983,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild025.n3.xml"
+                    name='wild025.n3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2991,14 +2991,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n4.xml"
+                        href='../saxonData/Wild/wild025.n4.xml'
                     ),
                     expected=[
                         Expected(
@@ -3009,10 +3009,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild025.n4.xml"
+                    name='wild025.n4.xml'
                 ),
             ],
-            name="wild025",
+            name='wild025',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3024,12 +3024,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard intersection"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard intersection'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type allows anything allowed by all the attribute wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type allows anything allowed by all the attribute wildcards'
                                 ),
                             ]
                         ),
@@ -3038,16 +3038,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild026.xsd"
+                        href='../saxonData/Wild/wild026.xsd'
                     ),
                 ],
                 expected=[
@@ -3059,7 +3059,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 17)
                 ),
-                name="wild026.xsd"
+                name='wild026.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3068,14 +3068,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute permitted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute permitted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.v1.xml"
+                        href='../saxonData/Wild/wild025.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3086,7 +3086,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild026.v1.xml"
+                    name='wild026.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3094,14 +3094,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n1.xml"
+                        href='../saxonData/Wild/wild025.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3112,7 +3112,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild026.n1.xml"
+                    name='wild026.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3120,14 +3120,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n2.xml"
+                        href='../saxonData/Wild/wild025.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3138,7 +3138,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild026.n2.xml"
+                    name='wild026.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3146,14 +3146,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n3.xml"
+                        href='../saxonData/Wild/wild025.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -3164,7 +3164,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild026.n3.xml"
+                    name='wild026.n3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3172,14 +3172,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute in disallowed namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute in disallowed namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild025.n4.xml"
+                        href='../saxonData/Wild/wild025.n4.xml'
                     ),
                     expected=[
                         Expected(
@@ -3190,10 +3190,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 17)
                     ),
-                    name="wild026.n4.xml"
+                    name='wild026.n4.xml'
                 ),
             ],
-            name="wild026",
+            name='wild026',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3205,12 +3205,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:anyAttribute with notQName attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:anyAttribute with notQName attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any attribute except for xml:space or xml:id"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any attribute except for xml:space or xml:id'
                                 ),
                             ]
                         ),
@@ -3219,16 +3219,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild027.xsd"
+                        href='../saxonData/Wild/wild027.xsd'
                     ),
                 ],
                 expected=[
@@ -3240,7 +3240,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild027.xsd"
+                name='wild027.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3249,14 +3249,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, only permitted attributes present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, only permitted attributes present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild027.v1.xml"
+                        href='../saxonData/Wild/wild027.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3267,7 +3267,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild027.v1.xml"
+                    name='wild027.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3275,14 +3275,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed xml:space attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed xml:space attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild027.n1.xml"
+                        href='../saxonData/Wild/wild027.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3293,7 +3293,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild027.n1.xml"
+                    name='wild027.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3301,14 +3301,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed xml:id attribute present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed xml:id attribute present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild027.n2.xml"
+                        href='../saxonData/Wild/wild027.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3319,10 +3319,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild027.n2.xml"
+                    name='wild027.n2.xml'
                 ),
             ],
-            name="wild027",
+            name='wild027',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3334,12 +3334,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of xs:any with notQName attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of xs:any with notQName attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any child element except for xml:space or xml:id"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any child element except for xml:space or xml:id'
                                 ),
                             ]
                         ),
@@ -3348,16 +3348,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild028.xsd"
+                        href='../saxonData/Wild/wild028.xsd'
                     ),
                 ],
                 expected=[
@@ -3369,7 +3369,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild028.xsd"
+                name='wild028.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3378,14 +3378,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, only permitted elements present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, only permitted elements present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild028.v1.xml"
+                        href='../saxonData/Wild/wild028.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3396,7 +3396,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild028.v1.xml"
+                    name='wild028.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3404,14 +3404,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed xml:space element present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed xml:space element present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild028.n1.xml"
+                        href='../saxonData/Wild/wild028.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3422,7 +3422,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild028.n1.xml"
+                    name='wild028.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3430,14 +3430,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed xml:id element present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed xml:id element present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild028.n2.xml"
+                        href='../saxonData/Wild/wild028.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3448,10 +3448,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild028.n2.xml"
+                    name='wild028.n2.xml'
                 ),
             ],
-            name="wild028",
+            name='wild028',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3463,12 +3463,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of xs:any with notQName attribute in an xs:sequence model group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of xs:any with notQName attribute in an xs:sequence model group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any child element except for a"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows any child element except for a'
                                 ),
                             ]
                         ),
@@ -3477,16 +3477,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild029.xsd"
+                        href='../saxonData/Wild/wild029.xsd'
                     ),
                 ],
                 expected=[
@@ -3498,7 +3498,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild029.xsd"
+                name='wild029.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3507,14 +3507,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, only permitted elements present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, only permitted elements present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild029.v1.xml"
+                        href='../saxonData/Wild/wild029.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3525,7 +3525,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild029.v1.xml"
+                    name='wild029.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3533,14 +3533,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, disallowed element present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, disallowed element present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild029.n1.xml"
+                        href='../saxonData/Wild/wild029.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3551,7 +3551,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild029.n1.xml"
+                    name='wild029.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3559,14 +3559,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, not element present to match the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, not element present to match the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild029.n2.xml"
+                        href='../saxonData/Wild/wild029.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3577,10 +3577,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild029.n2.xml"
+                    name='wild029.n2.xml'
                 ),
             ],
-            name="wild029",
+            name='wild029',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3592,12 +3592,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Example from the spec: restricting away a child element that overlaps a wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Example from the spec: restricting away a child element that overlaps a wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="No speaker element allowed on the subtype"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='No speaker element allowed on the subtype'
                                 ),
                             ]
                         ),
@@ -3606,16 +3606,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild030.xsd"
+                        href='../saxonData/Wild/wild030.xsd'
                     ),
                 ],
                 expected=[
@@ -3627,7 +3627,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild030.xsd"
+                name='wild030.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3636,14 +3636,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, only permitted elements present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, only permitted elements present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild030.v1.xml"
+                        href='../saxonData/Wild/wild030.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3654,7 +3654,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild030.v1.xml"
+                    name='wild030.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3662,14 +3662,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, valid instance of the subtype.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, valid instance of the subtype.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild030.v2.xml"
+                        href='../saxonData/Wild/wild030.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3680,7 +3680,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild030.v2.xml"
+                    name='wild030.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3688,14 +3688,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid, disallowed element "speaker" is present.&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid, disallowed element "speaker" is present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild030.n1.xml"
+                        href='../saxonData/Wild/wild030.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3706,10 +3706,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild030.n1.xml"
+                    name='wild030.n1.xml'
                 ),
             ],
-            name="wild030",
+            name='wild030',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3721,12 +3721,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Name in notQName is a name that would not be allowed anyway"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Name in notQName is a name that would not be allowed anyway'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violates rule 4 of 3.10.6.1 Wildcard Properties Correct"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violates rule 4 of 3.10.6.1 Wildcard Properties Correct'
                                 ),
                             ]
                         ),
@@ -3735,16 +3735,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild031.bad.xsd"
+                        href='../saxonData/Wild/wild031.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3756,9 +3756,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild031.xsd"
+                name='wild031.xsd'
             ),
-            name="wild031",
+            name='wild031',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3770,12 +3770,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Name in notQName is a name that would not be allowed anyway"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Name in notQName is a name that would not be allowed anyway'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violates rule 4 of 3.10.6.1 Wildcard Properties Correct"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violates rule 4 of 3.10.6.1 Wildcard Properties Correct'
                                 ),
                             ]
                         ),
@@ -3784,16 +3784,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild032.bad.xsd"
+                        href='../saxonData/Wild/wild032.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3805,9 +3805,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild032.xsd"
+                name='wild032.xsd'
             ),
-            name="wild032",
+            name='wild032',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3819,12 +3819,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Name in notQName is a name that would not be allowed anyway"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Name in notQName is a name that would not be allowed anyway'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violates rule 4 of 3.10.6.1 Wildcard Properties Correct"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violates rule 4 of 3.10.6.1 Wildcard Properties Correct'
                                 ),
                             ]
                         ),
@@ -3833,16 +3833,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild033.bad.xsd"
+                        href='../saxonData/Wild/wild033.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3854,9 +3854,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild033.xsd"
+                name='wild033.xsd'
             ),
-            name="wild033",
+            name='wild033',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3868,12 +3868,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Name in notQName is a name that would not be allowed anyway"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Name in notQName is a name that would not be allowed anyway'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violates rule 4 of 3.10.6.1 Wildcard Properties Correct"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violates rule 4 of 3.10.6.1 Wildcard Properties Correct'
                                 ),
                             ]
                         ),
@@ -3882,16 +3882,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild034.bad.xsd"
+                        href='../saxonData/Wild/wild034.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3903,9 +3903,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild034.xsd"
+                name='wild034.xsd'
             ),
-            name="wild034",
+            name='wild034',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3917,12 +3917,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Name in notQName is a name that would not be allowed anyway"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Name in notQName is a name that would not be allowed anyway'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violates rule 4 of 3.10.6.1 Wildcard Properties Correct"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violates rule 4 of 3.10.6.1 Wildcard Properties Correct'
                                 ),
                             ]
                         ),
@@ -3931,16 +3931,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild035.bad.xsd"
+                        href='../saxonData/Wild/wild035.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3952,9 +3952,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild035.xsd"
+                name='wild035.xsd'
             ),
-            name="wild035",
+            name='wild035',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3966,12 +3966,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Undeclared prefix in QName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Undeclared prefix in QName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="invalid QName in notQName attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='invalid QName in notQName attribute'
                                 ),
                             ]
                         ),
@@ -3980,16 +3980,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild036.bad.xsd"
+                        href='../saxonData/Wild/wild036.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4001,9 +4001,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild036.xsd"
+                name='wild036.xsd'
             ),
-            name="wild036",
+            name='wild036',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4015,12 +4015,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid QName in notQName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid QName in notQName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="invalid QName in notQName attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='invalid QName in notQName attribute'
                                 ),
                             ]
                         ),
@@ -4029,16 +4029,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild037.bad.xsd"
+                        href='../saxonData/Wild/wild037.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4050,9 +4050,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild037.xsd"
+                name='wild037.xsd'
             ),
-            name="wild037",
+            name='wild037',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4064,12 +4064,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid QName in notQName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid QName in notQName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="invalid QName in notQName attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='invalid QName in notQName attribute'
                                 ),
                             ]
                         ),
@@ -4078,16 +4078,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild038.bad.xsd"
+                        href='../saxonData/Wild/wild038.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4099,9 +4099,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild038.xsd"
+                name='wild038.xsd'
             ),
-            name="wild038",
+            name='wild038',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4113,12 +4113,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid QName in notQName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid QName in notQName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="invalid QName in notQName attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='invalid QName in notQName attribute'
                                 ),
                             ]
                         ),
@@ -4127,16 +4127,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild039.bad.xsd"
+                        href='../saxonData/Wild/wild039.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4148,9 +4148,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild039.xsd"
+                name='wild039.xsd'
             ),
-            name="wild039",
+            name='wild039',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4162,12 +4162,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Banning xsi attributes has no effect"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Banning xsi attributes has no effect'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xsi:type is validated without reference to attribute uses or wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xsi:type is validated without reference to attribute uses or wildcards'
                                 ),
                             ]
                         ),
@@ -4176,16 +4176,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild040.xsd"
+                        href='../saxonData/Wild/wild040.xsd'
                     ),
                 ],
                 expected=[
@@ -4197,7 +4197,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild040.xsd"
+                name='wild040.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4206,14 +4206,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, xsi:type is permitted despite the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, xsi:type is permitted despite the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild040.v1.xml"
+                        href='../saxonData/Wild/wild040.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4224,7 +4224,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild040.v1.xml"
+                    name='wild040.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4232,14 +4232,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, xsi:type has to conform to the standard rules regardless of processContents=skip.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, xsi:type has to conform to the standard rules regardless of processContents=skip.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild040.n1.xml"
+                        href='../saxonData/Wild/wild040.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4250,10 +4250,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild040.n1.xml"
+                    name='wild040.n1.xml'
                 ),
             ],
-            name="wild040",
+            name='wild040',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4265,12 +4265,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Explicit attribute in xsi namespace is not allowed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Explicit attribute in xsi namespace is not allowed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Error: see 3.2.6.4 xsi: not allowed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Error: see 3.2.6.4 xsi: not allowed'
                                 ),
                             ]
                         ),
@@ -4279,16 +4279,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild041.bad.xsd"
+                        href='../saxonData/Wild/wild041.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4300,9 +4300,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild041.xsd"
+                name='wild041.xsd'
             ),
-            name="wild041",
+            name='wild041',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4314,12 +4314,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi attribute wildcards are allowed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi attribute wildcards are allowed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="There's no rule to stop non-standard attributes in the xsi namespace being&#10;                introduced by wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="There's no rule to stop non-standard attributes in the xsi namespace being\n                introduced by wildcard"
                                 ),
                             ]
                         ),
@@ -4328,16 +4328,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild042.xsd"
+                        href='../saxonData/Wild/wild042.xsd'
                     ),
                 ],
                 expected=[
@@ -4349,7 +4349,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild042.xsd"
+                name='wild042.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4358,14 +4358,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, xsi:banana is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, xsi:banana is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild042.v1.xml"
+                        href='../saxonData/Wild/wild042.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4376,7 +4376,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild042.v1.xml"
+                    name='wild042.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4384,14 +4384,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, xsi:nil is governed by the built-in type definition, not the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, xsi:nil is governed by the built-in type definition, not the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild042.n1.xml"
+                        href='../saxonData/Wild/wild042.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4402,10 +4402,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild042.n1.xml"
+                    name='wild042.n1.xml'
                 ),
             ],
-            name="wild042",
+            name='wild042',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4417,12 +4417,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard intersection with notQName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard intersection with notQName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="disallows the union of the disallowed QNames"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='disallows the union of the disallowed QNames'
                                 ),
                             ]
                         ),
@@ -4431,16 +4431,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild043.xsd"
+                        href='../saxonData/Wild/wild043.xsd'
                     ),
                 ],
                 expected=[
@@ -4452,7 +4452,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild043.xsd"
+                name='wild043.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4461,14 +4461,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute f is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute f is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild043.v1.xml"
+                        href='../saxonData/Wild/wild043.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4479,7 +4479,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild043.v1.xml"
+                    name='wild043.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4487,14 +4487,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild043.n1.xml"
+                        href='../saxonData/Wild/wild043.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4505,7 +4505,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild043.n1.xml"
+                    name='wild043.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4513,14 +4513,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild043.n2.xml"
+                        href='../saxonData/Wild/wild043.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4531,7 +4531,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild043.n2.xml"
+                    name='wild043.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4539,14 +4539,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild043.n3.xml"
+                        href='../saxonData/Wild/wild043.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -4557,10 +4557,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild043.n3.xml"
+                    name='wild043.n3.xml'
                 ),
             ],
-            name="wild043",
+            name='wild043',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4572,12 +4572,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard intersection with notQName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard intersection with notQName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="disallows the union of the disallowed QNames"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='disallows the union of the disallowed QNames'
                                 ),
                             ]
                         ),
@@ -4586,16 +4586,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild044.xsd"
+                        href='../saxonData/Wild/wild044.xsd'
                     ),
                 ],
                 expected=[
@@ -4607,7 +4607,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild044.xsd"
+                name='wild044.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4616,14 +4616,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute f is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute f is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild044.v1.xml"
+                        href='../saxonData/Wild/wild044.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4634,7 +4634,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild044.v1.xml"
+                    name='wild044.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4642,14 +4642,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild044.n1.xml"
+                        href='../saxonData/Wild/wild044.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4660,7 +4660,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild044.n1.xml"
+                    name='wild044.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4668,14 +4668,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild044.n2.xml"
+                        href='../saxonData/Wild/wild044.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4686,10 +4686,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild044.n2.xml"
+                    name='wild044.n2.xml'
                 ),
             ],
-            name="wild044",
+            name='wild044',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4701,12 +4701,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard union with notQName"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard union with notQName'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="disallows the intersection of the disallowed QNames"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='disallows the intersection of the disallowed QNames'
                                 ),
                             ]
                         ),
@@ -4715,16 +4715,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild045.xsd"
+                        href='../saxonData/Wild/wild045.xsd'
                     ),
                 ],
                 expected=[
@@ -4736,7 +4736,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild045.xsd"
+                name='wild045.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4745,14 +4745,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute a is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute a is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.v1.xml"
+                        href='../saxonData/Wild/wild045.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4763,7 +4763,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild045.v1.xml"
+                    name='wild045.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4771,14 +4771,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute d is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute d is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.v2.xml"
+                        href='../saxonData/Wild/wild045.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4789,7 +4789,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild045.v2.xml"
+                    name='wild045.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4797,14 +4797,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute c is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute c is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.n1.xml"
+                        href='../saxonData/Wild/wild045.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4815,7 +4815,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild045.n1.xml"
+                    name='wild045.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4823,14 +4823,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute xml:space is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute xml:space is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.n2.xml"
+                        href='../saxonData/Wild/wild045.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4841,10 +4841,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild045.n2.xml"
+                    name='wild045.n2.xml'
                 ),
             ],
-            name="wild045",
+            name='wild045',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4856,12 +4856,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Wildcard union with notQName and notNamespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Wildcard union with notQName and notNamespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="disallows the intersection of the disallowed QNames"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='disallows the intersection of the disallowed QNames'
                                 ),
                             ]
                         ),
@@ -4870,16 +4870,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild046.xsd"
+                        href='../saxonData/Wild/wild046.xsd'
                     ),
                 ],
                 expected=[
@@ -4891,7 +4891,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild046.xsd"
+                name='wild046.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4900,14 +4900,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute a is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute a is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.v1.xml"
+                        href='../saxonData/Wild/wild045.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4918,7 +4918,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild046.v1.xml"
+                    name='wild046.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4926,14 +4926,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute d is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute d is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.v2.xml"
+                        href='../saxonData/Wild/wild045.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4944,7 +4944,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild046.v2.xml"
+                    name='wild046.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4952,14 +4952,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute c is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute c is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.n1.xml"
+                        href='../saxonData/Wild/wild045.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -4970,7 +4970,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild046.n1.xml"
+                    name='wild046.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4978,14 +4978,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute xml:lang is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute xml:lang is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild045.n2.xml"
+                        href='../saxonData/Wild/wild045.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4996,10 +4996,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild046.n2.xml"
+                    name='wild046.n2.xml'
                 ),
             ],
-            name="wild046",
+            name='wild046',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5011,12 +5011,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Wildcard union with notQName and notNamespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Wildcard union with notQName and notNamespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="disallows the intersection of the disallowed QNames"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='disallows the intersection of the disallowed QNames'
                                 ),
                             ]
                         ),
@@ -5025,16 +5025,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild047.xsd"
+                        href='../saxonData/Wild/wild047.xsd'
                     ),
                 ],
                 expected=[
@@ -5046,7 +5046,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild047.xsd"
+                name='wild047.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5055,14 +5055,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, child is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, child is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild047.v1.xml"
+                        href='../saxonData/Wild/wild047.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5073,7 +5073,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild047.v1.xml"
+                    name='wild047.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5081,14 +5081,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child element is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child element is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild047.n1.xml"
+                        href='../saxonData/Wild/wild047.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5099,10 +5099,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild047.n1.xml"
+                    name='wild047.n1.xml'
                 ),
             ],
-            name="wild047",
+            name='wild047',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5114,12 +5114,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Complex type restriction using wildcard particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Complex type restriction using wildcard particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type disallows QNames that the restricted type does not disallow"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Base type disallows QNames that the restricted type does not disallow'
                                 ),
                             ]
                         ),
@@ -5128,16 +5128,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild048.bad.xsd"
+                        href='../saxonData/Wild/wild048.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -5149,9 +5149,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild048.xsd"
+                name='wild048.xsd'
             ),
-            name="wild048",
+            name='wild048',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5163,12 +5163,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Complex type restriction using wildcard particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Complex type restriction using wildcard particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type disallows all QNames that the base type disallows"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type disallows all QNames that the base type disallows'
                                 ),
                             ]
                         ),
@@ -5177,16 +5177,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild049.xsd"
+                        href='../saxonData/Wild/wild049.xsd'
                     ),
                 ],
                 expected=[
@@ -5198,9 +5198,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild049.xsd"
+                name='wild049.xsd'
             ),
-            name="wild049",
+            name='wild049',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5212,12 +5212,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Complex type restriction using wildcard particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Complex type restriction using wildcard particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type disallows all QNames that the base type disallows"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type disallows all QNames that the base type disallows'
                                 ),
                             ]
                         ),
@@ -5226,16 +5226,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild050.xsd"
+                        href='../saxonData/Wild/wild050.xsd'
                     ),
                 ],
                 expected=[
@@ -5247,9 +5247,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild050.xsd"
+                name='wild050.xsd'
             ),
-            name="wild050",
+            name='wild050',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5261,12 +5261,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Complex type restriction using wildcard particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Complex type restriction using wildcard particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type does not disallow all QNames that the base type disallows"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Restricted type does not disallow all QNames that the base type disallows'
                                 ),
                             ]
                         ),
@@ -5275,16 +5275,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild051.bad.xsd"
+                        href='../saxonData/Wild/wild051.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -5296,9 +5296,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild051.xsd"
+                name='wild051.xsd'
             ),
-            name="wild051",
+            name='wild051',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5310,12 +5310,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Wildcard with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Wildcard with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of ##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Basic test of ##defined'
                                 ),
                             ]
                         ),
@@ -5324,16 +5324,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild052.xsd"
+                        href='../saxonData/Wild/wild052.xsd'
                     ),
                 ],
                 expected=[
@@ -5345,7 +5345,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild052.xsd"
+                name='wild052.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5354,14 +5354,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, child is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, child is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild052.v1.xml"
+                        href='../saxonData/Wild/wild052.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5372,7 +5372,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild052.v1.xml"
+                    name='wild052.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5380,14 +5380,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, child is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, child is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild052.v2.xml"
+                        href='../saxonData/Wild/wild052.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5398,7 +5398,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild052.v2.xml"
+                    name='wild052.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5406,14 +5406,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child element is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child element is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild052.n1.xml"
+                        href='../saxonData/Wild/wild052.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5424,7 +5424,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild052.n1.xml"
+                    name='wild052.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5432,14 +5432,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child element is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child element is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild052.n2.xml"
+                        href='../saxonData/Wild/wild052.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5450,10 +5450,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild052.n2.xml"
+                    name='wild052.n2.xml'
                 ),
             ],
-            name="wild052",
+            name='wild052',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5465,12 +5465,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Wildcard with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Wildcard with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of ##defined with multiple namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Basic test of ##defined with multiple namespaces'
                                 ),
                             ]
                         ),
@@ -5479,16 +5479,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild053.xsd"
+                        href='../saxonData/Wild/wild053.xsd'
                     ),
                 ],
                 expected=[
@@ -5500,7 +5500,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild053.xsd"
+                name='wild053.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5509,14 +5509,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, child is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, child is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild053.v1.xml"
+                        href='../saxonData/Wild/wild053.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5527,7 +5527,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild053.v1.xml"
+                    name='wild053.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5535,14 +5535,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, child is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, child is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild053.v2.xml"
+                        href='../saxonData/Wild/wild053.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5553,7 +5553,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild053.v2.xml"
+                    name='wild053.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5561,14 +5561,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child element is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child element is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild053.n1.xml"
+                        href='../saxonData/Wild/wild053.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5579,7 +5579,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild053.n1.xml"
+                    name='wild053.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5587,14 +5587,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child element is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child element is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild053.n2.xml"
+                        href='../saxonData/Wild/wild053.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5605,10 +5605,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild053.n2.xml"
+                    name='wild053.n2.xml'
                 ),
             ],
-            name="wild053",
+            name='wild053',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5620,12 +5620,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of ##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Basic test of ##defined'
                                 ),
                             ]
                         ),
@@ -5634,16 +5634,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild054.xsd"
+                        href='../saxonData/Wild/wild054.xsd'
                     ),
                 ],
                 expected=[
@@ -5655,7 +5655,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild054.xsd"
+                name='wild054.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5664,14 +5664,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild054.v1.xml"
+                        href='../saxonData/Wild/wild054.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5682,7 +5682,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild054.v1.xml"
+                    name='wild054.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5690,14 +5690,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild054.v2.xml"
+                        href='../saxonData/Wild/wild054.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5708,7 +5708,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild054.v2.xml"
+                    name='wild054.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5716,14 +5716,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild054.n1.xml"
+                        href='../saxonData/Wild/wild054.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5734,7 +5734,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild054.n1.xml"
+                    name='wild054.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5742,14 +5742,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild054.n2.xml"
+                        href='../saxonData/Wild/wild054.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5760,10 +5760,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild054.n2.xml"
+                    name='wild054.n2.xml'
                 ),
             ],
-            name="wild054",
+            name='wild054',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5775,12 +5775,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid restriction of wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid restriction of wildcard'
                                 ),
                             ]
                         ),
@@ -5789,16 +5789,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild055.xsd"
+                        href='../saxonData/Wild/wild055.xsd'
                     ),
                 ],
                 expected=[
@@ -5810,7 +5810,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild055.xsd"
+                name='wild055.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5819,14 +5819,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attributes are permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attributes are permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.v1.xml"
+                        href='../saxonData/Wild/wild055.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5837,7 +5837,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild055.v1.xml"
+                    name='wild055.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5845,14 +5845,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.n1.xml"
+                        href='../saxonData/Wild/wild055.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5863,7 +5863,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild055.n1.xml"
+                    name='wild055.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5871,14 +5871,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.n2.xml"
+                        href='../saxonData/Wild/wild055.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -5889,7 +5889,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild055.n2.xml"
+                    name='wild055.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -5897,14 +5897,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.n3.xml"
+                        href='../saxonData/Wild/wild055.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -5915,10 +5915,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild055.n3.xml"
+                    name='wild055.n3.xml'
                 ),
             ],
-            name="wild055",
+            name='wild055',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -5930,12 +5930,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid restriction of wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid restriction of wildcard'
                                 ),
                             ]
                         ),
@@ -5944,16 +5944,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild056.xsd"
+                        href='../saxonData/Wild/wild056.xsd'
                     ),
                 ],
                 expected=[
@@ -5965,7 +5965,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild056.xsd"
+                name='wild056.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -5974,14 +5974,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attributes are permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attributes are permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.v1.xml"
+                        href='../saxonData/Wild/wild055.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -5992,7 +5992,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild056.v1.xml"
+                    name='wild056.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6000,14 +6000,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.n1.xml"
+                        href='../saxonData/Wild/wild055.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6018,7 +6018,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild056.n1.xml"
+                    name='wild056.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6026,14 +6026,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.n2.xml"
+                        href='../saxonData/Wild/wild055.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6044,7 +6044,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild056.n2.xml"
+                    name='wild056.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6052,14 +6052,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild055.n3.xml"
+                        href='../saxonData/Wild/wild055.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -6070,10 +6070,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild056.n3.xml"
+                    name='wild056.n3.xml'
                 ),
             ],
-            name="wild056",
+            name='wild056',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6085,12 +6085,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid restriction of wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid restriction of wildcard'
                                 ),
                             ]
                         ),
@@ -6099,16 +6099,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild057.bad.xsd"
+                        href='../saxonData/Wild/wild057.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -6120,9 +6120,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild057.xsd"
+                name='wild057.xsd'
             ),
-            name="wild057",
+            name='wild057',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6134,11 +6134,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard intersection with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard intersection with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Both wildcards specify notQName="##defined"'
                                 ),
                             ]
@@ -6148,16 +6148,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild058.xsd"
+                        href='../saxonData/Wild/wild058.xsd'
                     ),
                 ],
                 expected=[
@@ -6169,7 +6169,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild058.xsd"
+                name='wild058.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6178,14 +6178,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attributes are permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attributes are permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.v1.xml"
+                        href='../saxonData/Wild/wild058.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6196,7 +6196,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild058.v1.xml"
+                    name='wild058.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6204,14 +6204,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is specifically excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is specifically excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.n1.xml"
+                        href='../saxonData/Wild/wild058.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6222,7 +6222,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild058.n1.xml"
+                    name='wild058.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6230,14 +6230,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.&#10;&#9;&#9;            ",
+                                        "\n\t\t                Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.\n\t\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.n2.xml"
+                        href='../saxonData/Wild/wild058.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6248,10 +6248,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild058.n2.xml"
+                    name='wild058.n2.xml'
                 ),
             ],
-            name="wild058",
+            name='wild058',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6263,11 +6263,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard intersection with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard intersection with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='One wildcard specifies notQName="##defined"'
                                 ),
                             ]
@@ -6277,16 +6277,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild059.xsd"
+                        href='../saxonData/Wild/wild059.xsd'
                     ),
                 ],
                 expected=[
@@ -6298,7 +6298,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild059.xsd"
+                name='wild059.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6307,14 +6307,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, attributes are permitted by the wildcard.&#10;&#9;            ",
+                                        '\n\t                Valid, attributes are permitted by the wildcard.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.v1.xml"
+                        href='../saxonData/Wild/wild058.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6325,7 +6325,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild059.v1.xml"
+                    name='wild059.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6333,14 +6333,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, attribute is specifically excluded by the wildcard.&#10;&#9;            ",
+                                        '\n\t                Invalid, attribute is specifically excluded by the wildcard.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.n1.xml"
+                        href='../saxonData/Wild/wild058.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6351,7 +6351,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild059.n1.xml"
+                    name='wild059.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6359,14 +6359,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, zong attribute is not present in the intersection of the attribute groups.&#10;&#9;            ",
+                                        '\n\t                Invalid, zong attribute is not present in the intersection of the attribute groups.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.n2.xml"
+                        href='../saxonData/Wild/wild058.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6377,10 +6377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild059.n2.xml"
+                    name='wild059.n2.xml'
                 ),
             ],
-            name="wild059",
+            name='wild059',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6392,11 +6392,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute Wildcard union with notQName=##defined"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute Wildcard union with notQName=##defined'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Both wildcards specify notQName="##defined" so union is expressible'
                                 ),
                             ]
@@ -6406,16 +6406,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild060.xsd"
+                        href='../saxonData/Wild/wild060.xsd'
                     ),
                 ],
                 expected=[
@@ -6427,7 +6427,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 20)
                 ),
-                name="wild060.xsd"
+                name='wild060.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6436,14 +6436,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, attributes are permitted by the wildcard.&#10;&#9;            ",
+                                        '\n\t                Valid, attributes are permitted by the wildcard.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.v1.xml"
+                        href='../saxonData/Wild/wild058.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6454,7 +6454,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild060.v1.xml"
+                    name='wild060.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6462,14 +6462,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, attribute is allowed in the union wildcard.&#10;&#9;            ",
+                                        '\n\t                Valid, attribute is allowed in the union wildcard.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.n1.xml"
+                        href='../saxonData/Wild/wild058.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6480,7 +6480,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild060.v2.xml"
+                    name='wild060.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6488,14 +6488,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.&#10;&#9;            ",
+                                        "\n\t                Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.\n\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild058.n2.xml"
+                        href='../saxonData/Wild/wild058.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6506,10 +6506,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 20)
                     ),
-                    name="wild060.n2.xml"
+                    name='wild060.n2.xml'
                 ),
             ],
-            name="wild060",
+            name='wild060',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6521,12 +6521,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - governing type not substitutable for context-determined type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema is valid, instance is not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema is valid, instance is not'
                                 ),
                             ]
                         ),
@@ -6535,16 +6535,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild061.xsd"
+                        href='../saxonData/Wild/wild061.xsd'
                     ),
                 ],
                 expected=[
@@ -6556,7 +6556,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild061.xsd"
+                name='wild061.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6565,14 +6565,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second e element fails dynamic EDC test.&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second e element fails dynamic EDC test.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild061.n1.xml"
+                        href='../saxonData/Wild/wild061.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6583,10 +6583,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild061.n1.xml"
+                    name='wild061.n1.xml'
                 ),
             ],
-            name="wild061",
+            name='wild061',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6598,12 +6598,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema is valid, instance is not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema is valid, instance is not'
                                 ),
                             ]
                         ),
@@ -6612,16 +6612,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild062.xsd"
+                        href='../saxonData/Wild/wild062.xsd'
                     ),
                 ],
                 expected=[
@@ -6633,7 +6633,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild062.xsd"
+                name='wild062.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6642,14 +6642,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, g element is skipped.&#10;&#9;            ",
+                                        '\n\t                Valid, g element is skipped.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild062.v1.xml"
+                        href='../saxonData/Wild/wild062.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6660,7 +6660,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild062.v1.xml"
+                    name='wild062.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6668,14 +6668,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second e element fails dynamic EDC test.&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second e element fails dynamic EDC test.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild062.n1.xml"
+                        href='../saxonData/Wild/wild062.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6686,7 +6686,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild062.n1.xml"
+                    name='wild062.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6694,14 +6694,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild062.n2.xml"
+                        href='../saxonData/Wild/wild062.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6712,7 +6712,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild062.n2.xml"
+                    name='wild062.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6720,14 +6720,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second f element fails dynamic EDC test because of xsi:type&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second f element fails dynamic EDC test because of xsi:type\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild062.n3.xml"
+                        href='../saxonData/Wild/wild062.n3.xml'
                     ),
                     expected=[
                         Expected(
@@ -6738,10 +6738,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild062.n3.xml"
+                    name='wild062.n3.xml'
                 ),
             ],
-            name="wild062",
+            name='wild062',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6753,12 +6753,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema is valid, instance is not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema is valid, instance is not'
                                 ),
                             ]
                         ),
@@ -6767,16 +6767,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild063.xsd"
+                        href='../saxonData/Wild/wild063.xsd'
                     ),
                 ],
                 expected=[
@@ -6788,7 +6788,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild063.xsd"
+                name='wild063.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6797,14 +6797,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, second e element is OK.&#10;&#9;            ",
+                                        '\n\t                Valid, second e element is OK.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild063.v1.xml"
+                        href='../saxonData/Wild/wild063.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6815,7 +6815,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild063.v1.xml"
+                    name='wild063.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6823,14 +6823,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, second f element is OK.&#10;&#9;            ",
+                                        '\n\t                Valid, second f element is OK.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild063.v2.xml"
+                        href='../saxonData/Wild/wild063.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6841,7 +6841,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild063.v2.xml"
+                    name='wild063.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6849,14 +6849,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second e element fails dynamic EDC test.&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second e element fails dynamic EDC test.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild063.n1.xml"
+                        href='../saxonData/Wild/wild063.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6867,7 +6867,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild063.n1.xml"
+                    name='wild063.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6875,14 +6875,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild063.n2.xml"
+                        href='../saxonData/Wild/wild063.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6893,10 +6893,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild063.n2.xml"
+                    name='wild063.n2.xml'
                 ),
             ],
-            name="wild063",
+            name='wild063',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -6908,12 +6908,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema is valid, instance is not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema is valid, instance is not'
                                 ),
                             ]
                         ),
@@ -6922,16 +6922,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild064.xsd"
+                        href='../saxonData/Wild/wild064.xsd'
                     ),
                 ],
                 expected=[
@@ -6943,7 +6943,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild064.xsd"
+                name='wild064.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -6952,14 +6952,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, g element is OK.&#10;&#9;            ",
+                                        '\n\t                Valid, g element is OK.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild064.v1.xml"
+                        href='../saxonData/Wild/wild064.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -6970,7 +6970,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild064.v1.xml"
+                    name='wild064.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -6978,14 +6978,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, second e element is OK because of xsi:type&#10;&#9;            ",
+                                        '\n\t                Valid, second e element is OK because of xsi:type\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild064.v2.xml"
+                        href='../saxonData/Wild/wild064.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -6996,7 +6996,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild064.v2.xml"
+                    name='wild064.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7004,14 +7004,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, second e element fails dynamic EDC test.&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, second e element fails dynamic EDC test.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild064.n1.xml"
+                        href='../saxonData/Wild/wild064.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7022,10 +7022,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild064.n1.xml"
+                    name='wild064.n1.xml'
                 ),
             ],
-            name="wild064",
+            name='wild064',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7037,12 +7037,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema is valid, instance is not"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema is valid, instance is not'
                                 ),
                             ]
                         ),
@@ -7051,16 +7051,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild065.xsd"
+                        href='../saxonData/Wild/wild065.xsd'
                     ),
                 ],
                 expected=[
@@ -7072,7 +7072,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild065.xsd"
+                name='wild065.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7081,14 +7081,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, g element is OK because of xsi:type.&#10;&#9;            ",
+                                        '\n\t                Valid, g element is OK because of xsi:type.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild065.v1.xml"
+                        href='../saxonData/Wild/wild065.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7099,7 +7099,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild065.v1.xml"
+                    name='wild065.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7107,14 +7107,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid in 1.1, g element fails dynamic EDC test.&#10;&#9;            ",
+                                        '\n\t                Invalid in 1.1, g element fails dynamic EDC test.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild065.n1.xml"
+                        href='../saxonData/Wild/wild065.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7125,10 +7125,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild065.n1.xml"
+                    name='wild065.n1.xml'
                 ),
             ],
-            name="wild065",
+            name='wild065',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7140,12 +7140,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Substitutability involving a union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Substitutability involving a union'
                                 ),
                             ]
                         ),
@@ -7154,16 +7154,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild066.xsd"
+                        href='../saxonData/Wild/wild066.xsd'
                     ),
                 ],
                 expected=[
@@ -7175,7 +7175,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild066.xsd"
+                name='wild066.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7184,14 +7184,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, e element is OK, belongs to a member of the union.&#10;&#9;            ",
+                                        '\n\t                Valid, e element is OK, belongs to a member of the union.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild066.v1.xml"
+                        href='../saxonData/Wild/wild066.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7202,10 +7202,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild066.v1.xml"
+                    name='wild066.v1.xml'
                 ),
             ],
-            name="wild066",
+            name='wild066',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7217,12 +7217,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Substitutability involving a union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Substitutability involving a union'
                                 ),
                             ]
                         ),
@@ -7231,16 +7231,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild067.xsd"
+                        href='../saxonData/Wild/wild067.xsd'
                     ),
                 ],
                 expected=[
@@ -7252,7 +7252,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild067.xsd"
+                name='wild067.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7261,14 +7261,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, e element is not OK, belongs not to a member of the union.&#10;&#9;            ",
+                                        '\n\t                Valid, e element is not OK, belongs not to a member of the union.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild067.n1.xml"
+                        href='../saxonData/Wild/wild067.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7279,10 +7279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild067.n1.xml"
+                    name='wild067.n1.xml'
                 ),
             ],
-            name="wild067",
+            name='wild067',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7294,12 +7294,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Context determined type comes from base type of restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Context determined type comes from base type of restriction'
                                 ),
                             ]
                         ),
@@ -7308,16 +7308,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild068.xsd"
+                        href='../saxonData/Wild/wild068.xsd'
                     ),
                 ],
                 expected=[
@@ -7329,7 +7329,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 4)
                 ),
-                name="wild068.xsd"
+                name='wild068.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7338,14 +7338,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, e element is not OK, clashes with element particle e defined in base type.&#10;&#9;            ",
+                                        '\n\t                Valid, e element is not OK, clashes with element particle e defined in base type.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild068.n1.xml"
+                        href='../saxonData/Wild/wild068.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7356,10 +7356,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 4)
                     ),
-                    name="wild068.n1.xml"
+                    name='wild068.n1.xml'
                 ),
             ],
-            name="wild068",
+            name='wild068',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7371,12 +7371,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element fails "dynamic EDC" test - lax wildcard - xs:all content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Context determined type comes from base type of restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Context determined type comes from base type of restriction'
                                 ),
                             ]
                         ),
@@ -7385,16 +7385,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild069.xsd"
+                        href='../saxonData/Wild/wild069.xsd'
                     ),
                 ],
                 expected=[
@@ -7406,9 +7406,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="wild069.xsd"
+                name='wild069.xsd'
             ),
-            name="wild069",
+            name='wild069',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7420,12 +7420,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of notQName=##definedSibling"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of notQName=##definedSibling'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="notQName=##definedSibling in a sequence content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='notQName=##definedSibling in a sequence content model'
                                 ),
                             ]
                         ),
@@ -7434,16 +7434,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild070.xsd"
+                        href='../saxonData/Wild/wild070.xsd'
                     ),
                 ],
                 expected=[
@@ -7455,7 +7455,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 12)
                 ),
-                name="wild070.xsd"
+                name='wild070.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7464,14 +7464,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild070.v1.xml"
+                        href='../saxonData/Wild/wild070.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7482,7 +7482,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild070.v1.xml"
+                    name='wild070.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7490,14 +7490,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild070.n1.xml"
+                        href='../saxonData/Wild/wild070.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7508,7 +7508,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild070.n1.xml"
+                    name='wild070.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7516,14 +7516,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild070.n2.xml"
+                        href='../saxonData/Wild/wild070.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -7534,10 +7534,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild070.n2.xml"
+                    name='wild070.n2.xml'
                 ),
             ],
-            name="wild070",
+            name='wild070',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7549,12 +7549,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic test of notQName=##definedSibling with substitution groups"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Basic test of notQName=##definedSibling with substitution groups'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="notQName=##definedSibling in a sequence content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='notQName=##definedSibling in a sequence content model'
                                 ),
                             ]
                         ),
@@ -7563,16 +7563,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild071.xsd"
+                        href='../saxonData/Wild/wild071.xsd'
                     ),
                 ],
                 expected=[
@@ -7584,7 +7584,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 12)
                 ),
-                name="wild071.xsd"
+                name='wild071.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7593,14 +7593,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild071.v1.xml"
+                        href='../saxonData/Wild/wild071.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7611,7 +7611,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild071.v1.xml"
+                    name='wild071.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7619,14 +7619,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild071.n1.xml"
+                        href='../saxonData/Wild/wild071.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7637,7 +7637,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild071.n1.xml"
+                    name='wild071.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7645,14 +7645,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild071.n2.xml"
+                        href='../saxonData/Wild/wild071.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -7663,10 +7663,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild071.n2.xml"
+                    name='wild071.n2.xml'
                 ),
             ],
-            name="wild071",
+            name='wild071',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7678,12 +7678,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of notQName=##definedSibling with substitution groups in xs:all content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of notQName=##definedSibling with substitution groups in xs:all content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="notQName=##definedSibling in an xs:all content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='notQName=##definedSibling in an xs:all content model'
                                 ),
                             ]
                         ),
@@ -7692,16 +7692,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild072.xsd"
+                        href='../saxonData/Wild/wild072.xsd'
                     ),
                 ],
                 expected=[
@@ -7713,7 +7713,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 12)
                 ),
-                name="wild072.xsd"
+                name='wild072.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7722,14 +7722,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild072.v1.xml"
+                        href='../saxonData/Wild/wild072.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7740,7 +7740,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild072.v1.xml"
+                    name='wild072.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7748,14 +7748,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild072.n1.xml"
+                        href='../saxonData/Wild/wild072.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7766,7 +7766,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild072.n1.xml"
+                    name='wild072.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7774,14 +7774,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild072.n2.xml"
+                        href='../saxonData/Wild/wild072.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -7792,10 +7792,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild072.n2.xml"
+                    name='wild072.n2.xml'
                 ),
             ],
-            name="wild072",
+            name='wild072',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7807,12 +7807,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of wildcards and substitution groups in xs:all content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of wildcards and substitution groups in xs:all content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of wild072 without the ##definedSibling, for comparison"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Variant of wild072 without the ##definedSibling, for comparison'
                                 ),
                             ]
                         ),
@@ -7821,16 +7821,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild073.xsd"
+                        href='../saxonData/Wild/wild073.xsd'
                     ),
                 ],
                 expected=[
@@ -7842,7 +7842,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 12)
                 ),
-                name="wild073.xsd"
+                name='wild073.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7851,14 +7851,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild072.v1.xml"
+                        href='../saxonData/Wild/wild072.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7869,7 +7869,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild073.v1.xml"
+                    name='wild073.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7877,14 +7877,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild072.n1.xml"
+                        href='../saxonData/Wild/wild072.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7895,7 +7895,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild073.v2.xml"
+                    name='wild073.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -7903,14 +7903,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild072.n2.xml"
+                        href='../saxonData/Wild/wild072.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -7921,10 +7921,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild073.v3.xml"
+                    name='wild073.v3.xml'
                 ),
             ],
-            name="wild073",
+            name='wild073',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -7936,12 +7936,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test of openContent wildcards and substitution groups in xs:sequence content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test of openContent wildcards and substitution groups in xs:sequence content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open Content with ##definedSibling"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Open Content with ##definedSibling'
                                 ),
                             ]
                         ),
@@ -7950,16 +7950,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild074.xsd"
+                        href='../saxonData/Wild/wild074.xsd'
                     ),
                 ],
                 expected=[
@@ -7971,7 +7971,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 12)
                 ),
-                name="wild074.xsd"
+                name='wild074.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -7980,14 +7980,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild074.v1.xml"
+                        href='../saxonData/Wild/wild074.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7998,7 +7998,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild074.v1.xml"
+                    name='wild074.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -8006,14 +8006,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild074.n1.xml"
+                        href='../saxonData/Wild/wild074.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8024,7 +8024,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild074.n1.xml"
+                    name='wild074.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -8032,14 +8032,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with a defined sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with a defined sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild074.n2.xml"
+                        href='../saxonData/Wild/wild074.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -8050,10 +8050,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild074.n2.xml"
+                    name='wild074.n2.xml'
                 ),
             ],
-            name="wild074",
+            name='wild074',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8065,12 +8065,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violation of Element Locally Valid (Complex Type) Rule 5"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violation of Element Locally Valid (Complex Type) Rule 5'
                                 ),
                             ]
                         ),
@@ -8079,16 +8079,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild075.xsd"
+                        href='../saxonData/Wild/wild075.xsd'
                     ),
                 ],
                 expected=[
@@ -8100,7 +8100,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild075.xsd"
+                name='wild075.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8109,14 +8109,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild075.v1.xml"
+                        href='../saxonData/Wild/wild075.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8127,7 +8127,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 16)
                     ),
-                    name="wild075.v1.xml"
+                    name='wild075.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -8135,14 +8135,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with type of a sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with type of a sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild075.n1.xml"
+                        href='../saxonData/Wild/wild075.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8153,10 +8153,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild075.n1.xml"
+                    name='wild075.n1.xml'
                 ),
             ],
-            name="wild075",
+            name='wild075',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8168,12 +8168,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violation of Element Locally Valid (Complex Type) Rule 5"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violation of Element Locally Valid (Complex Type) Rule 5'
                                 ),
                             ]
                         ),
@@ -8182,16 +8182,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild076.xsd"
+                        href='../saxonData/Wild/wild076.xsd'
                     ),
                 ],
                 expected=[
@@ -8203,7 +8203,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild076.xsd"
+                name='wild076.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8212,14 +8212,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild075.v1.xml"
+                        href='../saxonData/Wild/wild075.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8230,7 +8230,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 16)
                     ),
-                    name="wild076.v1.xml"
+                    name='wild076.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -8238,14 +8238,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Invalid, a element is not OK, clashes with type of a sibling.&#10;&#9;            ",
+                                        '\n\t                Invalid, a element is not OK, clashes with type of a sibling.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild075.n1.xml"
+                        href='../saxonData/Wild/wild075.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8256,10 +8256,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild076.n1.xml"
+                    name='wild076.n1.xml'
                 ),
             ],
-            name="wild076",
+            name='wild076',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8271,12 +8271,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violation of Element Locally Valid (Complex Type) Rule 5, not a problem with a skip wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violation of Element Locally Valid (Complex Type) Rule 5, not a problem with a skip wildcard'
                                 ),
                             ]
                         ),
@@ -8285,16 +8285,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild077.xsd"
+                        href='../saxonData/Wild/wild077.xsd'
                     ),
                 ],
                 expected=[
@@ -8306,7 +8306,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild077.xsd"
+                name='wild077.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8315,14 +8315,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid.&#10;&#9;            ",
+                                        '\n\t                Valid.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild075.v1.xml"
+                        href='../saxonData/Wild/wild075.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8333,7 +8333,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 16)
                     ),
-                    name="wild077.v1.xml"
+                    name='wild077.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -8341,14 +8341,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, element is OK because it's a skip wildcard.&#10;&#9;            ",
+                                        "\n\t                Valid, element is OK because it's a skip wildcard.\n\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild075.n1.xml"
+                        href='../saxonData/Wild/wild075.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8359,10 +8359,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 12)
                     ),
-                    name="wild077.n1.xml"
+                    name='wild077.n1.xml'
                 ),
             ],
-            name="wild077",
+            name='wild077',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8374,12 +8374,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and strict wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and strict wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violation of Element Declarations Consistent (type tables differ)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violation of Element Declarations Consistent (type tables differ)'
                                 ),
                             ]
                         ),
@@ -8388,16 +8388,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild078.bad.xsd"
+                        href='../saxonData/Wild/wild078.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -8409,9 +8409,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild078.bad.xsd"
+                name='wild078.bad.xsd'
             ),
-            name="wild078",
+            name='wild078',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8423,12 +8423,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and lax wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and lax wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violation of Element Declarations Consistent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violation of Element Declarations Consistent'
                                 ),
                             ]
                         ),
@@ -8437,16 +8437,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild079.bad.xsd"
+                        href='../saxonData/Wild/wild079.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -8458,9 +8458,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild079.bad.xsd"
+                name='wild079.bad.xsd'
             ),
-            name="wild079",
+            name='wild079',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8472,12 +8472,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and lax  wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and lax  wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="No violation of Element Declarations Consistent with a skip wildcard"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='No violation of Element Declarations Consistent with a skip wildcard'
                                 ),
                             ]
                         ),
@@ -8486,16 +8486,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild080.xsd"
+                        href='../saxonData/Wild/wild080.xsd'
                     ),
                 ],
                 expected=[
@@ -8507,7 +8507,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild080.xsd"
+                name='wild080.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8516,14 +8516,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, element is OK because it's a skip wildcard.&#10;&#9;            ",
+                                        "\n\t                Valid, element is OK because it's a skip wildcard.\n\t            ",
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild080.v1.xml"
+                        href='../saxonData/Wild/wild080.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8534,10 +8534,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 16)
                     ),
-                    name="wild080.v1.xml"
+                    name='wild080.v1.xml'
                 ),
             ],
-            name="wild080",
+            name='wild080',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8549,12 +8549,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements and strict wildcards in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements and strict wildcards in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Violation of Element Declarations Consistent (type tables differ)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Violation of Element Declarations Consistent (type tables differ)'
                                 ),
                             ]
                         ),
@@ -8563,16 +8563,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild081.bad.xsd"
+                        href='../saxonData/Wild/wild081.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -8584,9 +8584,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild081.bad.xsd"
+                name='wild081.bad.xsd'
             ),
-            name="wild081",
+            name='wild081',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8598,11 +8598,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Consistency of governing type declarations between locally-declared elements in a content model"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Consistency of governing type declarations between locally-declared elements in a content model'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='No violation of Element Declarations Consistent because the type tables are "the same"'
                                 ),
                             ]
@@ -8612,16 +8612,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#Wildcards'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild082.xsd"
+                        href='../saxonData/Wild/wild082.xsd'
                     ),
                 ],
                 expected=[
@@ -8633,7 +8633,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 16)
                 ),
-                name="wild082.xsd"
+                name='wild082.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8642,14 +8642,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;                Valid, element is OK.&#10;&#9;            ",
+                                        '\n\t                Valid, element is OK.\n\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild082.v1.xml"
+                        href='../saxonData/Wild/wild082.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8660,10 +8660,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 16)
                     ),
-                    name="wild082.v1.xml"
+                    name='wild082.v1.xml'
                 ),
             ],
-            name="wild082",
+            name='wild082',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8675,12 +8675,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element Wildcard union with notQName="##defined"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests the spec note:&#10;                Note: When one of the wildcards has defined in {disallowed names} and the other does not, &#10;                then defined is not included in the union. This may allow QNames that are not allowed by &#10;                either wildcard. This is to ensure that all unions are expressible. If defined is intended &#10;                to be included, then it is necessary to have it in both wildcards."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests the spec note:\n                Note: When one of the wildcards has defined in {disallowed names} and the other does not, \n                then defined is not included in the union. This may allow QNames that are not allowed by \n                either wildcard. This is to ensure that all unions are expressible. If defined is intended \n                to be included, then it is necessary to have it in both wildcards.'
                                 ),
                             ]
                         ),
@@ -8689,16 +8689,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#cos-aw-union"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#cos-aw-union'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild083.xsd"
+                        href='../saxonData/Wild/wild083.xsd'
                     ),
                 ],
                 expected=[
@@ -8710,7 +8710,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 24)
                 ),
-                name="wild083.xsd"
+                name='wild083.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8719,14 +8719,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute is permitted by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute is permitted by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild083.v1.xml"
+                        href='../saxonData/Wild/wild083.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8737,7 +8737,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 24)
                     ),
-                    name="wild083.v1.xml"
+                    name='wild083.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -8745,14 +8745,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild083.n1.xml"
+                        href='../saxonData/Wild/wild083.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8763,10 +8763,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 24)
                     ),
-                    name="wild047.n1.xml"
+                    name='wild047.n1.xml'
                 ),
             ],
-            name="wild083",
+            name='wild083',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -8778,12 +8778,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Element Wildcard union with notQName="##defined"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -8792,16 +8792,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#cos-aw-union"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/structures.html#cos-aw-union'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Wild/wild084.xsd"
+                        href='../saxonData/Wild/wild084.xsd'
                     ),
                 ],
                 expected=[
@@ -8813,7 +8813,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 6, 29)
                 ),
-                name="wild083.xsd"
+                name='wild083.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -8822,14 +8822,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is excluded by the wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is excluded by the wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Wild/wild084.n1.xml"
+                        href='../saxonData/Wild/wild084.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8840,21 +8840,21 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 6, 29)
                     ),
-                    name="wild084.n1.xml"
+                    name='wild084.n1.xml'
                 ),
             ],
-            name="wild084",
+            name='wild084',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="Wild",
+    contributor='Saxonica',
+    name='Wild',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

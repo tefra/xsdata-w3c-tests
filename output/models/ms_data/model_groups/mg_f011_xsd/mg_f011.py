@@ -23,7 +23,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     w3_org_1999_xhtml_element: List[object] = field(
         default_factory=list,
@@ -31,7 +31,7 @@ class Foo:
             "type": "Wildcard",
             "namespace": "http://www.w3.org/1999/xhtml",
             "process_contents": "skip",
-        }
+        },
     )
     c: Optional[bool] = field(
         default=None,
@@ -39,7 +39,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     a: Optional[int] = field(
         default=None,
@@ -47,14 +47,14 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     d: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

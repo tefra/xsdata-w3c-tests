@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use newly-allowed name characters in element and attribute name"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use newly-allowed name characters in element and attribute name'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier'
                                 ),
                             ]
                         ),
@@ -38,16 +38,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv001.xsd"
+                        href='../saxonData/XmlVersions/xv001.xsd'
                     ),
                 ],
                 expected=[
@@ -59,7 +59,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv001.xsd"
+                name='xv001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -68,14 +68,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv001.v01.xml"
+                        href='../saxonData/XmlVersions/xv001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -86,10 +86,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv001.v01.xml"
+                    name='xv001.v01.xml'
                 ),
             ],
-            name="xv001"
+            name='xv001'
         ),
         TestGroup(
             annotation=[
@@ -98,12 +98,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use newly-allowed name characters in NCName value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use newly-allowed name characters in NCName value'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier'
                                 ),
                             ]
                         ),
@@ -112,16 +112,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv002.xsd"
+                        href='../saxonData/XmlVersions/xv002.xsd'
                     ),
                 ],
                 expected=[
@@ -133,7 +133,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv002.xsd"
+                name='xv002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -142,14 +142,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv002.v01.xml"
+                        href='../saxonData/XmlVersions/xv002.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -160,10 +160,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv002.v01.xml"
+                    name='xv002.v01.xml'
                 ),
             ],
-            name="xv002"
+            name='xv002'
         ),
         TestGroup(
             annotation=[
@@ -172,12 +172,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use newly-allowed C0 characters in character content and in attribute values"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use newly-allowed C0 characters in character content and in attribute values'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="C0 characters allowed in content in XML 1.1 but not earlier"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='C0 characters allowed in content in XML 1.1 but not earlier'
                                 ),
                             ]
                         ),
@@ -186,16 +186,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv003.xsd"
+                        href='../saxonData/XmlVersions/xv003.xsd'
                     ),
                 ],
                 expected=[
@@ -207,7 +207,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv003.xsd"
+                name='xv003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -216,14 +216,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv003.v01.xml"
+                        href='../saxonData/XmlVersions/xv003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -234,10 +234,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv003.v01.xml"
+                    name='xv003.v01.xml'
                 ),
             ],
-            name="xv003"
+            name='xv003'
         ),
         TestGroup(
             annotation=[
@@ -246,12 +246,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use newly-allowed name characters in schema component names"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use newly-allowed name characters in schema component names'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Non-BMP chars is allowed in names in XML 1.1 but not earlier"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Non-BMP chars is allowed in names in XML 1.1 but not earlier'
                                 ),
                             ]
                         ),
@@ -260,16 +260,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv004.xsd"
+                        href='../saxonData/XmlVersions/xv004.xsd'
                     ),
                 ],
                 expected=[
@@ -281,7 +281,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv004.xsd"
+                name='xv004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -290,14 +290,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv004.v01.xml"
+                        href='../saxonData/XmlVersions/xv004.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -308,10 +308,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv004.v01.xml"
+                    name='xv004.v01.xml'
                 ),
             ],
-            name="xv004"
+            name='xv004'
         ),
         TestGroup(
             annotation=[
@@ -320,12 +320,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \i in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\i in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Initial name characters in XML 1.1 were different from 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Initial name characters in XML 1.1 were different from 1.0'
                                 ),
                             ]
                         ),
@@ -334,16 +334,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv005.xsd"
+                        href='../saxonData/XmlVersions/xv005.xsd'
                     ),
                 ],
                 expected=[
@@ -355,7 +355,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv005.xsd"
+                name='xv005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -364,14 +364,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv005.v01.xml"
+                        href='../saxonData/XmlVersions/xv005.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -382,7 +382,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv005.v01.xml"
+                    name='xv005.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -390,14 +390,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv005.n01.xml"
+                        href='../saxonData/XmlVersions/xv005.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -408,7 +408,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv005.n01.xml"
+                    name='xv005.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -416,14 +416,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv005.n02.xml"
+                        href='../saxonData/XmlVersions/xv005.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -434,10 +434,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv005.n02.xml"
+                    name='xv005.n02.xml'
                 ),
             ],
-            name="xv005"
+            name='xv005'
         ),
         TestGroup(
             annotation=[
@@ -446,12 +446,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \I in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\I in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Initial name characters in XML 1.1 were different from 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Initial name characters in XML 1.1 were different from 1.0'
                                 ),
                             ]
                         ),
@@ -460,16 +460,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv006.xsd"
+                        href='../saxonData/XmlVersions/xv006.xsd'
                     ),
                 ],
                 expected=[
@@ -481,7 +481,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv006.xsd"
+                name='xv006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -490,14 +490,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv006.v01.xml"
+                        href='../saxonData/XmlVersions/xv006.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -508,7 +508,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv006.v01.xml"
+                    name='xv006.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -516,14 +516,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv006.n01.xml"
+                        href='../saxonData/XmlVersions/xv006.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -534,7 +534,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv006.n01.xml"
+                    name='xv006.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -542,14 +542,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv006.n02.xml"
+                        href='../saxonData/XmlVersions/xv006.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -560,7 +560,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv006.n02.xml"
+                    name='xv006.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -568,14 +568,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv006.n03.xml"
+                        href='../saxonData/XmlVersions/xv006.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -586,10 +586,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv006.n03.xml"
+                    name='xv006.n03.xml'
                 ),
             ],
-            name="xv006"
+            name='xv006'
         ),
         TestGroup(
             annotation=[
@@ -598,12 +598,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \c in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\c in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 were different from 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 were different from 1.0'
                                 ),
                             ]
                         ),
@@ -612,16 +612,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2007/WD-xmlschema11-1-20070831/"
+                    href='http://www.w3.org/TR/2007/WD-xmlschema11-1-20070831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv007.xsd"
+                        href='../saxonData/XmlVersions/xv007.xsd'
                     ),
                 ],
                 expected=[
@@ -633,7 +633,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv007.xsd"
+                name='xv007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -642,14 +642,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv007.v01.xml"
+                        href='../saxonData/XmlVersions/xv007.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -660,7 +660,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv007.v01.xml"
+                    name='xv007.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -668,14 +668,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv007.n01.xml"
+                        href='../saxonData/XmlVersions/xv007.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -686,7 +686,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv007.n01.xml"
+                    name='xv007.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -694,14 +694,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv007.n02.xml"
+                        href='../saxonData/XmlVersions/xv007.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -712,10 +712,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv007.n02.xml"
+                    name='xv007.n02.xml'
                 ),
             ],
-            name="xv007"
+            name='xv007'
         ),
         TestGroup(
             annotation=[
@@ -724,12 +724,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \C in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\C in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 were different from 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 were different from 1.0'
                                 ),
                             ]
                         ),
@@ -738,16 +738,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/"
+                    href='http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv008.xsd"
+                        href='../saxonData/XmlVersions/xv008.xsd'
                     ),
                 ],
                 expected=[
@@ -759,7 +759,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv008.xsd"
+                name='xv008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -768,14 +768,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv008.v01.xml"
+                        href='../saxonData/XmlVersions/xv008.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -786,7 +786,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv008.v01.xml"
+                    name='xv008.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -794,14 +794,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv008.n01.xml"
+                        href='../saxonData/XmlVersions/xv008.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -812,7 +812,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv008.n01.xml"
+                    name='xv008.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -820,14 +820,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv008.n02.xml"
+                        href='../saxonData/XmlVersions/xv008.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -838,10 +838,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv008.n02.xml"
+                    name='xv008.n02.xml'
                 ),
             ],
-            name="xv008"
+            name='xv008'
         ),
         TestGroup(
             annotation=[
@@ -850,12 +850,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test interpretation of NMTOKENS under XML 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test interpretation of NMTOKENS under XML 1.1'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 were different from 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 were different from 1.0'
                                 ),
                             ]
                         ),
@@ -864,16 +864,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-1-20090831/"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-1-20090831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv009.xsd"
+                        href='../saxonData/XmlVersions/xv009.xsd'
                     ),
                 ],
                 expected=[
@@ -885,7 +885,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 21)
                 ),
-                name="xv009.xsd"
+                name='xv009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -894,14 +894,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv009.v01.xml"
+                        href='../saxonData/XmlVersions/xv009.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -912,7 +912,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv009.v01.xml"
+                    name='xv009.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -920,14 +920,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv009.v02.xml"
+                        href='../saxonData/XmlVersions/xv009.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -938,7 +938,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv009.v02.xml"
+                    name='xv009.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -946,14 +946,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv009.n01.xml"
+                        href='../saxonData/XmlVersions/xv009.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -964,7 +964,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv009.n01.xml"
+                    name='xv009.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -972,14 +972,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv009.n02.xml"
+                        href='../saxonData/XmlVersions/xv009.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -990,7 +990,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv009.n02.xml"
+                    name='xv009.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -998,14 +998,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid against the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid against the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv009.n03.xml"
+                        href='../saxonData/XmlVersions/xv009.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1016,10 +1016,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv009.n03.xml"
+                    name='xv009.n03.xml'
                 ),
             ],
-            name="xv009"
+            name='xv009'
         ),
         TestGroup(
             annotation=[
@@ -1028,12 +1028,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \i in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\i in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 are the same as 1.05e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 are the same as 1.05e'
                                 ),
                             ]
                         ),
@@ -1042,16 +1042,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/"
+                    href='http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv100.i.xsd"
+                        href='../saxonData/XmlVersions/xv100.i.xsd'
                     ),
                 ],
                 expected=[
@@ -1063,12 +1063,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 24)
                 ),
-                name="xv100i.xsd"
+                name='xv100i.xsd'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.i.xml"
+                        href='../saxonData/XmlVersions/xv100.i.xml'
                     ),
                     expected=[
                         Expected(
@@ -1079,11 +1079,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100i.i.xml"
+                    name='xv100i.i.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.c.xml"
+                        href='../saxonData/XmlVersions/xv100.c.xml'
                     ),
                     expected=[
                         Expected(
@@ -1094,11 +1094,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100i.c.xml"
+                    name='xv100i.c.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.noti.xml"
+                        href='../saxonData/XmlVersions/xv100.noti.xml'
                     ),
                     expected=[
                         Expected(
@@ -1109,11 +1109,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100i.noti.xml"
+                    name='xv100i.noti.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.notc.xml"
+                        href='../saxonData/XmlVersions/xv100.notc.xml'
                     ),
                     expected=[
                         Expected(
@@ -1124,10 +1124,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100i.notc.xml"
+                    name='xv100i.notc.xml'
                 ),
             ],
-            name="xv100i"
+            name='xv100i'
         ),
         TestGroup(
             annotation=[
@@ -1136,12 +1136,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \c in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\c in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 are the same as 1.05e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 are the same as 1.05e'
                                 ),
                             ]
                         ),
@@ -1150,16 +1150,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/"
+                    href='http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv100.c.xsd"
+                        href='../saxonData/XmlVersions/xv100.c.xsd'
                     ),
                 ],
                 expected=[
@@ -1171,12 +1171,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 24)
                 ),
-                name="xv100c.xsd"
+                name='xv100c.xsd'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.i.xml"
+                        href='../saxonData/XmlVersions/xv100.i.xml'
                     ),
                     expected=[
                         Expected(
@@ -1187,11 +1187,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100c.i.xml"
+                    name='xv100c.i.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.c.xml"
+                        href='../saxonData/XmlVersions/xv100.c.xml'
                     ),
                     expected=[
                         Expected(
@@ -1202,11 +1202,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100c.c.xml"
+                    name='xv100c.c.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.noti.xml"
+                        href='../saxonData/XmlVersions/xv100.noti.xml'
                     ),
                     expected=[
                         Expected(
@@ -1217,11 +1217,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100c.noti.xml"
+                    name='xv100c.noti.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.notc.xml"
+                        href='../saxonData/XmlVersions/xv100.notc.xml'
                     ),
                     expected=[
                         Expected(
@@ -1232,10 +1232,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100c.notc.xml"
+                    name='xv100c.notc.xml'
                 ),
             ],
-            name="xv100c"
+            name='xv100c'
         ),
         TestGroup(
             annotation=[
@@ -1244,12 +1244,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \I in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\I in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 are the same as 1.05e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 are the same as 1.05e'
                                 ),
                             ]
                         ),
@@ -1258,16 +1258,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/"
+                    href='http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv100.noti.xsd"
+                        href='../saxonData/XmlVersions/xv100.noti.xsd'
                     ),
                 ],
                 expected=[
@@ -1279,12 +1279,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 24)
                 ),
-                name="xv100noti.xsd"
+                name='xv100noti.xsd'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.i.xml"
+                        href='../saxonData/XmlVersions/xv100.i.xml'
                     ),
                     expected=[
                         Expected(
@@ -1295,11 +1295,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100noti.i.xml"
+                    name='xv100noti.i.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.c.xml"
+                        href='../saxonData/XmlVersions/xv100.c.xml'
                     ),
                     expected=[
                         Expected(
@@ -1310,11 +1310,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100noti.c.xml"
+                    name='xv100noti.c.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.noti.xml"
+                        href='../saxonData/XmlVersions/xv100.noti.xml'
                     ),
                     expected=[
                         Expected(
@@ -1325,11 +1325,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100noti.noti.xml"
+                    name='xv100noti.noti.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.notc.xml"
+                        href='../saxonData/XmlVersions/xv100.notc.xml'
                     ),
                     expected=[
                         Expected(
@@ -1340,10 +1340,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100noti.notc.xml"
+                    name='xv100noti.notc.xml'
                 ),
             ],
-            name="xv100noti"
+            name='xv100noti'
         ),
         TestGroup(
             annotation=[
@@ -1352,12 +1352,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test which characters match \C in a regex"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test which characters match \\C in a regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Name characters in XML 1.1 are the same as 1.05e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Name characters in XML 1.1 are the same as 1.05e'
                                 ),
                             ]
                         ),
@@ -1366,16 +1366,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/"
+                    href='http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/XmlVersions/xv100.notc.xsd"
+                        href='../saxonData/XmlVersions/xv100.notc.xsd'
                     ),
                 ],
                 expected=[
@@ -1387,12 +1387,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 24)
                 ),
-                name="xv100notc.xsd"
+                name='xv100notc.xsd'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.i.xml"
+                        href='../saxonData/XmlVersions/xv100.i.xml'
                     ),
                     expected=[
                         Expected(
@@ -1403,11 +1403,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100notc.i.xml"
+                    name='xv100notc.i.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.c.xml"
+                        href='../saxonData/XmlVersions/xv100.c.xml'
                     ),
                     expected=[
                         Expected(
@@ -1418,11 +1418,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100notc.c.xml"
+                    name='xv100notc.c.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.noti.xml"
+                        href='../saxonData/XmlVersions/xv100.noti.xml'
                     ),
                     expected=[
                         Expected(
@@ -1433,11 +1433,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100notc.noti.xml"
+                    name='xv100notc.noti.xml'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/XmlVersions/xv100.notc.xml"
+                        href='../saxonData/XmlVersions/xv100.notc.xml'
                     ),
                     expected=[
                         Expected(
@@ -1448,15 +1448,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 21)
                     ),
-                    name="xv100notc.notc.xml"
+                    name='xv100notc.notc.xml'
                 ),
             ],
-            name="xv100notc"
+            name='xv100notc'
         ),
     ],
-    contributor="Saxonica",
-    name="XmlVersions",
+    contributor='Saxonica',
+    name='XmlVersions',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

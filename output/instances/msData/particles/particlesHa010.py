@@ -5,8 +5,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     x_or_y=[
         AnyElement(
-            qname="{http://xsdtesting}y",
-            text=""
+            qname='{http://xsdtesting}y',
+            text=''
         ),
     ]
 )

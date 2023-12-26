@@ -13,5 +13,5 @@ class Root:
         metadata={
             "required": True,
             "max_inclusive": Decimal("5"),
-        }
+        },
     )

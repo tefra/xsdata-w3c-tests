@@ -2,5 +2,5 @@ from output.models.nist_data.union.short_g_year.schema_instance.nistschema_sv_iv
 
 
 obj = NistschemaSvIvUnionShortGYearPattern4(
-    value="53"
+    value='53'
 )

@@ -8,41 +8,41 @@ obj = Root(
     uid=[
         Uidtype(
             iid=Iid(
-                value="1",
-                val="1"
+                value='1',
+                val='1'
             )
         ),
         Uidtype(
             iid=Iid(
-                value="11",
-                val="11"
+                value='11',
+                val='11'
             )
         ),
         Uidtype(
             iid=Iid(
-                value="111",
-                val="111"
+                value='111',
+                val='111'
             )
         ),
         Uidtype(
             iid=Iid(
-                value="1.0",
-                val="1.0"
+                value='1.0',
+                val='1.0'
             )
         ),
     ],
     kid=[
         Kid(
-            val="1"
+            val='1'
         ),
         Kid(
-            val="11"
+            val='11'
         ),
         Kid(
-            val="111"
+            val='111'
         ),
         Kid(
-            val="1.0"
+            val='1.0'
         ),
     ]
 )

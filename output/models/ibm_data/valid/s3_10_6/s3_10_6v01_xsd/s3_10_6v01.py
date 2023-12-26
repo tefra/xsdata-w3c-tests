@@ -15,7 +15,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     e2: Optional["T.E2"] = field(
         default=None,
@@ -23,7 +23,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -33,7 +33,7 @@ class T:
             metadata={
                 "type": "Attributes",
                 "namespace": "##any",
-            }
+            },
         )
 
     @dataclass
@@ -43,7 +43,7 @@ class T:
             metadata={
                 "type": "Attributes",
                 "namespace": "##any",
-            }
+            },
         )
 
 

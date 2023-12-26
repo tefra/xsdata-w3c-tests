@@ -12,14 +12,14 @@ class Item:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     price: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "min_inclusive": Decimal("0"),
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class LongItemDefn(Item):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -47,7 +47,7 @@ class ShortItemDefn(Item):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -62,5 +62,5 @@ class Poitems:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

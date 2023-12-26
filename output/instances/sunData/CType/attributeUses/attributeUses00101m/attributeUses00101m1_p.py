@@ -4,6 +4,6 @@ from xsdata.models.datatype import XmlDate
 
 obj = A(
     value=123,
-    attr1="abc",
+    attr1='abc',
     attr2=XmlDate(2002, 4, 9)
 )

@@ -7,14 +7,14 @@ obj = Root(
     a_or_item=[
         Item(
             any_element=AnyElement(
-                text="abc"
+                text='abc'
             )
         ),
         Item(
             any_element=AnyElement(
-                text="abc",
+                text='abc',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}anySimpleType',
                 }
             )
         ),

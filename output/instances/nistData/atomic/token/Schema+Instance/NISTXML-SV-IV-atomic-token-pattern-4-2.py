@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenPattern4(
-    value="1 The Impact Joint Street Of Testing , KS 13573"
+    value='1 The Impact Joint Street Of Testing , KS 13573'
 )

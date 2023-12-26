@@ -33,5 +33,5 @@ class Root:
                     "tokens": True,
                 },
             ),
-        }
+        },
     )

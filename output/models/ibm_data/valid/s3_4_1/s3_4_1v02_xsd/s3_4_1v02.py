@@ -14,7 +14,7 @@ class C:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     x: Optional[int] = field(
         default=None,
@@ -22,7 +22,7 @@ class C:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class D:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     z: Optional[int] = field(
         default=None,
@@ -44,7 +44,7 @@ class D:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -58,7 +58,7 @@ class E:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     y: Optional[int] = field(
         default=None,
@@ -66,7 +66,7 @@ class E:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -81,7 +81,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     p: Optional[C] = field(
         default=None,
@@ -89,7 +89,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     q: Optional[D] = field(
         default=None,
@@ -97,7 +97,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     r: Optional[E] = field(
         default=None,
@@ -105,5 +105,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

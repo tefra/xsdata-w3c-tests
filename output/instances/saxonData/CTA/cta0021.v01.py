@@ -7,7 +7,7 @@ obj = Doc(
     event=[
         Event(
             when=XmlDate(2010, 10, 16),
-            type_value="date"
+            type_value='date'
         ),
     ]
 )

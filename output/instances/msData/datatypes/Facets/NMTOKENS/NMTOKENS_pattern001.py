@@ -3,6 +3,6 @@ from output.models.ms_data.datatypes.facets.nmtokens.nmtokens_pattern001_xsd.nmt
 
 obj = Foo(
     value=[
-        "AB",
+        'AB',
     ]
 )

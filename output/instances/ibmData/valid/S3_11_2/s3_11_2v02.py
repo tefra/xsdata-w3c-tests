@@ -7,12 +7,12 @@ obj = Root(
         Numtype(
             value=3,
             id_1=2,
-            id_2="a"
+            id_2='a'
         ),
         Numtype(
             value=2,
             id_1=2,
-            id_2="c"
+            id_2='c'
         ),
     ]
 )

@@ -22,7 +22,7 @@ class Ct:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

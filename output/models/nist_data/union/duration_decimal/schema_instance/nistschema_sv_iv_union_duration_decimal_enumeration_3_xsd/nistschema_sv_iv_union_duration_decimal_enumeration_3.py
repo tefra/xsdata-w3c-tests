@@ -22,9 +22,11 @@ class NistschemaSvIvUnionDurationDecimalEnumeration3:
         name = "NISTSchema-SV-IV-union-duration-decimal-enumeration-3"
         namespace = "NISTSchema-SV-IV-union-duration-decimal-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvUnionDurationDecimalEnumeration3Type] = field(
+    value: Optional[
+        NistschemaSvIvUnionDurationDecimalEnumeration3Type
+    ] = field(
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

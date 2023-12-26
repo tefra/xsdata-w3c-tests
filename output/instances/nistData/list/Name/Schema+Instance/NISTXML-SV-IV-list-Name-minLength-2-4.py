@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMinLength2(
     value=[
-        "fof:precise.accelerate_file:c",
-        "acomponent-the:relationships:",
-        "minto:has-automate-and:an-and",
-        "afiles:the_repository_looking",
-        "xof:standards.also-and:with.u",
-        "_addressing.launching_the.the",
-        "qenvironments.is_this-resides",
-        "xcomputing-of.pervasive:compo",
+        'fof:precise.accelerate_file:c',
+        'acomponent-the:relationships:',
+        'minto:has-automate-and:an-and',
+        'afiles:the_repository_looking',
+        'xof:standards.also-and:with.u',
+        '_addressing.launching_the.the',
+        'qenvironments.is_this-resides',
+        'xcomputing-of.pervasive:compo',
     ]
 )

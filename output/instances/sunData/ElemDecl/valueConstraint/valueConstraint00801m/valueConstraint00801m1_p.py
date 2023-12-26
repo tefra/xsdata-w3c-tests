@@ -4,10 +4,10 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Root(
     any_element=AnyElement(
-        text="alpha beta",
+        text='alpha beta',
         attributes={
-            "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/valueConstraint valueConstraint00801m1.xsd",
-            "{http://www.w3.org/2001/XMLSchema-instance}type": "{ElemDecl/valueConstraint}Text",
+            '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'ElemDecl/valueConstraint valueConstraint00801m1.xsd',
+            '{http://www.w3.org/2001/XMLSchema-instance}type': '{ElemDecl/valueConstraint}Text',
         }
     )
 )

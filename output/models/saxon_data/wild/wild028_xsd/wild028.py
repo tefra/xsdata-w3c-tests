@@ -13,5 +13,5 @@ class Eden:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )

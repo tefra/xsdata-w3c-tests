@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.base64_binary.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListBase64BinaryMinLength1(
     value=[
-        b"aapuvbvecgfmtbsvpfkforyectjhsedruarpfuybar",
-        b"xpnjnonbtlcsqwgxkiddtuebdhcwveienliwuwciwn",
-        b"hrqefeggneqwupobrfacddkwncfdtnofflinvrgxjb",
-        b"dscmemmdhoqnuckjlauaaaojuxkcauiqjfecivepie",
-        b"mrpimytkgdkhgwdrcruhgittqoxqetuwukyxkmaouu",
-        b"ojrybbemvbrhfdcukjarmhynqeqehemhtyphtpycev",
-        b"iitdfxosthuofqhwbcpaaagcgachmfrsutpybqgvnw",
+        b'aapuvbvecgfmtbsvpfkforyectjhsedruarpfuybar',
+        b'xpnjnonbtlcsqwgxkiddtuebdhcwveienliwuwciwn',
+        b'hrqefeggneqwupobrfacddkwncfdtnofflinvrgxjb',
+        b'dscmemmdhoqnuckjlauaaaojuxkcauiqjfecivepie',
+        b'mrpimytkgdkhgwdrcruhgittqoxqetuwukyxkmaouu',
+        b'ojrybbemvbrhfdcukjarmhynqeqehemhtyphtpycev',
+        b'iitdfxosthuofqhwbcpaaagcgachmfrsutpybqgvnw',
     ]
 )

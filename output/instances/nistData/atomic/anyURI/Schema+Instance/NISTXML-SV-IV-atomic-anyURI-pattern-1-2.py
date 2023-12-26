@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriPattern1(
-    value="telnet://wirel.oldert.org"
+    value='telnet://wirel.oldert.org'
 )

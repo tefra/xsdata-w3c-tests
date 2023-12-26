@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.token.schema_instance.nistschema_sv_iv_lis
 
 obj = NistschemaSvIvListTokenPattern1(
     value=[
-        "54_And_Its_Draft_Street_On_Discussions_The_,_NJ_15685",
-        "166_Robust_Security_Street_Tools_,_RI_13673",
-        "55155_From_Xml_Efforts_Of_These_Street_Includes_,_NE_10126",
-        "9956_Over_Law_Street_With_All_,_ME_12533",
-        "6269_Known_For_The_Constituent_Street_Will_,_ND_13175",
+        '54_And_Its_Draft_Street_On_Discussions_The_,_NJ_15685',
+        '166_Robust_Security_Street_Tools_,_RI_13673',
+        '55155_From_Xml_Efforts_Of_These_Street_Includes_,_NE_10126',
+        '9956_Over_Law_Street_With_All_,_ME_12533',
+        '6269_Known_For_The_Constituent_Street_Will_,_ND_13175',
     ]
 )

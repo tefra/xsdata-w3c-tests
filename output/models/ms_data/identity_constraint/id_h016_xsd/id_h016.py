@@ -11,7 +11,7 @@ class Kid:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class Uid:
         default="test",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -39,12 +39,12 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

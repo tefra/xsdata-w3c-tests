@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringWhiteSpace1(
-    value="called the Extensible Markup Language  XML   which is rapidly becoming one of th"
+    value='called the Extensible Markup Language  XML   which is rapidly becoming one of th'
 )

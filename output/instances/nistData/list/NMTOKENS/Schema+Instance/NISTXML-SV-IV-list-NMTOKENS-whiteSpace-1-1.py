@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensWhiteSpace1(
     value=[
-        "Chi",
-        "on-",
-        "in-",
-        "spe",
-        "and",
-        "sof",
-        "com",
+        'Chi',
+        'on-',
+        'in-',
+        'spe',
+        'and',
+        'sof',
+        'com',
     ]
 )

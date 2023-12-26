@@ -14,14 +14,14 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",
             "type": "Attribute",
-        }
+        },
     )
 
 

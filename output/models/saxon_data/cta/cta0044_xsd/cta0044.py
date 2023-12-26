@@ -14,26 +14,26 @@ class AType:
         metadata={
             "type": "Element",
             "namespace": "abc",
-        }
+        },
     )
     f: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "abc",
-        }
+        },
     )
     switch: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     r: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -55,13 +55,13 @@ class ATypeF(AType):
             "type": "Element",
             "namespace": "abc",
             "required": True,
-        }
+        },
     )
     r: Any = field(
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 
@@ -76,7 +76,7 @@ class ATypeT(AType):
             "type": "Element",
             "namespace": "abc",
             "required": True,
-        }
+        },
     )
 
 
@@ -91,5 +91,5 @@ class Top:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

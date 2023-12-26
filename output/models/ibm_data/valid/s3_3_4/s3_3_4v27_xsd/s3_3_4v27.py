@@ -10,13 +10,13 @@ class Ids:
         default="zxc",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     idref_attr: str = field(
         default="zxc",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

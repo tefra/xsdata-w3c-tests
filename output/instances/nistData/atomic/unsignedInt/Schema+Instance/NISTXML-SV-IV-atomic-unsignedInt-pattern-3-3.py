@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.unsigned_int.schema_instance.nistschema_sv_i
 
 
 obj = NistschemaSvIvAtomicUnsignedIntPattern3(
-    value="34638"
+    value='34638'
 )

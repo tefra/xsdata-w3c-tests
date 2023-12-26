@@ -25,12 +25,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with extended minOccurs and maxOccurs values"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with extended minOccurs and maxOccurs values'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with extended minOccurs and maxOccurs values"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with extended minOccurs and maxOccurs values'
                                 ),
                             ]
                         ),
@@ -39,16 +39,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all001.xsd"
+                        href='../saxonData/All/all001.xsd'
                     ),
                 ],
                 expected=[
@@ -60,7 +60,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 25)
                 ),
-                name="all001.xsd"
+                name='all001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -69,14 +69,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.v01.xml"
+                        href='../saxonData/All/all001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -87,7 +87,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all001.v01.xml"
+                    name='all001.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -95,14 +95,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Inalid, too few occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Inalid, too few occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.n01.xml"
+                        href='../saxonData/All/all001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -113,7 +113,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all001.n01.xml"
+                    name='all001.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -121,14 +121,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.n02.xml"
+                        href='../saxonData/All/all001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -139,7 +139,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all001.n02.xml"
+                    name='all001.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -147,14 +147,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.n03.xml"
+                        href='../saxonData/All/all001.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -165,10 +165,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all001.n03.xml"
+                    name='all001.n03.xml'
                 ),
             ],
-            name="all001",
+            name='all001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -180,12 +180,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with substitution groups"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with substitution groups'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with extended minOccurs and maxOccurs values"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with extended minOccurs and maxOccurs values'
                                 ),
                             ]
                         ),
@@ -194,16 +194,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all002.xsd"
+                        href='../saxonData/All/all002.xsd'
                     ),
                 ],
                 expected=[
@@ -215,7 +215,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 25)
                 ),
-                name="all002.xsd"
+                name='all002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -224,14 +224,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all002.v01.xml"
+                        href='../saxonData/All/all002.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -242,7 +242,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all002.v01.xml"
+                    name='all002.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -250,14 +250,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all002.n01.xml"
+                        href='../saxonData/All/all002.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -268,7 +268,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all002.n01.xml"
+                    name='all002.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -276,14 +276,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all002.n02.xml"
+                        href='../saxonData/All/all002.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -294,7 +294,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all002.n02.xml"
+                    name='all002.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -302,14 +302,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all002.n03.xml"
+                        href='../saxonData/All/all002.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -320,10 +320,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all002.n03.xml"
+                    name='all002.n03.xml'
                 ),
             ],
-            name="all002",
+            name='all002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -335,12 +335,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with mixed content with extended minOccurs and maxOccurs values"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with mixed content with extended minOccurs and maxOccurs values'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with mixed content with extended minOccurs and maxOccurs values"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with mixed content with extended minOccurs and maxOccurs values'
                                 ),
                             ]
                         ),
@@ -349,16 +349,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all003.xsd"
+                        href='../saxonData/All/all003.xsd'
                     ),
                 ],
                 expected=[
@@ -370,7 +370,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 25)
                 ),
-                name="all003.xsd"
+                name='all003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -379,14 +379,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all003.v01.xml"
+                        href='../saxonData/All/all003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -397,7 +397,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all003.v01.xml"
+                    name='all003.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -405,14 +405,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all003.v02.xml"
+                        href='../saxonData/All/all003.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -423,7 +423,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all003.v02.xml"
+                    name='all003.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -431,14 +431,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all003.v03.xml"
+                        href='../saxonData/All/all003.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -449,10 +449,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all003.v03.xml"
+                    name='all003.v03.xml'
                 ),
             ],
-            name="all003",
+            name='all003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -464,11 +464,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='All model group with nillable="true"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Test cases involving xsi:nil="true" or "false"'
                                 ),
                             ]
@@ -478,16 +478,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all004.xsd"
+                        href='../saxonData/All/all004.xsd'
                     ),
                 ],
                 expected=[
@@ -499,7 +499,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 25)
                 ),
-                name="all004.xsd"
+                name='all004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -508,14 +508,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all004.v01.xml"
+                        href='../saxonData/All/all004.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -526,7 +526,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all004.v01.xml"
+                    name='all004.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -534,14 +534,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all004.v02.xml"
+                        href='../saxonData/All/all004.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -552,7 +552,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all004.v02.xml"
+                    name='all004.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -560,14 +560,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element is nilled but contains content.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element is nilled but contains content.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all004.n01.xml"
+                        href='../saxonData/All/all004.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -578,7 +578,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all004.n01.xml"
+                    name='all004.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -586,14 +586,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element is nilled but contains content, albeit whitespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element is nilled but contains content, albeit whitespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all004.n02.xml"
+                        href='../saxonData/All/all004.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -604,10 +604,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="all004.n02.xml"
+                    name='all004.n02.xml'
                 ),
             ],
-            name="all004",
+            name='all004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -619,12 +619,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with two xs:any wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with two xs:any wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test cases matching and non-matching wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test cases matching and non-matching wildcards'
                                 ),
                             ]
                         ),
@@ -633,16 +633,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all005.xsd"
+                        href='../saxonData/All/all005.xsd'
                     ),
                 ],
                 expected=[
@@ -654,7 +654,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 25)
                 ),
-                name="all005.xsd"
+                name='all005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -663,14 +663,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all005.v01.xml"
+                        href='../saxonData/All/all005.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -681,7 +681,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all005.v01.xml"
+                    name='all005.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -689,14 +689,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element c not allowed&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element c not allowed\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all005.n01.xml"
+                        href='../saxonData/All/all005.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -707,7 +707,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all005.n01.xml"
+                    name='all005.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -715,14 +715,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element c:c not allowed&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element c:c not allowed\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all005.n02.xml"
+                        href='../saxonData/All/all005.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -733,7 +733,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all005.n02.xml"
+                    name='all005.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -741,14 +741,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. maxOccurs() limit exceeded on a wildcard&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. maxOccurs() limit exceeded on a wildcard\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all005.n03.xml"
+                        href='../saxonData/All/all005.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -759,7 +759,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all005.n03.xml"
+                    name='all005.n03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -767,14 +767,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. minOccurs() limit not reached on a wildcard&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. minOccurs() limit not reached on a wildcard\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all005.n04.xml"
+                        href='../saxonData/All/all005.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -785,7 +785,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all005.n04.xml"
+                    name='all005.n04.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -793,14 +793,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. minOccurs() limit disallows empty content&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. minOccurs() limit disallows empty content\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all005.n05.xml"
+                        href='../saxonData/All/all005.n05.xml'
                     ),
                     expected=[
                         Expected(
@@ -811,10 +811,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all005.n05.xml"
+                    name='all005.n05.xml'
                 ),
             ],
-            name="all005",
+            name='all005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -826,12 +826,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group, test on children"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group, test on children'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test that each child of an all group is validated against the right type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test that each child of an all group is validated against the right type'
                                 ),
                             ]
                         ),
@@ -840,16 +840,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all006.xsd"
+                        href='../saxonData/All/all006.xsd'
                     ),
                 ],
                 expected=[
@@ -861,7 +861,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 25)
                 ),
-                name="all006.xsd"
+                name='all006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -870,14 +870,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all006.v01.xml"
+                        href='../saxonData/All/all006.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -888,7 +888,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all006.v01.xml"
+                    name='all006.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -896,14 +896,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element a has wrong type&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element a has wrong type\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all006.n01.xml"
+                        href='../saxonData/All/all006.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -914,7 +914,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all006.n01.xml"
+                    name='all006.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -922,14 +922,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element b has wrong type&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element b has wrong type\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all006.n02.xml"
+                        href='../saxonData/All/all006.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -940,7 +940,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all006.n02.xml"
+                    name='all006.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -948,14 +948,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element c has wrong type&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element c has wrong type\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all006.n03.xml"
+                        href='../saxonData/All/all006.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -966,7 +966,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all006.n03.xml"
+                    name='all006.n03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -974,14 +974,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid. Element C is permitted but value out of range&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid. Element C is permitted but value out of range\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all006.n04.xml"
+                        href='../saxonData/All/all006.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -992,10 +992,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 25)
                     ),
-                    name="all006.n04.xml"
+                    name='all006.n04.xml'
                 ),
             ],
-            name="all006",
+            name='all006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1007,12 +1007,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with a nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with a nested xs:group reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with a nested xs:group reference (otherwise same as all001)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with with a nested xs:group reference (otherwise same as all001)'
                                 ),
                             ]
                         ),
@@ -1021,16 +1021,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all007.xsd"
+                        href='../saxonData/All/all007.xsd'
                     ),
                 ],
                 expected=[
@@ -1042,7 +1042,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 13)
                 ),
-                name="all007.xsd"
+                name='all007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1051,14 +1051,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.v01.xml"
+                        href='../saxonData/All/all001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1069,7 +1069,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 13)
                     ),
-                    name="all007.v01.xml"
+                    name='all007.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1077,14 +1077,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Inalid, too few occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Inalid, too few occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.n01.xml"
+                        href='../saxonData/All/all001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1095,7 +1095,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 13)
                     ),
-                    name="all007.n01.xml"
+                    name='all007.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1103,14 +1103,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.n02.xml"
+                        href='../saxonData/All/all001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1121,7 +1121,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 13)
                     ),
-                    name="all007.n02.xml"
+                    name='all007.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1129,14 +1129,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many occurrences.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many occurrences.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all001.n03.xml"
+                        href='../saxonData/All/all001.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1147,10 +1147,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 13)
                     ),
-                    name="all007.n03.xml"
+                    name='all007.n03.xml'
                 ),
             ],
-            name="all007",
+            name='all007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1162,12 +1162,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with an incorrect nested xs:group reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with with an incorrect nested xs:group reference'
                                 ),
                             ]
                         ),
@@ -1176,16 +1176,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all008.n.xsd"
+                        href='../saxonData/All/all008.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1197,9 +1197,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 13)
                 ),
-                name="all008.xsd"
+                name='all008.xsd'
             ),
-            name="all008",
+            name='all008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1211,12 +1211,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with an incorrect nested xs:group reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with with an incorrect nested xs:group reference'
                                 ),
                             ]
                         ),
@@ -1225,16 +1225,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all009.n.xsd"
+                        href='../saxonData/All/all009.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1246,9 +1246,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 13)
                 ),
-                name="all008.xsd"
+                name='all008.xsd'
             ),
-            name="all009",
+            name='all009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1260,12 +1260,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with an incorrect nested xs:group reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with with an incorrect nested xs:group reference'
                                 ),
                             ]
                         ),
@@ -1274,16 +1274,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all010.n.xsd"
+                        href='../saxonData/All/all010.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1295,9 +1295,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 13)
                 ),
-                name="all008.xsd"
+                name='all008.xsd'
             ),
-            name="all010",
+            name='all010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1309,12 +1309,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group with an incorrect nested xs:group reference'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All model group with with an incorrect nested xs:group reference'
                                 ),
                             ]
                         ),
@@ -1323,16 +1323,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all011.n.xsd"
+                        href='../saxonData/All/all011.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1344,9 +1344,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 13)
                 ),
-                name="all008.xsd"
+                name='all008.xsd'
             ),
-            name="all011",
+            name='all011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1358,12 +1358,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple valid all:all subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple valid all:all subsumption'
                                 ),
                             ]
                         ),
@@ -1372,16 +1372,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all201.xsd"
+                        href='../saxonData/All/all201.xsd'
                     ),
                 ],
                 expected=[
@@ -1393,9 +1393,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all201.xsd"
+                name='all201.xsd'
             ),
-            name="all201",
+            name='all201',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1407,12 +1407,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:all subsumption'
                                 ),
                             ]
                         ),
@@ -1421,16 +1421,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all202.n.xsd"
+                        href='../saxonData/All/all202.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1442,9 +1442,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all202.xsd"
+                name='all202.xsd'
             ),
-            name="all202",
+            name='all202',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1456,12 +1456,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:all subsumption'
                                 ),
                             ]
                         ),
@@ -1470,16 +1470,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all203.n.xsd"
+                        href='../saxonData/All/all203.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1491,9 +1491,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all203.xsd"
+                name='all203.xsd'
             ),
-            name="all203",
+            name='all203',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1505,12 +1505,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:all subsumption'
                                 ),
                             ]
                         ),
@@ -1519,16 +1519,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all204.n.xsd"
+                        href='../saxonData/All/all204.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1540,9 +1540,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all204.xsd"
+                name='all204.xsd'
             ),
-            name="all204",
+            name='all204',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1554,12 +1554,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:all subsumption'
                                 ),
                             ]
                         ),
@@ -1568,16 +1568,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all205.n.xsd"
+                        href='../saxonData/All/all205.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1589,9 +1589,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all205.xsd"
+                name='all205.xsd'
             ),
-            name="all205",
+            name='all205',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1603,12 +1603,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption using named model groups"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption using named model groups'
                                 ),
                             ]
                         ),
@@ -1617,19 +1617,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all206.xsd"
+                        href='../saxonData/All/all206.xsd'
                     ),
                 ],
                 expected=[
@@ -1641,9 +1641,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 14)
                 ),
-                name="all206.xsd"
+                name='all206.xsd'
             ),
-            name="all206",
+            name='all206',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1655,12 +1655,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple valid all:sequence subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple valid all:sequence subsumption'
                                 ),
                             ]
                         ),
@@ -1669,19 +1669,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all211.xsd"
+                        href='../saxonData/All/all211.xsd'
                     ),
                 ],
                 expected=[
@@ -1693,9 +1693,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all211.xsd"
+                name='all211.xsd'
             ),
-            name="all211",
+            name='all211',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1707,12 +1707,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:sequence subsumption'
                                 ),
                             ]
                         ),
@@ -1721,19 +1721,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all212.n.xsd"
+                        href='../saxonData/All/all212.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1745,9 +1745,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all212.xsd"
+                name='all212.xsd'
             ),
-            name="all212",
+            name='all212',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1759,12 +1759,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:sequence subsumption'
                                 ),
                             ]
                         ),
@@ -1773,19 +1773,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all213.n.xsd"
+                        href='../saxonData/All/all213.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1797,9 +1797,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all213.xsd"
+                name='all213.xsd'
             ),
-            name="all213",
+            name='all213',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1811,12 +1811,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:sequence subsumption'
                                 ),
                             ]
                         ),
@@ -1825,19 +1825,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all214.n.xsd"
+                        href='../saxonData/All/all214.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1849,9 +1849,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all214.xsd"
+                name='all214.xsd'
             ),
-            name="all214",
+            name='all214',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1863,12 +1863,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple invalid all:sequence subsumption'
                                 ),
                             ]
                         ),
@@ -1877,19 +1877,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all215.n.xsd"
+                        href='../saxonData/All/all215.n.xsd'
                     ),
                 ],
                 expected=[
@@ -1901,9 +1901,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all215.xsd"
+                name='all215.xsd'
             ),
-            name="all215",
+            name='all215',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1915,12 +1915,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence subsumption; one element appears twice in sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:sequence subsumption; one element appears twice in sequence'
                                 ),
                             ]
                         ),
@@ -1929,19 +1929,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all216.xsd"
+                        href='../saxonData/All/all216.xsd'
                     ),
                 ],
                 expected=[
@@ -1953,9 +1953,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all216.xsd"
+                name='all216.xsd'
             ),
-            name="all216",
+            name='all216',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1967,12 +1967,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence subsumption; derived sequence is a single element particle"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:sequence subsumption; derived sequence is a single element particle'
                                 ),
                             ]
                         ),
@@ -1981,71 +1981,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all217.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 2)
-                ),
-                name="all217.xsd"
-            ),
-            name="all217",
-            version=[
-                KnownToken.VALUE_1_1,
-            ]
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence subsumption; derived sequence is a single wildcard particle"
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
-                ),
-                DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
-                ),
-                DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../saxonData/All/all218.xsd"
+                        href='../saxonData/All/all217.xsd'
                     ),
                 ],
                 expected=[
@@ -2057,9 +2005,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 2)
                 ),
-                name="all218.xsd"
+                name='all217.xsd'
             ),
-            name="all218",
+            name='all217',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2071,12 +2019,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:sequence subsumption; derived sequence is a single wildcard particle'
                                 ),
                             ]
                         ),
@@ -2085,16 +2033,68 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
+                ),
+                DocumentationReference(
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all221.xsd"
+                        href='../saxonData/All/all218.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2008, 8, 2)
+                ),
+                name='all218.xsd'
+            ),
+            name='all218',
+            version=[
+                KnownToken.VALUE_1_1,
+            ]
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption involving substitution group'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
+                ),
+                DocumentationReference(
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/All/all221.xsd'
                     ),
                 ],
                 expected=[
@@ -2106,9 +2106,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all221.xsd"
+                name='all221.xsd'
             ),
-            name="all221",
+            name='all221',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2120,12 +2120,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption involving substitution group'
                                 ),
                             ]
                         ),
@@ -2134,16 +2134,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all222.xsd"
+                        href='../saxonData/All/all222.xsd'
                     ),
                 ],
                 expected=[
@@ -2155,9 +2155,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all222.xsd"
+                name='all222.xsd'
             ),
-            name="all222",
+            name='all222',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2169,12 +2169,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption involving substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption involving substitution group'
                                 ),
                             ]
                         ),
@@ -2183,16 +2183,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all223.n.xsd"
+                        href='../saxonData/All/all223.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2204,9 +2204,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all223.xsd"
+                name='all223.xsd'
             ),
-            name="all223",
+            name='all223',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2218,12 +2218,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption involving substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption involving substitution group'
                                 ),
                             ]
                         ),
@@ -2232,16 +2232,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all224.n.xsd"
+                        href='../saxonData/All/all224.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2253,9 +2253,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all224.xsd"
+                name='all224.xsd'
             ),
-            name="all224",
+            name='all224',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2267,12 +2267,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption involving substitution group'
                                 ),
                             ]
                         ),
@@ -2281,16 +2281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all225.xsd"
+                        href='../saxonData/All/all225.xsd'
                     ),
                 ],
                 expected=[
@@ -2302,9 +2302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all225.xsd"
+                name='all225.xsd'
             ),
-            name="all225",
+            name='all225',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2316,12 +2316,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving apparent substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption involving apparent substitution group'
                                 ),
                             ]
                         ),
@@ -2330,16 +2330,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all226.xsd"
+                        href='../saxonData/All/all226.xsd'
                     ),
                 ],
                 expected=[
@@ -2351,9 +2351,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all226.xsd"
+                name='all226.xsd'
             ),
-            name="all226",
+            name='all226',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2365,12 +2365,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption, child element type wrong"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption, child element type wrong'
                                 ),
                             ]
                         ),
@@ -2379,16 +2379,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all227.n.xsd"
+                        href='../saxonData/All/all227.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2400,9 +2400,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all227.xsd"
+                name='all227.xsd'
             ),
-            name="all227",
+            name='all227',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2414,12 +2414,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving two wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption involving two wildcards'
                                 ),
                             ]
                         ),
@@ -2428,19 +2428,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all228.xsd"
+                        href='../saxonData/All/all228.xsd'
                     ),
                 ],
                 expected=[
@@ -2452,9 +2452,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all228.xsd"
+                name='all228.xsd'
             ),
-            name="all228",
+            name='all228',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2466,12 +2466,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption involving two wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption involving two wildcards'
                                 ),
                             ]
                         ),
@@ -2480,19 +2480,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all229.n.xsd"
+                        href='../saxonData/All/all229.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2504,9 +2504,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all229.xsd"
+                name='all229.xsd'
             ),
-            name="all229",
+            name='all229',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2518,12 +2518,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption; one wildcard in the base type covers two in the derived type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption; one wildcard in the base type covers two in the derived type'
                                 ),
                             ]
                         ),
@@ -2532,19 +2532,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all230.xsd"
+                        href='../saxonData/All/all230.xsd'
                     ),
                 ],
                 expected=[
@@ -2556,9 +2556,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all230.xsd"
+                name='all230.xsd'
             ),
-            name="all230",
+            name='all230',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2570,12 +2570,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:choice"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:choice'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:choice subsumption"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:choice subsumption'
                                 ),
                             ]
                         ),
@@ -2584,71 +2584,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all231.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29)
-                ),
-                name="all231.xsd"
-            ),
-            name="all231",
-            version=[
-                KnownToken.VALUE_1_1,
-            ]
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:choice"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:choice subsumption"
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
-                ),
-                DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
-                ),
-                DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../saxonData/All/all232.xsd"
+                        href='../saxonData/All/all231.xsd'
                     ),
                 ],
                 expected=[
@@ -2660,9 +2608,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all232.xsd"
+                name='all231.xsd'
             ),
-            name="all232",
+            name='all231',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2674,12 +2622,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:choice - invalid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:choice'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:choice subsumption in third branch"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:choice subsumption'
                                 ),
                             ]
                         ),
@@ -2688,68 +2636,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all233.n.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29)
-                ),
-                name="all233.xsd"
-            ),
-            name="all233",
-            version=[
-                KnownToken.VALUE_1_1,
-            ]
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence/choice - valid but difficult"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence/choice subsumption"
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
-                ),
-                DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../saxonData/All/all234.xsd"
+                        href='../saxonData/All/all232.xsd'
                     ),
                 ],
                 expected=[
@@ -2761,9 +2660,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 29)
                 ),
-                name="all234.xsd"
+                name='all232.xsd'
             ),
-            name="all234",
+            name='all232',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2775,12 +2674,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:choice - invalid'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,&#10;                 but the maxOccurs is too small"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:choice subsumption in third branch'
                                 ),
                             ]
                         ),
@@ -2789,19 +2688,120 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all235.n.xsd"
+                        href='../saxonData/All/all233.n.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2007, 11, 29)
+                ),
+                name='all233.xsd'
+            ),
+            name='all233',
+            version=[
+                KnownToken.VALUE_1_1,
+            ]
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:sequence/choice - valid but difficult'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:sequence/choice subsumption'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
+                ),
+                DocumentationReference(
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/All/all234.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2007, 11, 29)
+                ),
+                name='all234.xsd'
+            ),
+            name='all234',
+            version=[
+                KnownToken.VALUE_1_1,
+            ]
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,\n                 but the maxOccurs is too small'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
+                ),
+                DocumentationReference(
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
+                ),
+                DocumentationReference(
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/All/all235.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2813,9 +2813,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all235.xsd"
+                name='all235.xsd'
             ),
-            name="all235",
+            name='all235',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2827,12 +2827,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,&#10;                 but the minOccurs is too large"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,\n                 but the minOccurs is too large'
                                 ),
                             ]
                         ),
@@ -2841,19 +2841,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all236.n.xsd"
+                        href='../saxonData/All/all236.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2865,9 +2865,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all236.xsd"
+                name='all236.xsd'
             ),
-            name="all236",
+            name='all236',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2879,12 +2879,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption; pathologically overlapping wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption; pathologically overlapping wildcards'
                                 ),
                             ]
                         ),
@@ -2893,19 +2893,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all237.xsd"
+                        href='../saxonData/All/all237.xsd'
                     ),
                 ],
                 expected=[
@@ -2917,9 +2917,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all237.xsd"
+                name='all237.xsd'
             ),
-            name="all237",
+            name='all237',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2931,12 +2931,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption; pathologically overlapping wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid all:all subsumption; pathologically overlapping wildcards'
                                 ),
                             ]
                         ),
@@ -2945,19 +2945,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all238.n.xsd"
+                        href='../saxonData/All/all238.n.xsd'
                     ),
                 ],
                 expected=[
@@ -2969,9 +2969,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all238.xsd"
+                name='all238.xsd'
             ),
-            name="all238",
+            name='all238',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2983,12 +2983,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: two elements with same name"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all UPA violation: two elements with same name'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="UPA violation: two elements with same name"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='UPA violation: two elements with same name'
                                 ),
                             ]
                         ),
@@ -2997,13 +2997,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all240.n.xsd"
+                        href='../saxonData/All/all240.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3015,9 +3015,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all240.xsd"
+                name='all240.xsd'
             ),
-            name="all240",
+            name='all240',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3029,12 +3029,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: one element in substitution group of another"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all UPA violation: one element in substitution group of another'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="UPA violation: one element in substitution group of another"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='UPA violation: one element in substitution group of another'
                                 ),
                             ]
                         ),
@@ -3043,13 +3043,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all241.n.xsd"
+                        href='../saxonData/All/all241.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3061,9 +3061,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all241.xsd"
+                name='all241.xsd'
             ),
-            name="all241",
+            name='all241',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3075,12 +3075,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: one element in substitution group of two others"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all UPA violation: one element in substitution group of two others'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="UPA violation: one element in substitution group of two others"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='UPA violation: one element in substitution group of two others'
                                 ),
                             ]
                         ),
@@ -3089,13 +3089,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all242.n.xsd"
+                        href='../saxonData/All/all242.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3107,9 +3107,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all242.xsd"
+                name='all242.xsd'
             ),
-            name="all242",
+            name='all242',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3121,12 +3121,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: two overlapping wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all UPA violation: two overlapping wildcards'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two overlapping wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:all UPA violation: two overlapping wildcards'
                                 ),
                             ]
                         ),
@@ -3135,16 +3135,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all243.n.xsd"
+                        href='../saxonData/All/all243.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3156,9 +3156,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 8, 4)
                 ),
-                name="all243.xsd"
+                name='all243.xsd'
             ),
-            name="all243",
+            name='all243',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3170,12 +3170,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Subsumption - all:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption; pathologically overlapping wildcards"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid all:all subsumption; pathologically overlapping wildcards'
                                 ),
                             ]
                         ),
@@ -3184,19 +3184,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all244.n.xsd"
+                        href='../saxonData/All/all244.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3208,9 +3208,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 7)
                 ),
-                name="all244.xsd"
+                name='all244.xsd'
             ),
-            name="all244",
+            name='all244',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3222,12 +3222,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group derived by extension from another all model group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group derived by extension from another all model group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allowed in 1.1'
                                 ),
                             ]
                         ),
@@ -3236,16 +3236,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all301.xsd"
+                        href='../saxonData/All/all301.xsd'
                     ),
                 ],
                 expected=[
@@ -3257,7 +3257,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 10, 30)
                 ),
-                name="all301.xsd"
+                name='all301.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3266,14 +3266,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all301.v01.xml"
+                        href='../saxonData/All/all301.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3284,7 +3284,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 30)
                     ),
-                    name="all301.v01.xml"
+                    name='all301.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3292,14 +3292,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Inalid, element h not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Inalid, element h not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all301.n01.xml"
+                        href='../saxonData/All/all301.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3310,7 +3310,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all301.n01.xml"
+                    name='all301.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3318,14 +3318,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many occurrences of d.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many occurrences of d.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all301.n02.xml"
+                        href='../saxonData/All/all301.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -3336,7 +3336,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 30)
                     ),
-                    name="all301.n02.xml"
+                    name='all301.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3344,14 +3344,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences of b&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences of b\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all301.n03.xml"
+                        href='../saxonData/All/all301.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -3362,10 +3362,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 10, 30)
                     ),
-                    name="all301.n03.xml"
+                    name='all301.n03.xml'
                 ),
             ],
-            name="all301",
+            name='all301',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3377,12 +3377,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all invalid extension, overlapping particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all invalid extension, overlapping particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two overlapping element particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:all UPA violation: two overlapping element particles'
                                 ),
                             ]
                         ),
@@ -3391,16 +3391,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all302.n.xsd"
+                        href='../saxonData/All/all302.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3412,9 +3412,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all302.xsd"
+                name='all302.xsd'
             ),
-            name="all302",
+            name='all302',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3426,12 +3426,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all invalid extension, overlappping particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all invalid extension, overlappping particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two element particles have overlapping substitution groups"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:all UPA violation: two element particles have overlapping substitution groups'
                                 ),
                             ]
                         ),
@@ -3440,16 +3440,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all303.n.xsd"
+                        href='../saxonData/All/all303.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3461,9 +3461,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all303.xsd"
+                name='all303.xsd'
             ),
-            name="all303",
+            name='all303',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3475,12 +3475,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group derived by extension from another all model group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group derived by extension from another all model group'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allowed in 1.1'
                                 ),
                             ]
                         ),
@@ -3489,16 +3489,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all304.xsd"
+                        href='../saxonData/All/all304.xsd'
                     ),
                 ],
                 expected=[
@@ -3510,7 +3510,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all304.xsd"
+                name='all304.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3519,14 +3519,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the minOccurs and maxOccurs constraints.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all304.v01.xml"
+                        href='../saxonData/All/all304.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3537,7 +3537,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all304.v01.xml"
+                    name='all304.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3545,14 +3545,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences matching wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences matching wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all304.n01.xml"
+                        href='../saxonData/All/all304.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3563,7 +3563,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all304.n01.xml"
+                    name='all304.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3571,14 +3571,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too few occurrences matching wildcard.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too few occurrences matching wildcard.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all304.n02.xml"
+                        href='../saxonData/All/all304.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -3589,7 +3589,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all304.n02.xml"
+                    name='all304.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3597,14 +3597,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many occurrences matching wildcard&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many occurrences matching wildcard\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all304.n03.xml"
+                        href='../saxonData/All/all304.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -3615,7 +3615,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all304.n03.xml"
+                    name='all304.n03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3623,14 +3623,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many occurrences matching wildcard&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many occurrences matching wildcard\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all304.n04.xml"
+                        href='../saxonData/All/all304.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -3641,10 +3641,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all304.n04.xml"
+                    name='all304.n04.xml'
                 ),
             ],
-            name="all304",
+            name='all304',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3656,12 +3656,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all invalid extension, overlappping wildcard particles"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:all invalid extension, overlappping wildcard particles'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two wildcard particles have overlapping namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:all UPA violation: two wildcard particles have overlapping namespaces'
                                 ),
                             ]
                         ),
@@ -3670,16 +3670,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all305.n.xsd"
+                        href='../saxonData/All/all305.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3691,9 +3691,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all305.xsd"
+                name='all305.xsd'
             ),
-            name="all305",
+            name='all305',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3705,12 +3705,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='All model group derived by extension from another all model group;&#10;                      mixed="true" in extension.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group derived by extension from another all model group;\n                      mixed="true" in extension.'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allowed in 1.1'
                                 ),
                             ]
                         ),
@@ -3719,16 +3719,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all306.xsd"
+                        href='../saxonData/All/all306.xsd'
                     ),
                 ],
                 expected=[
@@ -3740,7 +3740,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all306.xsd"
+                name='all306.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3749,14 +3749,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, mixed content allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, mixed content allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all306.v01.xml"
+                        href='../saxonData/All/all306.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3767,10 +3767,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all306.v01.xml"
+                    name='all306.v01.xml'
                 ),
             ],
-            name="all306",
+            name='all306',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3782,12 +3782,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='All model group derived by extension from another all model group;&#10;                      mixed="false" in extension.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='All model group derived by extension from another all model group;\n                      mixed="false" in extension.'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allowed in 1.1'
                                 ),
                             ]
                         ),
@@ -3796,16 +3796,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all307.xsd"
+                        href='../saxonData/All/all307.xsd'
                     ),
                 ],
                 expected=[
@@ -3817,7 +3817,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all307.xsd"
+                name='all307.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -3826,14 +3826,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, mixed content not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, mixed content not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all306.v01.xml"
+                        href='../saxonData/All/all306.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3844,10 +3844,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 2)
                     ),
-                    name="all307.n01.xml"
+                    name='all307.n01.xml'
                 ),
             ],
-            name="all307",
+            name='all307',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3859,12 +3859,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='xs:all extension of "mixed empty" content'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Currently invalid, but see bug 6202 against the spec."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Currently invalid, but see bug 6202 against the spec.'
                                 ),
                             ]
                         ),
@@ -3873,16 +3873,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all308.xsd"
+                        href='../saxonData/All/all308.xsd'
                     ),
                 ],
                 expected=[
@@ -3894,9 +3894,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all308.xsd"
+                name='all308.xsd'
             ),
-            name="all308",
+            name='all308',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3908,12 +3908,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:all cannot extend xs:sequence"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Even in 1.1, xs:all cannot extend xs:sequence'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Result of extension is invalid'
                                 ),
                             ]
                         ),
@@ -3922,16 +3922,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all309.n.xsd"
+                        href='../saxonData/All/all309.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3943,9 +3943,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all309.xsd"
+                name='all309.xsd'
             ),
-            name="all309",
+            name='all309',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3957,12 +3957,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:sequence cannot extend xs:all"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Even in 1.1, xs:sequence cannot extend xs:all'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Result of extension is invalid'
                                 ),
                             ]
                         ),
@@ -3971,16 +3971,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all310.n.xsd"
+                        href='../saxonData/All/all310.n.xsd'
                     ),
                 ],
                 expected=[
@@ -3992,9 +3992,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all310.xsd"
+                name='all310.xsd'
             ),
-            name="all310",
+            name='all310',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4006,12 +4006,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Result of extension is invalid'
                                 ),
                             ]
                         ),
@@ -4020,16 +4020,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all311.n.xsd"
+                        href='../saxonData/All/all311.n.xsd'
                     ),
                 ],
                 expected=[
@@ -4041,9 +4041,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all311.xsd"
+                name='all311.xsd'
             ),
-            name="all311",
+            name='all311',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4055,12 +4055,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Result of extension is invalid'
                                 ),
                             ]
                         ),
@@ -4069,16 +4069,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all312.n.xsd"
+                        href='../saxonData/All/all312.n.xsd'
                     ),
                 ],
                 expected=[
@@ -4090,9 +4090,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 2)
                 ),
-                name="all312.xsd"
+                name='all312.xsd'
             ),
-            name="all312",
+            name='all312',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4104,12 +4104,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="When xs:all extends xs:all, the minOccurs must be the same."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='When xs:all extends xs:all, the minOccurs must be the same.'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid. Test case from Priscilla Walmsley"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Result of extension is invalid. Test case from Priscilla Walmsley'
                                 ),
                             ]
                         ),
@@ -4118,16 +4118,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all313.n.xsd"
+                        href='../saxonData/All/all313.n.xsd'
                     ),
                 ],
                 expected=[
@@ -4139,9 +4139,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 19)
                 ),
-                name="all313.xsd"
+                name='all313.xsd'
             ),
-            name="all313",
+            name='all313',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4153,12 +4153,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='All model group derived by extension from another all model group, both minOccurs="0"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1. Test case from Priscilla Walmsley"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allowed in 1.1. Test case from Priscilla Walmsley'
                                 ),
                             ]
                         ),
@@ -4167,16 +4167,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/All/all314.xsd"
+                        href='../saxonData/All/all314.xsd'
                     ),
                 ],
                 expected=[
@@ -4188,7 +4188,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 20)
                 ),
-                name="all314.xsd"
+                name='all314.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4197,14 +4197,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both elements present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both elements present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.v01.xml"
+                        href='../saxonData/All/all314.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -4215,7 +4215,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.v01.xml"
+                    name='all314.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4223,14 +4223,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, both elements present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, both elements present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.v02.xml"
+                        href='../saxonData/All/all314.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -4241,7 +4241,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.v02.xml"
+                    name='all314.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4249,14 +4249,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no elements present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no elements present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.v05.xml"
+                        href='../saxonData/All/all314.v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -4267,7 +4267,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.v05.xml"
+                    name='all314.v05.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4275,14 +4275,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unrecognized child.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unrecognized child.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.n01.xml"
+                        href='../saxonData/All/all314.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -4293,7 +4293,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.n01.xml"
+                    name='all314.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4301,14 +4301,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, too many children.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, too many children.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.n02.xml"
+                        href='../saxonData/All/all314.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -4319,7 +4319,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.n02.xml"
+                    name='all314.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4327,14 +4327,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, if the group is present then all elements must be present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, if the group is present then all elements must be present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.n03.xml"
+                        href='../saxonData/All/all314.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -4345,7 +4345,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.n03.xml"
+                    name='all314.n03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -4353,14 +4353,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, if the group is present then all elements must be present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, if the group is present then all elements must be present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/All/all314.n04.xml"
+                        href='../saxonData/All/all314.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -4371,21 +4371,21 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 20)
                     ),
-                    name="all314.n04.xml"
+                    name='all314.n04.xml'
                 ),
             ],
-            name="all314",
+            name='all314',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="All",
+    contributor='Saxonica',
+    name='All',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -3,5 +3,5 @@ from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicDecimalWhiteSpace1(
-    value=Decimal("831121983923768014")
+    value=Decimal('831121983923768014')
 )

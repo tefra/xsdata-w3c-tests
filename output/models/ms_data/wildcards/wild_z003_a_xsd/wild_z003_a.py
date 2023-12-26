@@ -15,7 +15,7 @@ class Elt1:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     elem: Optional[Elem] = field(
         default=None,
@@ -23,7 +23,7 @@ class Elt1:
             "type": "Element",
             "namespace": "urn:bar",
             "required": True,
-        }
+        },
     )
     other_element: List[object] = field(
         default_factory=list,
@@ -31,5 +31,5 @@ class Elt1:
             "type": "Wildcard",
             "namespace": "##other",
             "max_occurs": 3,
-        }
+        },
     )

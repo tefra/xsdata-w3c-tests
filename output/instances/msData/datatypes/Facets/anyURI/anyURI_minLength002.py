@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.any_uri.any_uri_min_length002_xsd.an
 
 
 obj = Test(
-    foo="foofo"
+    foo='foofo'
 )

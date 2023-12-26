@@ -6,7 +6,7 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class T:
-    e_or_e1: Optional[Union[int, str]] = field(
+    e_or_e1: Optional[Union[str, int]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -22,7 +22,7 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
             ),
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class E:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 

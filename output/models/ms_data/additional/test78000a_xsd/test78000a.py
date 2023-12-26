@@ -11,7 +11,7 @@ class LaxContainerType:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -23,7 +23,7 @@ class SkipContainerType:
             "type": "Wildcard",
             "namespace": "##other",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class StrictContainerType:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -64,7 +64,7 @@ class RootContainerType:
             "name": "StrictContainer",
             "type": "Element",
             "namespace": "a",
-        }
+        },
     )
     lax_container: Optional[LaxContainer] = field(
         default=None,
@@ -72,7 +72,7 @@ class RootContainerType:
             "name": "LaxContainer",
             "type": "Element",
             "namespace": "a",
-        }
+        },
     )
     skip_container: Optional[SkipContainer] = field(
         default=None,
@@ -80,7 +80,7 @@ class RootContainerType:
             "name": "SkipContainer",
             "type": "Element",
             "namespace": "a",
-        }
+        },
     )
 
 
@@ -103,5 +103,5 @@ class Doc:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 100,
-        }
+        },
     )

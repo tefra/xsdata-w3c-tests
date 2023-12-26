@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.non_negative_integer.schema_instance.nistsch
 
 
 obj = NistschemaSvIvAtomicNonNegativeIntegerPattern1(
-    value="7"
+    value='7'
 )

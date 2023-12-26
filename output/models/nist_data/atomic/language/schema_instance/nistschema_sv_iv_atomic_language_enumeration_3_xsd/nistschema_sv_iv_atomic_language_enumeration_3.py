@@ -27,5 +27,5 @@ class NistschemaSvIvAtomicLanguageEnumeration3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

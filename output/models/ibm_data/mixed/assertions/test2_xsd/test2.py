@@ -9,13 +9,13 @@ class ArrayType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     length: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

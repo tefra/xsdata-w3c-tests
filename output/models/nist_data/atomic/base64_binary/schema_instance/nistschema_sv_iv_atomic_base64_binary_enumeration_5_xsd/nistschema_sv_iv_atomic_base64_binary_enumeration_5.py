@@ -26,5 +26,5 @@ class NistschemaSvIvAtomicBase64BinaryEnumeration5:
         metadata={
             "required": True,
             "format": "base64",
-        }
+        },
     )

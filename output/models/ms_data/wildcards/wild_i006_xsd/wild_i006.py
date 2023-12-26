@@ -15,7 +15,7 @@ class Bar:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -52,5 +52,5 @@ class Foo:
                 },
             ),
             "max_occurs": 10,
-        }
+        },
     )

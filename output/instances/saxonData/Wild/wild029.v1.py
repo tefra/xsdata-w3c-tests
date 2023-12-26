@@ -4,12 +4,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Eden(
     a=[
-        "",
-        "",
-        "",
+        '',
+        '',
+        '',
     ],
     any_element=AnyElement(
-        qname="b",
-        text=""
+        qname='b',
+        text=''
     )
 )

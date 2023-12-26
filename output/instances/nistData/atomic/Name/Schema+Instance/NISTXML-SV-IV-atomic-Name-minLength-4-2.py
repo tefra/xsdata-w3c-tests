@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength4(
-    value="xobjects:and:systems-conformance.the_which:the_own_to-to"
+    value='xobjects:and:systems-conformance.the_which:the_own_to-to'
 )

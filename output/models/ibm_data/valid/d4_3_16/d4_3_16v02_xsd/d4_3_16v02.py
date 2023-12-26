@@ -15,14 +15,14 @@ class Root:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     attr_dtime_type: Optional[XmlDateTime] = field(
         default=None,
         metadata={
             "name": "attrDTimeType",
             "type": "Attribute",
-        }
+        },
     )
     attr_dtime_type_et: Optional[XmlDateTime] = field(
         default=None,
@@ -30,7 +30,7 @@ class Root:
             "name": "attrDTimeTypeET",
             "type": "Attribute",
             "explicit_timezone": "optional",
-        }
+        },
     )
     attr_dtetprohibited: Optional[XmlDateTime] = field(
         default=None,
@@ -38,7 +38,7 @@ class Root:
             "name": "attrDTETProhibited",
             "type": "Attribute",
             "explicit_timezone": "prohibited",
-        }
+        },
     )
     attr_dtetrequired: Optional[XmlDateTime] = field(
         default=None,
@@ -46,7 +46,7 @@ class Root:
             "name": "attrDTETRequired",
             "type": "Attribute",
             "explicit_timezone": "required",
-        }
+        },
     )
     attr_dtetoptional: Optional[XmlDateTime] = field(
         default=None,
@@ -54,5 +54,5 @@ class Root:
             "name": "attrDTETOptional",
             "type": "Attribute",
             "explicit_timezone": "optional",
-        }
+        },
     )

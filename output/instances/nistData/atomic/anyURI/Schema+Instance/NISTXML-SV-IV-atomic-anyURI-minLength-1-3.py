@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriMinLength1(
-    value="gopher://transformin.datasbuilt.d.gov"
+    value='gopher://transformin.datasbuilt.d.gov'
 )

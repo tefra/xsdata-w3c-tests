@@ -14,7 +14,7 @@ class Bar:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class Foo:
         default=None,
         metadata={
             "type": "Wildcard",
-        }
+        },
     )

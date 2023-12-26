@@ -15,7 +15,7 @@ class Zang:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Zeng:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_target_namespace_element: Optional[object] = field(
         default=None,
@@ -53,7 +53,7 @@ class Zing:
             "type": "Wildcard",
             "namespace": "##local ##targetNamespace",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -68,5 +68,5 @@ class Zong:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

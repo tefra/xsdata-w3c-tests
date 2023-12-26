@@ -15,7 +15,7 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class E2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class ImpElem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

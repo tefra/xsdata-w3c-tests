@@ -11,7 +11,7 @@ class Base:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class Derived(Base):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 

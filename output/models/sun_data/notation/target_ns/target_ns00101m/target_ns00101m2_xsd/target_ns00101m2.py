@@ -20,7 +20,7 @@ class A:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Picture:
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )

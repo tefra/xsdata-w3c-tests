@@ -16,5 +16,5 @@ obj = Root(
 
         ),
     ],
-    g_att="anything"
+    g_att='anything'
 )

@@ -4,7 +4,7 @@ from output.models.ms_data.particles.particles_jd008_xsd.particles_jd008 import 
 
 obj = Doc(
     elem=R(
-        e1="foo",
-        e2="foo"
+        e1='foo',
+        e2='foo'
     )
 )

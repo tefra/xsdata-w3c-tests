@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern5(
-    value="_original:efirst_intelligent_industries_who.repository-as.the_to.defi"
+    value='_original:efirst_intelligent_industries_who.repository-as.the_to.defi'
 )

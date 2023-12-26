@@ -5,11 +5,11 @@ from output.models.saxon_data.wild.wild082_xsd.wild082 import Zz
 
 obj = Root(
     a=Zz(
-        value="42",
+        value='42',
         type_value=1
     ),
     local_element=A(
-        value="93.7",
+        value='93.7',
         type_value=2
     )
 )

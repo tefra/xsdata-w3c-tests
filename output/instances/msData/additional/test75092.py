@@ -3,14 +3,14 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Foo(
-    a="",
+    a='',
     any_element=[
         DerivedElement(
-            qname="b",
-            value="abc"
+            qname='b',
+            value='abc'
         ),
         DerivedElement(
-            qname="c",
+            qname='c',
             value=123
         ),
     ]

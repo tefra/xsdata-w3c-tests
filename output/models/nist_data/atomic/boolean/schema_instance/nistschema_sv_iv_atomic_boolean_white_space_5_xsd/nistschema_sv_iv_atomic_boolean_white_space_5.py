@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicBooleanWhiteSpace5:
         metadata={
             "required": True,
             "white_space": "collapse",
-        }
+        },
     )

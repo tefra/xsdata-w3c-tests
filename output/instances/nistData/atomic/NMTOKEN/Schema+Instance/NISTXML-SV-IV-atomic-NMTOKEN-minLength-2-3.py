@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength2(
-    value="of:a_The.landscape-other.contribute_computing_unbiase"
+    value='of:a_The.landscape-other.contribute_computing_unbiase'
 )

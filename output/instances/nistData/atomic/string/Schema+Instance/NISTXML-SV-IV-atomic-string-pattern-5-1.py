@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringPattern5(
-    value="37 To Filter The Street&#10;And , GA 11101"
+    value='37 To Filter The Street\nAnd , GA 11101'
 )

@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.g_day.schema_instance.nistschema_sv_iv_atomic_g_day_pattern_4_xsd.nistschema_sv_iv_atomic_g_day_pattern_4 import NistschemaSvIvAtomicGDayPattern4
+from output.models.nist_data.atomic.g_day.schema_instance.nistschema_sv_iv_atomic_g_day_pattern_4_xsd.nistschema_sv_iv_atomic_g_day_pattern_4 import (
+    NistschemaSvIvAtomicGDayPattern4,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicGDayPattern4",

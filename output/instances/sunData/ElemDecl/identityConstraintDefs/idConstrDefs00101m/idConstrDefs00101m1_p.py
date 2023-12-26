@@ -3,7 +3,7 @@ from output.models.sun_data.elem_decl.identity_constraint_defs.id_constr_defs001
 
 obj = Root(
     sernum=[
-        "1",
-        "2",
+        '1',
+        '2',
     ]
 )

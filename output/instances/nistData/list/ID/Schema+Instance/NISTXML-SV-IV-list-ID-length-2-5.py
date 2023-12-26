@@ -5,12 +5,12 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdLength2(
         value=[
-            "_has.profiles.informatio",
-            "dshift.most.industry_doc",
-            "pusing_years.lack-them.a",
-            "vcomputing-the_tools-adv",
-            "hbusiness-particularly-s",
-            "cfiles-supply_pervasive-",
+            '_has.profiles.informatio',
+            'dshift.most.industry_doc',
+            'pusing_years.lack-them.a',
+            'vcomputing-the_tools-adv',
+            'hbusiness-particularly-s',
+            'cfiles-supply_pervasive-',
         ]
     )
 )

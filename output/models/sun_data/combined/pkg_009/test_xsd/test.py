@@ -15,19 +15,19 @@ class Base:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Add(Base):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -73,5 +73,5 @@ class Prohibit(Base):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )

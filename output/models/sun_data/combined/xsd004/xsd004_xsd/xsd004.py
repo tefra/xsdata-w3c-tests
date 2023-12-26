@@ -10,7 +10,17 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[Union["Root.StrictTarget", "Root.LaxLocal", "Root.SkipAny", "Root.StrictAny", "Root.LaxAny", "Root.SkipOther", "Root.SkipBar"]] = field(
+    choice: List[
+        Union[
+            "Root.SkipAny",
+            "Root.LaxAny",
+            "Root.StrictAny",
+            "Root.SkipOther",
+            "Root.LaxLocal",
+            "Root.StrictTarget",
+            "Root.SkipBar",
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -44,7 +54,7 @@ class Root:
                     "type": Type["Root.SkipBar"],
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -55,7 +65,7 @@ class Root:
                 "type": "Wildcard",
                 "namespace": "##any",
                 "process_contents": "skip",
-            }
+            },
         )
 
     @dataclass
@@ -65,7 +75,7 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
-            }
+            },
         )
 
     @dataclass
@@ -75,7 +85,7 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
-            }
+            },
         )
 
     @dataclass
@@ -86,7 +96,7 @@ class Root:
                 "type": "Wildcard",
                 "namespace": "##other",
                 "process_contents": "skip",
-            }
+            },
         )
 
     @dataclass
@@ -96,7 +106,7 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##local",
-            }
+            },
         )
 
     @dataclass
@@ -106,7 +116,7 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##targetNamespace",
-            }
+            },
         )
 
     @dataclass
@@ -117,5 +127,5 @@ class Root:
                 "type": "Wildcard",
                 "namespace": "bar",
                 "process_contents": "skip",
-            }
+            },
         )

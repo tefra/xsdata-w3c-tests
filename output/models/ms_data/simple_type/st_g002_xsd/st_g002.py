@@ -12,7 +12,7 @@ class FooTest:
         metadata={
             "max_length": 3,
             "tokens": True,
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Root:
             "required": True,
             "max_length": 3,
             "tokens": True,
-        }
+        },
     )

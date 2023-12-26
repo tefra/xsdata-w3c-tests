@@ -11,25 +11,25 @@ class Ct:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     att1: Union[bool, int, str] = field(
         default=False,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Union[bool, int, str] = field(
         default=5,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att3: Union[bool, int, str] = field(
         default="abc",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )

@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple assertion on an attribute value, ignored under XSD 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple assertion on an attribute value, ignored under XSD 1.0'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple assertion on an attribute value, ignored under XSD 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple assertion on an attribute value, ignored under XSD 1.0'
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc001.xsd"
+                        href='../saxonData/VC/vc001.xsd'
                     ),
                 ],
                 expected=[
@@ -61,7 +61,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc001.xsd"
+                name='vc001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -70,14 +70,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.v1.xml"
+                        href='../saxonData/VC/vc001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -88,7 +88,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc001.v1.xml"
+                    name='vc001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -96,14 +96,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid under 1.1, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid under 1.1, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.n1.xml"
+                        href='../saxonData/VC/vc001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -123,10 +123,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc001.n1.xml"
+                    name='vc001.n1.xml'
                 ),
             ],
-            name="vc001"
+            name='vc001'
         ),
         TestGroup(
             annotation=[
@@ -135,12 +135,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1'
                                 ),
                             ]
                         ),
@@ -149,16 +149,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc002.xsd"
+                        href='../saxonData/VC/vc002.xsd'
                     ),
                 ],
                 expected=[
@@ -170,7 +170,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc002.xsd"
+                name='vc002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -179,14 +179,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion and the pattern.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion and the pattern.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc002.v1.xml"
+                        href='../saxonData/VC/vc002.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -197,7 +197,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc002.v1.xml"
+                    name='vc002.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -205,14 +205,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion or the pattern.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion or the pattern.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc002.n1.xml"
+                        href='../saxonData/VC/vc002.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -223,10 +223,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc002.n1.xml"
+                    name='vc002.n1.xml'
                 ),
             ],
-            name="vc002"
+            name='vc002'
         ),
         TestGroup(
             annotation=[
@@ -235,12 +235,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test a hypothetical 5.0 feature ignored under XSD 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test a hypothetical 5.0 feature ignored under XSD 1.1'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test a hypothetical 5.0 feature ignored under XSD 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test a hypothetical 5.0 feature ignored under XSD 1.1'
                                 ),
                             ]
                         ),
@@ -249,16 +249,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc003.xsd"
+                        href='../saxonData/VC/vc003.xsd'
                     ),
                 ],
                 expected=[
@@ -270,7 +270,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc003.xsd"
+                name='vc003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -279,14 +279,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid (the 5.0 restriction is ignored)&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid (the 5.0 restriction is ignored)\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc003.v1.xml"
+                        href='../saxonData/VC/vc003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -297,10 +297,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc003.v1.xml"
+                    name='vc003.v1.xml'
                 ),
             ],
-            name="vc003",
+            name='vc003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -312,12 +312,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of version conditionals in an included schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of version conditionals in an included schema document'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use of version conditionals in an included schema document"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Use of version conditionals in an included schema document'
                                 ),
                             ]
                         ),
@@ -326,16 +326,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc004.xsd"
+                        href='../saxonData/VC/vc004.xsd'
                     ),
                 ],
                 expected=[
@@ -347,7 +347,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc004-11.xsd"
+                name='vc004-11.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -356,14 +356,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid (the 5.0 restriction is ignored)&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid (the 5.0 restriction is ignored)\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc003.v1.xml"
+                        href='../saxonData/VC/vc003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -374,10 +374,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc004.v1.xml"
+                    name='vc004.v1.xml'
                 ),
             ],
-            name="vc004",
+            name='vc004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -389,12 +389,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of version conditionals to ignore an (otherwise invalid) xs:include"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of version conditionals to ignore an (otherwise invalid) xs:include'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use of version conditionals to ignore an (otherwise invalid) xs:include"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Use of version conditionals to ignore an (otherwise invalid) xs:include'
                                 ),
                             ]
                         ),
@@ -403,16 +403,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc005.xsd"
+                        href='../saxonData/VC/vc005.xsd'
                     ),
                 ],
                 expected=[
@@ -424,7 +424,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc005.xsd"
+                name='vc005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -433,14 +433,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid (the 5.0 restriction is ignored)&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid (the 5.0 restriction is ignored)\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc003.v1.xml"
+                        href='../saxonData/VC/vc003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -451,10 +451,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc005.v1.xml"
+                    name='vc005.v1.xml'
                 ),
             ],
-            name="vc005",
+            name='vc005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -466,12 +466,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of version conditionals to make a schema document empty"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of version conditionals to make a schema document empty'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use of version conditionals to make a schema document empty"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Use of version conditionals to make a schema document empty'
                                 ),
                             ]
                         ),
@@ -480,16 +480,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc006.xsd"
+                        href='../saxonData/VC/vc006.xsd'
                     ),
                 ],
                 expected=[
@@ -501,7 +501,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc006.xsd"
+                name='vc006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -510,14 +510,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid (no element declaration present)&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid (no element declaration present)\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc002.n1.xml"
+                        href='../saxonData/VC/vc002.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -528,10 +528,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc006.n1.xml"
+                    name='vc006.n1.xml'
                 ),
             ],
-            name="vc006",
+            name='vc006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -543,12 +543,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Include a schema document made empty by version control attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Include a schema document made empty by version control attributes'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Include a schema document made empty by version control attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Include a schema document made empty by version control attributes'
                                 ),
                             ]
                         ),
@@ -557,16 +557,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc007.xsd"
+                        href='../saxonData/VC/vc007.xsd'
                     ),
                 ],
                 expected=[
@@ -578,7 +578,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc007.xsd"
+                name='vc007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -587,14 +587,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc002.v1.xml"
+                        href='../saxonData/VC/vc002.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -605,7 +605,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc007.v1.xml"
+                    name='vc007.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -613,14 +613,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid (assert not satisfied)&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid (assert not satisfied)\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc002.n1.xml"
+                        href='../saxonData/VC/vc002.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -631,10 +631,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc007.n1.xml"
+                    name='vc007.n1.xml'
                 ),
             ],
-            name="vc007",
+            name='vc007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -646,12 +646,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Empty vc:xx[un]available attributes have no effect"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Empty vc:xx[un]available attributes have no effect'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Empty vc:xx[un]available attributes have no effect"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Empty vc:xx[un]available attributes have no effect'
                                 ),
                             ]
                         ),
@@ -660,16 +660,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc008.xsd"
+                        href='../saxonData/VC/vc008.xsd'
                     ),
                 ],
                 expected=[
@@ -681,7 +681,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc008.xsd"
+                name='vc008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -690,14 +690,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.v1.xml"
+                        href='../saxonData/VC/vc001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -708,7 +708,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc008.v1.xml"
+                    name='vc008.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -716,14 +716,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.n1.xml"
+                        href='../saxonData/VC/vc001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -734,10 +734,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc008.n1.xml"
+                    name='vc008.n1.xml'
                 ),
             ],
-            name="vc008",
+            name='vc008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -749,12 +749,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Misspelt vc: attribute has no effect"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Misspelt vc: attribute has no effect'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Misspelt vc: attribute has no effect"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Misspelt vc: attribute has no effect'
                                 ),
                             ]
                         ),
@@ -763,16 +763,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-UnrecognizedAttrInVCNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-UnrecognizedAttrInVCNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc009.xsd"
+                        href='../saxonData/VC/vc009.xsd'
                     ),
                 ],
                 expected=[
@@ -784,7 +784,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc009.xsd"
+                name='vc009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -793,14 +793,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.v1.xml"
+                        href='../saxonData/VC/vc001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -811,7 +811,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc009.v1.xml"
+                    name='vc009.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -819,14 +819,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.n1.xml"
+                        href='../saxonData/VC/vc001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -837,10 +837,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc009.n1.xml"
+                    name='vc009.n1.xml'
                 ),
             ],
-            name="vc009",
+            name='vc009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -852,12 +852,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:typeAvailable with a known type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:typeAvailable with a known type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:typeAvailable with a known type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:typeAvailable with a known type'
                                 ),
                             ]
                         ),
@@ -866,16 +866,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc010.xsd"
+                        href='../saxonData/VC/vc010.xsd'
                     ),
                 ],
                 expected=[
@@ -887,7 +887,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc010.xsd"
+                name='vc010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -896,14 +896,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute is allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute is allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -914,10 +914,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc010.v1.xml"
+                    name='vc010.v1.xml'
                 ),
             ],
-            name="vc010",
+            name='vc010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -929,12 +929,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:typeUnavailable with a known type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:typeUnavailable with a known type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:typeUnavailable with a known type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:typeUnavailable with a known type'
                                 ),
                             ]
                         ),
@@ -943,16 +943,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc011.xsd"
+                        href='../saxonData/VC/vc011.xsd'
                     ),
                 ],
                 expected=[
@@ -964,7 +964,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc011.xsd"
+                name='vc011.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -973,14 +973,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -991,10 +991,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc011.n1.xml"
+                    name='vc011.n1.xml'
                 ),
             ],
-            name="vc011",
+            name='vc011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1006,12 +1006,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:typeAvailable with a mix of known and unknown types"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:typeAvailable with a mix of known and unknown types'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:typeAvailable with a mix of known and unknown types"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:typeAvailable with a mix of known and unknown types'
                                 ),
                             ]
                         ),
@@ -1020,16 +1020,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc012.xsd"
+                        href='../saxonData/VC/vc012.xsd'
                     ),
                 ],
                 expected=[
@@ -1041,7 +1041,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc012.xsd"
+                name='vc012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1050,14 +1050,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1068,10 +1068,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc012.n1.xml"
+                    name='vc012.n1.xml'
                 ),
             ],
-            name="vc012",
+            name='vc012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1083,12 +1083,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:typeUnavailable with a mix of known and unknown types"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:typeUnavailable with a mix of known and unknown types'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:typeUnavailable with a mix of known and unknown types"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:typeUnavailable with a mix of known and unknown types'
                                 ),
                             ]
                         ),
@@ -1097,16 +1097,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc013.xsd"
+                        href='../saxonData/VC/vc013.xsd'
                     ),
                 ],
                 expected=[
@@ -1118,7 +1118,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc013.xsd"
+                name='vc013.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1127,14 +1127,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute is allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute is allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1145,10 +1145,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 29)
                     ),
-                    name="vc013.v1.xml"
+                    name='vc013.v1.xml'
                 ),
             ],
-            name="vc013",
+            name='vc013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1160,12 +1160,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional use of xs:error controlled by vc:typeAvailable"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional use of xs:error controlled by vc:typeAvailable'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Conditional use of xs:error controlled by vc:typeAvailable"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Conditional use of xs:error controlled by vc:typeAvailable'
                                 ),
                             ]
                         ),
@@ -1174,16 +1174,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc014.xsd"
+                        href='../saxonData/VC/vc014.xsd'
                     ),
                 ],
                 expected=[
@@ -1195,7 +1195,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc014.xsd"
+                name='vc014.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1204,14 +1204,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, the impossible attribute is absent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, the impossible attribute is absent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc014.v1.xml"
+                        href='../saxonData/VC/vc014.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1222,7 +1222,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc014.v1.xml"
+                    name='vc014.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1230,14 +1230,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, the impossible attribute is present&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, the impossible attribute is present\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc014.n1.xml"
+                        href='../saxonData/VC/vc014.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1248,10 +1248,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc014.n1.xml"
+                    name='vc014.n1.xml'
                 ),
             ],
-            name="vc014",
+            name='vc014',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -1264,12 +1264,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:facetAvailable with a known facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:facetAvailable with a known facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:facetAvailable with a known facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:facetAvailable with a known facet'
                                 ),
                             ]
                         ),
@@ -1278,16 +1278,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc020.xsd"
+                        href='../saxonData/VC/vc020.xsd'
                     ),
                 ],
                 expected=[
@@ -1299,7 +1299,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc020.xsd"
+                name='vc020.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1308,14 +1308,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, attribute is allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, attribute is allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1326,10 +1326,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc020.v1.xml"
+                    name='vc020.v1.xml'
                 ),
             ],
-            name="vc020",
+            name='vc020',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1341,12 +1341,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:facetUnavailable with a known facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:facetUnavailable with a known facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:facetUnavailable with a known facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:facetUnavailable with a known facet'
                                 ),
                             ]
                         ),
@@ -1355,16 +1355,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc021.xsd"
+                        href='../saxonData/VC/vc021.xsd'
                     ),
                 ],
                 expected=[
@@ -1376,7 +1376,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc021.xsd"
+                name='vc021.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1385,14 +1385,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1403,10 +1403,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc021.n1.xml"
+                    name='vc021.n1.xml'
                 ),
             ],
-            name="vc021",
+            name='vc021',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1418,12 +1418,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:facetAvailable with a mix of known and unknown facets"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:facetAvailable with a mix of known and unknown facets'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:facetAvailable with a mix of known and unknown facets"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:facetAvailable with a mix of known and unknown facets'
                                 ),
                             ]
                         ),
@@ -1432,16 +1432,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc022.xsd"
+                        href='../saxonData/VC/vc022.xsd'
                     ),
                 ],
                 expected=[
@@ -1453,7 +1453,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc022.xsd"
+                name='vc022.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1462,14 +1462,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Inalid, attribute is not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Inalid, attribute is not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1480,10 +1480,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc022.n1.xml"
+                    name='vc022.n1.xml'
                 ),
             ],
-            name="vc022",
+            name='vc022',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1495,12 +1495,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="vc:facetUnavailable with a mix of known and unknown facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='vc:facetUnavailable with a mix of known and unknown facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="vc:facetUnavailable with a mix of known and unknown facets"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='vc:facetUnavailable with a mix of known and unknown facets'
                                 ),
                             ]
                         ),
@@ -1509,16 +1509,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc023.xsd"
+                        href='../saxonData/VC/vc023.xsd'
                     ),
                 ],
                 expected=[
@@ -1530,7 +1530,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc023.xsd"
+                name='vc023.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1539,14 +1539,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, attribute is allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, attribute is allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc010.v1.xml"
+                        href='../saxonData/VC/vc010.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1557,10 +1557,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc023.v1.xml"
+                    name='vc023.v1.xml'
                 ),
             ],
-            name="vc023",
+            name='vc023',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1572,12 +1572,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple assertion on an attribute value, ignored under XSD 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple assertion on an attribute value, ignored under XSD 1.0'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple assertion on an attribute value, ignored under XSD 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple assertion on an attribute value, ignored under XSD 1.0'
                                 ),
                             ]
                         ),
@@ -1586,16 +1586,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc024.xsd"
+                        href='../saxonData/VC/vc024.xsd'
                     ),
                 ],
                 expected=[
@@ -1607,7 +1607,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc024-11.xsd"
+                name='vc024-11.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1616,14 +1616,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.v1.xml"
+                        href='../saxonData/VC/vc001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1634,7 +1634,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc024.v1.xml"
+                    name='vc024.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1642,14 +1642,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/VC/vc001.n1.xml"
+                        href='../saxonData/VC/vc001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1669,10 +1669,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="vc024.n1.xml"
+                    name='vc024.n1.xml'
                 ),
             ],
-            name="vc024-11",
+            name='vc024-11',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -1685,12 +1685,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Bad schema, invalid vc:minVersion"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Bad schema, invalid vc:minVersion'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Bad schema, invalid vc:minVersion"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Bad schema, invalid vc:minVersion'
                                 ),
                             ]
                         ),
@@ -1699,16 +1699,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc901.bad.xsd"
+                        href='../saxonData/VC/vc901.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1720,9 +1720,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 29)
                 ),
-                name="vc901.xsd"
+                name='vc901.xsd'
             ),
-            name="vc901",
+            name='vc901',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1734,12 +1734,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid vc:maxVersion, not detected in XSD 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid vc:maxVersion, not detected in XSD 1.0'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid vc:maxVersion, not detected in XSD 1.0"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid vc:maxVersion, not detected in XSD 1.0'
                                 ),
                             ]
                         ),
@@ -1748,16 +1748,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc902.bad.xsd"
+                        href='../saxonData/VC/vc902.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1771,7 +1771,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  See bug 13906&#10;                ",
+                                        '\n                  See bug 13906\n                ',
                                     ]
                                 ),
                             ]
@@ -1786,9 +1786,9 @@ obj = TestSet(
                         date=XmlDate(2008, 7, 29)
                     ),
                 ],
-                name="vc902.xsd"
+                name='vc902.xsd'
             ),
-            name="vc902",
+            name='vc902',
             version=[
                 KnownToken.VALUE_1_0,
             ]
@@ -1800,12 +1800,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Bad schema, invalid vc:maxVersion"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Bad schema, invalid vc:maxVersion'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Bad schema, invalid vc:maxVersion"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Bad schema, invalid vc:maxVersion'
                                 ),
                             ]
                         ),
@@ -1814,16 +1814,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc902.bad.xsd"
+                        href='../saxonData/VC/vc902.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1837,7 +1837,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  See bug 13906. This test is a variant of the previous vc902.&#10;                ",
+                                        '\n                  See bug 13906. This test is a variant of the previous vc902.\n                ',
                                     ]
                                 ),
                             ]
@@ -1852,9 +1852,9 @@ obj = TestSet(
                         date=XmlDate(2008, 7, 29)
                     ),
                 ],
-                name="vc902.xsd"
+                name='vc902.xsd'
             ),
-            name="vc903",
+            name='vc903',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1866,12 +1866,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Bad schema, invalid QName in vc:typeAvailable"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Bad schema, invalid QName in vc:typeAvailable'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Bad schema, invalid QName in vc:typeAvailable"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Bad schema, invalid QName in vc:typeAvailable'
                                 ),
                             ]
                         ),
@@ -1880,16 +1880,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc904.bad.xsd"
+                        href='../saxonData/VC/vc904.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1901,9 +1901,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc904.xsd"
+                name='vc904.xsd'
             ),
-            name="vc904",
+            name='vc904',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1915,12 +1915,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Bad schema, invalid QName in vc:typeUnavailable"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Bad schema, invalid QName in vc:typeUnavailable'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Bad schema, invalid QName in vc:typeUnavailable"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Bad schema, invalid QName in vc:typeUnavailable'
                                 ),
                             ]
                         ),
@@ -1929,16 +1929,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/VC/vc905.bad.xsd"
+                        href='../saxonData/VC/vc905.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1950,21 +1950,21 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 7, 30)
                 ),
-                name="vc905.xsd"
+                name='vc905.xsd'
             ),
-            name="vc905",
+            name='vc905',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="VC",
+    contributor='Saxonica',
+    name='VC',
     version=[
         KnownToken.VALUE_1_0,
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

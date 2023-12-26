@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA001.xsd"
+                        href='../msData/attribute/attA001.xsd'
                     ),
                 ],
                 expected=[
@@ -50,9 +50,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA001"
+                name='attA001'
             ),
-            name="attA001"
+            name='attA001'
         ),
         TestGroup(
             annotation=[
@@ -68,13 +68,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA002.xsd"
+                        href='../msData/attribute/attA002.xsd'
                     ),
                 ],
                 expected=[
@@ -86,9 +86,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA002"
+                name='attA002'
             ),
-            name="attA002"
+            name='attA002'
         ),
         TestGroup(
             annotation=[
@@ -104,13 +104,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA003.xsd"
+                        href='../msData/attribute/attA003.xsd'
                     ),
                 ],
                 expected=[
@@ -122,9 +122,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA003"
+                name='attA003'
             ),
-            name="attA003"
+            name='attA003'
         ),
         TestGroup(
             annotation=[
@@ -140,13 +140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA004.xsd"
+                        href='../msData/attribute/attA004.xsd'
                     ),
                 ],
                 expected=[
@@ -158,9 +158,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA004"
+                name='attA004'
             ),
-            name="attA004"
+            name='attA004'
         ),
         TestGroup(
             annotation=[
@@ -176,13 +176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA005.xsd"
+                        href='../msData/attribute/attA005.xsd'
                     ),
                 ],
                 expected=[
@@ -194,9 +194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA005"
+                name='attA005'
             ),
-            name="attA005"
+            name='attA005'
         ),
         TestGroup(
             annotation=[
@@ -212,13 +212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA006.xsd"
+                        href='../msData/attribute/attA006.xsd'
                     ),
                 ],
                 expected=[
@@ -230,9 +230,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA006"
+                name='attA006'
             ),
-            name="attA006"
+            name='attA006'
         ),
         TestGroup(
             annotation=[
@@ -248,13 +248,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA007.xsd"
+                        href='../msData/attribute/attA007.xsd'
                     ),
                 ],
                 expected=[
@@ -266,9 +266,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA007"
+                name='attA007'
             ),
-            name="attA007"
+            name='attA007'
         ),
         TestGroup(
             annotation=[
@@ -284,13 +284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attA008.xsd"
+                        href='../msData/attribute/attA008.xsd'
                     ),
                 ],
                 expected=[
@@ -302,9 +302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attA008"
+                name='attA008'
             ),
-            name="attA008"
+            name='attA008'
         ),
         TestGroup(
             annotation=[
@@ -320,13 +320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attB001.xsd"
+                        href='../msData/attribute/attB001.xsd'
                     ),
                 ],
                 expected=[
@@ -338,9 +338,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attB001"
+                name='attB001'
             ),
-            name="attB001"
+            name='attB001'
         ),
         TestGroup(
             annotation=[
@@ -348,7 +348,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Test attribute declaration with optional attribute id = 'very long id &gt; 1000 chars'",
+                                "TEST :Syntax Checking for Attribute Declaration (form) : Test attribute declaration with optional attribute id = 'very long id > 1000 chars'",
                             ]
                         ),
                     ]
@@ -356,13 +356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attB002.xsd"
+                        href='../msData/attribute/attB002.xsd'
                     ),
                 ],
                 expected=[
@@ -374,9 +374,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attB002"
+                name='attB002'
             ),
-            name="attB002"
+            name='attB002'
         ),
         TestGroup(
             annotation=[
@@ -392,13 +392,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attB003.xsd"
+                        href='../msData/attribute/attB003.xsd'
                     ),
                 ],
                 expected=[
@@ -410,9 +410,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attB003"
+                name='attB003'
             ),
-            name="attB003"
+            name='attB003'
         ),
         TestGroup(
             annotation=[
@@ -428,13 +428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attB004.xsd"
+                        href='../msData/attribute/attB004.xsd'
                     ),
                 ],
                 expected=[
@@ -446,9 +446,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attB004"
+                name='attB004'
             ),
-            name="attB004"
+            name='attB004'
         ),
         TestGroup(
             annotation=[
@@ -464,13 +464,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attB005.xsd"
+                        href='../msData/attribute/attB005.xsd'
                     ),
                 ],
                 expected=[
@@ -482,9 +482,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attB005"
+                name='attB005'
             ),
-            name="attB005"
+            name='attB005'
         ),
         TestGroup(
             annotation=[
@@ -500,13 +500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attB006.xsd"
+                        href='../msData/attribute/attB006.xsd'
                     ),
                 ],
                 expected=[
@@ -518,9 +518,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attB006"
+                name='attB006'
             ),
-            name="attB006"
+            name='attB006'
         ),
         TestGroup(
             annotation=[
@@ -536,13 +536,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC001.xsd"
+                        href='../msData/attribute/attC001.xsd'
                     ),
                 ],
                 expected=[
@@ -554,9 +554,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC001"
+                name='attC001'
             ),
-            name="attC001"
+            name='attC001'
         ),
         TestGroup(
             annotation=[
@@ -564,7 +564,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Test attribute declaration with attribute name = 'very long name &gt; 1000 chars'",
+                                "TEST :Syntax Checking for Attribute Declaration (form) : Test attribute declaration with attribute name = 'very long name > 1000 chars'",
                             ]
                         ),
                     ]
@@ -572,13 +572,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC002.xsd"
+                        href='../msData/attribute/attC002.xsd'
                     ),
                 ],
                 expected=[
@@ -590,9 +590,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC002"
+                name='attC002'
             ),
-            name="attC002"
+            name='attC002'
         ),
         TestGroup(
             annotation=[
@@ -608,13 +608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC003.xsd"
+                        href='../msData/attribute/attC003.xsd'
                     ),
                 ],
                 expected=[
@@ -626,9 +626,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC003"
+                name='attC003'
             ),
-            name="attC003"
+            name='attC003'
         ),
         TestGroup(
             annotation=[
@@ -644,13 +644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC004.xsd"
+                        href='../msData/attribute/attC004.xsd'
                     ),
                 ],
                 expected=[
@@ -662,9 +662,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC004"
+                name='attC004'
             ),
-            name="attC004"
+            name='attC004'
         ),
         TestGroup(
             annotation=[
@@ -680,13 +680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC005.xsd"
+                        href='../msData/attribute/attC005.xsd'
                     ),
                 ],
                 expected=[
@@ -698,9 +698,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC005"
+                name='attC005'
             ),
-            name="attC005"
+            name='attC005'
         ),
         TestGroup(
             annotation=[
@@ -716,13 +716,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC006.xsd"
+                        href='../msData/attribute/attC006.xsd'
                     ),
                 ],
                 expected=[
@@ -734,9 +734,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC006"
+                name='attC006'
             ),
-            name="attC006"
+            name='attC006'
         ),
         TestGroup(
             annotation=[
@@ -752,13 +752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC007.xsd"
+                        href='../msData/attribute/attC007.xsd'
                     ),
                 ],
                 expected=[
@@ -770,9 +770,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC007"
+                name='attC007'
             ),
-            name="attC007"
+            name='attC007'
         ),
         TestGroup(
             annotation=[
@@ -788,13 +788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC008.xsd"
+                        href='../msData/attribute/attC008.xsd'
                     ),
                 ],
                 expected=[
@@ -806,9 +806,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC008"
+                name='attC008'
             ),
-            name="attC008"
+            name='attC008'
         ),
         TestGroup(
             annotation=[
@@ -824,13 +824,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC009.xsd"
+                        href='../msData/attribute/attC009.xsd'
                     ),
                 ],
                 expected=[
@@ -842,9 +842,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC009"
+                name='attC009'
             ),
-            name="attC009"
+            name='attC009'
         ),
         TestGroup(
             annotation=[
@@ -860,13 +860,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attC010.xsd"
+                        href='../msData/attribute/attC010.xsd'
                     ),
                 ],
                 expected=[
@@ -878,9 +878,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attC010"
+                name='attC010'
             ),
-            name="attC010"
+            name='attC010'
         ),
         TestGroup(
             annotation=[
@@ -896,13 +896,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD001.xsd"
+                        href='../msData/attribute/attD001.xsd'
                     ),
                 ],
                 expected=[
@@ -914,9 +914,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD001"
+                name='attD001'
             ),
-            name="attD001"
+            name='attD001'
         ),
         TestGroup(
             annotation=[
@@ -932,13 +932,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD002.xsd"
+                        href='../msData/attribute/attD002.xsd'
                     ),
                 ],
                 expected=[
@@ -950,9 +950,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD002"
+                name='attD002'
             ),
-            name="attD002"
+            name='attD002'
         ),
         TestGroup(
             annotation=[
@@ -968,13 +968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD003.xsd"
+                        href='../msData/attribute/attD003.xsd'
                     ),
                 ],
                 expected=[
@@ -986,12 +986,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD003"
+                name='attD003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attD003.xml"
+                        href='../msData/attribute/attD003.xml'
                     ),
                     expected=[
                         Expected(
@@ -1002,10 +1002,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attD003.v"
+                    name='attD003.v'
                 ),
             ],
-            name="attD003"
+            name='attD003'
         ),
         TestGroup(
             annotation=[
@@ -1021,13 +1021,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD004.xsd"
+                        href='../msData/attribute/attD004.xsd'
                     ),
                 ],
                 expected=[
@@ -1039,12 +1039,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD004"
+                name='attD004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attD004.xml"
+                        href='../msData/attribute/attD004.xml'
                     ),
                     expected=[
                         Expected(
@@ -1055,10 +1055,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attD004.v"
+                    name='attD004.v'
                 ),
             ],
-            name="attD004"
+            name='attD004'
         ),
         TestGroup(
             annotation=[
@@ -1074,13 +1074,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD005.xsd"
+                        href='../msData/attribute/attD005.xsd'
                     ),
                 ],
                 expected=[
@@ -1092,9 +1092,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD005"
+                name='attD005'
             ),
-            name="attD005"
+            name='attD005'
         ),
         TestGroup(
             annotation=[
@@ -1110,13 +1110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD006.xsd"
+                        href='../msData/attribute/attD006.xsd'
                     ),
                 ],
                 expected=[
@@ -1128,9 +1128,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD006"
+                name='attD006'
             ),
-            name="attD006"
+            name='attD006'
         ),
         TestGroup(
             annotation=[
@@ -1146,13 +1146,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attD007.xsd"
+                        href='../msData/attribute/attD007.xsd'
                     ),
                 ],
                 expected=[
@@ -1164,12 +1164,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attD007"
+                name='attD007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attD007.xml"
+                        href='../msData/attribute/attD007.xml'
                     ),
                     expected=[
                         Expected(
@@ -1180,10 +1180,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attD007.v"
+                    name='attD007.v'
                 ),
             ],
-            name="attD007"
+            name='attD007'
         ),
         TestGroup(
             annotation=[
@@ -1199,13 +1199,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE001.xsd"
+                        href='../msData/attribute/attE001.xsd'
                     ),
                 ],
                 expected=[
@@ -1217,12 +1217,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE001"
+                name='attE001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attE001.xml"
+                        href='../msData/attribute/attE001.xml'
                     ),
                     expected=[
                         Expected(
@@ -1233,10 +1233,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attE001.v"
+                    name='attE001.v'
                 ),
             ],
-            name="attE001"
+            name='attE001'
         ),
         TestGroup(
             annotation=[
@@ -1252,13 +1252,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE002.xsd"
+                        href='../msData/attribute/attE002.xsd'
                     ),
                 ],
                 expected=[
@@ -1270,9 +1270,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE002"
+                name='attE002'
             ),
-            name="attE002"
+            name='attE002'
         ),
         TestGroup(
             annotation=[
@@ -1288,13 +1288,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE003.xsd"
+                        href='../msData/attribute/attE003.xsd'
                     ),
                 ],
                 expected=[
@@ -1306,9 +1306,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE003"
+                name='attE003'
             ),
-            name="attE003"
+            name='attE003'
         ),
         TestGroup(
             annotation=[
@@ -1324,13 +1324,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE004.xsd"
+                        href='../msData/attribute/attE004.xsd'
                     ),
                 ],
                 expected=[
@@ -1342,9 +1342,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE004"
+                name='attE004'
             ),
-            name="attE004"
+            name='attE004'
         ),
         TestGroup(
             annotation=[
@@ -1360,13 +1360,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE005.xsd"
+                        href='../msData/attribute/attE005.xsd'
                     ),
                 ],
                 expected=[
@@ -1378,9 +1378,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE005"
+                name='attE005'
             ),
-            name="attE005"
+            name='attE005'
         ),
         TestGroup(
             annotation=[
@@ -1396,13 +1396,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE006.xsd"
+                        href='../msData/attribute/attE006.xsd'
                     ),
                 ],
                 expected=[
@@ -1414,9 +1414,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE006"
+                name='attE006'
             ),
-            name="attE006"
+            name='attE006'
         ),
         TestGroup(
             annotation=[
@@ -1432,13 +1432,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE007.xsd"
+                        href='../msData/attribute/attE007.xsd'
                     ),
                 ],
                 expected=[
@@ -1450,9 +1450,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE007"
+                name='attE007'
             ),
-            name="attE007"
+            name='attE007'
         ),
         TestGroup(
             annotation=[
@@ -1468,13 +1468,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attE008.xsd"
+                        href='../msData/attribute/attE008.xsd'
                     ),
                 ],
                 expected=[
@@ -1486,9 +1486,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attE008"
+                name='attE008'
             ),
-            name="attE008"
+            name='attE008'
         ),
         TestGroup(
             annotation=[
@@ -1504,13 +1504,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF001.xsd"
+                        href='../msData/attribute/attF001.xsd'
                     ),
                 ],
                 expected=[
@@ -1522,12 +1522,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF001"
+                name='attF001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attF001.xml"
+                        href='../msData/attribute/attF001.xml'
                     ),
                     expected=[
                         Expected(
@@ -1538,10 +1538,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attF001.i"
+                    name='attF001.i'
                 ),
             ],
-            name="attF001"
+            name='attF001'
         ),
         TestGroup(
             annotation=[
@@ -1557,13 +1557,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF002.xsd"
+                        href='../msData/attribute/attF002.xsd'
                     ),
                 ],
                 expected=[
@@ -1575,12 +1575,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF002"
+                name='attF002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attF002.xml"
+                        href='../msData/attribute/attF002.xml'
                     ),
                     expected=[
                         Expected(
@@ -1591,10 +1591,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attF002.v"
+                    name='attF002.v'
                 ),
             ],
-            name="attF002"
+            name='attF002'
         ),
         TestGroup(
             annotation=[
@@ -1610,13 +1610,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF003.xsd"
+                        href='../msData/attribute/attF003.xsd'
                     ),
                 ],
                 expected=[
@@ -1628,12 +1628,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF003"
+                name='attF003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attF003.xml"
+                        href='../msData/attribute/attF003.xml'
                     ),
                     expected=[
                         Expected(
@@ -1644,10 +1644,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attF003.v"
+                    name='attF003.v'
                 ),
             ],
-            name="attF003"
+            name='attF003'
         ),
         TestGroup(
             annotation=[
@@ -1663,13 +1663,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF004.xsd"
+                        href='../msData/attribute/attF004.xsd'
                     ),
                 ],
                 expected=[
@@ -1681,9 +1681,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF004"
+                name='attF004'
             ),
-            name="attF004"
+            name='attF004'
         ),
         TestGroup(
             annotation=[
@@ -1699,13 +1699,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF005.xsd"
+                        href='../msData/attribute/attF005.xsd'
                     ),
                 ],
                 expected=[
@@ -1717,9 +1717,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF005"
+                name='attF005'
             ),
-            name="attF005"
+            name='attF005'
         ),
         TestGroup(
             annotation=[
@@ -1735,13 +1735,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF006.xsd"
+                        href='../msData/attribute/attF006.xsd'
                     ),
                 ],
                 expected=[
@@ -1753,9 +1753,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF006"
+                name='attF006'
             ),
-            name="attF006"
+            name='attF006'
         ),
         TestGroup(
             annotation=[
@@ -1771,13 +1771,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF007.xsd"
+                        href='../msData/attribute/attF007.xsd'
                     ),
                 ],
                 expected=[
@@ -1789,9 +1789,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF007"
+                name='attF007'
             ),
-            name="attF007"
+            name='attF007'
         ),
         TestGroup(
             annotation=[
@@ -1807,13 +1807,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF008.xsd"
+                        href='../msData/attribute/attF008.xsd'
                     ),
                 ],
                 expected=[
@@ -1825,9 +1825,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF008"
+                name='attF008'
             ),
-            name="attF008"
+            name='attF008'
         ),
         TestGroup(
             annotation=[
@@ -1843,13 +1843,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF009.xsd"
+                        href='../msData/attribute/attF009.xsd'
                     ),
                 ],
                 expected=[
@@ -1861,9 +1861,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF009"
+                name='attF009'
             ),
-            name="attF009"
+            name='attF009'
         ),
         TestGroup(
             annotation=[
@@ -1879,13 +1879,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF010.xsd"
+                        href='../msData/attribute/attF010.xsd'
                     ),
                 ],
                 expected=[
@@ -1897,9 +1897,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF010"
+                name='attF010'
             ),
-            name="attF010"
+            name='attF010'
         ),
         TestGroup(
             annotation=[
@@ -1915,13 +1915,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attF011.xsd"
+                        href='../msData/attribute/attF011.xsd'
                     ),
                 ],
                 expected=[
@@ -1933,9 +1933,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attF011"
+                name='attF011'
             ),
-            name="attF011"
+            name='attF011'
         ),
         TestGroup(
             annotation=[
@@ -1951,13 +1951,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ001.xsd"
+                        href='../msData/attribute/attJ001.xsd'
                     ),
                 ],
                 expected=[
@@ -1969,12 +1969,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ001"
+                name='attJ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ001.xml"
+                        href='../msData/attribute/attJ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -1985,10 +1985,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ001.v"
+                    name='attJ001.v'
                 ),
             ],
-            name="attJ001"
+            name='attJ001'
         ),
         TestGroup(
             annotation=[
@@ -2004,13 +2004,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ002.xsd"
+                        href='../msData/attribute/attJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -2022,12 +2022,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ002"
+                name='attJ002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ002.xml"
+                        href='../msData/attribute/attJ002.xml'
                     ),
                     expected=[
                         Expected(
@@ -2038,10 +2038,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ002.i"
+                    name='attJ002.i'
                 ),
             ],
-            name="attJ002"
+            name='attJ002'
         ),
         TestGroup(
             annotation=[
@@ -2057,13 +2057,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ003.xsd"
+                        href='../msData/attribute/attJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -2075,12 +2075,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ003"
+                name='attJ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ003.xml"
+                        href='../msData/attribute/attJ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -2091,10 +2091,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ003.i"
+                    name='attJ003.i'
                 ),
             ],
-            name="attJ003"
+            name='attJ003'
         ),
         TestGroup(
             annotation=[
@@ -2110,13 +2110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ004.xsd"
+                        href='../msData/attribute/attJ004.xsd'
                     ),
                 ],
                 expected=[
@@ -2128,12 +2128,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ004"
+                name='attJ004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ004.xml"
+                        href='../msData/attribute/attJ004.xml'
                     ),
                     expected=[
                         Expected(
@@ -2144,10 +2144,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ004.v"
+                    name='attJ004.v'
                 ),
             ],
-            name="attJ004"
+            name='attJ004'
         ),
         TestGroup(
             annotation=[
@@ -2163,13 +2163,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ005.xsd"
+                        href='../msData/attribute/attJ005.xsd'
                     ),
                 ],
                 expected=[
@@ -2181,12 +2181,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ005"
+                name='attJ005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ005.xml"
+                        href='../msData/attribute/attJ005.xml'
                     ),
                     expected=[
                         Expected(
@@ -2197,10 +2197,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ005.v"
+                    name='attJ005.v'
                 ),
             ],
-            name="attJ005"
+            name='attJ005'
         ),
         TestGroup(
             annotation=[
@@ -2216,13 +2216,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ006.xsd"
+                        href='../msData/attribute/attJ006.xsd'
                     ),
                 ],
                 expected=[
@@ -2234,12 +2234,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ006"
+                name='attJ006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ006.xml"
+                        href='../msData/attribute/attJ006.xml'
                     ),
                     expected=[
                         Expected(
@@ -2250,10 +2250,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ006.v"
+                    name='attJ006.v'
                 ),
             ],
-            name="attJ006"
+            name='attJ006'
         ),
         TestGroup(
             annotation=[
@@ -2269,13 +2269,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ007.xsd"
+                        href='../msData/attribute/attJ007.xsd'
                     ),
                 ],
                 expected=[
@@ -2287,12 +2287,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ007"
+                name='attJ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ007.xml"
+                        href='../msData/attribute/attJ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -2303,10 +2303,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ007.v"
+                    name='attJ007.v'
                 ),
             ],
-            name="attJ007"
+            name='attJ007'
         ),
         TestGroup(
             annotation=[
@@ -2322,13 +2322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ008.xsd"
+                        href='../msData/attribute/attJ008.xsd'
                     ),
                 ],
                 expected=[
@@ -2340,12 +2340,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ008"
+                name='attJ008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ008.xml"
+                        href='../msData/attribute/attJ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -2356,10 +2356,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ008.i"
+                    name='attJ008.i'
                 ),
             ],
-            name="attJ008"
+            name='attJ008'
         ),
         TestGroup(
             annotation=[
@@ -2375,13 +2375,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ009.xsd"
+                        href='../msData/attribute/attJ009.xsd'
                     ),
                 ],
                 expected=[
@@ -2393,12 +2393,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ009"
+                name='attJ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ009.xml"
+                        href='../msData/attribute/attJ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -2409,10 +2409,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ009.i"
+                    name='attJ009.i'
                 ),
             ],
-            name="attJ009"
+            name='attJ009'
         ),
         TestGroup(
             annotation=[
@@ -2428,13 +2428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ010.xsd"
+                        href='../msData/attribute/attJ010.xsd'
                     ),
                 ],
                 expected=[
@@ -2446,12 +2446,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ010"
+                name='attJ010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ010.xml"
+                        href='../msData/attribute/attJ010.xml'
                     ),
                     expected=[
                         Expected(
@@ -2462,10 +2462,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ010.i"
+                    name='attJ010.i'
                 ),
             ],
-            name="attJ010"
+            name='attJ010'
         ),
         TestGroup(
             annotation=[
@@ -2481,13 +2481,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ011.xsd"
+                        href='../msData/attribute/attJ011.xsd'
                     ),
                 ],
                 expected=[
@@ -2499,9 +2499,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ011"
+                name='attJ011'
             ),
-            name="attJ011"
+            name='attJ011'
         ),
         TestGroup(
             annotation=[
@@ -2517,13 +2517,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ012.xsd"
+                        href='../msData/attribute/attJ012.xsd'
                     ),
                 ],
                 expected=[
@@ -2535,9 +2535,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ012"
+                name='attJ012'
             ),
-            name="attJ012"
+            name='attJ012'
         ),
         TestGroup(
             annotation=[
@@ -2553,13 +2553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ013.xsd"
+                        href='../msData/attribute/attJ013.xsd'
                     ),
                 ],
                 expected=[
@@ -2571,9 +2571,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ013"
+                name='attJ013'
             ),
-            name="attJ013"
+            name='attJ013'
         ),
         TestGroup(
             annotation=[
@@ -2589,13 +2589,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ014.xsd"
+                        href='../msData/attribute/attJ014.xsd'
                     ),
                 ],
                 expected=[
@@ -2607,9 +2607,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ014"
+                name='attJ014'
             ),
-            name="attJ014"
+            name='attJ014'
         ),
         TestGroup(
             annotation=[
@@ -2625,13 +2625,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ015.xsd"
+                        href='../msData/attribute/attJ015.xsd'
                     ),
                 ],
                 expected=[
@@ -2643,9 +2643,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ015"
+                name='attJ015'
             ),
-            name="attJ015"
+            name='attJ015'
         ),
         TestGroup(
             annotation=[
@@ -2661,13 +2661,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ016.xsd"
+                        href='../msData/attribute/attJ016.xsd'
                     ),
                 ],
                 expected=[
@@ -2679,9 +2679,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ016"
+                name='attJ016'
             ),
-            name="attJ016"
+            name='attJ016'
         ),
         TestGroup(
             annotation=[
@@ -2689,7 +2689,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : xml doc do not specify the attribute, use = 'fixed, value=&quot;123&quot;'",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : xml doc do not specify the attribute, use = \'fixed, value="123"\'',
                             ]
                         ),
                     ]
@@ -2697,13 +2697,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ017.xsd"
+                        href='../msData/attribute/attJ017.xsd'
                     ),
                 ],
                 expected=[
@@ -2715,9 +2715,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ017"
+                name='attJ017'
             ),
-            name="attJ017"
+            name='attJ017'
         ),
         TestGroup(
             annotation=[
@@ -2725,7 +2725,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with parent schema, parent attributeGroup, parent complexType (test most of the common type and ref)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with parent schema, parent attributeGroup, parent complexType (test most of the common type and ref)',
                             ]
                         ),
                     ]
@@ -2733,13 +2733,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attJ018.xsd"
+                        href='../msData/attribute/attJ018.xsd'
                     ),
                 ],
                 expected=[
@@ -2751,12 +2751,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attJ018"
+                name='attJ018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attJ018.xml"
+                        href='../msData/attribute/attJ018.xml'
                     ),
                     expected=[
                         Expected(
@@ -2767,10 +2767,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attJ018.v"
+                    name='attJ018.v'
                 ),
             ],
-            name="attJ018"
+            name='attJ018'
         ),
         TestGroup(
             annotation=[
@@ -2778,7 +2778,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\attribute with non schema namespacetargetNamespace='foo:bar'",
+                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\\attribute with non schema namespacetargetNamespace='foo:bar'",
                             ]
                         ),
                     ]
@@ -2786,13 +2786,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attG001.xsd"
+                        href='../msData/attribute/attG001.xsd'
                     ),
                 ],
                 expected=[
@@ -2804,9 +2804,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attG001"
+                name='attG001'
             ),
-            name="attG001"
+            name='attG001'
         ),
         TestGroup(
             annotation=[
@@ -2814,7 +2814,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\attribute with non schema namespacetargetNamespace=''",
+                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\\attribute with non schema namespacetargetNamespace=''",
                             ]
                         ),
                     ]
@@ -2822,13 +2822,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attG002.xsd"
+                        href='../msData/attribute/attG002.xsd'
                     ),
                 ],
                 expected=[
@@ -2840,9 +2840,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attG002"
+                name='attG002'
             ),
-            name="attG002"
+            name='attG002'
         ),
         TestGroup(
             annotation=[
@@ -2850,7 +2850,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\attribute with non schema namespacetargetNamespace='http://foo'",
+                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\\attribute with non schema namespacetargetNamespace='http://foo'",
                             ]
                         ),
                     ]
@@ -2858,13 +2858,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attG003.xsd"
+                        href='../msData/attribute/attG003.xsd'
                     ),
                 ],
                 expected=[
@@ -2876,9 +2876,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attG003"
+                name='attG003'
             ),
-            name="attG003"
+            name='attG003'
         ),
         TestGroup(
             annotation=[
@@ -2894,13 +2894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attH001.xsd"
+                        href='../msData/attribute/attH001.xsd'
                     ),
                 ],
                 expected=[
@@ -2912,9 +2912,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attH001"
+                name='attH001'
             ),
-            name="attH001"
+            name='attH001'
         ),
         TestGroup(
             annotation=[
@@ -2922,7 +2922,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with just annotation content",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with just annotation content',
                             ]
                         ),
                     ]
@@ -2930,13 +2930,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attI001.xsd"
+                        href='../msData/attribute/attI001.xsd'
                     ),
                 ],
                 expected=[
@@ -2948,9 +2948,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attI001"
+                name='attI001'
             ),
-            name="attI001"
+            name='attI001'
         ),
         TestGroup(
             annotation=[
@@ -2958,7 +2958,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with just simpleType content",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with just simpleType content',
                             ]
                         ),
                     ]
@@ -2966,13 +2966,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attI002.xsd"
+                        href='../msData/attribute/attI002.xsd'
                     ),
                 ],
                 expected=[
@@ -2984,9 +2984,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attI002"
+                name='attI002'
             ),
-            name="attI002"
+            name='attI002'
         ),
         TestGroup(
             annotation=[
@@ -2994,7 +2994,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with annotation followed by simpleType content",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with annotation followed by simpleType content',
                             ]
                         ),
                     ]
@@ -3002,13 +3002,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attI003.xsd"
+                        href='../msData/attribute/attI003.xsd'
                     ),
                 ],
                 expected=[
@@ -3020,12 +3020,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attI003"
+                name='attI003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attI003.xml"
+                        href='../msData/attribute/attI003.xml'
                     ),
                     expected=[
                         Expected(
@@ -3036,10 +3036,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attI003.v"
+                    name='attI003.v'
                 ),
             ],
-            name="attI003"
+            name='attI003'
         ),
         TestGroup(
             annotation=[
@@ -3047,7 +3047,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with two annotation content",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with two annotation content',
                             ]
                         ),
                     ]
@@ -3055,13 +3055,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attI004.xsd"
+                        href='../msData/attribute/attI004.xsd'
                     ),
                 ],
                 expected=[
@@ -3073,9 +3073,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attI004"
+                name='attI004'
             ),
-            name="attI004"
+            name='attI004'
         ),
         TestGroup(
             annotation=[
@@ -3083,7 +3083,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with simpleType follow by annotation content",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with simpleType follow by annotation content',
                             ]
                         ),
                     ]
@@ -3091,13 +3091,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attI005.xsd"
+                        href='../msData/attribute/attI005.xsd'
                     ),
                 ],
                 expected=[
@@ -3109,9 +3109,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attI005"
+                name='attI005'
             ),
-            name="attI005"
+            name='attI005'
         ),
         TestGroup(
             annotation=[
@@ -3119,7 +3119,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with two simpleType content",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Basic attribute with two simpleType content',
                             ]
                         ),
                     ]
@@ -3127,13 +3127,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attI006.xsd"
+                        href='../msData/attribute/attI006.xsd'
                     ),
                 ],
                 expected=[
@@ -3145,9 +3145,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attI006"
+                name='attI006'
             ),
-            name="attI006"
+            name='attI006'
         ),
         TestGroup(
             annotation=[
@@ -3155,7 +3155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, default and fixed both present, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, default and fixed both present, ,',
                             ]
                         ),
                     ]
@@ -3163,13 +3163,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa001.xsd"
+                        href='../msData/attribute/attKa001.xsd'
                     ),
                 ],
                 expected=[
@@ -3181,9 +3181,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa001"
+                name='attKa001'
             ),
-            name="attKa001"
+            name='attKa001'
         ),
         TestGroup(
             annotation=[
@@ -3199,13 +3199,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa002.xsd"
+                        href='../msData/attribute/attKa002.xsd'
                     ),
                 ],
                 expected=[
@@ -3217,9 +3217,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa002"
+                name='attKa002'
             ),
-            name="attKa002"
+            name='attKa002'
         ),
         TestGroup(
             annotation=[
@@ -3235,13 +3235,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa003.xsd"
+                        href='../msData/attribute/attKa003.xsd'
                     ),
                 ],
                 expected=[
@@ -3253,9 +3253,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa003"
+                name='attKa003'
             ),
-            name="attKa003"
+            name='attKa003'
         ),
         TestGroup(
             annotation=[
@@ -3271,13 +3271,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa004.xsd"
+                        href='../msData/attribute/attKa004.xsd'
                     ),
                 ],
                 expected=[
@@ -3289,9 +3289,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa004"
+                name='attKa004'
             ),
-            name="attKa004"
+            name='attKa004'
         ),
         TestGroup(
             annotation=[
@@ -3307,13 +3307,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa005.xsd"
+                        href='../msData/attribute/attKa005.xsd'
                     ),
                 ],
                 expected=[
@@ -3325,9 +3325,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa005"
+                name='attKa005'
             ),
-            name="attKa005"
+            name='attKa005'
         ),
         TestGroup(
             annotation=[
@@ -3343,13 +3343,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa006.xsd"
+                        href='../msData/attribute/attKa006.xsd'
                     ),
                 ],
                 expected=[
@@ -3361,9 +3361,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa006"
+                name='attKa006'
             ),
-            name="attKa006"
+            name='attKa006'
         ),
         TestGroup(
             annotation=[
@@ -3379,13 +3379,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa007.xsd"
+                        href='../msData/attribute/attKa007.xsd'
                     ),
                 ],
                 expected=[
@@ -3397,9 +3397,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa007"
+                name='attKa007'
             ),
-            name="attKa007"
+            name='attKa007'
         ),
         TestGroup(
             annotation=[
@@ -3415,13 +3415,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa008.xsd"
+                        href='../msData/attribute/attKa008.xsd'
                     ),
                 ],
                 expected=[
@@ -3433,9 +3433,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa008"
+                name='attKa008'
             ),
-            name="attKa008"
+            name='attKa008'
         ),
         TestGroup(
             annotation=[
@@ -3451,13 +3451,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa009.xsd"
+                        href='../msData/attribute/attKa009.xsd'
                     ),
                 ],
                 expected=[
@@ -3469,9 +3469,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa009"
+                name='attKa009'
             ),
-            name="attKa009"
+            name='attKa009'
         ),
         TestGroup(
             annotation=[
@@ -3479,7 +3479,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, ref present, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, ref present, ,',
                             ]
                         ),
                     ]
@@ -3487,13 +3487,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa010.xsd"
+                        href='../msData/attribute/attKa010.xsd'
                     ),
                 ],
                 expected=[
@@ -3505,9 +3505,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa010"
+                name='attKa010'
             ),
-            name="attKa010"
+            name='attKa010'
         ),
         TestGroup(
             annotation=[
@@ -3515,7 +3515,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, type present, simpleType childNode present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, type present, simpleType childNode present,',
                             ]
                         ),
                     ]
@@ -3523,13 +3523,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa011.xsd"
+                        href='../msData/attribute/attKa011.xsd'
                     ),
                 ],
                 expected=[
@@ -3541,9 +3541,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa011"
+                name='attKa011'
             ),
-            name="attKa011"
+            name='attKa011'
         ),
         TestGroup(
             annotation=[
@@ -3551,7 +3551,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, name= xmlns, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, name= xmlns, ,',
                             ]
                         ),
                     ]
@@ -3559,13 +3559,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa012.xsd"
+                        href='../msData/attribute/attKa012.xsd'
                     ),
                 ],
                 expected=[
@@ -3577,9 +3577,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa012"
+                name='attKa012'
             ),
-            name="attKa012"
+            name='attKa012'
         ),
         TestGroup(
             annotation=[
@@ -3587,7 +3587,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, name=xmlns:, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, name=xmlns:, ,',
                             ]
                         ),
                     ]
@@ -3595,13 +3595,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa013.xsd"
+                        href='../msData/attribute/attKa013.xsd'
                     ),
                 ],
                 expected=[
@@ -3613,9 +3613,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa013"
+                name='attKa013'
             ),
-            name="attKa013"
+            name='attKa013'
         ),
         TestGroup(
             annotation=[
@@ -3623,7 +3623,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, name=xmlns:a, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, name=xmlns:a, ,',
                             ]
                         ),
                     ]
@@ -3631,13 +3631,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa014.xsd"
+                        href='../msData/attribute/attKa014.xsd'
                     ),
                 ],
                 expected=[
@@ -3649,9 +3649,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa014"
+                name='attKa014'
             ),
-            name="attKa014"
+            name='attKa014'
         ),
         TestGroup(
             annotation=[
@@ -3659,7 +3659,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, targetNamespace of the attribute decl is http://www.w3.org/2001/XMLSchema-instance, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is schema, targetNamespace of the attribute decl is http://www.w3.org/2001/XMLSchema-instance, ,',
                             ]
                         ),
                     ]
@@ -3667,13 +3667,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKa015.xsd"
+                        href='../msData/attribute/attKa015.xsd'
                     ),
                 ],
                 expected=[
@@ -3685,9 +3685,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKa015"
+                name='attKa015'
             ),
-            name="attKa015"
+            name='attKa015'
         ),
         TestGroup(
             annotation=[
@@ -3695,7 +3695,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, default and fixed both present, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, default and fixed both present, ,',
                             ]
                         ),
                     ]
@@ -3703,13 +3703,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb001.xsd"
+                        href='../msData/attribute/attKb001.xsd'
                     ),
                 ],
                 expected=[
@@ -3721,9 +3721,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb001"
+                name='attKb001'
             ),
-            name="attKb001"
+            name='attKb001'
         ),
         TestGroup(
             annotation=[
@@ -3739,13 +3739,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb002.xsd"
+                        href='../msData/attribute/attKb002.xsd'
                     ),
                 ],
                 expected=[
@@ -3757,9 +3757,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb002"
+                name='attKb002'
             ),
-            name="attKb002"
+            name='attKb002'
         ),
         TestGroup(
             annotation=[
@@ -3775,13 +3775,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb003.xsd"
+                        href='../msData/attribute/attKb003.xsd'
                     ),
                 ],
                 expected=[
@@ -3793,9 +3793,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb003"
+                name='attKb003'
             ),
-            name="attKb003"
+            name='attKb003'
         ),
         TestGroup(
             annotation=[
@@ -3811,13 +3811,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb004.xsd"
+                        href='../msData/attribute/attKb004.xsd'
                     ),
                 ],
                 expected=[
@@ -3829,9 +3829,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb004"
+                name='attKb004'
             ),
-            name="attKb004"
+            name='attKb004'
         ),
         TestGroup(
             annotation=[
@@ -3847,13 +3847,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb005.xsd"
+                        href='../msData/attribute/attKb005.xsd'
                     ),
                 ],
                 expected=[
@@ -3865,9 +3865,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb005"
+                name='attKb005'
             ),
-            name="attKb005"
+            name='attKb005'
         ),
         TestGroup(
             annotation=[
@@ -3883,13 +3883,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb006.xsd"
+                        href='../msData/attribute/attKb006.xsd'
                     ),
                 ],
                 expected=[
@@ -3901,9 +3901,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb006"
+                name='attKb006'
             ),
-            name="attKb006"
+            name='attKb006'
         ),
         TestGroup(
             annotation=[
@@ -3919,13 +3919,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb007.xsd"
+                        href='../msData/attribute/attKb007.xsd'
                     ),
                 ],
                 expected=[
@@ -3937,9 +3937,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb007"
+                name='attKb007'
             ),
-            name="attKb007"
+            name='attKb007'
         ),
         TestGroup(
             annotation=[
@@ -3955,13 +3955,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb008.xsd"
+                        href='../msData/attribute/attKb008.xsd'
                     ),
                 ],
                 expected=[
@@ -3973,9 +3973,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb008"
+                name='attKb008'
             ),
-            name="attKb008"
+            name='attKb008'
         ),
         TestGroup(
             annotation=[
@@ -3988,7 +3988,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "@fixed with use=prohibited is not allowed in XSD 1.1",
+                                '@fixed with use=prohibited is not allowed in XSD 1.1',
                             ]
                         ),
                     ]
@@ -3996,13 +3996,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb009.xsd"
+                        href='../msData/attribute/attKb009.xsd'
                     ),
                 ],
                 expected=[
@@ -4029,9 +4029,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attKb009"
+                name='attKb009'
             ),
-            name="attKb009"
+            name='attKb009'
         ),
         TestGroup(
             annotation=[
@@ -4039,7 +4039,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, name present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, name present,',
                             ]
                         ),
                     ]
@@ -4047,13 +4047,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb010.xsd"
+                        href='../msData/attribute/attKb010.xsd'
                     ),
                 ],
                 expected=[
@@ -4065,9 +4065,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb010"
+                name='attKb010'
             ),
-            name="attKb010"
+            name='attKb010'
         ),
         TestGroup(
             annotation=[
@@ -4075,7 +4075,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, simpleType childNode present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, simpleType childNode present,',
                             ]
                         ),
                     ]
@@ -4083,13 +4083,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb011.xsd"
+                        href='../msData/attribute/attKb011.xsd'
                     ),
                 ],
                 expected=[
@@ -4101,9 +4101,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb011"
+                name='attKb011'
             ),
-            name="attKb011"
+            name='attKb011'
         ),
         TestGroup(
             annotation=[
@@ -4111,7 +4111,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, form attribute present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, form attribute present,',
                             ]
                         ),
                     ]
@@ -4119,13 +4119,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb012.xsd"
+                        href='../msData/attribute/attKb012.xsd'
                     ),
                 ],
                 expected=[
@@ -4137,9 +4137,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb012"
+                name='attKb012'
             ),
-            name="attKb012"
+            name='attKb012'
         ),
         TestGroup(
             annotation=[
@@ -4147,7 +4147,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, type attribute present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, ref present, type attribute present,',
                             ]
                         ),
                     ]
@@ -4155,13 +4155,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb013.xsd"
+                        href='../msData/attribute/attKb013.xsd'
                     ),
                 ],
                 expected=[
@@ -4173,9 +4173,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb013"
+                name='attKb013'
             ),
-            name="attKb013"
+            name='attKb013'
         ),
         TestGroup(
             annotation=[
@@ -4183,7 +4183,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, type present, simpleType childNode present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, type present, simpleType childNode present,',
                             ]
                         ),
                     ]
@@ -4191,13 +4191,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb014.xsd"
+                        href='../msData/attribute/attKb014.xsd'
                     ),
                 ],
                 expected=[
@@ -4209,9 +4209,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb014"
+                name='attKb014'
             ),
-            name="attKb014"
+            name='attKb014'
         ),
         TestGroup(
             annotation=[
@@ -4219,7 +4219,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, name= xmlns, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, name= xmlns, ,',
                             ]
                         ),
                     ]
@@ -4227,13 +4227,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb015.xsd"
+                        href='../msData/attribute/attKb015.xsd'
                     ),
                 ],
                 expected=[
@@ -4245,9 +4245,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb015"
+                name='attKb015'
             ),
-            name="attKb015"
+            name='attKb015'
         ),
         TestGroup(
             annotation=[
@@ -4255,7 +4255,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, name=xmlns:, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, name=xmlns:, ,',
                             ]
                         ),
                     ]
@@ -4263,13 +4263,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb016.xsd"
+                        href='../msData/attribute/attKb016.xsd'
                     ),
                 ],
                 expected=[
@@ -4281,9 +4281,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb016"
+                name='attKb016'
             ),
-            name="attKb016"
+            name='attKb016'
         ),
         TestGroup(
             annotation=[
@@ -4291,7 +4291,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, name=xmlns:a, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is attributeGroup, name=xmlns:a, ,',
                             ]
                         ),
                     ]
@@ -4299,13 +4299,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb017.xsd"
+                        href='../msData/attribute/attKb017.xsd'
                     ),
                 ],
                 expected=[
@@ -4317,9 +4317,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb017"
+                name='attKb017'
             ),
-            name="attKb017"
+            name='attKb017'
         ),
         TestGroup(
             annotation=[
@@ -4327,12 +4327,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema&#10;Rep Constraint: 1. Parent is attributeGroup, targetNamespace of the schema is&#10;http://www.w3.org/2001/XMLSchema-instance, but form is not qualified.",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema\nRep Constraint: 1. Parent is attributeGroup, targetNamespace of the schema is\nhttp://www.w3.org/2001/XMLSchema-instance, but form is not qualified.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "expected changed to valid by HST 2006-11-09",
+                                'expected changed to valid by HST 2006-11-09',
                             ]
                         ),
                     ]
@@ -4340,13 +4340,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb018.xsd"
+                        href='../msData/attribute/attKb018.xsd'
                     ),
                 ],
                 expected=[
@@ -4358,9 +4358,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb018"
+                name='attKb018'
             ),
-            name="attKb018"
+            name='attKb018'
         ),
         TestGroup(
             annotation=[
@@ -4368,12 +4368,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema&#10;Rep Constraint: 1. Parent is attributeGroup, targetNamespace of the schema is&#10;http://www.w3.org/2001/XMLSchema-instance, form is qualified.",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema\nRep Constraint: 1. Parent is attributeGroup, targetNamespace of the schema is\nhttp://www.w3.org/2001/XMLSchema-instance, form is qualified.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Added by HST 2006-11-09",
+                                'Added by HST 2006-11-09',
                             ]
                         ),
                     ]
@@ -4381,13 +4381,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKb018a.xsd"
+                        href='../msData/attribute/attKb018a.xsd'
                     ),
                 ],
                 expected=[
@@ -4399,9 +4399,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKb018a"
+                name='attKb018a'
             ),
-            name="attKb018a"
+            name='attKb018a'
         ),
         TestGroup(
             annotation=[
@@ -4409,7 +4409,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, default and fixed both present, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, default and fixed both present, ,',
                             ]
                         ),
                     ]
@@ -4417,13 +4417,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc001.xsd"
+                        href='../msData/attribute/attKc001.xsd'
                     ),
                 ],
                 expected=[
@@ -4435,9 +4435,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc001"
+                name='attKc001'
             ),
-            name="attKc001"
+            name='attKc001'
         ),
         TestGroup(
             annotation=[
@@ -4453,13 +4453,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc002.xsd"
+                        href='../msData/attribute/attKc002.xsd'
                     ),
                 ],
                 expected=[
@@ -4471,9 +4471,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc002"
+                name='attKc002'
             ),
-            name="attKc002"
+            name='attKc002'
         ),
         TestGroup(
             annotation=[
@@ -4489,13 +4489,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc003.xsd"
+                        href='../msData/attribute/attKc003.xsd'
                     ),
                 ],
                 expected=[
@@ -4507,9 +4507,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc003"
+                name='attKc003'
             ),
-            name="attKc003"
+            name='attKc003'
         ),
         TestGroup(
             annotation=[
@@ -4525,13 +4525,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc004.xsd"
+                        href='../msData/attribute/attKc004.xsd'
                     ),
                 ],
                 expected=[
@@ -4543,9 +4543,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc004"
+                name='attKc004'
             ),
-            name="attKc004"
+            name='attKc004'
         ),
         TestGroup(
             annotation=[
@@ -4561,13 +4561,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc005.xsd"
+                        href='../msData/attribute/attKc005.xsd'
                     ),
                 ],
                 expected=[
@@ -4579,9 +4579,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc005"
+                name='attKc005'
             ),
-            name="attKc005"
+            name='attKc005'
         ),
         TestGroup(
             annotation=[
@@ -4597,13 +4597,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc006.xsd"
+                        href='../msData/attribute/attKc006.xsd'
                     ),
                 ],
                 expected=[
@@ -4615,9 +4615,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc006"
+                name='attKc006'
             ),
-            name="attKc006"
+            name='attKc006'
         ),
         TestGroup(
             annotation=[
@@ -4633,13 +4633,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc007.xsd"
+                        href='../msData/attribute/attKc007.xsd'
                     ),
                 ],
                 expected=[
@@ -4651,9 +4651,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc007"
+                name='attKc007'
             ),
-            name="attKc007"
+            name='attKc007'
         ),
         TestGroup(
             annotation=[
@@ -4669,13 +4669,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc008.xsd"
+                        href='../msData/attribute/attKc008.xsd'
                     ),
                 ],
                 expected=[
@@ -4687,9 +4687,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc008"
+                name='attKc008'
             ),
-            name="attKc008"
+            name='attKc008'
         ),
         TestGroup(
             annotation=[
@@ -4702,7 +4702,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "@fixed with use=prohibited is not allowed in XSD 1.1",
+                                '@fixed with use=prohibited is not allowed in XSD 1.1',
                             ]
                         ),
                     ]
@@ -4710,13 +4710,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc009.xsd"
+                        href='../msData/attribute/attKc009.xsd'
                     ),
                 ],
                 expected=[
@@ -4743,9 +4743,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attKc009"
+                name='attKc009'
             ),
-            name="attKc009"
+            name='attKc009'
         ),
         TestGroup(
             annotation=[
@@ -4753,7 +4753,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, name present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, name present,',
                             ]
                         ),
                     ]
@@ -4761,13 +4761,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc010.xsd"
+                        href='../msData/attribute/attKc010.xsd'
                     ),
                 ],
                 expected=[
@@ -4779,9 +4779,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc010"
+                name='attKc010'
             ),
-            name="attKc010"
+            name='attKc010'
         ),
         TestGroup(
             annotation=[
@@ -4789,7 +4789,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, simpleType childNode present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, simpleType childNode present,',
                             ]
                         ),
                     ]
@@ -4797,13 +4797,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc011.xsd"
+                        href='../msData/attribute/attKc011.xsd'
                     ),
                 ],
                 expected=[
@@ -4815,9 +4815,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc011"
+                name='attKc011'
             ),
-            name="attKc011"
+            name='attKc011'
         ),
         TestGroup(
             annotation=[
@@ -4825,7 +4825,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, form attribute present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, form attribute present,',
                             ]
                         ),
                     ]
@@ -4833,13 +4833,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc012.xsd"
+                        href='../msData/attribute/attKc012.xsd'
                     ),
                 ],
                 expected=[
@@ -4851,9 +4851,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc012"
+                name='attKc012'
             ),
-            name="attKc012"
+            name='attKc012'
         ),
         TestGroup(
             annotation=[
@@ -4861,7 +4861,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, type attribute present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, ref present, type attribute present,',
                             ]
                         ),
                     ]
@@ -4869,13 +4869,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc013.xsd"
+                        href='../msData/attribute/attKc013.xsd'
                     ),
                 ],
                 expected=[
@@ -4887,9 +4887,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc013"
+                name='attKc013'
             ),
-            name="attKc013"
+            name='attKc013'
         ),
         TestGroup(
             annotation=[
@@ -4897,7 +4897,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, type present, simpleType childNode present,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, type present, simpleType childNode present,',
                             ]
                         ),
                     ]
@@ -4905,13 +4905,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc014.xsd"
+                        href='../msData/attribute/attKc014.xsd'
                     ),
                 ],
                 expected=[
@@ -4923,9 +4923,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc014"
+                name='attKc014'
             ),
-            name="attKc014"
+            name='attKc014'
         ),
         TestGroup(
             annotation=[
@@ -4933,7 +4933,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, name= xmlns, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, name= xmlns, ,',
                             ]
                         ),
                     ]
@@ -4941,13 +4941,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc015.xsd"
+                        href='../msData/attribute/attKc015.xsd'
                     ),
                 ],
                 expected=[
@@ -4959,9 +4959,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc015"
+                name='attKc015'
             ),
-            name="attKc015"
+            name='attKc015'
         ),
         TestGroup(
             annotation=[
@@ -4969,7 +4969,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, name=xmlns:, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, name=xmlns:, ,',
                             ]
                         ),
                     ]
@@ -4977,13 +4977,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc016.xsd"
+                        href='../msData/attribute/attKc016.xsd'
                     ),
                 ],
                 expected=[
@@ -4995,9 +4995,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc016"
+                name='attKc016'
             ),
-            name="attKc016"
+            name='attKc016'
         ),
         TestGroup(
             annotation=[
@@ -5005,7 +5005,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, name=xmlns:a, ,",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema Rep Constraint: 1. Parent is complexType, name=xmlns:a, ,',
                             ]
                         ),
                     ]
@@ -5013,13 +5013,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc017.xsd"
+                        href='../msData/attribute/attKc017.xsd'
                     ),
                 ],
                 expected=[
@@ -5031,9 +5031,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc017"
+                name='attKc017'
             ),
-            name="attKc017"
+            name='attKc017'
         ),
         TestGroup(
             annotation=[
@@ -5041,12 +5041,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema&#10;Rep Constraint: 1. Parent is complexType, targetNamespace of the schema is&#10;http://www.w3.org/2001/XMLSchema-instance, but form is not qualified.",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema\nRep Constraint: 1. Parent is complexType, targetNamespace of the schema is\nhttp://www.w3.org/2001/XMLSchema-instance, but form is not qualified.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "expected changed to valid by HST 2006-11-09",
+                                'expected changed to valid by HST 2006-11-09',
                             ]
                         ),
                     ]
@@ -5054,13 +5054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc018.xsd"
+                        href='../msData/attribute/attKc018.xsd'
                     ),
                 ],
                 expected=[
@@ -5072,9 +5072,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc018"
+                name='attKc018'
             ),
-            name="attKc018"
+            name='attKc018'
         ),
         TestGroup(
             annotation=[
@@ -5082,12 +5082,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Schema&#10;Rep Constraint: 1. Parent is complexType, targetNamespace of the schema is&#10;http://www.w3.org/2001/XMLSchema-instance, and form is qualified.",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Schema\nRep Constraint: 1. Parent is complexType, targetNamespace of the schema is\nhttp://www.w3.org/2001/XMLSchema-instance, and form is qualified.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Added by HST 2006-11-09",
+                                'Added by HST 2006-11-09',
                             ]
                         ),
                     ]
@@ -5095,13 +5095,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attKc018a.xsd"
+                        href='../msData/attribute/attKc018a.xsd'
                     ),
                 ],
                 expected=[
@@ -5113,9 +5113,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attKc018a"
+                name='attKc018a'
             ),
-            name="attKc018a"
+            name='attKc018a'
         ),
         TestGroup(
             annotation=[
@@ -5131,13 +5131,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLa001.xsd"
+                        href='../msData/attribute/attLa001.xsd'
                     ),
                 ],
                 expected=[
@@ -5149,12 +5149,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLa001"
+                name='attLa001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLa001.xml"
+                        href='../msData/attribute/attLa001.xml'
                     ),
                     expected=[
                         Expected(
@@ -5165,10 +5165,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLa001.v"
+                    name='attLa001.v'
                 ),
             ],
-            name="attLa001"
+            name='attLa001'
         ),
         TestGroup(
             annotation=[
@@ -5184,13 +5184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLa002.xsd"
+                        href='../msData/attribute/attLa002.xsd'
                     ),
                 ],
                 expected=[
@@ -5202,12 +5202,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLa002"
+                name='attLa002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLa002.xml"
+                        href='../msData/attribute/attLa002.xml'
                     ),
                     expected=[
                         Expected(
@@ -5218,10 +5218,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLa002.v"
+                    name='attLa002.v'
                 ),
             ],
-            name="attLa002"
+            name='attLa002'
         ),
         TestGroup(
             annotation=[
@@ -5237,13 +5237,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLa003.xsd"
+                        href='../msData/attribute/attLa003.xsd'
                     ),
                 ],
                 expected=[
@@ -5255,12 +5255,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLa003"
+                name='attLa003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLa003.xml"
+                        href='../msData/attribute/attLa003.xml'
                     ),
                     expected=[
                         Expected(
@@ -5271,10 +5271,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLa003.v"
+                    name='attLa003.v'
                 ),
             ],
-            name="attLa003"
+            name='attLa003'
         ),
         TestGroup(
             annotation=[
@@ -5290,13 +5290,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLa004.xsd"
+                        href='../msData/attribute/attLa004.xsd'
                     ),
                 ],
                 expected=[
@@ -5308,12 +5308,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLa004"
+                name='attLa004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLa004.xml"
+                        href='../msData/attribute/attLa004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5324,10 +5324,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLa004.v"
+                    name='attLa004.v'
                 ),
             ],
-            name="attLa004"
+            name='attLa004'
         ),
         TestGroup(
             annotation=[
@@ -5343,13 +5343,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLa005.xsd"
+                        href='../msData/attribute/attLa005.xsd'
                     ),
                 ],
                 expected=[
@@ -5361,12 +5361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLa005"
+                name='attLa005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLa005.xml"
+                        href='../msData/attribute/attLa005.xml'
                     ),
                     expected=[
                         Expected(
@@ -5377,10 +5377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLa005.i"
+                    name='attLa005.i'
                 ),
             ],
-            name="attLa005"
+            name='attLa005'
         ),
         TestGroup(
             annotation=[
@@ -5396,13 +5396,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLa006.xsd"
+                        href='../msData/attribute/attLa006.xsd'
                     ),
                 ],
                 expected=[
@@ -5414,12 +5414,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLa006"
+                name='attLa006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLa006.xml"
+                        href='../msData/attribute/attLa006.xml'
                     ),
                     expected=[
                         Expected(
@@ -5430,10 +5430,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLa006.v"
+                    name='attLa006.v'
                 ),
             ],
-            name="attLa006"
+            name='attLa006'
         ),
         TestGroup(
             annotation=[
@@ -5449,13 +5449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLb001.xsd"
+                        href='../msData/attribute/attLb001.xsd'
                     ),
                 ],
                 expected=[
@@ -5467,12 +5467,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLb001"
+                name='attLb001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLb001.xml"
+                        href='../msData/attribute/attLb001.xml'
                     ),
                     expected=[
                         Expected(
@@ -5483,10 +5483,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLb001.v"
+                    name='attLb001.v'
                 ),
             ],
-            name="attLb001"
+            name='attLb001'
         ),
         TestGroup(
             annotation=[
@@ -5502,13 +5502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLb002.xsd"
+                        href='../msData/attribute/attLb002.xsd'
                     ),
                 ],
                 expected=[
@@ -5520,12 +5520,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLb002"
+                name='attLb002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLb002.xml"
+                        href='../msData/attribute/attLb002.xml'
                     ),
                     expected=[
                         Expected(
@@ -5536,10 +5536,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLb002.v"
+                    name='attLb002.v'
                 ),
             ],
-            name="attLb002"
+            name='attLb002'
         ),
         TestGroup(
             annotation=[
@@ -5555,13 +5555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLb003.xsd"
+                        href='../msData/attribute/attLb003.xsd'
                     ),
                 ],
                 expected=[
@@ -5573,12 +5573,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLb003"
+                name='attLb003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLb003.xml"
+                        href='../msData/attribute/attLb003.xml'
                     ),
                     expected=[
                         Expected(
@@ -5589,10 +5589,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLb003.v"
+                    name='attLb003.v'
                 ),
             ],
-            name="attLb003"
+            name='attLb003'
         ),
         TestGroup(
             annotation=[
@@ -5608,13 +5608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLb004.xsd"
+                        href='../msData/attribute/attLb004.xsd'
                     ),
                 ],
                 expected=[
@@ -5626,12 +5626,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLb004"
+                name='attLb004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLb004.xml"
+                        href='../msData/attribute/attLb004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5642,10 +5642,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLb004.v"
+                    name='attLb004.v'
                 ),
             ],
-            name="attLb004"
+            name='attLb004'
         ),
         TestGroup(
             annotation=[
@@ -5661,13 +5661,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLb005.xsd"
+                        href='../msData/attribute/attLb005.xsd'
                     ),
                 ],
                 expected=[
@@ -5679,12 +5679,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLb005"
+                name='attLb005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLb005.xml"
+                        href='../msData/attribute/attLb005.xml'
                     ),
                     expected=[
                         Expected(
@@ -5695,10 +5695,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLb005.i"
+                    name='attLb005.i'
                 ),
             ],
-            name="attLb005"
+            name='attLb005'
         ),
         TestGroup(
             annotation=[
@@ -5714,13 +5714,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLb006.xsd"
+                        href='../msData/attribute/attLb006.xsd'
                     ),
                 ],
                 expected=[
@@ -5732,12 +5732,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLb006"
+                name='attLb006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLb006.xml"
+                        href='../msData/attribute/attLb006.xml'
                     ),
                     expected=[
                         Expected(
@@ -5748,10 +5748,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLb006.v"
+                    name='attLb006.v'
                 ),
             ],
-            name="attLb006"
+            name='attLb006'
         ),
         TestGroup(
             annotation=[
@@ -5767,13 +5767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLc001.xsd"
+                        href='../msData/attribute/attLc001.xsd'
                     ),
                 ],
                 expected=[
@@ -5785,12 +5785,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLc001"
+                name='attLc001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLc001.xml"
+                        href='../msData/attribute/attLc001.xml'
                     ),
                     expected=[
                         Expected(
@@ -5801,10 +5801,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLc001.v"
+                    name='attLc001.v'
                 ),
             ],
-            name="attLc001"
+            name='attLc001'
         ),
         TestGroup(
             annotation=[
@@ -5820,13 +5820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLc002.xsd"
+                        href='../msData/attribute/attLc002.xsd'
                     ),
                 ],
                 expected=[
@@ -5838,12 +5838,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLc002"
+                name='attLc002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLc002.xml"
+                        href='../msData/attribute/attLc002.xml'
                     ),
                     expected=[
                         Expected(
@@ -5854,10 +5854,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLc002.v"
+                    name='attLc002.v'
                 ),
             ],
-            name="attLc002"
+            name='attLc002'
         ),
         TestGroup(
             annotation=[
@@ -5873,13 +5873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLc003.xsd"
+                        href='../msData/attribute/attLc003.xsd'
                     ),
                 ],
                 expected=[
@@ -5891,12 +5891,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLc003"
+                name='attLc003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLc003.xml"
+                        href='../msData/attribute/attLc003.xml'
                     ),
                     expected=[
                         Expected(
@@ -5907,10 +5907,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLc003.v"
+                    name='attLc003.v'
                 ),
             ],
-            name="attLc003"
+            name='attLc003'
         ),
         TestGroup(
             annotation=[
@@ -5926,13 +5926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLc004.xsd"
+                        href='../msData/attribute/attLc004.xsd'
                     ),
                 ],
                 expected=[
@@ -5944,12 +5944,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLc004"
+                name='attLc004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLc004.xml"
+                        href='../msData/attribute/attLc004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5960,10 +5960,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLc004.v"
+                    name='attLc004.v'
                 ),
             ],
-            name="attLc004"
+            name='attLc004'
         ),
         TestGroup(
             annotation=[
@@ -5979,13 +5979,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLc005.xsd"
+                        href='../msData/attribute/attLc005.xsd'
                     ),
                 ],
                 expected=[
@@ -5997,12 +5997,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLc005"
+                name='attLc005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLc005.xml"
+                        href='../msData/attribute/attLc005.xml'
                     ),
                     expected=[
                         Expected(
@@ -6013,10 +6013,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLc005.i"
+                    name='attLc005.i'
                 ),
             ],
-            name="attLc005"
+            name='attLc005'
         ),
         TestGroup(
             annotation=[
@@ -6032,13 +6032,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attLc006.xsd"
+                        href='../msData/attribute/attLc006.xsd'
                     ),
                 ],
                 expected=[
@@ -6050,12 +6050,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attLc006"
+                name='attLc006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attLc006.xml"
+                        href='../msData/attribute/attLc006.xml'
                     ),
                     expected=[
                         Expected(
@@ -6066,10 +6066,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attLc006.v"
+                    name='attLc006.v'
                 ),
             ],
-            name="attLc006"
+            name='attLc006'
         ),
         TestGroup(
             annotation=[
@@ -6085,13 +6085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO001.xsd"
+                        href='../msData/attribute/attO001.xsd'
                     ),
                 ],
                 expected=[
@@ -6103,12 +6103,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO001"
+                name='attO001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO001.xml"
+                        href='../msData/attribute/attO001.xml'
                     ),
                     expected=[
                         Expected(
@@ -6119,10 +6119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO001.i"
+                    name='attO001.i'
                 ),
             ],
-            name="attO001"
+            name='attO001'
         ),
         TestGroup(
             annotation=[
@@ -6138,13 +6138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO002.xsd"
+                        href='../msData/attribute/attO002.xsd'
                     ),
                 ],
                 expected=[
@@ -6156,9 +6156,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO002"
+                name='attO002'
             ),
-            name="attO002"
+            name='attO002'
         ),
         TestGroup(
             annotation=[
@@ -6174,13 +6174,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO003.xsd"
+                        href='../msData/attribute/attO003.xsd'
                     ),
                 ],
                 expected=[
@@ -6192,9 +6192,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO003"
+                name='attO003'
             ),
-            name="attO003"
+            name='attO003'
         ),
         TestGroup(
             annotation=[
@@ -6210,13 +6210,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO004.xsd"
+                        href='../msData/attribute/attO004.xsd'
                     ),
                 ],
                 expected=[
@@ -6228,12 +6228,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO004"
+                name='attO004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO004.xml"
+                        href='../msData/attribute/attO004.xml'
                     ),
                     expected=[
                         Expected(
@@ -6244,10 +6244,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO004.i"
+                    name='attO004.i'
                 ),
             ],
-            name="attO004"
+            name='attO004'
         ),
         TestGroup(
             annotation=[
@@ -6263,13 +6263,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO005.xsd"
+                        href='../msData/attribute/attO005.xsd'
                     ),
                 ],
                 expected=[
@@ -6281,9 +6281,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO005"
+                name='attO005'
             ),
-            name="attO005"
+            name='attO005'
         ),
         TestGroup(
             annotation=[
@@ -6299,13 +6299,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO006.xsd"
+                        href='../msData/attribute/attO006.xsd'
                     ),
                 ],
                 expected=[
@@ -6317,12 +6317,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO006"
+                name='attO006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO006.xml"
+                        href='../msData/attribute/attO006.xml'
                     ),
                     expected=[
                         Expected(
@@ -6333,10 +6333,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO006.v"
+                    name='attO006.v'
                 ),
             ],
-            name="attO006"
+            name='attO006'
         ),
         TestGroup(
             annotation=[
@@ -6352,13 +6352,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO007.xsd"
+                        href='../msData/attribute/attO007.xsd'
                     ),
                 ],
                 expected=[
@@ -6370,12 +6370,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO007"
+                name='attO007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO007.xml"
+                        href='../msData/attribute/attO007.xml'
                     ),
                     expected=[
                         Expected(
@@ -6386,10 +6386,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO007.v"
+                    name='attO007.v'
                 ),
             ],
-            name="attO007"
+            name='attO007'
         ),
         TestGroup(
             annotation=[
@@ -6405,13 +6405,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO008.xsd"
+                        href='../msData/attribute/attO008.xsd'
                     ),
                 ],
                 expected=[
@@ -6423,12 +6423,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO008"
+                name='attO008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO008.xml"
+                        href='../msData/attribute/attO008.xml'
                     ),
                     expected=[
                         Expected(
@@ -6439,10 +6439,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO008.i"
+                    name='attO008.i'
                 ),
             ],
-            name="attO008"
+            name='attO008'
         ),
         TestGroup(
             annotation=[
@@ -6450,7 +6450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=NMTOKENS, fixed=&quot; -linebreak -tab X -tab -linebreak Y -linebreak Z -linebreak&quot;, instant xml value='X Y Z'",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=NMTOKENS, fixed=" -linebreak -tab X -tab -linebreak Y -linebreak Z -linebreak", instant xml value=\'X Y Z\'',
                             ]
                         ),
                     ]
@@ -6458,13 +6458,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO009.xsd"
+                        href='../msData/attribute/attO009.xsd'
                     ),
                 ],
                 expected=[
@@ -6476,12 +6476,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO009"
+                name='attO009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO009.xml"
+                        href='../msData/attribute/attO009.xml'
                     ),
                     expected=[
                         Expected(
@@ -6492,10 +6492,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO009.v"
+                    name='attO009.v'
                 ),
             ],
-            name="attO009"
+            name='attO009'
         ),
         TestGroup(
             annotation=[
@@ -6503,7 +6503,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=NMTOKENS, fixed=&quot;#xd; #xd;A #xa; #xa;B #xd; #xa;&quot; instant xml value='#xD #xD A #xA #xA B #xD #xA'",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=NMTOKENS, fixed="#xd; #xd;A #xa; #xa;B #xd; #xa;" instant xml value=\'#xD #xD A #xA #xA B #xD #xA\'',
                             ]
                         ),
                     ]
@@ -6511,13 +6511,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO010.xsd"
+                        href='../msData/attribute/attO010.xsd'
                     ),
                 ],
                 expected=[
@@ -6529,12 +6529,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO010"
+                name='attO010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO010.xml"
+                        href='../msData/attribute/attO010.xml'
                     ),
                     expected=[
                         Expected(
@@ -6545,10 +6545,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO010.v"
+                    name='attO010.v'
                 ),
             ],
-            name="attO010"
+            name='attO010'
         ),
         TestGroup(
             annotation=[
@@ -6556,7 +6556,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=string, fixed=&quot; -linebreak -tab X -tab -linebreak Y -linebreak Z -linebreak&quot;, instant xml value=' X Y Z '",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=string, fixed=" -linebreak -tab X -tab -linebreak Y -linebreak Z -linebreak", instant xml value=\' X Y Z \'',
                             ]
                         ),
                     ]
@@ -6564,13 +6564,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO011.xsd"
+                        href='../msData/attribute/attO011.xsd'
                     ),
                 ],
                 expected=[
@@ -6582,12 +6582,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO011"
+                name='attO011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO011.xml"
+                        href='../msData/attribute/attO011.xml'
                     ),
                     expected=[
                         Expected(
@@ -6598,10 +6598,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO011.v"
+                    name='attO011.v'
                 ),
             ],
-            name="attO011"
+            name='attO011'
         ),
         TestGroup(
             annotation=[
@@ -6609,7 +6609,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=string, fixed=&quot;#xd; #xd;A #xa; #xa;B #xd; #xa;&quot; instant xml value='A B'",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid (check normalization): type=string, fixed="#xd; #xd;A #xa; #xa;B #xd; #xa;" instant xml value=\'A B\'',
                             ]
                         ),
                     ]
@@ -6617,13 +6617,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO012.xsd"
+                        href='../msData/attribute/attO012.xsd'
                     ),
                 ],
                 expected=[
@@ -6635,12 +6635,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO012"
+                name='attO012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attO012.xml"
+                        href='../msData/attribute/attO012.xml'
                     ),
                     expected=[
                         Expected(
@@ -6651,10 +6651,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attO012.i"
+                    name='attO012.i'
                 ),
             ],
-            name="attO012"
+            name='attO012'
         ),
         TestGroup(
             annotation=[
@@ -6670,13 +6670,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO013.xsd"
+                        href='../msData/attribute/attO013.xsd'
                     ),
                 ],
                 expected=[
@@ -6688,9 +6688,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO013"
+                name='attO013'
             ),
-            name="attO013"
+            name='attO013'
         ),
         TestGroup(
             annotation=[
@@ -6706,13 +6706,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO014.xsd"
+                        href='../msData/attribute/attO014.xsd'
                     ),
                 ],
                 expected=[
@@ -6724,9 +6724,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO014"
+                name='attO014'
             ),
-            name="attO014"
+            name='attO014'
         ),
         TestGroup(
             annotation=[
@@ -6742,13 +6742,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO015.xsd"
+                        href='../msData/attribute/attO015.xsd'
                     ),
                 ],
                 expected=[
@@ -6760,9 +6760,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO015"
+                name='attO015'
             ),
-            name="attO015"
+            name='attO015'
         ),
         TestGroup(
             annotation=[
@@ -6778,13 +6778,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO016.xsd"
+                        href='../msData/attribute/attO016.xsd'
                     ),
                 ],
                 expected=[
@@ -6796,9 +6796,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO016"
+                name='attO016'
             ),
-            name="attO016"
+            name='attO016'
         ),
         TestGroup(
             annotation=[
@@ -6814,13 +6814,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO017.xsd"
+                        href='../msData/attribute/attO017.xsd'
                     ),
                 ],
                 expected=[
@@ -6832,9 +6832,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO017"
+                name='attO017'
             ),
-            name="attO017"
+            name='attO017'
         ),
         TestGroup(
             annotation=[
@@ -6850,13 +6850,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO018.xsd"
+                        href='../msData/attribute/attO018.xsd'
                     ),
                 ],
                 expected=[
@@ -6868,9 +6868,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO018"
+                name='attO018'
             ),
-            name="attO018"
+            name='attO018'
         ),
         TestGroup(
             annotation=[
@@ -6886,13 +6886,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO019.xsd"
+                        href='../msData/attribute/attO019.xsd'
                     ),
                 ],
                 expected=[
@@ -6904,9 +6904,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO019"
+                name='attO019'
             ),
-            name="attO019"
+            name='attO019'
         ),
         TestGroup(
             annotation=[
@@ -6922,13 +6922,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO020.xsd"
+                        href='../msData/attribute/attO020.xsd'
                     ),
                 ],
                 expected=[
@@ -6940,9 +6940,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO020"
+                name='attO020'
             ),
-            name="attO020"
+            name='attO020'
         ),
         TestGroup(
             annotation=[
@@ -6958,13 +6958,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO021.xsd"
+                        href='../msData/attribute/attO021.xsd'
                     ),
                 ],
                 expected=[
@@ -6976,9 +6976,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO021"
+                name='attO021'
             ),
-            name="attO021"
+            name='attO021'
         ),
         TestGroup(
             annotation=[
@@ -6994,13 +6994,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO022.xsd"
+                        href='../msData/attribute/attO022.xsd'
                     ),
                 ],
                 expected=[
@@ -7012,9 +7012,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO022"
+                name='attO022'
             ),
-            name="attO022"
+            name='attO022'
         ),
         TestGroup(
             annotation=[
@@ -7030,13 +7030,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO023.xsd"
+                        href='../msData/attribute/attO023.xsd'
                     ),
                 ],
                 expected=[
@@ -7048,9 +7048,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO023"
+                name='attO023'
             ),
-            name="attO023"
+            name='attO023'
         ),
         TestGroup(
             annotation=[
@@ -7066,13 +7066,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO024.xsd"
+                        href='../msData/attribute/attO024.xsd'
                     ),
                 ],
                 expected=[
@@ -7084,9 +7084,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO024"
+                name='attO024'
             ),
-            name="attO024"
+            name='attO024'
         ),
         TestGroup(
             annotation=[
@@ -7094,7 +7094,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid: global attribute 'foo' with, fixed=&quot;123&quot;, referenced in complexType fixed=&quot;345&quot;",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Validation Rule: Attribute Locally Valid: global attribute \'foo\' with, fixed="123", referenced in complexType fixed="345"',
                             ]
                         ),
                     ]
@@ -7102,13 +7102,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attO025.xsd"
+                        href='../msData/attribute/attO025.xsd'
                     ),
                 ],
                 expected=[
@@ -7120,9 +7120,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attO025"
+                name='attO025'
             ),
-            name="attO025"
+            name='attO025'
         ),
         TestGroup(
             annotation=[
@@ -7130,7 +7130,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=qualified, attributeFormDefault=absentattribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=qualified, attributeFormDefault=absentattribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7138,13 +7138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMa001.xsd"
+                        href='../msData/attribute/attMa001.xsd'
                     ),
                 ],
                 expected=[
@@ -7156,12 +7156,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMa001"
+                name='attMa001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMa001.xml"
+                        href='../msData/attribute/attMa001.xml'
                     ),
                     expected=[
                         Expected(
@@ -7172,10 +7172,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMa001.i"
+                    name='attMa001.i'
                 ),
             ],
-            name="attMa001"
+            name='attMa001'
         ),
         TestGroup(
             annotation=[
@@ -7183,7 +7183,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=unqualified, attributeFormDefault=qualified,attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=unqualified, attributeFormDefault=qualified,attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7191,13 +7191,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMa002.xsd"
+                        href='../msData/attribute/attMa002.xsd'
                     ),
                 ],
                 expected=[
@@ -7209,12 +7209,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMa002"
+                name='attMa002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMa002.xml"
+                        href='../msData/attribute/attMa002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7225,10 +7225,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMa002.i"
+                    name='attMa002.i'
                 ),
             ],
-            name="attMa002"
+            name='attMa002'
         ),
         TestGroup(
             annotation=[
@@ -7236,7 +7236,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=qualified, attributeFormDefault=absentattribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=qualified, attributeFormDefault=absentattribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7244,13 +7244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMa003.xsd"
+                        href='../msData/attribute/attMa003.xsd'
                     ),
                 ],
                 expected=[
@@ -7262,12 +7262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMa003"
+                name='attMa003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMa003.xml"
+                        href='../msData/attribute/attMa003.xml'
                     ),
                     expected=[
                         Expected(
@@ -7278,10 +7278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMa003.v"
+                    name='attMa003.v'
                 ),
             ],
-            name="attMa003"
+            name='attMa003'
         ),
         TestGroup(
             annotation=[
@@ -7289,7 +7289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=unqualified, attributeFormDefault=qualified,attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is schema (ref in complexType and attributeGroup), form=unqualified, attributeFormDefault=qualified,attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7297,13 +7297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMa004.xsd"
+                        href='../msData/attribute/attMa004.xsd'
                     ),
                 ],
                 expected=[
@@ -7315,12 +7315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMa004"
+                name='attMa004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMa004.xml"
+                        href='../msData/attribute/attMa004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7331,10 +7331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMa004.v"
+                    name='attMa004.v'
                 ),
             ],
-            name="attMa004"
+            name='attMa004'
         ),
         TestGroup(
             annotation=[
@@ -7342,7 +7342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7350,13 +7350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb001.xsd"
+                        href='../msData/attribute/attMb001.xsd'
                     ),
                 ],
                 expected=[
@@ -7368,12 +7368,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb001"
+                name='attMb001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb001.xml"
+                        href='../msData/attribute/attMb001.xml'
                     ),
                     expected=[
                         Expected(
@@ -7384,10 +7384,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb001.i"
+                    name='attMb001.i'
                 ),
             ],
-            name="attMb001"
+            name='attMb001'
         ),
         TestGroup(
             annotation=[
@@ -7395,7 +7395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7403,13 +7403,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb002.xsd"
+                        href='../msData/attribute/attMb002.xsd'
                     ),
                 ],
                 expected=[
@@ -7421,12 +7421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb002"
+                name='attMb002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb002.xml"
+                        href='../msData/attribute/attMb002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7437,10 +7437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb002.i"
+                    name='attMb002.i'
                 ),
             ],
-            name="attMb002"
+            name='attMb002'
         ),
         TestGroup(
             annotation=[
@@ -7448,7 +7448,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=qualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=qualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7456,13 +7456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb003.xsd"
+                        href='../msData/attribute/attMb003.xsd'
                     ),
                 ],
                 expected=[
@@ -7474,12 +7474,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb003"
+                name='attMb003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb003.xml"
+                        href='../msData/attribute/attMb003.xml'
                     ),
                     expected=[
                         Expected(
@@ -7490,10 +7490,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb003.i"
+                    name='attMb003.i'
                 ),
             ],
-            name="attMb003"
+            name='attMb003'
         ),
         TestGroup(
             annotation=[
@@ -7501,7 +7501,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7509,13 +7509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb004.xsd"
+                        href='../msData/attribute/attMb004.xsd'
                     ),
                 ],
                 expected=[
@@ -7527,12 +7527,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb004"
+                name='attMb004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb004.xml"
+                        href='../msData/attribute/attMb004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7543,10 +7543,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb004.v"
+                    name='attMb004.v'
                 ),
             ],
-            name="attMb004"
+            name='attMb004'
         ),
         TestGroup(
             annotation=[
@@ -7554,7 +7554,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7562,13 +7562,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb005.xsd"
+                        href='../msData/attribute/attMb005.xsd'
                     ),
                 ],
                 expected=[
@@ -7580,12 +7580,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb005"
+                name='attMb005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb005.xml"
+                        href='../msData/attribute/attMb005.xml'
                     ),
                     expected=[
                         Expected(
@@ -7596,10 +7596,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb005.v"
+                    name='attMb005.v'
                 ),
             ],
-            name="attMb005"
+            name='attMb005'
         ),
         TestGroup(
             annotation=[
@@ -7607,7 +7607,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=qualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7615,13 +7615,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb006.xsd"
+                        href='../msData/attribute/attMb006.xsd'
                     ),
                 ],
                 expected=[
@@ -7633,12 +7633,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb006"
+                name='attMb006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb006.xml"
+                        href='../msData/attribute/attMb006.xml'
                     ),
                     expected=[
                         Expected(
@@ -7649,10 +7649,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb006.v"
+                    name='attMb006.v'
                 ),
             ],
-            name="attMb006"
+            name='attMb006'
         ),
         TestGroup(
             annotation=[
@@ -7660,7 +7660,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7668,13 +7668,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb007.xsd"
+                        href='../msData/attribute/attMb007.xsd'
                     ),
                 ],
                 expected=[
@@ -7686,12 +7686,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb007"
+                name='attMb007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb007.xml"
+                        href='../msData/attribute/attMb007.xml'
                     ),
                     expected=[
                         Expected(
@@ -7702,10 +7702,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb007.v"
+                    name='attMb007.v'
                 ),
             ],
-            name="attMb007"
+            name='attMb007'
         ),
         TestGroup(
             annotation=[
@@ -7713,7 +7713,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7721,13 +7721,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb008.xsd"
+                        href='../msData/attribute/attMb008.xsd'
                     ),
                 ],
                 expected=[
@@ -7739,12 +7739,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb008"
+                name='attMb008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb008.xml"
+                        href='../msData/attribute/attMb008.xml'
                     ),
                     expected=[
                         Expected(
@@ -7755,10 +7755,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb008.v"
+                    name='attMb008.v'
                 ),
             ],
-            name="attMb008"
+            name='attMb008'
         ),
         TestGroup(
             annotation=[
@@ -7766,7 +7766,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=qualified, attribute in xml doc has no prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=qualified, attribute in xml doc has no prefix',
                             ]
                         ),
                     ]
@@ -7774,13 +7774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb009.xsd"
+                        href='../msData/attribute/attMb009.xsd'
                     ),
                 ],
                 expected=[
@@ -7792,12 +7792,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb009"
+                name='attMb009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb009.xml"
+                        href='../msData/attribute/attMb009.xml'
                     ),
                     expected=[
                         Expected(
@@ -7808,10 +7808,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb009.v"
+                    name='attMb009.v'
                 ),
             ],
-            name="attMb009"
+            name='attMb009'
         ),
         TestGroup(
             annotation=[
@@ -7819,7 +7819,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7827,13 +7827,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb010.xsd"
+                        href='../msData/attribute/attMb010.xsd'
                     ),
                 ],
                 expected=[
@@ -7845,12 +7845,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb010"
+                name='attMb010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb010.xml"
+                        href='../msData/attribute/attMb010.xml'
                     ),
                     expected=[
                         Expected(
@@ -7861,10 +7861,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb010.i"
+                    name='attMb010.i'
                 ),
             ],
-            name="attMb010"
+            name='attMb010'
         ),
         TestGroup(
             annotation=[
@@ -7872,7 +7872,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7880,13 +7880,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb011.xsd"
+                        href='../msData/attribute/attMb011.xsd'
                     ),
                 ],
                 expected=[
@@ -7898,12 +7898,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb011"
+                name='attMb011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb011.xml"
+                        href='../msData/attribute/attMb011.xml'
                     ),
                     expected=[
                         Expected(
@@ -7914,10 +7914,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb011.i"
+                    name='attMb011.i'
                 ),
             ],
-            name="attMb011"
+            name='attMb011'
         ),
         TestGroup(
             annotation=[
@@ -7925,7 +7925,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, form=unqualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -7933,13 +7933,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMb012.xsd"
+                        href='../msData/attribute/attMb012.xsd'
                     ),
                 ],
                 expected=[
@@ -7951,12 +7951,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMb012"
+                name='attMb012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMb012.xml"
+                        href='../msData/attribute/attMb012.xml'
                     ),
                     expected=[
                         Expected(
@@ -7967,10 +7967,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMb012.i"
+                    name='attMb012.i'
                 ),
             ],
-            name="attMb012"
+            name='attMb012'
         ),
         TestGroup(
             annotation=[
@@ -7978,7 +7978,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -7986,13 +7986,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc001.xsd"
+                        href='../msData/attribute/attMc001.xsd'
                     ),
                 ],
                 expected=[
@@ -8004,12 +8004,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc001"
+                name='attMc001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc001.xml"
+                        href='../msData/attribute/attMc001.xml'
                     ),
                     expected=[
                         Expected(
@@ -8020,10 +8020,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc001.i"
+                    name='attMc001.i'
                 ),
             ],
-            name="attMc001"
+            name='attMc001'
         ),
         TestGroup(
             annotation=[
@@ -8031,7 +8031,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -8039,13 +8039,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc002.xsd"
+                        href='../msData/attribute/attMc002.xsd'
                     ),
                 ],
                 expected=[
@@ -8057,12 +8057,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc002"
+                name='attMc002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc002.xml"
+                        href='../msData/attribute/attMc002.xml'
                     ),
                     expected=[
                         Expected(
@@ -8073,10 +8073,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc002.i"
+                    name='attMc002.i'
                 ),
             ],
-            name="attMc002"
+            name='attMc002'
         ),
         TestGroup(
             annotation=[
@@ -8084,7 +8084,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=qualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=qualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -8092,13 +8092,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc003.xsd"
+                        href='../msData/attribute/attMc003.xsd'
                     ),
                 ],
                 expected=[
@@ -8110,12 +8110,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc003"
+                name='attMc003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc003.xml"
+                        href='../msData/attribute/attMc003.xml'
                     ),
                     expected=[
                         Expected(
@@ -8126,10 +8126,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc003.i"
+                    name='attMc003.i'
                 ),
             ],
-            name="attMc003"
+            name='attMc003'
         ),
         TestGroup(
             annotation=[
@@ -8137,7 +8137,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -8145,13 +8145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc004.xsd"
+                        href='../msData/attribute/attMc004.xsd'
                     ),
                 ],
                 expected=[
@@ -8163,12 +8163,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc004"
+                name='attMc004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc004.xml"
+                        href='../msData/attribute/attMc004.xml'
                     ),
                     expected=[
                         Expected(
@@ -8179,10 +8179,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc004.v"
+                    name='attMc004.v'
                 ),
             ],
-            name="attMc004"
+            name='attMc004'
         ),
         TestGroup(
             annotation=[
@@ -8190,7 +8190,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -8198,13 +8198,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc005.xsd"
+                        href='../msData/attribute/attMc005.xsd'
                     ),
                 ],
                 expected=[
@@ -8216,12 +8216,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc005"
+                name='attMc005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc005.xml"
+                        href='../msData/attribute/attMc005.xml'
                     ),
                     expected=[
                         Expected(
@@ -8232,10 +8232,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc005.v"
+                    name='attMc005.v'
                 ),
             ],
-            name="attMc005"
+            name='attMc005'
         ),
         TestGroup(
             annotation=[
@@ -8243,7 +8243,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=qualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -8251,13 +8251,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc006.xsd"
+                        href='../msData/attribute/attMc006.xsd'
                     ),
                 ],
                 expected=[
@@ -8269,12 +8269,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc006"
+                name='attMc006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc006.xml"
+                        href='../msData/attribute/attMc006.xml'
                     ),
                     expected=[
                         Expected(
@@ -8285,10 +8285,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc006.v"
+                    name='attMc006.v'
                 ),
             ],
-            name="attMc006"
+            name='attMc006'
         ),
         TestGroup(
             annotation=[
@@ -8296,7 +8296,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=absent, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -8304,13 +8304,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc007.xsd"
+                        href='../msData/attribute/attMc007.xsd'
                     ),
                 ],
                 expected=[
@@ -8322,12 +8322,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc007"
+                name='attMc007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc007.xml"
+                        href='../msData/attribute/attMc007.xml'
                     ),
                     expected=[
                         Expected(
@@ -8338,10 +8338,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc007.v"
+                    name='attMc007.v'
                 ),
             ],
-            name="attMc007"
+            name='attMc007'
         ),
         TestGroup(
             annotation=[
@@ -8349,7 +8349,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=unqualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -8357,13 +8357,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc008.xsd"
+                        href='../msData/attribute/attMc008.xsd'
                     ),
                 ],
                 expected=[
@@ -8375,12 +8375,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc008"
+                name='attMc008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc008.xml"
+                        href='../msData/attribute/attMc008.xml'
                     ),
                     expected=[
                         Expected(
@@ -8391,10 +8391,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc008.v"
+                    name='attMc008.v'
                 ),
             ],
-            name="attMc008"
+            name='attMc008'
         ),
         TestGroup(
             annotation=[
@@ -8402,7 +8402,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=qualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=qualified, attribute in xml doc has no prefix, but the containing element has a default namespace declared',
                             ]
                         ),
                     ]
@@ -8410,13 +8410,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc009.xsd"
+                        href='../msData/attribute/attMc009.xsd'
                     ),
                 ],
                 expected=[
@@ -8428,12 +8428,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc009"
+                name='attMc009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc009.xml"
+                        href='../msData/attribute/attMc009.xml'
                     ),
                     expected=[
                         Expected(
@@ -8444,10 +8444,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc009.v"
+                    name='attMc009.v'
                 ),
             ],
-            name="attMc009"
+            name='attMc009'
         ),
         TestGroup(
             annotation=[
@@ -8455,7 +8455,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=absent, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -8463,13 +8463,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc010.xsd"
+                        href='../msData/attribute/attMc010.xsd'
                     ),
                 ],
                 expected=[
@@ -8481,12 +8481,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc010"
+                name='attMc010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc010.xml"
+                        href='../msData/attribute/attMc010.xml'
                     ),
                     expected=[
                         Expected(
@@ -8497,10 +8497,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc010.i"
+                    name='attMc010.i'
                 ),
             ],
-            name="attMc010"
+            name='attMc010'
         ),
         TestGroup(
             annotation=[
@@ -8508,7 +8508,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=unqualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -8516,13 +8516,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc011.xsd"
+                        href='../msData/attribute/attMc011.xsd'
                     ),
                 ],
                 expected=[
@@ -8534,12 +8534,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc011"
+                name='attMc011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc011.xml"
+                        href='../msData/attribute/attMc011.xml'
                     ),
                     expected=[
                         Expected(
@@ -8550,10 +8550,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc011.i"
+                    name='attMc011.i'
                 ),
             ],
-            name="attMc011"
+            name='attMc011'
         ),
         TestGroup(
             annotation=[
@@ -8561,7 +8561,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is attributeGroup,form=unqualified, attributeFormDefault=qualified, attribute in xml doc is qualified with prefix',
                             ]
                         ),
                     ]
@@ -8569,13 +8569,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attMc012.xsd"
+                        href='../msData/attribute/attMc012.xsd'
                     ),
                 ],
                 expected=[
@@ -8587,12 +8587,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attMc012"
+                name='attMc012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attMc012.xml"
+                        href='../msData/attribute/attMc012.xml'
                     ),
                     expected=[
                         Expected(
@@ -8603,10 +8603,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMc012.i"
+                    name='attMc012.i'
                 ),
             ],
-            name="attMc012"
+            name='attMc012'
         ),
         TestGroup(
             annotation=[
@@ -8614,7 +8614,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8622,13 +8622,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_1.xml"
+                        href='../msData/attribute/test108565_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8639,10 +8639,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd001.i"
+                    name='attMd001.i'
                 ),
             ],
-            name="attMd001"
+            name='attMd001'
         ),
         TestGroup(
             annotation=[
@@ -8650,7 +8650,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8658,13 +8658,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_2.xml"
+                        href='../msData/attribute/test108565_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -8675,10 +8675,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd002.i"
+                    name='attMd002.i'
                 ),
             ],
-            name="attMd002"
+            name='attMd002'
         ),
         TestGroup(
             annotation=[
@@ -8686,7 +8686,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8694,13 +8694,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_3.xml"
+                        href='../msData/attribute/test108565_3.xml'
                     ),
                     expected=[
                         Expected(
@@ -8711,10 +8711,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd003.i"
+                    name='attMd003.i'
                 ),
             ],
-            name="attMd003"
+            name='attMd003'
         ),
         TestGroup(
             annotation=[
@@ -8722,7 +8722,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8730,13 +8730,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_4.xml"
+                        href='../msData/attribute/test108565_4.xml'
                     ),
                     expected=[
                         Expected(
@@ -8747,10 +8747,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd004.i"
+                    name='attMd004.i'
                 ),
             ],
-            name="attMd004"
+            name='attMd004'
         ),
         TestGroup(
             annotation=[
@@ -8758,7 +8758,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8766,13 +8766,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_5.xml"
+                        href='../msData/attribute/test108565_5.xml'
                     ),
                     expected=[
                         Expected(
@@ -8783,10 +8783,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd005.i"
+                    name='attMd005.i'
                 ),
             ],
-            name="attMd005"
+            name='attMd005'
         ),
         TestGroup(
             annotation=[
@@ -8794,7 +8794,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8802,13 +8802,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_6.xml"
+                        href='../msData/attribute/test108565_6.xml'
                     ),
                     expected=[
                         Expected(
@@ -8819,10 +8819,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd006.i"
+                    name='attMd006.i'
                 ),
             ],
-            name="attMd006"
+            name='attMd006'
         ),
         TestGroup(
             annotation=[
@@ -8830,7 +8830,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8838,13 +8838,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_7.xml"
+                        href='../msData/attribute/test108565_7.xml'
                     ),
                     expected=[
                         Expected(
@@ -8855,10 +8855,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd007.i"
+                    name='attMd007.i'
                 ),
             ],
-            name="attMd007"
+            name='attMd007'
         ),
         TestGroup(
             annotation=[
@@ -8866,7 +8866,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8874,13 +8874,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_8.xml"
+                        href='../msData/attribute/test108565_8.xml'
                     ),
                     expected=[
                         Expected(
@@ -8891,10 +8891,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd008.i"
+                    name='attMd008.i'
                 ),
             ],
-            name="attMd008"
+            name='attMd008'
         ),
         TestGroup(
             annotation=[
@@ -8902,7 +8902,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8910,13 +8910,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_9.xml"
+                        href='../msData/attribute/test108565_9.xml'
                     ),
                     expected=[
                         Expected(
@@ -8927,10 +8927,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd009.i"
+                    name='attMd009.i'
                 ),
             ],
-            name="attMd009"
+            name='attMd009'
         ),
         TestGroup(
             annotation=[
@@ -8938,7 +8938,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8946,13 +8946,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_10.xml"
+                        href='../msData/attribute/test108565_10.xml'
                     ),
                     expected=[
                         Expected(
@@ -8963,10 +8963,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd010.i"
+                    name='attMd010.i'
                 ),
             ],
-            name="attMd010"
+            name='attMd010'
         ),
         TestGroup(
             annotation=[
@@ -8974,7 +8974,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attributes from xsi ( xml schema instance ) namespace should be validated',
                             ]
                         ),
                     ]
@@ -8982,13 +8982,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/test108565_11.xml"
+                        href='../msData/attribute/test108565_11.xml'
                     ),
                     expected=[
                         Expected(
@@ -8999,10 +8999,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attMd011.i"
+                    name='attMd011.i'
                 ),
             ],
-            name="attMd011"
+            name='attMd011'
         ),
         TestGroup(
             annotation=[
@@ -9010,7 +9010,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\attribute decl within attribute decl",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attribute\\attribute decl within attribute decl',
                             ]
                         ),
                     ]
@@ -9018,13 +9018,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP001.xsd"
+                        href='../msData/attribute/attP001.xsd'
                     ),
                 ],
                 expected=[
@@ -9036,9 +9036,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP001"
+                name='attP001'
             ),
-            name="attP001"
+            name='attP001'
         ),
         TestGroup(
             annotation=[
@@ -9046,7 +9046,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : element decl within attribute decl",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : element decl within attribute decl',
                             ]
                         ),
                     ]
@@ -9054,13 +9054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP002.xsd"
+                        href='../msData/attribute/attP002.xsd'
                     ),
                 ],
                 expected=[
@@ -9072,9 +9072,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP002"
+                name='attP002'
             ),
-            name="attP002"
+            name='attP002'
         ),
         TestGroup(
             annotation=[
@@ -9090,13 +9090,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP003.xsd"
+                        href='../msData/attribute/attP003.xsd'
                     ),
                 ],
                 expected=[
@@ -9108,9 +9108,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP003"
+                name='attP003'
             ),
-            name="attP003"
+            name='attP003'
         ),
         TestGroup(
             annotation=[
@@ -9126,13 +9126,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP004.xsd"
+                        href='../msData/attribute/attP004.xsd'
                     ),
                 ],
                 expected=[
@@ -9144,12 +9144,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP004"
+                name='attP004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP004.xml"
+                        href='../msData/attribute/attP004.xml'
                     ),
                     expected=[
                         Expected(
@@ -9160,10 +9160,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP004.v"
+                    name='attP004.v'
                 ),
             ],
-            name="attP004"
+            name='attP004'
         ),
         TestGroup(
             annotation=[
@@ -9179,13 +9179,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP005.xsd"
+                        href='../msData/attribute/attP005.xsd'
                     ),
                 ],
                 expected=[
@@ -9197,12 +9197,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP005"
+                name='attP005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP005.xml"
+                        href='../msData/attribute/attP005.xml'
                     ),
                     expected=[
                         Expected(
@@ -9213,10 +9213,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP005.i"
+                    name='attP005.i'
                 ),
             ],
-            name="attP005"
+            name='attP005'
         ),
         TestGroup(
             annotation=[
@@ -9232,13 +9232,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP006.xsd"
+                        href='../msData/attribute/attP006.xsd'
                     ),
                 ],
                 expected=[
@@ -9250,9 +9250,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP006"
+                name='attP006'
             ),
-            name="attP006"
+            name='attP006'
         ),
         TestGroup(
             annotation=[
@@ -9260,7 +9260,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : use=required, fixed and default are absent (must appear, value can be anything), instant xml value=36",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : use=required, fixed and default are absent (must appear, value can be anything), instant xml value=36',
                             ]
                         ),
                     ]
@@ -9268,13 +9268,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP007.xsd"
+                        href='../msData/attribute/attP007.xsd'
                     ),
                 ],
                 expected=[
@@ -9286,12 +9286,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP007"
+                name='attP007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP007.xml"
+                        href='../msData/attribute/attP007.xml'
                     ),
                     expected=[
                         Expected(
@@ -9302,10 +9302,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP007.v"
+                    name='attP007.v'
                 ),
             ],
-            name="attP007"
+            name='attP007'
         ),
         TestGroup(
             annotation=[
@@ -9313,7 +9313,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : use=required, fixed and default are absent (must appear, value can be anything), instant xml attribute absent",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : use=required, fixed and default are absent (must appear, value can be anything), instant xml attribute absent',
                             ]
                         ),
                     ]
@@ -9321,13 +9321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP008.xsd"
+                        href='../msData/attribute/attP008.xsd'
                     ),
                 ],
                 expected=[
@@ -9339,12 +9339,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP008"
+                name='attP008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP008.xml"
+                        href='../msData/attribute/attP008.xml'
                     ),
                     expected=[
                         Expected(
@@ -9355,10 +9355,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP008.i"
+                    name='attP008.i'
                 ),
             ],
-            name="attP008"
+            name='attP008'
         ),
         TestGroup(
             annotation=[
@@ -9374,13 +9374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP009.xsd"
+                        href='../msData/attribute/attP009.xsd'
                     ),
                 ],
                 expected=[
@@ -9392,12 +9392,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP009"
+                name='attP009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP009.xml"
+                        href='../msData/attribute/attP009.xml'
                     ),
                     expected=[
                         Expected(
@@ -9408,10 +9408,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP009.i"
+                    name='attP009.i'
                 ),
             ],
-            name="attP009"
+            name='attP009'
         ),
         TestGroup(
             annotation=[
@@ -9427,13 +9427,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP010.xsd"
+                        href='../msData/attribute/attP010.xsd'
                     ),
                 ],
                 expected=[
@@ -9445,12 +9445,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP010"
+                name='attP010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP010.xml"
+                        href='../msData/attribute/attP010.xml'
                     ),
                     expected=[
                         Expected(
@@ -9461,10 +9461,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP010.i"
+                    name='attP010.i'
                 ),
             ],
-            name="attP010"
+            name='attP010'
         ),
         TestGroup(
             annotation=[
@@ -9480,13 +9480,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP011.xsd"
+                        href='../msData/attribute/attP011.xsd'
                     ),
                 ],
                 expected=[
@@ -9498,12 +9498,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP011"
+                name='attP011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP011.xml"
+                        href='../msData/attribute/attP011.xml'
                     ),
                     expected=[
                         Expected(
@@ -9514,10 +9514,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP011.v"
+                    name='attP011.v'
                 ),
             ],
-            name="attP011"
+            name='attP011'
         ),
         TestGroup(
             annotation=[
@@ -9533,13 +9533,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP012.xsd"
+                        href='../msData/attribute/attP012.xsd'
                     ),
                 ],
                 expected=[
@@ -9551,12 +9551,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP012"
+                name='attP012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP012.xml"
+                        href='../msData/attribute/attP012.xml'
                     ),
                     expected=[
                         Expected(
@@ -9567,10 +9567,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP012.i"
+                    name='attP012.i'
                 ),
             ],
-            name="attP012"
+            name='attP012'
         ),
         TestGroup(
             annotation=[
@@ -9586,13 +9586,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP013.xsd"
+                        href='../msData/attribute/attP013.xsd'
                     ),
                 ],
                 expected=[
@@ -9604,12 +9604,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP013"
+                name='attP013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP013.xml"
+                        href='../msData/attribute/attP013.xml'
                     ),
                     expected=[
                         Expected(
@@ -9620,10 +9620,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP013.v"
+                    name='attP013.v'
                 ),
             ],
-            name="attP013"
+            name='attP013'
         ),
         TestGroup(
             annotation=[
@@ -9639,13 +9639,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP014.xsd"
+                        href='../msData/attribute/attP014.xsd'
                     ),
                 ],
                 expected=[
@@ -9657,12 +9657,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP014"
+                name='attP014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP014.xml"
+                        href='../msData/attribute/attP014.xml'
                     ),
                     expected=[
                         Expected(
@@ -9673,10 +9673,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP014.i"
+                    name='attP014.i'
                 ),
             ],
-            name="attP014"
+            name='attP014'
         ),
         TestGroup(
             annotation=[
@@ -9692,13 +9692,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP015.xsd"
+                        href='../msData/attribute/attP015.xsd'
                     ),
                 ],
                 expected=[
@@ -9710,12 +9710,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP015"
+                name='attP015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP015.xml"
+                        href='../msData/attribute/attP015.xml'
                     ),
                     expected=[
                         Expected(
@@ -9726,10 +9726,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP015.v"
+                    name='attP015.v'
                 ),
             ],
-            name="attP015"
+            name='attP015'
         ),
         TestGroup(
             annotation=[
@@ -9745,13 +9745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP016.xsd"
+                        href='../msData/attribute/attP016.xsd'
                     ),
                 ],
                 expected=[
@@ -9763,12 +9763,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP016"
+                name='attP016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP016.xml"
+                        href='../msData/attribute/attP016.xml'
                     ),
                     expected=[
                         Expected(
@@ -9779,10 +9779,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP016.i"
+                    name='attP016.i'
                 ),
             ],
-            name="attP016"
+            name='attP016'
         ),
         TestGroup(
             annotation=[
@@ -9798,13 +9798,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP017.xsd"
+                        href='../msData/attribute/attP017.xsd'
                     ),
                 ],
                 expected=[
@@ -9816,12 +9816,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP017"
+                name='attP017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP017.xml"
+                        href='../msData/attribute/attP017.xml'
                     ),
                     expected=[
                         Expected(
@@ -9832,10 +9832,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP017.v"
+                    name='attP017.v'
                 ),
             ],
-            name="attP017"
+            name='attP017'
         ),
         TestGroup(
             annotation=[
@@ -9851,13 +9851,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP018.xsd"
+                        href='../msData/attribute/attP018.xsd'
                     ),
                 ],
                 expected=[
@@ -9869,12 +9869,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP018"
+                name='attP018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP018.xml"
+                        href='../msData/attribute/attP018.xml'
                     ),
                     expected=[
                         Expected(
@@ -9885,10 +9885,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP018.i"
+                    name='attP018.i'
                 ),
             ],
-            name="attP018"
+            name='attP018'
         ),
         TestGroup(
             annotation=[
@@ -9904,13 +9904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP019.xsd"
+                        href='../msData/attribute/attP019.xsd'
                     ),
                 ],
                 expected=[
@@ -9922,12 +9922,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP019"
+                name='attP019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP019.xml"
+                        href='../msData/attribute/attP019.xml'
                     ),
                     expected=[
                         Expected(
@@ -9938,10 +9938,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP019.v"
+                    name='attP019.v'
                 ),
             ],
-            name="attP019"
+            name='attP019'
         ),
         TestGroup(
             annotation=[
@@ -9957,13 +9957,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP020.xsd"
+                        href='../msData/attribute/attP020.xsd'
                     ),
                 ],
                 expected=[
@@ -9975,12 +9975,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP020"
+                name='attP020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP020.xml"
+                        href='../msData/attribute/attP020.xml'
                     ),
                     expected=[
                         Expected(
@@ -9991,10 +9991,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP020.i"
+                    name='attP020.i'
                 ),
             ],
-            name="attP020"
+            name='attP020'
         ),
         TestGroup(
             annotation=[
@@ -10010,13 +10010,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP021.xsd"
+                        href='../msData/attribute/attP021.xsd'
                     ),
                 ],
                 expected=[
@@ -10028,12 +10028,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP021"
+                name='attP021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP021.xml"
+                        href='../msData/attribute/attP021.xml'
                     ),
                     expected=[
                         Expected(
@@ -10044,10 +10044,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP021.v"
+                    name='attP021.v'
                 ),
             ],
-            name="attP021"
+            name='attP021'
         ),
         TestGroup(
             annotation=[
@@ -10063,13 +10063,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP022.xsd"
+                        href='../msData/attribute/attP022.xsd'
                     ),
                 ],
                 expected=[
@@ -10081,12 +10081,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP022"
+                name='attP022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP022.xml"
+                        href='../msData/attribute/attP022.xml'
                     ),
                     expected=[
                         Expected(
@@ -10097,10 +10097,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP022.v"
+                    name='attP022.v'
                 ),
             ],
-            name="attP022"
+            name='attP022'
         ),
         TestGroup(
             annotation=[
@@ -10116,13 +10116,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP023.xsd"
+                        href='../msData/attribute/attP023.xsd'
                     ),
                 ],
                 expected=[
@@ -10134,12 +10134,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP023"
+                name='attP023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP023.xml"
+                        href='../msData/attribute/attP023.xml'
                     ),
                     expected=[
                         Expected(
@@ -10150,10 +10150,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP023.v"
+                    name='attP023.v'
                 ),
             ],
-            name="attP023"
+            name='attP023'
         ),
         TestGroup(
             annotation=[
@@ -10169,13 +10169,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP024.xsd"
+                        href='../msData/attribute/attP024.xsd'
                     ),
                 ],
                 expected=[
@@ -10187,12 +10187,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP024"
+                name='attP024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP024.xml"
+                        href='../msData/attribute/attP024.xml'
                     ),
                     expected=[
                         Expected(
@@ -10203,10 +10203,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP024.v"
+                    name='attP024.v'
                 ),
             ],
-            name="attP024"
+            name='attP024'
         ),
         TestGroup(
             annotation=[
@@ -10222,13 +10222,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP025.xsd"
+                        href='../msData/attribute/attP025.xsd'
                     ),
                 ],
                 expected=[
@@ -10240,12 +10240,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP025"
+                name='attP025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP025.xml"
+                        href='../msData/attribute/attP025.xml'
                     ),
                     expected=[
                         Expected(
@@ -10256,10 +10256,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP025.v"
+                    name='attP025.v'
                 ),
             ],
-            name="attP025"
+            name='attP025'
         ),
         TestGroup(
             annotation=[
@@ -10275,13 +10275,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP026.xsd"
+                        href='../msData/attribute/attP026.xsd'
                     ),
                 ],
                 expected=[
@@ -10293,12 +10293,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP026"
+                name='attP026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP026.xml"
+                        href='../msData/attribute/attP026.xml'
                     ),
                     expected=[
                         Expected(
@@ -10309,10 +10309,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP026.v"
+                    name='attP026.v'
                 ),
             ],
-            name="attP026"
+            name='attP026'
         ),
         TestGroup(
             annotation=[
@@ -10320,7 +10320,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : name='foo' use=optional, default=&quot;37&quot; (may appear once, may have any value) name='foo1', instant xml value=38",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : name=\'foo\' use=optional, default="37" (may appear once, may have any value) name=\'foo1\', instant xml value=38',
                             ]
                         ),
                     ]
@@ -10328,13 +10328,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP027.xsd"
+                        href='../msData/attribute/attP027.xsd'
                     ),
                 ],
                 expected=[
@@ -10346,12 +10346,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP027"
+                name='attP027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP027.xml"
+                        href='../msData/attribute/attP027.xml'
                     ),
                     expected=[
                         Expected(
@@ -10362,10 +10362,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP027.i"
+                    name='attP027.i'
                 ),
             ],
-            name="attP027"
+            name='attP027'
         ),
         TestGroup(
             annotation=[
@@ -10381,13 +10381,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP028.xsd"
+                        href='../msData/attribute/attP028.xsd'
                     ),
                 ],
                 expected=[
@@ -10399,12 +10399,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP028"
+                name='attP028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP028.xml"
+                        href='../msData/attribute/attP028.xml'
                     ),
                     expected=[
                         Expected(
@@ -10415,10 +10415,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP028.v"
+                    name='attP028.v'
                 ),
             ],
-            name="attP028"
+            name='attP028'
         ),
         TestGroup(
             annotation=[
@@ -10431,7 +10431,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "use=prohibited, fixed=X is not allowed in XSD 1.1. See bug 14245",
+                                'use=prohibited, fixed=X is not allowed in XSD 1.1. See bug 14245',
                             ]
                         ),
                     ]
@@ -10439,13 +10439,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP029.xsd"
+                        href='../msData/attribute/attP029.xsd'
                     ),
                 ],
                 expected=[
@@ -10472,12 +10472,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attP029"
+                name='attP029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP029.xml"
+                        href='../msData/attribute/attP029.xml'
                     ),
                     expected=[
                         Expected(
@@ -10497,10 +10497,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="attP029.v"
+                    name='attP029.v'
                 ),
             ],
-            name="attP029"
+            name='attP029'
         ),
         TestGroup(
             annotation=[
@@ -10513,7 +10513,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "use=prohibited, fixed=X is not allowed in XSD 1.1. See bug 14245",
+                                'use=prohibited, fixed=X is not allowed in XSD 1.1. See bug 14245',
                             ]
                         ),
                     ]
@@ -10521,13 +10521,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP030.xsd"
+                        href='../msData/attribute/attP030.xsd'
                     ),
                 ],
                 expected=[
@@ -10539,9 +10539,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP030"
+                name='attP030'
             ),
-            name="attP030"
+            name='attP030'
         ),
         TestGroup(
             annotation=[
@@ -10557,13 +10557,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP031.xsd"
+                        href='../msData/attribute/attP031.xsd'
                     ),
                 ],
                 expected=[
@@ -10590,12 +10590,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attP031"
+                name='attP031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP031.xml"
+                        href='../msData/attribute/attP031.xml'
                     ),
                     expected=[
                         Expected(
@@ -10615,10 +10615,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="attP031.i"
+                    name='attP031.i'
                 ),
             ],
-            name="attP031"
+            name='attP031'
         ),
         TestGroup(
             annotation=[
@@ -10626,7 +10626,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Test that attributes from imported schema (global, attribute Group, complexTyped and simpleTyped) are recognized",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Test that attributes from imported schema (global, attribute Group, complexTyped and simpleTyped) are recognized',
                             ]
                         ),
                     ]
@@ -10634,13 +10634,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attP032.xsd"
+                        href='../msData/attribute/attP032.xsd'
                     ),
                 ],
                 expected=[
@@ -10652,12 +10652,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attP032"
+                name='attP032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attP032.xml"
+                        href='../msData/attribute/attP032.xml'
                     ),
                     expected=[
                         Expected(
@@ -10668,10 +10668,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attP032.v"
+                    name='attP032.v'
                 ),
             ],
-            name="attP032"
+            name='attP032'
         ),
         TestGroup(
             annotation=[
@@ -10679,7 +10679,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, Attr Decl before simpleContent",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, Attr Decl before simpleContent',
                             ]
                         ),
                     ]
@@ -10687,13 +10687,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ001.xsd"
+                        href='../msData/attribute/attQ001.xsd'
                     ),
                 ],
                 expected=[
@@ -10705,9 +10705,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ001"
+                name='attQ001'
             ),
-            name="attQ001"
+            name='attQ001'
         ),
         TestGroup(
             annotation=[
@@ -10715,7 +10715,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, Attr Decl before complexContent",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, Attr Decl before complexContent',
                             ]
                         ),
                     ]
@@ -10723,13 +10723,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ002.xsd"
+                        href='../msData/attribute/attQ002.xsd'
                     ),
                 ],
                 expected=[
@@ -10741,9 +10741,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ002"
+                name='attQ002'
             ),
-            name="attQ002"
+            name='attQ002'
         ),
         TestGroup(
             annotation=[
@@ -10751,7 +10751,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, Attr Decl, followed by Attr Group, follow by Attr",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : parent is complexType, Attr Decl, followed by Attr Group, follow by Attr',
                             ]
                         ),
                     ]
@@ -10759,13 +10759,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ003.xsd"
+                        href='../msData/attribute/attQ003.xsd'
                     ),
                 ],
                 expected=[
@@ -10777,12 +10777,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ003"
+                name='attQ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attQ003.xml"
+                        href='../msData/attribute/attQ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -10793,10 +10793,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attQ003.v"
+                    name='attQ003.v'
                 ),
             ],
-            name="attQ003"
+            name='attQ003'
         ),
         TestGroup(
             annotation=[
@@ -10804,7 +10804,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attr Decl before annotation",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attr Decl before annotation',
                             ]
                         ),
                     ]
@@ -10812,13 +10812,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ004.xsd"
+                        href='../msData/attribute/attQ004.xsd'
                     ),
                 ],
                 expected=[
@@ -10830,9 +10830,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ004"
+                name='attQ004'
             ),
-            name="attQ004"
+            name='attQ004'
         ),
         TestGroup(
             annotation=[
@@ -10840,7 +10840,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Parent is schema, and name is absent",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Parent is schema, and name is absent',
                             ]
                         ),
                     ]
@@ -10848,13 +10848,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ005.xsd"
+                        href='../msData/attribute/attQ005.xsd'
                     ),
                 ],
                 expected=[
@@ -10866,9 +10866,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ005"
+                name='attQ005'
             ),
-            name="attQ005"
+            name='attQ005'
         ),
         TestGroup(
             annotation=[
@@ -10876,7 +10876,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\attribute decl with child of node other than notation and simpleType, child=complexType",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attribute\\attribute decl with child of node other than notation and simpleType, child=complexType',
                             ]
                         ),
                     ]
@@ -10884,13 +10884,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ006.xsd"
+                        href='../msData/attribute/attQ006.xsd'
                     ),
                 ],
                 expected=[
@@ -10902,9 +10902,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ006"
+                name='attQ006'
             ),
-            name="attQ006"
+            name='attQ006'
         ),
         TestGroup(
             annotation=[
@@ -10912,7 +10912,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one follow the other in global",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one follow the other in global',
                             ]
                         ),
                     ]
@@ -10920,13 +10920,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ007.xsd"
+                        href='../msData/attribute/attQ007.xsd'
                     ),
                 ],
                 expected=[
@@ -10938,9 +10938,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ007"
+                name='attQ007'
             ),
-            name="attQ007"
+            name='attQ007'
         ),
         TestGroup(
             annotation=[
@@ -10948,7 +10948,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one inside attribute Group and other is a reference to global attribute",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one inside attribute Group and other is a reference to global attribute',
                             ]
                         ),
                     ]
@@ -10956,13 +10956,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ008.xsd"
+                        href='../msData/attribute/attQ008.xsd'
                     ),
                 ],
                 expected=[
@@ -10974,9 +10974,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ008"
+                name='attQ008'
             ),
-            name="attQ008"
+            name='attQ008'
         ),
         TestGroup(
             annotation=[
@@ -10984,7 +10984,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from local one from referenced attribute Group",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from local one from referenced attribute Group',
                             ]
                         ),
                     ]
@@ -10992,13 +10992,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ009.xsd"
+                        href='../msData/attribute/attQ009.xsd'
                     ),
                 ],
                 expected=[
@@ -11010,9 +11010,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ009"
+                name='attQ009'
             ),
-            name="attQ009"
+            name='attQ009'
         ),
         TestGroup(
             annotation=[
@@ -11020,7 +11020,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from global, one from from imported XSD with different namespace",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from global, one from from imported XSD with different namespace',
                             ]
                         ),
                     ]
@@ -11028,13 +11028,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ010.xsd"
+                        href='../msData/attribute/attQ010.xsd'
                     ),
                 ],
                 expected=[
@@ -11046,9 +11046,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ010"
+                name='attQ010'
             ),
-            name="attQ010"
+            name='attQ010'
         ),
         TestGroup(
             annotation=[
@@ -11056,7 +11056,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from global, one from from redefine XSD with same namespace",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from global, one from from redefine XSD with same namespace',
                             ]
                         ),
                     ]
@@ -11064,13 +11064,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ011.xsd"
+                        href='../msData/attribute/attQ011.xsd'
                     ),
                 ],
                 expected=[
@@ -11082,9 +11082,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ011"
+                name='attQ011'
             ),
-            name="attQ011"
+            name='attQ011'
         ),
         TestGroup(
             annotation=[
@@ -11092,7 +11092,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from global, one from included XSD",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, one from global, one from included XSD',
                             ]
                         ),
                     ]
@@ -11100,13 +11100,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ012.xsd"
+                        href='../msData/attribute/attQ012.xsd'
                     ),
                 ],
                 expected=[
@@ -11118,9 +11118,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ012"
+                name='attQ012'
             ),
-            name="attQ012"
+            name='attQ012'
         ),
         TestGroup(
             annotation=[
@@ -11128,7 +11128,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, reference from different attributeGroup",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with the same name, reference from different attributeGroup',
                             ]
                         ),
                     ]
@@ -11136,13 +11136,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ013.xsd"
+                        href='../msData/attribute/attQ013.xsd'
                     ),
                 ],
                 expected=[
@@ -11154,9 +11154,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ013"
+                name='attQ013'
             ),
-            name="attQ013"
+            name='attQ013'
         ),
         TestGroup(
             annotation=[
@@ -11164,7 +11164,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Attribute\attribute decl under extension element",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Attribute\\attribute decl under extension element',
                             ]
                         ),
                     ]
@@ -11172,13 +11172,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ014.xsd"
+                        href='../msData/attribute/attQ014.xsd'
                     ),
                 ],
                 expected=[
@@ -11190,12 +11190,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ014"
+                name='attQ014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attQ014.xml"
+                        href='../msData/attribute/attQ014.xml'
                     ),
                     expected=[
                         Expected(
@@ -11206,10 +11206,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attQ014.v"
+                    name='attQ014.v'
                 ),
             ],
-            name="attQ014"
+            name='attQ014'
         ),
         TestGroup(
             annotation=[
@@ -11217,7 +11217,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one under attribute group and, one in element.",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one under attribute group and, one in element.',
                             ]
                         ),
                     ]
@@ -11225,13 +11225,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ015.xsd"
+                        href='../msData/attribute/attQ015.xsd'
                     ),
                 ],
                 expected=[
@@ -11243,9 +11243,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ015"
+                name='attQ015'
             ),
-            name="attQ015"
+            name='attQ015'
         ),
         TestGroup(
             annotation=[
@@ -11253,7 +11253,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one under attribute group and, one from imported xsd",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one under attribute group and, one from imported xsd',
                             ]
                         ),
                     ]
@@ -11261,13 +11261,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ016.xsd"
+                        href='../msData/attribute/attQ016.xsd'
                     ),
                 ],
                 expected=[
@@ -11279,9 +11279,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ016"
+                name='attQ016'
             ),
-            name="attQ016"
+            name='attQ016'
         ),
         TestGroup(
             annotation=[
@@ -11289,7 +11289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one in complex type and, one redefine",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one in complex type and, one redefine',
                             ]
                         ),
                     ]
@@ -11297,13 +11297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ017.xsd"
+                        href='../msData/attribute/attQ017.xsd'
                     ),
                 ],
                 expected=[
@@ -11315,9 +11315,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ017"
+                name='attQ017'
             ),
-            name="attQ017"
+            name='attQ017'
         ),
         TestGroup(
             annotation=[
@@ -11325,7 +11325,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one in element and one from included",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute decl with same id, one in element and one from included',
                             ]
                         ),
                     ]
@@ -11333,13 +11333,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ018.xsd"
+                        href='../msData/attribute/attQ018.xsd'
                     ),
                 ],
                 expected=[
@@ -11351,9 +11351,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ018"
+                name='attQ018'
             ),
-            name="attQ018"
+            name='attQ018'
         ),
         TestGroup(
             annotation=[
@@ -11361,7 +11361,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : two attribute, same loca name, from different namespace on same element",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : two attribute, same loca name, from different namespace on same element',
                             ]
                         ),
                     ]
@@ -11369,13 +11369,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attQ019.xsd"
+                        href='../msData/attribute/attQ019.xsd'
                     ),
                 ],
                 expected=[
@@ -11387,12 +11387,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attQ019"
+                name='attQ019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attQ019.xml"
+                        href='../msData/attribute/attQ019.xml'
                     ),
                     expected=[
                         Expected(
@@ -11403,10 +11403,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attQ019.v"
+                    name='attQ019.v'
                 ),
             ],
-            name="attQ019"
+            name='attQ019'
         ),
         TestGroup(
             annotation=[
@@ -11414,7 +11414,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : Redefine and restriction of attribute",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : Redefine and restriction of attribute',
                             ]
                         ),
                     ]
@@ -11422,13 +11422,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ001.xsd"
+                        href='../msData/attribute/attZ001.xsd'
                     ),
                 ],
                 expected=[
@@ -11440,12 +11440,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ001"
+                name='attZ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ001.xml"
+                        href='../msData/attribute/attZ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -11456,10 +11456,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ001.i"
+                    name='attZ001.i'
                 ),
             ],
-            name="attZ001"
+            name='attZ001'
         ),
         TestGroup(
             annotation=[
@@ -11467,7 +11467,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : prohibited attribute",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : prohibited attribute',
                             ]
                         ),
                     ]
@@ -11475,13 +11475,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ002.xsd"
+                        href='../msData/attribute/attZ002.xsd'
                     ),
                 ],
                 expected=[
@@ -11493,12 +11493,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ002"
+                name='attZ002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ002.xml"
+                        href='../msData/attribute/attZ002.xml'
                     ),
                     expected=[
                         Expected(
@@ -11509,10 +11509,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ002.v"
+                    name='attZ002.v'
                 ),
             ],
-            name="attZ002"
+            name='attZ002'
         ),
         TestGroup(
             annotation=[
@@ -11520,7 +11520,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: attribute with default value, that references a global attribute with invalid default value",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: attribute with default value, that references a global attribute with invalid default value',
                             ]
                         ),
                     ]
@@ -11528,13 +11528,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ004.xsd"
+                        href='../msData/attribute/attZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -11546,9 +11546,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ004"
+                name='attZ004'
             ),
-            name="attZ004"
+            name='attZ004'
         ),
         TestGroup(
             annotation=[
@@ -11556,7 +11556,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: default value of attribute",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: default value of attribute',
                             ]
                         ),
                     ]
@@ -11564,13 +11564,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ005.xsd"
+                        href='../msData/attribute/attZ005.xsd'
                     ),
                 ],
                 expected=[
@@ -11582,12 +11582,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ005"
+                name='attZ005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ005.xml"
+                        href='../msData/attribute/attZ005.xml'
                     ),
                     expected=[
                         Expected(
@@ -11598,10 +11598,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ005.v"
+                    name='attZ005.v'
                 ),
             ],
-            name="attZ005"
+            name='attZ005'
         ),
         TestGroup(
             annotation=[
@@ -11609,7 +11609,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD:Base complex type with attribute use=required should not have derived type with attribute use=optional",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD:Base complex type with attribute use=required should not have derived type with attribute use=optional',
                             ]
                         ),
                     ]
@@ -11617,13 +11617,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ006.xsd"
+                        href='../msData/attribute/attZ006.xsd'
                     ),
                 ],
                 expected=[
@@ -11635,9 +11635,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ006"
+                name='attZ006'
             ),
-            name="attZ006"
+            name='attZ006'
         ),
         TestGroup(
             annotation=[
@@ -11645,7 +11645,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: insertion of prohibited attribute in a derived type",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: insertion of prohibited attribute in a derived type',
                             ]
                         ),
                     ]
@@ -11653,13 +11653,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ007.xsd"
+                        href='../msData/attribute/attZ007.xsd'
                     ),
                 ],
                 expected=[
@@ -11671,12 +11671,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ007v"
+                name='attZ007v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ007v.xml"
+                        href='../msData/attribute/attZ007v.xml'
                     ),
                     expected=[
                         Expected(
@@ -11687,10 +11687,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ007v.v"
+                    name='attZ007v.v'
                 ),
             ],
-            name="attZ007v"
+            name='attZ007v'
         ),
         TestGroup(
             annotation=[
@@ -11698,7 +11698,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: insertion of prohibited attribute in a derived type",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: insertion of prohibited attribute in a derived type',
                             ]
                         ),
                     ]
@@ -11706,13 +11706,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ007.xsd"
+                        href='../msData/attribute/attZ007.xsd'
                     ),
                 ],
                 expected=[
@@ -11724,12 +11724,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ007i"
+                name='attZ007i'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ007i.xml"
+                        href='../msData/attribute/attZ007i.xml'
                     ),
                     expected=[
                         Expected(
@@ -11740,10 +11740,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ007i.i"
+                    name='attZ007i.i'
                 ),
             ],
-            name="attZ007i"
+            name='attZ007i'
         ),
         TestGroup(
             annotation=[
@@ -11751,7 +11751,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type',
                             ]
                         ),
                     ]
@@ -11759,13 +11759,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_a.xsd"
+                        href='../msData/attribute/attZ008_a.xsd'
                     ),
                 ],
                 expected=[
@@ -11777,9 +11777,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_a"
+                name='attZ008_a'
             ),
-            name="attZ008_a"
+            name='attZ008_a'
         ),
         TestGroup(
             annotation=[
@@ -11787,7 +11787,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(2)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(2)',
                             ]
                         ),
                     ]
@@ -11795,13 +11795,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_b.xsd"
+                        href='../msData/attribute/attZ008_b.xsd'
                     ),
                 ],
                 expected=[
@@ -11813,9 +11813,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_b"
+                name='attZ008_b'
             ),
-            name="attZ008_b"
+            name='attZ008_b'
         ),
         TestGroup(
             annotation=[
@@ -11823,7 +11823,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(3)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(3)',
                             ]
                         ),
                     ]
@@ -11831,13 +11831,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_c.xsd"
+                        href='../msData/attribute/attZ008_c.xsd'
                     ),
                 ],
                 expected=[
@@ -11849,9 +11849,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_c"
+                name='attZ008_c'
             ),
-            name="attZ008_c"
+            name='attZ008_c'
         ),
         TestGroup(
             annotation=[
@@ -11859,7 +11859,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(4)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(4)',
                             ]
                         ),
                     ]
@@ -11867,13 +11867,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_d.xsd"
+                        href='../msData/attribute/attZ008_d.xsd'
                     ),
                 ],
                 expected=[
@@ -11885,9 +11885,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_d"
+                name='attZ008_d'
             ),
-            name="attZ008_d"
+            name='attZ008_d'
         ),
         TestGroup(
             annotation=[
@@ -11895,7 +11895,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(5)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(5)',
                             ]
                         ),
                     ]
@@ -11903,13 +11903,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_e.xsd"
+                        href='../msData/attribute/attZ008_e.xsd'
                     ),
                 ],
                 expected=[
@@ -11921,9 +11921,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_e"
+                name='attZ008_e'
             ),
-            name="attZ008_e"
+            name='attZ008_e'
         ),
         TestGroup(
             annotation=[
@@ -11931,7 +11931,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(6)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(6)',
                             ]
                         ),
                     ]
@@ -11939,13 +11939,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_f.xsd"
+                        href='../msData/attribute/attZ008_f.xsd'
                     ),
                 ],
                 expected=[
@@ -11957,9 +11957,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_f"
+                name='attZ008_f'
             ),
-            name="attZ008_f"
+            name='attZ008_f'
         ),
         TestGroup(
             annotation=[
@@ -11967,7 +11967,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(7)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(7)',
                             ]
                         ),
                     ]
@@ -11975,13 +11975,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_g.xsd"
+                        href='../msData/attribute/attZ008_g.xsd'
                     ),
                 ],
                 expected=[
@@ -11993,9 +11993,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_g"
+                name='attZ008_g'
             ),
-            name="attZ008_g"
+            name='attZ008_g'
         ),
         TestGroup(
             annotation=[
@@ -12003,7 +12003,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(8)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: fixed attribute value in derived type should be same as base type(8)',
                             ]
                         ),
                     ]
@@ -12011,13 +12011,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ008_h.xsd"
+                        href='../msData/attribute/attZ008_h.xsd'
                     ),
                 ],
                 expected=[
@@ -12029,9 +12029,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ008_h"
+                name='attZ008_h'
             ),
-            name="attZ008_h"
+            name='attZ008_h'
         ),
         TestGroup(
             annotation=[
@@ -12039,7 +12039,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : when more than one xsi attribute encountered in an invalid file",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : when more than one xsi attribute encountered in an invalid file',
                             ]
                         ),
                     ]
@@ -12047,13 +12047,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ009.xsd"
+                        href='../msData/attribute/attZ009.xsd'
                     ),
                 ],
                 expected=[
@@ -12065,12 +12065,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ009"
+                name='attZ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ009.xml"
+                        href='../msData/attribute/attZ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -12081,10 +12081,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ009.i"
+                    name='attZ009.i'
                 ),
             ],
-            name="attZ009"
+            name='attZ009'
         ),
         TestGroup(
             annotation=[
@@ -12100,13 +12100,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ010a.xsd"
+                        href='../msData/attribute/attZ010a.xsd'
                     ),
                 ],
                 expected=[
@@ -12118,9 +12118,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ010a"
+                name='attZ010a'
             ),
-            name="attZ010a"
+            name='attZ010a'
         ),
         TestGroup(
             annotation=[
@@ -12136,13 +12136,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ010b.xsd"
+                        href='../msData/attribute/attZ010b.xsd'
                     ),
                 ],
                 expected=[
@@ -12154,9 +12154,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ010b"
+                name='attZ010b'
             ),
-            name="attZ010b"
+            name='attZ010b'
         ),
         TestGroup(
             annotation=[
@@ -12172,13 +12172,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ010c.xsd"
+                        href='../msData/attribute/attZ010c.xsd'
                     ),
                 ],
                 expected=[
@@ -12190,9 +12190,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ010c"
+                name='attZ010c'
             ),
-            name="attZ010c"
+            name='attZ010c'
         ),
         TestGroup(
             annotation=[
@@ -12200,7 +12200,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: if a base attribute is required, then the derived attribute, if present, must have use required as well",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: if a base attribute is required, then the derived attribute, if present, must have use required as well',
                             ]
                         ),
                     ]
@@ -12208,13 +12208,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ011.xsd"
+                        href='../msData/attribute/attZ011.xsd'
                     ),
                 ],
                 expected=[
@@ -12226,9 +12226,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ011"
+                name='attZ011'
             ),
-            name="attZ011"
+            name='attZ011'
         ),
         TestGroup(
             annotation=[
@@ -12236,7 +12236,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: a required base attributer can not be prohibited in the derived type",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: a required base attributer can not be prohibited in the derived type',
                             ]
                         ),
                     ]
@@ -12244,13 +12244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ012.xsd"
+                        href='../msData/attribute/attZ012.xsd'
                     ),
                 ],
                 expected=[
@@ -12262,9 +12262,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ012"
+                name='attZ012'
             ),
-            name="attZ012"
+            name='attZ012'
         ),
         TestGroup(
             annotation=[
@@ -12272,12 +12272,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: attribute and element declarations can not have a value constraint if it type is ID",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: attribute and element declarations can not have a value constraint if it type is ID',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "ID attributes with value constraints are allowed in XSD 1.1 - MHK",
+                                'ID attributes with value constraints are allowed in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -12285,16 +12285,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ013a.xsd"
+                        href='../msData/attribute/attZ013a.xsd'
                     ),
                 ],
                 expected=[
@@ -12315,9 +12315,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ013a"
+                name='attZ013a'
             ),
-            name="attZ013a"
+            name='attZ013a'
         ),
         TestGroup(
             annotation=[
@@ -12325,12 +12325,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: attribute and element declarations can not have a value constraint if it type is derived from ID",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: attribute and element declarations can not have a value constraint if it type is derived from ID',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "ID attributes with value constraints are allowed in XSD 1.1 - MHK",
+                                'ID attributes with value constraints are allowed in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -12338,16 +12338,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ013b.xsd"
+                        href='../msData/attribute/attZ013b.xsd'
                     ),
                 ],
                 expected=[
@@ -12368,9 +12368,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ013b"
+                name='attZ013b'
             ),
-            name="attZ013b"
+            name='attZ013b'
         ),
         TestGroup(
             annotation=[
@@ -12378,12 +12378,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: No more than one attribute of type ID should be validated per Element(1)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: No more than one attribute of type ID should be validated per Element(1)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Multiple ID attributes on an element become legal in XSD 1.1 - MHK",
+                                'Multiple ID attributes on an element become legal in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -12391,16 +12391,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ014a.xsd"
+                        href='../msData/attribute/attZ014a.xsd'
                     ),
                 ],
                 expected=[
@@ -12412,12 +12412,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ014a"
+                name='attZ014a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ014a.xml"
+                        href='../msData/attribute/attZ014a.xml'
                     ),
                     expected=[
                         Expected(
@@ -12437,10 +12437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ014a.i"
+                    name='attZ014a.i'
                 ),
             ],
-            name="attZ014a"
+            name='attZ014a'
         ),
         TestGroup(
             annotation=[
@@ -12448,12 +12448,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: No more than one attribute of type ID should be validated per Element(2)",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: No more than one attribute of type ID should be validated per Element(2)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Multiple ID attributes on an element become legal in XSD 1.1 - MHK",
+                                'Multiple ID attributes on an element become legal in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -12461,16 +12461,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ014b.xsd"
+                        href='../msData/attribute/attZ014b.xsd'
                     ),
                 ],
                 expected=[
@@ -12482,12 +12482,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ014b"
+                name='attZ014b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ014b.xml"
+                        href='../msData/attribute/attZ014b.xml'
                     ),
                     expected=[
                         Expected(
@@ -12507,10 +12507,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="attZ014b.i"
+                    name='attZ014b.i'
                 ),
             ],
-            name="attZ014b"
+            name='attZ014b'
         ),
         TestGroup(
             annotation=[
@@ -12518,12 +12518,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for Attribute Declaration (form) : XSD: a prohibited attribute should not be in the attribute uses of an attributeGroup",
+                                'TEST :Syntax Checking for Attribute Declaration (form) : XSD: a prohibited attribute should not be in the attribute uses of an attributeGroup',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded the test is correct",
+                                'TSTF concluded the test is correct',
                             ]
                         ),
                     ]
@@ -12531,13 +12531,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/attribute/attZ015.xsd"
+                        href='../msData/attribute/attZ015.xsd'
                     ),
                 ],
                 expected=[
@@ -12549,12 +12549,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="attZ015"
+                name='attZ015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/attribute/attZ015.xml"
+                        href='../msData/attribute/attZ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -12564,28 +12564,28 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 1),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4043"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4043'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4043"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4043'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="attZ015.v"
+                    name='attZ015.v'
                 ),
             ],
-            name="attZ015"
+            name='attZ015'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Attribute2006-07-15",
+    contributor='Microsoft',
+    name='MS-Attribute2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

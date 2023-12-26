@@ -16,7 +16,7 @@ class A:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##targetNamespace",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -48,7 +48,7 @@ class C:
             "type": "Wildcard",
             "namespace": "foo bar",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -64,7 +64,7 @@ class D:
             "type": "Wildcard",
             "namespace": "##targetNamespace foo",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -79,26 +79,26 @@ class Root:
         metadata={
             "type": "Element",
             "sequence": 1,
-        }
+        },
     )
     b: List[B] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "sequence": 1,
-        }
+        },
     )
     c: List[C] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "sequence": 1,
-        }
+        },
     )
     d: List[D] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "sequence": 1,
-        }
+        },
     )

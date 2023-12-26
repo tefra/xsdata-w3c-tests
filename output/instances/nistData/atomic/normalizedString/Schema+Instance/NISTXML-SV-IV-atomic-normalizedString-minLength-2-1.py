@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMinLength2(
-    value="The advent of Internet-enabled browsers and a first-generation language for defining data  known as HTML  has led to the creation of the wo"
+    value='The advent of Internet-enabled browsers and a first-generation language for defining data  known as HTML  has led to the creation of the wo'
 )

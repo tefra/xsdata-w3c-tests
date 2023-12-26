@@ -7,7 +7,7 @@ obj = Root(
     choice=[
         Sa3(
             any_element=AnyElement(
-                text="1"
+                text='1'
             )
         ),
     ]

@@ -12,7 +12,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class Bar(Foo):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

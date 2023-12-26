@@ -13,7 +13,7 @@ class B1:
         default="b1",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class B2:
         default="b2",
         metadata={
             "required": True,
-        }
+        },
     )

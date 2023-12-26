@@ -19,14 +19,14 @@ class Appinfo:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -34,7 +34,7 @@ class Appinfo:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -137,6 +137,7 @@ class ExpectedOutcome(Enum):
     </p>
     </div>
     """
+
     VALID = "valid"
     INVALID = "invalid"
     NOT_KNOWN = "notKnown"
@@ -158,6 +159,7 @@ class KnownToken(Enum):
     For examples, see the various subtypes defined immediately below.
     </p> </div>
     """
+
     VALUE_1_0 = "1.0"
     VALUE_1_1 = "1.1"
     VALUE_1_0_1E = "1.0-1e"
@@ -253,6 +255,7 @@ class TestOutcome(Enum):
     </dl>
     </div>
     """
+
     VALID = "valid"
     INVALID = "invalid"
     NOT_KNOWN = "notKnown"
@@ -274,21 +277,21 @@ class Documentation:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     lang: Optional[Union[str, LangValue]] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -296,7 +299,7 @@ class Documentation:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -375,6 +378,7 @@ class Expected:
     </ul>
     </div>
     """
+
     class Meta:
         name = "expected"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -384,21 +388,21 @@ class Expected:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -411,6 +415,7 @@ class Annotation:
     <tt>xsd:annotation</tt> element and because the Schema for Schemas
     cannot be imported. </p> </div>
     """
+
     class Meta:
         name = "annotation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -429,14 +434,14 @@ class Annotation:
                     "type": Documentation,
                 },
             ),
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -450,7 +455,7 @@ class Ref:
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-        }
+        },
     )
     type_value: TypeType = field(
         default=TypeType.LOCATOR,
@@ -458,21 +463,21 @@ class Ref:
             "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     href: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -486,35 +491,35 @@ class StatusEntry:
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-        }
+        },
     )
     status: Optional[Status] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     bugzilla: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "pattern": r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -574,6 +579,7 @@ class TestResult:
     </li>
     </ul>
     </div>"""
+
     class Meta:
         name = "testResult"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -582,49 +588,49 @@ class TestResult:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     validity: Optional[TestOutcome] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     set: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     group: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     test: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     normalized_load: Optional[Decimal] = field(
         default=None,
         metadata={
             "name": "normalizedLoad",
             "type": "Attribute",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -647,6 +653,7 @@ class Current(StatusEntry):
     </ul>
     </div>
     """
+
     class Meta:
         name = "current"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -659,6 +666,7 @@ class DocumentationReference(Ref):
 
     </p> </div>
     """
+
     class Meta:
         name = "documentationReference"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -690,6 +698,7 @@ class Prior(StatusEntry):
     </ul>
     </div>
     """
+
     class Meta:
         name = "prior"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -761,6 +770,7 @@ class TestSuiteResults:
     </li>
     </ul>
     </div>"""
+
     class Meta:
         name = "testSuiteResults"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -769,28 +779,28 @@ class TestSuiteResults:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test_result: List[TestResult] = field(
         default_factory=list,
         metadata={
             "name": "testResult",
             "type": "Element",
-        }
+        },
     )
     suite: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     processor: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     submit_date: Optional[XmlDate] = field(
         default=None,
@@ -798,21 +808,23 @@ class TestSuiteResults:
             "name": "submitDate",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    publication_permission: Optional[TestSuiteResultsPublicationPermission] = field(
+    publication_permission: Optional[
+        TestSuiteResultsPublicationPermission
+    ] = field(
         default=None,
         metadata={
             "name": "publicationPermission",
             "type": "Attribute",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -920,6 +932,7 @@ class InstanceTest:
     discussion under the <a href="#elem_schemaTest"><tt>schemaTest</tt></a> element.
     </p>
     </div>"""
+
     class Meta:
         name = "instanceTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -928,7 +941,7 @@ class InstanceTest:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     instance_document: Optional[InstanceDocument] = field(
         default=None,
@@ -936,46 +949,46 @@ class InstanceTest:
             "name": "instanceDocument",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     expected: List[Expected] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     current: Optional[Current] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     prior: List[Prior] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -1086,6 +1099,7 @@ class SchemaTest:
     entries should have a Bugzilla cross-reference.
     </p>
     </div>"""
+
     class Meta:
         name = "schemaTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -1094,7 +1108,7 @@ class SchemaTest:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     schema_document: List[SchemaDocument] = field(
         default_factory=list,
@@ -1102,46 +1116,46 @@ class SchemaTest:
             "name": "schemaDocument",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     expected: List[Expected] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     current: Optional[Current] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     prior: List[Prior] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -1210,6 +1224,7 @@ class TestSuite:
     </ul>
     </div>
     """
+
     class Meta:
         name = "testSuite"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -1218,21 +1233,21 @@ class TestSuite:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test_set_ref: List[TestSetRef] = field(
         default_factory=list,
         metadata={
             "name": "testSetRef",
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     release_date: Optional[XmlDate] = field(
         default=None,
@@ -1240,7 +1255,7 @@ class TestSuite:
             "name": "releaseDate",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     schema_version: Optional[str] = field(
         default=None,
@@ -1248,21 +1263,21 @@ class TestSuite:
             "name": "schemaVersion",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -1383,6 +1398,7 @@ class TestGroup:
     </li>
     </ul>
     </div>"""
+
     class Meta:
         name = "testGroup"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -1391,49 +1407,49 @@ class TestGroup:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     documentation_reference: List[DocumentationReference] = field(
         default_factory=list,
         metadata={
             "name": "documentationReference",
             "type": "Element",
-        }
+        },
     )
     schema_test: Optional[SchemaTest] = field(
         default=None,
         metadata={
             "name": "schemaTest",
             "type": "Element",
-        }
+        },
     )
     instance_test: List[InstanceTest] = field(
         default_factory=list,
         metadata={
             "name": "instanceTest",
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -1508,6 +1524,7 @@ class TestSet:
     </li>
     </ul>
     </div>"""
+
     class Meta:
         name = "testSet"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -1516,40 +1533,40 @@ class TestSet:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test_group: List[TestGroup] = field(
         default_factory=list,
         metadata={
             "name": "testGroup",
             "type": "Element",
-        }
+        },
     )
     contributor: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )

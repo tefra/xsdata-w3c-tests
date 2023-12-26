@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.integer.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListIntegerPattern5(
     value=[
-        "-958487123181855667",
-        "-127854368",
-        "-84884",
-        "-2",
-        "463",
-        "8258492",
-        "925863556282755751",
+        '-958487123181855667',
+        '-127854368',
+        '-84884',
+        '-2',
+        '463',
+        '8258492',
+        '925863556282755751',
     ]
 )

@@ -11,5 +11,5 @@ class Message:
         metadata={
             "required": True,
             "max_length": 25,
-        }
+        },
     )

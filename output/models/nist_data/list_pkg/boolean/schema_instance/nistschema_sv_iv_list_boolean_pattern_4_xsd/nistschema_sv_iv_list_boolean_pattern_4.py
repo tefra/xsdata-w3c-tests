@@ -15,5 +15,5 @@ class NistschemaSvIvListBooleanPattern4:
         metadata={
             "pattern": r"[1]{1} false [0]{1} true true [0]{1}",
             "tokens": True,
-        }
+        },
     )

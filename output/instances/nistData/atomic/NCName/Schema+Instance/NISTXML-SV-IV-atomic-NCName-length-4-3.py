@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength4(
-    value="bpico-cellular.of.chosen_of.good_by-around.maintained-by-poss"
+    value='bpico-cellular.of.chosen_of.good_by-around.maintained-by-poss'
 )

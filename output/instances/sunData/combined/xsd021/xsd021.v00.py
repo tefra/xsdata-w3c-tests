@@ -5,9 +5,9 @@ obj = Root(
     choice=[
         Root.SkipAny(
             any_attributes={
-                "{foo}a": "bra",
-                "{foo}b": "bra",
-                "{undeclared}something": "also allowed",
+                '{foo}a': 'bra',
+                '{foo}b': 'bra',
+                '{undeclared}something': 'also allowed',
             }
         ),
         Root.SkipAny(
@@ -15,10 +15,10 @@ obj = Root(
         ),
         Root.LaxAny(
             any_attributes={
-                "{foo}a": "5",
-                "{foo}undeclared": "OK",
-                "{bar}b": "2",
-                "{undeclared}something": "also allowed",
+                '{foo}a': '5',
+                '{foo}undeclared': 'OK',
+                '{bar}b': '2',
+                '{undeclared}something': 'also allowed',
             }
         ),
         Root.LaxAny(
@@ -26,9 +26,9 @@ obj = Root(
         ),
         Root.StrictAny(
             any_attributes={
-                "{foo}b": "5",
-                "{bar}c": "2",
-                "{zot}a": "52",
+                '{foo}b': '5',
+                '{bar}c': '2',
+                '{zot}a': '52',
             }
         ),
         Root.StrictAny(
@@ -36,10 +36,10 @@ obj = Root(
         ),
         Root.SkipOther(
             other_attributes={
-                "{bar}a": "brabra",
-                "{bar}undeclared": "OK",
-                "{undeclared}something": "OK",
-                "{undeclared}local": "OK",
+                '{bar}a': 'brabra',
+                '{bar}undeclared': 'OK',
+                '{undeclared}something': 'OK',
+                '{undeclared}local': 'OK',
             }
         ),
         Root.SkipOther(
@@ -47,7 +47,7 @@ obj = Root(
         ),
         Root.LaxLocal(
             local_attributes={
-                "att": "whatever",
+                'att': 'whatever',
             }
         ),
         Root.LaxLocal(
@@ -55,9 +55,9 @@ obj = Root(
         ),
         Root.StrictTarget(
             target_namespace_attributes={
-                "{foo}a": "1",
-                "{foo}b": "2",
-                "{foo}c": "3",
+                '{foo}a': '1',
+                '{foo}b': '2',
+                '{foo}c': '3',
             }
         ),
         Root.StrictTarget(
@@ -65,8 +65,8 @@ obj = Root(
         ),
         Root.SkipBar(
             bar_attributes={
-                "{bar}b": "invali",
-                "{bar}undeclared": "ok",
+                '{bar}b': 'invali',
+                '{bar}undeclared': 'ok',
             }
         ),
         Root.SkipBar(

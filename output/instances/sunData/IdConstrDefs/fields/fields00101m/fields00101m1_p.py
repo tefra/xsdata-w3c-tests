@@ -5,8 +5,8 @@ from xsdata.models.datatype import XmlDate
 obj = People(
     person=[
         People.Person(
-            value="Jesus",
-            parent="God",
+            value='Jesus',
+            parent='God',
             birthday=XmlDate(1, 1, 1)
         ),
     ]

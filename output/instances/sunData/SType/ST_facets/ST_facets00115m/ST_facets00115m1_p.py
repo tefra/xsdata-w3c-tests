@@ -3,5 +3,5 @@ from output.models.sun_data.stype.st_facets.st_facets00115m.st_facets00115m_xsd.
 
 
 obj = Test(
-    value=Decimal("99")
+    value=Decimal('99')
 )

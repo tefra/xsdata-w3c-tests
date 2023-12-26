@@ -2,6 +2,6 @@ from output.models.sun_data.elem_decl.scope.scope00301m.scope00301m_xsd.scope003
 
 
 obj = Root(
-    local_element1="1",
-    local_element2="2"
+    local_element1='1',
+    local_element2='2'
 )

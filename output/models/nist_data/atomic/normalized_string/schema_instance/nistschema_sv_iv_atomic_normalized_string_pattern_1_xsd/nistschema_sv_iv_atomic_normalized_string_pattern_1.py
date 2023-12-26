@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNormalizedStringPattern1:
         metadata={
             "required": True,
             "pattern": r"\d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-Z]{2}\s18037",
-        }
+        },
     )

@@ -8,8 +8,8 @@ obj = Doc(
         AnyType(
             any_element=[
                 AnyElement(
-                    qname="foo",
-                    text=""
+                    qname='foo',
+                    text=''
                 ),
             ]
         ),

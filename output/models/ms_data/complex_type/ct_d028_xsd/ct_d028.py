@@ -12,5 +12,5 @@ class Root:
             "required": True,
             "length": 5,
             "white_space": "preserve",
-        }
+        },
     )

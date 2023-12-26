@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringPattern5(
-    value="837 Provide Street Information The Environments , DE 19099-1858"
+    value='837 Provide Street Information The Environments , DE 19099-1858'
 )

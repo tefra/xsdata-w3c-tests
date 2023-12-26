@@ -25,12 +25,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test timezone facet with value="required"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows an xs:time value provided it has a timezone"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows an xs:time value provided it has a timezone'
                                 ),
                             ]
                         ),
@@ -39,16 +39,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone001.xsd"
+                        href='../saxonData/Zone/zone001.xsd'
                     ),
                 ],
                 expected=[
@@ -60,7 +60,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 3)
                 ),
-                name="zone001.xsd"
+                name='zone001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -69,14 +69,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.v01.xml"
+                        href='../saxonData/Zone/zone001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -87,7 +87,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone001.v01.xml"
+                    name='zone001.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -95,14 +95,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.v02.xml"
+                        href='../saxonData/Zone/zone001.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -113,7 +113,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone001.v02.xml"
+                    name='zone001.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -121,14 +121,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, no timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, no timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.n01.xml"
+                        href='../saxonData/Zone/zone001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -139,10 +139,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone001.n01.xml"
+                    name='zone001.n01.xml'
                 ),
             ],
-            name="zone001",
+            name='zone001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -154,12 +154,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test timezone facet with value="prohibited"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows an xs:time value provided it has a timezone"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows an xs:time value provided it has a timezone'
                                 ),
                             ]
                         ),
@@ -168,16 +168,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone002.xsd"
+                        href='../saxonData/Zone/zone002.xsd'
                     ),
                 ],
                 expected=[
@@ -189,7 +189,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 3)
                 ),
-                name="zone002.xsd"
+                name='zone002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -198,14 +198,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.v01.xml"
+                        href='../saxonData/Zone/zone001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -216,7 +216,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone002.n01.xml"
+                    name='zone002.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -224,14 +224,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.v02.xml"
+                        href='../saxonData/Zone/zone001.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -242,7 +242,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone002.n02.xml"
+                    name='zone002.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -250,14 +250,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.n01.xml"
+                        href='../saxonData/Zone/zone001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -268,10 +268,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone002.v01.xml"
+                    name='zone002.v01.xml'
                 ),
             ],
-            name="zone002",
+            name='zone002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -283,12 +283,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test timezone facet with value="optional"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows an xs:time value provided it has a timezone"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Allows an xs:time value provided it has a timezone'
                                 ),
                             ]
                         ),
@@ -297,16 +297,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone003.xsd"
+                        href='../saxonData/Zone/zone003.xsd'
                     ),
                 ],
                 expected=[
@@ -318,7 +318,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 11, 3)
                 ),
-                name="zone003.xsd"
+                name='zone003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -327,14 +327,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.v01.xml"
+                        href='../saxonData/Zone/zone001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -345,7 +345,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone003.v01.xml"
+                    name='zone003.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -353,14 +353,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.v02.xml"
+                        href='../saxonData/Zone/zone001.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -371,7 +371,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone003.v02.xml"
+                    name='zone003.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -379,14 +379,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, no timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, no timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone001.n01.xml"
+                        href='../saxonData/Zone/zone001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -397,10 +397,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 11, 3)
                     ),
-                    name="zone003.v03.xml"
+                    name='zone003.v03.xml'
                 ),
             ],
-            name="zone003",
+            name='zone003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -412,12 +412,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test timezone facet with value="optional" derived from value="required"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid restriction'
                                 ),
                             ]
                         ),
@@ -426,16 +426,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone004.bad.xsd"
+                        href='../saxonData/Zone/zone004.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -447,9 +447,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 21)
                 ),
-                name="zone004.xsd"
+                name='zone004.xsd'
             ),
-            name="zone004",
+            name='zone004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -461,12 +461,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test timezone facet with value="optional" derived from value="prohibited"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid restriction'
                                 ),
                             ]
                         ),
@@ -475,16 +475,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone005.bad.xsd"
+                        href='../saxonData/Zone/zone005.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -496,9 +496,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 21)
                 ),
-                name="zone005.xsd"
+                name='zone005.xsd'
             ),
-            name="zone005",
+            name='zone005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -510,12 +510,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test timezone facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test timezone facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid facet value"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid facet value'
                                 ),
                             ]
                         ),
@@ -524,16 +524,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone006.bad.xsd"
+                        href='../saxonData/Zone/zone006.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -545,9 +545,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 21)
                 ),
-                name="zone006.xsd"
+                name='zone006.xsd'
             ),
-            name="zone006",
+            name='zone006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -559,12 +559,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test timezone facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test timezone facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Used on inapplicable data type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Used on inapplicable data type'
                                 ),
                             ]
                         ),
@@ -573,16 +573,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone007.bad.xsd"
+                        href='../saxonData/Zone/zone007.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -594,9 +594,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 21)
                 ),
-                name="zone007.xsd"
+                name='zone007.xsd'
             ),
-            name="zone007",
+            name='zone007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -608,12 +608,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test timezone facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test timezone facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Used on inapplicable data type (union type)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Used on inapplicable data type (union type)'
                                 ),
                             ]
                         ),
@@ -622,16 +622,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone008.bad.xsd"
+                        href='../saxonData/Zone/zone008.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -643,9 +643,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 21)
                 ),
-                name="zone008.xsd"
+                name='zone008.xsd'
             ),
-            name="zone008",
+            name='zone008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -657,12 +657,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test built-in type xs:dateTimeStamp"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test built-in type xs:dateTimeStamp'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A dateTime value with a required timezone"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A dateTime value with a required timezone'
                                 ),
                             ]
                         ),
@@ -671,16 +671,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone101.xsd"
+                        href='../saxonData/Zone/zone101.xsd'
                     ),
                 ],
                 expected=[
@@ -692,7 +692,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 22)
                 ),
-                name="zone101.xsd"
+                name='zone101.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -701,14 +701,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone101.v01.xml"
+                        href='../saxonData/Zone/zone101.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -719,7 +719,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone101.v01.xml"
+                    name='zone101.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -727,14 +727,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone101.v02.xml"
+                        href='../saxonData/Zone/zone101.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -745,7 +745,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone101.v02.xml"
+                    name='zone101.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -753,14 +753,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, no timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, no timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone101.n01.xml"
+                        href='../saxonData/Zone/zone101.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -771,10 +771,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone101.n01.xml"
+                    name='zone101.n01.xml'
                 ),
             ],
-            name="zone101",
+            name='zone101',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -786,12 +786,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test built-in type xs:dateTimeStamp"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test built-in type xs:dateTimeStamp'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="restriction from xs:dateTimeStamp"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='restriction from xs:dateTimeStamp'
                                 ),
                             ]
                         ),
@@ -800,16 +800,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone102.xsd"
+                        href='../saxonData/Zone/zone102.xsd'
                     ),
                 ],
                 expected=[
@@ -821,7 +821,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 12, 22)
                 ),
-                name="zone102.xsd"
+                name='zone102.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -830,14 +830,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone101.v01.xml"
+                        href='../saxonData/Zone/zone101.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -848,7 +848,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone102.v01.xml"
+                    name='zone102.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -856,14 +856,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone101.v02.xml"
+                        href='../saxonData/Zone/zone101.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -874,7 +874,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone102.v02.xml"
+                    name='zone102.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -882,14 +882,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, no timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, no timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone101.n01.xml"
+                        href='../saxonData/Zone/zone101.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -900,7 +900,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone102.n01.xml"
+                    name='zone102.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -908,14 +908,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, value out of range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, value out of range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone102.n02.xml"
+                        href='../saxonData/Zone/zone102.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -926,10 +926,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 12, 22)
                     ),
-                    name="zone102.n02.xml"
+                    name='zone102.n02.xml'
                 ),
             ],
-            name="zone102",
+            name='zone102',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -941,12 +941,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test year zero allowed in type xs:dateTimeStamp"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test year zero allowed in type xs:dateTimeStamp'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="use year zero in minInclusive facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='use year zero in minInclusive facet'
                                 ),
                             ]
                         ),
@@ -955,16 +955,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone201.xsd"
+                        href='../saxonData/Zone/zone201.xsd'
                     ),
                 ],
                 expected=[
@@ -976,7 +976,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone201.xsd"
+                name='zone201.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -985,14 +985,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, year zero date after minInclusive.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, year zero date after minInclusive.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone201.v01.xml"
+                        href='../saxonData/Zone/zone201.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1003,7 +1003,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone201.v01.xml"
+                    name='zone201.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1011,14 +1011,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, year zero in proleptic Gregorian calendar was a leap year.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, year zero in proleptic Gregorian calendar was a leap year.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone201.v02.xml"
+                        href='../saxonData/Zone/zone201.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1029,7 +1029,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone201.v02.xml"
+                    name='zone201.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1037,14 +1037,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, year zero date before minInclusive.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone201.n01.xml"
+                        href='../saxonData/Zone/zone201.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1055,10 +1055,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone201.n01.xml"
+                    name='zone201.n01.xml'
                 ),
             ],
-            name="zone201",
+            name='zone201',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1070,12 +1070,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test year zero allowed in type xs:gYearMonth"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test year zero allowed in type xs:gYearMonth'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="use year zero in enumeration facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='use year zero in enumeration facet'
                                 ),
                             ]
                         ),
@@ -1084,19 +1084,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone202.xsd"
+                        href='../saxonData/Zone/zone202.xsd'
                     ),
                 ],
                 expected=[
@@ -1108,7 +1108,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone202.xsd"
+                name='zone202.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1117,14 +1117,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, year zero gYearmonth.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, year zero gYearmonth.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone202.v01.xml"
+                        href='../saxonData/Zone/zone202.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1135,7 +1135,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone202.v01.xml"
+                    name='zone202.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1143,14 +1143,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, year zero gYearmonth.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, year zero gYearmonth.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone202.v02.xml"
+                        href='../saxonData/Zone/zone202.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1161,7 +1161,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone202.v02.xml"
+                    name='zone202.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1169,14 +1169,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, year zero gYearmonth.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, year zero gYearmonth.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone202.v03.xml"
+                        href='../saxonData/Zone/zone202.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1187,7 +1187,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone202.v03.xml"
+                    name='zone202.v03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1195,14 +1195,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, year zero date before minInclusive.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone202.n01.xml"
+                        href='../saxonData/Zone/zone202.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1213,7 +1213,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone202.n01.xml"
+                    name='zone202.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1221,14 +1221,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, year zero date before minInclusive.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone202.n02.xml"
+                        href='../saxonData/Zone/zone202.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1239,7 +1239,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone202.n02.xml"
+                    name='zone202.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1247,14 +1247,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, year zero date before minInclusive.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone202.n03.xml"
+                        href='../saxonData/Zone/zone202.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1265,10 +1265,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone202.n03.xml"
+                    name='zone202.n03.xml'
                 ),
             ],
-            name="zone202",
+            name='zone202',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1280,12 +1280,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test leap years in proleptic Gregorian calendar"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test leap years in proleptic Gregorian calendar'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="0, -4, ... are a leap years; but not -100"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='0, -4, ... are a leap years; but not -100'
                                 ),
                             ]
                         ),
@@ -1294,19 +1294,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone203.xsd"
+                        href='../saxonData/Zone/zone203.xsd'
                     ),
                 ],
                 expected=[
@@ -1318,7 +1318,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone203.xsd"
+                name='zone203.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1327,14 +1327,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, leap year.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, leap year.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone203.v01.xml"
+                        href='../saxonData/Zone/zone203.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1345,7 +1345,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone203.v01.xml"
+                    name='zone203.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1353,14 +1353,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, leap year.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, leap year.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone203.v02.xml"
+                        href='../saxonData/Zone/zone203.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1371,7 +1371,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone203.v02.xml"
+                    name='zone203.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1379,14 +1379,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, leap year.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, leap year.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone203.v03.xml"
+                        href='../saxonData/Zone/zone203.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1397,7 +1397,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone203.v03.xml"
+                    name='zone203.v03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1405,14 +1405,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, not a leap year.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, not a leap year.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone203.n01.xml"
+                        href='../saxonData/Zone/zone203.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1423,7 +1423,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone203.n01.xml"
+                    name='zone203.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1431,14 +1431,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, not a leap year.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, not a leap year.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone203.n02.xml"
+                        href='../saxonData/Zone/zone203.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1449,10 +1449,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone203.n02.xml"
+                    name='zone203.n02.xml'
                 ),
             ],
-            name="zone203",
+            name='zone203',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1464,12 +1464,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Leap seconds are not permitted"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Leap seconds are not permitted'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="31 Dec 2008 included a leap second, but xs:dateTime ignores it"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='31 Dec 2008 included a leap second, but xs:dateTime ignores it'
                                 ),
                             ]
                         ),
@@ -1478,19 +1478,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-NoLeapSecs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-NoLeapSecs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone204.xsd"
+                        href='../saxonData/Zone/zone204.xsd'
                     ),
                 ],
                 expected=[
@@ -1502,7 +1502,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone204.xsd"
+                name='zone204.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1511,14 +1511,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, leap seconds not allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, leap seconds not allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone204.n01.xml"
+                        href='../saxonData/Zone/zone204.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1529,10 +1529,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone204.n01.xml"
+                    name='zone204.n01.xml'
                 ),
             ],
-            name="zone204",
+            name='zone204',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1544,12 +1544,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test equality of xs:dateTime values appearing in an enumeration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test equality of xs:dateTime values appearing in an enumeration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, 00:00:00 is equal to 24:00:00 on the previous day"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For example, 00:00:00 is equal to 24:00:00 on the previous day'
                                 ),
                             ]
                         ),
@@ -1558,19 +1558,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone205.xsd"
+                        href='../saxonData/Zone/zone205.xsd'
                     ),
                 ],
                 expected=[
@@ -1582,7 +1582,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone205.xsd"
+                name='zone205.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1591,14 +1591,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, 00:00 = 24:00.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, 00:00 = 24:00.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone205.v01.xml"
+                        href='../saxonData/Zone/zone205.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1609,7 +1609,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone205.v01.xml"
+                    name='zone205.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1617,14 +1617,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, fraction digits equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, fraction digits equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone205.v02.xml"
+                        href='../saxonData/Zone/zone205.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1635,7 +1635,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone205.v02.xml"
+                    name='zone205.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1643,14 +1643,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, same instant in different timezones.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, same instant in different timezones.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone205.v03.xml"
+                        href='../saxonData/Zone/zone205.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1661,7 +1661,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone205.v03.xml"
+                    name='zone205.v03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1669,14 +1669,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, different timezone.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, different timezone.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone205.n01.xml"
+                        href='../saxonData/Zone/zone205.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1687,7 +1687,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone205.n01.xml"
+                    name='zone205.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1695,14 +1695,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, 24:00:00 is the highest time value allowed.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, 24:00:00 is the highest time value allowed.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone205.n02.xml"
+                        href='../saxonData/Zone/zone205.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1713,10 +1713,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone205.n02.xml"
+                    name='zone205.n02.xml'
                 ),
             ],
-            name="zone205",
+            name='zone205',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1728,12 +1728,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test equality of xs:time values appearing in integrity constraints"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test equality of xs:time values appearing in integrity constraints'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, 00:00:00 is equal to 24:00:00"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For example, 00:00:00 is equal to 24:00:00'
                                 ),
                             ]
                         ),
@@ -1742,16 +1742,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone206.xsd"
+                        href='../saxonData/Zone/zone206.xsd'
                     ),
                 ],
                 expected=[
@@ -1763,7 +1763,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone206.xsd"
+                name='zone206.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1772,14 +1772,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone206.v01.xml"
+                        href='../saxonData/Zone/zone206.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1790,7 +1790,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone206.v01.xml"
+                    name='zone206.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1798,14 +1798,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;               valid, all values equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t               valid, all values equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone206.v02.xml"
+                        href='../saxonData/Zone/zone206.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1816,7 +1816,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone206.v02.xml"
+                    name='zone206.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1824,14 +1824,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values not equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone206.n01.xml"
+                        href='../saxonData/Zone/zone206.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1842,7 +1842,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone206.n01.xml"
+                    name='zone206.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1850,14 +1850,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values not equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone206.n02.xml"
+                        href='../saxonData/Zone/zone206.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1868,10 +1868,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone206.n02.xml"
+                    name='zone206.n02.xml'
                 ),
             ],
-            name="zone206",
+            name='zone206',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1883,12 +1883,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:dayTimeDuration including equality rules"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test xs:dayTimeDuration including equality rules'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1D is equal to P24H"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For example, P1D is equal to P24H'
                                 ),
                             ]
                         ),
@@ -1897,19 +1897,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone301.xsd"
+                        href='../saxonData/Zone/zone301.xsd'
                     ),
                 ],
                 expected=[
@@ -1921,7 +1921,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone301.xsd"
+                name='zone301.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1930,14 +1930,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone301.v01.xml"
+                        href='../saxonData/Zone/zone301.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1948,7 +1948,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone301.v01.xml"
+                    name='zone301.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1956,14 +1956,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values not equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone301.n01.xml"
+                        href='../saxonData/Zone/zone301.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1974,10 +1974,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone301.n01.xml"
+                    name='zone301.n01.xml'
                 ),
             ],
-            name="zone301",
+            name='zone301',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1989,12 +1989,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:yearMonthDuration including equality rules"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test xs:yearMonthDuration including equality rules'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1Y is equal to P12M"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For example, P1Y is equal to P12M'
                                 ),
                             ]
                         ),
@@ -2003,19 +2003,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone302.xsd"
+                        href='../saxonData/Zone/zone302.xsd'
                     ),
                 ],
                 expected=[
@@ -2027,7 +2027,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone302.xsd"
+                name='zone302.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2036,14 +2036,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone302.v01.xml"
+                        href='../saxonData/Zone/zone302.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2054,7 +2054,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone302.v01.xml"
+                    name='zone302.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2062,14 +2062,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values not equivalent.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone302.n01.xml"
+                        href='../saxonData/Zone/zone302.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2080,10 +2080,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone302.n01.xml"
+                    name='zone302.n01.xml'
                 ),
             ],
-            name="zone302",
+            name='zone302',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2095,12 +2095,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:dayTimeDuration min/max rules"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test xs:dayTimeDuration min/max rules'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1Y is equal to P12M"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For example, P1Y is equal to P12M'
                                 ),
                             ]
                         ),
@@ -2109,19 +2109,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone303.xsd"
+                        href='../saxonData/Zone/zone303.xsd'
                     ),
                 ],
                 expected=[
@@ -2133,7 +2133,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone303.xsd"
+                name='zone303.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2142,14 +2142,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone303.v01.xml"
+                        href='../saxonData/Zone/zone303.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2160,7 +2160,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone303.v01.xml"
+                    name='zone303.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2168,14 +2168,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone303.v02.xml"
+                        href='../saxonData/Zone/zone303.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2186,7 +2186,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone303.v02.xml"
+                    name='zone303.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2194,14 +2194,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone303.v03.xml"
+                        href='../saxonData/Zone/zone303.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2212,7 +2212,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone303.v03.xml"
+                    name='zone303.v03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2220,14 +2220,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values out of range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone303.n01.xml"
+                        href='../saxonData/Zone/zone303.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2238,7 +2238,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone303.n01.xml"
+                    name='zone303.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2246,14 +2246,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values out of range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone303.n02.xml"
+                        href='../saxonData/Zone/zone303.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2264,10 +2264,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone303.n02.xml"
+                    name='zone303.n02.xml'
                 ),
             ],
-            name="zone303",
+            name='zone303',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2279,12 +2279,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:yearMonthDuration min/max rules"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test xs:yearMonthDuration min/max rules'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1Y is equal to P12M"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For example, P1Y is equal to P12M'
                                 ),
                             ]
                         ),
@@ -2293,19 +2293,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Zone/zone304.xsd"
+                        href='../saxonData/Zone/zone304.xsd'
                     ),
                 ],
                 expected=[
@@ -2317,7 +2317,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 9, 19)
                 ),
-                name="zone304.xsd"
+                name='zone304.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2326,14 +2326,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone304.v01.xml"
+                        href='../saxonData/Zone/zone304.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2344,7 +2344,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone304.v01.xml"
+                    name='zone304.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2352,14 +2352,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone304.v02.xml"
+                        href='../saxonData/Zone/zone304.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2370,7 +2370,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone304.v02.xml"
+                    name='zone304.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2378,14 +2378,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, all values valid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone304.v03.xml"
+                        href='../saxonData/Zone/zone304.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2396,7 +2396,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone304.v03.xml"
+                    name='zone304.v03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2404,14 +2404,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values out of range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone304.n01.xml"
+                        href='../saxonData/Zone/zone304.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2422,7 +2422,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone304.n01.xml"
+                    name='zone304.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2430,14 +2430,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid, values out of range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Zone/zone304.n02.xml"
+                        href='../saxonData/Zone/zone304.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2448,21 +2448,21 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 9, 19)
                     ),
-                    name="zone304.n02.xml"
+                    name='zone304.n02.xml'
                 ),
             ],
-            name="zone304",
+            name='zone304',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="Zone",
+    contributor='Saxonica',
+    name='Zone',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

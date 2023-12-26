@@ -16,7 +16,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -25,18 +25,18 @@ class Root:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         ssn: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )
         parent: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

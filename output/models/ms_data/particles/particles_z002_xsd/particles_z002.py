@@ -8,7 +8,7 @@ class Base1:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -18,14 +18,14 @@ class Base2:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -35,14 +35,14 @@ class Base3:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Derived1(Base1):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 
@@ -62,7 +62,7 @@ class Derived2(Base2):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -82,7 +82,7 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     elem2: Optional[Derived2] = field(
         default=None,
@@ -90,7 +90,7 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     elem3: Optional[Derived3] = field(
         default=None,
@@ -98,5 +98,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

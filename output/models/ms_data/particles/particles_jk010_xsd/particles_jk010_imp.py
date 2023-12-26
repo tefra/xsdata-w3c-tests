@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -20,7 +20,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )
 
 

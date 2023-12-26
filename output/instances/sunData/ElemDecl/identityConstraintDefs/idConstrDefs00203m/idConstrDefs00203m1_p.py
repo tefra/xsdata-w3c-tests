@@ -5,15 +5,15 @@ from xsdata.models.datatype import XmlDate
 obj = Root(
     person=[
         Root.Person(
-            value="John Smith",
+            value='John Smith',
             birthday=XmlDate(1999, 5, 31)
         ),
         Root.Person(
-            value="William Smith",
+            value='William Smith',
             birthday=XmlDate(1999, 5, 31)
         ),
         Root.Person(
-            value="John Smith",
+            value='John Smith',
             birthday=XmlDate(1969, 10, 12)
         ),
     ]

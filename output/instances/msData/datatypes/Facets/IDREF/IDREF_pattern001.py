@@ -4,8 +4,8 @@ from output.models.ms_data.datatypes.facets.idref.idref_pattern001_xsd.idref_pat
 
 obj = Test(
     foo=FooType.Foo(
-        value="special test for datatypes that are attribute only",
-        attr_test="abc",
-        id_attr="abc"
+        value='special test for datatypes that are attribute only',
+        attr_test='abc',
+        id_attr='abc'
     )
 )

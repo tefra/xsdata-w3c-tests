@@ -21,14 +21,14 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "http://cta0002/",
-        }
+        },
     )
     min: Optional[TMin] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://cta0002/",
-        }
+        },
     )
 
 
@@ -50,7 +50,7 @@ class Treq(T):
             "type": "Element",
             "namespace": "http://cta0002/",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -65,5 +65,5 @@ class Messages:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idref: List[Union[str, "Node"]] = field(
+    node_or_id_or_idref: List[Union["Node", str]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -27,7 +27,7 @@ class Node:
                     "nillable": True,
                 },
             ),
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

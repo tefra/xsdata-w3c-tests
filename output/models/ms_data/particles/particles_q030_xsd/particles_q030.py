@@ -1,7 +1,11 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp import E2 as ImpE2
-from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp2 import E2 as Imp2E2
+from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp import (
+    E2 as ImpE2,
+)
+from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp2 import (
+    E2 as Imp2E2,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,7 +17,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     foo_bar_element: List[object] = field(
         default_factory=list,
@@ -21,7 +25,7 @@ class B:
             "type": "Wildcard",
             "namespace": "foo bar",
             "max_occurs": 4,
-        }
+        },
     )
 
 
@@ -32,7 +36,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e2: List[ImpE2] = field(
         default_factory=list,
@@ -41,7 +45,7 @@ class R:
             "namespace": "foo",
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     bar_e2: List[Imp2E2] = field(
         default_factory=list,
@@ -51,7 +55,7 @@ class R:
             "namespace": "bar",
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -67,5 +71,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

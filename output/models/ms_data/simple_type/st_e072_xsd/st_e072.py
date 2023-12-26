@@ -14,7 +14,7 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -23,7 +23,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, str, int] = field(
-        init=False,
-        default="a"
-    )
+    value: Union[XmlPeriod, str, int] = field(init=False, default="a")

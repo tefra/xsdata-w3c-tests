@@ -14,7 +14,7 @@ class ComplexfooType:
             "namespace": "",
             "required": True,
             "format": "base64",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class SimpleTest:
         metadata={
             "required": True,
             "format": "base64",
-        }
+        },
     )
 
 
@@ -49,7 +49,7 @@ class Root:
             "name": "complexTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     simple_test: Optional[bytes] = field(
         default=None,
@@ -58,5 +58,5 @@ class Root:
             "type": "Element",
             "required": True,
             "format": "base64",
-        }
+        },
     )

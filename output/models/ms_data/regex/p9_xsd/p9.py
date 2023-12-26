@@ -16,7 +16,7 @@ class Regex:
         metadata={
             "type": "Attribute",
             "pattern": r"[13]",
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

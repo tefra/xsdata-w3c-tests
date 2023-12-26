@@ -12,7 +12,7 @@ class MyType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

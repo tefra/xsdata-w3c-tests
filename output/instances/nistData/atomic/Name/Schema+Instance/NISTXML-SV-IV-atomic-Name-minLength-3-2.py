@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength3(
-    value="dif-the-security:files-5_with-with-it"
+    value='dif-the-security:files-5_with-with-it'
 )

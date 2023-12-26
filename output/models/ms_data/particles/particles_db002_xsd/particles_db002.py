@@ -22,7 +22,7 @@ class A:
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 
@@ -37,7 +37,7 @@ class Elem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -74,12 +74,12 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     elem2: Optional[Elem2] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -26,7 +26,7 @@ class A:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     name_or_type: Optional[str] = field(
         default=None,
@@ -44,5 +44,5 @@ class A:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

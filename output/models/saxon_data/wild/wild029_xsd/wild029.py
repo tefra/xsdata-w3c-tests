@@ -15,7 +15,7 @@ class Eden:
             "min_occurs": 3,
             "max_occurs": 3,
             "sequence": 1,
-        }
+        },
     )
     any_element: Optional[object] = field(
         default=None,
@@ -23,5 +23,5 @@ class Eden:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )

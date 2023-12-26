@@ -6,15 +6,15 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     foo_test=FooTest(
         content=[
-            "&#10;&#9;mixed content&#10;&#9;",
+            '\n\tmixed content\n\t',
             AnyElement(
-                qname="child_1",
-                text="info"
+                qname='child_1',
+                text='info'
             ),
-            "&#10;        for fooTest&#10;&#9;",
+            '\n        for fooTest\n\t',
             AnyElement(
-                qname="child_2",
-                text="3"
+                qname='child_2',
+                text='3'
             ),
         ]
     )

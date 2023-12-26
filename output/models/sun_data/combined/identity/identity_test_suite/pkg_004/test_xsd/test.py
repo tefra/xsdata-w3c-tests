@@ -24,7 +24,7 @@ class Scope:
                     "type": str,
                 },
             ),
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

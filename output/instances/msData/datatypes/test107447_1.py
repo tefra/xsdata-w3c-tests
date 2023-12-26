@@ -2,17 +2,17 @@ from output.models.ms_data.datatypes.test107447_xsd.test107447 import Root
 
 
 obj = Root(
-    token=" John alfjafhakhfa lkahfkajhfa&#10;afljflafja&#10;fjlakjflkaf ",
-    language=" John &#10;&#10;&#10;",
-    name=" John &#10;&#10;",
-    ncname=" John &#10;&#10;",
-    id=" John &#10;&#10;",
-    idref=" John &#10;&#10;",
+    token=' John alfjafhakhfa lkahfkajhfa\nafljflafja\nfjlakjflkaf ',
+    language=' John \n\n\n',
+    name=' John \n\n',
+    ncname=' John \n\n',
+    id=' John \n\n',
+    idref=' John \n\n',
     idrefs=[
-        "John",
+        'John',
     ],
-    nmtoken=" John &#10;&#10;",
+    nmtoken=' John \n\n',
     nmtokens=[
-        "John",
+        'John',
     ]
 )

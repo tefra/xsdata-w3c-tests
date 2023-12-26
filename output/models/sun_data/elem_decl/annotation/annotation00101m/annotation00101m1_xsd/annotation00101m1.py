@@ -9,6 +9,7 @@ class Test:
     """
     This is an element declaration.
     """
+
     class Meta:
         namespace = "ElemDecl/annotation"
 
@@ -24,5 +25,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

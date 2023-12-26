@@ -23,7 +23,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     g2_or_g22: Optional[object] = field(
         default=None,
@@ -41,7 +41,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     g3_or_g32: Optional[object] = field(
         default=None,
@@ -59,7 +59,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     g4_or_g42: Optional[object] = field(
         default=None,
@@ -77,35 +77,35 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     c1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c4: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

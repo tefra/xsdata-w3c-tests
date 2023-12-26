@@ -7,28 +7,28 @@ obj = Doc(
     node=[
         Node(
             node_or_id_or_idref=[
-                "aaa",
+                'aaa',
                 DerivedElement(
-                    qname="idref",
-                    value="ccc"
+                    qname='idref',
+                    value='ccc'
                 ),
             ]
         ),
         Node(
             node_or_id_or_idref=[
-                "bbb",
+                'bbb',
                 DerivedElement(
-                    qname="idref",
-                    value="aaa"
+                    qname='idref',
+                    value='aaa'
                 ),
             ]
         ),
         Node(
             node_or_id_or_idref=[
-                "ccc",
+                'ccc',
                 DerivedElement(
-                    qname="idref",
-                    value="bbb"
+                    qname='idref',
+                    value='bbb'
                 ),
             ]
         ),
@@ -36,7 +36,7 @@ obj = Doc(
             node_or_id_or_idref=[
                 None,
                 DerivedElement(
-                    qname="idref",
+                    qname='idref',
                     value=None
                 ),
             ]

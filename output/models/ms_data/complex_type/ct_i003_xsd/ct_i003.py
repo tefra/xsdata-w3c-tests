@@ -14,7 +14,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_ele4: Optional[int] = field(
         default=None,
@@ -23,14 +23,14 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     foo_type: Optional[str] = field(
         default=None,
         metadata={
             "name": "fooType",
             "type": "Attribute",
-        }
+        },
     )
 
 

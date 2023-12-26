@@ -6,7 +6,7 @@ obj = Doc(
     node=[
         Node(
             node_or_id=[
-                "",
+                '',
             ]
         ),
     ]

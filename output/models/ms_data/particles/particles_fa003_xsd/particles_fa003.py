@@ -11,7 +11,7 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -22,7 +22,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -31,10 +31,11 @@ class Base:
     """
     documentation documentation bar.
     """
+
     class Meta:
         name = "base"
 
-    e1_or_e2: Optional[Union[object, A]] = field(
+    e1_or_e2: Optional[Union[A, object]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -50,7 +51,7 @@ class Base:
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 

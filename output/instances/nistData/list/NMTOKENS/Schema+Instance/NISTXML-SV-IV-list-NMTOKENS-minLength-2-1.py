@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMinLength2(
     value=[
-        "The:mechanism_pro",
-        "a-the.management:",
-        "life-wide:basis-A",
-        "ensure.nature_to_",
-        "by-the.is.and:sta",
-        "database-understa",
+        'The:mechanism_pro',
+        'a-the.management:',
+        'life-wide:basis-A',
+        'ensure.nature_to_',
+        'by-the.is.and:sta',
+        'database-understa',
     ]
 )

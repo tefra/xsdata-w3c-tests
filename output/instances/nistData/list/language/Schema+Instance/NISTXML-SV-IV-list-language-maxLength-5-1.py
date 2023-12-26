@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListLanguageMaxLength5(
     value=[
-        "AZ-USA",
-        "BA-USA",
-        "BE-USA",
-        "BG-USA",
-        "BH-USA",
+        'AZ-USA',
+        'BA-USA',
+        'BE-USA',
+        'BG-USA',
+        'BH-USA',
     ]
 )

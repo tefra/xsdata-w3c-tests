@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength2(
-    value="_ensure-thus.localized:second-generation:templates.of.annual:by"
+    value='_ensure-thus.localized:second-generation:templates.of.annual:by'
 )

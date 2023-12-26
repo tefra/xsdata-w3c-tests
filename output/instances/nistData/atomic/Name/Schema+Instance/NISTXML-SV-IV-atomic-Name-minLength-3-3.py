@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength3(
-    value="eto-to-with.concepts.implementation-respect_be"
+    value='eto-to-with.concepts.implementation-respect_be'
 )

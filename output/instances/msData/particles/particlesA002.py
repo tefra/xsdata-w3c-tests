@@ -7,7 +7,7 @@ obj = Doc(
         elem=Elem(
 
         ),
-        elem1=""
+        elem1=''
     ),
-    elem1=""
+    elem1=''
 )

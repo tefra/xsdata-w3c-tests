@@ -15,7 +15,7 @@ class Global1:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Global2:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

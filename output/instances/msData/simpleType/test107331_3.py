@@ -6,14 +6,14 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Root(
     choice=[
         A(
-            value="12"
+            value='12'
         ),
         DerivedElement(
-            qname="b",
+            qname='b',
             value=-5.444
         ),
         DerivedElement(
-            qname="c",
+            qname='c',
             value=[
                 1.2,
                 3.4,

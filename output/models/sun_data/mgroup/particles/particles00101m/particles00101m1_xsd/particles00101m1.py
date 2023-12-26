@@ -17,5 +17,5 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

@@ -11,5 +11,5 @@ class Root:
         default="abc",
         metadata={
             "required": True,
-        }
+        },
     )

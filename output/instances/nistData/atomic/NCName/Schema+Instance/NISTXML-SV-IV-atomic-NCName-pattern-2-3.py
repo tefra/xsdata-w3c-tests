@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern2(
-    value="wand.forensics.processes.etc_due_that-def"
+    value='wand.forensics.processes.etc_due_that-def'
 )

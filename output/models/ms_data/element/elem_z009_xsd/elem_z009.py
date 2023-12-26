@@ -16,7 +16,7 @@ class Ct:
             "type": "Element",
             "namespace": "main",
             "required": True,
-        }
+        },
     )
 
 

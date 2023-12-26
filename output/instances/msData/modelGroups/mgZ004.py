@@ -5,8 +5,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     content=[
         AnyElement(
-            qname="{urn:test}A",
-            text=""
+            qname='{urn:test}A',
+            text=''
         ),
     ]
 )

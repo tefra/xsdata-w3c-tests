@@ -14,7 +14,7 @@ class ComplexfooType:
             "namespace": "",
             "required": True,
             "tokens": True,
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class SimpleTest:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -48,7 +48,7 @@ class Root:
             "name": "complexTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     simple_test: List[str] = field(
         default_factory=list,
@@ -57,5 +57,5 @@ class Root:
             "type": "Element",
             "required": True,
             "tokens": True,
-        }
+        },
     )

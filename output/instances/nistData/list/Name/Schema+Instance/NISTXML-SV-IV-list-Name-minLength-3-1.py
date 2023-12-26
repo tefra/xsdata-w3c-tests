@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMinLength3(
     value=[
-        ":address:communica",
-        "jmanipulate_signat",
-        "ra:localized-for:e",
-        "pe.tool:in-the.mus",
-        ":test:management-t",
-        "_any:back_via:can.",
-        "_pervasive:for-coo",
+        ':address:communica',
+        'jmanipulate_signat',
+        'ra:localized-for:e',
+        'pe.tool:in-the.mus',
+        ':test:management-t',
+        '_any:back_via:can.',
+        '_pervasive:for-coo',
     ]
 )

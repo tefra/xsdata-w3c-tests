@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.g_day.g_day_pattern001_xsd.g_day_pat
 
 
 obj = Test(
-    foo="---15"
+    foo='---15'
 )

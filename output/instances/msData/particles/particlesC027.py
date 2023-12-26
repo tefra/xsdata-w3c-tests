@@ -8,12 +8,12 @@ obj = Doc(
         AnyType(
             local_element=[
                 AnyElement(
-                    qname="a",
-                    text=""
+                    qname='a',
+                    text=''
                 ),
                 AnyElement(
-                    qname="b",
-                    text=""
+                    qname='b',
+                    text=''
                 ),
             ]
         ),

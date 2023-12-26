@@ -4,7 +4,7 @@ from output.models.ms_data.datatypes.normalized_string_xsd.normalized_string imp
 
 obj = Root(
     complex_test=ComplexTest(
-        comp_foo=""
+        comp_foo=''
     ),
-    simple_test=""
+    simple_test=''
 )

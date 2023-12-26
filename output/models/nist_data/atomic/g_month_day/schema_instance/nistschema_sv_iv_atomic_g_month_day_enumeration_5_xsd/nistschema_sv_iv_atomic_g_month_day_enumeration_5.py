@@ -28,5 +28,5 @@ class NistschemaSvIvAtomicGMonthDayEnumeration5:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

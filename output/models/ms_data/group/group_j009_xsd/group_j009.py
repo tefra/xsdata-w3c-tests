@@ -13,7 +13,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999,
-        }
+        },
     )
     b2: List[object] = field(
         default_factory=list,
@@ -21,7 +21,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999,
-        }
+        },
     )
 
 
@@ -35,5 +35,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

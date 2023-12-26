@@ -25,7 +25,7 @@ class FooType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -46,5 +46,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

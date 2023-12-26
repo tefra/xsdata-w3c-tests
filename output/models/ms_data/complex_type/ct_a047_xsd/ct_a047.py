@@ -11,14 +11,14 @@ class Foo:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",
             "type": "Attribute",
-        }
+        },
     )
 
 

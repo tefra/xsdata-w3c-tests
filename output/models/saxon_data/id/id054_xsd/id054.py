@@ -15,7 +15,7 @@ class EmpType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     nr: Optional[int] = field(
         default=None,
@@ -23,14 +23,14 @@ class EmpType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     manager: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -46,5 +46,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

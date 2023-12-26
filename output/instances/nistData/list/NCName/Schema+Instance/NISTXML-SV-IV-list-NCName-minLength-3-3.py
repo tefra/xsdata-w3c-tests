@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameMinLength3(
     value=[
-        "wpermitting-interop",
-        "fareas_security_and",
-        "_the.specifications",
-        "tonly.older-guideli",
-        "_networks.technolog",
-        "jenforcement-aid-th",
-        "raddition.and_in.ar",
-        "lwill.led_processor",
-        "min.and.to.of.infor",
+        'wpermitting-interop',
+        'fareas_security_and',
+        '_the.specifications',
+        'tonly.older-guideli',
+        '_networks.technolog',
+        'jenforcement-aid-th',
+        'raddition.and_in.ar',
+        'lwill.led_processor',
+        'min.and.to.of.infor',
     ]
 )

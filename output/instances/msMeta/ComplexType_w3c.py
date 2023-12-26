@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA001.xsd"
+                        href='../msData/complexType/ctA001.xsd'
                     ),
                 ],
                 expected=[
@@ -50,12 +50,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA001"
+                name='ctA001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA001.xml"
+                        href='../msData/complexType/ctA001.xml'
                     ),
                     expected=[
                         Expected(
@@ -66,10 +66,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA001.v"
+                    name='ctA001.v'
                 ),
             ],
-            name="ctA001"
+            name='ctA001'
         ),
         TestGroup(
             annotation=[
@@ -85,13 +85,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA002.xsd"
+                        href='../msData/complexType/ctA002.xsd'
                     ),
                 ],
                 expected=[
@@ -103,12 +103,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA002"
+                name='ctA002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA002.xml"
+                        href='../msData/complexType/ctA002.xml'
                     ),
                     expected=[
                         Expected(
@@ -119,10 +119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA002.v"
+                    name='ctA002.v'
                 ),
             ],
-            name="ctA002"
+            name='ctA002'
         ),
         TestGroup(
             annotation=[
@@ -138,13 +138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA003.xsd"
+                        href='../msData/complexType/ctA003.xsd'
                     ),
                 ],
                 expected=[
@@ -156,12 +156,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA003"
+                name='ctA003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA003.xml"
+                        href='../msData/complexType/ctA003.xml'
                     ),
                     expected=[
                         Expected(
@@ -172,10 +172,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA003.v"
+                    name='ctA003.v'
                 ),
             ],
-            name="ctA003"
+            name='ctA003'
         ),
         TestGroup(
             annotation=[
@@ -191,13 +191,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA004.xsd"
+                        href='../msData/complexType/ctA004.xsd'
                     ),
                 ],
                 expected=[
@@ -209,9 +209,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA004"
+                name='ctA004'
             ),
-            name="ctA004"
+            name='ctA004'
         ),
         TestGroup(
             annotation=[
@@ -227,13 +227,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA005.xsd"
+                        href='../msData/complexType/ctA005.xsd'
                     ),
                 ],
                 expected=[
@@ -245,12 +245,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA005"
+                name='ctA005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA005.xml"
+                        href='../msData/complexType/ctA005.xml'
                     ),
                     expected=[
                         Expected(
@@ -261,10 +261,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA005.v"
+                    name='ctA005.v'
                 ),
             ],
-            name="ctA005"
+            name='ctA005'
         ),
         TestGroup(
             annotation=[
@@ -280,13 +280,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA006.xsd"
+                        href='../msData/complexType/ctA006.xsd'
                     ),
                 ],
                 expected=[
@@ -298,9 +298,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA006"
+                name='ctA006'
             ),
-            name="ctA006"
+            name='ctA006'
         ),
         TestGroup(
             annotation=[
@@ -316,13 +316,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA007.xsd"
+                        href='../msData/complexType/ctA007.xsd'
                     ),
                 ],
                 expected=[
@@ -334,9 +334,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA007"
+                name='ctA007'
             ),
-            name="ctA007"
+            name='ctA007'
         ),
         TestGroup(
             annotation=[
@@ -352,13 +352,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA008.xsd"
+                        href='../msData/complexType/ctA008.xsd'
                     ),
                 ],
                 expected=[
@@ -370,9 +370,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA008"
+                name='ctA008'
             ),
-            name="ctA008"
+            name='ctA008'
         ),
         TestGroup(
             annotation=[
@@ -388,13 +388,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA009.xsd"
+                        href='../msData/complexType/ctA009.xsd'
                     ),
                 ],
                 expected=[
@@ -406,12 +406,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA009"
+                name='ctA009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA009.xml"
+                        href='../msData/complexType/ctA009.xml'
                     ),
                     expected=[
                         Expected(
@@ -422,10 +422,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA009.v"
+                    name='ctA009.v'
                 ),
             ],
-            name="ctA009"
+            name='ctA009'
         ),
         TestGroup(
             annotation=[
@@ -441,13 +441,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA010.xsd"
+                        href='../msData/complexType/ctA010.xsd'
                     ),
                 ],
                 expected=[
@@ -459,12 +459,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA010"
+                name='ctA010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA010.xml"
+                        href='../msData/complexType/ctA010.xml'
                     ),
                     expected=[
                         Expected(
@@ -475,10 +475,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA010.v"
+                    name='ctA010.v'
                 ),
             ],
-            name="ctA010"
+            name='ctA010'
         ),
         TestGroup(
             annotation=[
@@ -494,13 +494,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA011.xsd"
+                        href='../msData/complexType/ctA011.xsd'
                     ),
                 ],
                 expected=[
@@ -512,12 +512,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA011"
+                name='ctA011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA011.xml"
+                        href='../msData/complexType/ctA011.xml'
                     ),
                     expected=[
                         Expected(
@@ -528,10 +528,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA011.v"
+                    name='ctA011.v'
                 ),
             ],
-            name="ctA011"
+            name='ctA011'
         ),
         TestGroup(
             annotation=[
@@ -547,13 +547,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA012.xsd"
+                        href='../msData/complexType/ctA012.xsd'
                     ),
                 ],
                 expected=[
@@ -565,12 +565,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA012"
+                name='ctA012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA012.xml"
+                        href='../msData/complexType/ctA012.xml'
                     ),
                     expected=[
                         Expected(
@@ -581,10 +581,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA012.v"
+                    name='ctA012.v'
                 ),
             ],
-            name="ctA012"
+            name='ctA012'
         ),
         TestGroup(
             annotation=[
@@ -600,13 +600,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA013.xsd"
+                        href='../msData/complexType/ctA013.xsd'
                     ),
                 ],
                 expected=[
@@ -618,12 +618,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA013"
+                name='ctA013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA013.xml"
+                        href='../msData/complexType/ctA013.xml'
                     ),
                     expected=[
                         Expected(
@@ -634,10 +634,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA013.v"
+                    name='ctA013.v'
                 ),
             ],
-            name="ctA013"
+            name='ctA013'
         ),
         TestGroup(
             annotation=[
@@ -653,13 +653,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA014.xsd"
+                        href='../msData/complexType/ctA014.xsd'
                     ),
                 ],
                 expected=[
@@ -671,9 +671,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA014"
+                name='ctA014'
             ),
-            name="ctA014"
+            name='ctA014'
         ),
         TestGroup(
             annotation=[
@@ -689,13 +689,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA015.xsd"
+                        href='../msData/complexType/ctA015.xsd'
                     ),
                 ],
                 expected=[
@@ -707,9 +707,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA015"
+                name='ctA015'
             ),
-            name="ctA015"
+            name='ctA015'
         ),
         TestGroup(
             annotation=[
@@ -725,13 +725,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA016.xsd"
+                        href='../msData/complexType/ctA016.xsd'
                     ),
                 ],
                 expected=[
@@ -743,9 +743,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA016"
+                name='ctA016'
             ),
-            name="ctA016"
+            name='ctA016'
         ),
         TestGroup(
             annotation=[
@@ -761,13 +761,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA017.xsd"
+                        href='../msData/complexType/ctA017.xsd'
                     ),
                 ],
                 expected=[
@@ -779,12 +779,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA017"
+                name='ctA017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA017.xml"
+                        href='../msData/complexType/ctA017.xml'
                     ),
                     expected=[
                         Expected(
@@ -795,10 +795,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA017.v"
+                    name='ctA017.v'
                 ),
             ],
-            name="ctA017"
+            name='ctA017'
         ),
         TestGroup(
             annotation=[
@@ -814,13 +814,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA018.xsd"
+                        href='../msData/complexType/ctA018.xsd'
                     ),
                 ],
                 expected=[
@@ -832,12 +832,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA018"
+                name='ctA018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA018.xml"
+                        href='../msData/complexType/ctA018.xml'
                     ),
                     expected=[
                         Expected(
@@ -848,10 +848,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA018.v"
+                    name='ctA018.v'
                 ),
             ],
-            name="ctA018"
+            name='ctA018'
         ),
         TestGroup(
             annotation=[
@@ -867,13 +867,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA019.xsd"
+                        href='../msData/complexType/ctA019.xsd'
                     ),
                 ],
                 expected=[
@@ -885,12 +885,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA019"
+                name='ctA019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA019.xml"
+                        href='../msData/complexType/ctA019.xml'
                     ),
                     expected=[
                         Expected(
@@ -901,10 +901,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA019.v"
+                    name='ctA019.v'
                 ),
             ],
-            name="ctA019"
+            name='ctA019'
         ),
         TestGroup(
             annotation=[
@@ -920,13 +920,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA020.xsd"
+                        href='../msData/complexType/ctA020.xsd'
                     ),
                 ],
                 expected=[
@@ -938,12 +938,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA020"
+                name='ctA020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA020.xml"
+                        href='../msData/complexType/ctA020.xml'
                     ),
                     expected=[
                         Expected(
@@ -954,10 +954,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA020.v"
+                    name='ctA020.v'
                 ),
             ],
-            name="ctA020"
+            name='ctA020'
         ),
         TestGroup(
             annotation=[
@@ -973,13 +973,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA021.xsd"
+                        href='../msData/complexType/ctA021.xsd'
                     ),
                 ],
                 expected=[
@@ -991,12 +991,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA021"
+                name='ctA021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA021.xml"
+                        href='../msData/complexType/ctA021.xml'
                     ),
                     expected=[
                         Expected(
@@ -1007,10 +1007,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA021.v"
+                    name='ctA021.v'
                 ),
             ],
-            name="ctA021"
+            name='ctA021'
         ),
         TestGroup(
             annotation=[
@@ -1026,13 +1026,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA022.xsd"
+                        href='../msData/complexType/ctA022.xsd'
                     ),
                 ],
                 expected=[
@@ -1044,12 +1044,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA022"
+                name='ctA022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA022.xml"
+                        href='../msData/complexType/ctA022.xml'
                     ),
                     expected=[
                         Expected(
@@ -1060,10 +1060,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA022.v"
+                    name='ctA022.v'
                 ),
             ],
-            name="ctA022"
+            name='ctA022'
         ),
         TestGroup(
             annotation=[
@@ -1079,13 +1079,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA023.xsd"
+                        href='../msData/complexType/ctA023.xsd'
                     ),
                 ],
                 expected=[
@@ -1097,9 +1097,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA023"
+                name='ctA023'
             ),
-            name="ctA023"
+            name='ctA023'
         ),
         TestGroup(
             annotation=[
@@ -1115,13 +1115,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA024.xsd"
+                        href='../msData/complexType/ctA024.xsd'
                     ),
                 ],
                 expected=[
@@ -1133,9 +1133,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA024"
+                name='ctA024'
             ),
-            name="ctA024"
+            name='ctA024'
         ),
         TestGroup(
             annotation=[
@@ -1151,13 +1151,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA025.xsd"
+                        href='../msData/complexType/ctA025.xsd'
                     ),
                 ],
                 expected=[
@@ -1169,9 +1169,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA025"
+                name='ctA025'
             ),
-            name="ctA025"
+            name='ctA025'
         ),
         TestGroup(
             annotation=[
@@ -1187,13 +1187,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA026.xsd"
+                        href='../msData/complexType/ctA026.xsd'
                     ),
                 ],
                 expected=[
@@ -1205,12 +1205,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA026"
+                name='ctA026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA026.xml"
+                        href='../msData/complexType/ctA026.xml'
                     ),
                     expected=[
                         Expected(
@@ -1221,10 +1221,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA026.v"
+                    name='ctA026.v'
                 ),
             ],
-            name="ctA026"
+            name='ctA026'
         ),
         TestGroup(
             annotation=[
@@ -1240,13 +1240,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA027.xsd"
+                        href='../msData/complexType/ctA027.xsd'
                     ),
                 ],
                 expected=[
@@ -1258,12 +1258,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA027"
+                name='ctA027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA027.xml"
+                        href='../msData/complexType/ctA027.xml'
                     ),
                     expected=[
                         Expected(
@@ -1274,10 +1274,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA027.v"
+                    name='ctA027.v'
                 ),
             ],
-            name="ctA027"
+            name='ctA027'
         ),
         TestGroup(
             annotation=[
@@ -1293,13 +1293,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA028.xsd"
+                        href='../msData/complexType/ctA028.xsd'
                     ),
                 ],
                 expected=[
@@ -1311,9 +1311,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA028"
+                name='ctA028'
             ),
-            name="ctA028"
+            name='ctA028'
         ),
         TestGroup(
             annotation=[
@@ -1329,13 +1329,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA029.xsd"
+                        href='../msData/complexType/ctA029.xsd'
                     ),
                 ],
                 expected=[
@@ -1347,9 +1347,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA029"
+                name='ctA029'
             ),
-            name="ctA029"
+            name='ctA029'
         ),
         TestGroup(
             annotation=[
@@ -1365,13 +1365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA030.xsd"
+                        href='../msData/complexType/ctA030.xsd'
                     ),
                 ],
                 expected=[
@@ -1383,9 +1383,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA030"
+                name='ctA030'
             ),
-            name="ctA030"
+            name='ctA030'
         ),
         TestGroup(
             annotation=[
@@ -1401,13 +1401,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA031.xsd"
+                        href='../msData/complexType/ctA031.xsd'
                     ),
                 ],
                 expected=[
@@ -1419,9 +1419,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA031"
+                name='ctA031'
             ),
-            name="ctA031"
+            name='ctA031'
         ),
         TestGroup(
             annotation=[
@@ -1437,13 +1437,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA032.xsd"
+                        href='../msData/complexType/ctA032.xsd'
                     ),
                 ],
                 expected=[
@@ -1455,12 +1455,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA032"
+                name='ctA032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA032.xml"
+                        href='../msData/complexType/ctA032.xml'
                     ),
                     expected=[
                         Expected(
@@ -1471,10 +1471,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA032.v"
+                    name='ctA032.v'
                 ),
             ],
-            name="ctA032"
+            name='ctA032'
         ),
         TestGroup(
             annotation=[
@@ -1490,13 +1490,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA033.xsd"
+                        href='../msData/complexType/ctA033.xsd'
                     ),
                 ],
                 expected=[
@@ -1508,12 +1508,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA033"
+                name='ctA033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA033.xml"
+                        href='../msData/complexType/ctA033.xml'
                     ),
                     expected=[
                         Expected(
@@ -1524,10 +1524,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA033.v"
+                    name='ctA033.v'
                 ),
             ],
-            name="ctA033"
+            name='ctA033'
         ),
         TestGroup(
             annotation=[
@@ -1543,13 +1543,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA034.xsd"
+                        href='../msData/complexType/ctA034.xsd'
                     ),
                 ],
                 expected=[
@@ -1561,12 +1561,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA034"
+                name='ctA034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA034.xml"
+                        href='../msData/complexType/ctA034.xml'
                     ),
                     expected=[
                         Expected(
@@ -1577,10 +1577,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA034.v"
+                    name='ctA034.v'
                 ),
             ],
-            name="ctA034"
+            name='ctA034'
         ),
         TestGroup(
             annotation=[
@@ -1596,13 +1596,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA035.xsd"
+                        href='../msData/complexType/ctA035.xsd'
                     ),
                 ],
                 expected=[
@@ -1614,12 +1614,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA035"
+                name='ctA035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA035.xml"
+                        href='../msData/complexType/ctA035.xml'
                     ),
                     expected=[
                         Expected(
@@ -1630,10 +1630,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA035.v"
+                    name='ctA035.v'
                 ),
             ],
-            name="ctA035"
+            name='ctA035'
         ),
         TestGroup(
             annotation=[
@@ -1649,13 +1649,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA036.xsd"
+                        href='../msData/complexType/ctA036.xsd'
                     ),
                 ],
                 expected=[
@@ -1667,9 +1667,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA036"
+                name='ctA036'
             ),
-            name="ctA036"
+            name='ctA036'
         ),
         TestGroup(
             annotation=[
@@ -1685,13 +1685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA037.xsd"
+                        href='../msData/complexType/ctA037.xsd'
                     ),
                 ],
                 expected=[
@@ -1703,12 +1703,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA037"
+                name='ctA037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA037.xml"
+                        href='../msData/complexType/ctA037.xml'
                     ),
                     expected=[
                         Expected(
@@ -1719,10 +1719,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA037.v"
+                    name='ctA037.v'
                 ),
             ],
-            name="ctA037"
+            name='ctA037'
         ),
         TestGroup(
             annotation=[
@@ -1738,13 +1738,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA038.xsd"
+                        href='../msData/complexType/ctA038.xsd'
                     ),
                 ],
                 expected=[
@@ -1756,9 +1756,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA038"
+                name='ctA038'
             ),
-            name="ctA038"
+            name='ctA038'
         ),
         TestGroup(
             annotation=[
@@ -1774,13 +1774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA039.xsd"
+                        href='../msData/complexType/ctA039.xsd'
                     ),
                 ],
                 expected=[
@@ -1792,9 +1792,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA039"
+                name='ctA039'
             ),
-            name="ctA039"
+            name='ctA039'
         ),
         TestGroup(
             annotation=[
@@ -1810,13 +1810,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA040.xsd"
+                        href='../msData/complexType/ctA040.xsd'
                     ),
                 ],
                 expected=[
@@ -1828,9 +1828,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA040"
+                name='ctA040'
             ),
-            name="ctA040"
+            name='ctA040'
         ),
         TestGroup(
             annotation=[
@@ -1846,13 +1846,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA041.xsd"
+                        href='../msData/complexType/ctA041.xsd'
                     ),
                 ],
                 expected=[
@@ -1864,12 +1864,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA041"
+                name='ctA041'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA041.xml"
+                        href='../msData/complexType/ctA041.xml'
                     ),
                     expected=[
                         Expected(
@@ -1880,10 +1880,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA041.v"
+                    name='ctA041.v'
                 ),
             ],
-            name="ctA041"
+            name='ctA041'
         ),
         TestGroup(
             annotation=[
@@ -1899,13 +1899,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA042.xsd"
+                        href='../msData/complexType/ctA042.xsd'
                     ),
                 ],
                 expected=[
@@ -1917,9 +1917,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA042"
+                name='ctA042'
             ),
-            name="ctA042"
+            name='ctA042'
         ),
         TestGroup(
             annotation=[
@@ -1935,13 +1935,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA043.xsd"
+                        href='../msData/complexType/ctA043.xsd'
                     ),
                 ],
                 expected=[
@@ -1953,9 +1953,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA043"
+                name='ctA043'
             ),
-            name="ctA043"
+            name='ctA043'
         ),
         TestGroup(
             annotation=[
@@ -1971,13 +1971,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA044.xsd"
+                        href='../msData/complexType/ctA044.xsd'
                     ),
                 ],
                 expected=[
@@ -1989,9 +1989,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA044"
+                name='ctA044'
             ),
-            name="ctA044"
+            name='ctA044'
         ),
         TestGroup(
             annotation=[
@@ -2007,13 +2007,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA045.xsd"
+                        href='../msData/complexType/ctA045.xsd'
                     ),
                 ],
                 expected=[
@@ -2025,12 +2025,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA045"
+                name='ctA045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA045.xml"
+                        href='../msData/complexType/ctA045.xml'
                     ),
                     expected=[
                         Expected(
@@ -2041,10 +2041,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA045.v"
+                    name='ctA045.v'
                 ),
             ],
-            name="ctA045"
+            name='ctA045'
         ),
         TestGroup(
             annotation=[
@@ -2060,13 +2060,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA046.xsd"
+                        href='../msData/complexType/ctA046.xsd'
                     ),
                 ],
                 expected=[
@@ -2078,9 +2078,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA046"
+                name='ctA046'
             ),
-            name="ctA046"
+            name='ctA046'
         ),
         TestGroup(
             annotation=[
@@ -2096,13 +2096,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA047.xsd"
+                        href='../msData/complexType/ctA047.xsd'
                     ),
                 ],
                 expected=[
@@ -2114,12 +2114,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA047"
+                name='ctA047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA047.xml"
+                        href='../msData/complexType/ctA047.xml'
                     ),
                     expected=[
                         Expected(
@@ -2130,10 +2130,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA047.v"
+                    name='ctA047.v'
                 ),
             ],
-            name="ctA047"
+            name='ctA047'
         ),
         TestGroup(
             annotation=[
@@ -2149,13 +2149,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA048.xsd"
+                        href='../msData/complexType/ctA048.xsd'
                     ),
                 ],
                 expected=[
@@ -2167,12 +2167,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA048"
+                name='ctA048'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA048.xml"
+                        href='../msData/complexType/ctA048.xml'
                     ),
                     expected=[
                         Expected(
@@ -2183,10 +2183,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA048.v"
+                    name='ctA048.v'
                 ),
             ],
-            name="ctA048"
+            name='ctA048'
         ),
         TestGroup(
             annotation=[
@@ -2194,7 +2194,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : attribute with non-schema namespace",
+                                'TEST :Syntax Checking for top level complexType Declaration : attribute with non-schema namespace',
                             ]
                         ),
                     ]
@@ -2202,13 +2202,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctA049.xsd"
+                        href='../msData/complexType/ctA049.xsd'
                     ),
                 ],
                 expected=[
@@ -2220,12 +2220,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctA049"
+                name='ctA049'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctA049.xml"
+                        href='../msData/complexType/ctA049.xml'
                     ),
                     expected=[
                         Expected(
@@ -2236,10 +2236,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctA049.v"
+                    name='ctA049.v'
                 ),
             ],
-            name="ctA049"
+            name='ctA049'
         ),
         TestGroup(
             annotation=[
@@ -2247,7 +2247,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content of single annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content of single annotation',
                             ]
                         ),
                     ]
@@ -2255,13 +2255,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB001.xsd"
+                        href='../msData/complexType/ctB001.xsd'
                     ),
                 ],
                 expected=[
@@ -2273,12 +2273,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB001"
+                name='ctB001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB001.xml"
+                        href='../msData/complexType/ctB001.xml'
                     ),
                     expected=[
                         Expected(
@@ -2289,10 +2289,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB001.v"
+                    name='ctB001.v'
                 ),
             ],
-            name="ctB001"
+            name='ctB001'
         ),
         TestGroup(
             annotation=[
@@ -2300,7 +2300,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with two annotations",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with two annotations',
                             ]
                         ),
                     ]
@@ -2308,13 +2308,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB002.xsd"
+                        href='../msData/complexType/ctB002.xsd'
                     ),
                 ],
                 expected=[
@@ -2326,9 +2326,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB002"
+                name='ctB002'
             ),
-            name="ctB002"
+            name='ctB002'
         ),
         TestGroup(
             annotation=[
@@ -2336,7 +2336,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent',
                             ]
                         ),
                     ]
@@ -2344,13 +2344,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB003.xsd"
+                        href='../msData/complexType/ctB003.xsd'
                     ),
                 ],
                 expected=[
@@ -2362,12 +2362,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB003"
+                name='ctB003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB003.xml"
+                        href='../msData/complexType/ctB003.xml'
                     ),
                     expected=[
                         Expected(
@@ -2378,10 +2378,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB003.v"
+                    name='ctB003.v'
                 ),
             ],
-            name="ctB003"
+            name='ctB003'
         ),
         TestGroup(
             annotation=[
@@ -2389,7 +2389,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then annotation',
                             ]
                         ),
                     ]
@@ -2397,13 +2397,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB004.xsd"
+                        href='../msData/complexType/ctB004.xsd'
                     ),
                 ],
                 expected=[
@@ -2415,9 +2415,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB004"
+                name='ctB004'
             ),
-            name="ctB004"
+            name='ctB004'
         ),
         TestGroup(
             annotation=[
@@ -2425,7 +2425,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then simpleContent',
                             ]
                         ),
                     ]
@@ -2433,13 +2433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB005.xsd"
+                        href='../msData/complexType/ctB005.xsd'
                     ),
                 ],
                 expected=[
@@ -2451,9 +2451,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB005"
+                name='ctB005'
             ),
-            name="ctB005"
+            name='ctB005'
         ),
         TestGroup(
             annotation=[
@@ -2461,7 +2461,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then complexContent',
                             ]
                         ),
                     ]
@@ -2469,13 +2469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB006.xsd"
+                        href='../msData/complexType/ctB006.xsd'
                     ),
                 ],
                 expected=[
@@ -2487,9 +2487,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB006"
+                name='ctB006'
             ),
-            name="ctB006"
+            name='ctB006'
         ),
         TestGroup(
             annotation=[
@@ -2497,7 +2497,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then group',
                             ]
                         ),
                     ]
@@ -2505,13 +2505,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB007.xsd"
+                        href='../msData/complexType/ctB007.xsd'
                     ),
                 ],
                 expected=[
@@ -2523,9 +2523,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB007"
+                name='ctB007'
             ),
-            name="ctB007"
+            name='ctB007'
         ),
         TestGroup(
             annotation=[
@@ -2533,7 +2533,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then all',
                             ]
                         ),
                     ]
@@ -2541,13 +2541,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB008.xsd"
+                        href='../msData/complexType/ctB008.xsd'
                     ),
                 ],
                 expected=[
@@ -2559,9 +2559,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB008"
+                name='ctB008'
             ),
-            name="ctB008"
+            name='ctB008'
         ),
         TestGroup(
             annotation=[
@@ -2569,7 +2569,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then choice',
                             ]
                         ),
                     ]
@@ -2577,13 +2577,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB009.xsd"
+                        href='../msData/complexType/ctB009.xsd'
                     ),
                 ],
                 expected=[
@@ -2595,9 +2595,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB009"
+                name='ctB009'
             ),
-            name="ctB009"
+            name='ctB009'
         ),
         TestGroup(
             annotation=[
@@ -2605,7 +2605,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then sequence',
                             ]
                         ),
                     ]
@@ -2613,13 +2613,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB010.xsd"
+                        href='../msData/complexType/ctB010.xsd'
                     ),
                 ],
                 expected=[
@@ -2631,9 +2631,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB010"
+                name='ctB010'
             ),
-            name="ctB010"
+            name='ctB010'
         ),
         TestGroup(
             annotation=[
@@ -2641,7 +2641,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then attribute',
                             ]
                         ),
                     ]
@@ -2649,13 +2649,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB011.xsd"
+                        href='../msData/complexType/ctB011.xsd'
                     ),
                 ],
                 expected=[
@@ -2667,9 +2667,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB011"
+                name='ctB011'
             ),
-            name="ctB011"
+            name='ctB011'
         ),
         TestGroup(
             annotation=[
@@ -2677,7 +2677,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then two attributes',
                             ]
                         ),
                     ]
@@ -2685,13 +2685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB012.xsd"
+                        href='../msData/complexType/ctB012.xsd'
                     ),
                 ],
                 expected=[
@@ -2703,9 +2703,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB012"
+                name='ctB012'
             ),
-            name="ctB012"
+            name='ctB012'
         ),
         TestGroup(
             annotation=[
@@ -2713,7 +2713,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then attributeGroup',
                             ]
                         ),
                     ]
@@ -2721,13 +2721,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB013.xsd"
+                        href='../msData/complexType/ctB013.xsd'
                     ),
                 ],
                 expected=[
@@ -2739,9 +2739,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB013"
+                name='ctB013'
             ),
-            name="ctB013"
+            name='ctB013'
         ),
         TestGroup(
             annotation=[
@@ -2749,7 +2749,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then two attributeGroups',
                             ]
                         ),
                     ]
@@ -2757,13 +2757,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB014.xsd"
+                        href='../msData/complexType/ctB014.xsd'
                     ),
                 ],
                 expected=[
@@ -2775,9 +2775,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB014"
+                name='ctB014'
             ),
-            name="ctB014"
+            name='ctB014'
         ),
         TestGroup(
             annotation=[
@@ -2785,7 +2785,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then anyAttribute',
                             ]
                         ),
                     ]
@@ -2793,13 +2793,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB015.xsd"
+                        href='../msData/complexType/ctB015.xsd'
                     ),
                 ],
                 expected=[
@@ -2811,9 +2811,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB015"
+                name='ctB015'
             ),
-            name="ctB015"
+            name='ctB015'
         ),
         TestGroup(
             annotation=[
@@ -2821,7 +2821,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with simpleContent then two anyAttributes',
                             ]
                         ),
                     ]
@@ -2829,13 +2829,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB016.xsd"
+                        href='../msData/complexType/ctB016.xsd'
                     ),
                 ],
                 expected=[
@@ -2847,9 +2847,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB016"
+                name='ctB016'
             ),
-            name="ctB016"
+            name='ctB016'
         ),
         TestGroup(
             annotation=[
@@ -2857,7 +2857,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent',
                             ]
                         ),
                     ]
@@ -2865,13 +2865,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB017.xsd"
+                        href='../msData/complexType/ctB017.xsd'
                     ),
                 ],
                 expected=[
@@ -2883,12 +2883,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB017"
+                name='ctB017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB017.xml"
+                        href='../msData/complexType/ctB017.xml'
                     ),
                     expected=[
                         Expected(
@@ -2899,10 +2899,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB017.v"
+                    name='ctB017.v'
                 ),
             ],
-            name="ctB017"
+            name='ctB017'
         ),
         TestGroup(
             annotation=[
@@ -2910,7 +2910,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then annotation',
                             ]
                         ),
                     ]
@@ -2918,13 +2918,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB018.xsd"
+                        href='../msData/complexType/ctB018.xsd'
                     ),
                 ],
                 expected=[
@@ -2936,9 +2936,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB018"
+                name='ctB018'
             ),
-            name="ctB018"
+            name='ctB018'
         ),
         TestGroup(
             annotation=[
@@ -2946,7 +2946,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then simpleContent',
                             ]
                         ),
                     ]
@@ -2954,13 +2954,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB019.xsd"
+                        href='../msData/complexType/ctB019.xsd'
                     ),
                 ],
                 expected=[
@@ -2972,9 +2972,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB019"
+                name='ctB019'
             ),
-            name="ctB019"
+            name='ctB019'
         ),
         TestGroup(
             annotation=[
@@ -2982,7 +2982,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then complexContent',
                             ]
                         ),
                     ]
@@ -2990,13 +2990,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB020.xsd"
+                        href='../msData/complexType/ctB020.xsd'
                     ),
                 ],
                 expected=[
@@ -3008,9 +3008,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB020"
+                name='ctB020'
             ),
-            name="ctB020"
+            name='ctB020'
         ),
         TestGroup(
             annotation=[
@@ -3018,7 +3018,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then group',
                             ]
                         ),
                     ]
@@ -3026,13 +3026,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB021.xsd"
+                        href='../msData/complexType/ctB021.xsd'
                     ),
                 ],
                 expected=[
@@ -3044,9 +3044,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB021"
+                name='ctB021'
             ),
-            name="ctB021"
+            name='ctB021'
         ),
         TestGroup(
             annotation=[
@@ -3054,7 +3054,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then all',
                             ]
                         ),
                     ]
@@ -3062,13 +3062,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB022.xsd"
+                        href='../msData/complexType/ctB022.xsd'
                     ),
                 ],
                 expected=[
@@ -3080,9 +3080,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB022"
+                name='ctB022'
             ),
-            name="ctB022"
+            name='ctB022'
         ),
         TestGroup(
             annotation=[
@@ -3090,7 +3090,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then choice',
                             ]
                         ),
                     ]
@@ -3098,13 +3098,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB023.xsd"
+                        href='../msData/complexType/ctB023.xsd'
                     ),
                 ],
                 expected=[
@@ -3116,9 +3116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB023"
+                name='ctB023'
             ),
-            name="ctB023"
+            name='ctB023'
         ),
         TestGroup(
             annotation=[
@@ -3126,7 +3126,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then sequence',
                             ]
                         ),
                     ]
@@ -3134,13 +3134,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB024.xsd"
+                        href='../msData/complexType/ctB024.xsd'
                     ),
                 ],
                 expected=[
@@ -3152,9 +3152,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB024"
+                name='ctB024'
             ),
-            name="ctB024"
+            name='ctB024'
         ),
         TestGroup(
             annotation=[
@@ -3162,7 +3162,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then attribute',
                             ]
                         ),
                     ]
@@ -3170,13 +3170,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB025.xsd"
+                        href='../msData/complexType/ctB025.xsd'
                     ),
                 ],
                 expected=[
@@ -3188,9 +3188,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB025"
+                name='ctB025'
             ),
-            name="ctB025"
+            name='ctB025'
         ),
         TestGroup(
             annotation=[
@@ -3198,7 +3198,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then two attributes',
                             ]
                         ),
                     ]
@@ -3206,13 +3206,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB026.xsd"
+                        href='../msData/complexType/ctB026.xsd'
                     ),
                 ],
                 expected=[
@@ -3224,9 +3224,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB026"
+                name='ctB026'
             ),
-            name="ctB026"
+            name='ctB026'
         ),
         TestGroup(
             annotation=[
@@ -3234,7 +3234,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then attributeGroup',
                             ]
                         ),
                     ]
@@ -3242,13 +3242,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB027.xsd"
+                        href='../msData/complexType/ctB027.xsd'
                     ),
                 ],
                 expected=[
@@ -3260,9 +3260,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB027"
+                name='ctB027'
             ),
-            name="ctB027"
+            name='ctB027'
         ),
         TestGroup(
             annotation=[
@@ -3270,7 +3270,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then two attributeGroups',
                             ]
                         ),
                     ]
@@ -3278,13 +3278,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB028.xsd"
+                        href='../msData/complexType/ctB028.xsd'
                     ),
                 ],
                 expected=[
@@ -3296,9 +3296,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB028"
+                name='ctB028'
             ),
-            name="ctB028"
+            name='ctB028'
         ),
         TestGroup(
             annotation=[
@@ -3306,7 +3306,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then anyAttribute',
                             ]
                         ),
                     ]
@@ -3314,13 +3314,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB029.xsd"
+                        href='../msData/complexType/ctB029.xsd'
                     ),
                 ],
                 expected=[
@@ -3332,9 +3332,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB029"
+                name='ctB029'
             ),
-            name="ctB029"
+            name='ctB029'
         ),
         TestGroup(
             annotation=[
@@ -3342,7 +3342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with complexContent then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with complexContent then two anyAttributes',
                             ]
                         ),
                     ]
@@ -3350,13 +3350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB030.xsd"
+                        href='../msData/complexType/ctB030.xsd'
                     ),
                 ],
                 expected=[
@@ -3368,9 +3368,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB030"
+                name='ctB030'
             ),
-            name="ctB030"
+            name='ctB030'
         ),
         TestGroup(
             annotation=[
@@ -3378,7 +3378,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group',
                             ]
                         ),
                     ]
@@ -3386,13 +3386,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB031.xsd"
+                        href='../msData/complexType/ctB031.xsd'
                     ),
                 ],
                 expected=[
@@ -3404,12 +3404,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB031"
+                name='ctB031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB031.xml"
+                        href='../msData/complexType/ctB031.xml'
                     ),
                     expected=[
                         Expected(
@@ -3420,10 +3420,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB031.v"
+                    name='ctB031.v'
                 ),
             ],
-            name="ctB031"
+            name='ctB031'
         ),
         TestGroup(
             annotation=[
@@ -3431,7 +3431,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then annotation',
                             ]
                         ),
                     ]
@@ -3439,13 +3439,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB032.xsd"
+                        href='../msData/complexType/ctB032.xsd'
                     ),
                 ],
                 expected=[
@@ -3457,9 +3457,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB032"
+                name='ctB032'
             ),
-            name="ctB032"
+            name='ctB032'
         ),
         TestGroup(
             annotation=[
@@ -3467,7 +3467,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then simpleContent',
                             ]
                         ),
                     ]
@@ -3475,13 +3475,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB033.xsd"
+                        href='../msData/complexType/ctB033.xsd'
                     ),
                 ],
                 expected=[
@@ -3493,9 +3493,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB033"
+                name='ctB033'
             ),
-            name="ctB033"
+            name='ctB033'
         ),
         TestGroup(
             annotation=[
@@ -3503,7 +3503,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then complexContent',
                             ]
                         ),
                     ]
@@ -3511,13 +3511,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB034.xsd"
+                        href='../msData/complexType/ctB034.xsd'
                     ),
                 ],
                 expected=[
@@ -3529,9 +3529,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB034"
+                name='ctB034'
             ),
-            name="ctB034"
+            name='ctB034'
         ),
         TestGroup(
             annotation=[
@@ -3539,7 +3539,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then group',
                             ]
                         ),
                     ]
@@ -3547,13 +3547,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB035.xsd"
+                        href='../msData/complexType/ctB035.xsd'
                     ),
                 ],
                 expected=[
@@ -3565,9 +3565,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB035"
+                name='ctB035'
             ),
-            name="ctB035"
+            name='ctB035'
         ),
         TestGroup(
             annotation=[
@@ -3575,7 +3575,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then all',
                             ]
                         ),
                     ]
@@ -3583,13 +3583,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB036.xsd"
+                        href='../msData/complexType/ctB036.xsd'
                     ),
                 ],
                 expected=[
@@ -3601,9 +3601,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB036"
+                name='ctB036'
             ),
-            name="ctB036"
+            name='ctB036'
         ),
         TestGroup(
             annotation=[
@@ -3611,7 +3611,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then choice',
                             ]
                         ),
                     ]
@@ -3619,13 +3619,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB037.xsd"
+                        href='../msData/complexType/ctB037.xsd'
                     ),
                 ],
                 expected=[
@@ -3637,9 +3637,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB037"
+                name='ctB037'
             ),
-            name="ctB037"
+            name='ctB037'
         ),
         TestGroup(
             annotation=[
@@ -3647,7 +3647,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then sequence',
                             ]
                         ),
                     ]
@@ -3655,13 +3655,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB038.xsd"
+                        href='../msData/complexType/ctB038.xsd'
                     ),
                 ],
                 expected=[
@@ -3673,9 +3673,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB038"
+                name='ctB038'
             ),
-            name="ctB038"
+            name='ctB038'
         ),
         TestGroup(
             annotation=[
@@ -3683,7 +3683,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then attribute',
                             ]
                         ),
                     ]
@@ -3691,13 +3691,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB039.xsd"
+                        href='../msData/complexType/ctB039.xsd'
                     ),
                 ],
                 expected=[
@@ -3709,12 +3709,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB039"
+                name='ctB039'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB039.xml"
+                        href='../msData/complexType/ctB039.xml'
                     ),
                     expected=[
                         Expected(
@@ -3725,10 +3725,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB039.v"
+                    name='ctB039.v'
                 ),
             ],
-            name="ctB039"
+            name='ctB039'
         ),
         TestGroup(
             annotation=[
@@ -3736,7 +3736,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then two attributes',
                             ]
                         ),
                     ]
@@ -3744,13 +3744,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB040.xsd"
+                        href='../msData/complexType/ctB040.xsd'
                     ),
                 ],
                 expected=[
@@ -3762,12 +3762,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB040"
+                name='ctB040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB040.xml"
+                        href='../msData/complexType/ctB040.xml'
                     ),
                     expected=[
                         Expected(
@@ -3778,10 +3778,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB040.v"
+                    name='ctB040.v'
                 ),
             ],
-            name="ctB040"
+            name='ctB040'
         ),
         TestGroup(
             annotation=[
@@ -3789,7 +3789,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then attributeGroup',
                             ]
                         ),
                     ]
@@ -3797,13 +3797,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB041.xsd"
+                        href='../msData/complexType/ctB041.xsd'
                     ),
                 ],
                 expected=[
@@ -3815,12 +3815,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB041"
+                name='ctB041'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB041.xml"
+                        href='../msData/complexType/ctB041.xml'
                     ),
                     expected=[
                         Expected(
@@ -3831,10 +3831,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB041.v"
+                    name='ctB041.v'
                 ),
             ],
-            name="ctB041"
+            name='ctB041'
         ),
         TestGroup(
             annotation=[
@@ -3842,7 +3842,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then two attributeGroups',
                             ]
                         ),
                     ]
@@ -3850,13 +3850,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB042.xsd"
+                        href='../msData/complexType/ctB042.xsd'
                     ),
                 ],
                 expected=[
@@ -3868,12 +3868,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB042"
+                name='ctB042'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB042.xml"
+                        href='../msData/complexType/ctB042.xml'
                     ),
                     expected=[
                         Expected(
@@ -3884,10 +3884,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB042.v"
+                    name='ctB042.v'
                 ),
             ],
-            name="ctB042"
+            name='ctB042'
         ),
         TestGroup(
             annotation=[
@@ -3895,7 +3895,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then anyAttribute',
                             ]
                         ),
                     ]
@@ -3903,13 +3903,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB043.xsd"
+                        href='../msData/complexType/ctB043.xsd'
                     ),
                 ],
                 expected=[
@@ -3921,12 +3921,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB043"
+                name='ctB043'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB043.xml"
+                        href='../msData/complexType/ctB043.xml'
                     ),
                     expected=[
                         Expected(
@@ -3937,10 +3937,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB043.v"
+                    name='ctB043.v'
                 ),
             ],
-            name="ctB043"
+            name='ctB043'
         ),
         TestGroup(
             annotation=[
@@ -3948,7 +3948,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with group then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with group then two anyAttributes',
                             ]
                         ),
                     ]
@@ -3956,13 +3956,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB044.xsd"
+                        href='../msData/complexType/ctB044.xsd'
                     ),
                 ],
                 expected=[
@@ -3974,9 +3974,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB044"
+                name='ctB044'
             ),
-            name="ctB044"
+            name='ctB044'
         ),
         TestGroup(
             annotation=[
@@ -3984,7 +3984,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all',
                             ]
                         ),
                     ]
@@ -3992,13 +3992,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB045.xsd"
+                        href='../msData/complexType/ctB045.xsd'
                     ),
                 ],
                 expected=[
@@ -4010,12 +4010,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB045"
+                name='ctB045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB045.xml"
+                        href='../msData/complexType/ctB045.xml'
                     ),
                     expected=[
                         Expected(
@@ -4026,10 +4026,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB045.v"
+                    name='ctB045.v'
                 ),
             ],
-            name="ctB045"
+            name='ctB045'
         ),
         TestGroup(
             annotation=[
@@ -4037,7 +4037,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then annotation',
                             ]
                         ),
                     ]
@@ -4045,13 +4045,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB046.xsd"
+                        href='../msData/complexType/ctB046.xsd'
                     ),
                 ],
                 expected=[
@@ -4063,9 +4063,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB046"
+                name='ctB046'
             ),
-            name="ctB046"
+            name='ctB046'
         ),
         TestGroup(
             annotation=[
@@ -4073,7 +4073,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then simpleContent',
                             ]
                         ),
                     ]
@@ -4081,13 +4081,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB047.xsd"
+                        href='../msData/complexType/ctB047.xsd'
                     ),
                 ],
                 expected=[
@@ -4099,9 +4099,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB047"
+                name='ctB047'
             ),
-            name="ctB047"
+            name='ctB047'
         ),
         TestGroup(
             annotation=[
@@ -4109,7 +4109,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then complexContent',
                             ]
                         ),
                     ]
@@ -4117,13 +4117,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB048.xsd"
+                        href='../msData/complexType/ctB048.xsd'
                     ),
                 ],
                 expected=[
@@ -4135,9 +4135,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB048"
+                name='ctB048'
             ),
-            name="ctB048"
+            name='ctB048'
         ),
         TestGroup(
             annotation=[
@@ -4145,7 +4145,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then group',
                             ]
                         ),
                     ]
@@ -4153,13 +4153,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB049.xsd"
+                        href='../msData/complexType/ctB049.xsd'
                     ),
                 ],
                 expected=[
@@ -4171,9 +4171,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB049"
+                name='ctB049'
             ),
-            name="ctB049"
+            name='ctB049'
         ),
         TestGroup(
             annotation=[
@@ -4181,7 +4181,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then all',
                             ]
                         ),
                     ]
@@ -4189,13 +4189,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB050.xsd"
+                        href='../msData/complexType/ctB050.xsd'
                     ),
                 ],
                 expected=[
@@ -4207,9 +4207,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB050"
+                name='ctB050'
             ),
-            name="ctB050"
+            name='ctB050'
         ),
         TestGroup(
             annotation=[
@@ -4217,7 +4217,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then choice',
                             ]
                         ),
                     ]
@@ -4225,13 +4225,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB051.xsd"
+                        href='../msData/complexType/ctB051.xsd'
                     ),
                 ],
                 expected=[
@@ -4243,9 +4243,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB051"
+                name='ctB051'
             ),
-            name="ctB051"
+            name='ctB051'
         ),
         TestGroup(
             annotation=[
@@ -4253,7 +4253,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then sequence',
                             ]
                         ),
                     ]
@@ -4261,13 +4261,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB052.xsd"
+                        href='../msData/complexType/ctB052.xsd'
                     ),
                 ],
                 expected=[
@@ -4279,9 +4279,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB052"
+                name='ctB052'
             ),
-            name="ctB052"
+            name='ctB052'
         ),
         TestGroup(
             annotation=[
@@ -4289,7 +4289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then attribute',
                             ]
                         ),
                     ]
@@ -4297,13 +4297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB053.xsd"
+                        href='../msData/complexType/ctB053.xsd'
                     ),
                 ],
                 expected=[
@@ -4315,12 +4315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB053"
+                name='ctB053'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB053.xml"
+                        href='../msData/complexType/ctB053.xml'
                     ),
                     expected=[
                         Expected(
@@ -4331,10 +4331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB053.v"
+                    name='ctB053.v'
                 ),
             ],
-            name="ctB053"
+            name='ctB053'
         ),
         TestGroup(
             annotation=[
@@ -4342,7 +4342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then two attributes',
                             ]
                         ),
                     ]
@@ -4350,13 +4350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB054.xsd"
+                        href='../msData/complexType/ctB054.xsd'
                     ),
                 ],
                 expected=[
@@ -4368,12 +4368,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB054"
+                name='ctB054'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB054.xml"
+                        href='../msData/complexType/ctB054.xml'
                     ),
                     expected=[
                         Expected(
@@ -4384,10 +4384,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB054.v"
+                    name='ctB054.v'
                 ),
             ],
-            name="ctB054"
+            name='ctB054'
         ),
         TestGroup(
             annotation=[
@@ -4395,7 +4395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then attributeGroup',
                             ]
                         ),
                     ]
@@ -4403,13 +4403,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB055.xsd"
+                        href='../msData/complexType/ctB055.xsd'
                     ),
                 ],
                 expected=[
@@ -4421,12 +4421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB055"
+                name='ctB055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB055.xml"
+                        href='../msData/complexType/ctB055.xml'
                     ),
                     expected=[
                         Expected(
@@ -4437,10 +4437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB055.v"
+                    name='ctB055.v'
                 ),
             ],
-            name="ctB055"
+            name='ctB055'
         ),
         TestGroup(
             annotation=[
@@ -4448,7 +4448,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then two attributeGroups',
                             ]
                         ),
                     ]
@@ -4456,13 +4456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB056.xsd"
+                        href='../msData/complexType/ctB056.xsd'
                     ),
                 ],
                 expected=[
@@ -4474,12 +4474,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB056"
+                name='ctB056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB056.xml"
+                        href='../msData/complexType/ctB056.xml'
                     ),
                     expected=[
                         Expected(
@@ -4490,10 +4490,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB056.v"
+                    name='ctB056.v'
                 ),
             ],
-            name="ctB056"
+            name='ctB056'
         ),
         TestGroup(
             annotation=[
@@ -4501,7 +4501,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then anyAttribute',
                             ]
                         ),
                     ]
@@ -4509,13 +4509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB057.xsd"
+                        href='../msData/complexType/ctB057.xsd'
                     ),
                 ],
                 expected=[
@@ -4527,12 +4527,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB057"
+                name='ctB057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB057.xml"
+                        href='../msData/complexType/ctB057.xml'
                     ),
                     expected=[
                         Expected(
@@ -4543,10 +4543,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB057.v"
+                    name='ctB057.v'
                 ),
             ],
-            name="ctB057"
+            name='ctB057'
         ),
         TestGroup(
             annotation=[
@@ -4554,7 +4554,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with all then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with all then two anyAttributes',
                             ]
                         ),
                     ]
@@ -4562,13 +4562,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB058.xsd"
+                        href='../msData/complexType/ctB058.xsd'
                     ),
                 ],
                 expected=[
@@ -4580,9 +4580,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB058"
+                name='ctB058'
             ),
-            name="ctB058"
+            name='ctB058'
         ),
         TestGroup(
             annotation=[
@@ -4590,7 +4590,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice',
                             ]
                         ),
                     ]
@@ -4598,13 +4598,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB059.xsd"
+                        href='../msData/complexType/ctB059.xsd'
                     ),
                 ],
                 expected=[
@@ -4616,12 +4616,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB059"
+                name='ctB059'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB059.xml"
+                        href='../msData/complexType/ctB059.xml'
                     ),
                     expected=[
                         Expected(
@@ -4632,10 +4632,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB059.v"
+                    name='ctB059.v'
                 ),
             ],
-            name="ctB059"
+            name='ctB059'
         ),
         TestGroup(
             annotation=[
@@ -4643,7 +4643,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then annotation',
                             ]
                         ),
                     ]
@@ -4651,13 +4651,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB060.xsd"
+                        href='../msData/complexType/ctB060.xsd'
                     ),
                 ],
                 expected=[
@@ -4669,9 +4669,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB060"
+                name='ctB060'
             ),
-            name="ctB060"
+            name='ctB060'
         ),
         TestGroup(
             annotation=[
@@ -4679,7 +4679,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then simpleContent',
                             ]
                         ),
                     ]
@@ -4687,13 +4687,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB061.xsd"
+                        href='../msData/complexType/ctB061.xsd'
                     ),
                 ],
                 expected=[
@@ -4705,9 +4705,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB061"
+                name='ctB061'
             ),
-            name="ctB061"
+            name='ctB061'
         ),
         TestGroup(
             annotation=[
@@ -4715,7 +4715,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then complexContent',
                             ]
                         ),
                     ]
@@ -4723,13 +4723,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB062.xsd"
+                        href='../msData/complexType/ctB062.xsd'
                     ),
                 ],
                 expected=[
@@ -4741,9 +4741,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB062"
+                name='ctB062'
             ),
-            name="ctB062"
+            name='ctB062'
         ),
         TestGroup(
             annotation=[
@@ -4751,7 +4751,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then group',
                             ]
                         ),
                     ]
@@ -4759,13 +4759,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB063.xsd"
+                        href='../msData/complexType/ctB063.xsd'
                     ),
                 ],
                 expected=[
@@ -4777,9 +4777,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB063"
+                name='ctB063'
             ),
-            name="ctB063"
+            name='ctB063'
         ),
         TestGroup(
             annotation=[
@@ -4787,7 +4787,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then all',
                             ]
                         ),
                     ]
@@ -4795,13 +4795,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB064.xsd"
+                        href='../msData/complexType/ctB064.xsd'
                     ),
                 ],
                 expected=[
@@ -4813,9 +4813,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB064"
+                name='ctB064'
             ),
-            name="ctB064"
+            name='ctB064'
         ),
         TestGroup(
             annotation=[
@@ -4823,7 +4823,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then choice',
                             ]
                         ),
                     ]
@@ -4831,13 +4831,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB065.xsd"
+                        href='../msData/complexType/ctB065.xsd'
                     ),
                 ],
                 expected=[
@@ -4849,9 +4849,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB065"
+                name='ctB065'
             ),
-            name="ctB065"
+            name='ctB065'
         ),
         TestGroup(
             annotation=[
@@ -4859,7 +4859,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then sequence',
                             ]
                         ),
                     ]
@@ -4867,13 +4867,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB066.xsd"
+                        href='../msData/complexType/ctB066.xsd'
                     ),
                 ],
                 expected=[
@@ -4885,9 +4885,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB066"
+                name='ctB066'
             ),
-            name="ctB066"
+            name='ctB066'
         ),
         TestGroup(
             annotation=[
@@ -4895,7 +4895,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then attribute',
                             ]
                         ),
                     ]
@@ -4903,13 +4903,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB067.xsd"
+                        href='../msData/complexType/ctB067.xsd'
                     ),
                 ],
                 expected=[
@@ -4921,12 +4921,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB067"
+                name='ctB067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB067.xml"
+                        href='../msData/complexType/ctB067.xml'
                     ),
                     expected=[
                         Expected(
@@ -4937,10 +4937,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB067.v"
+                    name='ctB067.v'
                 ),
             ],
-            name="ctB067"
+            name='ctB067'
         ),
         TestGroup(
             annotation=[
@@ -4948,7 +4948,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then two attributes',
                             ]
                         ),
                     ]
@@ -4956,13 +4956,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB068.xsd"
+                        href='../msData/complexType/ctB068.xsd'
                     ),
                 ],
                 expected=[
@@ -4974,12 +4974,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB068"
+                name='ctB068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB068.xml"
+                        href='../msData/complexType/ctB068.xml'
                     ),
                     expected=[
                         Expected(
@@ -4990,10 +4990,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB068.v"
+                    name='ctB068.v'
                 ),
             ],
-            name="ctB068"
+            name='ctB068'
         ),
         TestGroup(
             annotation=[
@@ -5001,7 +5001,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then attributeGroup',
                             ]
                         ),
                     ]
@@ -5009,13 +5009,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB069.xsd"
+                        href='../msData/complexType/ctB069.xsd'
                     ),
                 ],
                 expected=[
@@ -5027,12 +5027,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB069"
+                name='ctB069'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB069.xml"
+                        href='../msData/complexType/ctB069.xml'
                     ),
                     expected=[
                         Expected(
@@ -5043,10 +5043,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB069.v"
+                    name='ctB069.v'
                 ),
             ],
-            name="ctB069"
+            name='ctB069'
         ),
         TestGroup(
             annotation=[
@@ -5054,7 +5054,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then two attributeGroups',
                             ]
                         ),
                     ]
@@ -5062,13 +5062,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB070.xsd"
+                        href='../msData/complexType/ctB070.xsd'
                     ),
                 ],
                 expected=[
@@ -5080,12 +5080,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB070"
+                name='ctB070'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB070.xml"
+                        href='../msData/complexType/ctB070.xml'
                     ),
                     expected=[
                         Expected(
@@ -5096,10 +5096,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB070.v"
+                    name='ctB070.v'
                 ),
             ],
-            name="ctB070"
+            name='ctB070'
         ),
         TestGroup(
             annotation=[
@@ -5107,7 +5107,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then anyAttribute',
                             ]
                         ),
                     ]
@@ -5115,13 +5115,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB071.xsd"
+                        href='../msData/complexType/ctB071.xsd'
                     ),
                 ],
                 expected=[
@@ -5133,12 +5133,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB071"
+                name='ctB071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB071.xml"
+                        href='../msData/complexType/ctB071.xml'
                     ),
                     expected=[
                         Expected(
@@ -5149,10 +5149,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB071.v"
+                    name='ctB071.v'
                 ),
             ],
-            name="ctB071"
+            name='ctB071'
         ),
         TestGroup(
             annotation=[
@@ -5160,7 +5160,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with choice then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with choice then two anyAttributes',
                             ]
                         ),
                     ]
@@ -5168,13 +5168,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB072.xsd"
+                        href='../msData/complexType/ctB072.xsd'
                     ),
                 ],
                 expected=[
@@ -5186,9 +5186,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB072"
+                name='ctB072'
             ),
-            name="ctB072"
+            name='ctB072'
         ),
         TestGroup(
             annotation=[
@@ -5196,7 +5196,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence',
                             ]
                         ),
                     ]
@@ -5204,13 +5204,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB073.xsd"
+                        href='../msData/complexType/ctB073.xsd'
                     ),
                 ],
                 expected=[
@@ -5222,12 +5222,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB073"
+                name='ctB073'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB073.xml"
+                        href='../msData/complexType/ctB073.xml'
                     ),
                     expected=[
                         Expected(
@@ -5238,10 +5238,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB073.v"
+                    name='ctB073.v'
                 ),
             ],
-            name="ctB073"
+            name='ctB073'
         ),
         TestGroup(
             annotation=[
@@ -5249,7 +5249,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then annotation',
                             ]
                         ),
                     ]
@@ -5257,13 +5257,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB074.xsd"
+                        href='../msData/complexType/ctB074.xsd'
                     ),
                 ],
                 expected=[
@@ -5275,9 +5275,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB074"
+                name='ctB074'
             ),
-            name="ctB074"
+            name='ctB074'
         ),
         TestGroup(
             annotation=[
@@ -5285,7 +5285,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then simpleContent',
                             ]
                         ),
                     ]
@@ -5293,13 +5293,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB075.xsd"
+                        href='../msData/complexType/ctB075.xsd'
                     ),
                 ],
                 expected=[
@@ -5311,9 +5311,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB075"
+                name='ctB075'
             ),
-            name="ctB075"
+            name='ctB075'
         ),
         TestGroup(
             annotation=[
@@ -5321,7 +5321,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then complexContent',
                             ]
                         ),
                     ]
@@ -5329,13 +5329,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB076.xsd"
+                        href='../msData/complexType/ctB076.xsd'
                     ),
                 ],
                 expected=[
@@ -5347,9 +5347,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB076"
+                name='ctB076'
             ),
-            name="ctB076"
+            name='ctB076'
         ),
         TestGroup(
             annotation=[
@@ -5357,7 +5357,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then group',
                             ]
                         ),
                     ]
@@ -5365,13 +5365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB077.xsd"
+                        href='../msData/complexType/ctB077.xsd'
                     ),
                 ],
                 expected=[
@@ -5383,9 +5383,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB077"
+                name='ctB077'
             ),
-            name="ctB077"
+            name='ctB077'
         ),
         TestGroup(
             annotation=[
@@ -5393,7 +5393,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then all',
                             ]
                         ),
                     ]
@@ -5401,13 +5401,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB078.xsd"
+                        href='../msData/complexType/ctB078.xsd'
                     ),
                 ],
                 expected=[
@@ -5419,9 +5419,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB078"
+                name='ctB078'
             ),
-            name="ctB078"
+            name='ctB078'
         ),
         TestGroup(
             annotation=[
@@ -5429,7 +5429,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then choice',
                             ]
                         ),
                     ]
@@ -5437,13 +5437,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB079.xsd"
+                        href='../msData/complexType/ctB079.xsd'
                     ),
                 ],
                 expected=[
@@ -5455,9 +5455,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB079"
+                name='ctB079'
             ),
-            name="ctB079"
+            name='ctB079'
         ),
         TestGroup(
             annotation=[
@@ -5465,7 +5465,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then sequence',
                             ]
                         ),
                     ]
@@ -5473,13 +5473,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB080.xsd"
+                        href='../msData/complexType/ctB080.xsd'
                     ),
                 ],
                 expected=[
@@ -5491,9 +5491,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB080"
+                name='ctB080'
             ),
-            name="ctB080"
+            name='ctB080'
         ),
         TestGroup(
             annotation=[
@@ -5501,7 +5501,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then attribute',
                             ]
                         ),
                     ]
@@ -5509,13 +5509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB081.xsd"
+                        href='../msData/complexType/ctB081.xsd'
                     ),
                 ],
                 expected=[
@@ -5527,12 +5527,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB081"
+                name='ctB081'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB081.xml"
+                        href='../msData/complexType/ctB081.xml'
                     ),
                     expected=[
                         Expected(
@@ -5543,10 +5543,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB081.v"
+                    name='ctB081.v'
                 ),
             ],
-            name="ctB081"
+            name='ctB081'
         ),
         TestGroup(
             annotation=[
@@ -5554,7 +5554,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then two attributes',
                             ]
                         ),
                     ]
@@ -5562,13 +5562,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB082.xsd"
+                        href='../msData/complexType/ctB082.xsd'
                     ),
                 ],
                 expected=[
@@ -5580,12 +5580,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB082"
+                name='ctB082'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB082.xml"
+                        href='../msData/complexType/ctB082.xml'
                     ),
                     expected=[
                         Expected(
@@ -5596,10 +5596,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB082.v"
+                    name='ctB082.v'
                 ),
             ],
-            name="ctB082"
+            name='ctB082'
         ),
         TestGroup(
             annotation=[
@@ -5607,7 +5607,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then attributeGroup',
                             ]
                         ),
                     ]
@@ -5615,13 +5615,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB083.xsd"
+                        href='../msData/complexType/ctB083.xsd'
                     ),
                 ],
                 expected=[
@@ -5633,12 +5633,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB083"
+                name='ctB083'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB083.xml"
+                        href='../msData/complexType/ctB083.xml'
                     ),
                     expected=[
                         Expected(
@@ -5649,10 +5649,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB083.v"
+                    name='ctB083.v'
                 ),
             ],
-            name="ctB083"
+            name='ctB083'
         ),
         TestGroup(
             annotation=[
@@ -5660,7 +5660,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then two attributeGroups',
                             ]
                         ),
                     ]
@@ -5668,13 +5668,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB084.xsd"
+                        href='../msData/complexType/ctB084.xsd'
                     ),
                 ],
                 expected=[
@@ -5686,12 +5686,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB084"
+                name='ctB084'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB084.xml"
+                        href='../msData/complexType/ctB084.xml'
                     ),
                     expected=[
                         Expected(
@@ -5702,10 +5702,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB084.v"
+                    name='ctB084.v'
                 ),
             ],
-            name="ctB084"
+            name='ctB084'
         ),
         TestGroup(
             annotation=[
@@ -5713,7 +5713,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then anyAttribute',
                             ]
                         ),
                     ]
@@ -5721,13 +5721,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB085.xsd"
+                        href='../msData/complexType/ctB085.xsd'
                     ),
                 ],
                 expected=[
@@ -5739,12 +5739,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB085"
+                name='ctB085'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB085.xml"
+                        href='../msData/complexType/ctB085.xml'
                     ),
                     expected=[
                         Expected(
@@ -5755,10 +5755,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB085.v"
+                    name='ctB085.v'
                 ),
             ],
-            name="ctB085"
+            name='ctB085'
         ),
         TestGroup(
             annotation=[
@@ -5766,7 +5766,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with sequence then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with sequence then two anyAttributes',
                             ]
                         ),
                     ]
@@ -5774,13 +5774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB086.xsd"
+                        href='../msData/complexType/ctB086.xsd'
                     ),
                 ],
                 expected=[
@@ -5792,9 +5792,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB086"
+                name='ctB086'
             ),
-            name="ctB086"
+            name='ctB086'
         ),
         TestGroup(
             annotation=[
@@ -5802,7 +5802,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute',
                             ]
                         ),
                     ]
@@ -5810,13 +5810,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB087.xsd"
+                        href='../msData/complexType/ctB087.xsd'
                     ),
                 ],
                 expected=[
@@ -5828,12 +5828,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB087"
+                name='ctB087'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB087.xml"
+                        href='../msData/complexType/ctB087.xml'
                     ),
                     expected=[
                         Expected(
@@ -5844,10 +5844,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB087.v"
+                    name='ctB087.v'
                 ),
             ],
-            name="ctB087"
+            name='ctB087'
         ),
         TestGroup(
             annotation=[
@@ -5855,7 +5855,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then annotation',
                             ]
                         ),
                     ]
@@ -5863,13 +5863,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB088.xsd"
+                        href='../msData/complexType/ctB088.xsd'
                     ),
                 ],
                 expected=[
@@ -5881,9 +5881,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB088"
+                name='ctB088'
             ),
-            name="ctB088"
+            name='ctB088'
         ),
         TestGroup(
             annotation=[
@@ -5891,7 +5891,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then simpleContent',
                             ]
                         ),
                     ]
@@ -5899,13 +5899,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB089.xsd"
+                        href='../msData/complexType/ctB089.xsd'
                     ),
                 ],
                 expected=[
@@ -5917,9 +5917,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB089"
+                name='ctB089'
             ),
-            name="ctB089"
+            name='ctB089'
         ),
         TestGroup(
             annotation=[
@@ -5927,7 +5927,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then complexContent',
                             ]
                         ),
                     ]
@@ -5935,13 +5935,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB090.xsd"
+                        href='../msData/complexType/ctB090.xsd'
                     ),
                 ],
                 expected=[
@@ -5953,9 +5953,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB090"
+                name='ctB090'
             ),
-            name="ctB090"
+            name='ctB090'
         ),
         TestGroup(
             annotation=[
@@ -5963,7 +5963,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then group',
                             ]
                         ),
                     ]
@@ -5971,13 +5971,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB091.xsd"
+                        href='../msData/complexType/ctB091.xsd'
                     ),
                 ],
                 expected=[
@@ -5989,9 +5989,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB091"
+                name='ctB091'
             ),
-            name="ctB091"
+            name='ctB091'
         ),
         TestGroup(
             annotation=[
@@ -5999,7 +5999,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then all',
                             ]
                         ),
                     ]
@@ -6007,13 +6007,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB092.xsd"
+                        href='../msData/complexType/ctB092.xsd'
                     ),
                 ],
                 expected=[
@@ -6025,9 +6025,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB092"
+                name='ctB092'
             ),
-            name="ctB092"
+            name='ctB092'
         ),
         TestGroup(
             annotation=[
@@ -6035,7 +6035,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then choice',
                             ]
                         ),
                     ]
@@ -6043,13 +6043,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB093.xsd"
+                        href='../msData/complexType/ctB093.xsd'
                     ),
                 ],
                 expected=[
@@ -6061,9 +6061,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB093"
+                name='ctB093'
             ),
-            name="ctB093"
+            name='ctB093'
         ),
         TestGroup(
             annotation=[
@@ -6071,7 +6071,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then sequence',
                             ]
                         ),
                     ]
@@ -6079,13 +6079,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB094.xsd"
+                        href='../msData/complexType/ctB094.xsd'
                     ),
                 ],
                 expected=[
@@ -6097,9 +6097,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB094"
+                name='ctB094'
             ),
-            name="ctB094"
+            name='ctB094'
         ),
         TestGroup(
             annotation=[
@@ -6107,7 +6107,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then attribute',
                             ]
                         ),
                     ]
@@ -6115,13 +6115,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB095.xsd"
+                        href='../msData/complexType/ctB095.xsd'
                     ),
                 ],
                 expected=[
@@ -6133,12 +6133,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB095"
+                name='ctB095'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB095.xml"
+                        href='../msData/complexType/ctB095.xml'
                     ),
                     expected=[
                         Expected(
@@ -6149,10 +6149,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB095.v"
+                    name='ctB095.v'
                 ),
             ],
-            name="ctB095"
+            name='ctB095'
         ),
         TestGroup(
             annotation=[
@@ -6160,7 +6160,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then attributeGroup',
                             ]
                         ),
                     ]
@@ -6168,13 +6168,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB096.xsd"
+                        href='../msData/complexType/ctB096.xsd'
                     ),
                 ],
                 expected=[
@@ -6186,12 +6186,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB096"
+                name='ctB096'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB096.xml"
+                        href='../msData/complexType/ctB096.xml'
                     ),
                     expected=[
                         Expected(
@@ -6202,10 +6202,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB096.v"
+                    name='ctB096.v'
                 ),
             ],
-            name="ctB096"
+            name='ctB096'
         ),
         TestGroup(
             annotation=[
@@ -6213,7 +6213,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then two attributeGroups',
                             ]
                         ),
                     ]
@@ -6221,13 +6221,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB097.xsd"
+                        href='../msData/complexType/ctB097.xsd'
                     ),
                 ],
                 expected=[
@@ -6239,12 +6239,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB097"
+                name='ctB097'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB097.xml"
+                        href='../msData/complexType/ctB097.xml'
                     ),
                     expected=[
                         Expected(
@@ -6255,10 +6255,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB097.v"
+                    name='ctB097.v'
                 ),
             ],
-            name="ctB097"
+            name='ctB097'
         ),
         TestGroup(
             annotation=[
@@ -6266,7 +6266,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then anyAttribute',
                             ]
                         ),
                     ]
@@ -6274,13 +6274,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB098.xsd"
+                        href='../msData/complexType/ctB098.xsd'
                     ),
                 ],
                 expected=[
@@ -6292,12 +6292,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB098"
+                name='ctB098'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB098.xml"
+                        href='../msData/complexType/ctB098.xml'
                     ),
                     expected=[
                         Expected(
@@ -6308,10 +6308,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB098.v"
+                    name='ctB098.v'
                 ),
             ],
-            name="ctB098"
+            name='ctB098'
         ),
         TestGroup(
             annotation=[
@@ -6319,7 +6319,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attribute then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attribute then two anyAttributes',
                             ]
                         ),
                     ]
@@ -6327,13 +6327,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB099.xsd"
+                        href='../msData/complexType/ctB099.xsd'
                     ),
                 ],
                 expected=[
@@ -6345,9 +6345,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB099"
+                name='ctB099'
             ),
-            name="ctB099"
+            name='ctB099'
         ),
         TestGroup(
             annotation=[
@@ -6355,7 +6355,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup',
                             ]
                         ),
                     ]
@@ -6363,13 +6363,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB100.xsd"
+                        href='../msData/complexType/ctB100.xsd'
                     ),
                 ],
                 expected=[
@@ -6381,12 +6381,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB100"
+                name='ctB100'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB100.xml"
+                        href='../msData/complexType/ctB100.xml'
                     ),
                     expected=[
                         Expected(
@@ -6397,10 +6397,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB100.v"
+                    name='ctB100.v'
                 ),
             ],
-            name="ctB100"
+            name='ctB100'
         ),
         TestGroup(
             annotation=[
@@ -6408,7 +6408,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then annotation',
                             ]
                         ),
                     ]
@@ -6416,13 +6416,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB101.xsd"
+                        href='../msData/complexType/ctB101.xsd'
                     ),
                 ],
                 expected=[
@@ -6434,9 +6434,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB101"
+                name='ctB101'
             ),
-            name="ctB101"
+            name='ctB101'
         ),
         TestGroup(
             annotation=[
@@ -6444,7 +6444,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then simpleContent',
                             ]
                         ),
                     ]
@@ -6452,13 +6452,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB102.xsd"
+                        href='../msData/complexType/ctB102.xsd'
                     ),
                 ],
                 expected=[
@@ -6470,9 +6470,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB102"
+                name='ctB102'
             ),
-            name="ctB102"
+            name='ctB102'
         ),
         TestGroup(
             annotation=[
@@ -6480,7 +6480,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then complexContent',
                             ]
                         ),
                     ]
@@ -6488,13 +6488,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB103.xsd"
+                        href='../msData/complexType/ctB103.xsd'
                     ),
                 ],
                 expected=[
@@ -6506,9 +6506,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB103"
+                name='ctB103'
             ),
-            name="ctB103"
+            name='ctB103'
         ),
         TestGroup(
             annotation=[
@@ -6516,7 +6516,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then group',
                             ]
                         ),
                     ]
@@ -6524,13 +6524,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB104.xsd"
+                        href='../msData/complexType/ctB104.xsd'
                     ),
                 ],
                 expected=[
@@ -6542,9 +6542,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB104"
+                name='ctB104'
             ),
-            name="ctB104"
+            name='ctB104'
         ),
         TestGroup(
             annotation=[
@@ -6552,7 +6552,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then all',
                             ]
                         ),
                     ]
@@ -6560,13 +6560,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB105.xsd"
+                        href='../msData/complexType/ctB105.xsd'
                     ),
                 ],
                 expected=[
@@ -6578,9 +6578,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB105"
+                name='ctB105'
             ),
-            name="ctB105"
+            name='ctB105'
         ),
         TestGroup(
             annotation=[
@@ -6588,7 +6588,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then choice',
                             ]
                         ),
                     ]
@@ -6596,13 +6596,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB106.xsd"
+                        href='../msData/complexType/ctB106.xsd'
                     ),
                 ],
                 expected=[
@@ -6614,9 +6614,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB106"
+                name='ctB106'
             ),
-            name="ctB106"
+            name='ctB106'
         ),
         TestGroup(
             annotation=[
@@ -6624,7 +6624,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then sequence',
                             ]
                         ),
                     ]
@@ -6632,13 +6632,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB107.xsd"
+                        href='../msData/complexType/ctB107.xsd'
                     ),
                 ],
                 expected=[
@@ -6650,9 +6650,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB107"
+                name='ctB107'
             ),
-            name="ctB107"
+            name='ctB107'
         ),
         TestGroup(
             annotation=[
@@ -6660,7 +6660,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then attribute',
                             ]
                         ),
                     ]
@@ -6668,13 +6668,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB108.xsd"
+                        href='../msData/complexType/ctB108.xsd'
                     ),
                 ],
                 expected=[
@@ -6686,12 +6686,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB108"
+                name='ctB108'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB108.xml"
+                        href='../msData/complexType/ctB108.xml'
                     ),
                     expected=[
                         Expected(
@@ -6702,10 +6702,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB108.v"
+                    name='ctB108.v'
                 ),
             ],
-            name="ctB108"
+            name='ctB108'
         ),
         TestGroup(
             annotation=[
@@ -6713,7 +6713,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then two attributes',
                             ]
                         ),
                     ]
@@ -6721,13 +6721,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB109.xsd"
+                        href='../msData/complexType/ctB109.xsd'
                     ),
                 ],
                 expected=[
@@ -6739,12 +6739,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB109"
+                name='ctB109'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB109.xml"
+                        href='../msData/complexType/ctB109.xml'
                     ),
                     expected=[
                         Expected(
@@ -6755,10 +6755,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB109.v"
+                    name='ctB109.v'
                 ),
             ],
-            name="ctB109"
+            name='ctB109'
         ),
         TestGroup(
             annotation=[
@@ -6766,7 +6766,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then attributeGroup',
                             ]
                         ),
                     ]
@@ -6774,13 +6774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB110.xsd"
+                        href='../msData/complexType/ctB110.xsd'
                     ),
                 ],
                 expected=[
@@ -6792,12 +6792,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB110"
+                name='ctB110'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB110.xml"
+                        href='../msData/complexType/ctB110.xml'
                     ),
                     expected=[
                         Expected(
@@ -6808,10 +6808,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB110.v"
+                    name='ctB110.v'
                 ),
             ],
-            name="ctB110"
+            name='ctB110'
         ),
         TestGroup(
             annotation=[
@@ -6819,7 +6819,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then anyAttribute',
                             ]
                         ),
                     ]
@@ -6827,13 +6827,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB111.xsd"
+                        href='../msData/complexType/ctB111.xsd'
                     ),
                 ],
                 expected=[
@@ -6845,12 +6845,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB111"
+                name='ctB111'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB111.xml"
+                        href='../msData/complexType/ctB111.xml'
                     ),
                     expected=[
                         Expected(
@@ -6861,10 +6861,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB111.v"
+                    name='ctB111.v'
                 ),
             ],
-            name="ctB111"
+            name='ctB111'
         ),
         TestGroup(
             annotation=[
@@ -6872,7 +6872,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with attributeGroup then two anyAttributes',
                             ]
                         ),
                     ]
@@ -6880,13 +6880,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB112.xsd"
+                        href='../msData/complexType/ctB112.xsd'
                     ),
                 ],
                 expected=[
@@ -6898,9 +6898,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB112"
+                name='ctB112'
             ),
-            name="ctB112"
+            name='ctB112'
         ),
         TestGroup(
             annotation=[
@@ -6908,7 +6908,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute',
                             ]
                         ),
                     ]
@@ -6916,13 +6916,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB113.xsd"
+                        href='../msData/complexType/ctB113.xsd'
                     ),
                 ],
                 expected=[
@@ -6934,12 +6934,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB113"
+                name='ctB113'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctB113.xml"
+                        href='../msData/complexType/ctB113.xml'
                     ),
                     expected=[
                         Expected(
@@ -6950,10 +6950,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctB113.v"
+                    name='ctB113.v'
                 ),
             ],
-            name="ctB113"
+            name='ctB113'
         ),
         TestGroup(
             annotation=[
@@ -6961,7 +6961,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then annotation',
                             ]
                         ),
                     ]
@@ -6969,13 +6969,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB114.xsd"
+                        href='../msData/complexType/ctB114.xsd'
                     ),
                 ],
                 expected=[
@@ -6987,9 +6987,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB114"
+                name='ctB114'
             ),
-            name="ctB114"
+            name='ctB114'
         ),
         TestGroup(
             annotation=[
@@ -6997,7 +6997,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then simpleContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then simpleContent',
                             ]
                         ),
                     ]
@@ -7005,13 +7005,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB115.xsd"
+                        href='../msData/complexType/ctB115.xsd'
                     ),
                 ],
                 expected=[
@@ -7023,9 +7023,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB115"
+                name='ctB115'
             ),
-            name="ctB115"
+            name='ctB115'
         ),
         TestGroup(
             annotation=[
@@ -7033,7 +7033,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then complexContent",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then complexContent',
                             ]
                         ),
                     ]
@@ -7041,13 +7041,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB116.xsd"
+                        href='../msData/complexType/ctB116.xsd'
                     ),
                 ],
                 expected=[
@@ -7059,9 +7059,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB116"
+                name='ctB116'
             ),
-            name="ctB116"
+            name='ctB116'
         ),
         TestGroup(
             annotation=[
@@ -7069,7 +7069,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then group',
                             ]
                         ),
                     ]
@@ -7077,13 +7077,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB117.xsd"
+                        href='../msData/complexType/ctB117.xsd'
                     ),
                 ],
                 expected=[
@@ -7095,9 +7095,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB117"
+                name='ctB117'
             ),
-            name="ctB117"
+            name='ctB117'
         ),
         TestGroup(
             annotation=[
@@ -7105,7 +7105,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then all',
                             ]
                         ),
                     ]
@@ -7113,13 +7113,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB118.xsd"
+                        href='../msData/complexType/ctB118.xsd'
                     ),
                 ],
                 expected=[
@@ -7131,9 +7131,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB118"
+                name='ctB118'
             ),
-            name="ctB118"
+            name='ctB118'
         ),
         TestGroup(
             annotation=[
@@ -7141,7 +7141,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then choice',
                             ]
                         ),
                     ]
@@ -7149,13 +7149,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB119.xsd"
+                        href='../msData/complexType/ctB119.xsd'
                     ),
                 ],
                 expected=[
@@ -7167,9 +7167,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB119"
+                name='ctB119'
             ),
-            name="ctB119"
+            name='ctB119'
         ),
         TestGroup(
             annotation=[
@@ -7177,7 +7177,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then sequence',
                             ]
                         ),
                     ]
@@ -7185,13 +7185,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB120.xsd"
+                        href='../msData/complexType/ctB120.xsd'
                     ),
                 ],
                 expected=[
@@ -7203,9 +7203,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB120"
+                name='ctB120'
             ),
-            name="ctB120"
+            name='ctB120'
         ),
         TestGroup(
             annotation=[
@@ -7213,7 +7213,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then attribute',
                             ]
                         ),
                     ]
@@ -7221,13 +7221,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB121.xsd"
+                        href='../msData/complexType/ctB121.xsd'
                     ),
                 ],
                 expected=[
@@ -7239,9 +7239,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB121"
+                name='ctB121'
             ),
-            name="ctB121"
+            name='ctB121'
         ),
         TestGroup(
             annotation=[
@@ -7249,7 +7249,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then two attributes',
                             ]
                         ),
                     ]
@@ -7257,13 +7257,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB122.xsd"
+                        href='../msData/complexType/ctB122.xsd'
                     ),
                 ],
                 expected=[
@@ -7275,9 +7275,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB122"
+                name='ctB122'
             ),
-            name="ctB122"
+            name='ctB122'
         ),
         TestGroup(
             annotation=[
@@ -7285,7 +7285,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then attributeGroup',
                             ]
                         ),
                     ]
@@ -7293,13 +7293,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB123.xsd"
+                        href='../msData/complexType/ctB123.xsd'
                     ),
                 ],
                 expected=[
@@ -7311,9 +7311,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB123"
+                name='ctB123'
             ),
-            name="ctB123"
+            name='ctB123'
         ),
         TestGroup(
             annotation=[
@@ -7321,7 +7321,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then two attributeGroups',
                             ]
                         ),
                     ]
@@ -7329,13 +7329,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB124.xsd"
+                        href='../msData/complexType/ctB124.xsd'
                     ),
                 ],
                 expected=[
@@ -7347,9 +7347,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB124"
+                name='ctB124'
             ),
-            name="ctB124"
+            name='ctB124'
         ),
         TestGroup(
             annotation=[
@@ -7357,7 +7357,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : content with anyAttribute then anyAttribute',
                             ]
                         ),
                     ]
@@ -7365,13 +7365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctB125.xsd"
+                        href='../msData/complexType/ctB125.xsd'
                     ),
                 ],
                 expected=[
@@ -7383,9 +7383,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctB125"
+                name='ctB125'
             ),
-            name="ctB125"
+            name='ctB125'
         ),
         TestGroup(
             annotation=[
@@ -7401,13 +7401,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC001.xsd"
+                        href='../msData/complexType/ctC001.xsd'
                     ),
                 ],
                 expected=[
@@ -7419,12 +7419,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC001"
+                name='ctC001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctC001.xml"
+                        href='../msData/complexType/ctC001.xml'
                     ),
                     expected=[
                         Expected(
@@ -7435,10 +7435,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctC001.v"
+                    name='ctC001.v'
                 ),
             ],
-            name="ctC001"
+            name='ctC001'
         ),
         TestGroup(
             annotation=[
@@ -7454,13 +7454,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC002.xsd"
+                        href='../msData/complexType/ctC002.xsd'
                     ),
                 ],
                 expected=[
@@ -7472,9 +7472,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC002"
+                name='ctC002'
             ),
-            name="ctC002"
+            name='ctC002'
         ),
         TestGroup(
             annotation=[
@@ -7490,13 +7490,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC003.xsd"
+                        href='../msData/complexType/ctC003.xsd'
                     ),
                 ],
                 expected=[
@@ -7508,9 +7508,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC003"
+                name='ctC003'
             ),
-            name="ctC003"
+            name='ctC003'
         ),
         TestGroup(
             annotation=[
@@ -7526,13 +7526,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC004.xsd"
+                        href='../msData/complexType/ctC004.xsd'
                     ),
                 ],
                 expected=[
@@ -7544,9 +7544,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC004"
+                name='ctC004'
             ),
-            name="ctC004"
+            name='ctC004'
         ),
         TestGroup(
             annotation=[
@@ -7562,13 +7562,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC005.xsd"
+                        href='../msData/complexType/ctC005.xsd'
                     ),
                 ],
                 expected=[
@@ -7580,9 +7580,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC005"
+                name='ctC005'
             ),
-            name="ctC005"
+            name='ctC005'
         ),
         TestGroup(
             annotation=[
@@ -7590,7 +7590,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : attribute with non-schema namespace",
+                                'TEST :Syntax Checking for top level complexType Declaration : attribute with non-schema namespace',
                             ]
                         ),
                     ]
@@ -7598,13 +7598,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC006.xsd"
+                        href='../msData/complexType/ctC006.xsd'
                     ),
                 ],
                 expected=[
@@ -7616,12 +7616,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC006"
+                name='ctC006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctC006.xml"
+                        href='../msData/complexType/ctC006.xml'
                     ),
                     expected=[
                         Expected(
@@ -7632,10 +7632,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctC006.v"
+                    name='ctC006.v'
                 ),
             ],
-            name="ctC006"
+            name='ctC006'
         ),
         TestGroup(
             annotation=[
@@ -7643,7 +7643,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of annotation and restriction",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of annotation and restriction',
                             ]
                         ),
                     ]
@@ -7651,13 +7651,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC007.xsd"
+                        href='../msData/complexType/ctC007.xsd'
                     ),
                 ],
                 expected=[
@@ -7669,12 +7669,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC007"
+                name='ctC007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctC007.xml"
+                        href='../msData/complexType/ctC007.xml'
                     ),
                     expected=[
                         Expected(
@@ -7685,10 +7685,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctC007.v"
+                    name='ctC007.v'
                 ),
             ],
-            name="ctC007"
+            name='ctC007'
         ),
         TestGroup(
             annotation=[
@@ -7696,7 +7696,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of extension',
                             ]
                         ),
                     ]
@@ -7704,13 +7704,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC008.xsd"
+                        href='../msData/complexType/ctC008.xsd'
                     ),
                 ],
                 expected=[
@@ -7722,12 +7722,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC008"
+                name='ctC008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctC008.xml"
+                        href='../msData/complexType/ctC008.xml'
                     ),
                     expected=[
                         Expected(
@@ -7738,10 +7738,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctC008.v"
+                    name='ctC008.v'
                 ),
             ],
-            name="ctC008"
+            name='ctC008'
         ),
         TestGroup(
             annotation=[
@@ -7749,7 +7749,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of annotation',
                             ]
                         ),
                     ]
@@ -7757,13 +7757,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC009.xsd"
+                        href='../msData/complexType/ctC009.xsd'
                     ),
                 ],
                 expected=[
@@ -7775,9 +7775,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC009"
+                name='ctC009'
             ),
-            name="ctC009"
+            name='ctC009'
         ),
         TestGroup(
             annotation=[
@@ -7785,7 +7785,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of extension and annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of extension and annotation',
                             ]
                         ),
                     ]
@@ -7793,13 +7793,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC010.xsd"
+                        href='../msData/complexType/ctC010.xsd'
                     ),
                 ],
                 expected=[
@@ -7811,9 +7811,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC010"
+                name='ctC010'
             ),
-            name="ctC010"
+            name='ctC010'
         ),
         TestGroup(
             annotation=[
@@ -7821,7 +7821,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of restriction and annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of restriction and annotation',
                             ]
                         ),
                     ]
@@ -7829,13 +7829,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC011.xsd"
+                        href='../msData/complexType/ctC011.xsd'
                     ),
                 ],
                 expected=[
@@ -7847,9 +7847,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC011"
+                name='ctC011'
             ),
-            name="ctC011"
+            name='ctC011'
         ),
         TestGroup(
             annotation=[
@@ -7857,7 +7857,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of annotation and extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent and content of annotation and extension',
                             ]
                         ),
                     ]
@@ -7865,13 +7865,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctC012.xsd"
+                        href='../msData/complexType/ctC012.xsd'
                     ),
                 ],
                 expected=[
@@ -7883,12 +7883,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctC012"
+                name='ctC012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctC012.xml"
+                        href='../msData/complexType/ctC012.xml'
                     ),
                     expected=[
                         Expected(
@@ -7899,10 +7899,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctC012.v"
+                    name='ctC012.v'
                 ),
             ],
-            name="ctC012"
+            name='ctC012'
         ),
         TestGroup(
             annotation=[
@@ -7918,13 +7918,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD001.xsd"
+                        href='../msData/complexType/ctD001.xsd'
                     ),
                 ],
                 expected=[
@@ -7936,9 +7936,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD001"
+                name='ctD001'
             ),
-            name="ctD001"
+            name='ctD001'
         ),
         TestGroup(
             annotation=[
@@ -7946,7 +7946,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and base = defined complex type",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and base = defined complex type',
                             ]
                         ),
                     ]
@@ -7954,13 +7954,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD002.xsd"
+                        href='../msData/complexType/ctD002.xsd'
                     ),
                 ],
                 expected=[
@@ -7972,12 +7972,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD002"
+                name='ctD002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD002.xml"
+                        href='../msData/complexType/ctD002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7988,10 +7988,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD002.v"
+                    name='ctD002.v'
                 ),
             ],
-            name="ctD002"
+            name='ctD002'
         ),
         TestGroup(
             annotation=[
@@ -8007,13 +8007,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD003.xsd"
+                        href='../msData/complexType/ctD003.xsd'
                     ),
                 ],
                 expected=[
@@ -8025,9 +8025,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD003"
+                name='ctD003'
             ),
-            name="ctD003"
+            name='ctD003'
         ),
         TestGroup(
             annotation=[
@@ -8043,13 +8043,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD004.xsd"
+                        href='../msData/complexType/ctD004.xsd'
                     ),
                 ],
                 expected=[
@@ -8061,9 +8061,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD004"
+                name='ctD004'
             ),
-            name="ctD004"
+            name='ctD004'
         ),
         TestGroup(
             annotation=[
@@ -8071,7 +8071,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and empty content",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and empty content',
                             ]
                         ),
                     ]
@@ -8079,13 +8079,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD005.xsd"
+                        href='../msData/complexType/ctD005.xsd'
                     ),
                 ],
                 expected=[
@@ -8097,12 +8097,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD005"
+                name='ctD005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD005.xml"
+                        href='../msData/complexType/ctD005.xml'
                     ),
                     expected=[
                         Expected(
@@ -8113,10 +8113,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD005.v"
+                    name='ctD005.v'
                 ),
             ],
-            name="ctD005"
+            name='ctD005'
         ),
         TestGroup(
             annotation=[
@@ -8124,7 +8124,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of annotation',
                             ]
                         ),
                     ]
@@ -8132,13 +8132,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD006.xsd"
+                        href='../msData/complexType/ctD006.xsd'
                     ),
                 ],
                 expected=[
@@ -8150,12 +8150,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD006"
+                name='ctD006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD006.xml"
+                        href='../msData/complexType/ctD006.xml'
                     ),
                     expected=[
                         Expected(
@@ -8166,10 +8166,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD006.v"
+                    name='ctD006.v'
                 ),
             ],
-            name="ctD006"
+            name='ctD006'
         ),
         TestGroup(
             annotation=[
@@ -8177,7 +8177,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two annotations",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two annotations',
                             ]
                         ),
                     ]
@@ -8185,13 +8185,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD007.xsd"
+                        href='../msData/complexType/ctD007.xsd'
                     ),
                 ],
                 expected=[
@@ -8203,9 +8203,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD007"
+                name='ctD007'
             ),
-            name="ctD007"
+            name='ctD007'
         ),
         TestGroup(
             annotation=[
@@ -8213,7 +8213,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of simpleType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of simpleType',
                             ]
                         ),
                     ]
@@ -8221,13 +8221,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD008.xsd"
+                        href='../msData/complexType/ctD008.xsd'
                     ),
                 ],
                 expected=[
@@ -8239,12 +8239,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD008"
+                name='ctD008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD008.xml"
+                        href='../msData/complexType/ctD008.xml'
                     ),
                     expected=[
                         Expected(
@@ -8255,10 +8255,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD008.v"
+                    name='ctD008.v'
                 ),
             ],
-            name="ctD008"
+            name='ctD008'
         ),
         TestGroup(
             annotation=[
@@ -8266,7 +8266,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two simpleTypes",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two simpleTypes',
                             ]
                         ),
                     ]
@@ -8274,13 +8274,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD009.xsd"
+                        href='../msData/complexType/ctD009.xsd'
                     ),
                 ],
                 expected=[
@@ -8292,9 +8292,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD009"
+                name='ctD009'
             ),
-            name="ctD009"
+            name='ctD009'
         ),
         TestGroup(
             annotation=[
@@ -8302,7 +8302,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of annotation then simpleType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of annotation then simpleType',
                             ]
                         ),
                     ]
@@ -8310,13 +8310,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD010.xsd"
+                        href='../msData/complexType/ctD010.xsd'
                     ),
                 ],
                 expected=[
@@ -8328,12 +8328,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD010"
+                name='ctD010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD010.xml"
+                        href='../msData/complexType/ctD010.xml'
                     ),
                     expected=[
                         Expected(
@@ -8344,10 +8344,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD010.v"
+                    name='ctD010.v'
                 ),
             ],
-            name="ctD010"
+            name='ctD010'
         ),
         TestGroup(
             annotation=[
@@ -8355,7 +8355,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of simpleType then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of simpleType then annotation',
                             ]
                         ),
                     ]
@@ -8363,13 +8363,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD011.xsd"
+                        href='../msData/complexType/ctD011.xsd'
                     ),
                 ],
                 expected=[
@@ -8381,9 +8381,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD011"
+                name='ctD011'
             ),
-            name="ctD011"
+            name='ctD011'
         ),
         TestGroup(
             annotation=[
@@ -8391,7 +8391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of simpleType then facet",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of simpleType then facet',
                             ]
                         ),
                     ]
@@ -8399,13 +8399,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD012.xsd"
+                        href='../msData/complexType/ctD012.xsd'
                     ),
                 ],
                 expected=[
@@ -8417,12 +8417,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD012"
+                name='ctD012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD012.xml"
+                        href='../msData/complexType/ctD012.xml'
                     ),
                     expected=[
                         Expected(
@@ -8433,10 +8433,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD012.v"
+                    name='ctD012.v'
                 ),
             ],
-            name="ctD012"
+            name='ctD012'
         ),
         TestGroup(
             annotation=[
@@ -8444,7 +8444,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of duration",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of duration',
                             ]
                         ),
                     ]
@@ -8452,13 +8452,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD013.xsd"
+                        href='../msData/complexType/ctD013.xsd'
                     ),
                 ],
                 expected=[
@@ -8470,9 +8470,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD013"
+                name='ctD013'
             ),
-            name="ctD013"
+            name='ctD013'
         ),
         TestGroup(
             annotation=[
@@ -8480,7 +8480,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of encoding",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of encoding',
                             ]
                         ),
                     ]
@@ -8488,13 +8488,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD014.xsd"
+                        href='../msData/complexType/ctD014.xsd'
                     ),
                 ],
                 expected=[
@@ -8506,9 +8506,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD014"
+                name='ctD014'
             ),
-            name="ctD014"
+            name='ctD014'
         ),
         TestGroup(
             annotation=[
@@ -8516,7 +8516,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of enumeration",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of enumeration',
                             ]
                         ),
                     ]
@@ -8524,13 +8524,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD015.xsd"
+                        href='../msData/complexType/ctD015.xsd'
                     ),
                 ],
                 expected=[
@@ -8542,12 +8542,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD015"
+                name='ctD015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD015.xml"
+                        href='../msData/complexType/ctD015.xml'
                     ),
                     expected=[
                         Expected(
@@ -8558,10 +8558,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD015.v"
+                    name='ctD015.v'
                 ),
             ],
-            name="ctD015"
+            name='ctD015'
         ),
         TestGroup(
             annotation=[
@@ -8569,7 +8569,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of length",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of length',
                             ]
                         ),
                     ]
@@ -8577,13 +8577,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD016.xsd"
+                        href='../msData/complexType/ctD016.xsd'
                     ),
                 ],
                 expected=[
@@ -8595,12 +8595,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD016"
+                name='ctD016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD016.xml"
+                        href='../msData/complexType/ctD016.xml'
                     ),
                     expected=[
                         Expected(
@@ -8611,10 +8611,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD016.v"
+                    name='ctD016.v'
                 ),
             ],
-            name="ctD016"
+            name='ctD016'
         ),
         TestGroup(
             annotation=[
@@ -8622,7 +8622,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of maxExclusive",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of maxExclusive',
                             ]
                         ),
                     ]
@@ -8630,13 +8630,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD017.xsd"
+                        href='../msData/complexType/ctD017.xsd'
                     ),
                 ],
                 expected=[
@@ -8648,12 +8648,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD017"
+                name='ctD017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD017.xml"
+                        href='../msData/complexType/ctD017.xml'
                     ),
                     expected=[
                         Expected(
@@ -8664,10 +8664,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD017.v"
+                    name='ctD017.v'
                 ),
             ],
-            name="ctD017"
+            name='ctD017'
         ),
         TestGroup(
             annotation=[
@@ -8675,7 +8675,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of maxInclusive",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of maxInclusive',
                             ]
                         ),
                     ]
@@ -8683,13 +8683,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD018.xsd"
+                        href='../msData/complexType/ctD018.xsd'
                     ),
                 ],
                 expected=[
@@ -8701,12 +8701,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD018"
+                name='ctD018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD018.xml"
+                        href='../msData/complexType/ctD018.xml'
                     ),
                     expected=[
                         Expected(
@@ -8717,10 +8717,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD018.v"
+                    name='ctD018.v'
                 ),
             ],
-            name="ctD018"
+            name='ctD018'
         ),
         TestGroup(
             annotation=[
@@ -8728,7 +8728,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of maxLength",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of maxLength',
                             ]
                         ),
                     ]
@@ -8736,13 +8736,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD019.xsd"
+                        href='../msData/complexType/ctD019.xsd'
                     ),
                 ],
                 expected=[
@@ -8754,12 +8754,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD019"
+                name='ctD019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD019.xml"
+                        href='../msData/complexType/ctD019.xml'
                     ),
                     expected=[
                         Expected(
@@ -8770,10 +8770,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD019.v"
+                    name='ctD019.v'
                 ),
             ],
-            name="ctD019"
+            name='ctD019'
         ),
         TestGroup(
             annotation=[
@@ -8781,7 +8781,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of minExclusive",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of minExclusive',
                             ]
                         ),
                     ]
@@ -8789,13 +8789,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD020.xsd"
+                        href='../msData/complexType/ctD020.xsd'
                     ),
                 ],
                 expected=[
@@ -8807,12 +8807,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD020"
+                name='ctD020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD020.xml"
+                        href='../msData/complexType/ctD020.xml'
                     ),
                     expected=[
                         Expected(
@@ -8823,10 +8823,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD020.v"
+                    name='ctD020.v'
                 ),
             ],
-            name="ctD020"
+            name='ctD020'
         ),
         TestGroup(
             annotation=[
@@ -8834,7 +8834,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of minInclusive",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of minInclusive',
                             ]
                         ),
                     ]
@@ -8842,13 +8842,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD021.xsd"
+                        href='../msData/complexType/ctD021.xsd'
                     ),
                 ],
                 expected=[
@@ -8860,12 +8860,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD021"
+                name='ctD021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD021.xml"
+                        href='../msData/complexType/ctD021.xml'
                     ),
                     expected=[
                         Expected(
@@ -8876,10 +8876,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD021.v"
+                    name='ctD021.v'
                 ),
             ],
-            name="ctD021"
+            name='ctD021'
         ),
         TestGroup(
             annotation=[
@@ -8887,7 +8887,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of minLength",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of minLength',
                             ]
                         ),
                     ]
@@ -8895,13 +8895,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD022.xsd"
+                        href='../msData/complexType/ctD022.xsd'
                     ),
                 ],
                 expected=[
@@ -8913,12 +8913,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD022"
+                name='ctD022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD022.xml"
+                        href='../msData/complexType/ctD022.xml'
                     ),
                     expected=[
                         Expected(
@@ -8929,10 +8929,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD022.v"
+                    name='ctD022.v'
                 ),
             ],
-            name="ctD022"
+            name='ctD022'
         ),
         TestGroup(
             annotation=[
@@ -8940,7 +8940,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of pattern",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of pattern',
                             ]
                         ),
                     ]
@@ -8948,13 +8948,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD023.xsd"
+                        href='../msData/complexType/ctD023.xsd'
                     ),
                 ],
                 expected=[
@@ -8966,12 +8966,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD023"
+                name='ctD023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD023.xml"
+                        href='../msData/complexType/ctD023.xml'
                     ),
                     expected=[
                         Expected(
@@ -8982,10 +8982,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD023.v"
+                    name='ctD023.v'
                 ),
             ],
-            name="ctD023"
+            name='ctD023'
         ),
         TestGroup(
             annotation=[
@@ -8993,7 +8993,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of period",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of period',
                             ]
                         ),
                     ]
@@ -9001,13 +9001,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD024.xsd"
+                        href='../msData/complexType/ctD024.xsd'
                     ),
                 ],
                 expected=[
@@ -9019,9 +9019,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD024"
+                name='ctD024'
             ),
-            name="ctD024"
+            name='ctD024'
         ),
         TestGroup(
             annotation=[
@@ -9029,7 +9029,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of totalDigits",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of totalDigits',
                             ]
                         ),
                     ]
@@ -9037,13 +9037,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD025.xsd"
+                        href='../msData/complexType/ctD025.xsd'
                     ),
                 ],
                 expected=[
@@ -9055,12 +9055,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD025"
+                name='ctD025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD025.xml"
+                        href='../msData/complexType/ctD025.xml'
                     ),
                     expected=[
                         Expected(
@@ -9071,10 +9071,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD025.v"
+                    name='ctD025.v'
                 ),
             ],
-            name="ctD025"
+            name='ctD025'
         ),
         TestGroup(
             annotation=[
@@ -9082,7 +9082,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of fractionDigits",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of fractionDigits',
                             ]
                         ),
                     ]
@@ -9090,13 +9090,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD026.xsd"
+                        href='../msData/complexType/ctD026.xsd'
                     ),
                 ],
                 expected=[
@@ -9108,12 +9108,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD026"
+                name='ctD026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD026.xml"
+                        href='../msData/complexType/ctD026.xml'
                     ),
                     expected=[
                         Expected(
@@ -9124,10 +9124,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD026.v"
+                    name='ctD026.v'
                 ),
             ],
-            name="ctD026"
+            name='ctD026'
         ),
         TestGroup(
             annotation=[
@@ -9135,7 +9135,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of whiteSpace",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of whiteSpace',
                             ]
                         ),
                     ]
@@ -9143,13 +9143,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD027.xsd"
+                        href='../msData/complexType/ctD027.xsd'
                     ),
                 ],
                 expected=[
@@ -9161,12 +9161,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD027"
+                name='ctD027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD027.xml"
+                        href='../msData/complexType/ctD027.xml'
                     ),
                     expected=[
                         Expected(
@@ -9177,10 +9177,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD027.v"
+                    name='ctD027.v'
                 ),
             ],
-            name="ctD027"
+            name='ctD027'
         ),
         TestGroup(
             annotation=[
@@ -9188,7 +9188,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two facets",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two facets',
                             ]
                         ),
                     ]
@@ -9196,13 +9196,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD028.xsd"
+                        href='../msData/complexType/ctD028.xsd'
                     ),
                 ],
                 expected=[
@@ -9214,12 +9214,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD028"
+                name='ctD028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD028.xml"
+                        href='../msData/complexType/ctD028.xml'
                     ),
                     expected=[
                         Expected(
@@ -9230,10 +9230,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD028.v"
+                    name='ctD028.v'
                 ),
             ],
-            name="ctD028"
+            name='ctD028'
         ),
         TestGroup(
             annotation=[
@@ -9241,7 +9241,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute',
                             ]
                         ),
                     ]
@@ -9249,13 +9249,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD029.xsd"
+                        href='../msData/complexType/ctD029.xsd'
                     ),
                 ],
                 expected=[
@@ -9267,12 +9267,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD029"
+                name='ctD029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD029.xml"
+                        href='../msData/complexType/ctD029.xml'
                     ),
                     expected=[
                         Expected(
@@ -9283,10 +9283,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD029.v"
+                    name='ctD029.v'
                 ),
             ],
-            name="ctD029"
+            name='ctD029'
         ),
         TestGroup(
             annotation=[
@@ -9294,7 +9294,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two attributes',
                             ]
                         ),
                     ]
@@ -9302,13 +9302,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD030.xsd"
+                        href='../msData/complexType/ctD030.xsd'
                     ),
                 ],
                 expected=[
@@ -9320,12 +9320,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD030"
+                name='ctD030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD030.xml"
+                        href='../msData/complexType/ctD030.xml'
                     ),
                     expected=[
                         Expected(
@@ -9336,10 +9336,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD030.v"
+                    name='ctD030.v'
                 ),
             ],
-            name="ctD030"
+            name='ctD030'
         ),
         TestGroup(
             annotation=[
@@ -9347,7 +9347,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attributeGroup',
                             ]
                         ),
                     ]
@@ -9355,13 +9355,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD031.xsd"
+                        href='../msData/complexType/ctD031.xsd'
                     ),
                 ],
                 expected=[
@@ -9373,12 +9373,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD031"
+                name='ctD031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD031.xml"
+                        href='../msData/complexType/ctD031.xml'
                     ),
                     expected=[
                         Expected(
@@ -9389,10 +9389,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD031.v"
+                    name='ctD031.v'
                 ),
             ],
-            name="ctD031"
+            name='ctD031'
         ),
         TestGroup(
             annotation=[
@@ -9400,7 +9400,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two attributeGroups',
                             ]
                         ),
                     ]
@@ -9408,13 +9408,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD032.xsd"
+                        href='../msData/complexType/ctD032.xsd'
                     ),
                 ],
                 expected=[
@@ -9426,12 +9426,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD032"
+                name='ctD032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD032.xml"
+                        href='../msData/complexType/ctD032.xml'
                     ),
                     expected=[
                         Expected(
@@ -9442,10 +9442,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD032.v"
+                    name='ctD032.v'
                 ),
             ],
-            name="ctD032"
+            name='ctD032'
         ),
         TestGroup(
             annotation=[
@@ -9453,7 +9453,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of anyAttribute',
                             ]
                         ),
                     ]
@@ -9461,13 +9461,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD033.xsd"
+                        href='../msData/complexType/ctD033.xsd'
                     ),
                 ],
                 expected=[
@@ -9479,12 +9479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD033"
+                name='ctD033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD033.xml"
+                        href='../msData/complexType/ctD033.xml'
                     ),
                     expected=[
                         Expected(
@@ -9495,10 +9495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD033.v"
+                    name='ctD033.v'
                 ),
             ],
-            name="ctD033"
+            name='ctD033'
         ),
         TestGroup(
             annotation=[
@@ -9506,7 +9506,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of two anyAttributes',
                             ]
                         ),
                     ]
@@ -9514,13 +9514,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD034.xsd"
+                        href='../msData/complexType/ctD034.xsd'
                     ),
                 ],
                 expected=[
@@ -9532,9 +9532,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD034"
+                name='ctD034'
             ),
-            name="ctD034"
+            name='ctD034'
         ),
         TestGroup(
             annotation=[
@@ -9550,13 +9550,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD035.xsd"
+                        href='../msData/complexType/ctD035.xsd'
                     ),
                 ],
                 expected=[
@@ -9568,12 +9568,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD035"
+                name='ctD035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctD035.xml"
+                        href='../msData/complexType/ctD035.xml'
                     ),
                     expected=[
                         Expected(
@@ -9584,10 +9584,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctD035.v"
+                    name='ctD035.v'
                 ),
             ],
-            name="ctD035"
+            name='ctD035'
         ),
         TestGroup(
             annotation=[
@@ -9595,7 +9595,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of group",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of group',
                             ]
                         ),
                     ]
@@ -9603,13 +9603,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD036.xsd"
+                        href='../msData/complexType/ctD036.xsd'
                     ),
                 ],
                 expected=[
@@ -9621,9 +9621,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD036"
+                name='ctD036'
             ),
-            name="ctD036"
+            name='ctD036'
         ),
         TestGroup(
             annotation=[
@@ -9631,7 +9631,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of all",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of all',
                             ]
                         ),
                     ]
@@ -9639,13 +9639,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD037.xsd"
+                        href='../msData/complexType/ctD037.xsd'
                     ),
                 ],
                 expected=[
@@ -9657,9 +9657,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD037"
+                name='ctD037'
             ),
-            name="ctD037"
+            name='ctD037'
         ),
         TestGroup(
             annotation=[
@@ -9667,7 +9667,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of choice',
                             ]
                         ),
                     ]
@@ -9675,13 +9675,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD038.xsd"
+                        href='../msData/complexType/ctD038.xsd'
                     ),
                 ],
                 expected=[
@@ -9693,9 +9693,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD038"
+                name='ctD038'
             ),
-            name="ctD038"
+            name='ctD038'
         ),
         TestGroup(
             annotation=[
@@ -9703,7 +9703,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of sequence',
                             ]
                         ),
                     ]
@@ -9711,13 +9711,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD039.xsd"
+                        href='../msData/complexType/ctD039.xsd'
                     ),
                 ],
                 expected=[
@@ -9729,9 +9729,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD039"
+                name='ctD039'
             ),
-            name="ctD039"
+            name='ctD039'
         ),
         TestGroup(
             annotation=[
@@ -9739,7 +9739,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute then annotation',
                             ]
                         ),
                     ]
@@ -9747,13 +9747,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD040.xsd"
+                        href='../msData/complexType/ctD040.xsd'
                     ),
                 ],
                 expected=[
@@ -9765,9 +9765,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD040"
+                name='ctD040'
             ),
-            name="ctD040"
+            name='ctD040'
         ),
         TestGroup(
             annotation=[
@@ -9775,7 +9775,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute then simpleType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute then simpleType',
                             ]
                         ),
                     ]
@@ -9783,13 +9783,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD041.xsd"
+                        href='../msData/complexType/ctD041.xsd'
                     ),
                 ],
                 expected=[
@@ -9801,9 +9801,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD041"
+                name='ctD041'
             ),
-            name="ctD041"
+            name='ctD041'
         ),
         TestGroup(
             annotation=[
@@ -9811,7 +9811,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute then facet",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of attribute then facet',
                             ]
                         ),
                     ]
@@ -9819,13 +9819,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD042.xsd"
+                        href='../msData/complexType/ctD042.xsd'
                     ),
                 ],
                 expected=[
@@ -9837,9 +9837,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD042"
+                name='ctD042'
             ),
-            name="ctD042"
+            name='ctD042'
         ),
         TestGroup(
             annotation=[
@@ -9847,7 +9847,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of anyAttribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of restriction and content of anyAttribute then attribute',
                             ]
                         ),
                     ]
@@ -9855,13 +9855,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctD043.xsd"
+                        href='../msData/complexType/ctD043.xsd'
                     ),
                 ],
                 expected=[
@@ -9873,9 +9873,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctD043"
+                name='ctD043'
             ),
-            name="ctD043"
+            name='ctD043'
         ),
         TestGroup(
             annotation=[
@@ -9891,13 +9891,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE001.xsd"
+                        href='../msData/complexType/ctE001.xsd'
                     ),
                 ],
                 expected=[
@@ -9909,12 +9909,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE001"
+                name='ctE001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE001.xml"
+                        href='../msData/complexType/ctE001.xml'
                     ),
                     expected=[
                         Expected(
@@ -9925,10 +9925,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE001.v"
+                    name='ctE001.v'
                 ),
             ],
-            name="ctE001"
+            name='ctE001'
         ),
         TestGroup(
             annotation=[
@@ -9936,7 +9936,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of extension and base = defined complex type whose base is simpleType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of extension and base = defined complex type whose base is simpleType',
                             ]
                         ),
                     ]
@@ -9944,13 +9944,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE002.xsd"
+                        href='../msData/complexType/ctE002.xsd'
                     ),
                 ],
                 expected=[
@@ -9962,12 +9962,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE002"
+                name='ctE002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE002.xml"
+                        href='../msData/complexType/ctE002.xml'
                     ),
                     expected=[
                         Expected(
@@ -9978,10 +9978,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE002.v"
+                    name='ctE002.v'
                 ),
             ],
-            name="ctE002"
+            name='ctE002'
         ),
         TestGroup(
             annotation=[
@@ -9989,7 +9989,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of extension and base = defined complex type whose base is complexType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent, content of extension and base = defined complex type whose base is complexType',
                             ]
                         ),
                     ]
@@ -9997,13 +9997,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE003.xsd"
+                        href='../msData/complexType/ctE003.xsd'
                     ),
                 ],
                 expected=[
@@ -10015,9 +10015,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE003"
+                name='ctE003'
             ),
-            name="ctE003"
+            name='ctE003'
         ),
         TestGroup(
             annotation=[
@@ -10033,13 +10033,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE004.xsd"
+                        href='../msData/complexType/ctE004.xsd'
                     ),
                 ],
                 expected=[
@@ -10051,9 +10051,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE004"
+                name='ctE004'
             ),
-            name="ctE004"
+            name='ctE004'
         ),
         TestGroup(
             annotation=[
@@ -10069,13 +10069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE005.xsd"
+                        href='../msData/complexType/ctE005.xsd'
                     ),
                 ],
                 expected=[
@@ -10087,9 +10087,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE005"
+                name='ctE005'
             ),
-            name="ctE005"
+            name='ctE005'
         ),
         TestGroup(
             annotation=[
@@ -10105,13 +10105,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE006.xsd"
+                        href='../msData/complexType/ctE006.xsd'
                     ),
                 ],
                 expected=[
@@ -10123,12 +10123,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE006"
+                name='ctE006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE006.xml"
+                        href='../msData/complexType/ctE006.xml'
                     ),
                     expected=[
                         Expected(
@@ -10139,10 +10139,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE006.v"
+                    name='ctE006.v'
                 ),
             ],
-            name="ctE006"
+            name='ctE006'
         ),
         TestGroup(
             annotation=[
@@ -10158,13 +10158,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE007.xsd"
+                        href='../msData/complexType/ctE007.xsd'
                     ),
                 ],
                 expected=[
@@ -10176,12 +10176,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE007"
+                name='ctE007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE007.xml"
+                        href='../msData/complexType/ctE007.xml'
                     ),
                     expected=[
                         Expected(
@@ -10192,10 +10192,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE007.v"
+                    name='ctE007.v'
                 ),
             ],
-            name="ctE007"
+            name='ctE007'
         ),
         TestGroup(
             annotation=[
@@ -10211,13 +10211,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE008.xsd"
+                        href='../msData/complexType/ctE008.xsd'
                     ),
                 ],
                 expected=[
@@ -10229,12 +10229,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE008"
+                name='ctE008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE008.xml"
+                        href='../msData/complexType/ctE008.xml'
                     ),
                     expected=[
                         Expected(
@@ -10245,10 +10245,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE008.v"
+                    name='ctE008.v'
                 ),
             ],
-            name="ctE008"
+            name='ctE008'
         ),
         TestGroup(
             annotation=[
@@ -10264,13 +10264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE009.xsd"
+                        href='../msData/complexType/ctE009.xsd'
                     ),
                 ],
                 expected=[
@@ -10282,9 +10282,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE009"
+                name='ctE009'
             ),
-            name="ctE009"
+            name='ctE009'
         ),
         TestGroup(
             annotation=[
@@ -10300,13 +10300,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE010.xsd"
+                        href='../msData/complexType/ctE010.xsd'
                     ),
                 ],
                 expected=[
@@ -10318,12 +10318,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE010"
+                name='ctE010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE010.xml"
+                        href='../msData/complexType/ctE010.xml'
                     ),
                     expected=[
                         Expected(
@@ -10334,10 +10334,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE010.v"
+                    name='ctE010.v'
                 ),
             ],
-            name="ctE010"
+            name='ctE010'
         ),
         TestGroup(
             annotation=[
@@ -10353,13 +10353,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE011.xsd"
+                        href='../msData/complexType/ctE011.xsd'
                     ),
                 ],
                 expected=[
@@ -10371,9 +10371,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE011"
+                name='ctE011'
             ),
-            name="ctE011"
+            name='ctE011'
         ),
         TestGroup(
             annotation=[
@@ -10389,13 +10389,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE012.xsd"
+                        href='../msData/complexType/ctE012.xsd'
                     ),
                 ],
                 expected=[
@@ -10407,9 +10407,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE012"
+                name='ctE012'
             ),
-            name="ctE012"
+            name='ctE012'
         ),
         TestGroup(
             annotation=[
@@ -10425,13 +10425,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE013.xsd"
+                        href='../msData/complexType/ctE013.xsd'
                     ),
                 ],
                 expected=[
@@ -10443,9 +10443,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE013"
+                name='ctE013'
             ),
-            name="ctE013"
+            name='ctE013'
         ),
         TestGroup(
             annotation=[
@@ -10461,13 +10461,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE014.xsd"
+                        href='../msData/complexType/ctE014.xsd'
                     ),
                 ],
                 expected=[
@@ -10479,9 +10479,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE014"
+                name='ctE014'
             ),
-            name="ctE014"
+            name='ctE014'
         ),
         TestGroup(
             annotation=[
@@ -10497,13 +10497,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE015.xsd"
+                        href='../msData/complexType/ctE015.xsd'
                     ),
                 ],
                 expected=[
@@ -10515,9 +10515,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE015"
+                name='ctE015'
             ),
-            name="ctE015"
+            name='ctE015'
         ),
         TestGroup(
             annotation=[
@@ -10533,13 +10533,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE016.xsd"
+                        href='../msData/complexType/ctE016.xsd'
                     ),
                 ],
                 expected=[
@@ -10551,9 +10551,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE016"
+                name='ctE016'
             ),
-            name="ctE016"
+            name='ctE016'
         ),
         TestGroup(
             annotation=[
@@ -10569,13 +10569,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE017.xsd"
+                        href='../msData/complexType/ctE017.xsd'
                     ),
                 ],
                 expected=[
@@ -10587,12 +10587,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE017"
+                name='ctE017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE017.xml"
+                        href='../msData/complexType/ctE017.xml'
                     ),
                     expected=[
                         Expected(
@@ -10603,10 +10603,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE017.v"
+                    name='ctE017.v'
                 ),
             ],
-            name="ctE017"
+            name='ctE017'
         ),
         TestGroup(
             annotation=[
@@ -10614,7 +10614,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Chameleon case for simpleContent extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : Chameleon case for simpleContent extension',
                             ]
                         ),
                     ]
@@ -10622,13 +10622,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE018_a.xsd"
+                        href='../msData/complexType/ctE018_a.xsd'
                     ),
                 ],
                 expected=[
@@ -10640,12 +10640,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE018"
+                name='ctE018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE018.xml"
+                        href='../msData/complexType/ctE018.xml'
                     ),
                     expected=[
                         Expected(
@@ -10656,10 +10656,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE018.v"
+                    name='ctE018.v'
                 ),
             ],
-            name="ctE018"
+            name='ctE018'
         ),
         TestGroup(
             annotation=[
@@ -10667,7 +10667,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Chameleon case for simpleContent restriction",
+                                'TEST :Syntax Checking for top level complexType Declaration : Chameleon case for simpleContent restriction',
                             ]
                         ),
                     ]
@@ -10675,13 +10675,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctE019_a.xsd"
+                        href='../msData/complexType/ctE019_a.xsd'
                     ),
                 ],
                 expected=[
@@ -10693,12 +10693,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctE019"
+                name='ctE019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctE019.xml"
+                        href='../msData/complexType/ctE019.xml'
                     ),
                     expected=[
                         Expected(
@@ -10709,10 +10709,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctE019.v"
+                    name='ctE019.v'
                 ),
             ],
-            name="ctE019"
+            name='ctE019'
         ),
         TestGroup(
             annotation=[
@@ -10728,13 +10728,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF001.xsd"
+                        href='../msData/complexType/ctF001.xsd'
                     ),
                 ],
                 expected=[
@@ -10746,12 +10746,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF001"
+                name='ctF001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctF001.xml"
+                        href='../msData/complexType/ctF001.xml'
                     ),
                     expected=[
                         Expected(
@@ -10762,10 +10762,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctF001.v"
+                    name='ctF001.v'
                 ),
             ],
-            name="ctF001"
+            name='ctF001'
         ),
         TestGroup(
             annotation=[
@@ -10781,13 +10781,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF002.xsd"
+                        href='../msData/complexType/ctF002.xsd'
                     ),
                 ],
                 expected=[
@@ -10799,9 +10799,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF002"
+                name='ctF002'
             ),
-            name="ctF002"
+            name='ctF002'
         ),
         TestGroup(
             annotation=[
@@ -10817,13 +10817,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF003.xsd"
+                        href='../msData/complexType/ctF003.xsd'
                     ),
                 ],
                 expected=[
@@ -10835,9 +10835,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF003"
+                name='ctF003'
             ),
-            name="ctF003"
+            name='ctF003'
         ),
         TestGroup(
             annotation=[
@@ -10853,13 +10853,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF004.xsd"
+                        href='../msData/complexType/ctF004.xsd'
                     ),
                 ],
                 expected=[
@@ -10871,9 +10871,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF004"
+                name='ctF004'
             ),
-            name="ctF004"
+            name='ctF004'
         ),
         TestGroup(
             annotation=[
@@ -10889,13 +10889,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF005.xsd"
+                        href='../msData/complexType/ctF005.xsd'
                     ),
                 ],
                 expected=[
@@ -10907,9 +10907,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF005"
+                name='ctF005'
             ),
-            name="ctF005"
+            name='ctF005'
         ),
         TestGroup(
             annotation=[
@@ -10925,13 +10925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF006.xsd"
+                        href='../msData/complexType/ctF006.xsd'
                     ),
                 ],
                 expected=[
@@ -10943,9 +10943,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF006"
+                name='ctF006'
             ),
-            name="ctF006"
+            name='ctF006'
         ),
         TestGroup(
             annotation=[
@@ -10961,13 +10961,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF007.xsd"
+                        href='../msData/complexType/ctF007.xsd'
                     ),
                 ],
                 expected=[
@@ -10979,12 +10979,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF007"
+                name='ctF007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctF007.xml"
+                        href='../msData/complexType/ctF007.xml'
                     ),
                     expected=[
                         Expected(
@@ -10995,10 +10995,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctF007.v"
+                    name='ctF007.v'
                 ),
             ],
-            name="ctF007"
+            name='ctF007'
         ),
         TestGroup(
             annotation=[
@@ -11014,13 +11014,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF008.xsd"
+                        href='../msData/complexType/ctF008.xsd'
                     ),
                 ],
                 expected=[
@@ -11032,9 +11032,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF008"
+                name='ctF008'
             ),
-            name="ctF008"
+            name='ctF008'
         ),
         TestGroup(
             annotation=[
@@ -11050,13 +11050,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF009.xsd"
+                        href='../msData/complexType/ctF009.xsd'
                     ),
                 ],
                 expected=[
@@ -11068,9 +11068,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF009"
+                name='ctF009'
             ),
-            name="ctF009"
+            name='ctF009'
         ),
         TestGroup(
             annotation=[
@@ -11086,13 +11086,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF010.xsd"
+                        href='../msData/complexType/ctF010.xsd'
                     ),
                 ],
                 expected=[
@@ -11104,12 +11104,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF010"
+                name='ctF010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctF010.xml"
+                        href='../msData/complexType/ctF010.xml'
                     ),
                     expected=[
                         Expected(
@@ -11120,10 +11120,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctF010.v"
+                    name='ctF010.v'
                 ),
             ],
-            name="ctF010"
+            name='ctF010'
         ),
         TestGroup(
             annotation=[
@@ -11139,13 +11139,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF011.xsd"
+                        href='../msData/complexType/ctF011.xsd'
                     ),
                 ],
                 expected=[
@@ -11157,12 +11157,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF011"
+                name='ctF011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctF011.xml"
+                        href='../msData/complexType/ctF011.xml'
                     ),
                     expected=[
                         Expected(
@@ -11173,10 +11173,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctF011.v"
+                    name='ctF011.v'
                 ),
             ],
-            name="ctF011"
+            name='ctF011'
         ),
         TestGroup(
             annotation=[
@@ -11184,7 +11184,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent with no content",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent with no content',
                             ]
                         ),
                     ]
@@ -11192,13 +11192,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF012.xsd"
+                        href='../msData/complexType/ctF012.xsd'
                     ),
                 ],
                 expected=[
@@ -11210,9 +11210,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF012"
+                name='ctF012'
             ),
-            name="ctF012"
+            name='ctF012'
         ),
         TestGroup(
             annotation=[
@@ -11220,7 +11220,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent and content of annotation and restriction",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent and content of annotation and restriction',
                             ]
                         ),
                     ]
@@ -11228,13 +11228,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF013.xsd"
+                        href='../msData/complexType/ctF013.xsd'
                     ),
                 ],
                 expected=[
@@ -11246,12 +11246,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF013"
+                name='ctF013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctF013.xml"
+                        href='../msData/complexType/ctF013.xml'
                     ),
                     expected=[
                         Expected(
@@ -11262,10 +11262,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctF013.v"
+                    name='ctF013.v'
                 ),
             ],
-            name="ctF013"
+            name='ctF013'
         ),
         TestGroup(
             annotation=[
@@ -11273,7 +11273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent and content of extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent and content of extension',
                             ]
                         ),
                     ]
@@ -11281,13 +11281,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF014.xsd"
+                        href='../msData/complexType/ctF014.xsd'
                     ),
                 ],
                 expected=[
@@ -11299,12 +11299,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF014"
+                name='ctF014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctF014.xml"
+                        href='../msData/complexType/ctF014.xml'
                     ),
                     expected=[
                         Expected(
@@ -11315,10 +11315,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctF014.v"
+                    name='ctF014.v'
                 ),
             ],
-            name="ctF014"
+            name='ctF014'
         ),
         TestGroup(
             annotation=[
@@ -11326,7 +11326,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent and content of annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent and content of annotation',
                             ]
                         ),
                     ]
@@ -11334,13 +11334,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF015.xsd"
+                        href='../msData/complexType/ctF015.xsd'
                     ),
                 ],
                 expected=[
@@ -11352,9 +11352,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF015"
+                name='ctF015'
             ),
-            name="ctF015"
+            name='ctF015'
         ),
         TestGroup(
             annotation=[
@@ -11362,7 +11362,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent and content of extension and annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent and content of extension and annotation',
                             ]
                         ),
                     ]
@@ -11370,13 +11370,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF016.xsd"
+                        href='../msData/complexType/ctF016.xsd'
                     ),
                 ],
                 expected=[
@@ -11388,9 +11388,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF016"
+                name='ctF016'
             ),
-            name="ctF016"
+            name='ctF016'
         ),
         TestGroup(
             annotation=[
@@ -11398,7 +11398,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent and content of restriction and annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent and content of restriction and annotation',
                             ]
                         ),
                     ]
@@ -11406,13 +11406,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctF017.xsd"
+                        href='../msData/complexType/ctF017.xsd'
                     ),
                 ],
                 expected=[
@@ -11424,9 +11424,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctF017"
+                name='ctF017'
             ),
-            name="ctF017"
+            name='ctF017'
         ),
         TestGroup(
             annotation=[
@@ -11434,12 +11434,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded these schemas are OK in 1.0, despite violating subsumption",
+                                'TSTF concluded these schemas are OK in 1.0, despite violating subsumption',
                             ]
                         ),
                     ]
@@ -11447,13 +11447,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG001.xsd"
+                        href='../msData/complexType/ctG001.xsd'
                     ),
                 ],
                 expected=[
@@ -11464,25 +11464,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 15),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2008, 12, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ctG001"
+                name='ctG001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG001.xml"
+                        href='../msData/complexType/ctG001.xml'
                     ),
                     expected=[
                         Expected(
@@ -11493,10 +11493,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG001.v"
+                    name='ctG001.v'
                 ),
             ],
-            name="ctG001"
+            name='ctG001'
         ),
         TestGroup(
             annotation=[
@@ -11504,7 +11504,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then annotation',
                             ]
                         ),
                     ]
@@ -11512,13 +11512,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG002.xsd"
+                        href='../msData/complexType/ctG002.xsd'
                     ),
                 ],
                 expected=[
@@ -11530,9 +11530,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG002"
+                name='ctG002'
             ),
-            name="ctG002"
+            name='ctG002'
         ),
         TestGroup(
             annotation=[
@@ -11540,7 +11540,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then group',
                             ]
                         ),
                     ]
@@ -11548,13 +11548,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG003.xsd"
+                        href='../msData/complexType/ctG003.xsd'
                     ),
                 ],
                 expected=[
@@ -11566,9 +11566,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG003"
+                name='ctG003'
             ),
-            name="ctG003"
+            name='ctG003'
         ),
         TestGroup(
             annotation=[
@@ -11576,7 +11576,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then all',
                             ]
                         ),
                     ]
@@ -11584,13 +11584,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG004.xsd"
+                        href='../msData/complexType/ctG004.xsd'
                     ),
                 ],
                 expected=[
@@ -11602,9 +11602,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG004"
+                name='ctG004'
             ),
-            name="ctG004"
+            name='ctG004'
         ),
         TestGroup(
             annotation=[
@@ -11612,7 +11612,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then choice',
                             ]
                         ),
                     ]
@@ -11620,13 +11620,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG005.xsd"
+                        href='../msData/complexType/ctG005.xsd'
                     ),
                 ],
                 expected=[
@@ -11638,9 +11638,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG005"
+                name='ctG005'
             ),
-            name="ctG005"
+            name='ctG005'
         ),
         TestGroup(
             annotation=[
@@ -11648,7 +11648,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then sequence',
                             ]
                         ),
                     ]
@@ -11656,13 +11656,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG006.xsd"
+                        href='../msData/complexType/ctG006.xsd'
                     ),
                 ],
                 expected=[
@@ -11674,9 +11674,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG006"
+                name='ctG006'
             ),
-            name="ctG006"
+            name='ctG006'
         ),
         TestGroup(
             annotation=[
@@ -11684,12 +11684,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then attribute',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded these schemas are OK in 1.0, despite violating subsumption",
+                                'TSTF concluded these schemas are OK in 1.0, despite violating subsumption',
                             ]
                         ),
                     ]
@@ -11697,13 +11697,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG007.xsd"
+                        href='../msData/complexType/ctG007.xsd'
                     ),
                 ],
                 expected=[
@@ -11714,25 +11714,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 15),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ctG007"
+                name='ctG007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG007.xml"
+                        href='../msData/complexType/ctG007.xml'
                     ),
                     expected=[
                         Expected(
@@ -11743,10 +11743,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG007.v"
+                    name='ctG007.v'
                 ),
             ],
-            name="ctG007"
+            name='ctG007'
         ),
         TestGroup(
             annotation=[
@@ -11754,12 +11754,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then two attributes',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded these schemas are OK in 1.0, despite violating subsumption",
+                                'TSTF concluded these schemas are OK in 1.0, despite violating subsumption',
                             ]
                         ),
                     ]
@@ -11767,13 +11767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG008.xsd"
+                        href='../msData/complexType/ctG008.xsd'
                     ),
                 ],
                 expected=[
@@ -11784,25 +11784,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 15),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ctG008"
+                name='ctG008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG008.xml"
+                        href='../msData/complexType/ctG008.xml'
                     ),
                     expected=[
                         Expected(
@@ -11813,10 +11813,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG008.v"
+                    name='ctG008.v'
                 ),
             ],
-            name="ctG008"
+            name='ctG008'
         ),
         TestGroup(
             annotation=[
@@ -11824,12 +11824,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then attributeGroup',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded these schemas are OK in 1.0, despite violating subsumption",
+                                'TSTF concluded these schemas are OK in 1.0, despite violating subsumption',
                             ]
                         ),
                     ]
@@ -11837,13 +11837,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG009.xsd"
+                        href='../msData/complexType/ctG009.xsd'
                     ),
                 ],
                 expected=[
@@ -11854,25 +11854,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 15),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ctG009"
+                name='ctG009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG009.xml"
+                        href='../msData/complexType/ctG009.xml'
                     ),
                     expected=[
                         Expected(
@@ -11883,10 +11883,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG009.v"
+                    name='ctG009.v'
                 ),
             ],
-            name="ctG009"
+            name='ctG009'
         ),
         TestGroup(
             annotation=[
@@ -11894,12 +11894,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then two attributeGroups',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded these schemas are OK in 1.0, despite violating subsumption",
+                                'TSTF concluded these schemas are OK in 1.0, despite violating subsumption',
                             ]
                         ),
                     ]
@@ -11907,13 +11907,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG010.xsd"
+                        href='../msData/complexType/ctG010.xsd'
                     ),
                 ],
                 expected=[
@@ -11924,25 +11924,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 15),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ctG010"
+                name='ctG010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG010.xml"
+                        href='../msData/complexType/ctG010.xml'
                     ),
                     expected=[
                         Expected(
@@ -11953,10 +11953,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG010.v"
+                    name='ctG010.v'
                 ),
             ],
-            name="ctG010"
+            name='ctG010'
         ),
         TestGroup(
             annotation=[
@@ -11964,12 +11964,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then anyAttribute',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF concluded these schemas are OK in 1.0, despite violating subsumption",
+                                'TSTF concluded these schemas are OK in 1.0, despite violating subsumption',
                             ]
                         ),
                     ]
@@ -11977,13 +11977,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG011.xsd"
+                        href='../msData/complexType/ctG011.xsd'
                     ),
                 ],
                 expected=[
@@ -11994,25 +11994,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 15),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4067'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ctG011"
+                name='ctG011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG011.xml"
+                        href='../msData/complexType/ctG011.xml'
                     ),
                     expected=[
                         Expected(
@@ -12023,10 +12023,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG011.v"
+                    name='ctG011.v'
                 ),
             ],
-            name="ctG011"
+            name='ctG011'
         ),
         TestGroup(
             annotation=[
@@ -12034,7 +12034,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with group then two anyAttributes',
                             ]
                         ),
                     ]
@@ -12042,13 +12042,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG012.xsd"
+                        href='../msData/complexType/ctG012.xsd'
                     ),
                 ],
                 expected=[
@@ -12060,9 +12060,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG012"
+                name='ctG012'
             ),
-            name="ctG012"
+            name='ctG012'
         ),
         TestGroup(
             annotation=[
@@ -12070,7 +12070,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all',
                             ]
                         ),
                     ]
@@ -12078,13 +12078,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG013.xsd"
+                        href='../msData/complexType/ctG013.xsd'
                     ),
                 ],
                 expected=[
@@ -12096,12 +12096,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG013"
+                name='ctG013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG013.xml"
+                        href='../msData/complexType/ctG013.xml'
                     ),
                     expected=[
                         Expected(
@@ -12112,10 +12112,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG013.v"
+                    name='ctG013.v'
                 ),
             ],
-            name="ctG013"
+            name='ctG013'
         ),
         TestGroup(
             annotation=[
@@ -12123,7 +12123,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then annotation',
                             ]
                         ),
                     ]
@@ -12131,13 +12131,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG014.xsd"
+                        href='../msData/complexType/ctG014.xsd'
                     ),
                 ],
                 expected=[
@@ -12149,9 +12149,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG014"
+                name='ctG014'
             ),
-            name="ctG014"
+            name='ctG014'
         ),
         TestGroup(
             annotation=[
@@ -12159,7 +12159,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then group',
                             ]
                         ),
                     ]
@@ -12167,13 +12167,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG015.xsd"
+                        href='../msData/complexType/ctG015.xsd'
                     ),
                 ],
                 expected=[
@@ -12185,9 +12185,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG015"
+                name='ctG015'
             ),
-            name="ctG015"
+            name='ctG015'
         ),
         TestGroup(
             annotation=[
@@ -12195,7 +12195,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then all',
                             ]
                         ),
                     ]
@@ -12203,13 +12203,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG016.xsd"
+                        href='../msData/complexType/ctG016.xsd'
                     ),
                 ],
                 expected=[
@@ -12221,9 +12221,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG016"
+                name='ctG016'
             ),
-            name="ctG016"
+            name='ctG016'
         ),
         TestGroup(
             annotation=[
@@ -12231,7 +12231,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then choice',
                             ]
                         ),
                     ]
@@ -12239,13 +12239,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG017.xsd"
+                        href='../msData/complexType/ctG017.xsd'
                     ),
                 ],
                 expected=[
@@ -12257,9 +12257,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG017"
+                name='ctG017'
             ),
-            name="ctG017"
+            name='ctG017'
         ),
         TestGroup(
             annotation=[
@@ -12267,7 +12267,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then sequence',
                             ]
                         ),
                     ]
@@ -12275,13 +12275,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG018.xsd"
+                        href='../msData/complexType/ctG018.xsd'
                     ),
                 ],
                 expected=[
@@ -12293,9 +12293,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG018"
+                name='ctG018'
             ),
-            name="ctG018"
+            name='ctG018'
         ),
         TestGroup(
             annotation=[
@@ -12303,7 +12303,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then attribute',
                             ]
                         ),
                     ]
@@ -12311,13 +12311,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG019.xsd"
+                        href='../msData/complexType/ctG019.xsd'
                     ),
                 ],
                 expected=[
@@ -12329,12 +12329,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG019"
+                name='ctG019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG019.xml"
+                        href='../msData/complexType/ctG019.xml'
                     ),
                     expected=[
                         Expected(
@@ -12345,10 +12345,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG019.v"
+                    name='ctG019.v'
                 ),
             ],
-            name="ctG019"
+            name='ctG019'
         ),
         TestGroup(
             annotation=[
@@ -12356,7 +12356,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then two attributes',
                             ]
                         ),
                     ]
@@ -12364,13 +12364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG020.xsd"
+                        href='../msData/complexType/ctG020.xsd'
                     ),
                 ],
                 expected=[
@@ -12382,12 +12382,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG020"
+                name='ctG020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG020.xml"
+                        href='../msData/complexType/ctG020.xml'
                     ),
                     expected=[
                         Expected(
@@ -12398,10 +12398,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG020.v"
+                    name='ctG020.v'
                 ),
             ],
-            name="ctG020"
+            name='ctG020'
         ),
         TestGroup(
             annotation=[
@@ -12409,7 +12409,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then attributeGroup',
                             ]
                         ),
                     ]
@@ -12417,13 +12417,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG021.xsd"
+                        href='../msData/complexType/ctG021.xsd'
                     ),
                 ],
                 expected=[
@@ -12435,12 +12435,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG021"
+                name='ctG021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG021.xml"
+                        href='../msData/complexType/ctG021.xml'
                     ),
                     expected=[
                         Expected(
@@ -12451,10 +12451,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG021.v"
+                    name='ctG021.v'
                 ),
             ],
-            name="ctG021"
+            name='ctG021'
         ),
         TestGroup(
             annotation=[
@@ -12462,7 +12462,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then two attributeGroups',
                             ]
                         ),
                     ]
@@ -12470,13 +12470,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG022.xsd"
+                        href='../msData/complexType/ctG022.xsd'
                     ),
                 ],
                 expected=[
@@ -12488,12 +12488,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG022"
+                name='ctG022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG022.xml"
+                        href='../msData/complexType/ctG022.xml'
                     ),
                     expected=[
                         Expected(
@@ -12504,10 +12504,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG022.v"
+                    name='ctG022.v'
                 ),
             ],
-            name="ctG022"
+            name='ctG022'
         ),
         TestGroup(
             annotation=[
@@ -12515,7 +12515,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then anyAttribute',
                             ]
                         ),
                     ]
@@ -12523,13 +12523,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG023.xsd"
+                        href='../msData/complexType/ctG023.xsd'
                     ),
                 ],
                 expected=[
@@ -12541,12 +12541,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG023"
+                name='ctG023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG023.xml"
+                        href='../msData/complexType/ctG023.xml'
                     ),
                     expected=[
                         Expected(
@@ -12557,10 +12557,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG023.v"
+                    name='ctG023.v'
                 ),
             ],
-            name="ctG023"
+            name='ctG023'
         ),
         TestGroup(
             annotation=[
@@ -12568,7 +12568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with all then two anyAttributes',
                             ]
                         ),
                     ]
@@ -12576,13 +12576,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG024.xsd"
+                        href='../msData/complexType/ctG024.xsd'
                     ),
                 ],
                 expected=[
@@ -12594,9 +12594,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG024"
+                name='ctG024'
             ),
-            name="ctG024"
+            name='ctG024'
         ),
         TestGroup(
             annotation=[
@@ -12604,7 +12604,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice',
                             ]
                         ),
                     ]
@@ -12612,13 +12612,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG025.xsd"
+                        href='../msData/complexType/ctG025.xsd'
                     ),
                 ],
                 expected=[
@@ -12630,12 +12630,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG025"
+                name='ctG025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG025.xml"
+                        href='../msData/complexType/ctG025.xml'
                     ),
                     expected=[
                         Expected(
@@ -12646,10 +12646,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG025.v"
+                    name='ctG025.v'
                 ),
             ],
-            name="ctG025"
+            name='ctG025'
         ),
         TestGroup(
             annotation=[
@@ -12657,7 +12657,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then annotation',
                             ]
                         ),
                     ]
@@ -12665,13 +12665,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG026.xsd"
+                        href='../msData/complexType/ctG026.xsd'
                     ),
                 ],
                 expected=[
@@ -12683,9 +12683,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG026"
+                name='ctG026'
             ),
-            name="ctG026"
+            name='ctG026'
         ),
         TestGroup(
             annotation=[
@@ -12693,7 +12693,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then group',
                             ]
                         ),
                     ]
@@ -12701,13 +12701,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG027.xsd"
+                        href='../msData/complexType/ctG027.xsd'
                     ),
                 ],
                 expected=[
@@ -12719,9 +12719,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG027"
+                name='ctG027'
             ),
-            name="ctG027"
+            name='ctG027'
         ),
         TestGroup(
             annotation=[
@@ -12729,7 +12729,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then all',
                             ]
                         ),
                     ]
@@ -12737,13 +12737,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG028.xsd"
+                        href='../msData/complexType/ctG028.xsd'
                     ),
                 ],
                 expected=[
@@ -12755,9 +12755,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG028"
+                name='ctG028'
             ),
-            name="ctG028"
+            name='ctG028'
         ),
         TestGroup(
             annotation=[
@@ -12765,7 +12765,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then choice',
                             ]
                         ),
                     ]
@@ -12773,13 +12773,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG029.xsd"
+                        href='../msData/complexType/ctG029.xsd'
                     ),
                 ],
                 expected=[
@@ -12791,9 +12791,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG029"
+                name='ctG029'
             ),
-            name="ctG029"
+            name='ctG029'
         ),
         TestGroup(
             annotation=[
@@ -12801,7 +12801,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then sequence',
                             ]
                         ),
                     ]
@@ -12809,13 +12809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG030.xsd"
+                        href='../msData/complexType/ctG030.xsd'
                     ),
                 ],
                 expected=[
@@ -12827,9 +12827,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG030"
+                name='ctG030'
             ),
-            name="ctG030"
+            name='ctG030'
         ),
         TestGroup(
             annotation=[
@@ -12837,7 +12837,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then attribute',
                             ]
                         ),
                     ]
@@ -12845,13 +12845,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG031.xsd"
+                        href='../msData/complexType/ctG031.xsd'
                     ),
                 ],
                 expected=[
@@ -12863,12 +12863,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG031"
+                name='ctG031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG031.xml"
+                        href='../msData/complexType/ctG031.xml'
                     ),
                     expected=[
                         Expected(
@@ -12879,10 +12879,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG031.v"
+                    name='ctG031.v'
                 ),
             ],
-            name="ctG031"
+            name='ctG031'
         ),
         TestGroup(
             annotation=[
@@ -12890,7 +12890,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then two attributes',
                             ]
                         ),
                     ]
@@ -12898,13 +12898,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG032.xsd"
+                        href='../msData/complexType/ctG032.xsd'
                     ),
                 ],
                 expected=[
@@ -12916,12 +12916,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG032"
+                name='ctG032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG032.xml"
+                        href='../msData/complexType/ctG032.xml'
                     ),
                     expected=[
                         Expected(
@@ -12932,10 +12932,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG032.v"
+                    name='ctG032.v'
                 ),
             ],
-            name="ctG032"
+            name='ctG032'
         ),
         TestGroup(
             annotation=[
@@ -12943,7 +12943,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then attributeGroup',
                             ]
                         ),
                     ]
@@ -12951,13 +12951,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG033.xsd"
+                        href='../msData/complexType/ctG033.xsd'
                     ),
                 ],
                 expected=[
@@ -12969,12 +12969,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG033"
+                name='ctG033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG033.xml"
+                        href='../msData/complexType/ctG033.xml'
                     ),
                     expected=[
                         Expected(
@@ -12985,10 +12985,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG033.v"
+                    name='ctG033.v'
                 ),
             ],
-            name="ctG033"
+            name='ctG033'
         ),
         TestGroup(
             annotation=[
@@ -12996,7 +12996,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then two attributeGroups',
                             ]
                         ),
                     ]
@@ -13004,13 +13004,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG034.xsd"
+                        href='../msData/complexType/ctG034.xsd'
                     ),
                 ],
                 expected=[
@@ -13022,12 +13022,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG034"
+                name='ctG034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG034.xml"
+                        href='../msData/complexType/ctG034.xml'
                     ),
                     expected=[
                         Expected(
@@ -13038,10 +13038,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG034.v"
+                    name='ctG034.v'
                 ),
             ],
-            name="ctG034"
+            name='ctG034'
         ),
         TestGroup(
             annotation=[
@@ -13049,7 +13049,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then anyAttribute',
                             ]
                         ),
                     ]
@@ -13057,13 +13057,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG035.xsd"
+                        href='../msData/complexType/ctG035.xsd'
                     ),
                 ],
                 expected=[
@@ -13075,12 +13075,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG035"
+                name='ctG035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG035.xml"
+                        href='../msData/complexType/ctG035.xml'
                     ),
                     expected=[
                         Expected(
@@ -13091,10 +13091,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG035.v"
+                    name='ctG035.v'
                 ),
             ],
-            name="ctG035"
+            name='ctG035'
         ),
         TestGroup(
             annotation=[
@@ -13102,7 +13102,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with choice then two anyAttributes',
                             ]
                         ),
                     ]
@@ -13110,13 +13110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG036.xsd"
+                        href='../msData/complexType/ctG036.xsd'
                     ),
                 ],
                 expected=[
@@ -13128,9 +13128,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG036"
+                name='ctG036'
             ),
-            name="ctG036"
+            name='ctG036'
         ),
         TestGroup(
             annotation=[
@@ -13138,7 +13138,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence',
                             ]
                         ),
                     ]
@@ -13146,13 +13146,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG037.xsd"
+                        href='../msData/complexType/ctG037.xsd'
                     ),
                 ],
                 expected=[
@@ -13164,12 +13164,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG037"
+                name='ctG037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG037.xml"
+                        href='../msData/complexType/ctG037.xml'
                     ),
                     expected=[
                         Expected(
@@ -13180,10 +13180,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG037.v"
+                    name='ctG037.v'
                 ),
             ],
-            name="ctG037"
+            name='ctG037'
         ),
         TestGroup(
             annotation=[
@@ -13191,7 +13191,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then annotation',
                             ]
                         ),
                     ]
@@ -13199,13 +13199,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG038.xsd"
+                        href='../msData/complexType/ctG038.xsd'
                     ),
                 ],
                 expected=[
@@ -13217,9 +13217,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG038"
+                name='ctG038'
             ),
-            name="ctG038"
+            name='ctG038'
         ),
         TestGroup(
             annotation=[
@@ -13227,7 +13227,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then group',
                             ]
                         ),
                     ]
@@ -13235,13 +13235,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG039.xsd"
+                        href='../msData/complexType/ctG039.xsd'
                     ),
                 ],
                 expected=[
@@ -13253,9 +13253,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG039"
+                name='ctG039'
             ),
-            name="ctG039"
+            name='ctG039'
         ),
         TestGroup(
             annotation=[
@@ -13263,7 +13263,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then all',
                             ]
                         ),
                     ]
@@ -13271,13 +13271,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG040.xsd"
+                        href='../msData/complexType/ctG040.xsd'
                     ),
                 ],
                 expected=[
@@ -13289,9 +13289,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG040"
+                name='ctG040'
             ),
-            name="ctG040"
+            name='ctG040'
         ),
         TestGroup(
             annotation=[
@@ -13299,7 +13299,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then choice',
                             ]
                         ),
                     ]
@@ -13307,13 +13307,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG041.xsd"
+                        href='../msData/complexType/ctG041.xsd'
                     ),
                 ],
                 expected=[
@@ -13325,9 +13325,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG041"
+                name='ctG041'
             ),
-            name="ctG041"
+            name='ctG041'
         ),
         TestGroup(
             annotation=[
@@ -13335,7 +13335,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then sequence',
                             ]
                         ),
                     ]
@@ -13343,13 +13343,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG042.xsd"
+                        href='../msData/complexType/ctG042.xsd'
                     ),
                 ],
                 expected=[
@@ -13361,9 +13361,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG042"
+                name='ctG042'
             ),
-            name="ctG042"
+            name='ctG042'
         ),
         TestGroup(
             annotation=[
@@ -13371,7 +13371,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then attribute',
                             ]
                         ),
                     ]
@@ -13379,13 +13379,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG043.xsd"
+                        href='../msData/complexType/ctG043.xsd'
                     ),
                 ],
                 expected=[
@@ -13397,12 +13397,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG043"
+                name='ctG043'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG043.xml"
+                        href='../msData/complexType/ctG043.xml'
                     ),
                     expected=[
                         Expected(
@@ -13413,10 +13413,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG043.v"
+                    name='ctG043.v'
                 ),
             ],
-            name="ctG043"
+            name='ctG043'
         ),
         TestGroup(
             annotation=[
@@ -13424,7 +13424,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then two attributes',
                             ]
                         ),
                     ]
@@ -13432,13 +13432,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG044.xsd"
+                        href='../msData/complexType/ctG044.xsd'
                     ),
                 ],
                 expected=[
@@ -13450,12 +13450,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG044"
+                name='ctG044'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG044.xml"
+                        href='../msData/complexType/ctG044.xml'
                     ),
                     expected=[
                         Expected(
@@ -13466,10 +13466,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG044.v"
+                    name='ctG044.v'
                 ),
             ],
-            name="ctG044"
+            name='ctG044'
         ),
         TestGroup(
             annotation=[
@@ -13477,7 +13477,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then attributeGroup',
                             ]
                         ),
                     ]
@@ -13485,13 +13485,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG045.xsd"
+                        href='../msData/complexType/ctG045.xsd'
                     ),
                 ],
                 expected=[
@@ -13503,12 +13503,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG045"
+                name='ctG045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG045.xml"
+                        href='../msData/complexType/ctG045.xml'
                     ),
                     expected=[
                         Expected(
@@ -13519,10 +13519,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG045.v"
+                    name='ctG045.v'
                 ),
             ],
-            name="ctG045"
+            name='ctG045'
         ),
         TestGroup(
             annotation=[
@@ -13530,7 +13530,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then two attributeGroups',
                             ]
                         ),
                     ]
@@ -13538,13 +13538,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG046.xsd"
+                        href='../msData/complexType/ctG046.xsd'
                     ),
                 ],
                 expected=[
@@ -13556,12 +13556,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG046"
+                name='ctG046'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG046.xml"
+                        href='../msData/complexType/ctG046.xml'
                     ),
                     expected=[
                         Expected(
@@ -13572,10 +13572,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG046.v"
+                    name='ctG046.v'
                 ),
             ],
-            name="ctG046"
+            name='ctG046'
         ),
         TestGroup(
             annotation=[
@@ -13583,7 +13583,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then anyAttribute',
                             ]
                         ),
                     ]
@@ -13591,13 +13591,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG047.xsd"
+                        href='../msData/complexType/ctG047.xsd'
                     ),
                 ],
                 expected=[
@@ -13609,12 +13609,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG047"
+                name='ctG047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG047.xml"
+                        href='../msData/complexType/ctG047.xml'
                     ),
                     expected=[
                         Expected(
@@ -13625,10 +13625,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG047.v"
+                    name='ctG047.v'
                 ),
             ],
-            name="ctG047"
+            name='ctG047'
         ),
         TestGroup(
             annotation=[
@@ -13636,7 +13636,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with sequence then two anyAttributes',
                             ]
                         ),
                     ]
@@ -13644,13 +13644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG048.xsd"
+                        href='../msData/complexType/ctG048.xsd'
                     ),
                 ],
                 expected=[
@@ -13662,9 +13662,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG048"
+                name='ctG048'
             ),
-            name="ctG048"
+            name='ctG048'
         ),
         TestGroup(
             annotation=[
@@ -13672,7 +13672,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute',
                             ]
                         ),
                     ]
@@ -13680,13 +13680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG049.xsd"
+                        href='../msData/complexType/ctG049.xsd'
                     ),
                 ],
                 expected=[
@@ -13698,12 +13698,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG049"
+                name='ctG049'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG049.xml"
+                        href='../msData/complexType/ctG049.xml'
                     ),
                     expected=[
                         Expected(
@@ -13714,10 +13714,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG049.v"
+                    name='ctG049.v'
                 ),
             ],
-            name="ctG049"
+            name='ctG049'
         ),
         TestGroup(
             annotation=[
@@ -13725,7 +13725,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then annotation',
                             ]
                         ),
                     ]
@@ -13733,13 +13733,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG050.xsd"
+                        href='../msData/complexType/ctG050.xsd'
                     ),
                 ],
                 expected=[
@@ -13751,9 +13751,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG050"
+                name='ctG050'
             ),
-            name="ctG050"
+            name='ctG050'
         ),
         TestGroup(
             annotation=[
@@ -13761,7 +13761,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then group',
                             ]
                         ),
                     ]
@@ -13769,13 +13769,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG051.xsd"
+                        href='../msData/complexType/ctG051.xsd'
                     ),
                 ],
                 expected=[
@@ -13787,9 +13787,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG051"
+                name='ctG051'
             ),
-            name="ctG051"
+            name='ctG051'
         ),
         TestGroup(
             annotation=[
@@ -13797,7 +13797,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then all',
                             ]
                         ),
                     ]
@@ -13805,13 +13805,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG052.xsd"
+                        href='../msData/complexType/ctG052.xsd'
                     ),
                 ],
                 expected=[
@@ -13823,9 +13823,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG052"
+                name='ctG052'
             ),
-            name="ctG052"
+            name='ctG052'
         ),
         TestGroup(
             annotation=[
@@ -13833,7 +13833,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then choice',
                             ]
                         ),
                     ]
@@ -13841,13 +13841,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG053.xsd"
+                        href='../msData/complexType/ctG053.xsd'
                     ),
                 ],
                 expected=[
@@ -13859,9 +13859,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG053"
+                name='ctG053'
             ),
-            name="ctG053"
+            name='ctG053'
         ),
         TestGroup(
             annotation=[
@@ -13869,7 +13869,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then sequence',
                             ]
                         ),
                     ]
@@ -13877,13 +13877,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG054.xsd"
+                        href='../msData/complexType/ctG054.xsd'
                     ),
                 ],
                 expected=[
@@ -13895,9 +13895,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG054"
+                name='ctG054'
             ),
-            name="ctG054"
+            name='ctG054'
         ),
         TestGroup(
             annotation=[
@@ -13905,7 +13905,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then attribute',
                             ]
                         ),
                     ]
@@ -13913,13 +13913,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG055.xsd"
+                        href='../msData/complexType/ctG055.xsd'
                     ),
                 ],
                 expected=[
@@ -13931,12 +13931,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG055"
+                name='ctG055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG055.xml"
+                        href='../msData/complexType/ctG055.xml'
                     ),
                     expected=[
                         Expected(
@@ -13947,10 +13947,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG055.v"
+                    name='ctG055.v'
                 ),
             ],
-            name="ctG055"
+            name='ctG055'
         ),
         TestGroup(
             annotation=[
@@ -13958,7 +13958,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then attributeGroup',
                             ]
                         ),
                     ]
@@ -13966,13 +13966,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG056.xsd"
+                        href='../msData/complexType/ctG056.xsd'
                     ),
                 ],
                 expected=[
@@ -13984,12 +13984,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG056"
+                name='ctG056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG056.xml"
+                        href='../msData/complexType/ctG056.xml'
                     ),
                     expected=[
                         Expected(
@@ -14000,10 +14000,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG056.v"
+                    name='ctG056.v'
                 ),
             ],
-            name="ctG056"
+            name='ctG056'
         ),
         TestGroup(
             annotation=[
@@ -14011,7 +14011,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then two attributeGroups',
                             ]
                         ),
                     ]
@@ -14019,13 +14019,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG057.xsd"
+                        href='../msData/complexType/ctG057.xsd'
                     ),
                 ],
                 expected=[
@@ -14037,12 +14037,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG057"
+                name='ctG057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG057.xml"
+                        href='../msData/complexType/ctG057.xml'
                     ),
                     expected=[
                         Expected(
@@ -14053,10 +14053,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG057.v"
+                    name='ctG057.v'
                 ),
             ],
-            name="ctG057"
+            name='ctG057'
         ),
         TestGroup(
             annotation=[
@@ -14064,7 +14064,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then anyAttribute',
                             ]
                         ),
                     ]
@@ -14072,13 +14072,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG058.xsd"
+                        href='../msData/complexType/ctG058.xsd'
                     ),
                 ],
                 expected=[
@@ -14090,12 +14090,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG058"
+                name='ctG058'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG058.xml"
+                        href='../msData/complexType/ctG058.xml'
                     ),
                     expected=[
                         Expected(
@@ -14106,10 +14106,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG058.v"
+                    name='ctG058.v'
                 ),
             ],
-            name="ctG058"
+            name='ctG058'
         ),
         TestGroup(
             annotation=[
@@ -14117,7 +14117,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attribute then two anyAttributes',
                             ]
                         ),
                     ]
@@ -14125,13 +14125,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG059.xsd"
+                        href='../msData/complexType/ctG059.xsd'
                     ),
                 ],
                 expected=[
@@ -14143,9 +14143,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG059"
+                name='ctG059'
             ),
-            name="ctG059"
+            name='ctG059'
         ),
         TestGroup(
             annotation=[
@@ -14153,7 +14153,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup',
                             ]
                         ),
                     ]
@@ -14161,13 +14161,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG060.xsd"
+                        href='../msData/complexType/ctG060.xsd'
                     ),
                 ],
                 expected=[
@@ -14179,12 +14179,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG060"
+                name='ctG060'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG060.xml"
+                        href='../msData/complexType/ctG060.xml'
                     ),
                     expected=[
                         Expected(
@@ -14195,10 +14195,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG060.v"
+                    name='ctG060.v'
                 ),
             ],
-            name="ctG060"
+            name='ctG060'
         ),
         TestGroup(
             annotation=[
@@ -14206,7 +14206,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then annotation',
                             ]
                         ),
                     ]
@@ -14214,13 +14214,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG061.xsd"
+                        href='../msData/complexType/ctG061.xsd'
                     ),
                 ],
                 expected=[
@@ -14232,9 +14232,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG061"
+                name='ctG061'
             ),
-            name="ctG061"
+            name='ctG061'
         ),
         TestGroup(
             annotation=[
@@ -14242,7 +14242,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then group',
                             ]
                         ),
                     ]
@@ -14250,13 +14250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG062.xsd"
+                        href='../msData/complexType/ctG062.xsd'
                     ),
                 ],
                 expected=[
@@ -14268,9 +14268,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG062"
+                name='ctG062'
             ),
-            name="ctG062"
+            name='ctG062'
         ),
         TestGroup(
             annotation=[
@@ -14278,7 +14278,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then all',
                             ]
                         ),
                     ]
@@ -14286,13 +14286,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG063.xsd"
+                        href='../msData/complexType/ctG063.xsd'
                     ),
                 ],
                 expected=[
@@ -14304,9 +14304,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG063"
+                name='ctG063'
             ),
-            name="ctG063"
+            name='ctG063'
         ),
         TestGroup(
             annotation=[
@@ -14314,7 +14314,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then choice',
                             ]
                         ),
                     ]
@@ -14322,13 +14322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG064.xsd"
+                        href='../msData/complexType/ctG064.xsd'
                     ),
                 ],
                 expected=[
@@ -14340,9 +14340,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG064"
+                name='ctG064'
             ),
-            name="ctG064"
+            name='ctG064'
         ),
         TestGroup(
             annotation=[
@@ -14350,7 +14350,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then sequence',
                             ]
                         ),
                     ]
@@ -14358,13 +14358,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG065.xsd"
+                        href='../msData/complexType/ctG065.xsd'
                     ),
                 ],
                 expected=[
@@ -14376,9 +14376,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG065"
+                name='ctG065'
             ),
-            name="ctG065"
+            name='ctG065'
         ),
         TestGroup(
             annotation=[
@@ -14386,7 +14386,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then attribute',
                             ]
                         ),
                     ]
@@ -14394,13 +14394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG066.xsd"
+                        href='../msData/complexType/ctG066.xsd'
                     ),
                 ],
                 expected=[
@@ -14412,12 +14412,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG066"
+                name='ctG066'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG066.xml"
+                        href='../msData/complexType/ctG066.xml'
                     ),
                     expected=[
                         Expected(
@@ -14428,10 +14428,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG066.v"
+                    name='ctG066.v'
                 ),
             ],
-            name="ctG066"
+            name='ctG066'
         ),
         TestGroup(
             annotation=[
@@ -14439,7 +14439,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then two attributes',
                             ]
                         ),
                     ]
@@ -14447,13 +14447,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG067.xsd"
+                        href='../msData/complexType/ctG067.xsd'
                     ),
                 ],
                 expected=[
@@ -14465,12 +14465,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG067"
+                name='ctG067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG067.xml"
+                        href='../msData/complexType/ctG067.xml'
                     ),
                     expected=[
                         Expected(
@@ -14481,10 +14481,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG067.v"
+                    name='ctG067.v'
                 ),
             ],
-            name="ctG067"
+            name='ctG067'
         ),
         TestGroup(
             annotation=[
@@ -14492,7 +14492,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then attributeGroup',
                             ]
                         ),
                     ]
@@ -14500,13 +14500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG068.xsd"
+                        href='../msData/complexType/ctG068.xsd'
                     ),
                 ],
                 expected=[
@@ -14518,12 +14518,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG068"
+                name='ctG068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG068.xml"
+                        href='../msData/complexType/ctG068.xml'
                     ),
                     expected=[
                         Expected(
@@ -14534,10 +14534,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG068.v"
+                    name='ctG068.v'
                 ),
             ],
-            name="ctG068"
+            name='ctG068'
         ),
         TestGroup(
             annotation=[
@@ -14545,7 +14545,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then anyAttribute',
                             ]
                         ),
                     ]
@@ -14553,13 +14553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG069.xsd"
+                        href='../msData/complexType/ctG069.xsd'
                     ),
                 ],
                 expected=[
@@ -14571,12 +14571,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG069"
+                name='ctG069'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG069.xml"
+                        href='../msData/complexType/ctG069.xml'
                     ),
                     expected=[
                         Expected(
@@ -14587,10 +14587,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG069.v"
+                    name='ctG069.v'
                 ),
             ],
-            name="ctG069"
+            name='ctG069'
         ),
         TestGroup(
             annotation=[
@@ -14598,7 +14598,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with attributeGroup then two anyAttributes',
                             ]
                         ),
                     ]
@@ -14606,13 +14606,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG070.xsd"
+                        href='../msData/complexType/ctG070.xsd'
                     ),
                 ],
                 expected=[
@@ -14624,9 +14624,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG070"
+                name='ctG070'
             ),
-            name="ctG070"
+            name='ctG070'
         ),
         TestGroup(
             annotation=[
@@ -14634,7 +14634,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute',
                             ]
                         ),
                     ]
@@ -14642,13 +14642,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG071.xsd"
+                        href='../msData/complexType/ctG071.xsd'
                     ),
                 ],
                 expected=[
@@ -14660,12 +14660,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG071"
+                name='ctG071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctG071.xml"
+                        href='../msData/complexType/ctG071.xml'
                     ),
                     expected=[
                         Expected(
@@ -14676,10 +14676,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctG071.v"
+                    name='ctG071.v'
                 ),
             ],
-            name="ctG071"
+            name='ctG071'
         ),
         TestGroup(
             annotation=[
@@ -14687,7 +14687,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then annotation',
                             ]
                         ),
                     ]
@@ -14695,13 +14695,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG072.xsd"
+                        href='../msData/complexType/ctG072.xsd'
                     ),
                 ],
                 expected=[
@@ -14713,9 +14713,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG072"
+                name='ctG072'
             ),
-            name="ctG072"
+            name='ctG072'
         ),
         TestGroup(
             annotation=[
@@ -14723,7 +14723,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then group',
                             ]
                         ),
                     ]
@@ -14731,13 +14731,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG073.xsd"
+                        href='../msData/complexType/ctG073.xsd'
                     ),
                 ],
                 expected=[
@@ -14749,9 +14749,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG073"
+                name='ctG073'
             ),
-            name="ctG073"
+            name='ctG073'
         ),
         TestGroup(
             annotation=[
@@ -14759,7 +14759,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then all',
                             ]
                         ),
                     ]
@@ -14767,13 +14767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG074.xsd"
+                        href='../msData/complexType/ctG074.xsd'
                     ),
                 ],
                 expected=[
@@ -14785,9 +14785,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG074"
+                name='ctG074'
             ),
-            name="ctG074"
+            name='ctG074'
         ),
         TestGroup(
             annotation=[
@@ -14795,7 +14795,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then choice',
                             ]
                         ),
                     ]
@@ -14803,13 +14803,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG075.xsd"
+                        href='../msData/complexType/ctG075.xsd'
                     ),
                 ],
                 expected=[
@@ -14821,9 +14821,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG075"
+                name='ctG075'
             ),
-            name="ctG075"
+            name='ctG075'
         ),
         TestGroup(
             annotation=[
@@ -14831,7 +14831,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then sequence',
                             ]
                         ),
                     ]
@@ -14839,13 +14839,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG076.xsd"
+                        href='../msData/complexType/ctG076.xsd'
                     ),
                 ],
                 expected=[
@@ -14857,9 +14857,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG076"
+                name='ctG076'
             ),
-            name="ctG076"
+            name='ctG076'
         ),
         TestGroup(
             annotation=[
@@ -14867,7 +14867,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then attribute',
                             ]
                         ),
                     ]
@@ -14875,13 +14875,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG077.xsd"
+                        href='../msData/complexType/ctG077.xsd'
                     ),
                 ],
                 expected=[
@@ -14893,9 +14893,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG077"
+                name='ctG077'
             ),
-            name="ctG077"
+            name='ctG077'
         ),
         TestGroup(
             annotation=[
@@ -14903,7 +14903,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then two attributes',
                             ]
                         ),
                     ]
@@ -14911,13 +14911,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG078.xsd"
+                        href='../msData/complexType/ctG078.xsd'
                     ),
                 ],
                 expected=[
@@ -14929,9 +14929,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG078"
+                name='ctG078'
             ),
-            name="ctG078"
+            name='ctG078'
         ),
         TestGroup(
             annotation=[
@@ -14939,7 +14939,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then attributeGroup',
                             ]
                         ),
                     ]
@@ -14947,13 +14947,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG079.xsd"
+                        href='../msData/complexType/ctG079.xsd'
                     ),
                 ],
                 expected=[
@@ -14965,9 +14965,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG079"
+                name='ctG079'
             ),
-            name="ctG079"
+            name='ctG079'
         ),
         TestGroup(
             annotation=[
@@ -14975,7 +14975,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then two attributeGroups',
                             ]
                         ),
                     ]
@@ -14983,13 +14983,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG080.xsd"
+                        href='../msData/complexType/ctG080.xsd'
                     ),
                 ],
                 expected=[
@@ -15001,9 +15001,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG080"
+                name='ctG080'
             ),
-            name="ctG080"
+            name='ctG080'
         ),
         TestGroup(
             annotation=[
@@ -15011,7 +15011,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of restriction and content with anyAttribute then anyAttribute',
                             ]
                         ),
                     ]
@@ -15019,13 +15019,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctG081.xsd"
+                        href='../msData/complexType/ctG081.xsd'
                     ),
                 ],
                 expected=[
@@ -15037,9 +15037,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctG081"
+                name='ctG081'
             ),
-            name="ctG081"
+            name='ctG081'
         ),
         TestGroup(
             annotation=[
@@ -15047,7 +15047,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group',
                             ]
                         ),
                     ]
@@ -15055,13 +15055,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH001.xsd"
+                        href='../msData/complexType/ctH001.xsd'
                     ),
                 ],
                 expected=[
@@ -15073,12 +15073,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH001"
+                name='ctH001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH001.xml"
+                        href='../msData/complexType/ctH001.xml'
                     ),
                     expected=[
                         Expected(
@@ -15089,10 +15089,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH001.v"
+                    name='ctH001.v'
                 ),
             ],
-            name="ctH001"
+            name='ctH001'
         ),
         TestGroup(
             annotation=[
@@ -15100,7 +15100,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then annotation',
                             ]
                         ),
                     ]
@@ -15108,13 +15108,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH002.xsd"
+                        href='../msData/complexType/ctH002.xsd'
                     ),
                 ],
                 expected=[
@@ -15126,9 +15126,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH002"
+                name='ctH002'
             ),
-            name="ctH002"
+            name='ctH002'
         ),
         TestGroup(
             annotation=[
@@ -15136,7 +15136,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then group',
                             ]
                         ),
                     ]
@@ -15144,13 +15144,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH003.xsd"
+                        href='../msData/complexType/ctH003.xsd'
                     ),
                 ],
                 expected=[
@@ -15162,9 +15162,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH003"
+                name='ctH003'
             ),
-            name="ctH003"
+            name='ctH003'
         ),
         TestGroup(
             annotation=[
@@ -15172,7 +15172,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then all',
                             ]
                         ),
                     ]
@@ -15180,13 +15180,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH004.xsd"
+                        href='../msData/complexType/ctH004.xsd'
                     ),
                 ],
                 expected=[
@@ -15198,9 +15198,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH004"
+                name='ctH004'
             ),
-            name="ctH004"
+            name='ctH004'
         ),
         TestGroup(
             annotation=[
@@ -15208,7 +15208,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then choice',
                             ]
                         ),
                     ]
@@ -15216,13 +15216,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH005.xsd"
+                        href='../msData/complexType/ctH005.xsd'
                     ),
                 ],
                 expected=[
@@ -15234,9 +15234,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH005"
+                name='ctH005'
             ),
-            name="ctH005"
+            name='ctH005'
         ),
         TestGroup(
             annotation=[
@@ -15244,7 +15244,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then sequence',
                             ]
                         ),
                     ]
@@ -15252,13 +15252,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH006.xsd"
+                        href='../msData/complexType/ctH006.xsd'
                     ),
                 ],
                 expected=[
@@ -15270,9 +15270,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH006"
+                name='ctH006'
             ),
-            name="ctH006"
+            name='ctH006'
         ),
         TestGroup(
             annotation=[
@@ -15280,7 +15280,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then attribute',
                             ]
                         ),
                     ]
@@ -15288,13 +15288,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH007.xsd"
+                        href='../msData/complexType/ctH007.xsd'
                     ),
                 ],
                 expected=[
@@ -15306,12 +15306,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH007"
+                name='ctH007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH007.xml"
+                        href='../msData/complexType/ctH007.xml'
                     ),
                     expected=[
                         Expected(
@@ -15322,10 +15322,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH007.v"
+                    name='ctH007.v'
                 ),
             ],
-            name="ctH007"
+            name='ctH007'
         ),
         TestGroup(
             annotation=[
@@ -15333,7 +15333,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then two attributes',
                             ]
                         ),
                     ]
@@ -15341,13 +15341,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH008.xsd"
+                        href='../msData/complexType/ctH008.xsd'
                     ),
                 ],
                 expected=[
@@ -15359,12 +15359,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH008"
+                name='ctH008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH008.xml"
+                        href='../msData/complexType/ctH008.xml'
                     ),
                     expected=[
                         Expected(
@@ -15375,10 +15375,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH008.v"
+                    name='ctH008.v'
                 ),
             ],
-            name="ctH008"
+            name='ctH008'
         ),
         TestGroup(
             annotation=[
@@ -15386,7 +15386,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then attributeGroup',
                             ]
                         ),
                     ]
@@ -15394,13 +15394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH009.xsd"
+                        href='../msData/complexType/ctH009.xsd'
                     ),
                 ],
                 expected=[
@@ -15412,12 +15412,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH009"
+                name='ctH009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH009.xml"
+                        href='../msData/complexType/ctH009.xml'
                     ),
                     expected=[
                         Expected(
@@ -15428,10 +15428,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH009.v"
+                    name='ctH009.v'
                 ),
             ],
-            name="ctH009"
+            name='ctH009'
         ),
         TestGroup(
             annotation=[
@@ -15439,7 +15439,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then two attributeGroups',
                             ]
                         ),
                     ]
@@ -15447,13 +15447,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH010.xsd"
+                        href='../msData/complexType/ctH010.xsd'
                     ),
                 ],
                 expected=[
@@ -15465,12 +15465,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH010"
+                name='ctH010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH010.xml"
+                        href='../msData/complexType/ctH010.xml'
                     ),
                     expected=[
                         Expected(
@@ -15481,10 +15481,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH010.v"
+                    name='ctH010.v'
                 ),
             ],
-            name="ctH010"
+            name='ctH010'
         ),
         TestGroup(
             annotation=[
@@ -15492,7 +15492,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then anyAttribute',
                             ]
                         ),
                     ]
@@ -15500,13 +15500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH011.xsd"
+                        href='../msData/complexType/ctH011.xsd'
                     ),
                 ],
                 expected=[
@@ -15518,12 +15518,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH011"
+                name='ctH011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH011.xml"
+                        href='../msData/complexType/ctH011.xml'
                     ),
                     expected=[
                         Expected(
@@ -15534,10 +15534,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH011.v"
+                    name='ctH011.v'
                 ),
             ],
-            name="ctH011"
+            name='ctH011'
         ),
         TestGroup(
             annotation=[
@@ -15545,7 +15545,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then two anyAttributes',
                             ]
                         ),
                     ]
@@ -15553,13 +15553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH012.xsd"
+                        href='../msData/complexType/ctH012.xsd'
                     ),
                 ],
                 expected=[
@@ -15571,9 +15571,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH012"
+                name='ctH012'
             ),
-            name="ctH012"
+            name='ctH012'
         ),
         TestGroup(
             annotation=[
@@ -15581,7 +15581,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all',
                             ]
                         ),
                     ]
@@ -15589,13 +15589,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH013.xsd"
+                        href='../msData/complexType/ctH013.xsd'
                     ),
                 ],
                 expected=[
@@ -15607,9 +15607,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH013"
+                name='ctH013'
             ),
-            name="ctH013"
+            name='ctH013'
         ),
         TestGroup(
             annotation=[
@@ -15617,7 +15617,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then annotation',
                             ]
                         ),
                     ]
@@ -15625,13 +15625,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH014.xsd"
+                        href='../msData/complexType/ctH014.xsd'
                     ),
                 ],
                 expected=[
@@ -15643,9 +15643,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH014"
+                name='ctH014'
             ),
-            name="ctH014"
+            name='ctH014'
         ),
         TestGroup(
             annotation=[
@@ -15653,7 +15653,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then group',
                             ]
                         ),
                     ]
@@ -15661,13 +15661,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH015.xsd"
+                        href='../msData/complexType/ctH015.xsd'
                     ),
                 ],
                 expected=[
@@ -15679,9 +15679,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH015"
+                name='ctH015'
             ),
-            name="ctH015"
+            name='ctH015'
         ),
         TestGroup(
             annotation=[
@@ -15689,7 +15689,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then all',
                             ]
                         ),
                     ]
@@ -15697,13 +15697,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH016.xsd"
+                        href='../msData/complexType/ctH016.xsd'
                     ),
                 ],
                 expected=[
@@ -15715,9 +15715,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH016"
+                name='ctH016'
             ),
-            name="ctH016"
+            name='ctH016'
         ),
         TestGroup(
             annotation=[
@@ -15725,7 +15725,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then choice',
                             ]
                         ),
                     ]
@@ -15733,13 +15733,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH017.xsd"
+                        href='../msData/complexType/ctH017.xsd'
                     ),
                 ],
                 expected=[
@@ -15751,9 +15751,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH017"
+                name='ctH017'
             ),
-            name="ctH017"
+            name='ctH017'
         ),
         TestGroup(
             annotation=[
@@ -15761,7 +15761,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then sequence',
                             ]
                         ),
                     ]
@@ -15769,13 +15769,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH018.xsd"
+                        href='../msData/complexType/ctH018.xsd'
                     ),
                 ],
                 expected=[
@@ -15787,9 +15787,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH018"
+                name='ctH018'
             ),
-            name="ctH018"
+            name='ctH018'
         ),
         TestGroup(
             annotation=[
@@ -15797,7 +15797,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then attribute',
                             ]
                         ),
                     ]
@@ -15805,13 +15805,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH019.xsd"
+                        href='../msData/complexType/ctH019.xsd'
                     ),
                 ],
                 expected=[
@@ -15823,9 +15823,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH019"
+                name='ctH019'
             ),
-            name="ctH019"
+            name='ctH019'
         ),
         TestGroup(
             annotation=[
@@ -15833,7 +15833,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then two attributes',
                             ]
                         ),
                     ]
@@ -15841,13 +15841,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH020.xsd"
+                        href='../msData/complexType/ctH020.xsd'
                     ),
                 ],
                 expected=[
@@ -15859,9 +15859,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH020"
+                name='ctH020'
             ),
-            name="ctH020"
+            name='ctH020'
         ),
         TestGroup(
             annotation=[
@@ -15869,7 +15869,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then attributeGroup',
                             ]
                         ),
                     ]
@@ -15877,13 +15877,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH021.xsd"
+                        href='../msData/complexType/ctH021.xsd'
                     ),
                 ],
                 expected=[
@@ -15895,9 +15895,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH021"
+                name='ctH021'
             ),
-            name="ctH021"
+            name='ctH021'
         ),
         TestGroup(
             annotation=[
@@ -15905,7 +15905,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then two attributeGroups',
                             ]
                         ),
                     ]
@@ -15913,13 +15913,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH022.xsd"
+                        href='../msData/complexType/ctH022.xsd'
                     ),
                 ],
                 expected=[
@@ -15931,9 +15931,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH022"
+                name='ctH022'
             ),
-            name="ctH022"
+            name='ctH022'
         ),
         TestGroup(
             annotation=[
@@ -15941,7 +15941,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then anyAttribute',
                             ]
                         ),
                     ]
@@ -15949,13 +15949,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH023.xsd"
+                        href='../msData/complexType/ctH023.xsd'
                     ),
                 ],
                 expected=[
@@ -15967,9 +15967,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH023"
+                name='ctH023'
             ),
-            name="ctH023"
+            name='ctH023'
         ),
         TestGroup(
             annotation=[
@@ -15977,7 +15977,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with all then two anyAttributes',
                             ]
                         ),
                     ]
@@ -15985,13 +15985,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH024.xsd"
+                        href='../msData/complexType/ctH024.xsd'
                     ),
                 ],
                 expected=[
@@ -16003,9 +16003,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH024"
+                name='ctH024'
             ),
-            name="ctH024"
+            name='ctH024'
         ),
         TestGroup(
             annotation=[
@@ -16013,7 +16013,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice',
                             ]
                         ),
                     ]
@@ -16021,13 +16021,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH025.xsd"
+                        href='../msData/complexType/ctH025.xsd'
                     ),
                 ],
                 expected=[
@@ -16039,12 +16039,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH025"
+                name='ctH025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH025.xml"
+                        href='../msData/complexType/ctH025.xml'
                     ),
                     expected=[
                         Expected(
@@ -16055,10 +16055,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH025.v"
+                    name='ctH025.v'
                 ),
             ],
-            name="ctH025"
+            name='ctH025'
         ),
         TestGroup(
             annotation=[
@@ -16066,7 +16066,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then annotation',
                             ]
                         ),
                     ]
@@ -16074,13 +16074,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH026.xsd"
+                        href='../msData/complexType/ctH026.xsd'
                     ),
                 ],
                 expected=[
@@ -16092,9 +16092,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH026"
+                name='ctH026'
             ),
-            name="ctH026"
+            name='ctH026'
         ),
         TestGroup(
             annotation=[
@@ -16102,7 +16102,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then group',
                             ]
                         ),
                     ]
@@ -16110,13 +16110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH027.xsd"
+                        href='../msData/complexType/ctH027.xsd'
                     ),
                 ],
                 expected=[
@@ -16128,9 +16128,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH027"
+                name='ctH027'
             ),
-            name="ctH027"
+            name='ctH027'
         ),
         TestGroup(
             annotation=[
@@ -16138,7 +16138,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then all',
                             ]
                         ),
                     ]
@@ -16146,13 +16146,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH028.xsd"
+                        href='../msData/complexType/ctH028.xsd'
                     ),
                 ],
                 expected=[
@@ -16164,9 +16164,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH028"
+                name='ctH028'
             ),
-            name="ctH028"
+            name='ctH028'
         ),
         TestGroup(
             annotation=[
@@ -16174,7 +16174,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then choice',
                             ]
                         ),
                     ]
@@ -16182,13 +16182,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH029.xsd"
+                        href='../msData/complexType/ctH029.xsd'
                     ),
                 ],
                 expected=[
@@ -16200,9 +16200,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH029"
+                name='ctH029'
             ),
-            name="ctH029"
+            name='ctH029'
         ),
         TestGroup(
             annotation=[
@@ -16210,7 +16210,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then sequence',
                             ]
                         ),
                     ]
@@ -16218,13 +16218,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH030.xsd"
+                        href='../msData/complexType/ctH030.xsd'
                     ),
                 ],
                 expected=[
@@ -16236,9 +16236,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH030"
+                name='ctH030'
             ),
-            name="ctH030"
+            name='ctH030'
         ),
         TestGroup(
             annotation=[
@@ -16246,7 +16246,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then attribute',
                             ]
                         ),
                     ]
@@ -16254,13 +16254,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH031.xsd"
+                        href='../msData/complexType/ctH031.xsd'
                     ),
                 ],
                 expected=[
@@ -16272,12 +16272,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH031"
+                name='ctH031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH031.xml"
+                        href='../msData/complexType/ctH031.xml'
                     ),
                     expected=[
                         Expected(
@@ -16288,10 +16288,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH031.v"
+                    name='ctH031.v'
                 ),
             ],
-            name="ctH031"
+            name='ctH031'
         ),
         TestGroup(
             annotation=[
@@ -16299,7 +16299,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then two attributes',
                             ]
                         ),
                     ]
@@ -16307,13 +16307,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH032.xsd"
+                        href='../msData/complexType/ctH032.xsd'
                     ),
                 ],
                 expected=[
@@ -16325,12 +16325,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH032"
+                name='ctH032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH032.xml"
+                        href='../msData/complexType/ctH032.xml'
                     ),
                     expected=[
                         Expected(
@@ -16341,10 +16341,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH032.v"
+                    name='ctH032.v'
                 ),
             ],
-            name="ctH032"
+            name='ctH032'
         ),
         TestGroup(
             annotation=[
@@ -16352,7 +16352,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then attributeGroup',
                             ]
                         ),
                     ]
@@ -16360,13 +16360,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH033.xsd"
+                        href='../msData/complexType/ctH033.xsd'
                     ),
                 ],
                 expected=[
@@ -16378,12 +16378,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH033"
+                name='ctH033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH033.xml"
+                        href='../msData/complexType/ctH033.xml'
                     ),
                     expected=[
                         Expected(
@@ -16394,10 +16394,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH033.v"
+                    name='ctH033.v'
                 ),
             ],
-            name="ctH033"
+            name='ctH033'
         ),
         TestGroup(
             annotation=[
@@ -16405,7 +16405,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then two attributeGroups',
                             ]
                         ),
                     ]
@@ -16413,13 +16413,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH034.xsd"
+                        href='../msData/complexType/ctH034.xsd'
                     ),
                 ],
                 expected=[
@@ -16431,12 +16431,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH034"
+                name='ctH034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH034.xml"
+                        href='../msData/complexType/ctH034.xml'
                     ),
                     expected=[
                         Expected(
@@ -16447,10 +16447,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH034.v"
+                    name='ctH034.v'
                 ),
             ],
-            name="ctH034"
+            name='ctH034'
         ),
         TestGroup(
             annotation=[
@@ -16458,7 +16458,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then anyAttribute',
                             ]
                         ),
                     ]
@@ -16466,13 +16466,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH035.xsd"
+                        href='../msData/complexType/ctH035.xsd'
                     ),
                 ],
                 expected=[
@@ -16484,12 +16484,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH035"
+                name='ctH035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH035.xml"
+                        href='../msData/complexType/ctH035.xml'
                     ),
                     expected=[
                         Expected(
@@ -16500,10 +16500,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH035.v"
+                    name='ctH035.v'
                 ),
             ],
-            name="ctH035"
+            name='ctH035'
         ),
         TestGroup(
             annotation=[
@@ -16511,7 +16511,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with choice then two anyAttributes',
                             ]
                         ),
                     ]
@@ -16519,13 +16519,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH036.xsd"
+                        href='../msData/complexType/ctH036.xsd'
                     ),
                 ],
                 expected=[
@@ -16537,9 +16537,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH036"
+                name='ctH036'
             ),
-            name="ctH036"
+            name='ctH036'
         ),
         TestGroup(
             annotation=[
@@ -16547,7 +16547,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence',
                             ]
                         ),
                     ]
@@ -16555,13 +16555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH037.xsd"
+                        href='../msData/complexType/ctH037.xsd'
                     ),
                 ],
                 expected=[
@@ -16573,12 +16573,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH037"
+                name='ctH037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH037.xml"
+                        href='../msData/complexType/ctH037.xml'
                     ),
                     expected=[
                         Expected(
@@ -16589,10 +16589,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH037.v"
+                    name='ctH037.v'
                 ),
             ],
-            name="ctH037"
+            name='ctH037'
         ),
         TestGroup(
             annotation=[
@@ -16600,7 +16600,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then annotation',
                             ]
                         ),
                     ]
@@ -16608,13 +16608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH038.xsd"
+                        href='../msData/complexType/ctH038.xsd'
                     ),
                 ],
                 expected=[
@@ -16626,9 +16626,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH038"
+                name='ctH038'
             ),
-            name="ctH038"
+            name='ctH038'
         ),
         TestGroup(
             annotation=[
@@ -16636,7 +16636,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then group',
                             ]
                         ),
                     ]
@@ -16644,13 +16644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH039.xsd"
+                        href='../msData/complexType/ctH039.xsd'
                     ),
                 ],
                 expected=[
@@ -16662,9 +16662,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH039"
+                name='ctH039'
             ),
-            name="ctH039"
+            name='ctH039'
         ),
         TestGroup(
             annotation=[
@@ -16672,7 +16672,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then all',
                             ]
                         ),
                     ]
@@ -16680,13 +16680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH040.xsd"
+                        href='../msData/complexType/ctH040.xsd'
                     ),
                 ],
                 expected=[
@@ -16698,9 +16698,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH040"
+                name='ctH040'
             ),
-            name="ctH040"
+            name='ctH040'
         ),
         TestGroup(
             annotation=[
@@ -16708,7 +16708,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then choice',
                             ]
                         ),
                     ]
@@ -16716,13 +16716,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH041.xsd"
+                        href='../msData/complexType/ctH041.xsd'
                     ),
                 ],
                 expected=[
@@ -16734,9 +16734,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH041"
+                name='ctH041'
             ),
-            name="ctH041"
+            name='ctH041'
         ),
         TestGroup(
             annotation=[
@@ -16744,7 +16744,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then sequence',
                             ]
                         ),
                     ]
@@ -16752,13 +16752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH042.xsd"
+                        href='../msData/complexType/ctH042.xsd'
                     ),
                 ],
                 expected=[
@@ -16770,9 +16770,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH042"
+                name='ctH042'
             ),
-            name="ctH042"
+            name='ctH042'
         ),
         TestGroup(
             annotation=[
@@ -16780,7 +16780,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then attribute',
                             ]
                         ),
                     ]
@@ -16788,13 +16788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH043.xsd"
+                        href='../msData/complexType/ctH043.xsd'
                     ),
                 ],
                 expected=[
@@ -16806,12 +16806,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH043"
+                name='ctH043'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH043.xml"
+                        href='../msData/complexType/ctH043.xml'
                     ),
                     expected=[
                         Expected(
@@ -16822,10 +16822,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH043.v"
+                    name='ctH043.v'
                 ),
             ],
-            name="ctH043"
+            name='ctH043'
         ),
         TestGroup(
             annotation=[
@@ -16833,7 +16833,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then two attributes',
                             ]
                         ),
                     ]
@@ -16841,13 +16841,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH044.xsd"
+                        href='../msData/complexType/ctH044.xsd'
                     ),
                 ],
                 expected=[
@@ -16859,12 +16859,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH044"
+                name='ctH044'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH044.xml"
+                        href='../msData/complexType/ctH044.xml'
                     ),
                     expected=[
                         Expected(
@@ -16875,10 +16875,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH044.v"
+                    name='ctH044.v'
                 ),
             ],
-            name="ctH044"
+            name='ctH044'
         ),
         TestGroup(
             annotation=[
@@ -16886,7 +16886,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then attributeGroup',
                             ]
                         ),
                     ]
@@ -16894,13 +16894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH045.xsd"
+                        href='../msData/complexType/ctH045.xsd'
                     ),
                 ],
                 expected=[
@@ -16912,12 +16912,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH045"
+                name='ctH045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH045.xml"
+                        href='../msData/complexType/ctH045.xml'
                     ),
                     expected=[
                         Expected(
@@ -16928,10 +16928,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH045.v"
+                    name='ctH045.v'
                 ),
             ],
-            name="ctH045"
+            name='ctH045'
         ),
         TestGroup(
             annotation=[
@@ -16939,7 +16939,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then two attributeGroups',
                             ]
                         ),
                     ]
@@ -16947,13 +16947,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH046.xsd"
+                        href='../msData/complexType/ctH046.xsd'
                     ),
                 ],
                 expected=[
@@ -16965,12 +16965,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH046"
+                name='ctH046'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH046.xml"
+                        href='../msData/complexType/ctH046.xml'
                     ),
                     expected=[
                         Expected(
@@ -16981,10 +16981,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH046.v"
+                    name='ctH046.v'
                 ),
             ],
-            name="ctH046"
+            name='ctH046'
         ),
         TestGroup(
             annotation=[
@@ -16992,7 +16992,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then anyAttribute',
                             ]
                         ),
                     ]
@@ -17000,13 +17000,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH047.xsd"
+                        href='../msData/complexType/ctH047.xsd'
                     ),
                 ],
                 expected=[
@@ -17018,12 +17018,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH047"
+                name='ctH047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH047.xml"
+                        href='../msData/complexType/ctH047.xml'
                     ),
                     expected=[
                         Expected(
@@ -17034,10 +17034,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH047.v"
+                    name='ctH047.v'
                 ),
             ],
-            name="ctH047"
+            name='ctH047'
         ),
         TestGroup(
             annotation=[
@@ -17045,7 +17045,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with sequence then two anyAttributes',
                             ]
                         ),
                     ]
@@ -17053,13 +17053,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH048.xsd"
+                        href='../msData/complexType/ctH048.xsd'
                     ),
                 ],
                 expected=[
@@ -17071,9 +17071,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH048"
+                name='ctH048'
             ),
-            name="ctH048"
+            name='ctH048'
         ),
         TestGroup(
             annotation=[
@@ -17081,7 +17081,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute',
                             ]
                         ),
                     ]
@@ -17089,13 +17089,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH049.xsd"
+                        href='../msData/complexType/ctH049.xsd'
                     ),
                 ],
                 expected=[
@@ -17107,12 +17107,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH049"
+                name='ctH049'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH049.xml"
+                        href='../msData/complexType/ctH049.xml'
                     ),
                     expected=[
                         Expected(
@@ -17123,10 +17123,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH049.v"
+                    name='ctH049.v'
                 ),
             ],
-            name="ctH049"
+            name='ctH049'
         ),
         TestGroup(
             annotation=[
@@ -17134,7 +17134,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then annotation',
                             ]
                         ),
                     ]
@@ -17142,13 +17142,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH050.xsd"
+                        href='../msData/complexType/ctH050.xsd'
                     ),
                 ],
                 expected=[
@@ -17160,9 +17160,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH050"
+                name='ctH050'
             ),
-            name="ctH050"
+            name='ctH050'
         ),
         TestGroup(
             annotation=[
@@ -17170,7 +17170,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then group',
                             ]
                         ),
                     ]
@@ -17178,13 +17178,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH051.xsd"
+                        href='../msData/complexType/ctH051.xsd'
                     ),
                 ],
                 expected=[
@@ -17196,9 +17196,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH051"
+                name='ctH051'
             ),
-            name="ctH051"
+            name='ctH051'
         ),
         TestGroup(
             annotation=[
@@ -17206,7 +17206,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then all',
                             ]
                         ),
                     ]
@@ -17214,13 +17214,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH052.xsd"
+                        href='../msData/complexType/ctH052.xsd'
                     ),
                 ],
                 expected=[
@@ -17232,9 +17232,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH052"
+                name='ctH052'
             ),
-            name="ctH052"
+            name='ctH052'
         ),
         TestGroup(
             annotation=[
@@ -17242,7 +17242,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then choice',
                             ]
                         ),
                     ]
@@ -17250,13 +17250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH053.xsd"
+                        href='../msData/complexType/ctH053.xsd'
                     ),
                 ],
                 expected=[
@@ -17268,9 +17268,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH053"
+                name='ctH053'
             ),
-            name="ctH053"
+            name='ctH053'
         ),
         TestGroup(
             annotation=[
@@ -17278,7 +17278,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then sequence',
                             ]
                         ),
                     ]
@@ -17286,13 +17286,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH054.xsd"
+                        href='../msData/complexType/ctH054.xsd'
                     ),
                 ],
                 expected=[
@@ -17304,9 +17304,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH054"
+                name='ctH054'
             ),
-            name="ctH054"
+            name='ctH054'
         ),
         TestGroup(
             annotation=[
@@ -17314,7 +17314,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then attribute',
                             ]
                         ),
                     ]
@@ -17322,13 +17322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH055.xsd"
+                        href='../msData/complexType/ctH055.xsd'
                     ),
                 ],
                 expected=[
@@ -17340,12 +17340,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH055"
+                name='ctH055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH055.xml"
+                        href='../msData/complexType/ctH055.xml'
                     ),
                     expected=[
                         Expected(
@@ -17356,10 +17356,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH055.v"
+                    name='ctH055.v'
                 ),
             ],
-            name="ctH055"
+            name='ctH055'
         ),
         TestGroup(
             annotation=[
@@ -17367,7 +17367,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then attributeGroup',
                             ]
                         ),
                     ]
@@ -17375,13 +17375,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH056.xsd"
+                        href='../msData/complexType/ctH056.xsd'
                     ),
                 ],
                 expected=[
@@ -17393,12 +17393,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH056"
+                name='ctH056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH056.xml"
+                        href='../msData/complexType/ctH056.xml'
                     ),
                     expected=[
                         Expected(
@@ -17409,10 +17409,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH056.v"
+                    name='ctH056.v'
                 ),
             ],
-            name="ctH056"
+            name='ctH056'
         ),
         TestGroup(
             annotation=[
@@ -17420,7 +17420,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then two attributeGroups',
                             ]
                         ),
                     ]
@@ -17428,13 +17428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH057.xsd"
+                        href='../msData/complexType/ctH057.xsd'
                     ),
                 ],
                 expected=[
@@ -17446,12 +17446,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH057"
+                name='ctH057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH057.xml"
+                        href='../msData/complexType/ctH057.xml'
                     ),
                     expected=[
                         Expected(
@@ -17462,10 +17462,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH057.v"
+                    name='ctH057.v'
                 ),
             ],
-            name="ctH057"
+            name='ctH057'
         ),
         TestGroup(
             annotation=[
@@ -17473,7 +17473,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then anyAttribute',
                             ]
                         ),
                     ]
@@ -17481,13 +17481,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH058.xsd"
+                        href='../msData/complexType/ctH058.xsd'
                     ),
                 ],
                 expected=[
@@ -17499,12 +17499,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH058"
+                name='ctH058'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH058.xml"
+                        href='../msData/complexType/ctH058.xml'
                     ),
                     expected=[
                         Expected(
@@ -17515,10 +17515,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH058.v"
+                    name='ctH058.v'
                 ),
             ],
-            name="ctH058"
+            name='ctH058'
         ),
         TestGroup(
             annotation=[
@@ -17526,7 +17526,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attribute then two anyAttributes',
                             ]
                         ),
                     ]
@@ -17534,13 +17534,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH059.xsd"
+                        href='../msData/complexType/ctH059.xsd'
                     ),
                 ],
                 expected=[
@@ -17552,9 +17552,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH059"
+                name='ctH059'
             ),
-            name="ctH059"
+            name='ctH059'
         ),
         TestGroup(
             annotation=[
@@ -17562,7 +17562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup',
                             ]
                         ),
                     ]
@@ -17570,13 +17570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH060.xsd"
+                        href='../msData/complexType/ctH060.xsd'
                     ),
                 ],
                 expected=[
@@ -17588,12 +17588,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH060"
+                name='ctH060'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH060.xml"
+                        href='../msData/complexType/ctH060.xml'
                     ),
                     expected=[
                         Expected(
@@ -17604,10 +17604,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH060.v"
+                    name='ctH060.v'
                 ),
             ],
-            name="ctH060"
+            name='ctH060'
         ),
         TestGroup(
             annotation=[
@@ -17615,7 +17615,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then annotation',
                             ]
                         ),
                     ]
@@ -17623,13 +17623,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH061.xsd"
+                        href='../msData/complexType/ctH061.xsd'
                     ),
                 ],
                 expected=[
@@ -17641,9 +17641,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH061"
+                name='ctH061'
             ),
-            name="ctH061"
+            name='ctH061'
         ),
         TestGroup(
             annotation=[
@@ -17651,7 +17651,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then group',
                             ]
                         ),
                     ]
@@ -17659,13 +17659,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH062.xsd"
+                        href='../msData/complexType/ctH062.xsd'
                     ),
                 ],
                 expected=[
@@ -17677,9 +17677,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH062"
+                name='ctH062'
             ),
-            name="ctH062"
+            name='ctH062'
         ),
         TestGroup(
             annotation=[
@@ -17687,7 +17687,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then all',
                             ]
                         ),
                     ]
@@ -17695,13 +17695,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH063.xsd"
+                        href='../msData/complexType/ctH063.xsd'
                     ),
                 ],
                 expected=[
@@ -17713,9 +17713,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH063"
+                name='ctH063'
             ),
-            name="ctH063"
+            name='ctH063'
         ),
         TestGroup(
             annotation=[
@@ -17723,7 +17723,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then choice',
                             ]
                         ),
                     ]
@@ -17731,13 +17731,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH064.xsd"
+                        href='../msData/complexType/ctH064.xsd'
                     ),
                 ],
                 expected=[
@@ -17749,9 +17749,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH064"
+                name='ctH064'
             ),
-            name="ctH064"
+            name='ctH064'
         ),
         TestGroup(
             annotation=[
@@ -17759,7 +17759,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then sequence',
                             ]
                         ),
                     ]
@@ -17767,13 +17767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH065.xsd"
+                        href='../msData/complexType/ctH065.xsd'
                     ),
                 ],
                 expected=[
@@ -17785,9 +17785,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH065"
+                name='ctH065'
             ),
-            name="ctH065"
+            name='ctH065'
         ),
         TestGroup(
             annotation=[
@@ -17795,7 +17795,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then attribute',
                             ]
                         ),
                     ]
@@ -17803,13 +17803,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH066.xsd"
+                        href='../msData/complexType/ctH066.xsd'
                     ),
                 ],
                 expected=[
@@ -17821,12 +17821,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH066"
+                name='ctH066'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH066.xml"
+                        href='../msData/complexType/ctH066.xml'
                     ),
                     expected=[
                         Expected(
@@ -17837,10 +17837,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH066.v"
+                    name='ctH066.v'
                 ),
             ],
-            name="ctH066"
+            name='ctH066'
         ),
         TestGroup(
             annotation=[
@@ -17848,7 +17848,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then two attributes',
                             ]
                         ),
                     ]
@@ -17856,13 +17856,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH067.xsd"
+                        href='../msData/complexType/ctH067.xsd'
                     ),
                 ],
                 expected=[
@@ -17874,12 +17874,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH067"
+                name='ctH067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH067.xml"
+                        href='../msData/complexType/ctH067.xml'
                     ),
                     expected=[
                         Expected(
@@ -17890,10 +17890,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH067.v"
+                    name='ctH067.v'
                 ),
             ],
-            name="ctH067"
+            name='ctH067'
         ),
         TestGroup(
             annotation=[
@@ -17901,7 +17901,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then attributeGroup',
                             ]
                         ),
                     ]
@@ -17909,13 +17909,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH068.xsd"
+                        href='../msData/complexType/ctH068.xsd'
                     ),
                 ],
                 expected=[
@@ -17927,12 +17927,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH068"
+                name='ctH068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH068.xml"
+                        href='../msData/complexType/ctH068.xml'
                     ),
                     expected=[
                         Expected(
@@ -17943,10 +17943,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH068.v"
+                    name='ctH068.v'
                 ),
             ],
-            name="ctH068"
+            name='ctH068'
         ),
         TestGroup(
             annotation=[
@@ -17954,7 +17954,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then anyAttribute',
                             ]
                         ),
                     ]
@@ -17962,13 +17962,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH069.xsd"
+                        href='../msData/complexType/ctH069.xsd'
                     ),
                 ],
                 expected=[
@@ -17980,12 +17980,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH069"
+                name='ctH069'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH069.xml"
+                        href='../msData/complexType/ctH069.xml'
                     ),
                     expected=[
                         Expected(
@@ -17996,10 +17996,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH069.v"
+                    name='ctH069.v'
                 ),
             ],
-            name="ctH069"
+            name='ctH069'
         ),
         TestGroup(
             annotation=[
@@ -18007,7 +18007,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then two anyAttributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with attributeGroup then two anyAttributes',
                             ]
                         ),
                     ]
@@ -18015,13 +18015,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH070.xsd"
+                        href='../msData/complexType/ctH070.xsd'
                     ),
                 ],
                 expected=[
@@ -18033,9 +18033,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH070"
+                name='ctH070'
             ),
-            name="ctH070"
+            name='ctH070'
         ),
         TestGroup(
             annotation=[
@@ -18043,7 +18043,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute',
                             ]
                         ),
                     ]
@@ -18051,13 +18051,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH071.xsd"
+                        href='../msData/complexType/ctH071.xsd'
                     ),
                 ],
                 expected=[
@@ -18069,12 +18069,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH071"
+                name='ctH071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH071.xml"
+                        href='../msData/complexType/ctH071.xml'
                     ),
                     expected=[
                         Expected(
@@ -18085,10 +18085,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH071.v"
+                    name='ctH071.v'
                 ),
             ],
-            name="ctH071"
+            name='ctH071'
         ),
         TestGroup(
             annotation=[
@@ -18096,7 +18096,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then annotation",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then annotation',
                             ]
                         ),
                     ]
@@ -18104,13 +18104,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH072.xsd"
+                        href='../msData/complexType/ctH072.xsd'
                     ),
                 ],
                 expected=[
@@ -18122,9 +18122,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH072"
+                name='ctH072'
             ),
-            name="ctH072"
+            name='ctH072'
         ),
         TestGroup(
             annotation=[
@@ -18132,7 +18132,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then group",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then group',
                             ]
                         ),
                     ]
@@ -18140,13 +18140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH073.xsd"
+                        href='../msData/complexType/ctH073.xsd'
                     ),
                 ],
                 expected=[
@@ -18158,9 +18158,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH073"
+                name='ctH073'
             ),
-            name="ctH073"
+            name='ctH073'
         ),
         TestGroup(
             annotation=[
@@ -18168,7 +18168,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then all",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then all',
                             ]
                         ),
                     ]
@@ -18176,13 +18176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH074.xsd"
+                        href='../msData/complexType/ctH074.xsd'
                     ),
                 ],
                 expected=[
@@ -18194,9 +18194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH074"
+                name='ctH074'
             ),
-            name="ctH074"
+            name='ctH074'
         ),
         TestGroup(
             annotation=[
@@ -18204,7 +18204,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then choice",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then choice',
                             ]
                         ),
                     ]
@@ -18212,13 +18212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH075.xsd"
+                        href='../msData/complexType/ctH075.xsd'
                     ),
                 ],
                 expected=[
@@ -18230,9 +18230,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH075"
+                name='ctH075'
             ),
-            name="ctH075"
+            name='ctH075'
         ),
         TestGroup(
             annotation=[
@@ -18240,7 +18240,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then sequence",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then sequence',
                             ]
                         ),
                     ]
@@ -18248,13 +18248,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH076.xsd"
+                        href='../msData/complexType/ctH076.xsd'
                     ),
                 ],
                 expected=[
@@ -18266,9 +18266,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH076"
+                name='ctH076'
             ),
-            name="ctH076"
+            name='ctH076'
         ),
         TestGroup(
             annotation=[
@@ -18276,7 +18276,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then attribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then attribute',
                             ]
                         ),
                     ]
@@ -18284,13 +18284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH077.xsd"
+                        href='../msData/complexType/ctH077.xsd'
                     ),
                 ],
                 expected=[
@@ -18302,9 +18302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH077"
+                name='ctH077'
             ),
-            name="ctH077"
+            name='ctH077'
         ),
         TestGroup(
             annotation=[
@@ -18312,7 +18312,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then two attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then two attributes',
                             ]
                         ),
                     ]
@@ -18320,13 +18320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH078.xsd"
+                        href='../msData/complexType/ctH078.xsd'
                     ),
                 ],
                 expected=[
@@ -18338,9 +18338,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH078"
+                name='ctH078'
             ),
-            name="ctH078"
+            name='ctH078'
         ),
         TestGroup(
             annotation=[
@@ -18348,7 +18348,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then attributeGroup",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then attributeGroup',
                             ]
                         ),
                     ]
@@ -18356,13 +18356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH079.xsd"
+                        href='../msData/complexType/ctH079.xsd'
                     ),
                 ],
                 expected=[
@@ -18374,9 +18374,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH079"
+                name='ctH079'
             ),
-            name="ctH079"
+            name='ctH079'
         ),
         TestGroup(
             annotation=[
@@ -18384,7 +18384,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then two attributeGroups",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then two attributeGroups',
                             ]
                         ),
                     ]
@@ -18392,13 +18392,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH080.xsd"
+                        href='../msData/complexType/ctH080.xsd'
                     ),
                 ],
                 expected=[
@@ -18410,9 +18410,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH080"
+                name='ctH080'
             ),
-            name="ctH080"
+            name='ctH080'
         ),
         TestGroup(
             annotation=[
@@ -18420,7 +18420,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then anyAttribute",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with anyAttribute then anyAttribute',
                             ]
                         ),
                     ]
@@ -18428,13 +18428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH081.xsd"
+                        href='../msData/complexType/ctH081.xsd'
                     ),
                 ],
                 expected=[
@@ -18446,9 +18446,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH081"
+                name='ctH081'
             ),
-            name="ctH081"
+            name='ctH081'
         ),
         TestGroup(
             annotation=[
@@ -18456,7 +18456,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then anyAttribute using a list",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent, content of extension and content with group then anyAttribute using a list',
                             ]
                         ),
                     ]
@@ -18464,13 +18464,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctH082.xsd"
+                        href='../msData/complexType/ctH082.xsd'
                     ),
                 ],
                 expected=[
@@ -18482,12 +18482,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctH082"
+                name='ctH082'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctH082.xml"
+                        href='../msData/complexType/ctH082.xml'
                     ),
                     expected=[
                         Expected(
@@ -18498,10 +18498,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctH082.v"
+                    name='ctH082.v'
                 ),
             ],
-            name="ctH082"
+            name='ctH082'
         ),
         TestGroup(
             annotation=[
@@ -18517,13 +18517,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI001.xsd"
+                        href='../msData/complexType/ctI001.xsd'
                     ),
                 ],
                 expected=[
@@ -18535,9 +18535,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI001"
+                name='ctI001'
             ),
-            name="ctI001"
+            name='ctI001'
         ),
         TestGroup(
             annotation=[
@@ -18553,13 +18553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI002.xsd"
+                        href='../msData/complexType/ctI002.xsd'
                     ),
                 ],
                 expected=[
@@ -18571,9 +18571,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI002"
+                name='ctI002'
             ),
-            name="ctI002"
+            name='ctI002'
         ),
         TestGroup(
             annotation=[
@@ -18589,13 +18589,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI003.xsd"
+                        href='../msData/complexType/ctI003.xsd'
                     ),
                 ],
                 expected=[
@@ -18607,12 +18607,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI003"
+                name='ctI003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI003.xml"
+                        href='../msData/complexType/ctI003.xml'
                     ),
                     expected=[
                         Expected(
@@ -18623,10 +18623,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI003.v"
+                    name='ctI003.v'
                 ),
             ],
-            name="ctI003"
+            name='ctI003'
         ),
         TestGroup(
             annotation=[
@@ -18642,13 +18642,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI004.xsd"
+                        href='../msData/complexType/ctI004.xsd'
                     ),
                 ],
                 expected=[
@@ -18660,12 +18660,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI004"
+                name='ctI004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI004.xml"
+                        href='../msData/complexType/ctI004.xml'
                     ),
                     expected=[
                         Expected(
@@ -18676,10 +18676,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI004.v"
+                    name='ctI004.v'
                 ),
             ],
-            name="ctI004"
+            name='ctI004'
         ),
         TestGroup(
             annotation=[
@@ -18695,13 +18695,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI005.xsd"
+                        href='../msData/complexType/ctI005.xsd'
                     ),
                 ],
                 expected=[
@@ -18713,12 +18713,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI005"
+                name='ctI005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI005.xml"
+                        href='../msData/complexType/ctI005.xml'
                     ),
                     expected=[
                         Expected(
@@ -18729,10 +18729,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI005.v"
+                    name='ctI005.v'
                 ),
             ],
-            name="ctI005"
+            name='ctI005'
         ),
         TestGroup(
             annotation=[
@@ -18748,13 +18748,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI006.xsd"
+                        href='../msData/complexType/ctI006.xsd'
                     ),
                 ],
                 expected=[
@@ -18766,9 +18766,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI006"
+                name='ctI006'
             ),
-            name="ctI006"
+            name='ctI006'
         ),
         TestGroup(
             annotation=[
@@ -18784,13 +18784,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI007.xsd"
+                        href='../msData/complexType/ctI007.xsd'
                     ),
                 ],
                 expected=[
@@ -18802,9 +18802,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI007"
+                name='ctI007'
             ),
-            name="ctI007"
+            name='ctI007'
         ),
         TestGroup(
             annotation=[
@@ -18820,13 +18820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI008.xsd"
+                        href='../msData/complexType/ctI008.xsd'
                     ),
                 ],
                 expected=[
@@ -18838,9 +18838,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI008"
+                name='ctI008'
             ),
-            name="ctI008"
+            name='ctI008'
         ),
         TestGroup(
             annotation=[
@@ -18856,13 +18856,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI009.xsd"
+                        href='../msData/complexType/ctI009.xsd'
                     ),
                 ],
                 expected=[
@@ -18874,12 +18874,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI009"
+                name='ctI009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI009.xml"
+                        href='../msData/complexType/ctI009.xml'
                     ),
                     expected=[
                         Expected(
@@ -18890,10 +18890,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI009.v"
+                    name='ctI009.v'
                 ),
             ],
-            name="ctI009"
+            name='ctI009'
         ),
         TestGroup(
             annotation=[
@@ -18909,13 +18909,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI010.xsd"
+                        href='../msData/complexType/ctI010.xsd'
                     ),
                 ],
                 expected=[
@@ -18927,12 +18927,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI010"
+                name='ctI010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI010.xml"
+                        href='../msData/complexType/ctI010.xml'
                     ),
                     expected=[
                         Expected(
@@ -18943,10 +18943,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI010.v"
+                    name='ctI010.v'
                 ),
             ],
-            name="ctI010"
+            name='ctI010'
         ),
         TestGroup(
             annotation=[
@@ -18962,13 +18962,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI011.xsd"
+                        href='../msData/complexType/ctI011.xsd'
                     ),
                 ],
                 expected=[
@@ -18980,9 +18980,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI011"
+                name='ctI011'
             ),
-            name="ctI011"
+            name='ctI011'
         ),
         TestGroup(
             annotation=[
@@ -18998,13 +18998,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI012.xsd"
+                        href='../msData/complexType/ctI012.xsd'
                     ),
                 ],
                 expected=[
@@ -19016,9 +19016,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI012"
+                name='ctI012'
             ),
-            name="ctI012"
+            name='ctI012'
         ),
         TestGroup(
             annotation=[
@@ -19034,13 +19034,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI013.xsd"
+                        href='../msData/complexType/ctI013.xsd'
                     ),
                 ],
                 expected=[
@@ -19052,9 +19052,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI013"
+                name='ctI013'
             ),
-            name="ctI013"
+            name='ctI013'
         ),
         TestGroup(
             annotation=[
@@ -19070,13 +19070,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI014.xsd"
+                        href='../msData/complexType/ctI014.xsd'
                     ),
                 ],
                 expected=[
@@ -19088,12 +19088,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI014"
+                name='ctI014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI014.xml"
+                        href='../msData/complexType/ctI014.xml'
                     ),
                     expected=[
                         Expected(
@@ -19104,10 +19104,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI014.v"
+                    name='ctI014.v'
                 ),
             ],
-            name="ctI014"
+            name='ctI014'
         ),
         TestGroup(
             annotation=[
@@ -19123,13 +19123,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI015.xsd"
+                        href='../msData/complexType/ctI015.xsd'
                     ),
                 ],
                 expected=[
@@ -19141,12 +19141,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI015"
+                name='ctI015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI015.xml"
+                        href='../msData/complexType/ctI015.xml'
                     ),
                     expected=[
                         Expected(
@@ -19157,10 +19157,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI015.v"
+                    name='ctI015.v'
                 ),
             ],
-            name="ctI015"
+            name='ctI015'
         ),
         TestGroup(
             annotation=[
@@ -19176,13 +19176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI016.xsd"
+                        href='../msData/complexType/ctI016.xsd'
                     ),
                 ],
                 expected=[
@@ -19194,9 +19194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI016"
+                name='ctI016'
             ),
-            name="ctI016"
+            name='ctI016'
         ),
         TestGroup(
             annotation=[
@@ -19212,13 +19212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI017.xsd"
+                        href='../msData/complexType/ctI017.xsd'
                     ),
                 ],
                 expected=[
@@ -19230,9 +19230,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI017"
+                name='ctI017'
             ),
-            name="ctI017"
+            name='ctI017'
         ),
         TestGroup(
             annotation=[
@@ -19248,13 +19248,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI018.xsd"
+                        href='../msData/complexType/ctI018.xsd'
                     ),
                 ],
                 expected=[
@@ -19266,12 +19266,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI018"
+                name='ctI018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI018.xml"
+                        href='../msData/complexType/ctI018.xml'
                     ),
                     expected=[
                         Expected(
@@ -19282,10 +19282,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI018.v"
+                    name='ctI018.v'
                 ),
             ],
-            name="ctI018"
+            name='ctI018'
         ),
         TestGroup(
             annotation=[
@@ -19301,13 +19301,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI019.xsd"
+                        href='../msData/complexType/ctI019.xsd'
                     ),
                 ],
                 expected=[
@@ -19319,12 +19319,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI019"
+                name='ctI019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI019.xml"
+                        href='../msData/complexType/ctI019.xml'
                     ),
                     expected=[
                         Expected(
@@ -19335,10 +19335,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI019.v"
+                    name='ctI019.v'
                 ),
             ],
-            name="ctI019"
+            name='ctI019'
         ),
         TestGroup(
             annotation=[
@@ -19354,13 +19354,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI020.xsd"
+                        href='../msData/complexType/ctI020.xsd'
                     ),
                 ],
                 expected=[
@@ -19372,9 +19372,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI020"
+                name='ctI020'
             ),
-            name="ctI020"
+            name='ctI020'
         ),
         TestGroup(
             annotation=[
@@ -19390,13 +19390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI021.xsd"
+                        href='../msData/complexType/ctI021.xsd'
                     ),
                 ],
                 expected=[
@@ -19408,12 +19408,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI021"
+                name='ctI021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI021.xml"
+                        href='../msData/complexType/ctI021.xml'
                     ),
                     expected=[
                         Expected(
@@ -19424,10 +19424,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI021.v"
+                    name='ctI021.v'
                 ),
             ],
-            name="ctI021"
+            name='ctI021'
         ),
         TestGroup(
             annotation=[
@@ -19443,13 +19443,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI022.xsd"
+                        href='../msData/complexType/ctI022.xsd'
                     ),
                 ],
                 expected=[
@@ -19461,12 +19461,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI022"
+                name='ctI022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI022.xml"
+                        href='../msData/complexType/ctI022.xml'
                     ),
                     expected=[
                         Expected(
@@ -19477,10 +19477,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI022.v"
+                    name='ctI022.v'
                 ),
             ],
-            name="ctI022"
+            name='ctI022'
         ),
         TestGroup(
             annotation=[
@@ -19496,13 +19496,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI023.xsd"
+                        href='../msData/complexType/ctI023.xsd'
                     ),
                 ],
                 expected=[
@@ -19514,12 +19514,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI023"
+                name='ctI023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI023.xml"
+                        href='../msData/complexType/ctI023.xml'
                     ),
                     expected=[
                         Expected(
@@ -19530,10 +19530,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI023.v"
+                    name='ctI023.v'
                 ),
             ],
-            name="ctI023"
+            name='ctI023'
         ),
         TestGroup(
             annotation=[
@@ -19549,13 +19549,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI024.xsd"
+                        href='../msData/complexType/ctI024.xsd'
                     ),
                 ],
                 expected=[
@@ -19567,9 +19567,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI024"
+                name='ctI024'
             ),
-            name="ctI024"
+            name='ctI024'
         ),
         TestGroup(
             annotation=[
@@ -19585,13 +19585,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI025.xsd"
+                        href='../msData/complexType/ctI025.xsd'
                     ),
                 ],
                 expected=[
@@ -19603,12 +19603,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI025"
+                name='ctI025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI025.xml"
+                        href='../msData/complexType/ctI025.xml'
                     ),
                     expected=[
                         Expected(
@@ -19619,10 +19619,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI025.v"
+                    name='ctI025.v'
                 ),
             ],
-            name="ctI025"
+            name='ctI025'
         ),
         TestGroup(
             annotation=[
@@ -19638,13 +19638,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI026.xsd"
+                        href='../msData/complexType/ctI026.xsd'
                     ),
                 ],
                 expected=[
@@ -19656,12 +19656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI026"
+                name='ctI026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI026.xml"
+                        href='../msData/complexType/ctI026.xml'
                     ),
                     expected=[
                         Expected(
@@ -19672,10 +19672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI026.v"
+                    name='ctI026.v'
                 ),
             ],
-            name="ctI026"
+            name='ctI026'
         ),
         TestGroup(
             annotation=[
@@ -19691,13 +19691,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI027.xsd"
+                        href='../msData/complexType/ctI027.xsd'
                     ),
                 ],
                 expected=[
@@ -19709,12 +19709,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI027"
+                name='ctI027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI027.xml"
+                        href='../msData/complexType/ctI027.xml'
                     ),
                     expected=[
                         Expected(
@@ -19725,10 +19725,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI027.v"
+                    name='ctI027.v'
                 ),
             ],
-            name="ctI027"
+            name='ctI027'
         ),
         TestGroup(
             annotation=[
@@ -19744,13 +19744,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI028.xsd"
+                        href='../msData/complexType/ctI028.xsd'
                     ),
                 ],
                 expected=[
@@ -19762,12 +19762,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI028"
+                name='ctI028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI028.xml"
+                        href='../msData/complexType/ctI028.xml'
                     ),
                     expected=[
                         Expected(
@@ -19778,10 +19778,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI028.v"
+                    name='ctI028.v'
                 ),
             ],
-            name="ctI028"
+            name='ctI028'
         ),
         TestGroup(
             annotation=[
@@ -19797,13 +19797,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI029.xsd"
+                        href='../msData/complexType/ctI029.xsd'
                     ),
                 ],
                 expected=[
@@ -19815,12 +19815,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI029"
+                name='ctI029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI029.xml"
+                        href='../msData/complexType/ctI029.xml'
                     ),
                     expected=[
                         Expected(
@@ -19831,10 +19831,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI029.v"
+                    name='ctI029.v'
                 ),
             ],
-            name="ctI029"
+            name='ctI029'
         ),
         TestGroup(
             annotation=[
@@ -19850,13 +19850,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI030.xsd"
+                        href='../msData/complexType/ctI030.xsd'
                     ),
                 ],
                 expected=[
@@ -19868,12 +19868,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI030"
+                name='ctI030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI030.xml"
+                        href='../msData/complexType/ctI030.xml'
                     ),
                     expected=[
                         Expected(
@@ -19884,10 +19884,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI030.i"
+                    name='ctI030.i'
                 ),
             ],
-            name="ctI030"
+            name='ctI030'
         ),
         TestGroup(
             annotation=[
@@ -19903,13 +19903,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI031.xsd"
+                        href='../msData/complexType/ctI031.xsd'
                     ),
                 ],
                 expected=[
@@ -19921,12 +19921,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI031"
+                name='ctI031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI031.xml"
+                        href='../msData/complexType/ctI031.xml'
                     ),
                     expected=[
                         Expected(
@@ -19937,10 +19937,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI031.i"
+                    name='ctI031.i'
                 ),
             ],
-            name="ctI031"
+            name='ctI031'
         ),
         TestGroup(
             annotation=[
@@ -19956,13 +19956,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI032.xsd"
+                        href='../msData/complexType/ctI032.xsd'
                     ),
                 ],
                 expected=[
@@ -19974,12 +19974,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI032"
+                name='ctI032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI032.xml"
+                        href='../msData/complexType/ctI032.xml'
                     ),
                     expected=[
                         Expected(
@@ -19990,10 +19990,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI032.i"
+                    name='ctI032.i'
                 ),
             ],
-            name="ctI032"
+            name='ctI032'
         ),
         TestGroup(
             annotation=[
@@ -20009,13 +20009,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI033.xsd"
+                        href='../msData/complexType/ctI033.xsd'
                     ),
                 ],
                 expected=[
@@ -20027,12 +20027,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI033"
+                name='ctI033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI033.xml"
+                        href='../msData/complexType/ctI033.xml'
                     ),
                     expected=[
                         Expected(
@@ -20043,10 +20043,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI033.v"
+                    name='ctI033.v'
                 ),
             ],
-            name="ctI033"
+            name='ctI033'
         ),
         TestGroup(
             annotation=[
@@ -20062,13 +20062,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI034.xsd"
+                        href='../msData/complexType/ctI034.xsd'
                     ),
                 ],
                 expected=[
@@ -20080,12 +20080,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI034"
+                name='ctI034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI034.xml"
+                        href='../msData/complexType/ctI034.xml'
                     ),
                     expected=[
                         Expected(
@@ -20096,10 +20096,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI034.v"
+                    name='ctI034.v'
                 ),
             ],
-            name="ctI034"
+            name='ctI034'
         ),
         TestGroup(
             annotation=[
@@ -20115,13 +20115,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI035.xsd"
+                        href='../msData/complexType/ctI035.xsd'
                     ),
                 ],
                 expected=[
@@ -20133,12 +20133,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI035"
+                name='ctI035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI035.xml"
+                        href='../msData/complexType/ctI035.xml'
                     ),
                     expected=[
                         Expected(
@@ -20149,10 +20149,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI035.i"
+                    name='ctI035.i'
                 ),
             ],
-            name="ctI035"
+            name='ctI035'
         ),
         TestGroup(
             annotation=[
@@ -20168,13 +20168,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI036.xsd"
+                        href='../msData/complexType/ctI036.xsd'
                     ),
                 ],
                 expected=[
@@ -20186,12 +20186,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI036"
+                name='ctI036'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI036.xml"
+                        href='../msData/complexType/ctI036.xml'
                     ),
                     expected=[
                         Expected(
@@ -20202,10 +20202,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI036.v"
+                    name='ctI036.v'
                 ),
             ],
-            name="ctI036"
+            name='ctI036'
         ),
         TestGroup(
             annotation=[
@@ -20221,13 +20221,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI037.xsd"
+                        href='../msData/complexType/ctI037.xsd'
                     ),
                 ],
                 expected=[
@@ -20239,12 +20239,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI037"
+                name='ctI037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI037.xml"
+                        href='../msData/complexType/ctI037.xml'
                     ),
                     expected=[
                         Expected(
@@ -20255,10 +20255,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI037.v"
+                    name='ctI037.v'
                 ),
             ],
-            name="ctI037"
+            name='ctI037'
         ),
         TestGroup(
             annotation=[
@@ -20274,13 +20274,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI038.xsd"
+                        href='../msData/complexType/ctI038.xsd'
                     ),
                 ],
                 expected=[
@@ -20292,12 +20292,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI038"
+                name='ctI038'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI038.xml"
+                        href='../msData/complexType/ctI038.xml'
                     ),
                     expected=[
                         Expected(
@@ -20308,10 +20308,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI038.i"
+                    name='ctI038.i'
                 ),
             ],
-            name="ctI038"
+            name='ctI038'
         ),
         TestGroup(
             annotation=[
@@ -20327,13 +20327,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI039.xsd"
+                        href='../msData/complexType/ctI039.xsd'
                     ),
                 ],
                 expected=[
@@ -20345,12 +20345,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI039"
+                name='ctI039'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI039.xml"
+                        href='../msData/complexType/ctI039.xml'
                     ),
                     expected=[
                         Expected(
@@ -20361,10 +20361,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI039.i"
+                    name='ctI039.i'
                 ),
             ],
-            name="ctI039"
+            name='ctI039'
         ),
         TestGroup(
             annotation=[
@@ -20380,13 +20380,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI040.xsd"
+                        href='../msData/complexType/ctI040.xsd'
                     ),
                 ],
                 expected=[
@@ -20398,12 +20398,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI040"
+                name='ctI040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI040.xml"
+                        href='../msData/complexType/ctI040.xml'
                     ),
                     expected=[
                         Expected(
@@ -20414,10 +20414,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI040.v"
+                    name='ctI040.v'
                 ),
             ],
-            name="ctI040"
+            name='ctI040'
         ),
         TestGroup(
             annotation=[
@@ -20433,13 +20433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI041.xsd"
+                        href='../msData/complexType/ctI041.xsd'
                     ),
                 ],
                 expected=[
@@ -20451,12 +20451,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI041"
+                name='ctI041'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI041.xml"
+                        href='../msData/complexType/ctI041.xml'
                     ),
                     expected=[
                         Expected(
@@ -20467,10 +20467,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI041.v"
+                    name='ctI041.v'
                 ),
             ],
-            name="ctI041"
+            name='ctI041'
         ),
         TestGroup(
             annotation=[
@@ -20486,13 +20486,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI042.xsd"
+                        href='../msData/complexType/ctI042.xsd'
                     ),
                 ],
                 expected=[
@@ -20504,12 +20504,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI042"
+                name='ctI042'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI042.xml"
+                        href='../msData/complexType/ctI042.xml'
                     ),
                     expected=[
                         Expected(
@@ -20520,10 +20520,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI042.i"
+                    name='ctI042.i'
                 ),
             ],
-            name="ctI042"
+            name='ctI042'
         ),
         TestGroup(
             annotation=[
@@ -20539,13 +20539,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI043.xsd"
+                        href='../msData/complexType/ctI043.xsd'
                     ),
                 ],
                 expected=[
@@ -20557,12 +20557,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI043"
+                name='ctI043'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI043.xml"
+                        href='../msData/complexType/ctI043.xml'
                     ),
                     expected=[
                         Expected(
@@ -20573,10 +20573,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI043.v"
+                    name='ctI043.v'
                 ),
             ],
-            name="ctI043"
+            name='ctI043'
         ),
         TestGroup(
             annotation=[
@@ -20592,13 +20592,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI044.xsd"
+                        href='../msData/complexType/ctI044.xsd'
                     ),
                 ],
                 expected=[
@@ -20610,12 +20610,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI044"
+                name='ctI044'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI044.xml"
+                        href='../msData/complexType/ctI044.xml'
                     ),
                     expected=[
                         Expected(
@@ -20626,10 +20626,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI044.v"
+                    name='ctI044.v'
                 ),
             ],
-            name="ctI044"
+            name='ctI044'
         ),
         TestGroup(
             annotation=[
@@ -20645,13 +20645,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI045.xsd"
+                        href='../msData/complexType/ctI045.xsd'
                     ),
                 ],
                 expected=[
@@ -20663,12 +20663,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI045"
+                name='ctI045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI045.xml"
+                        href='../msData/complexType/ctI045.xml'
                     ),
                     expected=[
                         Expected(
@@ -20679,10 +20679,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI045.i"
+                    name='ctI045.i'
                 ),
             ],
-            name="ctI045"
+            name='ctI045'
         ),
         TestGroup(
             annotation=[
@@ -20698,13 +20698,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI046.xsd"
+                        href='../msData/complexType/ctI046.xsd'
                     ),
                 ],
                 expected=[
@@ -20716,12 +20716,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI046"
+                name='ctI046'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI046.xml"
+                        href='../msData/complexType/ctI046.xml'
                     ),
                     expected=[
                         Expected(
@@ -20732,10 +20732,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI046.v"
+                    name='ctI046.v'
                 ),
             ],
-            name="ctI046"
+            name='ctI046'
         ),
         TestGroup(
             annotation=[
@@ -20751,13 +20751,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI047.xsd"
+                        href='../msData/complexType/ctI047.xsd'
                     ),
                 ],
                 expected=[
@@ -20769,12 +20769,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI047"
+                name='ctI047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI047.xml"
+                        href='../msData/complexType/ctI047.xml'
                     ),
                     expected=[
                         Expected(
@@ -20785,10 +20785,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI047.v"
+                    name='ctI047.v'
                 ),
             ],
-            name="ctI047"
+            name='ctI047'
         ),
         TestGroup(
             annotation=[
@@ -20804,13 +20804,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI048.xsd"
+                        href='../msData/complexType/ctI048.xsd'
                     ),
                 ],
                 expected=[
@@ -20822,12 +20822,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI048"
+                name='ctI048'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI048.xml"
+                        href='../msData/complexType/ctI048.xml'
                     ),
                     expected=[
                         Expected(
@@ -20838,10 +20838,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI048.i"
+                    name='ctI048.i'
                 ),
             ],
-            name="ctI048"
+            name='ctI048'
         ),
         TestGroup(
             annotation=[
@@ -20857,13 +20857,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI049.xsd"
+                        href='../msData/complexType/ctI049.xsd'
                     ),
                 ],
                 expected=[
@@ -20875,12 +20875,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI049"
+                name='ctI049'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI049.xml"
+                        href='../msData/complexType/ctI049.xml'
                     ),
                     expected=[
                         Expected(
@@ -20891,10 +20891,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI049.i"
+                    name='ctI049.i'
                 ),
             ],
-            name="ctI049"
+            name='ctI049'
         ),
         TestGroup(
             annotation=[
@@ -20910,13 +20910,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctI050.xsd"
+                        href='../msData/complexType/ctI050.xsd'
                     ),
                 ],
                 expected=[
@@ -20928,12 +20928,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctI050"
+                name='ctI050'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctI050.xml"
+                        href='../msData/complexType/ctI050.xml'
                     ),
                     expected=[
                         Expected(
@@ -20944,10 +20944,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctI050.v"
+                    name='ctI050.v'
                 ),
             ],
-            name="ctI050"
+            name='ctI050'
         ),
         TestGroup(
             annotation=[
@@ -20955,7 +20955,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent with base = a complexType definition",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent with base = a complexType definition',
                             ]
                         ),
                     ]
@@ -20963,13 +20963,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctJ001.xsd"
+                        href='../msData/complexType/ctJ001.xsd'
                     ),
                 ],
                 expected=[
@@ -20981,12 +20981,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctJ001"
+                name='ctJ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctJ001.xml"
+                        href='../msData/complexType/ctJ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -20997,10 +20997,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctJ001.v"
+                    name='ctJ001.v'
                 ),
             ],
-            name="ctJ001"
+            name='ctJ001'
         ),
         TestGroup(
             annotation=[
@@ -21008,7 +21008,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent with base = a simpleType definition",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent with base = a simpleType definition',
                             ]
                         ),
                     ]
@@ -21016,13 +21016,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctJ002.xsd"
+                        href='../msData/complexType/ctJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -21034,9 +21034,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctJ002"
+                name='ctJ002'
             ),
-            name="ctJ002"
+            name='ctJ002'
         ),
         TestGroup(
             annotation=[
@@ -21044,7 +21044,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexContent with base = internal type",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexContent with base = internal type',
                             ]
                         ),
                     ]
@@ -21052,13 +21052,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctJ003.xsd"
+                        href='../msData/complexType/ctJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -21070,9 +21070,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctJ003"
+                name='ctJ003'
             ),
-            name="ctJ003"
+            name='ctJ003'
         ),
         TestGroup(
             annotation=[
@@ -21080,7 +21080,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent with base = a complexType definition whose parent base is a simpleType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent with base = a complexType definition whose parent base is a simpleType',
                             ]
                         ),
                     ]
@@ -21088,13 +21088,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctK001.xsd"
+                        href='../msData/complexType/ctK001.xsd'
                     ),
                 ],
                 expected=[
@@ -21106,12 +21106,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctK001"
+                name='ctK001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctK001.xml"
+                        href='../msData/complexType/ctK001.xml'
                     ),
                     expected=[
                         Expected(
@@ -21122,10 +21122,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctK001.v"
+                    name='ctK001.v'
                 ),
             ],
-            name="ctK001"
+            name='ctK001'
         ),
         TestGroup(
             annotation=[
@@ -21133,7 +21133,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent with base = a complexType definition whose parent base is a complexType",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent with base = a complexType definition whose parent base is a complexType',
                             ]
                         ),
                     ]
@@ -21141,13 +21141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctK002.xsd"
+                        href='../msData/complexType/ctK002.xsd'
                     ),
                 ],
                 expected=[
@@ -21159,9 +21159,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctK002"
+                name='ctK002'
             ),
-            name="ctK002"
+            name='ctK002'
         ),
         TestGroup(
             annotation=[
@@ -21169,7 +21169,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is empty. instance document element has text",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is empty. instance document element has text',
                             ]
                         ),
                     ]
@@ -21177,13 +21177,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL001.xsd"
+                        href='../msData/complexType/ctL001.xsd'
                     ),
                 ],
                 expected=[
@@ -21195,12 +21195,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL001"
+                name='ctL001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL001.xml"
+                        href='../msData/complexType/ctL001.xml'
                     ),
                     expected=[
                         Expected(
@@ -21211,10 +21211,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL001.i"
+                    name='ctL001.i'
                 ),
             ],
-            name="ctL001"
+            name='ctL001'
         ),
         TestGroup(
             annotation=[
@@ -21222,7 +21222,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is empty. instance document element has element children",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is empty. instance document element has element children',
                             ]
                         ),
                     ]
@@ -21230,13 +21230,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL002.xsd"
+                        href='../msData/complexType/ctL002.xsd'
                     ),
                 ],
                 expected=[
@@ -21248,12 +21248,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL002"
+                name='ctL002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL002.xml"
+                        href='../msData/complexType/ctL002.xml'
                     ),
                     expected=[
                         Expected(
@@ -21264,10 +21264,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL002.i"
+                    name='ctL002.i'
                 ),
             ],
-            name="ctL002"
+            name='ctL002'
         ),
         TestGroup(
             annotation=[
@@ -21275,7 +21275,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is empty. instance document element is empty",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is empty. instance document element is empty',
                             ]
                         ),
                     ]
@@ -21283,13 +21283,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL003.xsd"
+                        href='../msData/complexType/ctL003.xsd'
                     ),
                 ],
                 expected=[
@@ -21301,12 +21301,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL003"
+                name='ctL003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL003.xml"
+                        href='../msData/complexType/ctL003.xml'
                     ),
                     expected=[
                         Expected(
@@ -21317,10 +21317,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL003.v"
+                    name='ctL003.v'
                 ),
             ],
-            name="ctL003"
+            name='ctL003'
         ),
         TestGroup(
             annotation=[
@@ -21328,7 +21328,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : simpleContent. instance document element has element children",
+                                'TEST :Syntax Checking for top level complexType Declaration : simpleContent. instance document element has element children',
                             ]
                         ),
                     ]
@@ -21336,13 +21336,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL004.xsd"
+                        href='../msData/complexType/ctL004.xsd'
                     ),
                 ],
                 expected=[
@@ -21354,12 +21354,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL004"
+                name='ctL004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL004.xml"
+                        href='../msData/complexType/ctL004.xml'
                     ),
                     expected=[
                         Expected(
@@ -21370,10 +21370,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL004.i"
+                    name='ctL004.i'
                 ),
             ],
-            name="ctL004"
+            name='ctL004'
         ),
         TestGroup(
             annotation=[
@@ -21381,7 +21381,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element has element children",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element has element children',
                             ]
                         ),
                     ]
@@ -21389,13 +21389,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL005.xsd"
+                        href='../msData/complexType/ctL005.xsd'
                     ),
                 ],
                 expected=[
@@ -21407,12 +21407,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL005"
+                name='ctL005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL005.xml"
+                        href='../msData/complexType/ctL005.xml'
                     ),
                     expected=[
                         Expected(
@@ -21423,10 +21423,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL005.v"
+                    name='ctL005.v'
                 ),
             ],
-            name="ctL005"
+            name='ctL005'
         ),
         TestGroup(
             annotation=[
@@ -21434,7 +21434,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element has character information",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element has character information',
                             ]
                         ),
                     ]
@@ -21442,13 +21442,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL006.xsd"
+                        href='../msData/complexType/ctL006.xsd'
                     ),
                 ],
                 expected=[
@@ -21460,12 +21460,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL006"
+                name='ctL006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL006.xml"
+                        href='../msData/complexType/ctL006.xml'
                     ),
                     expected=[
                         Expected(
@@ -21476,10 +21476,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL006.i"
+                    name='ctL006.i'
                 ),
             ],
-            name="ctL006"
+            name='ctL006'
         ),
         TestGroup(
             annotation=[
@@ -21487,7 +21487,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element only whitespace",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element only whitespace',
                             ]
                         ),
                     ]
@@ -21495,13 +21495,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL007.xsd"
+                        href='../msData/complexType/ctL007.xsd'
                     ),
                 ],
                 expected=[
@@ -21513,12 +21513,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL007"
+                name='ctL007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL007.xml"
+                        href='../msData/complexType/ctL007.xml'
                     ),
                     expected=[
                         Expected(
@@ -21529,10 +21529,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL007.v"
+                    name='ctL007.v'
                 ),
             ],
-            name="ctL007"
+            name='ctL007'
         ),
         TestGroup(
             annotation=[
@@ -21540,7 +21540,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document elements in same order as type definition",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document elements in same order as type definition',
                             ]
                         ),
                     ]
@@ -21548,13 +21548,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL008.xsd"
+                        href='../msData/complexType/ctL008.xsd'
                     ),
                 ],
                 expected=[
@@ -21566,12 +21566,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL008"
+                name='ctL008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL008.xml"
+                        href='../msData/complexType/ctL008.xml'
                     ),
                     expected=[
                         Expected(
@@ -21582,10 +21582,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL008.v"
+                    name='ctL008.v'
                 ),
             ],
-            name="ctL008"
+            name='ctL008'
         ),
         TestGroup(
             annotation=[
@@ -21593,7 +21593,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document elements are in a different order from type definition",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document elements are in a different order from type definition',
                             ]
                         ),
                     ]
@@ -21601,13 +21601,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL009.xsd"
+                        href='../msData/complexType/ctL009.xsd'
                     ),
                 ],
                 expected=[
@@ -21619,12 +21619,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL009"
+                name='ctL009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL009.xml"
+                        href='../msData/complexType/ctL009.xml'
                     ),
                     expected=[
                         Expected(
@@ -21635,10 +21635,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL009.i"
+                    name='ctL009.i'
                 ),
             ],
-            name="ctL009"
+            name='ctL009'
         ),
         TestGroup(
             annotation=[
@@ -21646,7 +21646,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element has element children not in schema",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is element only. instance document element has element children not in schema',
                             ]
                         ),
                     ]
@@ -21654,13 +21654,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL010.xsd"
+                        href='../msData/complexType/ctL010.xsd'
                     ),
                 ],
                 expected=[
@@ -21672,12 +21672,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL010"
+                name='ctL010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL010.xml"
+                        href='../msData/complexType/ctL010.xml'
                     ),
                     expected=[
                         Expected(
@@ -21688,10 +21688,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL010.i"
+                    name='ctL010.i'
                 ),
             ],
-            name="ctL010"
+            name='ctL010'
         ),
         TestGroup(
             annotation=[
@@ -21699,7 +21699,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is mixed. instance document elements in same order as type definition",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is mixed. instance document elements in same order as type definition',
                             ]
                         ),
                     ]
@@ -21707,13 +21707,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL011.xsd"
+                        href='../msData/complexType/ctL011.xsd'
                     ),
                 ],
                 expected=[
@@ -21725,12 +21725,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL011"
+                name='ctL011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL011.xml"
+                        href='../msData/complexType/ctL011.xml'
                     ),
                     expected=[
                         Expected(
@@ -21741,10 +21741,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL011.v"
+                    name='ctL011.v'
                 ),
             ],
-            name="ctL011"
+            name='ctL011'
         ),
         TestGroup(
             annotation=[
@@ -21752,7 +21752,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content is mixed. instance document elements are in a different order from type definition",
+                                'TEST :Syntax Checking for top level complexType Declaration : content is mixed. instance document elements are in a different order from type definition',
                             ]
                         ),
                     ]
@@ -21760,13 +21760,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL012.xsd"
+                        href='../msData/complexType/ctL012.xsd'
                     ),
                 ],
                 expected=[
@@ -21778,12 +21778,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL012"
+                name='ctL012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL012.xml"
+                        href='../msData/complexType/ctL012.xml'
                     ),
                     expected=[
                         Expected(
@@ -21794,10 +21794,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL012.i"
+                    name='ctL012.i'
                 ),
             ],
-            name="ctL012"
+            name='ctL012'
         ),
         TestGroup(
             annotation=[
@@ -21805,7 +21805,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content has attributes defined. instance document has attributes missing",
+                                'TEST :Syntax Checking for top level complexType Declaration : content has attributes defined. instance document has attributes missing',
                             ]
                         ),
                     ]
@@ -21813,13 +21813,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL013.xsd"
+                        href='../msData/complexType/ctL013.xsd'
                     ),
                 ],
                 expected=[
@@ -21831,12 +21831,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL013"
+                name='ctL013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL013.xml"
+                        href='../msData/complexType/ctL013.xml'
                     ),
                     expected=[
                         Expected(
@@ -21847,10 +21847,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL013.i"
+                    name='ctL013.i'
                 ),
             ],
-            name="ctL013"
+            name='ctL013'
         ),
         TestGroup(
             annotation=[
@@ -21858,7 +21858,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : content has attributes defined. instance document has attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : content has attributes defined. instance document has attributes',
                             ]
                         ),
                     ]
@@ -21866,13 +21866,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL014.xsd"
+                        href='../msData/complexType/ctL014.xsd'
                     ),
                 ],
                 expected=[
@@ -21884,12 +21884,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL014"
+                name='ctL014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL014.xml"
+                        href='../msData/complexType/ctL014.xml'
                     ),
                     expected=[
                         Expected(
@@ -21900,10 +21900,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL014.v"
+                    name='ctL014.v'
                 ),
             ],
-            name="ctL014"
+            name='ctL014'
         ),
         TestGroup(
             annotation=[
@@ -21919,13 +21919,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL015.xsd"
+                        href='../msData/complexType/ctL015.xsd'
                     ),
                 ],
                 expected=[
@@ -21937,12 +21937,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL015"
+                name='ctL015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL015.xml"
+                        href='../msData/complexType/ctL015.xml'
                     ),
                     expected=[
                         Expected(
@@ -21953,10 +21953,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL015.v"
+                    name='ctL015.v'
                 ),
             ],
-            name="ctL015"
+            name='ctL015'
         ),
         TestGroup(
             annotation=[
@@ -21972,13 +21972,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL016.xsd"
+                        href='../msData/complexType/ctL016.xsd'
                     ),
                 ],
                 expected=[
@@ -21990,12 +21990,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL016"
+                name='ctL016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL016.xml"
+                        href='../msData/complexType/ctL016.xml'
                     ),
                     expected=[
                         Expected(
@@ -22006,10 +22006,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL016.v"
+                    name='ctL016.v'
                 ),
             ],
-            name="ctL016"
+            name='ctL016'
         ),
         TestGroup(
             annotation=[
@@ -22025,13 +22025,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL017.xsd"
+                        href='../msData/complexType/ctL017.xsd'
                     ),
                 ],
                 expected=[
@@ -22043,12 +22043,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL017"
+                name='ctL017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL017.xml"
+                        href='../msData/complexType/ctL017.xml'
                     ),
                     expected=[
                         Expected(
@@ -22059,10 +22059,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL017.v"
+                    name='ctL017.v'
                 ),
             ],
-            name="ctL017"
+            name='ctL017'
         ),
         TestGroup(
             annotation=[
@@ -22078,13 +22078,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL018.xsd"
+                        href='../msData/complexType/ctL018.xsd'
                     ),
                 ],
                 expected=[
@@ -22096,12 +22096,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL018"
+                name='ctL018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL018.xml"
+                        href='../msData/complexType/ctL018.xml'
                     ),
                     expected=[
                         Expected(
@@ -22112,10 +22112,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL018.v"
+                    name='ctL018.v'
                 ),
             ],
-            name="ctL018"
+            name='ctL018'
         ),
         TestGroup(
             annotation=[
@@ -22131,13 +22131,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL019.xsd"
+                        href='../msData/complexType/ctL019.xsd'
                     ),
                 ],
                 expected=[
@@ -22149,12 +22149,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL019"
+                name='ctL019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL019.xml"
+                        href='../msData/complexType/ctL019.xml'
                     ),
                     expected=[
                         Expected(
@@ -22165,10 +22165,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL019.v"
+                    name='ctL019.v'
                 ),
             ],
-            name="ctL019"
+            name='ctL019'
         ),
         TestGroup(
             annotation=[
@@ -22184,13 +22184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL020.xsd"
+                        href='../msData/complexType/ctL020.xsd'
                     ),
                 ],
                 expected=[
@@ -22202,12 +22202,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL020"
+                name='ctL020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL020.xml"
+                        href='../msData/complexType/ctL020.xml'
                     ),
                     expected=[
                         Expected(
@@ -22218,10 +22218,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL020.i"
+                    name='ctL020.i'
                 ),
             ],
-            name="ctL020"
+            name='ctL020'
         ),
         TestGroup(
             annotation=[
@@ -22237,13 +22237,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctL021.xsd"
+                        href='../msData/complexType/ctL021.xsd'
                     ),
                 ],
                 expected=[
@@ -22255,12 +22255,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL021"
+                name='ctL021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctL021.xml"
+                        href='../msData/complexType/ctL021.xml'
                     ),
                     expected=[
                         Expected(
@@ -22271,10 +22271,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL021.v"
+                    name='ctL021.v'
                 ),
             ],
-            name="ctL021"
+            name='ctL021'
         ),
         TestGroup(
             annotation=[
@@ -22282,7 +22282,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : ability to use abstract complexType as xsi:type using inline schemas",
+                                'TEST :Syntax Checking for top level complexType Declaration : ability to use abstract complexType as xsi:type using inline schemas',
                             ]
                         ),
                     ]
@@ -22290,13 +22290,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/test67200.xsd"
+                        href='../msData/complexType/test67200.xsd'
                     ),
                 ],
                 expected=[
@@ -22308,12 +22308,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctL022"
+                name='ctL022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/test67200.xml"
+                        href='../msData/complexType/test67200.xml'
                     ),
                     expected=[
                         Expected(
@@ -22324,10 +22324,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctL022.v"
+                    name='ctL022.v'
                 ),
             ],
-            name="ctL022"
+            name='ctL022'
         ),
         TestGroup(
             annotation=[
@@ -22335,7 +22335,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexType with base type a simpleType. derivation = restriction",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexType with base type a simpleType. derivation = restriction',
                             ]
                         ),
                     ]
@@ -22343,13 +22343,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctM001.xsd"
+                        href='../msData/complexType/ctM001.xsd'
                     ),
                 ],
                 expected=[
@@ -22361,9 +22361,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctM001"
+                name='ctM001'
             ),
-            name="ctM001"
+            name='ctM001'
         ),
         TestGroup(
             annotation=[
@@ -22371,7 +22371,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : complexType with base type a simpleType. derivation = extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : complexType with base type a simpleType. derivation = extension',
                             ]
                         ),
                     ]
@@ -22379,13 +22379,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctM002.xsd"
+                        href='../msData/complexType/ctM002.xsd'
                     ),
                 ],
                 expected=[
@@ -22397,12 +22397,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctM002"
+                name='ctM002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctM002.xml"
+                        href='../msData/complexType/ctM002.xml'
                     ),
                     expected=[
                         Expected(
@@ -22413,10 +22413,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctM002.v"
+                    name='ctM002.v'
                 ),
             ],
-            name="ctM002"
+            name='ctM002'
         ),
         TestGroup(
             annotation=[
@@ -22424,7 +22424,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : two attribute use pairs have same name and target namespace",
+                                'TEST :Syntax Checking for top level complexType Declaration : two attribute use pairs have same name and target namespace',
                             ]
                         ),
                     ]
@@ -22432,13 +22432,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctM003.xsd"
+                        href='../msData/complexType/ctM003.xsd'
                     ),
                 ],
                 expected=[
@@ -22450,9 +22450,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctM003"
+                name='ctM003'
             ),
-            name="ctM003"
+            name='ctM003'
         ),
         TestGroup(
             annotation=[
@@ -22460,12 +22460,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : two attributes with different names both have types derived from ID",
+                                'TEST :Syntax Checking for top level complexType Declaration : two attributes with different names both have types derived from ID',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Multiple ID attributes for an element become legal in XSD 1.1 - MHK",
+                                'Multiple ID attributes for an element become legal in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -22473,16 +22473,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctM004.xsd"
+                        href='../msData/complexType/ctM004.xsd'
                     ),
                 ],
                 expected=[
@@ -22503,9 +22503,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctM004"
+                name='ctM004'
             ),
-            name="ctM004"
+            name='ctM004'
         ),
         TestGroup(
             annotation=[
@@ -22513,7 +22513,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=extension. final of base type not extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=extension. final of base type not extension',
                             ]
                         ),
                     ]
@@ -22521,13 +22521,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctN001.xsd"
+                        href='../msData/complexType/ctN001.xsd'
                     ),
                 ],
                 expected=[
@@ -22539,12 +22539,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctN001"
+                name='ctN001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctN001.xml"
+                        href='../msData/complexType/ctN001.xml'
                     ),
                     expected=[
                         Expected(
@@ -22555,10 +22555,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctN001.v"
+                    name='ctN001.v'
                 ),
             ],
-            name="ctN001"
+            name='ctN001'
         ),
         TestGroup(
             annotation=[
@@ -22566,7 +22566,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=extension. final of base type is extension",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=extension. final of base type is extension',
                             ]
                         ),
                     ]
@@ -22574,13 +22574,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctN002.xsd"
+                        href='../msData/complexType/ctN002.xsd'
                     ),
                 ],
                 expected=[
@@ -22592,9 +22592,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctN002"
+                name='ctN002'
             ),
-            name="ctN002"
+            name='ctN002'
         ),
         TestGroup(
             annotation=[
@@ -22602,7 +22602,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=extension. Attribute wildcard ##local in base type. Derived type has wildcard with ##any namespace constraint.",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=extension. Attribute wildcard ##local in base type. Derived type has wildcard with ##any namespace constraint.',
                             ]
                         ),
                     ]
@@ -22610,13 +22610,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctN003.xsd"
+                        href='../msData/complexType/ctN003.xsd'
                     ),
                 ],
                 expected=[
@@ -22628,12 +22628,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctN003"
+                name='ctN003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctN003.xml"
+                        href='../msData/complexType/ctN003.xml'
                     ),
                     expected=[
                         Expected(
@@ -22644,10 +22644,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctN003.v"
+                    name='ctN003.v'
                 ),
             ],
-            name="ctN003"
+            name='ctN003'
         ),
         TestGroup(
             annotation=[
@@ -22655,7 +22655,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=extension. Attribute wildcard ##any in base type. Derived type has wildcard with ##local namespace constraint.",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=extension. Attribute wildcard ##any in base type. Derived type has wildcard with ##local namespace constraint.',
                             ]
                         ),
                     ]
@@ -22663,13 +22663,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctN004.xsd"
+                        href='../msData/complexType/ctN004.xsd'
                     ),
                 ],
                 expected=[
@@ -22681,12 +22681,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctN004"
+                name='ctN004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctN004.xml"
+                        href='../msData/complexType/ctN004.xml'
                     ),
                     expected=[
                         Expected(
@@ -22697,10 +22697,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctN004.v"
+                    name='ctN004.v'
                 ),
             ],
-            name="ctN004"
+            name='ctN004'
         ),
         TestGroup(
             annotation=[
@@ -22708,7 +22708,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. final base type not restriction",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. final base type not restriction',
                             ]
                         ),
                     ]
@@ -22716,13 +22716,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO001.xsd"
+                        href='../msData/complexType/ctO001.xsd'
                     ),
                 ],
                 expected=[
@@ -22734,12 +22734,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO001"
+                name='ctO001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctO001.xml"
+                        href='../msData/complexType/ctO001.xml'
                     ),
                     expected=[
                         Expected(
@@ -22750,10 +22750,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctO001.v"
+                    name='ctO001.v'
                 ),
             ],
-            name="ctO001"
+            name='ctO001'
         ),
         TestGroup(
             annotation=[
@@ -22761,7 +22761,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. final base type is restriction",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. final base type is restriction',
                             ]
                         ),
                     ]
@@ -22769,13 +22769,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO002.xsd"
+                        href='../msData/complexType/ctO002.xsd'
                     ),
                 ],
                 expected=[
@@ -22787,9 +22787,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO002"
+                name='ctO002'
             ),
-            name="ctO002"
+            name='ctO002'
         ),
         TestGroup(
             annotation=[
@@ -22797,7 +22797,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Attribute wildcard in base type. Derived type has attribute that is valid with respect to wildcard",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Attribute wildcard in base type. Derived type has attribute that is valid with respect to wildcard',
                             ]
                         ),
                     ]
@@ -22805,13 +22805,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO003.xsd"
+                        href='../msData/complexType/ctO003.xsd'
                     ),
                 ],
                 expected=[
@@ -22823,12 +22823,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO003"
+                name='ctO003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctO003.xml"
+                        href='../msData/complexType/ctO003.xml'
                     ),
                     expected=[
                         Expected(
@@ -22839,10 +22839,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctO003.v"
+                    name='ctO003.v'
                 ),
             ],
-            name="ctO003"
+            name='ctO003'
         ),
         TestGroup(
             annotation=[
@@ -22850,7 +22850,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Attribute wildcard in base type. Derived type has attribute that is not valid with respect to wildcard",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Attribute wildcard in base type. Derived type has attribute that is not valid with respect to wildcard',
                             ]
                         ),
                     ]
@@ -22858,13 +22858,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO004.xsd"
+                        href='../msData/complexType/ctO004.xsd'
                     ),
                 ],
                 expected=[
@@ -22876,9 +22876,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO004"
+                name='ctO004'
             ),
-            name="ctO004"
+            name='ctO004'
         ),
         TestGroup(
             annotation=[
@@ -22886,7 +22886,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Derived type has Attribute Wildcard. Base type does not have attribute wildcard",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Derived type has Attribute Wildcard. Base type does not have attribute wildcard',
                             ]
                         ),
                     ]
@@ -22894,13 +22894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO005.xsd"
+                        href='../msData/complexType/ctO005.xsd'
                     ),
                 ],
                 expected=[
@@ -22912,9 +22912,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO005"
+                name='ctO005'
             ),
-            name="ctO005"
+            name='ctO005'
         ),
         TestGroup(
             annotation=[
@@ -22922,7 +22922,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Derived type has Attribute Wildcard. Derived wildcard namespace constraint is a subset of base",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Derived type has Attribute Wildcard. Derived wildcard namespace constraint is a subset of base',
                             ]
                         ),
                     ]
@@ -22930,13 +22930,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO006.xsd"
+                        href='../msData/complexType/ctO006.xsd'
                     ),
                 ],
                 expected=[
@@ -22948,12 +22948,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO006"
+                name='ctO006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctO006.xml"
+                        href='../msData/complexType/ctO006.xml'
                     ),
                     expected=[
                         Expected(
@@ -22964,10 +22964,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctO006.v"
+                    name='ctO006.v'
                 ),
             ],
-            name="ctO006"
+            name='ctO006'
         ),
         TestGroup(
             annotation=[
@@ -22975,7 +22975,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Derived type has Attribute Wildcard. Derived wildcard namespace constraint is not a subset of base",
+                                'TEST :Syntax Checking for top level complexType Declaration : derivation=restriction. Derived type has Attribute Wildcard. Derived wildcard namespace constraint is not a subset of base',
                             ]
                         ),
                     ]
@@ -22983,13 +22983,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctO007.xsd"
+                        href='../msData/complexType/ctO007.xsd'
                     ),
                 ],
                 expected=[
@@ -23001,9 +23001,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctO007"
+                name='ctO007'
             ),
-            name="ctO007"
+            name='ctO007'
         ),
         TestGroup(
             annotation=[
@@ -23011,7 +23011,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : extensions to xsd:anyType in substitution groups",
+                                'TEST :Syntax Checking for top level complexType Declaration : extensions to xsd:anyType in substitution groups',
                             ]
                         ),
                     ]
@@ -23019,13 +23019,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/75039.xsd"
+                        href='../msData/complexType/75039.xsd'
                     ),
                 ],
                 expected=[
@@ -23037,12 +23037,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ001"
+                name='ctZ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/75039.xml"
+                        href='../msData/complexType/75039.xml'
                     ),
                     expected=[
                         Expected(
@@ -23053,10 +23053,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ001.v"
+                    name='ctZ001.v'
                 ),
             ],
-            name="ctZ001"
+            name='ctZ001'
         ),
         TestGroup(
             annotation=[
@@ -23064,7 +23064,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : xs:complexType contains references to multiple invalid attributes",
+                                'TEST :Syntax Checking for top level complexType Declaration : xs:complexType contains references to multiple invalid attributes',
                             ]
                         ),
                     ]
@@ -23072,13 +23072,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/84953.xsd"
+                        href='../msData/complexType/84953.xsd'
                     ),
                 ],
                 expected=[
@@ -23090,9 +23090,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ002"
+                name='ctZ002'
             ),
-            name="ctZ002"
+            name='ctZ002'
         ),
         TestGroup(
             annotation=[
@@ -23108,13 +23108,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ003.xsd"
+                        href='../msData/complexType/ctZ003.xsd'
                     ),
                 ],
                 expected=[
@@ -23126,12 +23126,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ003"
+                name='ctZ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ003.xml"
+                        href='../msData/complexType/ctZ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -23142,10 +23142,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ003.v"
+                    name='ctZ003.v'
                 ),
             ],
-            name="ctZ003"
+            name='ctZ003'
         ),
         TestGroup(
             annotation=[
@@ -23161,13 +23161,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ004.xsd"
+                        href='../msData/complexType/ctZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -23179,9 +23179,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ004"
+                name='ctZ004'
             ),
-            name="ctZ004"
+            name='ctZ004'
         ),
         TestGroup(
             annotation=[
@@ -23197,13 +23197,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ005.xsd"
+                        href='../msData/complexType/ctZ005.xsd'
                     ),
                 ],
                 expected=[
@@ -23215,12 +23215,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ005"
+                name='ctZ005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ005.xml"
+                        href='../msData/complexType/ctZ005.xml'
                     ),
                     expected=[
                         Expected(
@@ -23231,10 +23231,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ005.i"
+                    name='ctZ005.i'
                 ),
             ],
-            name="ctZ005"
+            name='ctZ005'
         ),
         TestGroup(
             annotation=[
@@ -23242,7 +23242,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Inderterminstic schemas",
+                                'TEST :Syntax Checking for top level complexType Declaration : Inderterminstic schemas',
                             ]
                         ),
                     ]
@@ -23250,13 +23250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ006.xsd"
+                        href='../msData/complexType/ctZ006.xsd'
                     ),
                 ],
                 expected=[
@@ -23268,12 +23268,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ006"
+                name='ctZ006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ006.xml"
+                        href='../msData/complexType/ctZ006.xml'
                     ),
                     expected=[
                         Expected(
@@ -23284,10 +23284,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ006.v"
+                    name='ctZ006.v'
                 ),
             ],
-            name="ctZ006"
+            name='ctZ006'
         ),
         TestGroup(
             annotation=[
@@ -23295,7 +23295,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Derived types validated as base type when substitution group used",
+                                'TEST :Syntax Checking for top level complexType Declaration : Derived types validated as base type when substitution group used',
                             ]
                         ),
                     ]
@@ -23303,16 +23303,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ007_b.xsd"
+                        href='../msData/complexType/ctZ007_b.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/complexType/ctZ007_a.xsd"
+                        href='../msData/complexType/ctZ007_a.xsd'
                     ),
                 ],
                 expected=[
@@ -23324,12 +23324,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ007"
+                name='ctZ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ007.xml"
+                        href='../msData/complexType/ctZ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -23340,10 +23340,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ007.v"
+                    name='ctZ007.v'
                 ),
             ],
-            name="ctZ007"
+            name='ctZ007'
         ),
         TestGroup(
             annotation=[
@@ -23351,7 +23351,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models",
+                                'TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models',
                             ]
                         ),
                     ]
@@ -23359,13 +23359,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ008.xsd"
+                        href='../msData/complexType/ctZ008.xsd'
                     ),
                 ],
                 expected=[
@@ -23377,12 +23377,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ008"
+                name='ctZ008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ008.xml"
+                        href='../msData/complexType/ctZ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -23393,10 +23393,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ008.v"
+                    name='ctZ008.v'
                 ),
             ],
-            name="ctZ008"
+            name='ctZ008'
         ),
         TestGroup(
             annotation=[
@@ -23404,7 +23404,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (2)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (2)',
                             ]
                         ),
                     ]
@@ -23412,13 +23412,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ009.xsd"
+                        href='../msData/complexType/ctZ009.xsd'
                     ),
                 ],
                 expected=[
@@ -23430,12 +23430,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ009"
+                name='ctZ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ009.xml"
+                        href='../msData/complexType/ctZ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -23446,10 +23446,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ009.v"
+                    name='ctZ009.v'
                 ),
             ],
-            name="ctZ009"
+            name='ctZ009'
         ),
         TestGroup(
             annotation=[
@@ -23457,7 +23457,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (3)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (3)',
                             ]
                         ),
                     ]
@@ -23465,13 +23465,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ009_a.xsd"
+                        href='../msData/complexType/ctZ009_a.xsd'
                     ),
                 ],
                 expected=[
@@ -23483,12 +23483,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ009_a"
+                name='ctZ009_a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ009_a.xml"
+                        href='../msData/complexType/ctZ009_a.xml'
                     ),
                     expected=[
                         Expected(
@@ -23499,10 +23499,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ009_a.v"
+                    name='ctZ009_a.v'
                 ),
             ],
-            name="ctZ009_a"
+            name='ctZ009_a'
         ),
         TestGroup(
             annotation=[
@@ -23510,7 +23510,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (4)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (4)',
                             ]
                         ),
                     ]
@@ -23518,13 +23518,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ009_a.xsd"
+                        href='../msData/complexType/ctZ009_a.xsd'
                     ),
                 ],
                 expected=[
@@ -23536,12 +23536,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ009_b"
+                name='ctZ009_b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ009_b.xml"
+                        href='../msData/complexType/ctZ009_b.xml'
                     ),
                     expected=[
                         Expected(
@@ -23552,10 +23552,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ009_b.v"
+                    name='ctZ009_b.v'
                 ),
             ],
-            name="ctZ009_b"
+            name='ctZ009_b'
         ),
         TestGroup(
             annotation=[
@@ -23563,7 +23563,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (5)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (5)',
                             ]
                         ),
                     ]
@@ -23571,13 +23571,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ009_c.xsd"
+                        href='../msData/complexType/ctZ009_c.xsd'
                     ),
                 ],
                 expected=[
@@ -23589,12 +23589,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ009_c"
+                name='ctZ009_c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ009_c.xml"
+                        href='../msData/complexType/ctZ009_c.xml'
                     ),
                     expected=[
                         Expected(
@@ -23605,10 +23605,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ009_c.i"
+                    name='ctZ009_c.i'
                 ),
             ],
-            name="ctZ009_c"
+            name='ctZ009_c'
         ),
         TestGroup(
             annotation=[
@@ -23616,7 +23616,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (6)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Ambiguous but valid content models (6)',
                             ]
                         ),
                     ]
@@ -23624,13 +23624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ009_d.xsd"
+                        href='../msData/complexType/ctZ009_d.xsd'
                     ),
                 ],
                 expected=[
@@ -23642,12 +23642,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ009_d"
+                name='ctZ009_d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ009_d.xml"
+                        href='../msData/complexType/ctZ009_d.xml'
                     ),
                     expected=[
                         Expected(
@@ -23658,10 +23658,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ009_d.v"
+                    name='ctZ009_d.v'
                 ),
             ],
-            name="ctZ009_d"
+            name='ctZ009_d'
         ),
         TestGroup(
             annotation=[
@@ -23669,7 +23669,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : xsd: test extending anyType baseType mixed=true, derivedType mixed=false",
+                                'TEST :Syntax Checking for top level complexType Declaration : xsd: test extending anyType baseType mixed=true, derivedType mixed=false',
                             ]
                         ),
                     ]
@@ -23677,13 +23677,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010.xsd"
+                        href='../msData/complexType/ctZ010.xsd'
                     ),
                 ],
                 expected=[
@@ -23695,9 +23695,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010"
+                name='ctZ010'
             ),
-            name="ctZ010"
+            name='ctZ010'
         ),
         TestGroup(
             annotation=[
@@ -23705,7 +23705,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(1)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(1)',
                             ]
                         ),
                     ]
@@ -23713,13 +23713,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010a.xsd"
+                        href='../msData/complexType/ctZ010a.xsd'
                     ),
                 ],
                 expected=[
@@ -23731,9 +23731,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010a"
+                name='ctZ010a'
             ),
-            name="ctZ010a"
+            name='ctZ010a'
         ),
         TestGroup(
             annotation=[
@@ -23741,7 +23741,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(2)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(2)',
                             ]
                         ),
                     ]
@@ -23749,13 +23749,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010b.xsd"
+                        href='../msData/complexType/ctZ010b.xsd'
                     ),
                 ],
                 expected=[
@@ -23767,9 +23767,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010b"
+                name='ctZ010b'
             ),
-            name="ctZ010b"
+            name='ctZ010b'
         ),
         TestGroup(
             annotation=[
@@ -23777,7 +23777,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(3)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(3)',
                             ]
                         ),
                     ]
@@ -23785,13 +23785,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010c.xsd"
+                        href='../msData/complexType/ctZ010c.xsd'
                     ),
                 ],
                 expected=[
@@ -23803,9 +23803,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010c"
+                name='ctZ010c'
             ),
-            name="ctZ010c"
+            name='ctZ010c'
         ),
         TestGroup(
             annotation=[
@@ -23813,7 +23813,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(4)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by extension(4)',
                             ]
                         ),
                     ]
@@ -23821,13 +23821,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010d.xsd"
+                        href='../msData/complexType/ctZ010d.xsd'
                     ),
                 ],
                 expected=[
@@ -23839,9 +23839,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010d"
+                name='ctZ010d'
             ),
-            name="ctZ010d"
+            name='ctZ010d'
         ),
         TestGroup(
             annotation=[
@@ -23849,7 +23849,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (1)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (1)',
                             ]
                         ),
                     ]
@@ -23857,13 +23857,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010e.xsd"
+                        href='../msData/complexType/ctZ010e.xsd'
                     ),
                 ],
                 expected=[
@@ -23875,9 +23875,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010e"
+                name='ctZ010e'
             ),
-            name="ctZ010e"
+            name='ctZ010e'
         ),
         TestGroup(
             annotation=[
@@ -23885,7 +23885,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (2)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (2)',
                             ]
                         ),
                     ]
@@ -23893,13 +23893,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010f.xsd"
+                        href='../msData/complexType/ctZ010f.xsd'
                     ),
                 ],
                 expected=[
@@ -23911,9 +23911,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010f"
+                name='ctZ010f'
             ),
-            name="ctZ010f"
+            name='ctZ010f'
         ),
         TestGroup(
             annotation=[
@@ -23921,7 +23921,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (3)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (3)',
                             ]
                         ),
                     ]
@@ -23929,13 +23929,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010g.xsd"
+                        href='../msData/complexType/ctZ010g.xsd'
                     ),
                 ],
                 expected=[
@@ -23947,9 +23947,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010g"
+                name='ctZ010g'
             ),
-            name="ctZ010g"
+            name='ctZ010g'
         ),
         TestGroup(
             annotation=[
@@ -23957,7 +23957,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (4)",
+                                'TEST :Syntax Checking for top level complexType Declaration : XSD: derivig complex types by restriction (4)',
                             ]
                         ),
                     ]
@@ -23965,13 +23965,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ010h.xsd"
+                        href='../msData/complexType/ctZ010h.xsd'
                     ),
                 ],
                 expected=[
@@ -23983,9 +23983,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ010h"
+                name='ctZ010h'
             ),
-            name="ctZ010h"
+            name='ctZ010h'
         ),
         TestGroup(
             annotation=[
@@ -24001,13 +24001,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ011.xml"
+                        href='../msData/complexType/ctZ011.xml'
                     ),
                     expected=[
                         Expected(
@@ -24018,10 +24018,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ011_a.v"
+                    name='ctZ011_a.v'
                 ),
             ],
-            name="ctZ011_a"
+            name='ctZ011_a'
         ),
         TestGroup(
             annotation=[
@@ -24037,13 +24037,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ011.xsd"
+                        href='../msData/complexType/ctZ011.xsd'
                     ),
                 ],
                 expected=[
@@ -24055,12 +24055,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ011_b"
+                name='ctZ011_b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ011.xml"
+                        href='../msData/complexType/ctZ011.xml'
                     ),
                     expected=[
                         Expected(
@@ -24071,10 +24071,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ011_b.v"
+                    name='ctZ011_b.v'
                 ),
             ],
-            name="ctZ011_b"
+            name='ctZ011_b'
         ),
         TestGroup(
             annotation=[
@@ -24082,7 +24082,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Copy base types content type if derived type is empty, in derivation by extension(1)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Copy base types content type if derived type is empty, in derivation by extension(1)',
                             ]
                         ),
                     ]
@@ -24090,13 +24090,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ012a.xsd"
+                        href='../msData/complexType/ctZ012a.xsd'
                     ),
                 ],
                 expected=[
@@ -24108,9 +24108,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ012a"
+                name='ctZ012a'
             ),
-            name="ctZ012a"
+            name='ctZ012a'
         ),
         TestGroup(
             annotation=[
@@ -24118,7 +24118,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : Copy base types content type if derived type is empty, in derivation by extension(2)",
+                                'TEST :Syntax Checking for top level complexType Declaration : Copy base types content type if derived type is empty, in derivation by extension(2)',
                             ]
                         ),
                     ]
@@ -24126,13 +24126,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ012b.xsd"
+                        href='../msData/complexType/ctZ012b.xsd'
                     ),
                 ],
                 expected=[
@@ -24144,9 +24144,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ012b"
+                name='ctZ012b'
             ),
-            name="ctZ012b"
+            name='ctZ012b'
         ),
         TestGroup(
             annotation=[
@@ -24154,7 +24154,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : fixed value on mixed type element (1)",
+                                'TEST :Syntax Checking for top level complexType Declaration : fixed value on mixed type element (1)',
                             ]
                         ),
                     ]
@@ -24162,13 +24162,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ013.xsd"
+                        href='../msData/complexType/ctZ013.xsd'
                     ),
                 ],
                 expected=[
@@ -24180,12 +24180,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ013a"
+                name='ctZ013a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ013a.xml"
+                        href='../msData/complexType/ctZ013a.xml'
                     ),
                     expected=[
                         Expected(
@@ -24196,10 +24196,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ013a.v"
+                    name='ctZ013a.v'
                 ),
             ],
-            name="ctZ013a"
+            name='ctZ013a'
         ),
         TestGroup(
             annotation=[
@@ -24207,7 +24207,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : fixed value on mixed type element (2)",
+                                'TEST :Syntax Checking for top level complexType Declaration : fixed value on mixed type element (2)',
                             ]
                         ),
                     ]
@@ -24215,13 +24215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ013.xsd"
+                        href='../msData/complexType/ctZ013.xsd'
                     ),
                 ],
                 expected=[
@@ -24233,12 +24233,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ013b"
+                name='ctZ013b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ013b.xml"
+                        href='../msData/complexType/ctZ013b.xml'
                     ),
                     expected=[
                         Expected(
@@ -24249,10 +24249,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ013b.v"
+                    name='ctZ013b.v'
                 ),
             ],
-            name="ctZ013b"
+            name='ctZ013b'
         ),
         TestGroup(
             annotation=[
@@ -24260,7 +24260,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType&#10;Declaration : fixed value on mixed type element (3)",
+                                'TEST :Syntax Checking for top level complexType\nDeclaration : fixed value on mixed type element (3)',
                             ]
                         ),
                     ]
@@ -24268,13 +24268,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_ Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_ Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ013.xsd"
+                        href='../msData/complexType/ctZ013.xsd'
                     ),
                 ],
                 expected=[
@@ -24286,12 +24286,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ013c"
+                name='ctZ013c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ013c.xml"
+                        href='../msData/complexType/ctZ013c.xml'
                     ),
                     expected=[
                         Expected(
@@ -24302,10 +24302,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ013c.i"
+                    name='ctZ013c.i'
                 ),
             ],
-            name="ctZ013c"
+            name='ctZ013c'
         ),
         TestGroup(
             annotation=[
@@ -24313,7 +24313,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType&#10;Declaration : fixed value on mixed type element (4)",
+                                'TEST :Syntax Checking for top level complexType\nDeclaration : fixed value on mixed type element (4)',
                             ]
                         ),
                     ]
@@ -24321,13 +24321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_ Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_ Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ013.xsd"
+                        href='../msData/complexType/ctZ013.xsd'
                     ),
                 ],
                 expected=[
@@ -24339,12 +24339,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ013d"
+                name='ctZ013d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ013d.xml"
+                        href='../msData/complexType/ctZ013d.xml'
                     ),
                     expected=[
                         Expected(
@@ -24355,10 +24355,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ013d.i"
+                    name='ctZ013d.i'
                 ),
             ],
-            name="ctZ013d"
+            name='ctZ013d'
         ),
         TestGroup(
             annotation=[
@@ -24366,7 +24366,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for top level complexType Declaration : fixed value on mixed type element (5)",
+                                'TEST :Syntax Checking for top level complexType Declaration : fixed value on mixed type element (5)',
                             ]
                         ),
                     ]
@@ -24374,13 +24374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/complexType/ctZ013.xsd"
+                        href='../msData/complexType/ctZ013.xsd'
                     ),
                 ],
                 expected=[
@@ -24392,12 +24392,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ctZ013e"
+                name='ctZ013e'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/complexType/ctZ013e.xml"
+                        href='../msData/complexType/ctZ013e.xml'
                     ),
                     expected=[
                         Expected(
@@ -24408,15 +24408,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ctZ013e.i"
+                    name='ctZ013e.i'
                 ),
             ],
-            name="ctZ013e"
+            name='ctZ013e'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-ComplexType2006-07-15",
+    contributor='Microsoft',
+    name='MS-ComplexType2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

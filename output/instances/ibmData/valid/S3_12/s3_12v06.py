@@ -8,12 +8,12 @@ obj = Root(
         CtBase(
             child=[
                 ChildTypeBase(
-                    name="C1",
-                    dob="2007-10-10"
+                    name='C1',
+                    dob='2007-10-10'
                 ),
                 ChildTypeBase(
-                    name="C2",
-                    dob="2003-01-02"
+                    name='C2',
+                    dob='2003-01-02'
                 ),
             ],
             number_of_children=2
@@ -21,8 +21,8 @@ obj = Root(
         CtBase(
             child=[
                 ChildTypeBase(
-                    name="C1",
-                    dob="2000-01-01"
+                    name='C1',
+                    dob='2000-01-01'
                 ),
             ],
             number_of_children=7

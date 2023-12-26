@@ -6,35 +6,35 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Foo(
     a_b_c_d_e_target_namespace_local_element=[
         Bar(
-            value="foo bar"
+            value='foo bar'
         ),
         AnyElement(
-            qname="bar",
-            text="foo bar"
+            qname='bar',
+            text='foo bar'
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="{A}foo",
-            text=""
+            qname='{A}foo',
+            text=''
         ),
         AnyElement(
-            qname="{B}foo",
-            text=""
+            qname='{B}foo',
+            text=''
         ),
         AnyElement(
-            qname="{C}foo",
-            text=""
+            qname='{C}foo',
+            text=''
         ),
         AnyElement(
-            qname="{D}foo",
-            text=""
+            qname='{D}foo',
+            text=''
         ),
         AnyElement(
-            qname="{E}foo",
-            text=""
+            qname='{E}foo',
+            text=''
         ),
     ]
 )

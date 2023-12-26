@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA001.xsd"
+                        href='../msData/modelGroups/mgA001.xsd'
                     ),
                 ],
                 expected=[
@@ -50,12 +50,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA001"
+                name='mgA001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgA001.xml"
+                        href='../msData/modelGroups/mgA001.xml'
                     ),
                     expected=[
                         Expected(
@@ -66,10 +66,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgA001.v"
+                    name='mgA001.v'
                 ),
             ],
-            name="mgA001"
+            name='mgA001'
         ),
         TestGroup(
             annotation=[
@@ -85,13 +85,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA002.xsd"
+                        href='../msData/modelGroups/mgA002.xsd'
                     ),
                 ],
                 expected=[
@@ -103,9 +103,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA002"
+                name='mgA002'
             ),
-            name="mgA002"
+            name='mgA002'
         ),
         TestGroup(
             annotation=[
@@ -121,13 +121,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA003.xsd"
+                        href='../msData/modelGroups/mgA003.xsd'
                     ),
                 ],
                 expected=[
@@ -139,9 +139,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA003"
+                name='mgA003'
             ),
-            name="mgA003"
+            name='mgA003'
         ),
         TestGroup(
             annotation=[
@@ -157,13 +157,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA004.xsd"
+                        href='../msData/modelGroups/mgA004.xsd'
                     ),
                 ],
                 expected=[
@@ -175,9 +175,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA004"
+                name='mgA004'
             ),
-            name="mgA004"
+            name='mgA004'
         ),
         TestGroup(
             annotation=[
@@ -193,13 +193,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA005.xsd"
+                        href='../msData/modelGroups/mgA005.xsd'
                     ),
                 ],
                 expected=[
@@ -211,9 +211,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA005"
+                name='mgA005'
             ),
-            name="mgA005"
+            name='mgA005'
         ),
         TestGroup(
             annotation=[
@@ -229,13 +229,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA006.xsd"
+                        href='../msData/modelGroups/mgA006.xsd'
                     ),
                 ],
                 expected=[
@@ -247,9 +247,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA006"
+                name='mgA006'
             ),
-            name="mgA006"
+            name='mgA006'
         ),
         TestGroup(
             annotation=[
@@ -265,13 +265,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA007.xsd"
+                        href='../msData/modelGroups/mgA007.xsd'
                     ),
                 ],
                 expected=[
@@ -283,9 +283,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA007"
+                name='mgA007'
             ),
-            name="mgA007"
+            name='mgA007'
         ),
         TestGroup(
             annotation=[
@@ -301,13 +301,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA008.xsd"
+                        href='../msData/modelGroups/mgA008.xsd'
                     ),
                 ],
                 expected=[
@@ -319,9 +319,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA008"
+                name='mgA008'
             ),
-            name="mgA008"
+            name='mgA008'
         ),
         TestGroup(
             annotation=[
@@ -337,13 +337,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA009.xsd"
+                        href='../msData/modelGroups/mgA009.xsd'
                     ),
                 ],
                 expected=[
@@ -355,9 +355,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA009"
+                name='mgA009'
             ),
-            name="mgA009"
+            name='mgA009'
         ),
         TestGroup(
             annotation=[
@@ -373,13 +373,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA010.xsd"
+                        href='../msData/modelGroups/mgA010.xsd'
                     ),
                 ],
                 expected=[
@@ -391,9 +391,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA010"
+                name='mgA010'
             ),
-            name="mgA010"
+            name='mgA010'
         ),
         TestGroup(
             annotation=[
@@ -409,13 +409,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA011.xsd"
+                        href='../msData/modelGroups/mgA011.xsd'
                     ),
                 ],
                 expected=[
@@ -427,9 +427,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA011"
+                name='mgA011'
             ),
-            name="mgA011"
+            name='mgA011'
         ),
         TestGroup(
             annotation=[
@@ -445,13 +445,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA012.xsd"
+                        href='../msData/modelGroups/mgA012.xsd'
                     ),
                 ],
                 expected=[
@@ -463,9 +463,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA012"
+                name='mgA012'
             ),
-            name="mgA012"
+            name='mgA012'
         ),
         TestGroup(
             annotation=[
@@ -473,7 +473,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with name as attribute",
+                                'TEST :model groups (ALL) : all: with name as attribute',
                             ]
                         ),
                     ]
@@ -481,13 +481,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA013.xsd"
+                        href='../msData/modelGroups/mgA013.xsd'
                     ),
                 ],
                 expected=[
@@ -499,9 +499,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA013"
+                name='mgA013'
             ),
-            name="mgA013"
+            name='mgA013'
         ),
         TestGroup(
             annotation=[
@@ -509,7 +509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with parent complexType",
+                                'TEST :model groups (ALL) : all: with parent complexType',
                             ]
                         ),
                     ]
@@ -517,13 +517,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA014.xsd"
+                        href='../msData/modelGroups/mgA014.xsd'
                     ),
                 ],
                 expected=[
@@ -535,12 +535,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA014"
+                name='mgA014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgA014.xml"
+                        href='../msData/modelGroups/mgA014.xml'
                     ),
                     expected=[
                         Expected(
@@ -551,10 +551,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgA014.v"
+                    name='mgA014.v'
                 ),
             ],
-            name="mgA014"
+            name='mgA014'
         ),
         TestGroup(
             annotation=[
@@ -562,7 +562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with parent restriction",
+                                'TEST :model groups (ALL) : all: with parent restriction',
                             ]
                         ),
                     ]
@@ -570,13 +570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA015.xsd"
+                        href='../msData/modelGroups/mgA015.xsd'
                     ),
                 ],
                 expected=[
@@ -588,12 +588,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA015"
+                name='mgA015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgA015.xml"
+                        href='../msData/modelGroups/mgA015.xml'
                     ),
                     expected=[
                         Expected(
@@ -604,10 +604,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgA015.v"
+                    name='mgA015.v'
                 ),
             ],
-            name="mgA015"
+            name='mgA015'
         ),
         TestGroup(
             annotation=[
@@ -615,12 +615,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with parent extension",
+                                'TEST :model groups (ALL) : all: with parent extension',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Extending types with an xs:all content model becomes legal in XSD 1.1 - MHK",
+                                'Extending types with an xs:all content model becomes legal in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -628,16 +628,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA016.xsd"
+                        href='../msData/modelGroups/mgA016.xsd'
                     ),
                 ],
                 expected=[
@@ -658,9 +658,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA016"
+                name='mgA016'
             ),
-            name="mgA016"
+            name='mgA016'
         ),
         TestGroup(
             annotation=[
@@ -668,7 +668,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with parent group",
+                                'TEST :model groups (ALL) : all: with parent group',
                             ]
                         ),
                     ]
@@ -676,13 +676,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA017.xsd"
+                        href='../msData/modelGroups/mgA017.xsd'
                     ),
                 ],
                 expected=[
@@ -694,12 +694,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA017"
+                name='mgA017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgA017.xml"
+                        href='../msData/modelGroups/mgA017.xml'
                     ),
                     expected=[
                         Expected(
@@ -710,10 +710,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgA017.v"
+                    name='mgA017.v'
                 ),
             ],
-            name="mgA017"
+            name='mgA017'
         ),
         TestGroup(
             annotation=[
@@ -721,7 +721,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with parent choice",
+                                'TEST :model groups (ALL) : all: with parent choice',
                             ]
                         ),
                     ]
@@ -729,13 +729,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA018.xsd"
+                        href='../msData/modelGroups/mgA018.xsd'
                     ),
                 ],
                 expected=[
@@ -747,9 +747,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA018"
+                name='mgA018'
             ),
-            name="mgA018"
+            name='mgA018'
         ),
         TestGroup(
             annotation=[
@@ -757,7 +757,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with parent sequence",
+                                'TEST :model groups (ALL) : all: with parent sequence',
                             ]
                         ),
                     ]
@@ -765,13 +765,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA019.xsd"
+                        href='../msData/modelGroups/mgA019.xsd'
                     ),
                 ],
                 expected=[
@@ -783,9 +783,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA019"
+                name='mgA019'
             ),
-            name="mgA019"
+            name='mgA019'
         ),
         TestGroup(
             annotation=[
@@ -793,7 +793,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all can only be root",
+                                'TEST :model groups (ALL) : all can only be root',
                             ]
                         ),
                     ]
@@ -801,13 +801,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgA020.xsd"
+                        href='../msData/modelGroups/mgA020.xsd'
                     ),
                 ],
                 expected=[
@@ -819,9 +819,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgA020"
+                name='mgA020'
             ),
-            name="mgA020"
+            name='mgA020'
         ),
         TestGroup(
             annotation=[
@@ -829,7 +829,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = empty",
+                                'TEST :model groups (ALL) : all: minOccurs = empty',
                             ]
                         ),
                     ]
@@ -837,13 +837,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa001.xsd"
+                        href='../msData/modelGroups/mgAa001.xsd'
                     ),
                 ],
                 expected=[
@@ -855,9 +855,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa001"
+                name='mgAa001'
             ),
-            name="mgAa001"
+            name='mgAa001'
         ),
         TestGroup(
             annotation=[
@@ -865,7 +865,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = -1",
+                                'TEST :model groups (ALL) : all: minOccurs = -1',
                             ]
                         ),
                     ]
@@ -873,13 +873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa002.xsd"
+                        href='../msData/modelGroups/mgAa002.xsd'
                     ),
                 ],
                 expected=[
@@ -891,9 +891,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa002"
+                name='mgAa002'
             ),
-            name="mgAa002"
+            name='mgAa002'
         ),
         TestGroup(
             annotation=[
@@ -901,7 +901,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = 0",
+                                'TEST :model groups (ALL) : all: minOccurs = 0',
                             ]
                         ),
                     ]
@@ -909,13 +909,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa003.xsd"
+                        href='../msData/modelGroups/mgAa003.xsd'
                     ),
                 ],
                 expected=[
@@ -927,12 +927,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa003"
+                name='mgAa003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgAa003.xml"
+                        href='../msData/modelGroups/mgAa003.xml'
                     ),
                     expected=[
                         Expected(
@@ -943,10 +943,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgAa003.v"
+                    name='mgAa003.v'
                 ),
             ],
-            name="mgAa003"
+            name='mgAa003'
         ),
         TestGroup(
             annotation=[
@@ -954,7 +954,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = 2",
+                                'TEST :model groups (ALL) : all: minOccurs = 2',
                             ]
                         ),
                     ]
@@ -962,13 +962,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa004.xsd"
+                        href='../msData/modelGroups/mgAa004.xsd'
                     ),
                 ],
                 expected=[
@@ -980,9 +980,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa004"
+                name='mgAa004'
             ),
-            name="mgAa004"
+            name='mgAa004'
         ),
         TestGroup(
             annotation=[
@@ -990,7 +990,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = *",
+                                'TEST :model groups (ALL) : all: minOccurs = *',
                             ]
                         ),
                     ]
@@ -998,13 +998,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa005.xsd"
+                        href='../msData/modelGroups/mgAa005.xsd'
                     ),
                 ],
                 expected=[
@@ -1016,9 +1016,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa005"
+                name='mgAa005'
             ),
-            name="mgAa005"
+            name='mgAa005'
         ),
         TestGroup(
             annotation=[
@@ -1026,7 +1026,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = 9999999999",
+                                'TEST :model groups (ALL) : all: minOccurs = 9999999999',
                             ]
                         ),
                     ]
@@ -1034,13 +1034,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa006.xsd"
+                        href='../msData/modelGroups/mgAa006.xsd'
                     ),
                 ],
                 expected=[
@@ -1052,9 +1052,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa006"
+                name='mgAa006'
             ),
-            name="mgAa006"
+            name='mgAa006'
         ),
         TestGroup(
             annotation=[
@@ -1062,7 +1062,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = unbounded",
+                                'TEST :model groups (ALL) : all: minOccurs = unbounded',
                             ]
                         ),
                     ]
@@ -1070,13 +1070,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa007.xsd"
+                        href='../msData/modelGroups/mgAa007.xsd'
                     ),
                 ],
                 expected=[
@@ -1088,9 +1088,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa007"
+                name='mgAa007'
             ),
-            name="mgAa007"
+            name='mgAa007'
         ),
         TestGroup(
             annotation=[
@@ -1098,7 +1098,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = a",
+                                'TEST :model groups (ALL) : all: minOccurs = a',
                             ]
                         ),
                     ]
@@ -1106,13 +1106,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa008.xsd"
+                        href='../msData/modelGroups/mgAa008.xsd'
                     ),
                 ],
                 expected=[
@@ -1124,9 +1124,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa008"
+                name='mgAa008'
             ),
-            name="mgAa008"
+            name='mgAa008'
         ),
         TestGroup(
             annotation=[
@@ -1134,7 +1134,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs = ?",
+                                'TEST :model groups (ALL) : all: minOccurs = ?',
                             ]
                         ),
                     ]
@@ -1142,13 +1142,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAa009.xsd"
+                        href='../msData/modelGroups/mgAa009.xsd'
                     ),
                 ],
                 expected=[
@@ -1160,9 +1160,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAa009"
+                name='mgAa009'
             ),
-            name="mgAa009"
+            name='mgAa009'
         ),
         TestGroup(
             annotation=[
@@ -1170,7 +1170,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = empty",
+                                'TEST :model groups (ALL) : all: maxOccurs = empty',
                             ]
                         ),
                     ]
@@ -1178,13 +1178,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb001.xsd"
+                        href='../msData/modelGroups/mgAb001.xsd'
                     ),
                 ],
                 expected=[
@@ -1196,9 +1196,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb001"
+                name='mgAb001'
             ),
-            name="mgAb001"
+            name='mgAb001'
         ),
         TestGroup(
             annotation=[
@@ -1206,7 +1206,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = -1",
+                                'TEST :model groups (ALL) : all: maxOccurs = -1',
                             ]
                         ),
                     ]
@@ -1214,13 +1214,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb002.xsd"
+                        href='../msData/modelGroups/mgAb002.xsd'
                     ),
                 ],
                 expected=[
@@ -1232,9 +1232,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb002"
+                name='mgAb002'
             ),
-            name="mgAb002"
+            name='mgAb002'
         ),
         TestGroup(
             annotation=[
@@ -1242,7 +1242,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = 0",
+                                'TEST :model groups (ALL) : all: maxOccurs = 0',
                             ]
                         ),
                     ]
@@ -1250,13 +1250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb003.xsd"
+                        href='../msData/modelGroups/mgAb003.xsd'
                     ),
                 ],
                 expected=[
@@ -1268,9 +1268,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb003"
+                name='mgAb003'
             ),
-            name="mgAb003"
+            name='mgAb003'
         ),
         TestGroup(
             annotation=[
@@ -1278,7 +1278,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = 2",
+                                'TEST :model groups (ALL) : all: maxOccurs = 2',
                             ]
                         ),
                     ]
@@ -1286,13 +1286,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb004.xsd"
+                        href='../msData/modelGroups/mgAb004.xsd'
                     ),
                 ],
                 expected=[
@@ -1304,9 +1304,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb004"
+                name='mgAb004'
             ),
-            name="mgAb004"
+            name='mgAb004'
         ),
         TestGroup(
             annotation=[
@@ -1314,7 +1314,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = *",
+                                'TEST :model groups (ALL) : all: maxOccurs = *',
                             ]
                         ),
                     ]
@@ -1322,13 +1322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb005.xsd"
+                        href='../msData/modelGroups/mgAb005.xsd'
                     ),
                 ],
                 expected=[
@@ -1340,9 +1340,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb005"
+                name='mgAb005'
             ),
-            name="mgAb005"
+            name='mgAb005'
         ),
         TestGroup(
             annotation=[
@@ -1350,7 +1350,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = 9999999999",
+                                'TEST :model groups (ALL) : all: maxOccurs = 9999999999',
                             ]
                         ),
                     ]
@@ -1358,13 +1358,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb006.xsd"
+                        href='../msData/modelGroups/mgAb006.xsd'
                     ),
                 ],
                 expected=[
@@ -1376,9 +1376,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb006"
+                name='mgAb006'
             ),
-            name="mgAb006"
+            name='mgAb006'
         ),
         TestGroup(
             annotation=[
@@ -1386,7 +1386,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = unbounded",
+                                'TEST :model groups (ALL) : all: maxOccurs = unbounded',
                             ]
                         ),
                     ]
@@ -1394,13 +1394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb007.xsd"
+                        href='../msData/modelGroups/mgAb007.xsd'
                     ),
                 ],
                 expected=[
@@ -1412,9 +1412,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb007"
+                name='mgAb007'
             ),
-            name="mgAb007"
+            name='mgAb007'
         ),
         TestGroup(
             annotation=[
@@ -1422,7 +1422,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = a",
+                                'TEST :model groups (ALL) : all: maxOccurs = a',
                             ]
                         ),
                     ]
@@ -1430,13 +1430,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb008.xsd"
+                        href='../msData/modelGroups/mgAb008.xsd'
                     ),
                 ],
                 expected=[
@@ -1448,9 +1448,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb008"
+                name='mgAb008'
             ),
-            name="mgAb008"
+            name='mgAb008'
         ),
         TestGroup(
             annotation=[
@@ -1458,7 +1458,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: maxOccurs = ?",
+                                'TEST :model groups (ALL) : all: maxOccurs = ?',
                             ]
                         ),
                     ]
@@ -1466,13 +1466,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgAb009.xsd"
+                        href='../msData/modelGroups/mgAb009.xsd'
                     ),
                 ],
                 expected=[
@@ -1484,9 +1484,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgAb009"
+                name='mgAb009'
             ),
-            name="mgAb009"
+            name='mgAb009'
         ),
         TestGroup(
             annotation=[
@@ -1494,7 +1494,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with no child node",
+                                'TEST :model groups (ALL) : all: with no child node',
                             ]
                         ),
                     ]
@@ -1502,13 +1502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB001.xsd"
+                        href='../msData/modelGroups/mgB001.xsd'
                     ),
                 ],
                 expected=[
@@ -1520,12 +1520,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB001"
+                name='mgB001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgB001.xml"
+                        href='../msData/modelGroups/mgB001.xml'
                     ),
                     expected=[
                         Expected(
@@ -1536,10 +1536,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgB001.v"
+                    name='mgB001.v'
                 ),
             ],
-            name="mgB001"
+            name='mgB001'
         ),
         TestGroup(
             annotation=[
@@ -1547,7 +1547,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with one annotation only",
+                                'TEST :model groups (ALL) : all: with one annotation only',
                             ]
                         ),
                     ]
@@ -1555,13 +1555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB002.xsd"
+                        href='../msData/modelGroups/mgB002.xsd'
                     ),
                 ],
                 expected=[
@@ -1573,12 +1573,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB002"
+                name='mgB002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgB002.xml"
+                        href='../msData/modelGroups/mgB002.xml'
                     ),
                     expected=[
                         Expected(
@@ -1589,10 +1589,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgB002.v"
+                    name='mgB002.v'
                 ),
             ],
-            name="mgB002"
+            name='mgB002'
         ),
         TestGroup(
             annotation=[
@@ -1600,7 +1600,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with two annotation",
+                                'TEST :model groups (ALL) : all: with two annotation',
                             ]
                         ),
                     ]
@@ -1608,13 +1608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB003.xsd"
+                        href='../msData/modelGroups/mgB003.xsd'
                     ),
                 ],
                 expected=[
@@ -1626,9 +1626,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB003"
+                name='mgB003'
             ),
-            name="mgB003"
+            name='mgB003'
         ),
         TestGroup(
             annotation=[
@@ -1636,7 +1636,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with annotation follow by 1 element",
+                                'TEST :model groups (ALL) : all: with annotation follow by 1 element',
                             ]
                         ),
                     ]
@@ -1644,13 +1644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB004.xsd"
+                        href='../msData/modelGroups/mgB004.xsd'
                     ),
                 ],
                 expected=[
@@ -1662,12 +1662,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB004"
+                name='mgB004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgB004.xml"
+                        href='../msData/modelGroups/mgB004.xml'
                     ),
                     expected=[
                         Expected(
@@ -1678,10 +1678,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgB004.v"
+                    name='mgB004.v'
                 ),
             ],
-            name="mgB004"
+            name='mgB004'
         ),
         TestGroup(
             annotation=[
@@ -1689,7 +1689,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with one element only",
+                                'TEST :model groups (ALL) : all: with one element only',
                             ]
                         ),
                     ]
@@ -1697,13 +1697,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB006.xsd"
+                        href='../msData/modelGroups/mgB006.xsd'
                     ),
                 ],
                 expected=[
@@ -1715,12 +1715,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB006"
+                name='mgB006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgB006.xml"
+                        href='../msData/modelGroups/mgB006.xml'
                     ),
                     expected=[
                         Expected(
@@ -1731,10 +1731,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgB006.v"
+                    name='mgB006.v'
                 ),
             ],
-            name="mgB006"
+            name='mgB006'
         ),
         TestGroup(
             annotation=[
@@ -1742,7 +1742,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with element follow by annotation",
+                                'TEST :model groups (ALL) : all: with element follow by annotation',
                             ]
                         ),
                     ]
@@ -1750,13 +1750,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB007.xsd"
+                        href='../msData/modelGroups/mgB007.xsd'
                     ),
                 ],
                 expected=[
@@ -1768,9 +1768,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB007"
+                name='mgB007'
             ),
-            name="mgB007"
+            name='mgB007'
         ),
         TestGroup(
             annotation=[
@@ -1778,7 +1778,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with childNode other than annotation or element, child node is simpletype",
+                                'TEST :model groups (ALL) : all: with childNode other than annotation or element, child node is simpletype',
                             ]
                         ),
                     ]
@@ -1786,13 +1786,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB008.xsd"
+                        href='../msData/modelGroups/mgB008.xsd'
                     ),
                 ],
                 expected=[
@@ -1804,9 +1804,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB008"
+                name='mgB008'
             ),
-            name="mgB008"
+            name='mgB008'
         ),
         TestGroup(
             annotation=[
@@ -1814,7 +1814,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with childNode other than annotation or element, child node is group",
+                                'TEST :model groups (ALL) : all: with childNode other than annotation or element, child node is group',
                             ]
                         ),
                     ]
@@ -1822,13 +1822,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB009.xsd"
+                        href='../msData/modelGroups/mgB009.xsd'
                     ),
                 ],
                 expected=[
@@ -1840,9 +1840,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB009"
+                name='mgB009'
             ),
-            name="mgB009"
+            name='mgB009'
         ),
         TestGroup(
             annotation=[
@@ -1850,7 +1850,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with childNode other than annotation or element, child node is complexType",
+                                'TEST :model groups (ALL) : all: with childNode other than annotation or element, child node is complexType',
                             ]
                         ),
                     ]
@@ -1858,13 +1858,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgB010.xsd"
+                        href='../msData/modelGroups/mgB010.xsd'
                     ),
                 ],
                 expected=[
@@ -1876,9 +1876,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgB010"
+                name='mgB010'
             ),
-            name="mgB010"
+            name='mgB010'
         ),
         TestGroup(
             annotation=[
@@ -1886,7 +1886,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -1894,13 +1894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC001.xsd"
+                        href='../msData/modelGroups/mgC001.xsd'
                     ),
                 ],
                 expected=[
@@ -1912,12 +1912,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC001"
+                name='mgC001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC001.xml"
+                        href='../msData/modelGroups/mgC001.xml'
                     ),
                     expected=[
                         Expected(
@@ -1928,10 +1928,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC001.i"
+                    name='mgC001.i'
                 ),
             ],
-            name="mgC001"
+            name='mgC001'
         ),
         TestGroup(
             annotation=[
@@ -1939,7 +1939,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -1947,13 +1947,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC002.xsd"
+                        href='../msData/modelGroups/mgC002.xsd'
                     ),
                 ],
                 expected=[
@@ -1965,12 +1965,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC002"
+                name='mgC002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC002.xml"
+                        href='../msData/modelGroups/mgC002.xml'
                     ),
                     expected=[
                         Expected(
@@ -1981,10 +1981,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC002.v"
+                    name='mgC002.v'
                 ),
             ],
-            name="mgC002"
+            name='mgC002'
         ),
         TestGroup(
             annotation=[
@@ -1992,7 +1992,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2000,13 +2000,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC003.xsd"
+                        href='../msData/modelGroups/mgC003.xsd'
                     ),
                 ],
                 expected=[
@@ -2018,12 +2018,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC003"
+                name='mgC003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC003.xml"
+                        href='../msData/modelGroups/mgC003.xml'
                     ),
                     expected=[
                         Expected(
@@ -2034,10 +2034,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC003.i"
+                    name='mgC003.i'
                 ),
             ],
-            name="mgC003"
+            name='mgC003'
         ),
         TestGroup(
             annotation=[
@@ -2045,7 +2045,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max occurs can only have 1 as value, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max occurs can only have 1 as value, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2053,13 +2053,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC004.xsd"
+                        href='../msData/modelGroups/mgC004.xsd'
                     ),
                 ],
                 expected=[
@@ -2071,12 +2071,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC004"
+                name='mgC004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC004.xml"
+                        href='../msData/modelGroups/mgC004.xml'
                     ),
                     expected=[
                         Expected(
@@ -2087,10 +2087,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC004.v"
+                    name='mgC004.v'
                 ),
             ],
-            name="mgC004"
+            name='mgC004'
         ),
         TestGroup(
             annotation=[
@@ -2098,7 +2098,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2106,13 +2106,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC005.xsd"
+                        href='../msData/modelGroups/mgC005.xsd'
                     ),
                 ],
                 expected=[
@@ -2124,12 +2124,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC005"
+                name='mgC005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC005.xml"
+                        href='../msData/modelGroups/mgC005.xml'
                     ),
                     expected=[
                         Expected(
@@ -2140,10 +2140,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC005.i"
+                    name='mgC005.i'
                 ),
             ],
-            name="mgC005"
+            name='mgC005'
         ),
         TestGroup(
             annotation=[
@@ -2151,7 +2151,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2159,13 +2159,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC006.xsd"
+                        href='../msData/modelGroups/mgC006.xsd'
                     ),
                 ],
                 expected=[
@@ -2177,12 +2177,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC006"
+                name='mgC006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC006.xml"
+                        href='../msData/modelGroups/mgC006.xml'
                     ),
                     expected=[
                         Expected(
@@ -2193,10 +2193,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC006.v"
+                    name='mgC006.v'
                 ),
             ],
-            name="mgC006"
+            name='mgC006'
         ),
         TestGroup(
             annotation=[
@@ -2204,7 +2204,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2212,13 +2212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC007.xsd"
+                        href='../msData/modelGroups/mgC007.xsd'
                     ),
                 ],
                 expected=[
@@ -2230,12 +2230,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC007"
+                name='mgC007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC007.xml"
+                        href='../msData/modelGroups/mgC007.xml'
                     ),
                     expected=[
                         Expected(
@@ -2246,10 +2246,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC007.i"
+                    name='mgC007.i'
                 ),
             ],
-            name="mgC007"
+            name='mgC007'
         ),
         TestGroup(
             annotation=[
@@ -2257,7 +2257,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max occurs can only have 1 as value, minOccurs=2, maxOccurs=absent",
+                                'TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max occurs can only have 1 as value, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2265,13 +2265,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC008.xsd"
+                        href='../msData/modelGroups/mgC008.xsd'
                     ),
                 ],
                 expected=[
@@ -2283,9 +2283,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC008"
+                name='mgC008'
             ),
-            name="mgC008"
+            name='mgC008'
         ),
         TestGroup(
             annotation=[
@@ -2293,7 +2293,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max occurs can only have 1 as value, minOccurs=absent, maxOccurs=0",
+                                'TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max occurs can only have 1 as value, minOccurs=absent, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -2301,13 +2301,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC009.xsd"
+                        href='../msData/modelGroups/mgC009.xsd'
                     ),
                 ],
                 expected=[
@@ -2319,9 +2319,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC009"
+                name='mgC009'
             ),
-            name="mgC009"
+            name='mgC009'
         ),
         TestGroup(
             annotation=[
@@ -2329,7 +2329,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: elements in instant XML=0, minOccurs=absent, maxOccurs=1",
+                                'TEST :model groups (ALL) : all: elements in instant XML=0, minOccurs=absent, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2337,13 +2337,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC010.xsd"
+                        href='../msData/modelGroups/mgC010.xsd'
                     ),
                 ],
                 expected=[
@@ -2355,12 +2355,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC010"
+                name='mgC010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC010.xml"
+                        href='../msData/modelGroups/mgC010.xml'
                     ),
                     expected=[
                         Expected(
@@ -2371,10 +2371,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC010.i"
+                    name='mgC010.i'
                 ),
             ],
-            name="mgC010"
+            name='mgC010'
         ),
         TestGroup(
             annotation=[
@@ -2382,7 +2382,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: elements in instant XML=1, minOccurs=absent, maxOccurs=1",
+                                'TEST :model groups (ALL) : all: elements in instant XML=1, minOccurs=absent, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2390,13 +2390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC011.xsd"
+                        href='../msData/modelGroups/mgC011.xsd'
                     ),
                 ],
                 expected=[
@@ -2408,12 +2408,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC011"
+                name='mgC011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC011.xml"
+                        href='../msData/modelGroups/mgC011.xml'
                     ),
                     expected=[
                         Expected(
@@ -2424,10 +2424,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC011.v"
+                    name='mgC011.v'
                 ),
             ],
-            name="mgC011"
+            name='mgC011'
         ),
         TestGroup(
             annotation=[
@@ -2435,7 +2435,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: elements in instant XML=2, minOccurs=absent, maxOccurs=1",
+                                'TEST :model groups (ALL) : all: elements in instant XML=2, minOccurs=absent, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2443,13 +2443,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC012.xsd"
+                        href='../msData/modelGroups/mgC012.xsd'
                     ),
                 ],
                 expected=[
@@ -2461,12 +2461,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC012"
+                name='mgC012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC012.xml"
+                        href='../msData/modelGroups/mgC012.xml'
                     ),
                     expected=[
                         Expected(
@@ -2477,10 +2477,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC012.i"
+                    name='mgC012.i'
                 ),
             ],
-            name="mgC012"
+            name='mgC012'
         ),
         TestGroup(
             annotation=[
@@ -2488,7 +2488,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : , minOccurs=absent, maxOccurs=2",
+                                'TEST :model groups (ALL) : , minOccurs=absent, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -2496,13 +2496,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC013.xsd"
+                        href='../msData/modelGroups/mgC013.xsd'
                     ),
                 ],
                 expected=[
@@ -2514,9 +2514,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC013"
+                name='mgC013'
             ),
-            name="mgC013"
+            name='mgC013'
         ),
         TestGroup(
             annotation=[
@@ -2524,7 +2524,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all with default minOccurs and maxOccurs with optional element children",
+                                'TEST :model groups (ALL) : all with default minOccurs and maxOccurs with optional element children',
                             ]
                         ),
                     ]
@@ -2532,13 +2532,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgC014.xsd"
+                        href='../msData/modelGroups/mgC014.xsd'
                     ),
                 ],
                 expected=[
@@ -2550,12 +2550,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgC014"
+                name='mgC014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgC014.xml"
+                        href='../msData/modelGroups/mgC014.xml'
                     ),
                     expected=[
                         Expected(
@@ -2566,10 +2566,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgC014.v"
+                    name='mgC014.v'
                 ),
             ],
-            name="mgC014"
+            name='mgC014'
         ),
         TestGroup(
             annotation=[
@@ -2577,7 +2577,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with any attribute with no schema namespace",
+                                'TEST :model groups (ALL) : all: with any attribute with no schema namespace',
                             ]
                         ),
                     ]
@@ -2585,13 +2585,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgD001.xsd"
+                        href='../msData/modelGroups/mgD001.xsd'
                     ),
                 ],
                 expected=[
@@ -2603,12 +2603,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgD001"
+                name='mgD001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgD001.xml"
+                        href='../msData/modelGroups/mgD001.xml'
                     ),
                     expected=[
                         Expected(
@@ -2619,10 +2619,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgD001.v"
+                    name='mgD001.v'
                 ),
             ],
-            name="mgD001"
+            name='mgD001'
         ),
         TestGroup(
             annotation=[
@@ -2630,7 +2630,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with any attribute with no schema namespace",
+                                'TEST :model groups (ALL) : sequence: with any attribute with no schema namespace',
                             ]
                         ),
                     ]
@@ -2638,13 +2638,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgD005.xsd"
+                        href='../msData/modelGroups/mgD005.xsd'
                     ),
                 ],
                 expected=[
@@ -2656,12 +2656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgD005"
+                name='mgD005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgD005.xml"
+                        href='../msData/modelGroups/mgD005.xml'
                     ),
                     expected=[
                         Expected(
@@ -2672,10 +2672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgD005.v"
+                    name='mgD005.v'
                 ),
             ],
-            name="mgD005"
+            name='mgD005'
         ),
         TestGroup(
             annotation=[
@@ -2683,7 +2683,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with any attribute with no schema namespace",
+                                'TEST :model groups (ALL) : choice: with any attribute with no schema namespace',
                             ]
                         ),
                     ]
@@ -2691,13 +2691,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgD009.xsd"
+                        href='../msData/modelGroups/mgD009.xsd'
                     ),
                 ],
                 expected=[
@@ -2709,12 +2709,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgD009"
+                name='mgD009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgD009.xml"
+                        href='../msData/modelGroups/mgD009.xml'
                     ),
                     expected=[
                         Expected(
@@ -2725,10 +2725,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgD009.v"
+                    name='mgD009.v'
                 ),
             ],
-            name="mgD009"
+            name='mgD009'
         ),
         TestGroup(
             annotation=[
@@ -2736,7 +2736,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : test using of minOccurs=0 and allowing elements to not exists",
+                                'TEST :model groups (ALL) : test using of minOccurs=0 and allowing elements to not exists',
                             ]
                         ),
                     ]
@@ -2744,13 +2744,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgD013.xsd"
+                        href='../msData/modelGroups/mgD013.xsd'
                     ),
                 ],
                 expected=[
@@ -2762,12 +2762,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgD013"
+                name='mgD013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgD013.xml"
+                        href='../msData/modelGroups/mgD013.xml'
                     ),
                     expected=[
                         Expected(
@@ -2778,10 +2778,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgD013.v"
+                    name='mgD013.v'
                 ),
             ],
-            name="mgD013"
+            name='mgD013'
         ),
         TestGroup(
             annotation=[
@@ -2797,13 +2797,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE001.xsd"
+                        href='../msData/modelGroups/mgE001.xsd'
                     ),
                 ],
                 expected=[
@@ -2815,12 +2815,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE001"
+                name='mgE001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE001.xml"
+                        href='../msData/modelGroups/mgE001.xml'
                     ),
                     expected=[
                         Expected(
@@ -2831,10 +2831,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE001.v"
+                    name='mgE001.v'
                 ),
             ],
-            name="mgE001"
+            name='mgE001'
         ),
         TestGroup(
             annotation=[
@@ -2850,13 +2850,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE002.xsd"
+                        href='../msData/modelGroups/mgE002.xsd'
                     ),
                 ],
                 expected=[
@@ -2868,9 +2868,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE002"
+                name='mgE002'
             ),
-            name="mgE002"
+            name='mgE002'
         ),
         TestGroup(
             annotation=[
@@ -2886,13 +2886,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE003.xsd"
+                        href='../msData/modelGroups/mgE003.xsd'
                     ),
                 ],
                 expected=[
@@ -2904,9 +2904,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE003"
+                name='mgE003'
             ),
-            name="mgE003"
+            name='mgE003'
         ),
         TestGroup(
             annotation=[
@@ -2922,13 +2922,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE004.xsd"
+                        href='../msData/modelGroups/mgE004.xsd'
                     ),
                 ],
                 expected=[
@@ -2940,9 +2940,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE004"
+                name='mgE004'
             ),
-            name="mgE004"
+            name='mgE004'
         ),
         TestGroup(
             annotation=[
@@ -2958,13 +2958,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE005.xsd"
+                        href='../msData/modelGroups/mgE005.xsd'
                     ),
                 ],
                 expected=[
@@ -2976,9 +2976,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE005"
+                name='mgE005'
             ),
-            name="mgE005"
+            name='mgE005'
         ),
         TestGroup(
             annotation=[
@@ -2994,13 +2994,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE006.xsd"
+                        href='../msData/modelGroups/mgE006.xsd'
                     ),
                 ],
                 expected=[
@@ -3012,9 +3012,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE006"
+                name='mgE006'
             ),
-            name="mgE006"
+            name='mgE006'
         ),
         TestGroup(
             annotation=[
@@ -3030,13 +3030,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE007.xsd"
+                        href='../msData/modelGroups/mgE007.xsd'
                     ),
                 ],
                 expected=[
@@ -3048,9 +3048,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE007"
+                name='mgE007'
             ),
-            name="mgE007"
+            name='mgE007'
         ),
         TestGroup(
             annotation=[
@@ -3066,13 +3066,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE008.xsd"
+                        href='../msData/modelGroups/mgE008.xsd'
                     ),
                 ],
                 expected=[
@@ -3084,9 +3084,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE008"
+                name='mgE008'
             ),
-            name="mgE008"
+            name='mgE008'
         ),
         TestGroup(
             annotation=[
@@ -3102,13 +3102,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE009.xsd"
+                        href='../msData/modelGroups/mgE009.xsd'
                     ),
                 ],
                 expected=[
@@ -3120,9 +3120,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE009"
+                name='mgE009'
             ),
-            name="mgE009"
+            name='mgE009'
         ),
         TestGroup(
             annotation=[
@@ -3138,13 +3138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE010.xsd"
+                        href='../msData/modelGroups/mgE010.xsd'
                     ),
                 ],
                 expected=[
@@ -3156,9 +3156,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE010"
+                name='mgE010'
             ),
-            name="mgE010"
+            name='mgE010'
         ),
         TestGroup(
             annotation=[
@@ -3174,13 +3174,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE011.xsd"
+                        href='../msData/modelGroups/mgE011.xsd'
                     ),
                 ],
                 expected=[
@@ -3192,9 +3192,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE011"
+                name='mgE011'
             ),
-            name="mgE011"
+            name='mgE011'
         ),
         TestGroup(
             annotation=[
@@ -3210,13 +3210,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE012.xsd"
+                        href='../msData/modelGroups/mgE012.xsd'
                     ),
                 ],
                 expected=[
@@ -3228,9 +3228,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE012"
+                name='mgE012'
             ),
-            name="mgE012"
+            name='mgE012'
         ),
         TestGroup(
             annotation=[
@@ -3238,7 +3238,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with parent complexType",
+                                'TEST :model groups (ALL) : sequence: with parent complexType',
                             ]
                         ),
                     ]
@@ -3246,13 +3246,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE013.xsd"
+                        href='../msData/modelGroups/mgE013.xsd'
                     ),
                 ],
                 expected=[
@@ -3264,12 +3264,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE013"
+                name='mgE013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE013.xml"
+                        href='../msData/modelGroups/mgE013.xml'
                     ),
                     expected=[
                         Expected(
@@ -3280,10 +3280,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE013.v"
+                    name='mgE013.v'
                 ),
             ],
-            name="mgE013"
+            name='mgE013'
         ),
         TestGroup(
             annotation=[
@@ -3291,7 +3291,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with parent restriction",
+                                'TEST :model groups (ALL) : sequence: with parent restriction',
                             ]
                         ),
                     ]
@@ -3299,13 +3299,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE014.xsd"
+                        href='../msData/modelGroups/mgE014.xsd'
                     ),
                 ],
                 expected=[
@@ -3317,12 +3317,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE014"
+                name='mgE014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE014.xml"
+                        href='../msData/modelGroups/mgE014.xml'
                     ),
                     expected=[
                         Expected(
@@ -3333,10 +3333,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE014.v"
+                    name='mgE014.v'
                 ),
             ],
-            name="mgE014"
+            name='mgE014'
         ),
         TestGroup(
             annotation=[
@@ -3344,7 +3344,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with parent extension",
+                                'TEST :model groups (ALL) : sequence: with parent extension',
                             ]
                         ),
                     ]
@@ -3352,13 +3352,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE015.xsd"
+                        href='../msData/modelGroups/mgE015.xsd'
                     ),
                 ],
                 expected=[
@@ -3370,12 +3370,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE015"
+                name='mgE015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE015.xml"
+                        href='../msData/modelGroups/mgE015.xml'
                     ),
                     expected=[
                         Expected(
@@ -3386,10 +3386,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE015.v"
+                    name='mgE015.v'
                 ),
             ],
-            name="mgE015"
+            name='mgE015'
         ),
         TestGroup(
             annotation=[
@@ -3397,7 +3397,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with parent group",
+                                'TEST :model groups (ALL) : sequence: with parent group',
                             ]
                         ),
                     ]
@@ -3405,13 +3405,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE016.xsd"
+                        href='../msData/modelGroups/mgE016.xsd'
                     ),
                 ],
                 expected=[
@@ -3423,12 +3423,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE016"
+                name='mgE016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE016.xml"
+                        href='../msData/modelGroups/mgE016.xml'
                     ),
                     expected=[
                         Expected(
@@ -3439,10 +3439,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE016.v"
+                    name='mgE016.v'
                 ),
             ],
-            name="mgE016"
+            name='mgE016'
         ),
         TestGroup(
             annotation=[
@@ -3450,7 +3450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with parent choice",
+                                'TEST :model groups (ALL) : sequence: with parent choice',
                             ]
                         ),
                     ]
@@ -3458,13 +3458,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE017.xsd"
+                        href='../msData/modelGroups/mgE017.xsd'
                     ),
                 ],
                 expected=[
@@ -3476,12 +3476,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE017"
+                name='mgE017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE017.xml"
+                        href='../msData/modelGroups/mgE017.xml'
                     ),
                     expected=[
                         Expected(
@@ -3492,10 +3492,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE017.v"
+                    name='mgE017.v'
                 ),
             ],
-            name="mgE017"
+            name='mgE017'
         ),
         TestGroup(
             annotation=[
@@ -3503,7 +3503,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with parent sequence",
+                                'TEST :model groups (ALL) : sequence: with parent sequence',
                             ]
                         ),
                     ]
@@ -3511,13 +3511,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgE018.xsd"
+                        href='../msData/modelGroups/mgE018.xsd'
                     ),
                 ],
                 expected=[
@@ -3529,12 +3529,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgE018"
+                name='mgE018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgE018.xml"
+                        href='../msData/modelGroups/mgE018.xml'
                     ),
                     expected=[
                         Expected(
@@ -3545,10 +3545,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgE018.v"
+                    name='mgE018.v'
                 ),
             ],
-            name="mgE018"
+            name='mgE018'
         ),
         TestGroup(
             annotation=[
@@ -3556,7 +3556,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = empty",
+                                'TEST :model groups (ALL) : sequence: minOccurs = empty',
                             ]
                         ),
                     ]
@@ -3564,13 +3564,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa001.xsd"
+                        href='../msData/modelGroups/mgEa001.xsd'
                     ),
                 ],
                 expected=[
@@ -3582,9 +3582,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa001"
+                name='mgEa001'
             ),
-            name="mgEa001"
+            name='mgEa001'
         ),
         TestGroup(
             annotation=[
@@ -3592,7 +3592,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = -1",
+                                'TEST :model groups (ALL) : sequence: minOccurs = -1',
                             ]
                         ),
                     ]
@@ -3600,13 +3600,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa002.xsd"
+                        href='../msData/modelGroups/mgEa002.xsd'
                     ),
                 ],
                 expected=[
@@ -3618,9 +3618,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa002"
+                name='mgEa002'
             ),
-            name="mgEa002"
+            name='mgEa002'
         ),
         TestGroup(
             annotation=[
@@ -3628,7 +3628,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = *",
+                                'TEST :model groups (ALL) : sequence: minOccurs = *',
                             ]
                         ),
                     ]
@@ -3636,13 +3636,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa003.xsd"
+                        href='../msData/modelGroups/mgEa003.xsd'
                     ),
                 ],
                 expected=[
@@ -3654,9 +3654,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa003"
+                name='mgEa003'
             ),
-            name="mgEa003"
+            name='mgEa003'
         ),
         TestGroup(
             annotation=[
@@ -3664,7 +3664,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = unbounded",
+                                'TEST :model groups (ALL) : sequence: minOccurs = unbounded',
                             ]
                         ),
                     ]
@@ -3672,13 +3672,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa004.xsd"
+                        href='../msData/modelGroups/mgEa004.xsd'
                     ),
                 ],
                 expected=[
@@ -3690,9 +3690,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa004"
+                name='mgEa004'
             ),
-            name="mgEa004"
+            name='mgEa004'
         ),
         TestGroup(
             annotation=[
@@ -3700,7 +3700,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = 9999999999",
+                                'TEST :model groups (ALL) : sequence: minOccurs = 9999999999',
                             ]
                         ),
                     ]
@@ -3708,13 +3708,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa005.xsd"
+                        href='../msData/modelGroups/mgEa005.xsd'
                     ),
                 ],
                 expected=[
@@ -3726,9 +3726,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa005"
+                name='mgEa005'
             ),
-            name="mgEa005"
+            name='mgEa005'
         ),
         TestGroup(
             annotation=[
@@ -3736,7 +3736,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = a",
+                                'TEST :model groups (ALL) : sequence: minOccurs = a',
                             ]
                         ),
                     ]
@@ -3744,13 +3744,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa006.xsd"
+                        href='../msData/modelGroups/mgEa006.xsd'
                     ),
                 ],
                 expected=[
@@ -3762,9 +3762,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa006"
+                name='mgEa006'
             ),
-            name="mgEa006"
+            name='mgEa006'
         ),
         TestGroup(
             annotation=[
@@ -3772,7 +3772,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = ?",
+                                'TEST :model groups (ALL) : sequence: minOccurs = ?',
                             ]
                         ),
                     ]
@@ -3780,13 +3780,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa007.xsd"
+                        href='../msData/modelGroups/mgEa007.xsd'
                     ),
                 ],
                 expected=[
@@ -3798,9 +3798,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa007"
+                name='mgEa007'
             ),
-            name="mgEa007"
+            name='mgEa007'
         ),
         TestGroup(
             annotation=[
@@ -3808,7 +3808,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs = &amp;",
+                                'TEST :model groups (ALL) : sequence: minOccurs = &',
                             ]
                         ),
                     ]
@@ -3816,13 +3816,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEa008.xsd"
+                        href='../msData/modelGroups/mgEa008.xsd'
                     ),
                 ],
                 expected=[
@@ -3834,9 +3834,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEa008"
+                name='mgEa008'
             ),
-            name="mgEa008"
+            name='mgEa008'
         ),
         TestGroup(
             annotation=[
@@ -3844,7 +3844,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = empty",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = empty',
                             ]
                         ),
                     ]
@@ -3852,13 +3852,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb001.xsd"
+                        href='../msData/modelGroups/mgEb001.xsd'
                     ),
                 ],
                 expected=[
@@ -3870,9 +3870,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb001"
+                name='mgEb001'
             ),
-            name="mgEb001"
+            name='mgEb001'
         ),
         TestGroup(
             annotation=[
@@ -3880,7 +3880,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = -1",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = -1',
                             ]
                         ),
                     ]
@@ -3888,13 +3888,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb002.xsd"
+                        href='../msData/modelGroups/mgEb002.xsd'
                     ),
                 ],
                 expected=[
@@ -3906,9 +3906,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb002"
+                name='mgEb002'
             ),
-            name="mgEb002"
+            name='mgEb002'
         ),
         TestGroup(
             annotation=[
@@ -3916,7 +3916,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = *",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = *',
                             ]
                         ),
                     ]
@@ -3924,13 +3924,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb003.xsd"
+                        href='../msData/modelGroups/mgEb003.xsd'
                     ),
                 ],
                 expected=[
@@ -3942,9 +3942,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb003"
+                name='mgEb003'
             ),
-            name="mgEb003"
+            name='mgEb003'
         ),
         TestGroup(
             annotation=[
@@ -3952,7 +3952,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = unbounded",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = unbounded',
                             ]
                         ),
                     ]
@@ -3960,13 +3960,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb004.xsd"
+                        href='../msData/modelGroups/mgEb004.xsd'
                     ),
                 ],
                 expected=[
@@ -3978,12 +3978,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb004"
+                name='mgEb004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgEb004.xml"
+                        href='../msData/modelGroups/mgEb004.xml'
                     ),
                     expected=[
                         Expected(
@@ -3994,10 +3994,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgEb004.v"
+                    name='mgEb004.v'
                 ),
             ],
-            name="mgEb004"
+            name='mgEb004'
         ),
         TestGroup(
             annotation=[
@@ -4005,7 +4005,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = 8",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = 8',
                             ]
                         ),
                     ]
@@ -4013,13 +4013,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb005.xsd"
+                        href='../msData/modelGroups/mgEb005.xsd'
                     ),
                 ],
                 expected=[
@@ -4031,12 +4031,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb005"
+                name='mgEb005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgEb005.xml"
+                        href='../msData/modelGroups/mgEb005.xml'
                     ),
                     expected=[
                         Expected(
@@ -4047,10 +4047,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgEb005.v"
+                    name='mgEb005.v'
                 ),
             ],
-            name="mgEb005"
+            name='mgEb005'
         ),
         TestGroup(
             annotation=[
@@ -4058,7 +4058,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = a",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = a',
                             ]
                         ),
                     ]
@@ -4066,13 +4066,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb006.xsd"
+                        href='../msData/modelGroups/mgEb006.xsd'
                     ),
                 ],
                 expected=[
@@ -4084,9 +4084,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb006"
+                name='mgEb006'
             ),
-            name="mgEb006"
+            name='mgEb006'
         ),
         TestGroup(
             annotation=[
@@ -4094,7 +4094,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = ?",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = ?',
                             ]
                         ),
                     ]
@@ -4102,13 +4102,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb007.xsd"
+                        href='../msData/modelGroups/mgEb007.xsd'
                     ),
                 ],
                 expected=[
@@ -4120,9 +4120,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb007"
+                name='mgEb007'
             ),
-            name="mgEb007"
+            name='mgEb007'
         ),
         TestGroup(
             annotation=[
@@ -4130,7 +4130,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs = &amp;",
+                                'TEST :model groups (ALL) : sequence: maxOccurs = &',
                             ]
                         ),
                     ]
@@ -4138,13 +4138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgEb008.xsd"
+                        href='../msData/modelGroups/mgEb008.xsd'
                     ),
                 ],
                 expected=[
@@ -4156,9 +4156,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgEb008"
+                name='mgEb008'
             ),
-            name="mgEb008"
+            name='mgEb008'
         ),
         TestGroup(
             annotation=[
@@ -4166,7 +4166,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with no child node",
+                                'TEST :model groups (ALL) : sequence: with no child node',
                             ]
                         ),
                     ]
@@ -4174,13 +4174,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF001.xsd"
+                        href='../msData/modelGroups/mgF001.xsd'
                     ),
                 ],
                 expected=[
@@ -4192,12 +4192,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF001"
+                name='mgF001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF001.xml"
+                        href='../msData/modelGroups/mgF001.xml'
                     ),
                     expected=[
                         Expected(
@@ -4208,10 +4208,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF001.v"
+                    name='mgF001.v'
                 ),
             ],
-            name="mgF001"
+            name='mgF001'
         ),
         TestGroup(
             annotation=[
@@ -4219,7 +4219,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with one annotation only",
+                                'TEST :model groups (ALL) : sequence: with one annotation only',
                             ]
                         ),
                     ]
@@ -4227,13 +4227,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF002.xsd"
+                        href='../msData/modelGroups/mgF002.xsd'
                     ),
                 ],
                 expected=[
@@ -4245,12 +4245,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF002"
+                name='mgF002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF002.xml"
+                        href='../msData/modelGroups/mgF002.xml'
                     ),
                     expected=[
                         Expected(
@@ -4261,10 +4261,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF002.v"
+                    name='mgF002.v'
                 ),
             ],
-            name="mgF002"
+            name='mgF002'
         ),
         TestGroup(
             annotation=[
@@ -4272,7 +4272,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with two annotation",
+                                'TEST :model groups (ALL) : sequence: with two annotation',
                             ]
                         ),
                     ]
@@ -4280,13 +4280,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF003.xsd"
+                        href='../msData/modelGroups/mgF003.xsd'
                     ),
                 ],
                 expected=[
@@ -4298,9 +4298,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF003"
+                name='mgF003'
             ),
-            name="mgF003"
+            name='mgF003'
         ),
         TestGroup(
             annotation=[
@@ -4308,7 +4308,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children annotation, element",
+                                'TEST :model groups (ALL) : sequence: with children annotation, element',
                             ]
                         ),
                     ]
@@ -4316,13 +4316,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF004.xsd"
+                        href='../msData/modelGroups/mgF004.xsd'
                     ),
                 ],
                 expected=[
@@ -4334,12 +4334,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF004"
+                name='mgF004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF004.xml"
+                        href='../msData/modelGroups/mgF004.xml'
                     ),
                     expected=[
                         Expected(
@@ -4350,10 +4350,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF004.v"
+                    name='mgF004.v'
                 ),
             ],
-            name="mgF004"
+            name='mgF004'
         ),
         TestGroup(
             annotation=[
@@ -4361,7 +4361,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children annotation, group",
+                                'TEST :model groups (ALL) : sequence: with children annotation, group',
                             ]
                         ),
                     ]
@@ -4369,13 +4369,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF005.xsd"
+                        href='../msData/modelGroups/mgF005.xsd'
                     ),
                 ],
                 expected=[
@@ -4387,12 +4387,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF005"
+                name='mgF005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF005.xml"
+                        href='../msData/modelGroups/mgF005.xml'
                     ),
                     expected=[
                         Expected(
@@ -4403,10 +4403,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF005.v"
+                    name='mgF005.v'
                 ),
             ],
-            name="mgF005"
+            name='mgF005'
         ),
         TestGroup(
             annotation=[
@@ -4414,7 +4414,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children annotation, choice",
+                                'TEST :model groups (ALL) : sequence: with children annotation, choice',
                             ]
                         ),
                     ]
@@ -4422,13 +4422,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF006.xsd"
+                        href='../msData/modelGroups/mgF006.xsd'
                     ),
                 ],
                 expected=[
@@ -4440,12 +4440,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF006"
+                name='mgF006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF006.xml"
+                        href='../msData/modelGroups/mgF006.xml'
                     ),
                     expected=[
                         Expected(
@@ -4456,10 +4456,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF006.v"
+                    name='mgF006.v'
                 ),
             ],
-            name="mgF006"
+            name='mgF006'
         ),
         TestGroup(
             annotation=[
@@ -4467,7 +4467,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children annotation, sequence",
+                                'TEST :model groups (ALL) : sequence: with children annotation, sequence',
                             ]
                         ),
                     ]
@@ -4475,13 +4475,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF007.xsd"
+                        href='../msData/modelGroups/mgF007.xsd'
                     ),
                 ],
                 expected=[
@@ -4493,12 +4493,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF007"
+                name='mgF007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF007.xml"
+                        href='../msData/modelGroups/mgF007.xml'
                     ),
                     expected=[
                         Expected(
@@ -4509,10 +4509,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF007.v"
+                    name='mgF007.v'
                 ),
             ],
-            name="mgF007"
+            name='mgF007'
         ),
         TestGroup(
             annotation=[
@@ -4520,7 +4520,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children annotation, any",
+                                'TEST :model groups (ALL) : sequence: with children annotation, any',
                             ]
                         ),
                     ]
@@ -4528,13 +4528,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF008.xsd"
+                        href='../msData/modelGroups/mgF008.xsd'
                     ),
                 ],
                 expected=[
@@ -4546,12 +4546,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF008"
+                name='mgF008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF008.xml"
+                        href='../msData/modelGroups/mgF008.xml'
                     ),
                     expected=[
                         Expected(
@@ -4562,10 +4562,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF008.v"
+                    name='mgF008.v'
                 ),
             ],
-            name="mgF008"
+            name='mgF008'
         ),
         TestGroup(
             annotation=[
@@ -4573,7 +4573,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children annotation, element, group, choice, sequence, any",
+                                'TEST :model groups (ALL) : sequence: with children annotation, element, group, choice, sequence, any',
                             ]
                         ),
                     ]
@@ -4581,13 +4581,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF009.xsd"
+                        href='../msData/modelGroups/mgF009.xsd'
                     ),
                 ],
                 expected=[
@@ -4599,12 +4599,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF009"
+                name='mgF009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF009.xml"
+                        href='../msData/modelGroups/mgF009.xml'
                     ),
                     expected=[
                         Expected(
@@ -4615,10 +4615,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF009.v"
+                    name='mgF009.v'
                 ),
             ],
-            name="mgF009"
+            name='mgF009'
         ),
         TestGroup(
             annotation=[
@@ -4626,7 +4626,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children element, any, sequence, choice, group",
+                                'TEST :model groups (ALL) : sequence: with children element, any, sequence, choice, group',
                             ]
                         ),
                     ]
@@ -4634,13 +4634,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF010.xsd"
+                        href='../msData/modelGroups/mgF010.xsd'
                     ),
                 ],
                 expected=[
@@ -4652,12 +4652,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF010"
+                name='mgF010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF010.xml"
+                        href='../msData/modelGroups/mgF010.xml'
                     ),
                     expected=[
                         Expected(
@@ -4668,10 +4668,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF010.v"
+                    name='mgF010.v'
                 ),
             ],
-            name="mgF010"
+            name='mgF010'
         ),
         TestGroup(
             annotation=[
@@ -4679,7 +4679,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children group, any, choice, element, sequence",
+                                'TEST :model groups (ALL) : sequence: with children group, any, choice, element, sequence',
                             ]
                         ),
                     ]
@@ -4687,13 +4687,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF011.xsd"
+                        href='../msData/modelGroups/mgF011.xsd'
                     ),
                 ],
                 expected=[
@@ -4705,12 +4705,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF011"
+                name='mgF011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF011.xml"
+                        href='../msData/modelGroups/mgF011.xml'
                     ),
                     expected=[
                         Expected(
@@ -4721,10 +4721,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF011.v"
+                    name='mgF011.v'
                 ),
             ],
-            name="mgF011"
+            name='mgF011'
         ),
         TestGroup(
             annotation=[
@@ -4732,7 +4732,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children choice, any, group, sequence, element",
+                                'TEST :model groups (ALL) : sequence: with children choice, any, group, sequence, element',
                             ]
                         ),
                     ]
@@ -4740,13 +4740,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF012.xsd"
+                        href='../msData/modelGroups/mgF012.xsd'
                     ),
                 ],
                 expected=[
@@ -4758,12 +4758,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF012"
+                name='mgF012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF012.xml"
+                        href='../msData/modelGroups/mgF012.xml'
                     ),
                     expected=[
                         Expected(
@@ -4774,10 +4774,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF012.v"
+                    name='mgF012.v'
                 ),
             ],
-            name="mgF012"
+            name='mgF012'
         ),
         TestGroup(
             annotation=[
@@ -4785,7 +4785,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children sequence, group, choice, element, any",
+                                'TEST :model groups (ALL) : sequence: with children sequence, group, choice, element, any',
                             ]
                         ),
                     ]
@@ -4793,13 +4793,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF013.xsd"
+                        href='../msData/modelGroups/mgF013.xsd'
                     ),
                 ],
                 expected=[
@@ -4811,12 +4811,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF013"
+                name='mgF013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF013.xml"
+                        href='../msData/modelGroups/mgF013.xml'
                     ),
                     expected=[
                         Expected(
@@ -4827,10 +4827,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF013.v"
+                    name='mgF013.v'
                 ),
             ],
-            name="mgF013"
+            name='mgF013'
         ),
         TestGroup(
             annotation=[
@@ -4838,7 +4838,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children any, sequence, group, element, choice",
+                                'TEST :model groups (ALL) : sequence: with children any, sequence, group, element, choice',
                             ]
                         ),
                     ]
@@ -4846,13 +4846,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF014.xsd"
+                        href='../msData/modelGroups/mgF014.xsd'
                     ),
                 ],
                 expected=[
@@ -4864,12 +4864,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF014"
+                name='mgF014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF014.xml"
+                        href='../msData/modelGroups/mgF014.xml'
                     ),
                     expected=[
                         Expected(
@@ -4880,10 +4880,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF014.v"
+                    name='mgF014.v'
                 ),
             ],
-            name="mgF014"
+            name='mgF014'
         ),
         TestGroup(
             annotation=[
@@ -4891,7 +4891,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children 4 elements, 4 groups",
+                                'TEST :model groups (ALL) : sequence: with children 4 elements, 4 groups',
                             ]
                         ),
                     ]
@@ -4899,13 +4899,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF015.xsd"
+                        href='../msData/modelGroups/mgF015.xsd'
                     ),
                 ],
                 expected=[
@@ -4917,12 +4917,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF015"
+                name='mgF015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF015.xml"
+                        href='../msData/modelGroups/mgF015.xml'
                     ),
                     expected=[
                         Expected(
@@ -4933,10 +4933,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF015.v"
+                    name='mgF015.v'
                 ),
             ],
-            name="mgF015"
+            name='mgF015'
         ),
         TestGroup(
             annotation=[
@@ -4944,7 +4944,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children 4 groups, 4 choice",
+                                'TEST :model groups (ALL) : sequence: with children 4 groups, 4 choice',
                             ]
                         ),
                     ]
@@ -4952,13 +4952,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF016.xsd"
+                        href='../msData/modelGroups/mgF016.xsd'
                     ),
                 ],
                 expected=[
@@ -4970,12 +4970,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF016"
+                name='mgF016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF016.xml"
+                        href='../msData/modelGroups/mgF016.xml'
                     ),
                     expected=[
                         Expected(
@@ -4986,10 +4986,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF016.v"
+                    name='mgF016.v'
                 ),
             ],
-            name="mgF016"
+            name='mgF016'
         ),
         TestGroup(
             annotation=[
@@ -4997,7 +4997,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children 4 choice, 4 sequence",
+                                'TEST :model groups (ALL) : sequence: with children 4 choice, 4 sequence',
                             ]
                         ),
                     ]
@@ -5005,13 +5005,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF017.xsd"
+                        href='../msData/modelGroups/mgF017.xsd'
                     ),
                 ],
                 expected=[
@@ -5023,12 +5023,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF017"
+                name='mgF017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF017.xml"
+                        href='../msData/modelGroups/mgF017.xml'
                     ),
                     expected=[
                         Expected(
@@ -5039,10 +5039,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF017.v"
+                    name='mgF017.v'
                 ),
             ],
-            name="mgF017"
+            name='mgF017'
         ),
         TestGroup(
             annotation=[
@@ -5050,7 +5050,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children 4 sequence, 4 any",
+                                'TEST :model groups (ALL) : sequence: with children 4 sequence, 4 any',
                             ]
                         ),
                     ]
@@ -5058,13 +5058,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF018.xsd"
+                        href='../msData/modelGroups/mgF018.xsd'
                     ),
                 ],
                 expected=[
@@ -5076,12 +5076,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF018"
+                name='mgF018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF018.xml"
+                        href='../msData/modelGroups/mgF018.xml'
                     ),
                     expected=[
                         Expected(
@@ -5092,10 +5092,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF018.v"
+                    name='mgF018.v'
                 ),
             ],
-            name="mgF018"
+            name='mgF018'
         ),
         TestGroup(
             annotation=[
@@ -5103,7 +5103,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children 4 any, 4 elements",
+                                'TEST :model groups (ALL) : sequence: with children 4 any, 4 elements',
                             ]
                         ),
                     ]
@@ -5111,13 +5111,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF019.xsd"
+                        href='../msData/modelGroups/mgF019.xsd'
                     ),
                 ],
                 expected=[
@@ -5129,12 +5129,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF019"
+                name='mgF019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgF019.xml"
+                        href='../msData/modelGroups/mgF019.xml'
                     ),
                     expected=[
                         Expected(
@@ -5145,10 +5145,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgF019.v"
+                    name='mgF019.v'
                 ),
             ],
-            name="mgF019"
+            name='mgF019'
         ),
         TestGroup(
             annotation=[
@@ -5156,7 +5156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children element, annotation",
+                                'TEST :model groups (ALL) : sequence: with children element, annotation',
                             ]
                         ),
                     ]
@@ -5164,13 +5164,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF020.xsd"
+                        href='../msData/modelGroups/mgF020.xsd'
                     ),
                 ],
                 expected=[
@@ -5182,9 +5182,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF020"
+                name='mgF020'
             ),
-            name="mgF020"
+            name='mgF020'
         ),
         TestGroup(
             annotation=[
@@ -5192,7 +5192,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children group, annotation",
+                                'TEST :model groups (ALL) : sequence: with children group, annotation',
                             ]
                         ),
                     ]
@@ -5200,13 +5200,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF021.xsd"
+                        href='../msData/modelGroups/mgF021.xsd'
                     ),
                 ],
                 expected=[
@@ -5218,9 +5218,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF021"
+                name='mgF021'
             ),
-            name="mgF021"
+            name='mgF021'
         ),
         TestGroup(
             annotation=[
@@ -5228,7 +5228,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children choice, annotation",
+                                'TEST :model groups (ALL) : sequence: with children choice, annotation',
                             ]
                         ),
                     ]
@@ -5236,13 +5236,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF022.xsd"
+                        href='../msData/modelGroups/mgF022.xsd'
                     ),
                 ],
                 expected=[
@@ -5254,9 +5254,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF022"
+                name='mgF022'
             ),
-            name="mgF022"
+            name='mgF022'
         ),
         TestGroup(
             annotation=[
@@ -5264,7 +5264,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with children sequence, annotation",
+                                'TEST :model groups (ALL) : sequence: with children sequence, annotation',
                             ]
                         ),
                     ]
@@ -5272,13 +5272,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgF023.xsd"
+                        href='../msData/modelGroups/mgF023.xsd'
                     ),
                 ],
                 expected=[
@@ -5290,9 +5290,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgF023"
+                name='mgF023'
             ),
-            name="mgF023"
+            name='mgF023'
         ),
         TestGroup(
             annotation=[
@@ -5300,7 +5300,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5308,13 +5308,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG002.xsd"
+                        href='../msData/modelGroups/mgG002.xsd'
                     ),
                 ],
                 expected=[
@@ -5326,9 +5326,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG002"
+                name='mgG002'
             ),
-            name="mgG002"
+            name='mgG002'
         ),
         TestGroup(
             annotation=[
@@ -5336,7 +5336,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5344,13 +5344,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG003.xsd"
+                        href='../msData/modelGroups/mgG003.xsd'
                     ),
                 ],
                 expected=[
@@ -5362,12 +5362,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG003"
+                name='mgG003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG003.xml"
+                        href='../msData/modelGroups/mgG003.xml'
                     ),
                     expected=[
                         Expected(
@@ -5378,10 +5378,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG003.i"
+                    name='mgG003.i'
                 ),
             ],
-            name="mgG003"
+            name='mgG003'
         ),
         TestGroup(
             annotation=[
@@ -5389,7 +5389,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5397,13 +5397,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG004.xsd"
+                        href='../msData/modelGroups/mgG004.xsd'
                     ),
                 ],
                 expected=[
@@ -5415,12 +5415,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG004"
+                name='mgG004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG004.xml"
+                        href='../msData/modelGroups/mgG004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5431,10 +5431,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG004.v"
+                    name='mgG004.v'
                 ),
             ],
-            name="mgG004"
+            name='mgG004'
         ),
         TestGroup(
             annotation=[
@@ -5442,7 +5442,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5450,13 +5450,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG005.xsd"
+                        href='../msData/modelGroups/mgG005.xsd'
                     ),
                 ],
                 expected=[
@@ -5468,12 +5468,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG005"
+                name='mgG005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG005.xml"
+                        href='../msData/modelGroups/mgG005.xml'
                     ),
                     expected=[
                         Expected(
@@ -5484,10 +5484,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG005.i"
+                    name='mgG005.i'
                 ),
             ],
-            name="mgG005"
+            name='mgG005'
         ),
         TestGroup(
             annotation=[
@@ -5495,7 +5495,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5503,13 +5503,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG006.xsd"
+                        href='../msData/modelGroups/mgG006.xsd'
                     ),
                 ],
                 expected=[
@@ -5521,12 +5521,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG006"
+                name='mgG006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG006.xml"
+                        href='../msData/modelGroups/mgG006.xml'
                     ),
                     expected=[
                         Expected(
@@ -5537,10 +5537,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG006.v"
+                    name='mgG006.v'
                 ),
             ],
-            name="mgG006"
+            name='mgG006'
         ),
         TestGroup(
             annotation=[
@@ -5548,7 +5548,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5556,13 +5556,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG007.xsd"
+                        href='../msData/modelGroups/mgG007.xsd'
                     ),
                 ],
                 expected=[
@@ -5574,12 +5574,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG007"
+                name='mgG007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG007.xml"
+                        href='../msData/modelGroups/mgG007.xml'
                     ),
                     expected=[
                         Expected(
@@ -5590,10 +5590,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG007.v"
+                    name='mgG007.v'
                 ),
             ],
-            name="mgG007"
+            name='mgG007'
         ),
         TestGroup(
             annotation=[
@@ -5601,7 +5601,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5609,13 +5609,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG008.xsd"
+                        href='../msData/modelGroups/mgG008.xsd'
                     ),
                 ],
                 expected=[
@@ -5627,12 +5627,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG008"
+                name='mgG008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG008.xml"
+                        href='../msData/modelGroups/mgG008.xml'
                     ),
                     expected=[
                         Expected(
@@ -5643,10 +5643,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG008.i"
+                    name='mgG008.i'
                 ),
             ],
-            name="mgG008"
+            name='mgG008'
         ),
         TestGroup(
             annotation=[
@@ -5654,7 +5654,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5662,13 +5662,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG009.xsd"
+                        href='../msData/modelGroups/mgG009.xsd'
                     ),
                 ],
                 expected=[
@@ -5680,12 +5680,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG009"
+                name='mgG009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG009.xml"
+                        href='../msData/modelGroups/mgG009.xml'
                     ),
                     expected=[
                         Expected(
@@ -5696,10 +5696,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG009.v"
+                    name='mgG009.v'
                 ),
             ],
-            name="mgG009"
+            name='mgG009'
         ),
         TestGroup(
             annotation=[
@@ -5707,7 +5707,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5715,13 +5715,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG010.xsd"
+                        href='../msData/modelGroups/mgG010.xsd'
                     ),
                 ],
                 expected=[
@@ -5733,12 +5733,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG010"
+                name='mgG010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG010.xml"
+                        href='../msData/modelGroups/mgG010.xml'
                     ),
                     expected=[
                         Expected(
@@ -5749,10 +5749,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG010.v"
+                    name='mgG010.v'
                 ),
             ],
-            name="mgG010"
+            name='mgG010'
         ),
         TestGroup(
             annotation=[
@@ -5760,7 +5760,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5768,13 +5768,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG011.xsd"
+                        href='../msData/modelGroups/mgG011.xsd'
                     ),
                 ],
                 expected=[
@@ -5786,12 +5786,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG011"
+                name='mgG011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG011.xml"
+                        href='../msData/modelGroups/mgG011.xml'
                     ),
                     expected=[
                         Expected(
@@ -5802,10 +5802,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG011.i"
+                    name='mgG011.i'
                 ),
             ],
-            name="mgG011"
+            name='mgG011'
         ),
         TestGroup(
             annotation=[
@@ -5813,7 +5813,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -5821,13 +5821,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG012.xsd"
+                        href='../msData/modelGroups/mgG012.xsd'
                     ),
                 ],
                 expected=[
@@ -5839,12 +5839,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG012"
+                name='mgG012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG012.xml"
+                        href='../msData/modelGroups/mgG012.xml'
                     ),
                     expected=[
                         Expected(
@@ -5855,10 +5855,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG012.v"
+                    name='mgG012.v'
                 ),
             ],
-            name="mgG012"
+            name='mgG012'
         ),
         TestGroup(
             annotation=[
@@ -5866,7 +5866,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -5874,13 +5874,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG013.xsd"
+                        href='../msData/modelGroups/mgG013.xsd'
                     ),
                 ],
                 expected=[
@@ -5892,12 +5892,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG013"
+                name='mgG013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG013.xml"
+                        href='../msData/modelGroups/mgG013.xml'
                     ),
                     expected=[
                         Expected(
@@ -5908,10 +5908,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG013.i"
+                    name='mgG013.i'
                 ),
             ],
-            name="mgG013"
+            name='mgG013'
         ),
         TestGroup(
             annotation=[
@@ -5919,7 +5919,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=999999999",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=0, maxOccurs=999999999',
                             ]
                         ),
                     ]
@@ -5927,13 +5927,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG014.xsd"
+                        href='../msData/modelGroups/mgG014.xsd'
                     ),
                 ],
                 expected=[
@@ -5945,12 +5945,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG014"
+                name='mgG014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG014.xml"
+                        href='../msData/modelGroups/mgG014.xml'
                     ),
                     expected=[
                         Expected(
@@ -5961,10 +5961,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG014.v"
+                    name='mgG014.v'
                 ),
             ],
-            name="mgG014"
+            name='mgG014'
         ),
         TestGroup(
             annotation=[
@@ -5972,7 +5972,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5980,13 +5980,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG015.xsd"
+                        href='../msData/modelGroups/mgG015.xsd'
                     ),
                 ],
                 expected=[
@@ -5998,12 +5998,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG015"
+                name='mgG015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG015.xml"
+                        href='../msData/modelGroups/mgG015.xml'
                     ),
                     expected=[
                         Expected(
@@ -6014,10 +6014,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG015.i"
+                    name='mgG015.i'
                 ),
             ],
-            name="mgG015"
+            name='mgG015'
         ),
         TestGroup(
             annotation=[
@@ -6025,7 +6025,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6033,13 +6033,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG016.xsd"
+                        href='../msData/modelGroups/mgG016.xsd'
                     ),
                 ],
                 expected=[
@@ -6051,12 +6051,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG016"
+                name='mgG016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG016.xml"
+                        href='../msData/modelGroups/mgG016.xml'
                     ),
                     expected=[
                         Expected(
@@ -6067,10 +6067,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG016.v"
+                    name='mgG016.v'
                 ),
             ],
-            name="mgG016"
+            name='mgG016'
         ),
         TestGroup(
             annotation=[
@@ -6078,7 +6078,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6086,13 +6086,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG017.xsd"
+                        href='../msData/modelGroups/mgG017.xsd'
                     ),
                 ],
                 expected=[
@@ -6104,12 +6104,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG017"
+                name='mgG017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG017.xml"
+                        href='../msData/modelGroups/mgG017.xml'
                     ),
                     expected=[
                         Expected(
@@ -6120,10 +6120,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG017.i"
+                    name='mgG017.i'
                 ),
             ],
-            name="mgG017"
+            name='mgG017'
         ),
         TestGroup(
             annotation=[
@@ -6131,7 +6131,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6139,13 +6139,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG018.xsd"
+                        href='../msData/modelGroups/mgG018.xsd'
                     ),
                 ],
                 expected=[
@@ -6157,12 +6157,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG018"
+                name='mgG018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG018.xml"
+                        href='../msData/modelGroups/mgG018.xml'
                     ),
                     expected=[
                         Expected(
@@ -6173,10 +6173,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG018.i"
+                    name='mgG018.i'
                 ),
             ],
-            name="mgG018"
+            name='mgG018'
         ),
         TestGroup(
             annotation=[
@@ -6184,7 +6184,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6192,13 +6192,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG019.xsd"
+                        href='../msData/modelGroups/mgG019.xsd'
                     ),
                 ],
                 expected=[
@@ -6210,12 +6210,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG019"
+                name='mgG019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG019.xml"
+                        href='../msData/modelGroups/mgG019.xml'
                     ),
                     expected=[
                         Expected(
@@ -6226,10 +6226,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG019.v"
+                    name='mgG019.v'
                 ),
             ],
-            name="mgG019"
+            name='mgG019'
         ),
         TestGroup(
             annotation=[
@@ -6237,7 +6237,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6245,13 +6245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG020.xsd"
+                        href='../msData/modelGroups/mgG020.xsd'
                     ),
                 ],
                 expected=[
@@ -6263,12 +6263,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG020"
+                name='mgG020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG020.xml"
+                        href='../msData/modelGroups/mgG020.xml'
                     ),
                     expected=[
                         Expected(
@@ -6279,10 +6279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG020.i"
+                    name='mgG020.i'
                 ),
             ],
-            name="mgG020"
+            name='mgG020'
         ),
         TestGroup(
             annotation=[
@@ -6290,7 +6290,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -6298,13 +6298,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG021.xsd"
+                        href='../msData/modelGroups/mgG021.xsd'
                     ),
                 ],
                 expected=[
@@ -6316,12 +6316,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG021"
+                name='mgG021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG021.xml"
+                        href='../msData/modelGroups/mgG021.xml'
                     ),
                     expected=[
                         Expected(
@@ -6332,10 +6332,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG021.i"
+                    name='mgG021.i'
                 ),
             ],
-            name="mgG021"
+            name='mgG021'
         ),
         TestGroup(
             annotation=[
@@ -6343,7 +6343,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -6351,13 +6351,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG022.xsd"
+                        href='../msData/modelGroups/mgG022.xsd'
                     ),
                 ],
                 expected=[
@@ -6369,12 +6369,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG022"
+                name='mgG022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG022.xml"
+                        href='../msData/modelGroups/mgG022.xml'
                     ),
                     expected=[
                         Expected(
@@ -6385,10 +6385,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG022.v"
+                    name='mgG022.v'
                 ),
             ],
-            name="mgG022"
+            name='mgG022'
         ),
         TestGroup(
             annotation=[
@@ -6396,7 +6396,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -6404,13 +6404,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG023.xsd"
+                        href='../msData/modelGroups/mgG023.xsd'
                     ),
                 ],
                 expected=[
@@ -6422,12 +6422,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG023"
+                name='mgG023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG023.xml"
+                        href='../msData/modelGroups/mgG023.xml'
                     ),
                     expected=[
                         Expected(
@@ -6438,10 +6438,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG023.v"
+                    name='mgG023.v'
                 ),
             ],
-            name="mgG023"
+            name='mgG023'
         ),
         TestGroup(
             annotation=[
@@ -6449,7 +6449,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -6457,13 +6457,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG024.xsd"
+                        href='../msData/modelGroups/mgG024.xsd'
                     ),
                 ],
                 expected=[
@@ -6475,12 +6475,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG024"
+                name='mgG024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG024.xml"
+                        href='../msData/modelGroups/mgG024.xml'
                     ),
                     expected=[
                         Expected(
@@ -6491,10 +6491,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG024.i"
+                    name='mgG024.i'
                 ),
             ],
-            name="mgG024"
+            name='mgG024'
         ),
         TestGroup(
             annotation=[
@@ -6502,7 +6502,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :model groups (ALL) : sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -6510,13 +6510,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG025.xsd"
+                        href='../msData/modelGroups/mgG025.xsd'
                     ),
                 ],
                 expected=[
@@ -6528,9 +6528,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG025"
+                name='mgG025'
             ),
-            name="mgG025"
+            name='mgG025'
         ),
         TestGroup(
             annotation=[
@@ -6538,7 +6538,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :model groups (ALL) : sequence: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -6546,13 +6546,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG026.xsd"
+                        href='../msData/modelGroups/mgG026.xsd'
                     ),
                 ],
                 expected=[
@@ -6564,12 +6564,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG026"
+                name='mgG026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgG026.xml"
+                        href='../msData/modelGroups/mgG026.xml'
                     ),
                     expected=[
                         Expected(
@@ -6580,10 +6580,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgG026.v"
+                    name='mgG026.v'
                 ),
             ],
-            name="mgG026"
+            name='mgG026'
         ),
         TestGroup(
             annotation=[
@@ -6591,7 +6591,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs=2, maxOccurs=1",
+                                'TEST :model groups (ALL) : sequence: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6599,13 +6599,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG027.xsd"
+                        href='../msData/modelGroups/mgG027.xsd'
                     ),
                 ],
                 expected=[
@@ -6617,9 +6617,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG027"
+                name='mgG027'
             ),
-            name="mgG027"
+            name='mgG027'
         ),
         TestGroup(
             annotation=[
@@ -6627,7 +6627,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs=1, maxOccurs=0",
+                                'TEST :model groups (ALL) : sequence: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -6635,13 +6635,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG028.xsd"
+                        href='../msData/modelGroups/mgG028.xsd'
                     ),
                 ],
                 expected=[
@@ -6653,9 +6653,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG028"
+                name='mgG028'
             ),
-            name="mgG028"
+            name='mgG028'
         ),
         TestGroup(
             annotation=[
@@ -6663,7 +6663,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: minOccurs=-1",
+                                'TEST :model groups (ALL) : sequence: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -6671,13 +6671,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG029.xsd"
+                        href='../msData/modelGroups/mgG029.xsd'
                     ),
                 ],
                 expected=[
@@ -6689,9 +6689,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG029"
+                name='mgG029'
             ),
-            name="mgG029"
+            name='mgG029'
         ),
         TestGroup(
             annotation=[
@@ -6699,7 +6699,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: maxOccurs=-1",
+                                'TEST :model groups (ALL) : sequence: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -6707,13 +6707,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgG030.xsd"
+                        href='../msData/modelGroups/mgG030.xsd'
                     ),
                 ],
                 expected=[
@@ -6725,9 +6725,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgG030"
+                name='mgG030'
             ),
-            name="mgG030"
+            name='mgG030'
         ),
         TestGroup(
             annotation=[
@@ -6743,13 +6743,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH001.xsd"
+                        href='../msData/modelGroups/mgH001.xsd'
                     ),
                 ],
                 expected=[
@@ -6761,12 +6761,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH001"
+                name='mgH001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH001.xml"
+                        href='../msData/modelGroups/mgH001.xml'
                     ),
                     expected=[
                         Expected(
@@ -6777,10 +6777,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH001.v"
+                    name='mgH001.v'
                 ),
             ],
-            name="mgH001"
+            name='mgH001'
         ),
         TestGroup(
             annotation=[
@@ -6796,13 +6796,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH002.xsd"
+                        href='../msData/modelGroups/mgH002.xsd'
                     ),
                 ],
                 expected=[
@@ -6814,9 +6814,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH002"
+                name='mgH002'
             ),
-            name="mgH002"
+            name='mgH002'
         ),
         TestGroup(
             annotation=[
@@ -6832,13 +6832,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH003.xsd"
+                        href='../msData/modelGroups/mgH003.xsd'
                     ),
                 ],
                 expected=[
@@ -6850,9 +6850,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH003"
+                name='mgH003'
             ),
-            name="mgH003"
+            name='mgH003'
         ),
         TestGroup(
             annotation=[
@@ -6868,13 +6868,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH004.xsd"
+                        href='../msData/modelGroups/mgH004.xsd'
                     ),
                 ],
                 expected=[
@@ -6886,9 +6886,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH004"
+                name='mgH004'
             ),
-            name="mgH004"
+            name='mgH004'
         ),
         TestGroup(
             annotation=[
@@ -6904,13 +6904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH005.xsd"
+                        href='../msData/modelGroups/mgH005.xsd'
                     ),
                 ],
                 expected=[
@@ -6922,9 +6922,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH005"
+                name='mgH005'
             ),
-            name="mgH005"
+            name='mgH005'
         ),
         TestGroup(
             annotation=[
@@ -6940,13 +6940,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH006.xsd"
+                        href='../msData/modelGroups/mgH006.xsd'
                     ),
                 ],
                 expected=[
@@ -6958,9 +6958,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH006"
+                name='mgH006'
             ),
-            name="mgH006"
+            name='mgH006'
         ),
         TestGroup(
             annotation=[
@@ -6976,13 +6976,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH007.xsd"
+                        href='../msData/modelGroups/mgH007.xsd'
                     ),
                 ],
                 expected=[
@@ -6994,9 +6994,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH007"
+                name='mgH007'
             ),
-            name="mgH007"
+            name='mgH007'
         ),
         TestGroup(
             annotation=[
@@ -7012,13 +7012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH008.xsd"
+                        href='../msData/modelGroups/mgH008.xsd'
                     ),
                 ],
                 expected=[
@@ -7030,9 +7030,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH008"
+                name='mgH008'
             ),
-            name="mgH008"
+            name='mgH008'
         ),
         TestGroup(
             annotation=[
@@ -7048,13 +7048,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH009.xsd"
+                        href='../msData/modelGroups/mgH009.xsd'
                     ),
                 ],
                 expected=[
@@ -7066,9 +7066,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH009"
+                name='mgH009'
             ),
-            name="mgH009"
+            name='mgH009'
         ),
         TestGroup(
             annotation=[
@@ -7084,13 +7084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH010.xsd"
+                        href='../msData/modelGroups/mgH010.xsd'
                     ),
                 ],
                 expected=[
@@ -7102,9 +7102,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH010"
+                name='mgH010'
             ),
-            name="mgH010"
+            name='mgH010'
         ),
         TestGroup(
             annotation=[
@@ -7120,13 +7120,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH011.xsd"
+                        href='../msData/modelGroups/mgH011.xsd'
                     ),
                 ],
                 expected=[
@@ -7138,9 +7138,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH011"
+                name='mgH011'
             ),
-            name="mgH011"
+            name='mgH011'
         ),
         TestGroup(
             annotation=[
@@ -7156,13 +7156,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH012.xsd"
+                        href='../msData/modelGroups/mgH012.xsd'
                     ),
                 ],
                 expected=[
@@ -7174,9 +7174,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH012"
+                name='mgH012'
             ),
-            name="mgH012"
+            name='mgH012'
         ),
         TestGroup(
             annotation=[
@@ -7184,7 +7184,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with parent complexType",
+                                'TEST :model groups (ALL) : choice: with parent complexType',
                             ]
                         ),
                     ]
@@ -7192,13 +7192,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH013.xsd"
+                        href='../msData/modelGroups/mgH013.xsd'
                     ),
                 ],
                 expected=[
@@ -7210,12 +7210,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH013"
+                name='mgH013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH013.xml"
+                        href='../msData/modelGroups/mgH013.xml'
                     ),
                     expected=[
                         Expected(
@@ -7226,10 +7226,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH013.v"
+                    name='mgH013.v'
                 ),
             ],
-            name="mgH013"
+            name='mgH013'
         ),
         TestGroup(
             annotation=[
@@ -7237,7 +7237,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with parent restriction",
+                                'TEST :model groups (ALL) : choice: with parent restriction',
                             ]
                         ),
                     ]
@@ -7245,13 +7245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH014.xsd"
+                        href='../msData/modelGroups/mgH014.xsd'
                     ),
                 ],
                 expected=[
@@ -7263,12 +7263,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH014"
+                name='mgH014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH014.xml"
+                        href='../msData/modelGroups/mgH014.xml'
                     ),
                     expected=[
                         Expected(
@@ -7279,10 +7279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH014.v"
+                    name='mgH014.v'
                 ),
             ],
-            name="mgH014"
+            name='mgH014'
         ),
         TestGroup(
             annotation=[
@@ -7290,7 +7290,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with parent extension",
+                                'TEST :model groups (ALL) : choice: with parent extension',
                             ]
                         ),
                     ]
@@ -7298,13 +7298,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH015.xsd"
+                        href='../msData/modelGroups/mgH015.xsd'
                     ),
                 ],
                 expected=[
@@ -7316,12 +7316,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH015"
+                name='mgH015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH015.xml"
+                        href='../msData/modelGroups/mgH015.xml'
                     ),
                     expected=[
                         Expected(
@@ -7332,10 +7332,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH015.v"
+                    name='mgH015.v'
                 ),
             ],
-            name="mgH015"
+            name='mgH015'
         ),
         TestGroup(
             annotation=[
@@ -7343,7 +7343,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with parent group",
+                                'TEST :model groups (ALL) : choice: with parent group',
                             ]
                         ),
                     ]
@@ -7351,13 +7351,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH016.xsd"
+                        href='../msData/modelGroups/mgH016.xsd'
                     ),
                 ],
                 expected=[
@@ -7369,12 +7369,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH016"
+                name='mgH016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH016.xml"
+                        href='../msData/modelGroups/mgH016.xml'
                     ),
                     expected=[
                         Expected(
@@ -7385,10 +7385,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH016.v"
+                    name='mgH016.v'
                 ),
             ],
-            name="mgH016"
+            name='mgH016'
         ),
         TestGroup(
             annotation=[
@@ -7396,7 +7396,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with parent choice",
+                                'TEST :model groups (ALL) : choice: with parent choice',
                             ]
                         ),
                     ]
@@ -7404,13 +7404,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH017.xsd"
+                        href='../msData/modelGroups/mgH017.xsd'
                     ),
                 ],
                 expected=[
@@ -7422,12 +7422,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH017"
+                name='mgH017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH017.xml"
+                        href='../msData/modelGroups/mgH017.xml'
                     ),
                     expected=[
                         Expected(
@@ -7438,10 +7438,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH017.v"
+                    name='mgH017.v'
                 ),
             ],
-            name="mgH017"
+            name='mgH017'
         ),
         TestGroup(
             annotation=[
@@ -7449,7 +7449,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with parent sequence",
+                                'TEST :model groups (ALL) : choice: with parent sequence',
                             ]
                         ),
                     ]
@@ -7457,13 +7457,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgH018.xsd"
+                        href='../msData/modelGroups/mgH018.xsd'
                     ),
                 ],
                 expected=[
@@ -7475,12 +7475,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgH018"
+                name='mgH018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgH018.xml"
+                        href='../msData/modelGroups/mgH018.xml'
                     ),
                     expected=[
                         Expected(
@@ -7491,10 +7491,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgH018.v"
+                    name='mgH018.v'
                 ),
             ],
-            name="mgH018"
+            name='mgH018'
         ),
         TestGroup(
             annotation=[
@@ -7502,7 +7502,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = empty",
+                                'TEST :model groups (ALL) : choice: minOccurs = empty',
                             ]
                         ),
                     ]
@@ -7510,13 +7510,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa001.xsd"
+                        href='../msData/modelGroups/mgHa001.xsd'
                     ),
                 ],
                 expected=[
@@ -7528,9 +7528,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa001"
+                name='mgHa001'
             ),
-            name="mgHa001"
+            name='mgHa001'
         ),
         TestGroup(
             annotation=[
@@ -7538,7 +7538,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = -1",
+                                'TEST :model groups (ALL) : choice: minOccurs = -1',
                             ]
                         ),
                     ]
@@ -7546,13 +7546,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa002.xsd"
+                        href='../msData/modelGroups/mgHa002.xsd'
                     ),
                 ],
                 expected=[
@@ -7564,9 +7564,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa002"
+                name='mgHa002'
             ),
-            name="mgHa002"
+            name='mgHa002'
         ),
         TestGroup(
             annotation=[
@@ -7574,7 +7574,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = *",
+                                'TEST :model groups (ALL) : choice: minOccurs = *',
                             ]
                         ),
                     ]
@@ -7582,13 +7582,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa003.xsd"
+                        href='../msData/modelGroups/mgHa003.xsd'
                     ),
                 ],
                 expected=[
@@ -7600,9 +7600,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa003"
+                name='mgHa003'
             ),
-            name="mgHa003"
+            name='mgHa003'
         ),
         TestGroup(
             annotation=[
@@ -7610,7 +7610,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = unbounded",
+                                'TEST :model groups (ALL) : choice: minOccurs = unbounded',
                             ]
                         ),
                     ]
@@ -7618,13 +7618,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa004.xsd"
+                        href='../msData/modelGroups/mgHa004.xsd'
                     ),
                 ],
                 expected=[
@@ -7636,9 +7636,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa004"
+                name='mgHa004'
             ),
-            name="mgHa004"
+            name='mgHa004'
         ),
         TestGroup(
             annotation=[
@@ -7646,7 +7646,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = 9999999999",
+                                'TEST :model groups (ALL) : choice: minOccurs = 9999999999',
                             ]
                         ),
                     ]
@@ -7654,13 +7654,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa005.xsd"
+                        href='../msData/modelGroups/mgHa005.xsd'
                     ),
                 ],
                 expected=[
@@ -7672,9 +7672,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa005"
+                name='mgHa005'
             ),
-            name="mgHa005"
+            name='mgHa005'
         ),
         TestGroup(
             annotation=[
@@ -7682,7 +7682,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = a",
+                                'TEST :model groups (ALL) : choice: minOccurs = a',
                             ]
                         ),
                     ]
@@ -7690,13 +7690,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa006.xsd"
+                        href='../msData/modelGroups/mgHa006.xsd'
                     ),
                 ],
                 expected=[
@@ -7708,9 +7708,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa006"
+                name='mgHa006'
             ),
-            name="mgHa006"
+            name='mgHa006'
         ),
         TestGroup(
             annotation=[
@@ -7718,7 +7718,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = ?",
+                                'TEST :model groups (ALL) : choice: minOccurs = ?',
                             ]
                         ),
                     ]
@@ -7726,13 +7726,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa007.xsd"
+                        href='../msData/modelGroups/mgHa007.xsd'
                     ),
                 ],
                 expected=[
@@ -7744,9 +7744,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa007"
+                name='mgHa007'
             ),
-            name="mgHa007"
+            name='mgHa007'
         ),
         TestGroup(
             annotation=[
@@ -7754,7 +7754,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs = &amp;",
+                                'TEST :model groups (ALL) : choice: minOccurs = &',
                             ]
                         ),
                     ]
@@ -7762,13 +7762,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHa008.xsd"
+                        href='../msData/modelGroups/mgHa008.xsd'
                     ),
                 ],
                 expected=[
@@ -7780,9 +7780,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHa008"
+                name='mgHa008'
             ),
-            name="mgHa008"
+            name='mgHa008'
         ),
         TestGroup(
             annotation=[
@@ -7790,7 +7790,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = empty",
+                                'TEST :model groups (ALL) : choice: maxOccurs = empty',
                             ]
                         ),
                     ]
@@ -7798,13 +7798,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb001.xsd"
+                        href='../msData/modelGroups/mgHb001.xsd'
                     ),
                 ],
                 expected=[
@@ -7816,9 +7816,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb001"
+                name='mgHb001'
             ),
-            name="mgHb001"
+            name='mgHb001'
         ),
         TestGroup(
             annotation=[
@@ -7826,7 +7826,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = -1",
+                                'TEST :model groups (ALL) : choice: maxOccurs = -1',
                             ]
                         ),
                     ]
@@ -7834,13 +7834,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb002.xsd"
+                        href='../msData/modelGroups/mgHb002.xsd'
                     ),
                 ],
                 expected=[
@@ -7852,9 +7852,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb002"
+                name='mgHb002'
             ),
-            name="mgHb002"
+            name='mgHb002'
         ),
         TestGroup(
             annotation=[
@@ -7862,7 +7862,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = *",
+                                'TEST :model groups (ALL) : choice: maxOccurs = *',
                             ]
                         ),
                     ]
@@ -7870,13 +7870,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb003.xsd"
+                        href='../msData/modelGroups/mgHb003.xsd'
                     ),
                 ],
                 expected=[
@@ -7888,9 +7888,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb003"
+                name='mgHb003'
             ),
-            name="mgHb003"
+            name='mgHb003'
         ),
         TestGroup(
             annotation=[
@@ -7898,7 +7898,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = unbounded",
+                                'TEST :model groups (ALL) : choice: maxOccurs = unbounded',
                             ]
                         ),
                     ]
@@ -7906,13 +7906,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb004.xsd"
+                        href='../msData/modelGroups/mgHb004.xsd'
                     ),
                 ],
                 expected=[
@@ -7924,12 +7924,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb004"
+                name='mgHb004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgHb004.xml"
+                        href='../msData/modelGroups/mgHb004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7940,10 +7940,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgHb004.v"
+                    name='mgHb004.v'
                 ),
             ],
-            name="mgHb004"
+            name='mgHb004'
         ),
         TestGroup(
             annotation=[
@@ -7951,7 +7951,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = 5",
+                                'TEST :model groups (ALL) : choice: maxOccurs = 5',
                             ]
                         ),
                     ]
@@ -7959,13 +7959,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb005.xsd"
+                        href='../msData/modelGroups/mgHb005.xsd'
                     ),
                 ],
                 expected=[
@@ -7977,12 +7977,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb005"
+                name='mgHb005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgHb005.xml"
+                        href='../msData/modelGroups/mgHb005.xml'
                     ),
                     expected=[
                         Expected(
@@ -7993,10 +7993,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgHb005.v"
+                    name='mgHb005.v'
                 ),
             ],
-            name="mgHb005"
+            name='mgHb005'
         ),
         TestGroup(
             annotation=[
@@ -8004,7 +8004,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = a",
+                                'TEST :model groups (ALL) : choice: maxOccurs = a',
                             ]
                         ),
                     ]
@@ -8012,13 +8012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb006.xsd"
+                        href='../msData/modelGroups/mgHb006.xsd'
                     ),
                 ],
                 expected=[
@@ -8030,9 +8030,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb006"
+                name='mgHb006'
             ),
-            name="mgHb006"
+            name='mgHb006'
         ),
         TestGroup(
             annotation=[
@@ -8040,7 +8040,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = ?",
+                                'TEST :model groups (ALL) : choice: maxOccurs = ?',
                             ]
                         ),
                     ]
@@ -8048,13 +8048,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb007.xsd"
+                        href='../msData/modelGroups/mgHb007.xsd'
                     ),
                 ],
                 expected=[
@@ -8066,9 +8066,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb007"
+                name='mgHb007'
             ),
-            name="mgHb007"
+            name='mgHb007'
         ),
         TestGroup(
             annotation=[
@@ -8076,7 +8076,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs = &amp;",
+                                'TEST :model groups (ALL) : choice: maxOccurs = &',
                             ]
                         ),
                     ]
@@ -8084,13 +8084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgHb008.xsd"
+                        href='../msData/modelGroups/mgHb008.xsd'
                     ),
                 ],
                 expected=[
@@ -8102,9 +8102,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgHb008"
+                name='mgHb008'
             ),
-            name="mgHb008"
+            name='mgHb008'
         ),
         TestGroup(
             annotation=[
@@ -8112,7 +8112,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with no child node",
+                                'TEST :model groups (ALL) : choice: with no child node',
                             ]
                         ),
                     ]
@@ -8120,13 +8120,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI001.xsd"
+                        href='../msData/modelGroups/mgI001.xsd'
                     ),
                 ],
                 expected=[
@@ -8138,12 +8138,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI001"
+                name='mgI001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI001.xml"
+                        href='../msData/modelGroups/mgI001.xml'
                     ),
                     expected=[
                         Expected(
@@ -8154,10 +8154,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI001.v"
+                    name='mgI001.v'
                 ),
             ],
-            name="mgI001"
+            name='mgI001'
         ),
         TestGroup(
             annotation=[
@@ -8165,7 +8165,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with one annotation only",
+                                'TEST :model groups (ALL) : choice: with one annotation only',
                             ]
                         ),
                     ]
@@ -8173,13 +8173,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI002.xsd"
+                        href='../msData/modelGroups/mgI002.xsd'
                     ),
                 ],
                 expected=[
@@ -8191,12 +8191,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI002"
+                name='mgI002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI002.xml"
+                        href='../msData/modelGroups/mgI002.xml'
                     ),
                     expected=[
                         Expected(
@@ -8207,10 +8207,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI002.v"
+                    name='mgI002.v'
                 ),
             ],
-            name="mgI002"
+            name='mgI002'
         ),
         TestGroup(
             annotation=[
@@ -8218,7 +8218,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with two annotation",
+                                'TEST :model groups (ALL) : choice: with two annotation',
                             ]
                         ),
                     ]
@@ -8226,13 +8226,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI003.xsd"
+                        href='../msData/modelGroups/mgI003.xsd'
                     ),
                 ],
                 expected=[
@@ -8244,9 +8244,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI003"
+                name='mgI003'
             ),
-            name="mgI003"
+            name='mgI003'
         ),
         TestGroup(
             annotation=[
@@ -8254,7 +8254,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children annotation, element",
+                                'TEST :model groups (ALL) : choice: with children annotation, element',
                             ]
                         ),
                     ]
@@ -8262,13 +8262,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI004.xsd"
+                        href='../msData/modelGroups/mgI004.xsd'
                     ),
                 ],
                 expected=[
@@ -8280,12 +8280,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI004"
+                name='mgI004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI004.xml"
+                        href='../msData/modelGroups/mgI004.xml'
                     ),
                     expected=[
                         Expected(
@@ -8296,10 +8296,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI004.v"
+                    name='mgI004.v'
                 ),
             ],
-            name="mgI004"
+            name='mgI004'
         ),
         TestGroup(
             annotation=[
@@ -8307,7 +8307,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children annotation, group",
+                                'TEST :model groups (ALL) : choice: with children annotation, group',
                             ]
                         ),
                     ]
@@ -8315,13 +8315,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI005.xsd"
+                        href='../msData/modelGroups/mgI005.xsd'
                     ),
                 ],
                 expected=[
@@ -8333,12 +8333,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI005"
+                name='mgI005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI005.xml"
+                        href='../msData/modelGroups/mgI005.xml'
                     ),
                     expected=[
                         Expected(
@@ -8349,10 +8349,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI005.v"
+                    name='mgI005.v'
                 ),
             ],
-            name="mgI005"
+            name='mgI005'
         ),
         TestGroup(
             annotation=[
@@ -8360,7 +8360,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children annotation, choice",
+                                'TEST :model groups (ALL) : choice: with children annotation, choice',
                             ]
                         ),
                     ]
@@ -8368,13 +8368,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI006.xsd"
+                        href='../msData/modelGroups/mgI006.xsd'
                     ),
                 ],
                 expected=[
@@ -8386,12 +8386,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI006"
+                name='mgI006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI006.xml"
+                        href='../msData/modelGroups/mgI006.xml'
                     ),
                     expected=[
                         Expected(
@@ -8402,10 +8402,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI006.v"
+                    name='mgI006.v'
                 ),
             ],
-            name="mgI006"
+            name='mgI006'
         ),
         TestGroup(
             annotation=[
@@ -8413,7 +8413,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children annotation, sequence",
+                                'TEST :model groups (ALL) : choice: with children annotation, sequence',
                             ]
                         ),
                     ]
@@ -8421,13 +8421,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI007.xsd"
+                        href='../msData/modelGroups/mgI007.xsd'
                     ),
                 ],
                 expected=[
@@ -8439,12 +8439,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI007"
+                name='mgI007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI007.xml"
+                        href='../msData/modelGroups/mgI007.xml'
                     ),
                     expected=[
                         Expected(
@@ -8455,10 +8455,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI007.v"
+                    name='mgI007.v'
                 ),
             ],
-            name="mgI007"
+            name='mgI007'
         ),
         TestGroup(
             annotation=[
@@ -8466,7 +8466,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children annotation, any",
+                                'TEST :model groups (ALL) : choice: with children annotation, any',
                             ]
                         ),
                     ]
@@ -8474,13 +8474,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI008.xsd"
+                        href='../msData/modelGroups/mgI008.xsd'
                     ),
                 ],
                 expected=[
@@ -8492,12 +8492,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI008"
+                name='mgI008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI008.xml"
+                        href='../msData/modelGroups/mgI008.xml'
                     ),
                     expected=[
                         Expected(
@@ -8508,10 +8508,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI008.v"
+                    name='mgI008.v'
                 ),
             ],
-            name="mgI008"
+            name='mgI008'
         ),
         TestGroup(
             annotation=[
@@ -8519,7 +8519,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children annotation, element, group, choice, sequence, any",
+                                'TEST :model groups (ALL) : choice: with children annotation, element, group, choice, sequence, any',
                             ]
                         ),
                     ]
@@ -8527,13 +8527,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI009.xsd"
+                        href='../msData/modelGroups/mgI009.xsd'
                     ),
                 ],
                 expected=[
@@ -8545,12 +8545,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI009"
+                name='mgI009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI009.xml"
+                        href='../msData/modelGroups/mgI009.xml'
                     ),
                     expected=[
                         Expected(
@@ -8561,10 +8561,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI009.v"
+                    name='mgI009.v'
                 ),
             ],
-            name="mgI009"
+            name='mgI009'
         ),
         TestGroup(
             annotation=[
@@ -8572,7 +8572,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children element, any, sequence, choice, group",
+                                'TEST :model groups (ALL) : choice: with children element, any, sequence, choice, group',
                             ]
                         ),
                     ]
@@ -8580,13 +8580,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI010.xsd"
+                        href='../msData/modelGroups/mgI010.xsd'
                     ),
                 ],
                 expected=[
@@ -8598,12 +8598,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI010"
+                name='mgI010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI010.xml"
+                        href='../msData/modelGroups/mgI010.xml'
                     ),
                     expected=[
                         Expected(
@@ -8614,10 +8614,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI010.v"
+                    name='mgI010.v'
                 ),
             ],
-            name="mgI010"
+            name='mgI010'
         ),
         TestGroup(
             annotation=[
@@ -8625,7 +8625,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children group, any, choice, element, sequence",
+                                'TEST :model groups (ALL) : choice: with children group, any, choice, element, sequence',
                             ]
                         ),
                     ]
@@ -8633,13 +8633,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI011.xsd"
+                        href='../msData/modelGroups/mgI011.xsd'
                     ),
                 ],
                 expected=[
@@ -8651,12 +8651,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI011"
+                name='mgI011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI011.xml"
+                        href='../msData/modelGroups/mgI011.xml'
                     ),
                     expected=[
                         Expected(
@@ -8667,10 +8667,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI011.v"
+                    name='mgI011.v'
                 ),
             ],
-            name="mgI011"
+            name='mgI011'
         ),
         TestGroup(
             annotation=[
@@ -8678,7 +8678,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children choice, any, group, sequence, element",
+                                'TEST :model groups (ALL) : choice: with children choice, any, group, sequence, element',
                             ]
                         ),
                     ]
@@ -8686,13 +8686,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI012.xsd"
+                        href='../msData/modelGroups/mgI012.xsd'
                     ),
                 ],
                 expected=[
@@ -8704,12 +8704,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI012"
+                name='mgI012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI012.xml"
+                        href='../msData/modelGroups/mgI012.xml'
                     ),
                     expected=[
                         Expected(
@@ -8720,10 +8720,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI012.v"
+                    name='mgI012.v'
                 ),
             ],
-            name="mgI012"
+            name='mgI012'
         ),
         TestGroup(
             annotation=[
@@ -8731,7 +8731,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children sequence, group, choice, element, any",
+                                'TEST :model groups (ALL) : choice: with children sequence, group, choice, element, any',
                             ]
                         ),
                     ]
@@ -8739,13 +8739,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI013.xsd"
+                        href='../msData/modelGroups/mgI013.xsd'
                     ),
                 ],
                 expected=[
@@ -8757,12 +8757,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI013"
+                name='mgI013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI013.xml"
+                        href='../msData/modelGroups/mgI013.xml'
                     ),
                     expected=[
                         Expected(
@@ -8773,10 +8773,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI013.v"
+                    name='mgI013.v'
                 ),
             ],
-            name="mgI013"
+            name='mgI013'
         ),
         TestGroup(
             annotation=[
@@ -8784,7 +8784,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children any, sequence, group, element, choice",
+                                'TEST :model groups (ALL) : choice: with children any, sequence, group, element, choice',
                             ]
                         ),
                     ]
@@ -8792,13 +8792,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI014.xsd"
+                        href='../msData/modelGroups/mgI014.xsd'
                     ),
                 ],
                 expected=[
@@ -8810,12 +8810,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI014"
+                name='mgI014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI014.xml"
+                        href='../msData/modelGroups/mgI014.xml'
                     ),
                     expected=[
                         Expected(
@@ -8826,10 +8826,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI014.v"
+                    name='mgI014.v'
                 ),
             ],
-            name="mgI014"
+            name='mgI014'
         ),
         TestGroup(
             annotation=[
@@ -8837,7 +8837,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children 4 elements, 4 groups",
+                                'TEST :model groups (ALL) : choice: with children 4 elements, 4 groups',
                             ]
                         ),
                     ]
@@ -8845,13 +8845,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI015.xsd"
+                        href='../msData/modelGroups/mgI015.xsd'
                     ),
                 ],
                 expected=[
@@ -8863,12 +8863,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI015"
+                name='mgI015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI015.xml"
+                        href='../msData/modelGroups/mgI015.xml'
                     ),
                     expected=[
                         Expected(
@@ -8879,10 +8879,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI015.v"
+                    name='mgI015.v'
                 ),
             ],
-            name="mgI015"
+            name='mgI015'
         ),
         TestGroup(
             annotation=[
@@ -8890,7 +8890,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children 4 groups, 4 choice",
+                                'TEST :model groups (ALL) : choice: with children 4 groups, 4 choice',
                             ]
                         ),
                     ]
@@ -8898,13 +8898,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI016.xsd"
+                        href='../msData/modelGroups/mgI016.xsd'
                     ),
                 ],
                 expected=[
@@ -8916,12 +8916,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI016"
+                name='mgI016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI016.xml"
+                        href='../msData/modelGroups/mgI016.xml'
                     ),
                     expected=[
                         Expected(
@@ -8932,10 +8932,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI016.v"
+                    name='mgI016.v'
                 ),
             ],
-            name="mgI016"
+            name='mgI016'
         ),
         TestGroup(
             annotation=[
@@ -8943,7 +8943,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children 4 choice, 4 sequence",
+                                'TEST :model groups (ALL) : choice: with children 4 choice, 4 sequence',
                             ]
                         ),
                     ]
@@ -8951,13 +8951,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI017.xsd"
+                        href='../msData/modelGroups/mgI017.xsd'
                     ),
                 ],
                 expected=[
@@ -8969,12 +8969,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI017"
+                name='mgI017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI017.xml"
+                        href='../msData/modelGroups/mgI017.xml'
                     ),
                     expected=[
                         Expected(
@@ -8985,10 +8985,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI017.v"
+                    name='mgI017.v'
                 ),
             ],
-            name="mgI017"
+            name='mgI017'
         ),
         TestGroup(
             annotation=[
@@ -8996,7 +8996,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children 4 sequence, 4 any",
+                                'TEST :model groups (ALL) : choice: with children 4 sequence, 4 any',
                             ]
                         ),
                     ]
@@ -9004,13 +9004,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI018.xsd"
+                        href='../msData/modelGroups/mgI018.xsd'
                     ),
                 ],
                 expected=[
@@ -9022,12 +9022,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI018"
+                name='mgI018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI018.xml"
+                        href='../msData/modelGroups/mgI018.xml'
                     ),
                     expected=[
                         Expected(
@@ -9038,10 +9038,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI018.v"
+                    name='mgI018.v'
                 ),
             ],
-            name="mgI018"
+            name='mgI018'
         ),
         TestGroup(
             annotation=[
@@ -9049,7 +9049,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children 4 any, 4 elements",
+                                'TEST :model groups (ALL) : choice: with children 4 any, 4 elements',
                             ]
                         ),
                     ]
@@ -9057,13 +9057,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI019.xsd"
+                        href='../msData/modelGroups/mgI019.xsd'
                     ),
                 ],
                 expected=[
@@ -9075,12 +9075,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI019"
+                name='mgI019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgI019.xml"
+                        href='../msData/modelGroups/mgI019.xml'
                     ),
                     expected=[
                         Expected(
@@ -9091,10 +9091,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgI019.v"
+                    name='mgI019.v'
                 ),
             ],
-            name="mgI019"
+            name='mgI019'
         ),
         TestGroup(
             annotation=[
@@ -9102,7 +9102,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children element, annotation",
+                                'TEST :model groups (ALL) : choice: with children element, annotation',
                             ]
                         ),
                     ]
@@ -9110,13 +9110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI020.xsd"
+                        href='../msData/modelGroups/mgI020.xsd'
                     ),
                 ],
                 expected=[
@@ -9128,9 +9128,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI020"
+                name='mgI020'
             ),
-            name="mgI020"
+            name='mgI020'
         ),
         TestGroup(
             annotation=[
@@ -9138,7 +9138,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children group, annotation",
+                                'TEST :model groups (ALL) : choice: with children group, annotation',
                             ]
                         ),
                     ]
@@ -9146,13 +9146,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI021.xsd"
+                        href='../msData/modelGroups/mgI021.xsd'
                     ),
                 ],
                 expected=[
@@ -9164,9 +9164,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI021"
+                name='mgI021'
             ),
-            name="mgI021"
+            name='mgI021'
         ),
         TestGroup(
             annotation=[
@@ -9174,7 +9174,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children choice, annotation",
+                                'TEST :model groups (ALL) : choice: with children choice, annotation',
                             ]
                         ),
                     ]
@@ -9182,13 +9182,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI022.xsd"
+                        href='../msData/modelGroups/mgI022.xsd'
                     ),
                 ],
                 expected=[
@@ -9200,9 +9200,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI022"
+                name='mgI022'
             ),
-            name="mgI022"
+            name='mgI022'
         ),
         TestGroup(
             annotation=[
@@ -9210,7 +9210,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with children sequence, annotation",
+                                'TEST :model groups (ALL) : choice: with children sequence, annotation',
                             ]
                         ),
                     ]
@@ -9218,13 +9218,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgI023.xsd"
+                        href='../msData/modelGroups/mgI023.xsd'
                     ),
                 ],
                 expected=[
@@ -9236,9 +9236,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgI023"
+                name='mgI023'
             ),
-            name="mgI023"
+            name='mgI023'
         ),
         TestGroup(
             annotation=[
@@ -9246,7 +9246,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9254,13 +9254,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ002.xsd"
+                        href='../msData/modelGroups/mgJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -9272,9 +9272,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ002"
+                name='mgJ002'
             ),
-            name="mgJ002"
+            name='mgJ002'
         ),
         TestGroup(
             annotation=[
@@ -9282,7 +9282,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9290,13 +9290,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ003.xsd"
+                        href='../msData/modelGroups/mgJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -9308,12 +9308,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ003"
+                name='mgJ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ003.xml"
+                        href='../msData/modelGroups/mgJ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -9324,10 +9324,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ003.i"
+                    name='mgJ003.i'
                 ),
             ],
-            name="mgJ003"
+            name='mgJ003'
         ),
         TestGroup(
             annotation=[
@@ -9335,7 +9335,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9343,13 +9343,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ004.xsd"
+                        href='../msData/modelGroups/mgJ004.xsd'
                     ),
                 ],
                 expected=[
@@ -9361,12 +9361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ004"
+                name='mgJ004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ004.xml"
+                        href='../msData/modelGroups/mgJ004.xml'
                     ),
                     expected=[
                         Expected(
@@ -9377,10 +9377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ004.v"
+                    name='mgJ004.v'
                 ),
             ],
-            name="mgJ004"
+            name='mgJ004'
         ),
         TestGroup(
             annotation=[
@@ -9388,7 +9388,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9396,13 +9396,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ005.xsd"
+                        href='../msData/modelGroups/mgJ005.xsd'
                     ),
                 ],
                 expected=[
@@ -9414,12 +9414,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ005"
+                name='mgJ005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ005.xml"
+                        href='../msData/modelGroups/mgJ005.xml'
                     ),
                     expected=[
                         Expected(
@@ -9430,10 +9430,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ005.i"
+                    name='mgJ005.i'
                 ),
             ],
-            name="mgJ005"
+            name='mgJ005'
         ),
         TestGroup(
             annotation=[
@@ -9441,7 +9441,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9449,13 +9449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ006.xsd"
+                        href='../msData/modelGroups/mgJ006.xsd'
                     ),
                 ],
                 expected=[
@@ -9467,12 +9467,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ006"
+                name='mgJ006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ006.xml"
+                        href='../msData/modelGroups/mgJ006.xml'
                     ),
                     expected=[
                         Expected(
@@ -9483,10 +9483,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ006.v"
+                    name='mgJ006.v'
                 ),
             ],
-            name="mgJ006"
+            name='mgJ006'
         ),
         TestGroup(
             annotation=[
@@ -9494,7 +9494,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9502,13 +9502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ007.xsd"
+                        href='../msData/modelGroups/mgJ007.xsd'
                     ),
                 ],
                 expected=[
@@ -9520,12 +9520,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ007"
+                name='mgJ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ007.xml"
+                        href='../msData/modelGroups/mgJ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -9536,10 +9536,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ007.v"
+                    name='mgJ007.v'
                 ),
             ],
-            name="mgJ007"
+            name='mgJ007'
         ),
         TestGroup(
             annotation=[
@@ -9547,7 +9547,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9555,13 +9555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ008.xsd"
+                        href='../msData/modelGroups/mgJ008.xsd'
                     ),
                 ],
                 expected=[
@@ -9573,12 +9573,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ008"
+                name='mgJ008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ008.xml"
+                        href='../msData/modelGroups/mgJ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -9589,10 +9589,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ008.i"
+                    name='mgJ008.i'
                 ),
             ],
-            name="mgJ008"
+            name='mgJ008'
         ),
         TestGroup(
             annotation=[
@@ -9600,7 +9600,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -9608,13 +9608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ009.xsd"
+                        href='../msData/modelGroups/mgJ009.xsd'
                     ),
                 ],
                 expected=[
@@ -9626,12 +9626,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ009"
+                name='mgJ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ009.xml"
+                        href='../msData/modelGroups/mgJ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -9642,10 +9642,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ009.v"
+                    name='mgJ009.v'
                 ),
             ],
-            name="mgJ009"
+            name='mgJ009'
         ),
         TestGroup(
             annotation=[
@@ -9653,7 +9653,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -9661,13 +9661,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ010.xsd"
+                        href='../msData/modelGroups/mgJ010.xsd'
                     ),
                 ],
                 expected=[
@@ -9679,12 +9679,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ010"
+                name='mgJ010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ010.xml"
+                        href='../msData/modelGroups/mgJ010.xml'
                     ),
                     expected=[
                         Expected(
@@ -9695,10 +9695,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ010.v"
+                    name='mgJ010.v'
                 ),
             ],
-            name="mgJ010"
+            name='mgJ010'
         ),
         TestGroup(
             annotation=[
@@ -9706,7 +9706,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -9714,13 +9714,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ011.xsd"
+                        href='../msData/modelGroups/mgJ011.xsd'
                     ),
                 ],
                 expected=[
@@ -9732,12 +9732,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ011"
+                name='mgJ011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ011.xml"
+                        href='../msData/modelGroups/mgJ011.xml'
                     ),
                     expected=[
                         Expected(
@@ -9748,10 +9748,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ011.i"
+                    name='mgJ011.i'
                 ),
             ],
-            name="mgJ011"
+            name='mgJ011'
         ),
         TestGroup(
             annotation=[
@@ -9759,7 +9759,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -9767,13 +9767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ012.xsd"
+                        href='../msData/modelGroups/mgJ012.xsd'
                     ),
                 ],
                 expected=[
@@ -9785,12 +9785,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ012"
+                name='mgJ012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ012.xml"
+                        href='../msData/modelGroups/mgJ012.xml'
                     ),
                     expected=[
                         Expected(
@@ -9801,10 +9801,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ012.v"
+                    name='mgJ012.v'
                 ),
             ],
-            name="mgJ012"
+            name='mgJ012'
         ),
         TestGroup(
             annotation=[
@@ -9812,7 +9812,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -9820,13 +9820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ013.xsd"
+                        href='../msData/modelGroups/mgJ013.xsd'
                     ),
                 ],
                 expected=[
@@ -9838,12 +9838,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ013"
+                name='mgJ013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ013.xml"
+                        href='../msData/modelGroups/mgJ013.xml'
                     ),
                     expected=[
                         Expected(
@@ -9854,10 +9854,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ013.i"
+                    name='mgJ013.i'
                 ),
             ],
-            name="mgJ013"
+            name='mgJ013'
         ),
         TestGroup(
             annotation=[
@@ -9865,7 +9865,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999',
                             ]
                         ),
                     ]
@@ -9873,13 +9873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ014.xsd"
+                        href='../msData/modelGroups/mgJ014.xsd'
                     ),
                 ],
                 expected=[
@@ -9891,12 +9891,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ014"
+                name='mgJ014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ014.xml"
+                        href='../msData/modelGroups/mgJ014.xml'
                     ),
                     expected=[
                         Expected(
@@ -9907,10 +9907,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ014.v"
+                    name='mgJ014.v'
                 ),
             ],
-            name="mgJ014"
+            name='mgJ014'
         ),
         TestGroup(
             annotation=[
@@ -9918,7 +9918,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9926,13 +9926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ015.xsd"
+                        href='../msData/modelGroups/mgJ015.xsd'
                     ),
                 ],
                 expected=[
@@ -9944,12 +9944,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ015"
+                name='mgJ015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ015.xml"
+                        href='../msData/modelGroups/mgJ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -9960,10 +9960,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ015.i"
+                    name='mgJ015.i'
                 ),
             ],
-            name="mgJ015"
+            name='mgJ015'
         ),
         TestGroup(
             annotation=[
@@ -9971,7 +9971,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -9979,13 +9979,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ016.xsd"
+                        href='../msData/modelGroups/mgJ016.xsd'
                     ),
                 ],
                 expected=[
@@ -9997,12 +9997,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ016"
+                name='mgJ016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ016.xml"
+                        href='../msData/modelGroups/mgJ016.xml'
                     ),
                     expected=[
                         Expected(
@@ -10013,10 +10013,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ016.v"
+                    name='mgJ016.v'
                 ),
             ],
-            name="mgJ016"
+            name='mgJ016'
         ),
         TestGroup(
             annotation=[
@@ -10024,7 +10024,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -10032,13 +10032,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ017.xsd"
+                        href='../msData/modelGroups/mgJ017.xsd'
                     ),
                 ],
                 expected=[
@@ -10050,12 +10050,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ017"
+                name='mgJ017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ017.xml"
+                        href='../msData/modelGroups/mgJ017.xml'
                     ),
                     expected=[
                         Expected(
@@ -10066,10 +10066,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ017.i"
+                    name='mgJ017.i'
                 ),
             ],
-            name="mgJ017"
+            name='mgJ017'
         ),
         TestGroup(
             annotation=[
@@ -10077,7 +10077,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -10085,13 +10085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ018.xsd"
+                        href='../msData/modelGroups/mgJ018.xsd'
                     ),
                 ],
                 expected=[
@@ -10103,12 +10103,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ018"
+                name='mgJ018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ018.xml"
+                        href='../msData/modelGroups/mgJ018.xml'
                     ),
                     expected=[
                         Expected(
@@ -10119,10 +10119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ018.i"
+                    name='mgJ018.i'
                 ),
             ],
-            name="mgJ018"
+            name='mgJ018'
         ),
         TestGroup(
             annotation=[
@@ -10130,7 +10130,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -10138,13 +10138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ019.xsd"
+                        href='../msData/modelGroups/mgJ019.xsd'
                     ),
                 ],
                 expected=[
@@ -10156,12 +10156,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ019"
+                name='mgJ019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ019.xml"
+                        href='../msData/modelGroups/mgJ019.xml'
                     ),
                     expected=[
                         Expected(
@@ -10172,10 +10172,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ019.v"
+                    name='mgJ019.v'
                 ),
             ],
-            name="mgJ019"
+            name='mgJ019'
         ),
         TestGroup(
             annotation=[
@@ -10183,7 +10183,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -10191,13 +10191,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ020.xsd"
+                        href='../msData/modelGroups/mgJ020.xsd'
                     ),
                 ],
                 expected=[
@@ -10209,12 +10209,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ020"
+                name='mgJ020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ020.xml"
+                        href='../msData/modelGroups/mgJ020.xml'
                     ),
                     expected=[
                         Expected(
@@ -10225,10 +10225,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ020.i"
+                    name='mgJ020.i'
                 ),
             ],
-            name="mgJ020"
+            name='mgJ020'
         ),
         TestGroup(
             annotation=[
@@ -10236,7 +10236,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -10244,13 +10244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ021.xsd"
+                        href='../msData/modelGroups/mgJ021.xsd'
                     ),
                 ],
                 expected=[
@@ -10262,12 +10262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ021"
+                name='mgJ021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ021.xml"
+                        href='../msData/modelGroups/mgJ021.xml'
                     ),
                     expected=[
                         Expected(
@@ -10278,10 +10278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ021.i"
+                    name='mgJ021.i'
                 ),
             ],
-            name="mgJ021"
+            name='mgJ021'
         ),
         TestGroup(
             annotation=[
@@ -10289,7 +10289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -10297,13 +10297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ022.xsd"
+                        href='../msData/modelGroups/mgJ022.xsd'
                     ),
                 ],
                 expected=[
@@ -10315,12 +10315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ022"
+                name='mgJ022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ022.xml"
+                        href='../msData/modelGroups/mgJ022.xml'
                     ),
                     expected=[
                         Expected(
@@ -10331,10 +10331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ022.v"
+                    name='mgJ022.v'
                 ),
             ],
-            name="mgJ022"
+            name='mgJ022'
         ),
         TestGroup(
             annotation=[
@@ -10342,7 +10342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -10350,13 +10350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ023.xsd"
+                        href='../msData/modelGroups/mgJ023.xsd'
                     ),
                 ],
                 expected=[
@@ -10368,12 +10368,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ023"
+                name='mgJ023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ023.xml"
+                        href='../msData/modelGroups/mgJ023.xml'
                     ),
                     expected=[
                         Expected(
@@ -10384,10 +10384,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ023.v"
+                    name='mgJ023.v'
                 ),
             ],
-            name="mgJ023"
+            name='mgJ023'
         ),
         TestGroup(
             annotation=[
@@ -10395,7 +10395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -10403,13 +10403,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ024.xsd"
+                        href='../msData/modelGroups/mgJ024.xsd'
                     ),
                 ],
                 expected=[
@@ -10421,12 +10421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ024"
+                name='mgJ024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ024.xml"
+                        href='../msData/modelGroups/mgJ024.xml'
                     ),
                     expected=[
                         Expected(
@@ -10437,10 +10437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ024.i"
+                    name='mgJ024.i'
                 ),
             ],
-            name="mgJ024"
+            name='mgJ024'
         ),
         TestGroup(
             annotation=[
@@ -10448,7 +10448,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :model groups (ALL) : choice: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -10456,13 +10456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ025.xsd"
+                        href='../msData/modelGroups/mgJ025.xsd'
                     ),
                 ],
                 expected=[
@@ -10474,9 +10474,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ025"
+                name='mgJ025'
             ),
-            name="mgJ025"
+            name='mgJ025'
         ),
         TestGroup(
             annotation=[
@@ -10484,7 +10484,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :model groups (ALL) : choice: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -10492,13 +10492,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ026.xsd"
+                        href='../msData/modelGroups/mgJ026.xsd'
                     ),
                 ],
                 expected=[
@@ -10510,12 +10510,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ026"
+                name='mgJ026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgJ026.xml"
+                        href='../msData/modelGroups/mgJ026.xml'
                     ),
                     expected=[
                         Expected(
@@ -10526,10 +10526,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgJ026.v"
+                    name='mgJ026.v'
                 ),
             ],
-            name="mgJ026"
+            name='mgJ026'
         ),
         TestGroup(
             annotation=[
@@ -10537,7 +10537,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs=2, maxOccurs=1",
+                                'TEST :model groups (ALL) : choice: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -10545,13 +10545,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ027.xsd"
+                        href='../msData/modelGroups/mgJ027.xsd'
                     ),
                 ],
                 expected=[
@@ -10563,9 +10563,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ027"
+                name='mgJ027'
             ),
-            name="mgJ027"
+            name='mgJ027'
         ),
         TestGroup(
             annotation=[
@@ -10573,7 +10573,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs=1, maxOccurs=0",
+                                'TEST :model groups (ALL) : choice: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -10581,13 +10581,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ028.xsd"
+                        href='../msData/modelGroups/mgJ028.xsd'
                     ),
                 ],
                 expected=[
@@ -10599,9 +10599,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ028"
+                name='mgJ028'
             ),
-            name="mgJ028"
+            name='mgJ028'
         ),
         TestGroup(
             annotation=[
@@ -10609,7 +10609,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: minOccurs=-1",
+                                'TEST :model groups (ALL) : choice: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -10617,13 +10617,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ029.xsd"
+                        href='../msData/modelGroups/mgJ029.xsd'
                     ),
                 ],
                 expected=[
@@ -10635,9 +10635,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ029"
+                name='mgJ029'
             ),
-            name="mgJ029"
+            name='mgJ029'
         ),
         TestGroup(
             annotation=[
@@ -10645,7 +10645,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: maxOccurs=-1",
+                                'TEST :model groups (ALL) : choice: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -10653,13 +10653,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgJ030.xsd"
+                        href='../msData/modelGroups/mgJ030.xsd'
                     ),
                 ],
                 expected=[
@@ -10671,9 +10671,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgJ030"
+                name='mgJ030'
             ),
-            name="mgJ030"
+            name='mgJ030'
         ),
         TestGroup(
             annotation=[
@@ -10681,7 +10681,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with NO elements (max=min=absent), 0 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with NO elements (max=min=absent), 0 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -10689,13 +10689,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK001.xsd"
+                        href='../msData/modelGroups/mgK001.xsd'
                     ),
                 ],
                 expected=[
@@ -10707,12 +10707,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK001"
+                name='mgK001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK001.xml"
+                        href='../msData/modelGroups/mgK001.xml'
                     ),
                     expected=[
                         Expected(
@@ -10723,10 +10723,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK001.v"
+                    name='mgK001.v'
                 ),
             ],
-            name="mgK001"
+            name='mgK001'
         ),
         TestGroup(
             annotation=[
@@ -10734,7 +10734,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with NO elements, 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with NO elements, 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -10742,13 +10742,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK002.xsd"
+                        href='../msData/modelGroups/mgK002.xsd'
                     ),
                 ],
                 expected=[
@@ -10760,12 +10760,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK002"
+                name='mgK002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK002.xml"
+                        href='../msData/modelGroups/mgK002.xml'
                     ),
                     expected=[
                         Expected(
@@ -10776,10 +10776,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK002.i"
+                    name='mgK002.i'
                 ),
             ],
-            name="mgK002"
+            name='mgK002'
         ),
         TestGroup(
             annotation=[
@@ -10787,7 +10787,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 1 elements, 0 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with 1 elements, 0 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -10795,13 +10795,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK003.xsd"
+                        href='../msData/modelGroups/mgK003.xsd'
                     ),
                 ],
                 expected=[
@@ -10813,12 +10813,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK003"
+                name='mgK003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK003.xml"
+                        href='../msData/modelGroups/mgK003.xml'
                     ),
                     expected=[
                         Expected(
@@ -10829,10 +10829,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK003.i"
+                    name='mgK003.i'
                 ),
             ],
-            name="mgK003"
+            name='mgK003'
         ),
         TestGroup(
             annotation=[
@@ -10840,7 +10840,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 1 elements, 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with 1 elements, 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -10848,13 +10848,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK004.xsd"
+                        href='../msData/modelGroups/mgK004.xsd'
                     ),
                 ],
                 expected=[
@@ -10866,12 +10866,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK004"
+                name='mgK004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK004.xml"
+                        href='../msData/modelGroups/mgK004.xml'
                     ),
                     expected=[
                         Expected(
@@ -10882,10 +10882,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK004.v"
+                    name='mgK004.v'
                 ),
             ],
-            name="mgK004"
+            name='mgK004'
         ),
         TestGroup(
             annotation=[
@@ -10893,7 +10893,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 1 elements, 2 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with 1 elements, 2 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -10901,13 +10901,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK005.xsd"
+                        href='../msData/modelGroups/mgK005.xsd'
                     ),
                 ],
                 expected=[
@@ -10919,12 +10919,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK005"
+                name='mgK005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK005.xml"
+                        href='../msData/modelGroups/mgK005.xml'
                     ),
                     expected=[
                         Expected(
@@ -10935,10 +10935,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK005.i"
+                    name='mgK005.i'
                 ),
             ],
-            name="mgK005"
+            name='mgK005'
         ),
         TestGroup(
             annotation=[
@@ -10946,7 +10946,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 2 elements, only the 1st element is specified in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with 2 elements, only the 1st element is specified in the instant XML doc',
                             ]
                         ),
                     ]
@@ -10954,13 +10954,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK006.xsd"
+                        href='../msData/modelGroups/mgK006.xsd'
                     ),
                 ],
                 expected=[
@@ -10972,12 +10972,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK006"
+                name='mgK006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK006.xml"
+                        href='../msData/modelGroups/mgK006.xml'
                     ),
                     expected=[
                         Expected(
@@ -10988,10 +10988,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK006.i"
+                    name='mgK006.i'
                 ),
             ],
-            name="mgK006"
+            name='mgK006'
         ),
         TestGroup(
             annotation=[
@@ -10999,7 +10999,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 2 elements, the elements are not in the defined order",
+                                'TEST :model groups (ALL) : sequence: with 2 elements, the elements are not in the defined order',
                             ]
                         ),
                     ]
@@ -11007,13 +11007,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK007.xsd"
+                        href='../msData/modelGroups/mgK007.xsd'
                     ),
                 ],
                 expected=[
@@ -11025,12 +11025,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK007"
+                name='mgK007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK007.xml"
+                        href='../msData/modelGroups/mgK007.xml'
                     ),
                     expected=[
                         Expected(
@@ -11041,10 +11041,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK007.i"
+                    name='mgK007.i'
                 ),
             ],
-            name="mgK007"
+            name='mgK007'
         ),
         TestGroup(
             annotation=[
@@ -11052,7 +11052,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 2 elements, 3 elements is specified in the instant XML doc",
+                                'TEST :model groups (ALL) : sequence: with 2 elements, 3 elements is specified in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11060,13 +11060,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK008.xsd"
+                        href='../msData/modelGroups/mgK008.xsd'
                     ),
                 ],
                 expected=[
@@ -11078,12 +11078,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK008"
+                name='mgK008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK008.xml"
+                        href='../msData/modelGroups/mgK008.xml'
                     ),
                     expected=[
                         Expected(
@@ -11094,10 +11094,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK008.i"
+                    name='mgK008.i'
                 ),
             ],
-            name="mgK008"
+            name='mgK008'
         ),
         TestGroup(
             annotation=[
@@ -11105,7 +11105,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 5 elements, all elements appeared and are in defined order",
+                                'TEST :model groups (ALL) : sequence: with 5 elements, all elements appeared and are in defined order',
                             ]
                         ),
                     ]
@@ -11113,13 +11113,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK009.xsd"
+                        href='../msData/modelGroups/mgK009.xsd'
                     ),
                 ],
                 expected=[
@@ -11131,12 +11131,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK009"
+                name='mgK009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK009.xml"
+                        href='../msData/modelGroups/mgK009.xml'
                     ),
                     expected=[
                         Expected(
@@ -11147,10 +11147,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK009.v"
+                    name='mgK009.v'
                 ),
             ],
-            name="mgK009"
+            name='mgK009'
         ),
         TestGroup(
             annotation=[
@@ -11158,7 +11158,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence: with 5 elements, the last 2 elements are not in the defined order",
+                                'TEST :model groups (ALL) : sequence: with 5 elements, the last 2 elements are not in the defined order',
                             ]
                         ),
                     ]
@@ -11166,13 +11166,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgK010.xsd"
+                        href='../msData/modelGroups/mgK010.xsd'
                     ),
                 ],
                 expected=[
@@ -11184,12 +11184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgK010"
+                name='mgK010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgK010.xml"
+                        href='../msData/modelGroups/mgK010.xml'
                     ),
                     expected=[
                         Expected(
@@ -11200,10 +11200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgK010.i"
+                    name='mgK010.i'
                 ),
             ],
-            name="mgK010"
+            name='mgK010'
         ),
         TestGroup(
             annotation=[
@@ -11211,7 +11211,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with NO elements (max=min=absent), 0 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with NO elements (max=min=absent), 0 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11219,13 +11219,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL001.xsd"
+                        href='../msData/modelGroups/mgL001.xsd'
                     ),
                 ],
                 expected=[
@@ -11237,12 +11237,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL001"
+                name='mgL001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL001.xml"
+                        href='../msData/modelGroups/mgL001.xml'
                     ),
                     expected=[
                         Expected(
@@ -11253,10 +11253,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL001.v"
+                    name='mgL001.v'
                 ),
             ],
-            name="mgL001"
+            name='mgL001'
         ),
         TestGroup(
             annotation=[
@@ -11264,7 +11264,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with NO elements, 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with NO elements, 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11272,13 +11272,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL002.xsd"
+                        href='../msData/modelGroups/mgL002.xsd'
                     ),
                 ],
                 expected=[
@@ -11290,12 +11290,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL002"
+                name='mgL002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL002.xml"
+                        href='../msData/modelGroups/mgL002.xml'
                     ),
                     expected=[
                         Expected(
@@ -11306,10 +11306,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL002.i"
+                    name='mgL002.i'
                 ),
             ],
-            name="mgL002"
+            name='mgL002'
         ),
         TestGroup(
             annotation=[
@@ -11317,7 +11317,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 1 elements, 0 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 1 elements, 0 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11325,13 +11325,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL003.xsd"
+                        href='../msData/modelGroups/mgL003.xsd'
                     ),
                 ],
                 expected=[
@@ -11343,12 +11343,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL003"
+                name='mgL003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL003.xml"
+                        href='../msData/modelGroups/mgL003.xml'
                     ),
                     expected=[
                         Expected(
@@ -11359,10 +11359,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL003.i"
+                    name='mgL003.i'
                 ),
             ],
-            name="mgL003"
+            name='mgL003'
         ),
         TestGroup(
             annotation=[
@@ -11370,7 +11370,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 1 elements, 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 1 elements, 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11378,13 +11378,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL004.xsd"
+                        href='../msData/modelGroups/mgL004.xsd'
                     ),
                 ],
                 expected=[
@@ -11396,12 +11396,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL004"
+                name='mgL004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL004.xml"
+                        href='../msData/modelGroups/mgL004.xml'
                     ),
                     expected=[
                         Expected(
@@ -11412,10 +11412,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL004.v"
+                    name='mgL004.v'
                 ),
             ],
-            name="mgL004"
+            name='mgL004'
         ),
         TestGroup(
             annotation=[
@@ -11423,7 +11423,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 1 elements, 2 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 1 elements, 2 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11431,13 +11431,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL005.xsd"
+                        href='../msData/modelGroups/mgL005.xsd'
                     ),
                 ],
                 expected=[
@@ -11449,12 +11449,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL005"
+                name='mgL005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL005.xml"
+                        href='../msData/modelGroups/mgL005.xml'
                     ),
                     expected=[
                         Expected(
@@ -11465,10 +11465,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL005.i"
+                    name='mgL005.i'
                 ),
             ],
-            name="mgL005"
+            name='mgL005'
         ),
         TestGroup(
             annotation=[
@@ -11476,7 +11476,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 2 elements, 1 element in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 2 elements, 1 element in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11484,13 +11484,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL006.xsd"
+                        href='../msData/modelGroups/mgL006.xsd'
                     ),
                 ],
                 expected=[
@@ -11502,12 +11502,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL006"
+                name='mgL006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL006.xml"
+                        href='../msData/modelGroups/mgL006.xml'
                     ),
                     expected=[
                         Expected(
@@ -11518,10 +11518,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL006.v"
+                    name='mgL006.v'
                 ),
             ],
-            name="mgL006"
+            name='mgL006'
         ),
         TestGroup(
             annotation=[
@@ -11529,7 +11529,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 2 elements, 2 element in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 2 elements, 2 element in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11537,13 +11537,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL007.xsd"
+                        href='../msData/modelGroups/mgL007.xsd'
                     ),
                 ],
                 expected=[
@@ -11555,12 +11555,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL007"
+                name='mgL007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL007.xml"
+                        href='../msData/modelGroups/mgL007.xml'
                     ),
                     expected=[
                         Expected(
@@ -11571,10 +11571,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL007.i"
+                    name='mgL007.i'
                 ),
             ],
-            name="mgL007"
+            name='mgL007'
         ),
         TestGroup(
             annotation=[
@@ -11582,7 +11582,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 5 elements, 0 element in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 5 elements, 0 element in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11590,13 +11590,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL008.xsd"
+                        href='../msData/modelGroups/mgL008.xsd'
                     ),
                 ],
                 expected=[
@@ -11608,12 +11608,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL008"
+                name='mgL008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL008.xml"
+                        href='../msData/modelGroups/mgL008.xml'
                     ),
                     expected=[
                         Expected(
@@ -11624,10 +11624,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL008.v"
+                    name='mgL008.v'
                 ),
             ],
-            name="mgL008"
+            name='mgL008'
         ),
         TestGroup(
             annotation=[
@@ -11635,7 +11635,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 5 elements, 1 element in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 5 elements, 1 element in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11643,13 +11643,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL009.xsd"
+                        href='../msData/modelGroups/mgL009.xsd'
                     ),
                 ],
                 expected=[
@@ -11661,12 +11661,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL009"
+                name='mgL009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL009.xml"
+                        href='../msData/modelGroups/mgL009.xml'
                     ),
                     expected=[
                         Expected(
@@ -11677,10 +11677,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL009.v"
+                    name='mgL009.v'
                 ),
             ],
-            name="mgL009"
+            name='mgL009'
         ),
         TestGroup(
             annotation=[
@@ -11688,7 +11688,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : choice: with 5 elements, an undefined element in the instant XML doc",
+                                'TEST :model groups (ALL) : choice: with 5 elements, an undefined element in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11696,13 +11696,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgL010.xsd"
+                        href='../msData/modelGroups/mgL010.xsd'
                     ),
                 ],
                 expected=[
@@ -11714,12 +11714,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgL010"
+                name='mgL010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgL010.xml"
+                        href='../msData/modelGroups/mgL010.xml'
                     ),
                     expected=[
                         Expected(
@@ -11730,10 +11730,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgL010.i"
+                    name='mgL010.i'
                 ),
             ],
-            name="mgL010"
+            name='mgL010'
         ),
         TestGroup(
             annotation=[
@@ -11741,7 +11741,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with no elements 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with no elements 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11749,13 +11749,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM002.xsd"
+                        href='../msData/modelGroups/mgM002.xsd'
                     ),
                 ],
                 expected=[
@@ -11767,12 +11767,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM002"
+                name='mgM002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM002.xml"
+                        href='../msData/modelGroups/mgM002.xml'
                     ),
                     expected=[
                         Expected(
@@ -11783,10 +11783,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM002.i"
+                    name='mgM002.i'
                 ),
             ],
-            name="mgM002"
+            name='mgM002'
         ),
         TestGroup(
             annotation=[
@@ -11794,7 +11794,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 1 elements 0 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 1 elements 0 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11802,13 +11802,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM003.xsd"
+                        href='../msData/modelGroups/mgM003.xsd'
                     ),
                 ],
                 expected=[
@@ -11820,12 +11820,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM003"
+                name='mgM003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM003.xml"
+                        href='../msData/modelGroups/mgM003.xml'
                     ),
                     expected=[
                         Expected(
@@ -11836,10 +11836,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM003.i"
+                    name='mgM003.i'
                 ),
             ],
-            name="mgM003"
+            name='mgM003'
         ),
         TestGroup(
             annotation=[
@@ -11847,7 +11847,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 1 elements 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 1 elements 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11855,13 +11855,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM004.xsd"
+                        href='../msData/modelGroups/mgM004.xsd'
                     ),
                 ],
                 expected=[
@@ -11873,12 +11873,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM004"
+                name='mgM004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM004.xml"
+                        href='../msData/modelGroups/mgM004.xml'
                     ),
                     expected=[
                         Expected(
@@ -11889,10 +11889,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM004.v"
+                    name='mgM004.v'
                 ),
             ],
-            name="mgM004"
+            name='mgM004'
         ),
         TestGroup(
             annotation=[
@@ -11900,7 +11900,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 1 elements 2 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 1 elements 2 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11908,13 +11908,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM005.xsd"
+                        href='../msData/modelGroups/mgM005.xsd'
                     ),
                 ],
                 expected=[
@@ -11926,12 +11926,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM005"
+                name='mgM005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM005.xml"
+                        href='../msData/modelGroups/mgM005.xml'
                     ),
                     expected=[
                         Expected(
@@ -11942,10 +11942,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM005.i"
+                    name='mgM005.i'
                 ),
             ],
-            name="mgM005"
+            name='mgM005'
         ),
         TestGroup(
             annotation=[
@@ -11953,7 +11953,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements 0 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 2 elements 0 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -11961,13 +11961,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM006.xsd"
+                        href='../msData/modelGroups/mgM006.xsd'
                     ),
                 ],
                 expected=[
@@ -11979,12 +11979,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM006"
+                name='mgM006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM006.xml"
+                        href='../msData/modelGroups/mgM006.xml'
                     ),
                     expected=[
                         Expected(
@@ -11995,10 +11995,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM006.i"
+                    name='mgM006.i'
                 ),
             ],
-            name="mgM006"
+            name='mgM006'
         ),
         TestGroup(
             annotation=[
@@ -12006,7 +12006,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements 1 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 2 elements 1 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -12014,13 +12014,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM007.xsd"
+                        href='../msData/modelGroups/mgM007.xsd'
                     ),
                 ],
                 expected=[
@@ -12032,12 +12032,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM007"
+                name='mgM007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM007.xml"
+                        href='../msData/modelGroups/mgM007.xml'
                     ),
                     expected=[
                         Expected(
@@ -12048,10 +12048,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM007.i"
+                    name='mgM007.i'
                 ),
             ],
-            name="mgM007"
+            name='mgM007'
         ),
         TestGroup(
             annotation=[
@@ -12059,7 +12059,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements 2 element is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 2 elements 2 element is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -12067,13 +12067,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM008.xsd"
+                        href='../msData/modelGroups/mgM008.xsd'
                     ),
                 ],
                 expected=[
@@ -12085,12 +12085,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM008"
+                name='mgM008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM008.xml"
+                        href='../msData/modelGroups/mgM008.xml'
                     ),
                     expected=[
                         Expected(
@@ -12101,10 +12101,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM008.v"
+                    name='mgM008.v'
                 ),
             ],
-            name="mgM008"
+            name='mgM008'
         ),
         TestGroup(
             annotation=[
@@ -12112,7 +12112,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements 2 element in different order is in the instant XML doc",
+                                'TEST :model groups (ALL) : all: with 2 elements 2 element in different order is in the instant XML doc',
                             ]
                         ),
                     ]
@@ -12120,13 +12120,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM009.xsd"
+                        href='../msData/modelGroups/mgM009.xsd'
                     ),
                 ],
                 expected=[
@@ -12138,12 +12138,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM009"
+                name='mgM009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM009.xml"
+                        href='../msData/modelGroups/mgM009.xml'
                     ),
                     expected=[
                         Expected(
@@ -12154,10 +12154,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM009.v"
+                    name='mgM009.v'
                 ),
             ],
-            name="mgM009"
+            name='mgM009'
         ),
         TestGroup(
             annotation=[
@@ -12165,7 +12165,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements instant doc has all the element plus some other element from other namespace",
+                                'TEST :model groups (ALL) : all: with 2 elements instant doc has all the element plus some other element from other namespace',
                             ]
                         ),
                     ]
@@ -12173,13 +12173,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM010.xsd"
+                        href='../msData/modelGroups/mgM010.xsd'
                     ),
                 ],
                 expected=[
@@ -12191,12 +12191,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM010"
+                name='mgM010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM010.xml"
+                        href='../msData/modelGroups/mgM010.xml'
                     ),
                     expected=[
                         Expected(
@@ -12207,10 +12207,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM010.i"
+                    name='mgM010.i'
                 ),
             ],
-            name="mgM010"
+            name='mgM010'
         ),
         TestGroup(
             annotation=[
@@ -12218,7 +12218,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 5 elements instant doc has all the element in reverse order",
+                                'TEST :model groups (ALL) : all: with 5 elements instant doc has all the element in reverse order',
                             ]
                         ),
                     ]
@@ -12226,13 +12226,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM011.xsd"
+                        href='../msData/modelGroups/mgM011.xsd'
                     ),
                 ],
                 expected=[
@@ -12244,12 +12244,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM011"
+                name='mgM011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM011.xml"
+                        href='../msData/modelGroups/mgM011.xml'
                     ),
                     expected=[
                         Expected(
@@ -12260,10 +12260,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM011.v"
+                    name='mgM011.v'
                 ),
             ],
-            name="mgM011"
+            name='mgM011'
         ),
         TestGroup(
             annotation=[
@@ -12271,7 +12271,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements instant doc has an element that is not local or global to the declaring element",
+                                'TEST :model groups (ALL) : all: with 2 elements instant doc has an element that is not local or global to the declaring element',
                             ]
                         ),
                     ]
@@ -12279,13 +12279,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM012.xsd"
+                        href='../msData/modelGroups/mgM012.xsd'
                     ),
                 ],
                 expected=[
@@ -12297,12 +12297,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM012"
+                name='mgM012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM012.xml"
+                        href='../msData/modelGroups/mgM012.xml'
                     ),
                     expected=[
                         Expected(
@@ -12313,10 +12313,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM012.i"
+                    name='mgM012.i'
                 ),
             ],
-            name="mgM012"
+            name='mgM012'
         ),
         TestGroup(
             annotation=[
@@ -12324,7 +12324,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements instant doc has a global element",
+                                'TEST :model groups (ALL) : all: with 2 elements instant doc has a global element',
                             ]
                         ),
                     ]
@@ -12332,13 +12332,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM013.xsd"
+                        href='../msData/modelGroups/mgM013.xsd'
                     ),
                 ],
                 expected=[
@@ -12350,12 +12350,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM013"
+                name='mgM013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM013.xml"
+                        href='../msData/modelGroups/mgM013.xml'
                     ),
                     expected=[
                         Expected(
@@ -12366,10 +12366,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM013.v"
+                    name='mgM013.v'
                 ),
             ],
-            name="mgM013"
+            name='mgM013'
         ),
         TestGroup(
             annotation=[
@@ -12377,7 +12377,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all: with 2 elements instant doc has the same element twice.",
+                                'TEST :model groups (ALL) : all: with 2 elements instant doc has the same element twice.',
                             ]
                         ),
                     ]
@@ -12385,13 +12385,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgM014.xsd"
+                        href='../msData/modelGroups/mgM014.xsd'
                     ),
                 ],
                 expected=[
@@ -12403,12 +12403,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgM014"
+                name='mgM014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgM014.xml"
+                        href='../msData/modelGroups/mgM014.xml'
                     ),
                     expected=[
                         Expected(
@@ -12419,10 +12419,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgM014.i"
+                    name='mgM014.i'
                 ),
             ],
-            name="mgM014"
+            name='mgM014'
         ),
         TestGroup(
             annotation=[
@@ -12430,7 +12430,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, more than one child sequences, each of them again have more than one sequence child node, instant XML conform to the declaration",
+                                'TEST :model groups (ALL) : parent is sequence, more than one child sequences, each of them again have more than one sequence child node, instant XML conform to the declaration',
                             ]
                         ),
                     ]
@@ -12438,13 +12438,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN001.xsd"
+                        href='../msData/modelGroups/mgN001.xsd'
                     ),
                 ],
                 expected=[
@@ -12456,12 +12456,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN001"
+                name='mgN001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN001.xml"
+                        href='../msData/modelGroups/mgN001.xml'
                     ),
                     expected=[
                         Expected(
@@ -12472,10 +12472,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN001.v"
+                    name='mgN001.v'
                 ),
             ],
-            name="mgN001"
+            name='mgN001'
         ),
         TestGroup(
             annotation=[
@@ -12491,13 +12491,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN002.xsd"
+                        href='../msData/modelGroups/mgN002.xsd'
                     ),
                 ],
                 expected=[
@@ -12509,12 +12509,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN002"
+                name='mgN002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN002.xml"
+                        href='../msData/modelGroups/mgN002.xml'
                     ),
                     expected=[
                         Expected(
@@ -12525,10 +12525,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN002.i"
+                    name='mgN002.i'
                 ),
             ],
-            name="mgN002"
+            name='mgN002'
         ),
         TestGroup(
             annotation=[
@@ -12536,7 +12536,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, the instant XML has element that are of same local name but different namespace URI than in the element decl",
+                                'TEST :model groups (ALL) : parent is sequence, the instant XML has element that are of same local name but different namespace URI than in the element decl',
                             ]
                         ),
                     ]
@@ -12544,13 +12544,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN003.xsd"
+                        href='../msData/modelGroups/mgN003.xsd'
                     ),
                 ],
                 expected=[
@@ -12562,12 +12562,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN003"
+                name='mgN003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN003.xml"
+                        href='../msData/modelGroups/mgN003.xml'
                     ),
                     expected=[
                         Expected(
@@ -12578,10 +12578,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN003.i"
+                    name='mgN003.i'
                 ),
             ],
-            name="mgN003"
+            name='mgN003'
         ),
         TestGroup(
             annotation=[
@@ -12589,7 +12589,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child ( no elements ), in the instant XML document, the sequence appear as (F1, E1, E2, F2)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child ( no elements ), in the instant XML document, the sequence appear as (F1, E1, E2, F2)',
                             ]
                         ),
                     ]
@@ -12597,13 +12597,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN004.xsd"
+                        href='../msData/modelGroups/mgN004.xsd'
                     ),
                 ],
                 expected=[
@@ -12615,12 +12615,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN004"
+                name='mgN004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN004.xml"
+                        href='../msData/modelGroups/mgN004.xml'
                     ),
                     expected=[
                         Expected(
@@ -12631,10 +12631,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN004.i"
+                    name='mgN004.i'
                 ),
             ],
-            name="mgN004"
+            name='mgN004'
         ),
         TestGroup(
             annotation=[
@@ -12642,7 +12642,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, there is no element specified",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, there is no element specified',
                             ]
                         ),
                     ]
@@ -12650,13 +12650,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN005.xsd"
+                        href='../msData/modelGroups/mgN005.xsd'
                     ),
                 ],
                 expected=[
@@ -12668,12 +12668,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN005"
+                name='mgN005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN005.xml"
+                        href='../msData/modelGroups/mgN005.xml'
                     ),
                     expected=[
                         Expected(
@@ -12684,10 +12684,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN005.v"
+                    name='mgN005.v'
                 ),
             ],
-            name="mgN005"
+            name='mgN005'
         ),
         TestGroup(
             annotation=[
@@ -12695,7 +12695,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (E1)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (E1)',
                             ]
                         ),
                     ]
@@ -12703,13 +12703,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN006.xsd"
+                        href='../msData/modelGroups/mgN006.xsd'
                     ),
                 ],
                 expected=[
@@ -12721,12 +12721,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN006"
+                name='mgN006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN006.xml"
+                        href='../msData/modelGroups/mgN006.xml'
                     ),
                     expected=[
                         Expected(
@@ -12737,10 +12737,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN006.i"
+                    name='mgN006.i'
                 ),
             ],
-            name="mgN006"
+            name='mgN006'
         ),
         TestGroup(
             annotation=[
@@ -12748,7 +12748,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (E1, F1, E2, F2)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (E1, F1, E2, F2)',
                             ]
                         ),
                     ]
@@ -12756,13 +12756,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN007.xsd"
+                        href='../msData/modelGroups/mgN007.xsd'
                     ),
                 ],
                 expected=[
@@ -12774,12 +12774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN007"
+                name='mgN007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN007.xml"
+                        href='../msData/modelGroups/mgN007.xml'
                     ),
                     expected=[
                         Expected(
@@ -12790,10 +12790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN007.i"
+                    name='mgN007.i'
                 ),
             ],
-            name="mgN007"
+            name='mgN007'
         ),
         TestGroup(
             annotation=[
@@ -12801,7 +12801,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (E1, F2, F1)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (E1, F2, F1)',
                             ]
                         ),
                     ]
@@ -12809,13 +12809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN008.xsd"
+                        href='../msData/modelGroups/mgN008.xsd'
                     ),
                 ],
                 expected=[
@@ -12827,12 +12827,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN008"
+                name='mgN008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN008.xml"
+                        href='../msData/modelGroups/mgN008.xml'
                     ),
                     expected=[
                         Expected(
@@ -12843,10 +12843,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN008.i"
+                    name='mgN008.i'
                 ),
             ],
-            name="mgN008"
+            name='mgN008'
         ),
         TestGroup(
             annotation=[
@@ -12854,7 +12854,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (F1, F2, E1, E2)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (F1, F2, E1, E2)',
                             ]
                         ),
                     ]
@@ -12862,13 +12862,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN009.xsd"
+                        href='../msData/modelGroups/mgN009.xsd'
                     ),
                 ],
                 expected=[
@@ -12880,12 +12880,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN009"
+                name='mgN009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN009.xml"
+                        href='../msData/modelGroups/mgN009.xml'
                     ),
                     expected=[
                         Expected(
@@ -12896,10 +12896,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN009.i"
+                    name='mgN009.i'
                 ),
             ],
-            name="mgN009"
+            name='mgN009'
         ),
         TestGroup(
             annotation=[
@@ -12907,7 +12907,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (F1, E1, E2, F2)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence as child (E1,E2) (F1,F2), in the instant XML document, the sequence appear as (F1, E1, E2, F2)',
                             ]
                         ),
                     ]
@@ -12915,13 +12915,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN010.xsd"
+                        href='../msData/modelGroups/mgN010.xsd'
                     ),
                 ],
                 expected=[
@@ -12933,12 +12933,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN010"
+                name='mgN010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN010.xml"
+                        href='../msData/modelGroups/mgN010.xml'
                     ),
                     expected=[
                         Expected(
@@ -12949,10 +12949,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN010.i"
+                    name='mgN010.i'
                 ),
             ],
-            name="mgN010"
+            name='mgN010'
         ),
         TestGroup(
             annotation=[
@@ -12960,7 +12960,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (C1 | C2), in the instant XML document ( E1, F2, C2, D2)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (C1 | C2), in the instant XML document ( E1, F2, C2, D2)',
                             ]
                         ),
                     ]
@@ -12968,13 +12968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN011.xsd"
+                        href='../msData/modelGroups/mgN011.xsd'
                     ),
                 ],
                 expected=[
@@ -12986,12 +12986,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN011"
+                name='mgN011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN011.xml"
+                        href='../msData/modelGroups/mgN011.xml'
                     ),
                     expected=[
                         Expected(
@@ -13002,10 +13002,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN011.i"
+                    name='mgN011.i'
                 ),
             ],
-            name="mgN011"
+            name='mgN011'
         ),
         TestGroup(
             annotation=[
@@ -13013,7 +13013,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( E1, E2, F1, F2, C1, D1)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( E1, E2, F1, F2, C1, D1)',
                             ]
                         ),
                     ]
@@ -13021,13 +13021,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN012.xsd"
+                        href='../msData/modelGroups/mgN012.xsd'
                     ),
                 ],
                 expected=[
@@ -13039,12 +13039,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN012"
+                name='mgN012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN012.xml"
+                        href='../msData/modelGroups/mgN012.xml'
                     ),
                     expected=[
                         Expected(
@@ -13055,10 +13055,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN012.v"
+                    name='mgN012.v'
                 ),
             ],
-            name="mgN012"
+            name='mgN012'
         ),
         TestGroup(
             annotation=[
@@ -13066,7 +13066,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( C1, D1)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( C1, D1)',
                             ]
                         ),
                     ]
@@ -13074,13 +13074,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN013.xsd"
+                        href='../msData/modelGroups/mgN013.xsd'
                     ),
                 ],
                 expected=[
@@ -13092,12 +13092,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN013"
+                name='mgN013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN013.xml"
+                        href='../msData/modelGroups/mgN013.xml'
                     ),
                     expected=[
                         Expected(
@@ -13108,10 +13108,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN013.i"
+                    name='mgN013.i'
                 ),
             ],
-            name="mgN013"
+            name='mgN013'
         ),
         TestGroup(
             annotation=[
@@ -13119,7 +13119,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( C1, F1, D1)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( C1, F1, D1)',
                             ]
                         ),
                     ]
@@ -13127,13 +13127,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN014.xsd"
+                        href='../msData/modelGroups/mgN014.xsd'
                     ),
                 ],
                 expected=[
@@ -13145,12 +13145,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN014"
+                name='mgN014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN014.xml"
+                        href='../msData/modelGroups/mgN014.xml'
                     ),
                     expected=[
                         Expected(
@@ -13161,10 +13161,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN014.i"
+                    name='mgN014.i'
                 ),
             ],
-            name="mgN014"
+            name='mgN014'
         ),
         TestGroup(
             annotation=[
@@ -13172,7 +13172,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document (D1)",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document (D1)',
                             ]
                         ),
                     ]
@@ -13180,13 +13180,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN015.xsd"
+                        href='../msData/modelGroups/mgN015.xsd'
                     ),
                 ],
                 expected=[
@@ -13198,12 +13198,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN015"
+                name='mgN015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN015.xml"
+                        href='../msData/modelGroups/mgN015.xml'
                     ),
                     expected=[
                         Expected(
@@ -13214,10 +13214,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN015.i"
+                    name='mgN015.i'
                 ),
             ],
-            name="mgN015"
+            name='mgN015'
         ),
         TestGroup(
             annotation=[
@@ -13225,7 +13225,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( no element )",
+                                'TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2) (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document ( no element )',
                             ]
                         ),
                     ]
@@ -13233,13 +13233,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgN016.xsd"
+                        href='../msData/modelGroups/mgN016.xsd'
                     ),
                 ],
                 expected=[
@@ -13251,12 +13251,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgN016"
+                name='mgN016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgN016.xml"
+                        href='../msData/modelGroups/mgN016.xml'
                     ),
                     expected=[
                         Expected(
@@ -13267,10 +13267,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgN016.i"
+                    name='mgN016.i'
                 ),
             ],
-            name="mgN016"
+            name='mgN016'
         ),
         TestGroup(
             annotation=[
@@ -13278,7 +13278,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all has particle with minOccurs=maxOccur = 0",
+                                'TEST :model groups (ALL) : all has particle with minOccurs=maxOccur = 0',
                             ]
                         ),
                     ]
@@ -13286,16 +13286,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15926"
+                    href='https://www.w3.org/Bugs/Public/show_bug.cgi?id=15926'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO001.xsd"
+                        href='../msData/modelGroups/mgO001.xsd'
                     ),
                 ],
                 expected=[
@@ -13322,9 +13322,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="mgO001"
+                name='mgO001'
             ),
-            name="mgO001"
+            name='mgO001'
         ),
         TestGroup(
             annotation=[
@@ -13332,7 +13332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all has particle with minOccurs=maxOccur = 1",
+                                'TEST :model groups (ALL) : all has particle with minOccurs=maxOccur = 1',
                             ]
                         ),
                     ]
@@ -13340,13 +13340,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO002.xsd"
+                        href='../msData/modelGroups/mgO002.xsd'
                     ),
                 ],
                 expected=[
@@ -13358,12 +13358,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO002"
+                name='mgO002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO002.xml"
+                        href='../msData/modelGroups/mgO002.xml'
                     ),
                     expected=[
                         Expected(
@@ -13374,10 +13374,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO002.v"
+                    name='mgO002.v'
                 ),
             ],
-            name="mgO002"
+            name='mgO002'
         ),
         TestGroup(
             annotation=[
@@ -13385,7 +13385,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : all has particle with minOccurs=0, maxOccur = 2",
+                                'TEST :model groups (ALL) : all has particle with minOccurs=0, maxOccur = 2',
                             ]
                         ),
                     ]
@@ -13393,13 +13393,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO003.xsd"
+                        href='../msData/modelGroups/mgO003.xsd'
                     ),
                 ],
                 expected=[
@@ -13411,9 +13411,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO003"
+                name='mgO003'
             ),
-            name="mgO003"
+            name='mgO003'
         ),
         TestGroup(
             annotation=[
@@ -13429,13 +13429,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO004.xsd"
+                        href='../msData/modelGroups/mgO004.xsd'
                     ),
                 ],
                 expected=[
@@ -13447,12 +13447,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO004"
+                name='mgO004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO004.xml"
+                        href='../msData/modelGroups/mgO004.xml'
                     ),
                     expected=[
                         Expected(
@@ -13463,10 +13463,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO004.v"
+                    name='mgO004.v'
                 ),
             ],
-            name="mgO004"
+            name='mgO004'
         ),
         TestGroup(
             annotation=[
@@ -13482,13 +13482,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO005.xsd"
+                        href='../msData/modelGroups/mgO005.xsd'
                     ),
                 ],
                 expected=[
@@ -13500,12 +13500,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO005"
+                name='mgO005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO005.xml"
+                        href='../msData/modelGroups/mgO005.xml'
                     ),
                     expected=[
                         Expected(
@@ -13516,10 +13516,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO005.v"
+                    name='mgO005.v'
                 ),
             ],
-            name="mgO005"
+            name='mgO005'
         ),
         TestGroup(
             annotation=[
@@ -13535,13 +13535,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO006.xsd"
+                        href='../msData/modelGroups/mgO006.xsd'
                     ),
                 ],
                 expected=[
@@ -13553,12 +13553,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO006"
+                name='mgO006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO006.xml"
+                        href='../msData/modelGroups/mgO006.xml'
                     ),
                     expected=[
                         Expected(
@@ -13569,10 +13569,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO006.v"
+                    name='mgO006.v'
                 ),
             ],
-            name="mgO006"
+            name='mgO006'
         ),
         TestGroup(
             annotation=[
@@ -13588,13 +13588,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO007.xsd"
+                        href='../msData/modelGroups/mgO007.xsd'
                     ),
                 ],
                 expected=[
@@ -13606,9 +13606,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO007"
+                name='mgO007'
             ),
-            name="mgO007"
+            name='mgO007'
         ),
         TestGroup(
             annotation=[
@@ -13624,13 +13624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO008.xsd"
+                        href='../msData/modelGroups/mgO008.xsd'
                     ),
                 ],
                 expected=[
@@ -13642,12 +13642,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO008"
+                name='mgO008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO008.xml"
+                        href='../msData/modelGroups/mgO008.xml'
                     ),
                     expected=[
                         Expected(
@@ -13658,10 +13658,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO008.v"
+                    name='mgO008.v'
                 ),
             ],
-            name="mgO008"
+            name='mgO008'
         ),
         TestGroup(
             annotation=[
@@ -13677,13 +13677,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO009.xsd"
+                        href='../msData/modelGroups/mgO009.xsd'
                     ),
                 ],
                 expected=[
@@ -13695,12 +13695,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO009"
+                name='mgO009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO009.xml"
+                        href='../msData/modelGroups/mgO009.xml'
                     ),
                     expected=[
                         Expected(
@@ -13711,10 +13711,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO009.v"
+                    name='mgO009.v'
                 ),
             ],
-            name="mgO009"
+            name='mgO009'
         ),
         TestGroup(
             annotation=[
@@ -13730,13 +13730,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO010.xsd"
+                        href='../msData/modelGroups/mgO010.xsd'
                     ),
                 ],
                 expected=[
@@ -13748,12 +13748,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO010"
+                name='mgO010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO010.xml"
+                        href='../msData/modelGroups/mgO010.xml'
                     ),
                     expected=[
                         Expected(
@@ -13764,10 +13764,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO010.v"
+                    name='mgO010.v'
                 ),
             ],
-            name="mgO010"
+            name='mgO010'
         ),
         TestGroup(
             annotation=[
@@ -13783,13 +13783,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO011.xsd"
+                        href='../msData/modelGroups/mgO011.xsd'
                     ),
                 ],
                 expected=[
@@ -13801,12 +13801,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO011"
+                name='mgO011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO011.xml"
+                        href='../msData/modelGroups/mgO011.xml'
                     ),
                     expected=[
                         Expected(
@@ -13817,10 +13817,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO011.v"
+                    name='mgO011.v'
                 ),
             ],
-            name="mgO011"
+            name='mgO011'
         ),
         TestGroup(
             annotation=[
@@ -13836,13 +13836,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO012.xsd"
+                        href='../msData/modelGroups/mgO012.xsd'
                     ),
                 ],
                 expected=[
@@ -13854,9 +13854,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO012"
+                name='mgO012'
             ),
-            name="mgO012"
+            name='mgO012'
         ),
         TestGroup(
             annotation=[
@@ -13869,7 +13869,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "The WG concluded the original metadata was accidently mistaken",
+                                'The WG concluded the original metadata was accidently mistaken',
                             ]
                         ),
                     ]
@@ -13877,13 +13877,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO013.xsd"
+                        href='../msData/modelGroups/mgO013.xsd'
                     ),
                 ],
                 expected=[
@@ -13894,22 +13894,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4140"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4140'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4140"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4140'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="mgO013"
+                name='mgO013'
             ),
-            name="mgO013"
+            name='mgO013'
         ),
         TestGroup(
             annotation=[
@@ -13925,13 +13925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO014.xsd"
+                        href='../msData/modelGroups/mgO014.xsd'
                     ),
                 ],
                 expected=[
@@ -13943,9 +13943,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO014"
+                name='mgO014'
             ),
-            name="mgO014"
+            name='mgO014'
         ),
         TestGroup(
             annotation=[
@@ -13961,13 +13961,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO015.xsd"
+                        href='../msData/modelGroups/mgO015.xsd'
                     ),
                 ],
                 expected=[
@@ -13979,12 +13979,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO015"
+                name='mgO015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO015.xml"
+                        href='../msData/modelGroups/mgO015.xml'
                     ),
                     expected=[
                         Expected(
@@ -13995,10 +13995,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO015.v"
+                    name='mgO015.v'
                 ),
             ],
-            name="mgO015"
+            name='mgO015'
         ),
         TestGroup(
             annotation=[
@@ -14014,13 +14014,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO016.xsd"
+                        href='../msData/modelGroups/mgO016.xsd'
                     ),
                 ],
                 expected=[
@@ -14032,12 +14032,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO016"
+                name='mgO016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO016.xml"
+                        href='../msData/modelGroups/mgO016.xml'
                     ),
                     expected=[
                         Expected(
@@ -14048,10 +14048,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO016.v"
+                    name='mgO016.v'
                 ),
             ],
-            name="mgO016"
+            name='mgO016'
         ),
         TestGroup(
             annotation=[
@@ -14067,13 +14067,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO017.xsd"
+                        href='../msData/modelGroups/mgO017.xsd'
                     ),
                 ],
                 expected=[
@@ -14085,12 +14085,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO017"
+                name='mgO017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO017.xml"
+                        href='../msData/modelGroups/mgO017.xml'
                     ),
                     expected=[
                         Expected(
@@ -14101,10 +14101,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO017.v"
+                    name='mgO017.v'
                 ),
             ],
-            name="mgO017"
+            name='mgO017'
         ),
         TestGroup(
             annotation=[
@@ -14120,16 +14120,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15926"
+                    href='https://www.w3.org/Bugs/Public/show_bug.cgi?id=15926'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO018.xsd"
+                        href='../msData/modelGroups/mgO018.xsd'
                     ),
                 ],
                 expected=[
@@ -14156,9 +14156,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="mgO018"
+                name='mgO018'
             ),
-            name="mgO018"
+            name='mgO018'
         ),
         TestGroup(
             annotation=[
@@ -14174,13 +14174,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO019.xsd"
+                        href='../msData/modelGroups/mgO019.xsd'
                     ),
                 ],
                 expected=[
@@ -14192,9 +14192,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO019"
+                name='mgO019'
             ),
-            name="mgO019"
+            name='mgO019'
         ),
         TestGroup(
             annotation=[
@@ -14210,13 +14210,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO020.xsd"
+                        href='../msData/modelGroups/mgO020.xsd'
                     ),
                 ],
                 expected=[
@@ -14228,9 +14228,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO020"
+                name='mgO020'
             ),
-            name="mgO020"
+            name='mgO020'
         ),
         TestGroup(
             annotation=[
@@ -14246,13 +14246,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO021.xsd"
+                        href='../msData/modelGroups/mgO021.xsd'
                     ),
                 ],
                 expected=[
@@ -14264,9 +14264,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO021"
+                name='mgO021'
             ),
-            name="mgO021"
+            name='mgO021'
         ),
         TestGroup(
             annotation=[
@@ -14282,13 +14282,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO022.xsd"
+                        href='../msData/modelGroups/mgO022.xsd'
                     ),
                 ],
                 expected=[
@@ -14300,9 +14300,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO022"
+                name='mgO022'
             ),
-            name="mgO022"
+            name='mgO022'
         ),
         TestGroup(
             annotation=[
@@ -14318,13 +14318,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO023.xsd"
+                        href='../msData/modelGroups/mgO023.xsd'
                     ),
                 ],
                 expected=[
@@ -14336,9 +14336,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO023"
+                name='mgO023'
             ),
-            name="mgO023"
+            name='mgO023'
         ),
         TestGroup(
             annotation=[
@@ -14354,13 +14354,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO024.xsd"
+                        href='../msData/modelGroups/mgO024.xsd'
                     ),
                 ],
                 expected=[
@@ -14372,9 +14372,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO024"
+                name='mgO024'
             ),
-            name="mgO024"
+            name='mgO024'
         ),
         TestGroup(
             annotation=[
@@ -14390,13 +14390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO025.xsd"
+                        href='../msData/modelGroups/mgO025.xsd'
                     ),
                 ],
                 expected=[
@@ -14408,9 +14408,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO025"
+                name='mgO025'
             ),
-            name="mgO025"
+            name='mgO025'
         ),
         TestGroup(
             annotation=[
@@ -14426,13 +14426,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO026.xsd"
+                        href='../msData/modelGroups/mgO026.xsd'
                     ),
                 ],
                 expected=[
@@ -14444,9 +14444,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO026"
+                name='mgO026'
             ),
-            name="mgO026"
+            name='mgO026'
         ),
         TestGroup(
             annotation=[
@@ -14462,13 +14462,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO027.xsd"
+                        href='../msData/modelGroups/mgO027.xsd'
                     ),
                 ],
                 expected=[
@@ -14480,9 +14480,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO027"
+                name='mgO027'
             ),
-            name="mgO027"
+            name='mgO027'
         ),
         TestGroup(
             annotation=[
@@ -14498,13 +14498,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO028.xsd"
+                        href='../msData/modelGroups/mgO028.xsd'
                     ),
                 ],
                 expected=[
@@ -14516,9 +14516,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO028"
+                name='mgO028'
             ),
-            name="mgO028"
+            name='mgO028'
         ),
         TestGroup(
             annotation=[
@@ -14534,13 +14534,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO029.xsd"
+                        href='../msData/modelGroups/mgO029.xsd'
                     ),
                 ],
                 expected=[
@@ -14552,12 +14552,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO029"
+                name='mgO029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO029.xml"
+                        href='../msData/modelGroups/mgO029.xml'
                     ),
                     expected=[
                         Expected(
@@ -14568,10 +14568,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO029.v"
+                    name='mgO029.v'
                 ),
             ],
-            name="mgO029"
+            name='mgO029'
         ),
         TestGroup(
             annotation=[
@@ -14587,13 +14587,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO030.xsd"
+                        href='../msData/modelGroups/mgO030.xsd'
                     ),
                 ],
                 expected=[
@@ -14605,12 +14605,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO030"
+                name='mgO030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO030.xml"
+                        href='../msData/modelGroups/mgO030.xml'
                     ),
                     expected=[
                         Expected(
@@ -14621,10 +14621,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO030.v"
+                    name='mgO030.v'
                 ),
             ],
-            name="mgO030"
+            name='mgO030'
         ),
         TestGroup(
             annotation=[
@@ -14640,13 +14640,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO031.xsd"
+                        href='../msData/modelGroups/mgO031.xsd'
                     ),
                 ],
                 expected=[
@@ -14658,12 +14658,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO031"
+                name='mgO031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO031.xml"
+                        href='../msData/modelGroups/mgO031.xml'
                     ),
                     expected=[
                         Expected(
@@ -14674,10 +14674,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO031.v"
+                    name='mgO031.v'
                 ),
             ],
-            name="mgO031"
+            name='mgO031'
         ),
         TestGroup(
             annotation=[
@@ -14693,13 +14693,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO032.xsd"
+                        href='../msData/modelGroups/mgO032.xsd'
                     ),
                 ],
                 expected=[
@@ -14711,9 +14711,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO032"
+                name='mgO032'
             ),
-            name="mgO032"
+            name='mgO032'
         ),
         TestGroup(
             annotation=[
@@ -14729,13 +14729,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO033.xsd"
+                        href='../msData/modelGroups/mgO033.xsd'
                     ),
                 ],
                 expected=[
@@ -14747,9 +14747,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO033"
+                name='mgO033'
             ),
-            name="mgO033"
+            name='mgO033'
         ),
         TestGroup(
             annotation=[
@@ -14765,13 +14765,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO034.xsd"
+                        href='../msData/modelGroups/mgO034.xsd'
                     ),
                 ],
                 expected=[
@@ -14783,12 +14783,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO034"
+                name='mgO034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO034.xml"
+                        href='../msData/modelGroups/mgO034.xml'
                     ),
                     expected=[
                         Expected(
@@ -14799,10 +14799,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO034.v"
+                    name='mgO034.v'
                 ),
             ],
-            name="mgO034"
+            name='mgO034'
         ),
         TestGroup(
             annotation=[
@@ -14818,13 +14818,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO035.xsd"
+                        href='../msData/modelGroups/mgO035.xsd'
                     ),
                 ],
                 expected=[
@@ -14836,9 +14836,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO035"
+                name='mgO035'
             ),
-            name="mgO035"
+            name='mgO035'
         ),
         TestGroup(
             annotation=[
@@ -14854,13 +14854,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO036.xsd"
+                        href='../msData/modelGroups/mgO036.xsd'
                     ),
                 ],
                 expected=[
@@ -14872,12 +14872,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO036"
+                name='mgO036'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO036.xml"
+                        href='../msData/modelGroups/mgO036.xml'
                     ),
                     expected=[
                         Expected(
@@ -14888,10 +14888,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO036.v"
+                    name='mgO036.v'
                 ),
             ],
-            name="mgO036"
+            name='mgO036'
         ),
         TestGroup(
             annotation=[
@@ -14907,13 +14907,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO037.xsd"
+                        href='../msData/modelGroups/mgO037.xsd'
                     ),
                 ],
                 expected=[
@@ -14925,12 +14925,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO037"
+                name='mgO037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO037.xml"
+                        href='../msData/modelGroups/mgO037.xml'
                     ),
                     expected=[
                         Expected(
@@ -14941,10 +14941,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO037.v"
+                    name='mgO037.v'
                 ),
             ],
-            name="mgO037"
+            name='mgO037'
         ),
         TestGroup(
             annotation=[
@@ -14960,13 +14960,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgO038.xsd"
+                        href='../msData/modelGroups/mgO038.xsd'
                     ),
                 ],
                 expected=[
@@ -14978,12 +14978,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgO038"
+                name='mgO038'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgO038.xml"
+                        href='../msData/modelGroups/mgO038.xml'
                     ),
                     expected=[
                         Expected(
@@ -14994,10 +14994,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgO038.v"
+                    name='mgO038.v'
                 ),
             ],
-            name="mgO038"
+            name='mgO038'
         ),
         TestGroup(
             annotation=[
@@ -15013,13 +15013,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP039.xsd"
+                        href='../msData/modelGroups/mgP039.xsd'
                     ),
                 ],
                 expected=[
@@ -15031,9 +15031,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP039"
+                name='mgP039'
             ),
-            name="mgP039"
+            name='mgP039'
         ),
         TestGroup(
             annotation=[
@@ -15049,13 +15049,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP040.xsd"
+                        href='../msData/modelGroups/mgP040.xsd'
                     ),
                 ],
                 expected=[
@@ -15067,9 +15067,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP040"
+                name='mgP040'
             ),
-            name="mgP040"
+            name='mgP040'
         ),
         TestGroup(
             annotation=[
@@ -15085,13 +15085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP041.xsd"
+                        href='../msData/modelGroups/mgP041.xsd'
                     ),
                 ],
                 expected=[
@@ -15103,9 +15103,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP041"
+                name='mgP041'
             ),
-            name="mgP041"
+            name='mgP041'
         ),
         TestGroup(
             annotation=[
@@ -15121,13 +15121,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP042.xsd"
+                        href='../msData/modelGroups/mgP042.xsd'
                     ),
                 ],
                 expected=[
@@ -15139,9 +15139,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP042"
+                name='mgP042'
             ),
-            name="mgP042"
+            name='mgP042'
         ),
         TestGroup(
             annotation=[
@@ -15157,13 +15157,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP043.xsd"
+                        href='../msData/modelGroups/mgP043.xsd'
                     ),
                 ],
                 expected=[
@@ -15175,9 +15175,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP043"
+                name='mgP043'
             ),
-            name="mgP043"
+            name='mgP043'
         ),
         TestGroup(
             annotation=[
@@ -15193,13 +15193,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP049.xsd"
+                        href='../msData/modelGroups/mgP049.xsd'
                     ),
                 ],
                 expected=[
@@ -15211,9 +15211,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP049"
+                name='mgP049'
             ),
-            name="mgP049"
+            name='mgP049'
         ),
         TestGroup(
             annotation=[
@@ -15229,13 +15229,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP050.xsd"
+                        href='../msData/modelGroups/mgP050.xsd'
                     ),
                 ],
                 expected=[
@@ -15247,9 +15247,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP050"
+                name='mgP050'
             ),
-            name="mgP050"
+            name='mgP050'
         ),
         TestGroup(
             annotation=[
@@ -15265,13 +15265,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP055.xsd"
+                        href='../msData/modelGroups/mgP055.xsd'
                     ),
                 ],
                 expected=[
@@ -15283,9 +15283,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP055"
+                name='mgP055'
             ),
-            name="mgP055"
+            name='mgP055'
         ),
         TestGroup(
             annotation=[
@@ -15301,13 +15301,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP056.xsd"
+                        href='../msData/modelGroups/mgP056.xsd'
                     ),
                 ],
                 expected=[
@@ -15319,9 +15319,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP056"
+                name='mgP056'
             ),
-            name="mgP056"
+            name='mgP056'
         ),
         TestGroup(
             annotation=[
@@ -15337,13 +15337,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP057.xsd"
+                        href='../msData/modelGroups/mgP057.xsd'
                     ),
                 ],
                 expected=[
@@ -15355,9 +15355,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP057"
+                name='mgP057'
             ),
-            name="mgP057"
+            name='mgP057'
         ),
         TestGroup(
             annotation=[
@@ -15373,13 +15373,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP058.xsd"
+                        href='../msData/modelGroups/mgP058.xsd'
                     ),
                 ],
                 expected=[
@@ -15391,9 +15391,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP058"
+                name='mgP058'
             ),
-            name="mgP058"
+            name='mgP058'
         ),
         TestGroup(
             annotation=[
@@ -15409,13 +15409,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP059.xsd"
+                        href='../msData/modelGroups/mgP059.xsd'
                     ),
                 ],
                 expected=[
@@ -15427,9 +15427,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP059"
+                name='mgP059'
             ),
-            name="mgP059"
+            name='mgP059'
         ),
         TestGroup(
             annotation=[
@@ -15445,13 +15445,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP060.xsd"
+                        href='../msData/modelGroups/mgP060.xsd'
                     ),
                 ],
                 expected=[
@@ -15463,9 +15463,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP060"
+                name='mgP060'
             ),
-            name="mgP060"
+            name='mgP060'
         ),
         TestGroup(
             annotation=[
@@ -15481,13 +15481,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP061.xsd"
+                        href='../msData/modelGroups/mgP061.xsd'
                     ),
                 ],
                 expected=[
@@ -15499,9 +15499,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP061"
+                name='mgP061'
             ),
-            name="mgP061"
+            name='mgP061'
         ),
         TestGroup(
             annotation=[
@@ -15517,13 +15517,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgP062.xsd"
+                        href='../msData/modelGroups/mgP062.xsd'
                     ),
                 ],
                 expected=[
@@ -15535,9 +15535,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgP062"
+                name='mgP062'
             ),
-            name="mgP062"
+            name='mgP062'
         ),
         TestGroup(
             annotation=[
@@ -15545,7 +15545,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : 2 particles with idendical element declarations (same type), both under all",
+                                'TEST :model groups (ALL) : 2 particles with idendical element declarations (same type), both under all',
                             ]
                         ),
                     ]
@@ -15553,13 +15553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ001.xsd"
+                        href='../msData/modelGroups/mgQ001.xsd'
                     ),
                 ],
                 expected=[
@@ -15571,9 +15571,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ001"
+                name='mgQ001'
             ),
-            name="mgQ001"
+            name='mgQ001'
         ),
         TestGroup(
             annotation=[
@@ -15581,7 +15581,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : 2 particles with idendical element declarations (same type), both under sequence",
+                                'TEST :model groups (ALL) : 2 particles with idendical element declarations (same type), both under sequence',
                             ]
                         ),
                     ]
@@ -15589,13 +15589,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ002.xsd"
+                        href='../msData/modelGroups/mgQ002.xsd'
                     ),
                 ],
                 expected=[
@@ -15607,12 +15607,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ002"
+                name='mgQ002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ002.xml"
+                        href='../msData/modelGroups/mgQ002.xml'
                     ),
                     expected=[
                         Expected(
@@ -15623,10 +15623,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ002.v"
+                    name='mgQ002.v'
                 ),
             ],
-            name="mgQ002"
+            name='mgQ002'
         ),
         TestGroup(
             annotation=[
@@ -15634,7 +15634,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : 2 particles with idendical element declarations (same type), both under choice",
+                                'TEST :model groups (ALL) : 2 particles with idendical element declarations (same type), both under choice',
                             ]
                         ),
                     ]
@@ -15642,13 +15642,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ003.xsd"
+                        href='../msData/modelGroups/mgQ003.xsd'
                     ),
                 ],
                 expected=[
@@ -15660,12 +15660,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ003"
+                name='mgQ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ003.xml"
+                        href='../msData/modelGroups/mgQ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -15676,10 +15676,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ003.v"
+                    name='mgQ003.v'
                 ),
             ],
-            name="mgQ003"
+            name='mgQ003'
         ),
         TestGroup(
             annotation=[
@@ -15695,13 +15695,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ004.xsd"
+                        href='../msData/modelGroups/mgQ004.xsd'
                     ),
                 ],
                 expected=[
@@ -15713,9 +15713,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ004"
+                name='mgQ004'
             ),
-            name="mgQ004"
+            name='mgQ004'
         ),
         TestGroup(
             annotation=[
@@ -15731,13 +15731,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ005.xsd"
+                        href='../msData/modelGroups/mgQ005.xsd'
                     ),
                 ],
                 expected=[
@@ -15749,9 +15749,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ005"
+                name='mgQ005'
             ),
-            name="mgQ005"
+            name='mgQ005'
         ),
         TestGroup(
             annotation=[
@@ -15767,13 +15767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ006.xsd"
+                        href='../msData/modelGroups/mgQ006.xsd'
                     ),
                 ],
                 expected=[
@@ -15785,12 +15785,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ006"
+                name='mgQ006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ006.xml"
+                        href='../msData/modelGroups/mgQ006.xml'
                     ),
                     expected=[
                         Expected(
@@ -15801,10 +15801,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ006.v"
+                    name='mgQ006.v'
                 ),
             ],
-            name="mgQ006"
+            name='mgQ006'
         ),
         TestGroup(
             annotation=[
@@ -15820,13 +15820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ007.xsd"
+                        href='../msData/modelGroups/mgQ007.xsd'
                     ),
                 ],
                 expected=[
@@ -15838,12 +15838,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ007"
+                name='mgQ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ007.xml"
+                        href='../msData/modelGroups/mgQ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -15854,10 +15854,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ007.v"
+                    name='mgQ007.v'
                 ),
             ],
-            name="mgQ007"
+            name='mgQ007'
         ),
         TestGroup(
             annotation=[
@@ -15873,13 +15873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ008.xsd"
+                        href='../msData/modelGroups/mgQ008.xsd'
                     ),
                 ],
                 expected=[
@@ -15891,12 +15891,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ008"
+                name='mgQ008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ008.xml"
+                        href='../msData/modelGroups/mgQ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -15907,10 +15907,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ008.v"
+                    name='mgQ008.v'
                 ),
             ],
-            name="mgQ008"
+            name='mgQ008'
         ),
         TestGroup(
             annotation=[
@@ -15926,13 +15926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ009.xsd"
+                        href='../msData/modelGroups/mgQ009.xsd'
                     ),
                 ],
                 expected=[
@@ -15944,12 +15944,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ009"
+                name='mgQ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ009.xml"
+                        href='../msData/modelGroups/mgQ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -15960,10 +15960,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ009.v"
+                    name='mgQ009.v'
                 ),
             ],
-            name="mgQ009"
+            name='mgQ009'
         ),
         TestGroup(
             annotation=[
@@ -15979,13 +15979,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ010.xsd"
+                        href='../msData/modelGroups/mgQ010.xsd'
                     ),
                 ],
                 expected=[
@@ -15997,9 +15997,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ010"
+                name='mgQ010'
             ),
-            name="mgQ010"
+            name='mgQ010'
         ),
         TestGroup(
             annotation=[
@@ -16015,13 +16015,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ011.xsd"
+                        href='../msData/modelGroups/mgQ011.xsd'
                     ),
                 ],
                 expected=[
@@ -16033,9 +16033,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ011"
+                name='mgQ011'
             ),
-            name="mgQ011"
+            name='mgQ011'
         ),
         TestGroup(
             annotation=[
@@ -16051,13 +16051,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ012.xsd"
+                        href='../msData/modelGroups/mgQ012.xsd'
                     ),
                 ],
                 expected=[
@@ -16069,9 +16069,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ012"
+                name='mgQ012'
             ),
-            name="mgQ012"
+            name='mgQ012'
         ),
         TestGroup(
             annotation=[
@@ -16087,13 +16087,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ013.xsd"
+                        href='../msData/modelGroups/mgQ013.xsd'
                     ),
                 ],
                 expected=[
@@ -16105,9 +16105,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ013"
+                name='mgQ013'
             ),
-            name="mgQ013"
+            name='mgQ013'
         ),
         TestGroup(
             annotation=[
@@ -16123,13 +16123,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ014.xsd"
+                        href='../msData/modelGroups/mgQ014.xsd'
                     ),
                 ],
                 expected=[
@@ -16141,12 +16141,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ014"
+                name='mgQ014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ014.xml"
+                        href='../msData/modelGroups/mgQ014.xml'
                     ),
                     expected=[
                         Expected(
@@ -16157,10 +16157,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ014.v"
+                    name='mgQ014.v'
                 ),
             ],
-            name="mgQ014"
+            name='mgQ014'
         ),
         TestGroup(
             annotation=[
@@ -16176,13 +16176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ015.xsd"
+                        href='../msData/modelGroups/mgQ015.xsd'
                     ),
                 ],
                 expected=[
@@ -16194,12 +16194,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ015"
+                name='mgQ015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ015.xml"
+                        href='../msData/modelGroups/mgQ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -16210,10 +16210,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ015.v"
+                    name='mgQ015.v'
                 ),
             ],
-            name="mgQ015"
+            name='mgQ015'
         ),
         TestGroup(
             annotation=[
@@ -16229,13 +16229,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ016.xsd"
+                        href='../msData/modelGroups/mgQ016.xsd'
                     ),
                 ],
                 expected=[
@@ -16247,12 +16247,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ016"
+                name='mgQ016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ016.xml"
+                        href='../msData/modelGroups/mgQ016.xml'
                     ),
                     expected=[
                         Expected(
@@ -16263,10 +16263,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ016.v"
+                    name='mgQ016.v'
                 ),
             ],
-            name="mgQ016"
+            name='mgQ016'
         ),
         TestGroup(
             annotation=[
@@ -16282,13 +16282,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ017.xsd"
+                        href='../msData/modelGroups/mgQ017.xsd'
                     ),
                 ],
                 expected=[
@@ -16300,12 +16300,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ017"
+                name='mgQ017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ017.xml"
+                        href='../msData/modelGroups/mgQ017.xml'
                     ),
                     expected=[
                         Expected(
@@ -16316,10 +16316,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ017.v"
+                    name='mgQ017.v'
                 ),
             ],
-            name="mgQ017"
+            name='mgQ017'
         ),
         TestGroup(
             annotation=[
@@ -16335,13 +16335,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ018.xsd"
+                        href='../msData/modelGroups/mgQ018.xsd'
                     ),
                 ],
                 expected=[
@@ -16353,12 +16353,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ018"
+                name='mgQ018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ018.xml"
+                        href='../msData/modelGroups/mgQ018.xml'
                     ),
                     expected=[
                         Expected(
@@ -16369,10 +16369,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ018.v"
+                    name='mgQ018.v'
                 ),
             ],
-            name="mgQ018"
+            name='mgQ018'
         ),
         TestGroup(
             annotation=[
@@ -16388,13 +16388,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ019.xsd"
+                        href='../msData/modelGroups/mgQ019.xsd'
                     ),
                 ],
                 expected=[
@@ -16406,12 +16406,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ019"
+                name='mgQ019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ019.xml"
+                        href='../msData/modelGroups/mgQ019.xml'
                     ),
                     expected=[
                         Expected(
@@ -16422,10 +16422,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ019.v"
+                    name='mgQ019.v'
                 ),
             ],
-            name="mgQ019"
+            name='mgQ019'
         ),
         TestGroup(
             annotation=[
@@ -16441,13 +16441,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ020.xsd"
+                        href='../msData/modelGroups/mgQ020.xsd'
                     ),
                 ],
                 expected=[
@@ -16459,12 +16459,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ020"
+                name='mgQ020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgQ020.xml"
+                        href='../msData/modelGroups/mgQ020.xml'
                     ),
                     expected=[
                         Expected(
@@ -16475,10 +16475,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgQ020.v"
+                    name='mgQ020.v'
                 ),
             ],
-            name="mgQ020"
+            name='mgQ020'
         ),
         TestGroup(
             annotation=[
@@ -16494,13 +16494,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgQ021.xsd"
+                        href='../msData/modelGroups/mgQ021.xsd'
                     ),
                 ],
                 expected=[
@@ -16512,9 +16512,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgQ021"
+                name='mgQ021'
             ),
-            name="mgQ021"
+            name='mgQ021'
         ),
         TestGroup(
             annotation=[
@@ -16522,7 +16522,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : 2 particles with idendical element declarations (different type), both under all",
+                                'TEST :model groups (ALL) : 2 particles with idendical element declarations (different type), both under all',
                             ]
                         ),
                     ]
@@ -16530,13 +16530,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR001.xsd"
+                        href='../msData/modelGroups/mgR001.xsd'
                     ),
                 ],
                 expected=[
@@ -16548,9 +16548,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR001"
+                name='mgR001'
             ),
-            name="mgR001"
+            name='mgR001'
         ),
         TestGroup(
             annotation=[
@@ -16558,7 +16558,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : 2 particles with idendical element declarations (different type), both under sequence",
+                                'TEST :model groups (ALL) : 2 particles with idendical element declarations (different type), both under sequence',
                             ]
                         ),
                     ]
@@ -16566,13 +16566,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR002.xsd"
+                        href='../msData/modelGroups/mgR002.xsd'
                     ),
                 ],
                 expected=[
@@ -16584,9 +16584,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR002"
+                name='mgR002'
             ),
-            name="mgR002"
+            name='mgR002'
         ),
         TestGroup(
             annotation=[
@@ -16594,7 +16594,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : 2 particles with idendical element declarations (different type), both under choice",
+                                'TEST :model groups (ALL) : 2 particles with idendical element declarations (different type), both under choice',
                             ]
                         ),
                     ]
@@ -16602,13 +16602,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR003.xsd"
+                        href='../msData/modelGroups/mgR003.xsd'
                     ),
                 ],
                 expected=[
@@ -16620,9 +16620,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR003"
+                name='mgR003'
             ),
-            name="mgR003"
+            name='mgR003'
         ),
         TestGroup(
             annotation=[
@@ -16638,13 +16638,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR004.xsd"
+                        href='../msData/modelGroups/mgR004.xsd'
                     ),
                 ],
                 expected=[
@@ -16656,9 +16656,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR004"
+                name='mgR004'
             ),
-            name="mgR004"
+            name='mgR004'
         ),
         TestGroup(
             annotation=[
@@ -16674,13 +16674,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR005.xsd"
+                        href='../msData/modelGroups/mgR005.xsd'
                     ),
                 ],
                 expected=[
@@ -16692,9 +16692,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR005"
+                name='mgR005'
             ),
-            name="mgR005"
+            name='mgR005'
         ),
         TestGroup(
             annotation=[
@@ -16710,13 +16710,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR006.xsd"
+                        href='../msData/modelGroups/mgR006.xsd'
                     ),
                 ],
                 expected=[
@@ -16728,9 +16728,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR006"
+                name='mgR006'
             ),
-            name="mgR006"
+            name='mgR006'
         ),
         TestGroup(
             annotation=[
@@ -16746,13 +16746,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR007.xsd"
+                        href='../msData/modelGroups/mgR007.xsd'
                     ),
                 ],
                 expected=[
@@ -16764,9 +16764,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR007"
+                name='mgR007'
             ),
-            name="mgR007"
+            name='mgR007'
         ),
         TestGroup(
             annotation=[
@@ -16782,13 +16782,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR008.xsd"
+                        href='../msData/modelGroups/mgR008.xsd'
                     ),
                 ],
                 expected=[
@@ -16800,9 +16800,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR008"
+                name='mgR008'
             ),
-            name="mgR008"
+            name='mgR008'
         ),
         TestGroup(
             annotation=[
@@ -16818,13 +16818,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR009.xsd"
+                        href='../msData/modelGroups/mgR009.xsd'
                     ),
                 ],
                 expected=[
@@ -16836,9 +16836,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR009"
+                name='mgR009'
             ),
-            name="mgR009"
+            name='mgR009'
         ),
         TestGroup(
             annotation=[
@@ -16854,13 +16854,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR010.xsd"
+                        href='../msData/modelGroups/mgR010.xsd'
                     ),
                 ],
                 expected=[
@@ -16872,9 +16872,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR010"
+                name='mgR010'
             ),
-            name="mgR010"
+            name='mgR010'
         ),
         TestGroup(
             annotation=[
@@ -16890,13 +16890,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR011.xsd"
+                        href='../msData/modelGroups/mgR011.xsd'
                     ),
                 ],
                 expected=[
@@ -16908,9 +16908,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR011"
+                name='mgR011'
             ),
-            name="mgR011"
+            name='mgR011'
         ),
         TestGroup(
             annotation=[
@@ -16926,13 +16926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR012.xsd"
+                        href='../msData/modelGroups/mgR012.xsd'
                     ),
                 ],
                 expected=[
@@ -16944,9 +16944,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR012"
+                name='mgR012'
             ),
-            name="mgR012"
+            name='mgR012'
         ),
         TestGroup(
             annotation=[
@@ -16962,13 +16962,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR013.xsd"
+                        href='../msData/modelGroups/mgR013.xsd'
                     ),
                 ],
                 expected=[
@@ -16980,9 +16980,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR013"
+                name='mgR013'
             ),
-            name="mgR013"
+            name='mgR013'
         ),
         TestGroup(
             annotation=[
@@ -16998,13 +16998,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR014.xsd"
+                        href='../msData/modelGroups/mgR014.xsd'
                     ),
                 ],
                 expected=[
@@ -17016,9 +17016,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR014"
+                name='mgR014'
             ),
-            name="mgR014"
+            name='mgR014'
         ),
         TestGroup(
             annotation=[
@@ -17034,13 +17034,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR015.xsd"
+                        href='../msData/modelGroups/mgR015.xsd'
                     ),
                 ],
                 expected=[
@@ -17052,9 +17052,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR015"
+                name='mgR015'
             ),
-            name="mgR015"
+            name='mgR015'
         ),
         TestGroup(
             annotation=[
@@ -17070,13 +17070,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR016.xsd"
+                        href='../msData/modelGroups/mgR016.xsd'
                     ),
                 ],
                 expected=[
@@ -17088,9 +17088,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR016"
+                name='mgR016'
             ),
-            name="mgR016"
+            name='mgR016'
         ),
         TestGroup(
             annotation=[
@@ -17106,13 +17106,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR017.xsd"
+                        href='../msData/modelGroups/mgR017.xsd'
                     ),
                 ],
                 expected=[
@@ -17124,9 +17124,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR017"
+                name='mgR017'
             ),
-            name="mgR017"
+            name='mgR017'
         ),
         TestGroup(
             annotation=[
@@ -17142,13 +17142,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR018.xsd"
+                        href='../msData/modelGroups/mgR018.xsd'
                     ),
                 ],
                 expected=[
@@ -17160,9 +17160,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR018"
+                name='mgR018'
             ),
-            name="mgR018"
+            name='mgR018'
         ),
         TestGroup(
             annotation=[
@@ -17178,13 +17178,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR019.xsd"
+                        href='../msData/modelGroups/mgR019.xsd'
                     ),
                 ],
                 expected=[
@@ -17196,9 +17196,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR019"
+                name='mgR019'
             ),
-            name="mgR019"
+            name='mgR019'
         ),
         TestGroup(
             annotation=[
@@ -17214,13 +17214,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR020.xsd"
+                        href='../msData/modelGroups/mgR020.xsd'
                     ),
                 ],
                 expected=[
@@ -17232,9 +17232,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR020"
+                name='mgR020'
             ),
-            name="mgR020"
+            name='mgR020'
         ),
         TestGroup(
             annotation=[
@@ -17250,13 +17250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR021.xsd"
+                        href='../msData/modelGroups/mgR021.xsd'
                     ),
                 ],
                 expected=[
@@ -17268,9 +17268,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR021"
+                name='mgR021'
             ),
-            name="mgR021"
+            name='mgR021'
         ),
         TestGroup(
             annotation=[
@@ -17286,13 +17286,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgR022.xsd"
+                        href='../msData/modelGroups/mgR022.xsd'
                     ),
                 ],
                 expected=[
@@ -17304,9 +17304,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgR022"
+                name='mgR022'
             ),
-            name="mgR022"
+            name='mgR022'
         ),
         TestGroup(
             annotation=[
@@ -17314,7 +17314,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence must be deterministic:(a (bc | bd))",
+                                'TEST :model groups (ALL) : sequence must be deterministic:(a (bc | bd))',
                             ]
                         ),
                     ]
@@ -17322,13 +17322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgS002.xsd"
+                        href='../msData/modelGroups/mgS002.xsd'
                     ),
                 ],
                 expected=[
@@ -17340,9 +17340,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgS002"
+                name='mgS002'
             ),
-            name="mgS002"
+            name='mgS002'
         ),
         TestGroup(
             annotation=[
@@ -17350,7 +17350,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence must be deterministic:(a | ab)",
+                                'TEST :model groups (ALL) : sequence must be deterministic:(a | ab)',
                             ]
                         ),
                     ]
@@ -17358,13 +17358,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgS003.xsd"
+                        href='../msData/modelGroups/mgS003.xsd'
                     ),
                 ],
                 expected=[
@@ -17376,9 +17376,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgS003"
+                name='mgS003'
             ),
-            name="mgS003"
+            name='mgS003'
         ),
         TestGroup(
             annotation=[
@@ -17386,7 +17386,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence must be deterministic:((ab) | ( a | b))",
+                                'TEST :model groups (ALL) : sequence must be deterministic:((ab) | ( a | b))',
                             ]
                         ),
                     ]
@@ -17394,13 +17394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgS004.xsd"
+                        href='../msData/modelGroups/mgS004.xsd'
                     ),
                 ],
                 expected=[
@@ -17412,9 +17412,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgS004"
+                name='mgS004'
             ),
-            name="mgS004"
+            name='mgS004'
         ),
         TestGroup(
             annotation=[
@@ -17422,7 +17422,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : sequence must be deterministic:((a, b) | ( ab | b))",
+                                'TEST :model groups (ALL) : sequence must be deterministic:((a, b) | ( ab | b))',
                             ]
                         ),
                     ]
@@ -17430,13 +17430,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgS005.xsd"
+                        href='../msData/modelGroups/mgS005.xsd'
                     ),
                 ],
                 expected=[
@@ -17448,9 +17448,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgS005"
+                name='mgS005'
             ),
-            name="mgS005"
+            name='mgS005'
         ),
         TestGroup(
             annotation=[
@@ -17458,7 +17458,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : XSD: handling of ALL schema element when ALL has minOccurs=0",
+                                'TEST :model groups (ALL) : XSD: handling of ALL schema element when ALL has minOccurs=0',
                             ]
                         ),
                     ]
@@ -17466,13 +17466,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgZ001.xsd"
+                        href='../msData/modelGroups/mgZ001.xsd'
                     ),
                 ],
                 expected=[
@@ -17484,12 +17484,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgZ001"
+                name='mgZ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgZ001.xml"
+                        href='../msData/modelGroups/mgZ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -17500,10 +17500,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgZ001.i"
+                    name='mgZ001.i'
                 ),
             ],
-            name="mgZ001"
+            name='mgZ001'
         ),
         TestGroup(
             annotation=[
@@ -17511,7 +17511,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : xs:all in an extended particle should be allowed if the contentType of the base complexType is EMPTY",
+                                'TEST :model groups (ALL) : xs:all in an extended particle should be allowed if the contentType of the base complexType is EMPTY',
                             ]
                         ),
                     ]
@@ -17519,13 +17519,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgZ002.xsd"
+                        href='../msData/modelGroups/mgZ002.xsd'
                     ),
                 ],
                 expected=[
@@ -17537,9 +17537,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgZ002"
+                name='mgZ002'
             ),
-            name="mgZ002"
+            name='mgZ002'
         ),
         TestGroup(
             annotation=[
@@ -17547,7 +17547,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : test derivation by ext. with all with base=empty content",
+                                'TEST :model groups (ALL) : test derivation by ext. with all with base=empty content',
                             ]
                         ),
                     ]
@@ -17555,13 +17555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgZ003.xsd"
+                        href='../msData/modelGroups/mgZ003.xsd'
                     ),
                 ],
                 expected=[
@@ -17573,12 +17573,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgZ003"
+                name='mgZ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgZ003.xml"
+                        href='../msData/modelGroups/mgZ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -17589,10 +17589,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgZ003.v"
+                    name='mgZ003.v'
                 ),
             ],
-            name="mgZ003"
+            name='mgZ003'
         ),
         TestGroup(
             annotation=[
@@ -17600,7 +17600,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : test occurence range of xs:choice",
+                                'TEST :model groups (ALL) : test occurence range of xs:choice',
                             ]
                         ),
                     ]
@@ -17608,13 +17608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgZ004.xsd"
+                        href='../msData/modelGroups/mgZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -17626,12 +17626,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgZ004"
+                name='mgZ004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/modelGroups/mgZ004.xml"
+                        href='../msData/modelGroups/mgZ004.xml'
                     ),
                     expected=[
                         Expected(
@@ -17642,10 +17642,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="mgZ004.v"
+                    name='mgZ004.v'
                 ),
             ],
-            name="mgZ004"
+            name='mgZ004'
         ),
         TestGroup(
             annotation=[
@@ -17653,7 +17653,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :model groups (ALL) : XSD: valid schema with ambigous schema",
+                                'TEST :model groups (ALL) : XSD: valid schema with ambigous schema',
                             ]
                         ),
                     ]
@@ -17661,13 +17661,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/modelGroups/mgZ005.xsd"
+                        href='../msData/modelGroups/mgZ005.xsd'
                     ),
                 ],
                 expected=[
@@ -17679,14 +17679,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="mgZ005"
+                name='mgZ005'
             ),
-            name="mgZ005"
+            name='mgZ005'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-ModelGroups2006-07-15",
+    contributor='Microsoft',
+    name='MS-ModelGroups2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

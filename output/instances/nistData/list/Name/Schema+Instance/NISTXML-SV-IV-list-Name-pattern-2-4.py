@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNamePattern2(
     value=[
-        "jto-commerce.fine-of.registry.test",
-        "qstandard.our:i.s-systems:and-we-base:specifications_",
-        "hopportunity_then_divisions-base.filter_and-would-enterpr",
-        "xemergi",
-        "band:the.impact:rigorou",
+        'jto-commerce.fine-of.registry.test',
+        'qstandard.our:i.s-systems:and-we-base:specifications_',
+        'hopportunity_then_divisions-base.filter_and-would-enterpr',
+        'xemergi',
+        'band:the.impact:rigorou',
     ]
 )

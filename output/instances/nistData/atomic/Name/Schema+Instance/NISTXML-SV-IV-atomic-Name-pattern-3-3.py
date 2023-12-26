@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern3(
-    value="gleadership_interacting_test.avai"
+    value='gleadership_interacting_test.avai'
 )

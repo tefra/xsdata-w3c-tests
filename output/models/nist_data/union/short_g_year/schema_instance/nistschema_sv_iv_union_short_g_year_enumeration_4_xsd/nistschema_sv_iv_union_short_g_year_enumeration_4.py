@@ -27,5 +27,5 @@ class NistschemaSvIvUnionShortGYearEnumeration4:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

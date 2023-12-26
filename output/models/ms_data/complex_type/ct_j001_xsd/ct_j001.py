@@ -14,7 +14,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_element2: Optional[str] = field(
         default=None,
@@ -23,7 +23,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_element3: Optional[str] = field(
         default=None,
@@ -32,14 +32,14 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -55,7 +55,7 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

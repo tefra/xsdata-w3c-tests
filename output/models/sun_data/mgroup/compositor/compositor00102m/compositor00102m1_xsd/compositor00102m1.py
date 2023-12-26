@@ -27,5 +27,5 @@ class A:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

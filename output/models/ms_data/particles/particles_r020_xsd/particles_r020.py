@@ -15,7 +15,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     other_element: List[object] = field(
         default_factory=list,
@@ -23,7 +23,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##other",
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     imp_elem1_or_imp_elem2: Optional[Union[ImpElem1, ImpElem2]] = field(
         default=None,
@@ -52,7 +52,7 @@ class R:
                     "namespace": "http://importedXSD",
                 },
             ),
-        }
+        },
     )
 
 
@@ -68,5 +68,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

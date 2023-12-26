@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength2(
-        value="iand-large.and-to-the-supply.cooperation-languages-each.filte"
+        value='iand-large.and-to-the-supply.cooperation-languages-each.filte'
     )
 )

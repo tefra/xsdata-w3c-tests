@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern5(
-    value="annual-data.a:lies"
+    value='annual-data.a:lies'
 )

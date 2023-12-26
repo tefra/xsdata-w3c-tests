@@ -1,4 +1,6 @@
-from output.models.sun_data.id_constr_defs.name.name00201m.name00201m1_xsd.name00201m1 import Name
+from output.models.sun_data.id_constr_defs.name.name00201m.name00201m1_xsd.name00201m1 import (
+    Name,
+)
 
 __all__ = [
     "Name",

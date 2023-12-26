@@ -15,5 +15,5 @@ class NistschemaSvIvListTokenLength4:
         metadata={
             "length": 8,
             "tokens": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern5(
-    value="_to.measurements_registries.would.will-success-testing.known.amb"
+    value='_to.measurements_registries.would.will-success-testing.known.amb'
 )

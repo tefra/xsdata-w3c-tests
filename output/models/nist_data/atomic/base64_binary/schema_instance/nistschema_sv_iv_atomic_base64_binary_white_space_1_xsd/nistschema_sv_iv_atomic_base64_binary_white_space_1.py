@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicBase64BinaryWhiteSpace1:
             "required": True,
             "white_space": "collapse",
             "format": "base64",
-        }
+        },
     )

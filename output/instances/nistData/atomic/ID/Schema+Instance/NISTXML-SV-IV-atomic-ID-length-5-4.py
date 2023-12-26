@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdLength5(
-        value="fsoftware-software-ability.supply_and_will-software_software-mad"
+        value='fsoftware-software-ability.supply_and_will-software_software-mad'
     )
 )

@@ -15,14 +15,14 @@ class T:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     col: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "myNS.tempuri.org",
-        }
+        },
     )
 
 
@@ -37,5 +37,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

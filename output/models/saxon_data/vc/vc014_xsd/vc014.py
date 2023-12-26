@@ -12,11 +12,11 @@ class Temp:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     y: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

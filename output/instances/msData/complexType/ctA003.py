@@ -3,9 +3,9 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = DerivedElement(
-    qname="root",
+    qname='root',
     value=FixedType(
 
     ),
-    type="fixedType"
+    type='fixedType'
 )

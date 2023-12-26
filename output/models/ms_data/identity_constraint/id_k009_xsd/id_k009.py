@@ -13,13 +13,13 @@ class Kid:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     val: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,13 +34,13 @@ class Uid:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     val: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -54,12 +54,12 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

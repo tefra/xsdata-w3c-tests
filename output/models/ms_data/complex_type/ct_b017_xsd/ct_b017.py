@@ -14,7 +14,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_ele2: Optional[str] = field(
         default=None,
@@ -23,7 +23,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -39,7 +39,7 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

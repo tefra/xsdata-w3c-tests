@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicGYearMonthPattern2:
         metadata={
             "required": True,
             "pattern": r"\d\d31-\d3",
-        }
+        },
     )

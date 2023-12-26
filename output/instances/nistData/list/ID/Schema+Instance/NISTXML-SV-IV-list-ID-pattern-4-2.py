@@ -5,11 +5,11 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdPattern4(
         value=[
-            "jsoftware_must_build.issues-as_pervasi",
-            "vwill_documents.has.to.life-to.",
-            "con-these-their.of_is.busi",
-            "_suc",
-            "lsoftware.which",
+            'jsoftware_must_build.issues-as_pervasi',
+            'vwill_documents.has.to.life-to.',
+            'con-these-their.of_is.busi',
+            '_suc',
+            'lsoftware.which',
         ]
     )
 )

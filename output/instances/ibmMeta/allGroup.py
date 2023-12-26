@@ -22,12 +22,12 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited',
                     },
                     content=[
                         AnyElement(
-                            qname="Description",
-                            text="Test set for All Group Limited"
+                            qname='Description',
+                            text='Test set for All Group Limited'
                         ),
                     ]
                 ),
@@ -41,7 +41,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Wildcards are now allowed in xs:all",
+                                'Wildcards are now allowed in xs:all',
                             ]
                         ),
                     ]
@@ -49,16 +49,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-element"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-element'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_6/s3_3_6v01.xsd"
+                        href='../ibmData/valid/S3_3_6/s3_3_6v01.xsd'
                     ),
                 ],
                 expected=[
@@ -70,12 +70,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6v01s"
+                name='s3_3_6v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_6/s3_3_6v01.xml"
+                        href='../ibmData/valid/S3_3_6/s3_3_6v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -86,10 +86,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_6v01i"
+                    name='s3_3_6v01i'
                 ),
             ],
-            name="s3_3_6v01",
+            name='s3_3_6v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -100,7 +100,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests restriction of all group",
+                                'Tests restriction of all group',
                             ]
                         ),
                     ]
@@ -108,16 +108,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-element"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-element'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_6/s3_3_6v04.xsd"
+                        href='../ibmData/valid/S3_3_6/s3_3_6v04.xsd'
                     ),
                 ],
                 expected=[
@@ -129,12 +129,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6v04s"
+                name='s3_3_6v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_6/s3_3_6v04.xml"
+                        href='../ibmData/valid/S3_3_6/s3_3_6v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -145,10 +145,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_6v04i"
+                    name='s3_3_6v04i'
                 ),
             ],
-            name="s3_3_6v04",
+            name='s3_3_6v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -159,7 +159,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests maxOccurs &gt; 1 for elements within all group",
+                                'Tests maxOccurs > 1 for elements within all group',
                             ]
                         ),
                     ]
@@ -167,16 +167,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-element"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-element'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_6/s3_3_6v05.xsd"
+                        href='../ibmData/valid/S3_3_6/s3_3_6v05.xsd'
                     ),
                 ],
                 expected=[
@@ -188,12 +188,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6v05s"
+                name='s3_3_6v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_6/s3_3_6v05.xml"
+                        href='../ibmData/valid/S3_3_6/s3_3_6v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -204,10 +204,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_6v05i"
+                    name='s3_3_6v05i'
                 ),
             ],
-            name="s3_3_6v05",
+            name='s3_3_6v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -218,7 +218,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "maxOccurs may now be &gt;1 in all group",
+                                'maxOccurs may now be >1 in all group',
                             ]
                         ),
                     ]
@@ -226,16 +226,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -247,12 +247,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6ii01s"
+                name='s3_3_6ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xml"
+                        href='../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -263,10 +263,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_6ii01i"
+                    name='s3_3_6ii01i'
                 ),
             ],
-            name="s3_3_6ii01",
+            name='s3_3_6ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -277,7 +277,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests notNamespace in all group",
+                                'Tests notNamespace in all group',
                             ]
                         ),
                     ]
@@ -285,16 +285,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -306,12 +306,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6ii02s"
+                name='s3_3_6ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xml"
+                        href='../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -322,10 +322,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_6ii02i"
+                    name='s3_3_6ii02i'
                 ),
             ],
-            name="s3_3_6ii02",
+            name='s3_3_6ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -336,7 +336,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests notQName in allgroup",
+                                'Tests notQName in allgroup',
                             ]
                         ),
                     ]
@@ -344,16 +344,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -365,12 +365,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6ii03s"
+                name='s3_3_6ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xml"
+                        href='../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -381,10 +381,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_6ii03i"
+                    name='s3_3_6ii03i'
                 ),
             ],
-            name="s3_3_6ii03",
+            name='s3_3_6ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -395,7 +395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests occurence validity",
+                                'Tests occurence validity',
                             ]
                         ),
                     ]
@@ -403,16 +403,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-element"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-element'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_6/s3_3_6si01.xsd"
+                        href='../ibmData/schema_invalid/S3_3_6/s3_3_6si01.xsd'
                     ),
                 ],
                 expected=[
@@ -424,9 +424,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6si01s"
+                name='s3_3_6si01s'
             ),
-            name="s3_3_6si01",
+            name='s3_3_6si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -437,7 +437,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests restriction of all modelgroup",
+                                'Tests restriction of all modelgroup',
                             ]
                         ),
                     ]
@@ -445,16 +445,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-element"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-element'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_6/s3_3_6si02.xsd"
+                        href='../ibmData/schema_invalid/S3_3_6/s3_3_6si02.xsd'
                     ),
                 ],
                 expected=[
@@ -466,9 +466,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6si02s"
+                name='s3_3_6si02s'
             ),
-            name="s3_3_6si02",
+            name='s3_3_6si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -479,7 +479,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests restriction of all modelgroup",
+                                'Tests restriction of all modelgroup',
                             ]
                         ),
                     ]
@@ -487,16 +487,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-element"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-element'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_6/s3_3_6si03.xsd"
+                        href='../ibmData/schema_invalid/S3_3_6/s3_3_6si03.xsd'
                     ),
                 ],
                 expected=[
@@ -508,20 +508,20 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_6si03s"
+                name='s3_3_6si03s'
             ),
-            name="s3_3_6si03",
+            name='s3_3_6si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="allGroup",
+    contributor='IBM',
+    name='allGroup',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

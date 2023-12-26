@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.non_positive_integer.non_positive_in
 
 
 obj = Test(
-    foo="-5"
+    foo='-5'
 )

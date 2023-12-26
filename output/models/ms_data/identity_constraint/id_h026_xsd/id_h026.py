@@ -14,7 +14,7 @@ class Kid:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Uidtype:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -43,12 +43,12 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

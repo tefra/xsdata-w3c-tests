@@ -14,13 +14,13 @@ class RootType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

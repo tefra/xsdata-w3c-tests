@@ -22,7 +22,7 @@ class Root:
             "name": "Number1",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     number2: List[float] = field(
         default_factory=list,
@@ -30,5 +30,5 @@ class Root:
             "name": "Number2",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

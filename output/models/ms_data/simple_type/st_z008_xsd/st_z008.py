@@ -7,14 +7,12 @@ class T2:
     class Meta:
         name = "t2"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
     att: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -30,7 +28,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )
     e2: List[T2] = field(
         default_factory=list,
@@ -39,5 +37,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )

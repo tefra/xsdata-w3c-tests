@@ -8,7 +8,7 @@ obj = Root(
         Elt1(
             any_element=[
                 Elt2(
-                    value="name"
+                    value='name'
                 ),
             ]
         ),

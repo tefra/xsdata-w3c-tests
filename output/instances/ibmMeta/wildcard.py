@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#Wildcard_details',
                     },
                     content=[
-                        "wildcard&#10;&#9;    ",
+                        'wildcard\n\t    ',
                     ]
                 ),
             ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v01.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v01s"
+                name='s3_10_1v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v01.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v01i"
+                    name='s3_10_1v01i'
                 ),
             ],
-            name="s3_10_1v01",
+            name='s3_10_1v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests notQName and notNamespace list ",
+                                'Tests notQName and notNamespace list ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v02.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v02s"
+                name='s3_10_1v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v02.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v02i"
+                    name='s3_10_1v02i'
                 ),
             ],
-            name="s3_10_1v02",
+            name='s3_10_1v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests namespace attribute in wildcard",
+                                'Tests namespace attribute in wildcard',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v03.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v03s"
+                name='s3_10_1v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v03.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v03i"
+                    name='s3_10_1v03i'
                 ),
             ],
-            name="s3_10_1v03",
+            name='s3_10_1v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests weakened wildcard (tests whether error occurs on violation of UPA) ",
+                                'Tests weakened wildcard (tests whether error occurs on violation of UPA) ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v04.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v04s"
+                name='s3_10_1v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v04.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v04i"
+                    name='s3_10_1v04i'
                 ),
             ],
-            name="s3_10_1v04",
+            name='s3_10_1v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model ",
+                                'the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v05.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v05s"
+                name='s3_10_1v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v05.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v05i"
+                    name='s3_10_1v05i'
                 ),
             ],
-            name="s3_10_1v05",
+            name='s3_10_1v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)",
+                                'the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v06.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v06s"
+                name='s3_10_1v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v06.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v06i"
+                    name='s3_10_1v06i'
                 ),
             ],
-            name="s3_10_1v06",
+            name='s3_10_1v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "skip wildcards now excluded from EDC constraint",
+                                'skip wildcards now excluded from EDC constraint',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v07.xsd"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v07.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1v07s"
+                name='s3_10_1v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_10_1/s3_10_1v07.xml"
+                        href='../ibmData/valid/S3_10_1/s3_10_1v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1v07i"
+                    name='s3_10_1v07i'
                 ),
             ],
-            name="s3_10_1v07",
+            name='s3_10_1v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid element in instance document as it does not match ns of wildcard",
+                                'invalid element in instance document as it does not match ns of wildcard',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii01s"
+                name='s3_10_1ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii01i"
+                    name='s3_10_1ii01i'
                 ),
             ],
-            name="s3_10_1ii01"
+            name='s3_10_1ii01'
         ),
         TestGroup(
             annotation=[
@@ -506,7 +506,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid element in instance document as it does not match ns of wildcard ",
+                                'invalid element in instance document as it does not match ns of wildcard ',
                             ]
                         ),
                     ]
@@ -514,16 +514,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -535,12 +535,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii02s"
+                name='s3_10_1ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -551,10 +551,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii02i"
+                    name='s3_10_1ii02i'
                 ),
             ],
-            name="s3_10_1ii02",
+            name='s3_10_1ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -565,7 +565,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid element in instance document as it does not match ns of wildcard ",
+                                'invalid element in instance document as it does not match ns of wildcard ',
                             ]
                         ),
                     ]
@@ -573,16 +573,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -594,12 +594,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii03s"
+                name='s3_10_1ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -610,10 +610,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii03i"
+                    name='s3_10_1ii03i'
                 ),
             ],
-            name="s3_10_1ii03"
+            name='s3_10_1ii03'
         ),
         TestGroup(
             annotation=[
@@ -621,7 +621,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid element in instance document as it does not match ns of wildcard",
+                                'invalid element in instance document as it does not match ns of wildcard',
                             ]
                         ),
                     ]
@@ -629,16 +629,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -650,12 +650,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii04s"
+                name='s3_10_1ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -666,10 +666,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii04i"
+                    name='s3_10_1ii04i'
                 ),
             ],
-            name="s3_10_1ii04"
+            name='s3_10_1ii04'
         ),
         TestGroup(
             annotation=[
@@ -677,7 +677,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid element in instance document as it matches the namespace in notNamespace list in wildcard",
+                                'invalid element in instance document as it matches the namespace in notNamespace list in wildcard',
                             ]
                         ),
                     ]
@@ -685,16 +685,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -706,12 +706,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii06s"
+                name='s3_10_1ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -722,10 +722,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii06i"
+                    name='s3_10_1ii06i'
                 ),
             ],
-            name="s3_10_1ii06",
+            name='s3_10_1ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -736,7 +736,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests namespace attribute in wildcard",
+                                'Tests namespace attribute in wildcard',
                             ]
                         ),
                     ]
@@ -744,16 +744,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd'
                     ),
                 ],
                 expected=[
@@ -765,12 +765,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii07s"
+                name='s3_10_1ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -781,10 +781,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii07i"
+                    name='s3_10_1ii07i'
                 ),
             ],
-            name="s3_10_1ii07"
+            name='s3_10_1ii07'
         ),
         TestGroup(
             annotation=[
@@ -792,7 +792,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model",
+                                'the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model',
                             ]
                         ),
                     ]
@@ -800,16 +800,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd'
                     ),
                 ],
                 expected=[
@@ -821,12 +821,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii08s"
+                name='s3_10_1ii08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml'
                     ),
                     expected=[
                         Expected(
@@ -837,10 +837,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii08i"
+                    name='s3_10_1ii08i'
                 ),
             ],
-            name="s3_10_1ii08"
+            name='s3_10_1ii08'
         ),
         TestGroup(
             annotation=[
@@ -848,7 +848,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)",
+                                'the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)',
                             ]
                         ),
                     ]
@@ -856,16 +856,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd'
                     ),
                 ],
                 expected=[
@@ -877,12 +877,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1ii09s"
+                name='s3_10_1ii09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml"
+                        href='../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml'
                     ),
                     expected=[
                         Expected(
@@ -893,10 +893,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_10_1ii09i"
+                    name='s3_10_1ii09i'
                 ),
             ],
-            name="s3_10_1ii09"
+            name='s3_10_1ii09'
         ),
         TestGroup(
             annotation=[
@@ -904,7 +904,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Wildcard, schema invalid test case",
+                                'Wildcard, schema invalid test case',
                             ]
                         ),
                     ]
@@ -912,16 +912,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_10_1/s3_10_1si01.xsd"
+                        href='../ibmData/schema_invalid/S3_10_1/s3_10_1si01.xsd'
                     ),
                 ],
                 expected=[
@@ -933,9 +933,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1si01s"
+                name='s3_10_1si01s'
             ),
-            name="s3_10_1si01"
+            name='s3_10_1si01'
         ),
         TestGroup(
             annotation=[
@@ -943,7 +943,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint",
+                                '3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint',
                             ]
                         ),
                     ]
@@ -951,16 +951,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Wildcard_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_10_1/s3_10_1si02.xsd"
+                        href='../ibmData/schema_invalid/S3_10_1/s3_10_1si02.xsd'
                     ),
                 ],
                 expected=[
@@ -972,14 +972,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_10_1si02s"
+                name='s3_10_1si02s'
             ),
-            name="s3_10_1si02"
+            name='s3_10_1si02'
         ),
     ],
-    contributor="IBM",
-    name="wildcard",
+    contributor='IBM',
+    name='wildcard',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

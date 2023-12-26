@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicAnyUriPattern5:
         metadata={
             "required": True,
             "pattern": r"\c{3,6}://(\c{1,10}\.){1,5}\c{3}",
-        }
+        },
     )

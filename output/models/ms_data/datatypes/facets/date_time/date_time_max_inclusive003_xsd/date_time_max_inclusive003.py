@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "max_inclusive": XmlDateTime(1999, 5, 12, 10, 31, 0),
-        }
+        },
     )
 
 

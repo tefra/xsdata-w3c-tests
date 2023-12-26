@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.positive_integer.schema_instance.nistschema_sv_iv_atomic_positive_integer_pattern_2_xsd.nistschema_sv_iv_atomic_positive_integer_pattern_2 import NistschemaSvIvAtomicPositiveIntegerPattern2
+from output.models.nist_data.atomic.positive_integer.schema_instance.nistschema_sv_iv_atomic_positive_integer_pattern_2_xsd.nistschema_sv_iv_atomic_positive_integer_pattern_2 import (
+    NistschemaSvIvAtomicPositiveIntegerPattern2,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicPositiveIntegerPattern2",

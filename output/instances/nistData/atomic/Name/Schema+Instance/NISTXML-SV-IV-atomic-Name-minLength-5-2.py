@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength5(
-    value="wall_cooperation-to_industries:commerce_hardware.and:high.and-vo"
+    value='wall_cooperation-to_industries:commerce_hardware.and:high.and-vo'
 )

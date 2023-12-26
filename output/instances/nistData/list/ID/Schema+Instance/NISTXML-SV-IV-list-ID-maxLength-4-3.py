@@ -5,12 +5,12 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdMaxLength4(
         value=[
-            "nvia-",
-            "rthe_",
-            "dreco",
-            "elang",
-            "sregi",
-            "wto-f",
+            'nvia-',
+            'rthe_',
+            'dreco',
+            'elang',
+            'sregi',
+            'wto-f',
         ]
     )
 )

@@ -14,7 +14,7 @@ class Ct:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Elem:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

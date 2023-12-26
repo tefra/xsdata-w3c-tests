@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriLength3(
-    value="http://www.OASISofinin.ormatio.net"
+    value='http://www.OASISofinin.ormatio.net'
 )

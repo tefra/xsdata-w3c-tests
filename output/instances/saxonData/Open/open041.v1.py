@@ -11,8 +11,8 @@ obj = Doc(
         ),
         Beta(
             open_com_element=AnyElement(
-                qname="{http://open.com/}extra",
-                text=""
+                qname='{http://open.com/}extra',
+                text=''
             )
         ),
     ]

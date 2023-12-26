@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNameWhiteSpace1:
         metadata={
             "required": True,
             "white_space": "collapse",
-        }
+        },
     )

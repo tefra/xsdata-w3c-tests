@@ -6,12 +6,12 @@ obj = Doc(
     node=[
         Node(
             node_or_id=[
-                "",
+                '',
             ]
         ),
         Node(
             node_or_id=[
-                "p2",
+                'p2',
             ]
         ),
     ]

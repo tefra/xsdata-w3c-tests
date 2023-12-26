@@ -14,7 +14,7 @@ class Item0To1:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -29,7 +29,7 @@ class Item0To2:
         metadata={
             "type": "Element",
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -43,7 +43,7 @@ class Item0ToX:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -59,7 +59,7 @@ class Item1To2:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -74,7 +74,7 @@ class Item1ToX:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -90,7 +90,7 @@ class Item2To2:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -105,7 +105,7 @@ class Item2ToX:
         metadata={
             "type": "Element",
             "min_occurs": 2,
-        }
+        },
     )
 
 
@@ -121,7 +121,7 @@ class Item3To7:
             "type": "Element",
             "min_occurs": 3,
             "max_occurs": 7,
-        }
+        },
     )
 
 
@@ -131,7 +131,18 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[Union[Item0ToX, Item0To1, Item2ToX, Item1ToX, Item2To2, Item3To7, Item1To2, Item0To2]] = field(
+    choice: List[
+        Union[
+            Item0To1,
+            Item0To2,
+            Item0ToX,
+            Item1To2,
+            Item1ToX,
+            Item2To2,
+            Item2ToX,
+            Item3To7,
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -169,5 +180,5 @@ class Root:
                     "type": Item3To7,
                 },
             ),
-        }
+        },
     )

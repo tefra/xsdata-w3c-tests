@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern3(
-    value="_chair_known-same.necessary.open_a"
+    value='_chair_known-same.necessary.open_a'
 )

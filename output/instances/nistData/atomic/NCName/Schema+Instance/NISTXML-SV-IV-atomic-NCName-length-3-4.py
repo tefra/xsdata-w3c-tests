@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength3(
-    value="_heterogeneous_good_industry-standardization-concepts"
+    value='_heterogeneous_good_industry-standardization-concepts'
 )

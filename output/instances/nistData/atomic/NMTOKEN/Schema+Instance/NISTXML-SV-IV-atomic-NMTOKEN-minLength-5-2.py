@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength5(
-    value="suites:paradigm.manipulate_will-success.only-more:data.discussio"
+    value='suites:paradigm.manipulate_will-success.only-more:data.discussio'
 )

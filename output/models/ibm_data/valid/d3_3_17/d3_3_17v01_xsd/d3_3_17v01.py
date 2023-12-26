@@ -18,5 +18,5 @@ class Root:
             "min_occurs": 1,
             "min_length": 6,
             "format": "base64",
-        }
+        },
     )

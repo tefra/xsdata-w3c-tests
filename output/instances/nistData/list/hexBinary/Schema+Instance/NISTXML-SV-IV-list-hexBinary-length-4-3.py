@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.hex_binary.schema_instance.nistschema_sv_i
 
 obj = NistschemaSvIvListHexBinaryLength4(
     value=[
-        b"m",
-        b"e",
-        b"b",
-        b"k",
-        b"f",
-        b"a",
-        b"o",
-        b"l",
+        b'm',
+        b'e',
+        b'b',
+        b'k',
+        b'f',
+        b'a',
+        b'o',
+        b'l',
     ]
 )

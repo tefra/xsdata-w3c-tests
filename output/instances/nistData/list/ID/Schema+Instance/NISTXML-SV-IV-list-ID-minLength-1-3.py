@@ -5,14 +5,14 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdMinLength1(
         value=[
-            "wa",
-            "pt",
-            "ba",
-            "wd",
-            "xb",
-            "_t",
-            "oh",
-            "rp",
+            'wa',
+            'pt',
+            'ba',
+            'wd',
+            'xb',
+            '_t',
+            'oh',
+            'rp',
         ]
     )
 )

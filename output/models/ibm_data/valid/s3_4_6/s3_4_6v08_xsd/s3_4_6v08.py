@@ -15,14 +15,14 @@ class CmplxBase:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     element2: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     element3: Optional[int] = field(
         default=None,
@@ -30,7 +30,7 @@ class CmplxBase:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     element4: Optional[int] = field(
         default=None,
@@ -38,7 +38,7 @@ class CmplxBase:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -53,7 +53,7 @@ class Derived:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     element3: Optional[int] = field(
         default=None,
@@ -61,7 +61,7 @@ class Derived:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     element2: Optional[int] = field(
         default=None,
@@ -69,7 +69,7 @@ class Derived:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     element1: Optional[int] = field(
         default=None,
@@ -77,7 +77,7 @@ class Derived:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

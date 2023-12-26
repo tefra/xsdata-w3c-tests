@@ -15,14 +15,14 @@ class InternationalPrice:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     currency: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class Doc:
             "name": "internationalPrice",
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.target_ns.target_ns00303m.target_ns00303m1
 
 
 obj = Root(
-    local=""
+    local=''
 )

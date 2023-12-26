@@ -13,13 +13,13 @@ class BaseType:
             "name": "baseElement",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

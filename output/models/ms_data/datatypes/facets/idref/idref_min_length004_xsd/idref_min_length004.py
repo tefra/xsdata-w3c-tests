@@ -13,7 +13,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -22,7 +22,7 @@ class FooType:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         attr_test: Optional[str] = field(
             default=None,
@@ -31,13 +31,13 @@ class FooType:
                 "type": "Attribute",
                 "min_length": 4,
                 "max_length": 6,
-            }
+            },
         )
         id_attr: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 

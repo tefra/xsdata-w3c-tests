@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.name.name00201m.name00201m2_xsd.name00201m
 
 
 obj = Root(
-    value="&#10;&#10;  false&#10;&#10;"
+    value='\n\n  false\n\n'
 )

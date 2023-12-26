@@ -19,5 +19,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "min_inclusive": XmlPeriod("--12-12+13:00"),
-        }
+        },
     )

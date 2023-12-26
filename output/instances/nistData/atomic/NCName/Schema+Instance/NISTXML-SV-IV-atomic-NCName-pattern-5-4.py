@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern5(
-    value="_choices.would.commerce_computing.for-of-in_libraries-technology"
+    value='_choices.would.commerce_computing.for-of-in_libraries-technology'
 )

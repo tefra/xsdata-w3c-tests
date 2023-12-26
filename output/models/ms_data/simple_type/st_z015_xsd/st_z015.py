@@ -12,7 +12,7 @@ class Root:
             "namespace": "",
             "required": True,
             "total_digits": 3,
-        }
+        },
     )
     total2: Optional[int] = field(
         default=None,
@@ -23,5 +23,5 @@ class Root:
             "required": True,
             "min_exclusive": 100,
             "total_digits": 3,
-        }
+        },
     )

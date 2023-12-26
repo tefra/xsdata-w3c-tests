@@ -13,7 +13,7 @@ class DeptType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     dname: Optional[str] = field(
         default=None,
@@ -22,7 +22,7 @@ class DeptType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     loc: Optional[str] = field(
         default=None,
@@ -31,13 +31,13 @@ class DeptType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     id: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -50,7 +50,7 @@ class EmployeeType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     ename: Optional[str] = field(
         default=None,
@@ -59,7 +59,7 @@ class EmployeeType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     sal: Optional[float] = field(
         default=None,
@@ -68,7 +68,7 @@ class EmployeeType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     deptno: Optional[int] = field(
         default=None,
@@ -77,7 +77,7 @@ class EmployeeType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     id: Optional[int] = field(
         default=None,
@@ -86,7 +86,7 @@ class EmployeeType:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
 
 
@@ -101,7 +101,7 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     employee: List[EmployeeType] = field(
         default_factory=list,
@@ -109,5 +109,5 @@ class Root:
             "name": "Employee",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

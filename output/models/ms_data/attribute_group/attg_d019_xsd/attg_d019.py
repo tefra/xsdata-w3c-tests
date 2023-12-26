@@ -8,6 +8,7 @@ class AttgRef:
     :ivar att1:
     :ivar any_attributes: testing
     """
+
     class Meta:
         name = "attgRef"
 
@@ -15,14 +16,14 @@ class AttgRef:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -38,5 +39,5 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )

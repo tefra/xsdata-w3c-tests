@@ -15,7 +15,7 @@ class TypeType:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -31,7 +31,7 @@ class Root:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

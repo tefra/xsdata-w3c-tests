@@ -28,5 +28,5 @@ class NistschemaSvIvAtomicHexBinaryEnumeration3:
         metadata={
             "required": True,
             "format": "base16",
-        }
+        },
     )

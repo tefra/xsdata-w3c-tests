@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenWhiteSpace1(
-    value="is-OASIS.of_related_wide-file"
+    value='is-OASIS.of_related_wide-file'
 )

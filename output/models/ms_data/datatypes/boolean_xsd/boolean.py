@@ -13,7 +13,7 @@ class ComplexfooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class SimpleTest:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -47,7 +47,7 @@ class Root:
             "name": "complexTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     simple_test: Optional[bool] = field(
         default=None,
@@ -55,5 +55,5 @@ class Root:
             "name": "simpleTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

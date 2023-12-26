@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class Elem(B):
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -48,5 +48,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength2(
-    value="The_ensure_is.are-appropriate_more:as:the.are"
+    value='The_ensure_is.are-appropriate_more:as:the.are'
 )

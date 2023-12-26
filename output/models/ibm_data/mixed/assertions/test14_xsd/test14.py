@@ -11,13 +11,13 @@ class XType:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     a: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Example:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

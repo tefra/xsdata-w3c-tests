@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.time.time_pattern001_xsd.time_patter
 
 
 obj = Test(
-    foo="13:20:00-05:00"
+    foo='13:20:00-05:00'
 )

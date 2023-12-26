@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.language.schema_instance.nistschema_sv_iv_at
 
 
 obj = NistschemaSvIvAtomicLanguageMaxLength5(
-    value="GD-Thailand"
+    value='GD-Thailand'
 )

@@ -12,21 +12,21 @@ class FooType:
         metadata={
             "name": "attrTest1",
             "type": "Attribute",
-        }
+        },
     )
     attr_test2: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest2",
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 

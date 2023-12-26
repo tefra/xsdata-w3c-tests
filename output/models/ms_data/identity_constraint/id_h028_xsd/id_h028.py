@@ -11,7 +11,7 @@ class Kid:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class Uidtype:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     iid: Optional[str] = field(
         default=None,
@@ -33,7 +33,7 @@ class Uidtype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -48,12 +48,12 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

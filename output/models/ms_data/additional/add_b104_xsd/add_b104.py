@@ -15,7 +15,7 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -26,5 +26,5 @@ class Doc:
             metadata={
                 "type": "Attribute",
                 "namespace": "ns",
-            }
+            },
         )

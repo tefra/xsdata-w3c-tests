@@ -6,27 +6,27 @@ obj = Root(
     keys=Root.Keys(
         any_element=[
             AnyElement(
-                qname="{http://www.publishing.org}a",
-                text="",
+                qname='{http://www.publishing.org}a',
+                text='',
                 children=[
                     AnyElement(
-                        qname="{http://www.publishing.org}a",
-                        text="",
+                        qname='{http://www.publishing.org}a',
+                        text='',
                         children=[
                             AnyElement(
-                                qname="{http://www.publishing.org}b",
-                                text="",
+                                qname='{http://www.publishing.org}b',
+                                text='',
                                 children=[
                                     AnyElement(
-                                        qname="{http://www.publishing.org}b",
-                                        text="",
+                                        qname='{http://www.publishing.org}b',
+                                        text='',
                                         attributes={
-                                            "id": "id2",
+                                            'id': 'id2',
                                         }
                                     ),
                                 ],
                                 attributes={
-                                    "id": "id1",
+                                    'id': 'id1',
                                 }
                             ),
                         ]
@@ -36,7 +36,7 @@ obj = Root(
         ]
     ),
     keyref=[
-        "id1",
-        "id2",
+        'id1',
+        'id2',
     ]
 )

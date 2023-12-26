@@ -7,17 +7,17 @@ from output.models.saxon_data.override.over030_xsd.over030a import Title
 obj = Doc(
     title=Title(
         content=[
-            "Document Title",
+            'Document Title',
         ]
     ),
     p_or_blockquote=[
         P(
             content=[
-                "This is some ",
+                'This is some ',
                 Emphasis(
                     content=[
-                        "text",
-                        ".",
+                        'text',
+                        '.',
                     ]
                 ),
             ]

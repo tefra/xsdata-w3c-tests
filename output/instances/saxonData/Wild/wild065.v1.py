@@ -4,10 +4,10 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    g_or_e=Decimal("-12"),
+    g_or_e=Decimal('-12'),
     f=42,
     local_element=AnyElement(
-        qname="g",
-        text="6"
+        qname='g',
+        text='6'
     )
 )

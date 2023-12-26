@@ -15,5 +15,5 @@ class Test:
             "required": True,
             "length": 2,
             "pattern": r"1*",
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringWhiteSpace1(
-    value="The advent of Internet-enabled browsers and a&#10;first-generation language for defi"
+    value='The advent of Internet-enabled browsers and a\nfirst-generation language for defi'
 )

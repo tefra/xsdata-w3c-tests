@@ -11,14 +11,14 @@ class Zz:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     type_value: Optional[int] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class Zing:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
 
 

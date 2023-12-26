@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength4(
-    value="_allows.all-the-conferences-enable-under_registry_embedded_fr"
+    value='_allows.all-the-conferences-enable-under_registry_embedded_fr'
 )

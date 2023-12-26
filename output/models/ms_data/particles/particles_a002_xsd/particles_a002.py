@@ -12,14 +12,14 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     elem1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -34,12 +34,12 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     elem1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

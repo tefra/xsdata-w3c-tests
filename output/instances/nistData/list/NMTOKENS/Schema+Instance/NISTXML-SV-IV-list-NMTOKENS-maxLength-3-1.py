@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMaxLength3(
     value=[
-        "review.standa",
-        "via_containin",
-        "that.known-in",
-        "object:and_NI",
-        "and-donate.ca",
-        "can.of.only.r",
-        "targeted.the_",
+        'review.standa',
+        'via_containin',
+        'that.known-in',
+        'object:and_NI',
+        'and-donate.ca',
+        'can.of.only.r',
+        'targeted.the_',
     ]
 )

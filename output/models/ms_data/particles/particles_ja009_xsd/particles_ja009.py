@@ -12,7 +12,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class R(B):
             "namespace": "http://xsdtesting",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

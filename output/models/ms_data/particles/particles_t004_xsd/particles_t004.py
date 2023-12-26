@@ -28,14 +28,14 @@ class B:
                 },
             ),
             "max_occurs": 5,
-        }
+        },
     )
     foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -56,5 +56,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

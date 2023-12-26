@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameMaxLength3(
     value=[
-        "ma",
-        "st",
-        "ci",
-        "dt",
-        "qr",
-        "is",
+        'ma',
+        'st',
+        'ci',
+        'dt',
+        'qr',
+        'is',
     ]
 )

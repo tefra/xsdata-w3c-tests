@@ -14,7 +14,7 @@ class Base:
             "namespace": "foo",
             "max_occurs": 3,
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -51,5 +51,5 @@ class Doc(Base):
                     "type": object,
                 },
             ),
-        }
+        },
     )

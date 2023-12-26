@@ -26,7 +26,7 @@ class ACt:
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -41,7 +41,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

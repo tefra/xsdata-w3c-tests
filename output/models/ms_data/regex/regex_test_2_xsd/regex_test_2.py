@@ -12,5 +12,5 @@ class Doc:
         metadata={
             "type": "Attribute",
             "pattern": r"(\p{Lu}\p{Ll}*)\s(\p{Lu}\p{Ll}*)",
-        }
+        },
     )

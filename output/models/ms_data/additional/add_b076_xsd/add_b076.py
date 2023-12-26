@@ -15,7 +15,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -31,14 +31,14 @@ class NsAAft:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -53,5 +53,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

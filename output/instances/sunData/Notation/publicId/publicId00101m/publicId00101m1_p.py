@@ -2,5 +2,5 @@ from output.models.sun_data.notation.public_id.public_id00101m.public_id00101m1_
 
 
 obj = A(
-    value="abc"
+    value='abc'
 )

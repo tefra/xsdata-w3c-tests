@@ -15,5 +15,5 @@ class Test:
         metadata={
             "pattern": r"1|2",
             "tokens": True,
-        }
+        },
     )

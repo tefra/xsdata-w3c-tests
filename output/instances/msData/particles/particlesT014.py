@@ -7,566 +7,566 @@ obj = Doc(
     elem=R(
         c1_or_c2_or_c3=[
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
             Bar(
-                foo="",
-                att1="testing"
+                foo='',
+                att1='testing'
             ),
         ],
-        foo=""
+        foo=''
     )
 )

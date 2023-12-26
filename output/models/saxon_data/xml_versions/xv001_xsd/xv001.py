@@ -13,5 +13,5 @@ class DKstra:
             "name": "vrĳtag",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )

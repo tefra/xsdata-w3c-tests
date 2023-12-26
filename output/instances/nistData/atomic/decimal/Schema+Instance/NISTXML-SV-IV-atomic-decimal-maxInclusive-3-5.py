@@ -3,5 +3,5 @@ from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicDecimalMaxInclusive3(
-    value=Decimal("-888403528420030673")
+    value=Decimal('-888403528420030673')
 )

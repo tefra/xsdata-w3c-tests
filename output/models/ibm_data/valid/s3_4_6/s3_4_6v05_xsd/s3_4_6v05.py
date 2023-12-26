@@ -16,7 +16,7 @@ class C:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
     b: List[int] = field(
         default_factory=list,
@@ -25,7 +25,7 @@ class C:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
 
 

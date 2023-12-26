@@ -20,5 +20,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "max_occurs": 4000,
-        }
+        },
     )

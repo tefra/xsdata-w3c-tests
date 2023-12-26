@@ -5,14 +5,14 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdPattern5(
         value=[
-            "_publishing-the-as_areas-of-available_graphical-interoperabi",
-            "tthe.years_reference.development-of-specifications_c",
-            "_from.and_gain.system_to.to-manipulate_technologie",
-            "_of-a.of_a-the-2000.provides_reference.as.as",
-            "gof-any_suite_donate_pervasiv",
-            "_to_include.",
-            "kcan-fed.and_understanding.th",
-            "xaddress_contrib",
+            '_publishing-the-as_areas-of-available_graphical-interoperabi',
+            'tthe.years_reference.development-of-specifications_c',
+            '_from.and_gain.system_to.to-manipulate_technologie',
+            '_of-a.of_a-the-2000.provides_reference.as.as',
+            'gof-any_suite_donate_pervasiv',
+            '_to_include.',
+            'kcan-fed.and_understanding.th',
+            'xaddress_contrib',
         ]
     )
 )

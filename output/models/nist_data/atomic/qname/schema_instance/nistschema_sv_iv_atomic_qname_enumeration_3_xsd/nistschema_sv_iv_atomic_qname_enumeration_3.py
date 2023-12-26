@@ -7,13 +7,27 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicQnameEnumeration3Type(Enum):
-    KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}kdomains-as.automatic-academia_work-ensure_tes")
-    LFINE_D_VCOMPUTING_OF_AS = QName("{http://www.nist.gov/xsdNS}vcomputing.of-as_")
-    LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}_languages-and-transforming.technologies.is_impa")
-    XSTANDARD_FILE_USE_EA = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}xstandard-file_use-ea")
-    LAN_IAND_MUST_EFFECTI = QName("{http://www.nist.gov/xsdNS}iand-must.effecti")
-    TON_AND_ITS_T = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}ton.and_its.t")
-    YINVOLVED_E_EFFOR = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}yinvolved.e-effor")
+    KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName(
+        "{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}kdomains-as.automatic-academia_work-ensure_tes"
+    )
+    LFINE_D_VCOMPUTING_OF_AS = QName(
+        "{http://www.nist.gov/xsdNS}vcomputing.of-as_"
+    )
+    LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA = QName(
+        "{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}_languages-and-transforming.technologies.is_impa"
+    )
+    XSTANDARD_FILE_USE_EA = QName(
+        "{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}xstandard-file_use-ea"
+    )
+    LAN_IAND_MUST_EFFECTI = QName(
+        "{http://www.nist.gov/xsdNS}iand-must.effecti"
+    )
+    TON_AND_ITS_T = QName(
+        "{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}ton.and_its.t"
+    )
+    YINVOLVED_E_EFFOR = QName(
+        "{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}yinvolved.e-effor"
+    )
     Q_TTHE_WITH = QName("{http://www.nist.gov/xsdNS}tthe.with-")
 
 
@@ -27,7 +41,7 @@ class LanguagesAndTransformingTechnologiesIsImpa:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -41,7 +55,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -55,7 +69,7 @@ class TonAndItsT:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -69,7 +83,7 @@ class XstandardFileUseEa:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -83,7 +97,7 @@ class YinvolvedEEffor:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -97,5 +111,5 @@ class NistschemaSvIvAtomicQnameEnumeration3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

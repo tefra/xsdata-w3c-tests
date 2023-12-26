@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength4(
-    value="mengineering.devices_these.used:distributed_projector."
+    value='mengineering.devices_these.used:distributed_projector.'
 )

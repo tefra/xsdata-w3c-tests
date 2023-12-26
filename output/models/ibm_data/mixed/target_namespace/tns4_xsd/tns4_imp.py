@@ -10,9 +10,7 @@ class A:
         name = "a"
         namespace = "http://test2"
 
-    value: Optional[int] = field(
-        default=None
-    )
+    value: Optional[int] = field(default=None)
 
 
 @dataclass
@@ -26,5 +24,5 @@ class Y:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -11,14 +11,14 @@ class MyType:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class FooType(MyType):
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 

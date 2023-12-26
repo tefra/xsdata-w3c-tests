@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength5(
-    value="advanced:Description-in-role.used-and:enterprises_can_and-softwa"
+    value='advanced:Description-in-role.used-and:enterprises_can_and-softwa'
 )

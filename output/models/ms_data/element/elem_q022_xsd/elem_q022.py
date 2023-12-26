@@ -6,9 +6,7 @@ class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: str = field(
-        default="Hello"
-    )
+    value: str = field(default="Hello")
 
 
 @dataclass
@@ -22,5 +20,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

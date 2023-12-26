@@ -15,5 +15,5 @@ class FooB:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

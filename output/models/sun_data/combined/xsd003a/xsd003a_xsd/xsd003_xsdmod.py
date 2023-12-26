@@ -14,7 +14,7 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     g_att: Optional[str] = field(
         default=None,
@@ -22,7 +22,7 @@ class ComplexType:
             "name": "gAtt",
             "type": "Attribute",
             "namespace": "foo",
-        }
+        },
     )
 
 

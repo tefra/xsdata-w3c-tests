@@ -7,17 +7,17 @@ obj = Root(
     uid=[
         Uid(
             any_element=AnyElement(
-                text="1",
+                text='1',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}boolean",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}boolean',
                 }
             )
         ),
         Uid(
             any_element=AnyElement(
-                text="1",
+                text='1',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal",
+                    '{http://www.w3.org/2001/XMLSchema-instance}type': '{http://www.w3.org/2001/XMLSchema}decimal',
                 }
             )
         ),

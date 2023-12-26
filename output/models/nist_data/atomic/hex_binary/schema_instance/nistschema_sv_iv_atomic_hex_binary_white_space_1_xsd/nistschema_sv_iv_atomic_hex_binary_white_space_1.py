@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicHexBinaryWhiteSpace1:
             "required": True,
             "white_space": "collapse",
             "format": "base16",
-        }
+        },
     )

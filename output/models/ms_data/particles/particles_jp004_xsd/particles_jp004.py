@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class R(B):
             "type": "Element",
             "namespace": "http://xsdtesting",
             "required": True,
-        }
+        },
     )
 
 
@@ -54,5 +54,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

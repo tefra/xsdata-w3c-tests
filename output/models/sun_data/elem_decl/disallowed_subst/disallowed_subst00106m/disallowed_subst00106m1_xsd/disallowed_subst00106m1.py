@@ -12,7 +12,7 @@ class HeadType:
             "name": "Ear",
             "type": "Element",
             "namespace": "ElemDecl/disallowedSubst",
-        }
+        },
     )
     eye: Optional[object] = field(
         default=None,
@@ -20,7 +20,7 @@ class HeadType:
             "name": "Eye",
             "type": "Element",
             "namespace": "ElemDecl/disallowedSubst",
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class Member3(HeadType):
         metadata={
             "name": "Nose",
             "type": "Element",
-        }
+        },
     )
 
 
@@ -64,5 +64,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

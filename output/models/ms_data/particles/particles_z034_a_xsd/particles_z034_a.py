@@ -24,7 +24,7 @@ class FooType:
                 },
             ),
             "min_occurs": 2,
-        }
+        },
     )
 
 

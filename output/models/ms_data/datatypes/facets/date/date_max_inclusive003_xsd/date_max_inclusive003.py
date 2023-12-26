@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "max_inclusive": XmlDate(2000, 5, 31),
-        }
+        },
     )
 
 

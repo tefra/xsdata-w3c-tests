@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameLength2(
     value=[
-        "_tests_becoming_as.req",
-        ":the-an.two:and.and.te",
-        ":achieved.dependabilit",
-        "dnature.is_for:defines",
-        "fweb:transmit:enabling",
-        "_software.the_these.gl",
+        '_tests_becoming_as.req',
+        ':the-an.two:and.and.te',
+        ':achieved.dependabilit',
+        'dnature.is_for:defines',
+        'fweb:transmit:enabling',
+        '_software.the_these.gl',
     ]
 )

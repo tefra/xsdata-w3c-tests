@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMaxLength2(
     value=[
-        "define:the_the.digital_repositor",
-        "Organization_e.OASIS-other:to:be",
-        "a:developing_know-the-each_by-th",
-        "a.the-OASIS:the.print_technologi",
-        "of-a_on-individual.discovery_Con",
+        'define:the_the.digital_repositor',
+        'Organization_e.OASIS-other:to:be',
+        'a:developing_know-the-each_by-th',
+        'a.the-OASIS:the.print_technologi',
+        'of-a_on-individual.discovery_Con',
     ]
 )

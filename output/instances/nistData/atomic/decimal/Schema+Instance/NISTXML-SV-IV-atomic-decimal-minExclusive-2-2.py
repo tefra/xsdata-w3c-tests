@@ -3,5 +3,5 @@ from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicDecimalMinExclusive2(
-    value=Decimal("655270940327769770")
+    value=Decimal('655270940327769770')
 )

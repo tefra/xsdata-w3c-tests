@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength4(
-    value="yenvironment.with_and_range-operating-generation_a.would.refe"
+    value='yenvironment.with_and_range-operating-generation_a.would.refe'
 )

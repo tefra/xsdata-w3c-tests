@@ -6,12 +6,12 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00102m.di
 obj = Root(
     member1_or_head=[
         Head(
-            ear="",
-            eye=""
+            ear='',
+            eye=''
         ),
         Member1(
-            ear="",
-            eye=""
+            ear='',
+            eye=''
         ),
     ]
 )

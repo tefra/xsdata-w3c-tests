@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.unsigned_int.unsigned_int_pattern001
 
 
 obj = Test(
-    foo="5"
+    foo='5'
 )

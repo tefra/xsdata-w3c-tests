@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.any_uri.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListAnyUriLength4(
     value=[
-        "news://so.edu",
-        "ftp://wil.gov",
-        "gopher://usi.org",
-        "gopher://Bytoda.f.edu",
-        "telnet://comm.com",
-        "news://th.anda.org",
-        "http://pa.Refe.gov",
-        "gopher://as.that.edu",
+        'news://so.edu',
+        'ftp://wil.gov',
+        'gopher://usi.org',
+        'gopher://Bytoda.f.edu',
+        'telnet://comm.com',
+        'news://th.anda.org',
+        'http://pa.Refe.gov',
+        'gopher://as.that.edu',
     ]
 )

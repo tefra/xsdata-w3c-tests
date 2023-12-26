@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.g_day.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicGDayPattern2(
-    value="---15"
+    value='---15'
 )

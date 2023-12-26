@@ -14,5 +14,5 @@ class Test:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern1(
-    value="mas_the.and-significant.find-way.environm"
+    value='mas_the.and-significant.find-way.environm'
 )

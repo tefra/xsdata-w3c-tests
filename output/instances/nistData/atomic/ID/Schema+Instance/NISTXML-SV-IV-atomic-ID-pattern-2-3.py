@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdPattern2(
-        value="uand_are_provide-including.as-discovery-system_is.offer_"
+        value='uand_are_provide-including.as-discovery-system_is.offer_'
     )
 )

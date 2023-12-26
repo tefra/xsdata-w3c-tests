@@ -11,25 +11,25 @@ obj = Root(
         A(
             any_element=[
                 AnyElement(
-                    qname="a",
-                    text="",
+                    qname='a',
+                    text='',
                     attributes={
-                        "att": "123",
-                        "att1": "123",
-                        "att2": "123",
+                        'att': '123',
+                        'att1': '123',
+                        'att2': '123',
                     }
                 ),
                 AnyElement(
-                    qname="{foo}foo",
-                    text="",
+                    qname='{foo}foo',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{bar}bar",
-                            text=""
+                            qname='{bar}bar',
+                            text=''
                         ),
                     ],
                     attributes={
-                        "{foo}att": "123",
+                        '{foo}att': '123',
                     }
                 ),
             ]
@@ -39,16 +39,16 @@ obj = Root(
         B(
             target_namespace_element=[
                 AnyElement(
-                    qname="{main}notDeclared",
-                    text="",
+                    qname='{main}notDeclared',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{foo}foo",
-                            text=""
+                            qname='{foo}foo',
+                            text=''
                         ),
                     ],
                     attributes={
-                        "notexist": "foo",
+                        'notexist': 'foo',
                     }
                 ),
             ]
@@ -58,19 +58,19 @@ obj = Root(
         C(
             foo_bar_element=[
                 AnyElement(
-                    qname="{foo}x",
-                    text="",
+                    qname='{foo}x',
+                    text='',
                     attributes={
-                        "{foo}foo": "asd",
+                        '{foo}foo': 'asd',
                     }
                 ),
                 AnyElement(
-                    qname="{bar}x",
-                    text=""
+                    qname='{bar}x',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{foo}x",
-                    text=""
+                    qname='{foo}x',
+                    text=''
                 ),
             ]
         ),
@@ -79,37 +79,37 @@ obj = Root(
         D(
             target_namespace_foo_element=[
                 AnyElement(
-                    qname="{foo}x",
-                    text=""
+                    qname='{foo}x',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{foo}x",
-                    text=""
+                    qname='{foo}x',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{main}a",
-                    text="",
+                    qname='{main}a',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{main}b",
-                            text="",
+                            qname='{main}b',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="{main}c",
-                                    text="",
+                                    qname='{main}c',
+                                    text='',
                                     attributes={
-                                        "b": "b",
-                                        "c": "b",
+                                        'b': 'b',
+                                        'c': 'b',
                                     }
                                 ),
                             ],
                             attributes={
-                                "b": "b",
+                                'b': 'b',
                             }
                         ),
                     ],
                     attributes={
-                        "a": "a",
+                        'a': 'a',
                     }
                 ),
             ]

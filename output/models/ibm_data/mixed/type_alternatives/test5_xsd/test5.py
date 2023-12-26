@@ -9,34 +9,34 @@ class X:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     minimal: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -48,7 +48,7 @@ class Y(X):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
@@ -56,7 +56,7 @@ class Y(X):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

@@ -16,7 +16,7 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
@@ -24,5 +24,5 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

@@ -12,14 +12,14 @@ class XDecimal:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     kind: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -32,14 +32,14 @@ class XInt:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     kind: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -52,14 +52,14 @@ class XString:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     kind: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -71,5 +71,5 @@ class Example:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

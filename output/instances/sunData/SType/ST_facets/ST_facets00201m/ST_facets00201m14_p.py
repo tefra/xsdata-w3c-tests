@@ -3,5 +3,5 @@ from output.models.sun_data.stype.st_facets.st_facets00201m.st_facets00201m14_xs
 
 
 obj = Test(
-    value=Decimal("10")
+    value=Decimal('10')
 )

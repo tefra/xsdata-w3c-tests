@@ -15,7 +15,7 @@ class Bar:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,12 +30,12 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-        }
+        },
     )
     a_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "A",
-        }
+        },
     )

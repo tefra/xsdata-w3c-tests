@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = A(
     any_element=AnyElement(
-        qname="date",
-        text="2002-04-29"
+        qname='date',
+        text='2002-04-29'
     )
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength1(
-    value="with-signatures:The-as:prototypes.database_be.care_wireless-e"
+    value='with-signatures:The-as:prototypes.database_be.care_wireless-e'
 )

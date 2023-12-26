@@ -2,5 +2,5 @@ from output.models.wg_data.iri.element_declarations_xsd.element_declarations imp
 
 
 obj = AbsoluteUri3986(
-    value="http://www.w3.org:8081/2001/XMLSchema?x=12&amp;y=15"
+    value='http://www.w3.org:8081/2001/XMLSchema?x=12&y=15'
 )

@@ -4,13 +4,15 @@ from typing import List, Optional, Union
 
 @dataclass
 class Example:
-    x: List[Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]] = field(
+    x: List[
+        Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -19,14 +21,14 @@ class Example:
             default=None,
             metadata={
                 "required": True,
-            }
+            },
         )
         kind: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )
 
     @dataclass
@@ -35,14 +37,14 @@ class Example:
             default=None,
             metadata={
                 "required": True,
-            }
+            },
         )
         kind: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )
 
     @dataclass
@@ -51,12 +53,12 @@ class Example:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         kind: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )

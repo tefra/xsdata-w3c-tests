@@ -16,5 +16,5 @@ class NistschemaSvIvListHexBinaryLength4:
             "length": 8,
             "tokens": True,
             "format": "base16",
-        }
+        },
     )

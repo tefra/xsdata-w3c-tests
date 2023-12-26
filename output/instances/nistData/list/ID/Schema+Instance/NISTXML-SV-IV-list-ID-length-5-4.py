@@ -5,16 +5,16 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdLength5(
         value=[
-            "_created-of-",
-            "yhaving.impl",
-            "_enough-comm",
-            "_for-standar",
-            "_file_availa",
-            "qas_low-cost",
-            "junbiased-sp",
-            "sa.software_",
-            "vhas-acting-",
-            "pwill_into-e",
+            '_created-of-',
+            'yhaving.impl',
+            '_enough-comm',
+            '_for-standar',
+            '_file_availa',
+            'qas_low-cost',
+            'junbiased-sp',
+            'sa.software_',
+            'vhas-acting-',
+            'pwill_into-e',
         ]
     )
 )

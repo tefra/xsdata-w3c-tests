@@ -12,7 +12,7 @@ class Root:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     no_namespace_schema_location: Optional[str] = field(
         default=None,
@@ -21,5 +21,5 @@ class Root:
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
             "required": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.unsigned_long.unsigned_long_pattern0
 
 
 obj = Test(
-    foo="5"
+    foo='5'
 )

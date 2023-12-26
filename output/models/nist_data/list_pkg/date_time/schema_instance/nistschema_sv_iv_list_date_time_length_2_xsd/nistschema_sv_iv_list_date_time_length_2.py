@@ -16,5 +16,5 @@ class NistschemaSvIvListDateTimeLength2:
         metadata={
             "length": 6,
             "tokens": True,
-        }
+        },
     )

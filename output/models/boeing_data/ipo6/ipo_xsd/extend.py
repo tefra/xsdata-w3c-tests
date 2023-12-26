@@ -12,5 +12,5 @@ class ExternFirstElement:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength5(
-    value="oway:a-into-system:we-support:interoperability.led.with_the:the_"
+    value='oway:a-into-system:we-support:interoperability.led.with_the:the_'
 )

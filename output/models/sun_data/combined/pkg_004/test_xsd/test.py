@@ -18,7 +18,7 @@ class B:
             "type": "Element",
             "namespace": "foo",
             "required": True,
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Root:
                     "type": B,
                 },
             ),
-        }
+        },
     )
 
 

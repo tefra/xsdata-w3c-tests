@@ -3,7 +3,7 @@ from output.models.ms_data.wildcards.wild_z003_a_xsd.wild_z003_b import Elem
 
 
 obj = Elt1(
-    elt2="",
+    elt2='',
     elem=Elem(
 
     ),

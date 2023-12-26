@@ -15,7 +15,7 @@ class AnyType:
             "type": "Wildcard",
             "namespace": "foo bar ##targetNamespace",
             "max_occurs": 100,
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 100,
-        }
+        },
     )

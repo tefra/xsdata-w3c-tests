@@ -22,10 +22,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#coss-attribute",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#coss-attribute',
                     },
                     content=[
-                        "&#10;        ID/IDREF tests &#10;        ",
+                        '\n        ID/IDREF tests \n        ',
                     ]
                 ),
             ]
@@ -38,7 +38,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with xs:anyAttribute",
+                                'xs:ID/IDREF with xs:anyAttribute',
                             ]
                         ),
                     ]
@@ -46,16 +46,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v01.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v01.xsd'
                     ),
                 ],
                 expected=[
@@ -67,12 +67,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v01s"
+                name='s3_3_4v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v01.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -83,10 +83,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v01i"
+                    name='s3_3_4v01i'
                 ),
             ],
-            name="s3_3_4v01",
+            name='s3_3_4v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -97,7 +97,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with xs:anyAttribute",
+                                'xs:ID/IDREF with xs:anyAttribute',
                             ]
                         ),
                     ]
@@ -105,16 +105,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v02.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v02.xsd'
                     ),
                 ],
                 expected=[
@@ -126,12 +126,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v02s"
+                name='s3_3_4v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v02.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -142,10 +142,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v02i"
+                    name='s3_3_4v02i'
                 ),
             ],
-            name="s3_3_4v02",
+            name='s3_3_4v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -156,7 +156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with fixed value on attribute",
+                                'xs:ID/IDREF with fixed value on attribute',
                             ]
                         ),
                     ]
@@ -164,16 +164,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v03.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v03.xsd'
                     ),
                 ],
                 expected=[
@@ -185,12 +185,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v03s"
+                name='s3_3_4v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v03.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -201,10 +201,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v03i"
+                    name='s3_3_4v03i'
                 ),
             ],
-            name="s3_3_4v03",
+            name='s3_3_4v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -215,7 +215,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ENTITIES with default value on attribute",
+                                'xs:ENTITIES with default value on attribute',
                             ]
                         ),
                     ]
@@ -223,16 +223,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v04.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v04.xsd'
                     ),
                 ],
                 expected=[
@@ -244,12 +244,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v04s"
+                name='s3_3_4v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v04.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -260,10 +260,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v04i"
+                    name='s3_3_4v04i'
                 ),
             ],
-            name="s3_3_4v04",
+            name='s3_3_4v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -274,7 +274,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ENTITY with default value on attribute",
+                                'xs:ENTITY with default value on attribute',
                             ]
                         ),
                     ]
@@ -282,16 +282,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v05.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v05.xsd'
                     ),
                 ],
                 expected=[
@@ -303,12 +303,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v05s"
+                name='s3_3_4v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v05.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -319,10 +319,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v05i"
+                    name='s3_3_4v05i'
                 ),
             ],
-            name="s3_3_4v05",
+            name='s3_3_4v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -333,7 +333,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute",
+                                'xs:ID/IDREF with default value on attribute',
                             ]
                         ),
                     ]
@@ -341,16 +341,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v06.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v06.xsd'
                     ),
                 ],
                 expected=[
@@ -362,12 +362,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v06s"
+                name='s3_3_4v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v06.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -378,10 +378,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v06i"
+                    name='s3_3_4v06i'
                 ),
             ],
-            name="s3_3_4v06",
+            name='s3_3_4v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -392,7 +392,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with fixed value on attribute",
+                                'xs:ID/IDREF with fixed value on attribute',
                             ]
                         ),
                     ]
@@ -400,16 +400,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v07.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v07.xsd'
                     ),
                 ],
                 expected=[
@@ -421,12 +421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v07s"
+                name='s3_3_4v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v07.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -437,10 +437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v07i"
+                    name='s3_3_4v07i'
                 ),
             ],
-            name="s3_3_4v07",
+            name='s3_3_4v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -451,7 +451,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute",
+                                'xs:ID/IDREF with default value on attribute',
                             ]
                         ),
                     ]
@@ -459,16 +459,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v08.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v08.xsd'
                     ),
                 ],
                 expected=[
@@ -480,12 +480,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v08s"
+                name='s3_3_4v08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v08.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v08.xml'
                     ),
                     expected=[
                         Expected(
@@ -496,10 +496,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v08i"
+                    name='s3_3_4v08i'
                 ),
             ],
-            name="s3_3_4v08",
+            name='s3_3_4v08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -510,7 +510,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with fixed value on attribute",
+                                'xs:ID/IDREF with fixed value on attribute',
                             ]
                         ),
                     ]
@@ -518,16 +518,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v09.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v09.xsd'
                     ),
                 ],
                 expected=[
@@ -539,12 +539,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v09s"
+                name='s3_3_4v09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v09.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v09.xml'
                     ),
                     expected=[
                         Expected(
@@ -555,10 +555,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v09i"
+                    name='s3_3_4v09i'
                 ),
             ],
-            name="s3_3_4v09",
+            name='s3_3_4v09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -569,7 +569,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, naive test case on elements",
+                                'lists of ID, naive test case on elements',
                             ]
                         ),
                     ]
@@ -577,16 +577,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsofID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsofID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v10.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v10.xsd'
                     ),
                 ],
                 expected=[
@@ -598,12 +598,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v10s"
+                name='s3_3_4v10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v10.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v10.xml'
                     ),
                     expected=[
                         Expected(
@@ -614,10 +614,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v10i"
+                    name='s3_3_4v10i'
                 ),
             ],
-            name="s3_3_4v10",
+            name='s3_3_4v10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -628,7 +628,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID ",
+                                'Unions involving ID ',
                             ]
                         ),
                     ]
@@ -636,16 +636,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v11.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v11.xsd'
                     ),
                 ],
                 expected=[
@@ -657,12 +657,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v11s"
+                name='s3_3_4v11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v11.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v11.xml'
                     ),
                     expected=[
                         Expected(
@@ -673,10 +673,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v11i"
+                    name='s3_3_4v11i'
                 ),
             ],
-            name="s3_3_4v11",
+            name='s3_3_4v11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -687,7 +687,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID",
+                                'Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -695,16 +695,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v12.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v12.xsd'
                     ),
                 ],
                 expected=[
@@ -716,12 +716,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v12s"
+                name='s3_3_4v12s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v12.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v12.xml'
                     ),
                     expected=[
                         Expected(
@@ -732,10 +732,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v12i"
+                    name='s3_3_4v12i'
                 ),
             ],
-            name="s3_3_4v12",
+            name='s3_3_4v12',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -746,7 +746,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID on attributes",
+                                'lists of ID on attributes',
                             ]
                         ),
                     ]
@@ -754,16 +754,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v13.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v13.xsd'
                     ),
                 ],
                 expected=[
@@ -775,12 +775,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v13s"
+                name='s3_3_4v13s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v13.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v13.xml'
                     ),
                     expected=[
                         Expected(
@@ -791,10 +791,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v13i"
+                    name='s3_3_4v13i'
                 ),
             ],
-            name="s3_3_4v13",
+            name='s3_3_4v13',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -805,7 +805,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, naive test case on elements",
+                                'lists of ID, naive test case on elements',
                             ]
                         ),
                     ]
@@ -813,16 +813,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v14.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v14.xsd'
                     ),
                 ],
                 expected=[
@@ -834,12 +834,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v14s"
+                name='s3_3_4v14s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v14.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v14.xml'
                     ),
                     expected=[
                         Expected(
@@ -850,10 +850,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v14i"
+                    name='s3_3_4v14i'
                 ),
             ],
-            name="s3_3_4v14",
+            name='s3_3_4v14',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -864,7 +864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, simpleContent",
+                                'lists of ID, simpleContent',
                             ]
                         ),
                     ]
@@ -872,16 +872,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v15.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v15.xsd'
                     ),
                 ],
                 expected=[
@@ -893,12 +893,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v15s"
+                name='s3_3_4v15s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v15.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v15.xml'
                     ),
                     expected=[
                         Expected(
@@ -911,7 +911,7 @@ obj = TestSet(
                                 appinfo_or_documentation=[
                                     Documentation(
                                         content=[
-                                            "&#10;                        Added new root element to make the ID effective, in response to bug #12143&#10;                    ",
+                                            '\n                        Added new root element to make the ID effective, in response to bug #12143\n                    ',
                                         ]
                                     ),
                                 ]
@@ -926,10 +926,10 @@ obj = TestSet(
                             date=XmlDate(2010, 12, 1)
                         ),
                     ],
-                    name="s3_3_4v15i"
+                    name='s3_3_4v15i'
                 ),
             ],
-            name="s3_3_4v15",
+            name='s3_3_4v15',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -940,7 +940,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, simpleContent",
+                                'lists of ID, simpleContent',
                             ]
                         ),
                     ]
@@ -948,16 +948,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v16.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v16.xsd'
                     ),
                 ],
                 expected=[
@@ -969,12 +969,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v16s"
+                name='s3_3_4v16s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v16.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v16.xml'
                     ),
                     expected=[
                         Expected(
@@ -985,10 +985,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v16i"
+                    name='s3_3_4v16i'
                 ),
             ],
-            name="s3_3_4v16",
+            name='s3_3_4v16',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -999,7 +999,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements ",
+                                'Unions involving ID in elements ',
                             ]
                         ),
                     ]
@@ -1007,16 +1007,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v17.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v17.xsd'
                     ),
                 ],
                 expected=[
@@ -1028,12 +1028,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v17s"
+                name='s3_3_4v17s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v17.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v17.xml'
                     ),
                     expected=[
                         Expected(
@@ -1044,10 +1044,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v17i"
+                    name='s3_3_4v17i'
                 ),
             ],
-            name="s3_3_4v17",
+            name='s3_3_4v17',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1058,7 +1058,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in attributes",
+                                'Unions involving ID in attributes',
                             ]
                         ),
                     ]
@@ -1066,16 +1066,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v18.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v18.xsd'
                     ),
                 ],
                 expected=[
@@ -1087,12 +1087,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v18s"
+                name='s3_3_4v18s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v18.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v18.xml'
                     ),
                     expected=[
                         Expected(
@@ -1103,10 +1103,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v18i"
+                    name='s3_3_4v18i'
                 ),
             ],
-            name="s3_3_4v18",
+            name='s3_3_4v18',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1117,7 +1117,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, attributes",
+                                'Unions involving ID in elements, attributes',
                             ]
                         ),
                     ]
@@ -1125,16 +1125,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v19.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v19.xsd'
                     ),
                 ],
                 expected=[
@@ -1146,12 +1146,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v19s"
+                name='s3_3_4v19s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v19.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v19.xml'
                     ),
                     expected=[
                         Expected(
@@ -1162,10 +1162,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v19i"
+                    name='s3_3_4v19i'
                 ),
             ],
-            name="s3_3_4v19",
+            name='s3_3_4v19',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1176,7 +1176,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, attributes",
+                                'Unions involving ID in elements, attributes',
                             ]
                         ),
                     ]
@@ -1184,16 +1184,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v20.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v20.xsd'
                     ),
                 ],
                 expected=[
@@ -1205,12 +1205,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v20s"
+                name='s3_3_4v20s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v20.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v20.xml'
                     ),
                     expected=[
                         Expected(
@@ -1221,10 +1221,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v20i"
+                    name='s3_3_4v20i'
                 ),
             ],
-            name="s3_3_4v20",
+            name='s3_3_4v20',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1235,7 +1235,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, simpleContent",
+                                'lists of ID, simpleContent',
                             ]
                         ),
                     ]
@@ -1243,16 +1243,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v21.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v21.xsd'
                     ),
                 ],
                 expected=[
@@ -1264,12 +1264,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v21s"
+                name='s3_3_4v21s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v21.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v21.xml'
                     ),
                     expected=[
                         Expected(
@@ -1282,7 +1282,7 @@ obj = TestSet(
                                 appinfo_or_documentation=[
                                     Documentation(
                                         content=[
-                                            "&#10;                        Added new root element to make the ID effective, in response to bug #12143&#10;                    ",
+                                            '\n                        Added new root element to make the ID effective, in response to bug #12143\n                    ',
                                         ]
                                     ),
                                 ]
@@ -1297,10 +1297,10 @@ obj = TestSet(
                             date=XmlDate(2010, 12, 1)
                         ),
                     ],
-                    name="s3_3_4v21i"
+                    name='s3_3_4v21i'
                 ),
             ],
-            name="s3_3_4v21",
+            name='s3_3_4v21',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1311,7 +1311,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID",
+                                'Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -1319,16 +1319,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v22.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v22.xsd'
                     ),
                 ],
                 expected=[
@@ -1340,12 +1340,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v22s"
+                name='s3_3_4v22s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v22.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v22.xml'
                     ),
                     expected=[
                         Expected(
@@ -1356,10 +1356,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v22i"
+                    name='s3_3_4v22i'
                 ),
             ],
-            name="s3_3_4v22",
+            name='s3_3_4v22',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1370,7 +1370,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID",
+                                'Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -1378,16 +1378,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v23.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v23.xsd'
                     ),
                 ],
                 expected=[
@@ -1399,12 +1399,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v23s"
+                name='s3_3_4v23s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v23.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v23.xml'
                     ),
                     expected=[
                         Expected(
@@ -1415,10 +1415,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v23i"
+                    name='s3_3_4v23i'
                 ),
             ],
-            name="s3_3_4v23",
+            name='s3_3_4v23',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1429,7 +1429,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                " Multiple attributes of type ID",
+                                ' Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -1437,16 +1437,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v24.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v24.xsd'
                     ),
                 ],
                 expected=[
@@ -1458,12 +1458,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v24s"
+                name='s3_3_4v24s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v24.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v24.xml'
                     ),
                     expected=[
                         Expected(
@@ -1474,10 +1474,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v24i"
+                    name='s3_3_4v24i'
                 ),
             ],
-            name="s3_3_4v24",
+            name='s3_3_4v24',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1488,7 +1488,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID",
+                                'Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -1496,16 +1496,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v25.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v25.xsd'
                     ),
                 ],
                 expected=[
@@ -1517,12 +1517,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v25s"
+                name='s3_3_4v25s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v25.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v25.xml'
                     ),
                     expected=[
                         Expected(
@@ -1533,10 +1533,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v25i"
+                    name='s3_3_4v25i'
                 ),
             ],
-            name="s3_3_4v25",
+            name='s3_3_4v25',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1547,7 +1547,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID with default value on attribute, and xs:IDREF on element",
+                                'xs:ID with default value on attribute, and xs:IDREF on element',
                             ]
                         ),
                     ]
@@ -1555,16 +1555,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v26.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v26.xsd'
                     ),
                 ],
                 expected=[
@@ -1576,12 +1576,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v26s"
+                name='s3_3_4v26s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v26.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v26.xml'
                     ),
                     expected=[
                         Expected(
@@ -1592,10 +1592,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v26i"
+                    name='s3_3_4v26i'
                 ),
             ],
-            name="s3_3_4v26",
+            name='s3_3_4v26',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1606,7 +1606,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute",
+                                'xs:ID/IDREF with default value on attribute',
                             ]
                         ),
                     ]
@@ -1614,16 +1614,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v27.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v27.xsd'
                     ),
                 ],
                 expected=[
@@ -1635,12 +1635,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v27s"
+                name='s3_3_4v27s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v27.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v27.xml'
                     ),
                     expected=[
                         Expected(
@@ -1651,10 +1651,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v27i"
+                    name='s3_3_4v27i'
                 ),
             ],
-            name="s3_3_4v27",
+            name='s3_3_4v27',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1665,7 +1665,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute",
+                                'xs:ID/IDREF with default value on attribute',
                             ]
                         ),
                     ]
@@ -1673,16 +1673,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v28.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v28.xsd'
                     ),
                 ],
                 expected=[
@@ -1694,12 +1694,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v28s"
+                name='s3_3_4v28s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v28.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v28.xml'
                     ),
                     expected=[
                         Expected(
@@ -1710,10 +1710,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v28i"
+                    name='s3_3_4v28i'
                 ),
             ],
-            name="s3_3_4v28",
+            name='s3_3_4v28',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1724,7 +1724,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID with default value ",
+                                'Multiple attributes of type ID with default value ',
                             ]
                         ),
                     ]
@@ -1732,16 +1732,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v29.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v29.xsd'
                     ),
                 ],
                 expected=[
@@ -1753,12 +1753,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v29s"
+                name='s3_3_4v29s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v29.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v29.xml'
                     ),
                     expected=[
                         Expected(
@@ -1769,10 +1769,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v29i"
+                    name='s3_3_4v29i'
                 ),
             ],
-            name="s3_3_4v29",
+            name='s3_3_4v29',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1783,7 +1783,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "equality of an atomic value with a singleton list in ID/IDREF",
+                                'equality of an atomic value with a singleton list in ID/IDREF',
                             ]
                         ),
                     ]
@@ -1791,16 +1791,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-EqualityOfAtomicValAndSingletonList"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-EqualityOfAtomicValAndSingletonList'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v30.xsd"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v30.xsd'
                     ),
                 ],
                 expected=[
@@ -1812,12 +1812,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4v30s"
+                name='s3_3_4v30s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_3_4/s3_3_4v30.xml"
+                        href='../ibmData/valid/S3_3_4/s3_3_4v30.xml'
                     ),
                     expected=[
                         Expected(
@@ -1828,10 +1828,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4v30i"
+                    name='s3_3_4v30i'
                 ),
             ],
-            name="s3_3_4v30",
+            name='s3_3_4v30',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1842,7 +1842,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID, with restriction on enum ",
+                                'Multiple attributes of type ID, with restriction on enum ',
                             ]
                         ),
                     ]
@@ -1850,16 +1850,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -1871,12 +1871,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii01s"
+                name='s3_3_4ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii01.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1887,10 +1887,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii01i"
+                    name='s3_3_4ii01i'
                 ),
             ],
-            name="s3_3_4ii01",
+            name='s3_3_4ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1901,7 +1901,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID",
+                                'Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -1909,16 +1909,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -1930,12 +1930,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii02s"
+                name='s3_3_4ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii02.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1946,10 +1946,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii02i"
+                    name='s3_3_4ii02i'
                 ),
             ],
-            name="s3_3_4ii02",
+            name='s3_3_4ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1960,7 +1960,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID, invalid id value ",
+                                'Multiple attributes of type ID, invalid id value ',
                             ]
                         ),
                     ]
@@ -1968,16 +1968,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -1989,12 +1989,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii03s"
+                name='s3_3_4ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii03.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2005,10 +2005,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii03i"
+                    name='s3_3_4ii03i'
                 ),
             ],
-            name="s3_3_4ii03",
+            name='s3_3_4ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2019,7 +2019,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with fixed value on attribute",
+                                'xs:ID/IDREF with fixed value on attribute',
                             ]
                         ),
                     ]
@@ -2027,16 +2027,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -2048,12 +2048,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii04s"
+                name='s3_3_4ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii04.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -2064,10 +2064,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii04i"
+                    name='s3_3_4ii04i'
                 ),
             ],
-            name="s3_3_4ii04",
+            name='s3_3_4ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2078,7 +2078,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute, invalid id value override the default value",
+                                'xs:ID/IDREF with default value on attribute, invalid id value override the default value',
                             ]
                         ),
                     ]
@@ -2086,16 +2086,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -2107,12 +2107,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii05s"
+                name='s3_3_4ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii05.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -2123,10 +2123,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii05i"
+                    name='s3_3_4ii05i'
                 ),
             ],
-            name="s3_3_4ii05",
+            name='s3_3_4ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2137,7 +2137,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute",
+                                'xs:ID/IDREF with default value on attribute',
                             ]
                         ),
                     ]
@@ -2145,16 +2145,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii06.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -2166,12 +2166,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii06s"
+                name='s3_3_4ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii06.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -2182,10 +2182,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii06i"
+                    name='s3_3_4ii06i'
                 ),
             ],
-            name="s3_3_4ii06",
+            name='s3_3_4ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2196,7 +2196,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, naive test case on elements ",
+                                'lists of ID, naive test case on elements ',
                             ]
                         ),
                     ]
@@ -2204,16 +2204,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii07.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii07.xsd'
                     ),
                 ],
                 expected=[
@@ -2225,12 +2225,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii07s"
+                name='s3_3_4ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii07.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -2241,10 +2241,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii07i"
+                    name='s3_3_4ii07i'
                 ),
             ],
-            name="s3_3_4ii07",
+            name='s3_3_4ii07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2255,7 +2255,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, invalid ID value on list of ids",
+                                'lists of ID, invalid ID value on list of ids',
                             ]
                         ),
                     ]
@@ -2263,16 +2263,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii08.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii08.xsd'
                     ),
                 ],
                 expected=[
@@ -2284,12 +2284,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii08s"
+                name='s3_3_4ii08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii08.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii08.xml'
                     ),
                     expected=[
                         Expected(
@@ -2300,10 +2300,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii08i"
+                    name='s3_3_4ii08i'
                 ),
             ],
-            name="s3_3_4ii08",
+            name='s3_3_4ii08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2314,7 +2314,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, invalid value on idref element",
+                                'lists of ID, invalid value on idref element',
                             ]
                         ),
                     ]
@@ -2322,16 +2322,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii09.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii09.xsd'
                     ),
                 ],
                 expected=[
@@ -2343,12 +2343,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii09s"
+                name='s3_3_4ii09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii09.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii09.xml'
                     ),
                     expected=[
                         Expected(
@@ -2359,10 +2359,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii09i"
+                    name='s3_3_4ii09i'
                 ),
             ],
-            name="s3_3_4ii09",
+            name='s3_3_4ii09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2373,7 +2373,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID ",
+                                'Unions involving ID ',
                             ]
                         ),
                     ]
@@ -2381,16 +2381,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii10.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii10.xsd'
                     ),
                 ],
                 expected=[
@@ -2402,12 +2402,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii10s"
+                name='s3_3_4ii10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii10.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii10.xml'
                     ),
                     expected=[
                         Expected(
@@ -2418,10 +2418,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii10i"
+                    name='s3_3_4ii10i'
                 ),
             ],
-            name="s3_3_4ii10",
+            name='s3_3_4ii10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2432,7 +2432,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID on attributes, invalid idref value on attribute",
+                                'lists of ID on attributes, invalid idref value on attribute',
                             ]
                         ),
                     ]
@@ -2440,16 +2440,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii11.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii11.xsd'
                     ),
                 ],
                 expected=[
@@ -2461,12 +2461,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii11s"
+                name='s3_3_4ii11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii11.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii11.xml'
                     ),
                     expected=[
                         Expected(
@@ -2477,10 +2477,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii11i"
+                    name='s3_3_4ii11i'
                 ),
             ],
-            name="s3_3_4ii11",
+            name='s3_3_4ii11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2491,7 +2491,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, invalid idref value on attribute and element ",
+                                'lists of ID, invalid idref value on attribute and element ',
                             ]
                         ),
                     ]
@@ -2499,16 +2499,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii12.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii12.xsd'
                     ),
                 ],
                 expected=[
@@ -2520,12 +2520,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii12s"
+                name='s3_3_4ii12s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii12.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii12.xml'
                     ),
                     expected=[
                         Expected(
@@ -2536,10 +2536,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii12i"
+                    name='s3_3_4ii12i'
                 ),
             ],
-            name="s3_3_4ii12",
+            name='s3_3_4ii12',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2550,7 +2550,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, simpleContent, invalid idref value on attribute",
+                                'lists of ID, simpleContent, invalid idref value on attribute',
                             ]
                         ),
                     ]
@@ -2558,16 +2558,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii13.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii13.xsd'
                     ),
                 ],
                 expected=[
@@ -2579,12 +2579,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii13s"
+                name='s3_3_4ii13s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii13.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii13.xml'
                     ),
                     expected=[
                         Expected(
@@ -2595,10 +2595,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii13i"
+                    name='s3_3_4ii13i'
                 ),
             ],
-            name="s3_3_4ii13",
+            name='s3_3_4ii13',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2609,7 +2609,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lists of ID, simpleContent, invalid idref value on element ",
+                                'lists of ID, simpleContent, invalid idref value on element ',
                             ]
                         ),
                     ]
@@ -2617,16 +2617,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii14.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii14.xsd'
                     ),
                 ],
                 expected=[
@@ -2638,12 +2638,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii14s"
+                name='s3_3_4ii14s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii14.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii14.xml'
                     ),
                     expected=[
                         Expected(
@@ -2654,10 +2654,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii14i"
+                    name='s3_3_4ii14i'
                 ),
             ],
-            name="s3_3_4ii14",
+            name='s3_3_4ii14',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2668,7 +2668,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, invalid idref value on element",
+                                'Unions involving ID in elements, invalid idref value on element',
                             ]
                         ),
                     ]
@@ -2676,16 +2676,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii15.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii15.xsd'
                     ),
                 ],
                 expected=[
@@ -2697,12 +2697,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii15s"
+                name='s3_3_4ii15s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii15.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii15.xml'
                     ),
                     expected=[
                         Expected(
@@ -2713,10 +2713,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii15i"
+                    name='s3_3_4ii15i'
                 ),
             ],
-            name="s3_3_4ii15",
+            name='s3_3_4ii15',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2727,7 +2727,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                " Unions involving ID in attributes, invalid idref value on attribute ",
+                                ' Unions involving ID in attributes, invalid idref value on attribute ',
                             ]
                         ),
                     ]
@@ -2735,16 +2735,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii16.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii16.xsd'
                     ),
                 ],
                 expected=[
@@ -2756,12 +2756,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii16s"
+                name='s3_3_4ii16s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii16.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii16.xml'
                     ),
                     expected=[
                         Expected(
@@ -2772,10 +2772,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii16i"
+                    name='s3_3_4ii16i'
                 ),
             ],
-            name="s3_3_4ii16",
+            name='s3_3_4ii16',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2786,7 +2786,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, invalid idref value on attribute ",
+                                'Unions involving ID in elements, invalid idref value on attribute ',
                             ]
                         ),
                     ]
@@ -2794,16 +2794,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii17.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii17.xsd'
                     ),
                 ],
                 expected=[
@@ -2815,12 +2815,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii17s"
+                name='s3_3_4ii17s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii17.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii17.xml'
                     ),
                     expected=[
                         Expected(
@@ -2831,10 +2831,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii17i"
+                    name='s3_3_4ii17i'
                 ),
             ],
-            name="s3_3_4ii17",
+            name='s3_3_4ii17',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2845,7 +2845,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, invalid idref value on element ",
+                                'Unions involving ID in elements, invalid idref value on element ',
                             ]
                         ),
                     ]
@@ -2853,16 +2853,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii18.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii18.xsd'
                     ),
                 ],
                 expected=[
@@ -2874,12 +2874,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii18s"
+                name='s3_3_4ii18s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii18.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii18.xml'
                     ),
                     expected=[
                         Expected(
@@ -2890,10 +2890,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii18i"
+                    name='s3_3_4ii18i'
                 ),
             ],
-            name="s3_3_4ii18",
+            name='s3_3_4ii18',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2904,7 +2904,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID, complexContent, with invalid idref value on element ",
+                                'Multiple attributes of type ID, complexContent, with invalid idref value on element ',
                             ]
                         ),
                     ]
@@ -2912,16 +2912,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii19.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii19.xsd'
                     ),
                 ],
                 expected=[
@@ -2933,12 +2933,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii19s"
+                name='s3_3_4ii19s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii19.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii19.xml'
                     ),
                     expected=[
                         Expected(
@@ -2949,10 +2949,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii19i"
+                    name='s3_3_4ii19i'
                 ),
             ],
-            name="s3_3_4ii19",
+            name='s3_3_4ii19',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2963,7 +2963,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID, invalid idref value on element ",
+                                'Multiple attributes of type ID, invalid idref value on element ',
                             ]
                         ),
                     ]
@@ -2971,16 +2971,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii20.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii20.xsd'
                     ),
                 ],
                 expected=[
@@ -2992,12 +2992,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii20s"
+                name='s3_3_4ii20s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii20.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii20.xml'
                     ),
                     expected=[
                         Expected(
@@ -3008,10 +3008,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii20i"
+                    name='s3_3_4ii20i'
                 ),
             ],
-            name="s3_3_4ii20",
+            name='s3_3_4ii20',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3022,7 +3022,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID ",
+                                'Multiple attributes of type ID ',
                             ]
                         ),
                     ]
@@ -3030,16 +3030,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii21.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii21.xsd'
                     ),
                 ],
                 expected=[
@@ -3051,12 +3051,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii21s"
+                name='s3_3_4ii21s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii21.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii21.xml'
                     ),
                     expected=[
                         Expected(
@@ -3067,10 +3067,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii21i"
+                    name='s3_3_4ii21i'
                 ),
             ],
-            name="s3_3_4ii21",
+            name='s3_3_4ii21',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3081,7 +3081,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID  ",
+                                'Multiple attributes of type ID  ',
                             ]
                         ),
                     ]
@@ -3089,16 +3089,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii22.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii22.xsd'
                     ),
                 ],
                 expected=[
@@ -3110,12 +3110,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii22s"
+                name='s3_3_4ii22s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii22.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii22.xml'
                     ),
                     expected=[
                         Expected(
@@ -3126,10 +3126,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii22i"
+                    name='s3_3_4ii22i'
                 ),
             ],
-            name="s3_3_4ii22",
+            name='s3_3_4ii22',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3140,7 +3140,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID with default value on attribute, and xs:IDREF on element with invalid value",
+                                'xs:ID with default value on attribute, and xs:IDREF on element with invalid value',
                             ]
                         ),
                     ]
@@ -3148,16 +3148,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii23.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii23.xsd'
                     ),
                 ],
                 expected=[
@@ -3169,12 +3169,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii23s"
+                name='s3_3_4ii23s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii23.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii23.xml'
                     ),
                     expected=[
                         Expected(
@@ -3185,10 +3185,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii23i"
+                    name='s3_3_4ii23i'
                 ),
             ],
-            name="s3_3_4ii23",
+            name='s3_3_4ii23',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3199,7 +3199,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID/IDREF with default value on attribute ",
+                                'xs:ID/IDREF with default value on attribute ',
                             ]
                         ),
                     ]
@@ -3207,16 +3207,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii24.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii24.xsd'
                     ),
                 ],
                 expected=[
@@ -3228,12 +3228,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii24s"
+                name='s3_3_4ii24s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii24.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii24.xml'
                     ),
                     expected=[
                         Expected(
@@ -3244,10 +3244,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii24i"
+                    name='s3_3_4ii24i'
                 ),
             ],
-            name="s3_3_4ii24",
+            name='s3_3_4ii24',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3258,7 +3258,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID with default value",
+                                'Multiple attributes of type ID with default value',
                             ]
                         ),
                     ]
@@ -3266,16 +3266,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii25.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii25.xsd'
                     ),
                 ],
                 expected=[
@@ -3287,12 +3287,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4ii25s"
+                name='s3_3_4ii25s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii25.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii25.xml'
                     ),
                     expected=[
                         Expected(
@@ -3303,10 +3303,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_3_4ii25i"
+                    name='s3_3_4ii25i'
                 ),
             ],
-            name="s3_3_4ii25",
+            name='s3_3_4ii25',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3317,7 +3317,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "ID on root does not denote any element",
+                                'ID on root does not denote any element',
                             ]
                         ),
                     ]
@@ -3325,16 +3325,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-countMiscellaneous"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-countMiscellaneous'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii26.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii26.xsd'
                     ),
                 ],
                 expected=[
@@ -3346,12 +3346,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 7, 29)
                 ),
-                name="s3_3_4ii26s"
+                name='s3_3_4ii26s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii26.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii26.xml'
                     ),
                     expected=[
                         Expected(
@@ -3362,10 +3362,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 7, 29)
                     ),
-                    name="s3_3_4ii26i"
+                    name='s3_3_4ii26i'
                 ),
             ],
-            name="s3_3_4ii26",
+            name='s3_3_4ii26',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3376,7 +3376,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "ID on root does not denote any element",
+                                'ID on root does not denote any element',
                             ]
                         ),
                     ]
@@ -3384,16 +3384,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    href='http://www.w3.org/TR/xmlschema11-1/#coss-attribute'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-countMiscellaneous"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-countMiscellaneous'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii27.xsd"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii27.xsd'
                     ),
                 ],
                 expected=[
@@ -3405,12 +3405,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 7, 29)
                 ),
-                name="s3_3_4ii27s"
+                name='s3_3_4ii27s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_3_4/s3_3_4ii27.xml"
+                        href='../ibmData/instance_invalid/S3_3_4/s3_3_4ii27.xml'
                     ),
                     expected=[
                         Expected(
@@ -3421,10 +3421,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 7, 29)
                     ),
-                    name="s3_3_4ii27i"
+                    name='s3_3_4ii27i'
                 ),
             ],
-            name="s3_3_4ii27",
+            name='s3_3_4ii27',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3435,7 +3435,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ENTITIES, invalid default value with respect to enum",
+                                'xs:ENTITIES, invalid default value with respect to enum',
                             ]
                         ),
                     ]
@@ -3443,16 +3443,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si01.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si01.xsd'
                     ),
                 ],
                 expected=[
@@ -3464,9 +3464,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si01s"
+                name='s3_3_4si01s'
             ),
-            name="s3_3_4si01",
+            name='s3_3_4si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3477,7 +3477,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ENTITY, invalid default value with respect to enum",
+                                'xs:ENTITY, invalid default value with respect to enum',
                             ]
                         ),
                     ]
@@ -3485,16 +3485,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si02.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si02.xsd'
                     ),
                 ],
                 expected=[
@@ -3506,9 +3506,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si02s"
+                name='s3_3_4si02s'
             ),
-            name="s3_3_4si02",
+            name='s3_3_4si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3519,7 +3519,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID, invalid default value on an id type",
+                                'xs:ID, invalid default value on an id type',
                             ]
                         ),
                     ]
@@ -3527,16 +3527,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si03.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si03.xsd'
                     ),
                 ],
                 expected=[
@@ -3548,9 +3548,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si03s"
+                name='s3_3_4si03s'
             ),
-            name="s3_3_4si03",
+            name='s3_3_4si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3561,7 +3561,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid fixed value on an id type",
+                                'invalid fixed value on an id type',
                             ]
                         ),
                     ]
@@ -3569,16 +3569,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si04.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si04.xsd'
                     ),
                 ],
                 expected=[
@@ -3590,9 +3590,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si04s"
+                name='s3_3_4si04s'
             ),
-            name="s3_3_4si04",
+            name='s3_3_4si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3603,7 +3603,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid default value on an idref type",
+                                'invalid default value on an idref type',
                             ]
                         ),
                     ]
@@ -3611,16 +3611,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si05.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si05.xsd'
                     ),
                 ],
                 expected=[
@@ -3632,9 +3632,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si05s"
+                name='s3_3_4si05s'
             ),
-            name="s3_3_4si05",
+            name='s3_3_4si05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3645,7 +3645,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid fixed value on an idref type ",
+                                'invalid fixed value on an idref type ',
                             ]
                         ),
                     ]
@@ -3653,16 +3653,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si06.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si06.xsd'
                     ),
                 ],
                 expected=[
@@ -3674,9 +3674,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si06s"
+                name='s3_3_4si06s'
             ),
-            name="s3_3_4si06",
+            name='s3_3_4si06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3687,7 +3687,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid default value on a list of type id",
+                                'invalid default value on a list of type id',
                             ]
                         ),
                     ]
@@ -3695,16 +3695,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si07.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si07.xsd'
                     ),
                 ],
                 expected=[
@@ -3716,9 +3716,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si07s"
+                name='s3_3_4si07s'
             ),
-            name="s3_3_4si07",
+            name='s3_3_4si07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3729,7 +3729,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, with invalid default value",
+                                'Unions involving ID in elements, with invalid default value',
                             ]
                         ),
                     ]
@@ -3737,16 +3737,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si08.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si08.xsd'
                     ),
                 ],
                 expected=[
@@ -3758,9 +3758,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si08s"
+                name='s3_3_4si08s'
             ),
-            name="s3_3_4si08",
+            name='s3_3_4si08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3771,7 +3771,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID ",
+                                'Multiple attributes of type ID ',
                             ]
                         ),
                     ]
@@ -3779,16 +3779,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si09.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si09.xsd'
                     ),
                 ],
                 expected=[
@@ -3800,9 +3800,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si09s"
+                name='s3_3_4si09s'
             ),
-            name="s3_3_4si09",
+            name='s3_3_4si09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3813,7 +3813,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid default value on a list of type id",
+                                'invalid default value on a list of type id',
                             ]
                         ),
                     ]
@@ -3821,16 +3821,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si10.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si10.xsd'
                     ),
                 ],
                 expected=[
@@ -3842,9 +3842,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si10s"
+                name='s3_3_4si10s'
             ),
-            name="s3_3_4si10",
+            name='s3_3_4si10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3855,7 +3855,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ENTITIES, invalid default value",
+                                'xs:ENTITIES, invalid default value',
                             ]
                         ),
                     ]
@@ -3863,16 +3863,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si11.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si11.xsd'
                     ),
                 ],
                 expected=[
@@ -3884,9 +3884,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si11s"
+                name='s3_3_4si11s'
             ),
-            name="s3_3_4si11",
+            name='s3_3_4si11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3897,7 +3897,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ENTITY, invalid default value",
+                                'xs:ENTITY, invalid default value',
                             ]
                         ),
                     ]
@@ -3905,16 +3905,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si12.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si12.xsd'
                     ),
                 ],
                 expected=[
@@ -3926,9 +3926,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si12s"
+                name='s3_3_4si12s'
             ),
-            name="s3_3_4si12",
+            name='s3_3_4si12',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3939,7 +3939,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xs:ID, invalid default value on an id type",
+                                'xs:ID, invalid default value on an id type',
                             ]
                         ),
                     ]
@@ -3947,16 +3947,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si13.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si13.xsd'
                     ),
                 ],
                 expected=[
@@ -3968,9 +3968,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si13s"
+                name='s3_3_4si13s'
             ),
-            name="s3_3_4si13",
+            name='s3_3_4si13',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3981,7 +3981,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid fixed value on an id type",
+                                'invalid fixed value on an id type',
                             ]
                         ),
                     ]
@@ -3989,16 +3989,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si14.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si14.xsd'
                     ),
                 ],
                 expected=[
@@ -4010,9 +4010,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si14s"
+                name='s3_3_4si14s'
             ),
-            name="s3_3_4si14",
+            name='s3_3_4si14',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4023,7 +4023,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid default value on an idref type",
+                                'invalid default value on an idref type',
                             ]
                         ),
                     ]
@@ -4031,16 +4031,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si15.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si15.xsd'
                     ),
                 ],
                 expected=[
@@ -4052,9 +4052,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si15s"
+                name='s3_3_4si15s'
             ),
-            name="s3_3_4si15",
+            name='s3_3_4si15',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4065,7 +4065,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid fixed value on an idref type ",
+                                'invalid fixed value on an idref type ',
                             ]
                         ),
                     ]
@@ -4073,16 +4073,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si16.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si16.xsd'
                     ),
                 ],
                 expected=[
@@ -4094,9 +4094,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si16s"
+                name='s3_3_4si16s'
             ),
-            name="s3_3_4si16",
+            name='s3_3_4si16',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4107,7 +4107,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid default value on a list of type id",
+                                'invalid default value on a list of type id',
                             ]
                         ),
                     ]
@@ -4115,16 +4115,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si17.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si17.xsd'
                     ),
                 ],
                 expected=[
@@ -4136,9 +4136,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si17s"
+                name='s3_3_4si17s'
             ),
-            name="s3_3_4si17",
+            name='s3_3_4si17',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4149,7 +4149,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Unions involving ID in elements, with invalid default value",
+                                'Unions involving ID in elements, with invalid default value',
                             ]
                         ),
                     ]
@@ -4157,16 +4157,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si18.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si18.xsd'
                     ),
                 ],
                 expected=[
@@ -4178,9 +4178,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si18s"
+                name='s3_3_4si18s'
             ),
-            name="s3_3_4si18",
+            name='s3_3_4si18',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4191,7 +4191,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Multiple attributes of type ID",
+                                'Multiple attributes of type ID',
                             ]
                         ),
                     ]
@@ -4199,16 +4199,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si19.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si19.xsd'
                     ),
                 ],
                 expected=[
@@ -4220,9 +4220,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si19s"
+                name='s3_3_4si19s'
             ),
-            name="s3_3_4si19",
+            name='s3_3_4si19',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4233,7 +4233,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid default value on a list of type id",
+                                'invalid default value on a list of type id',
                             ]
                         ),
                     ]
@@ -4241,16 +4241,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"
+                    href='http://www.w3.org/TR/xmlschema11-1/#eldec_vr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_3_4/s3_3_4si20.xsd"
+                        href='../ibmData/schema_invalid/S3_3_4/s3_3_4si20.xsd'
                     ),
                 ],
                 expected=[
@@ -4262,17 +4262,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_3_4si20s"
+                name='s3_3_4si20s'
             ),
-            name="s3_3_4si20",
+            name='s3_3_4si20',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="ID_IDREF",
+    contributor='IBM',
+    name='ID_IDREF',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

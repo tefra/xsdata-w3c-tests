@@ -14,12 +14,12 @@ class Iid:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     val: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "importNS",
-        }
+        },
     )

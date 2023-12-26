@@ -9,15 +9,15 @@ obj = Example(
     x=[
         XInt(
             value=10,
-            kind="quantity"
+            kind='quantity'
         ),
         XDecimal(
-            value=Decimal("10.5"),
-            kind="price"
+            value=Decimal('10.5'),
+            kind='price'
         ),
         XString(
-            value="hello world",
-            kind="mesg"
+            value='hello world',
+            kind='mesg'
         ),
     ]
 )

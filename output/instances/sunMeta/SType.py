@@ -25,12 +25,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted annotation (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted annotation (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted annotations of schema components."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted annotations of schema components.'
                                 ),
                             ]
                         ),
@@ -39,13 +39,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m1.xsd"
+                        href='../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -57,12 +57,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_annotation00101m1"
+                name='ST_annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m1_p.xml"
+                        href='../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -73,10 +73,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_annotation00101m1"
+            name='st_annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -85,12 +85,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted annotation (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted annotation (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted annotations of schema components."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted annotations of schema components.'
                                 ),
                             ]
                         ),
@@ -99,13 +99,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m2.xsd"
+                        href='../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -117,12 +117,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_annotation00101m2"
+                name='ST_annotation00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m2_p.xml"
+                        href='../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -133,10 +133,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_annotation00101m2"
+            name='st_annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -145,12 +145,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The value of the base [attribute] specifies the base type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The value of the base [attribute] specifies the base type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the 'restriction' alternative is chosen, then the type&#10;                                 definition *resolved* to by the *actual value* of the base [attribute]&#10;                                 of 'restriction'."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the 'restriction' alternative is chosen, then the type\n                                 definition *resolved* to by the *actual value* of the base [attribute]\n                                 of 'restriction'."
                                 ),
                             ]
                         ),
@@ -159,13 +159,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m.xsd"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -177,12 +177,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_baseTD00101m"
+                name='ST_baseTD00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_p.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -193,11 +193,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00101m1_p"
+                    name='ST_baseTD00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_n.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -208,11 +208,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00101m1_n"
+                    name='ST_baseTD00101m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m2_p.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -223,10 +223,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00101m2_p"
+                    name='ST_baseTD00101m2_p'
                 ),
             ],
-            name="st_basetd00101m"
+            name='st_basetd00101m'
         ),
         TestGroup(
             annotation=[
@@ -235,12 +235,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="The base type is defined by the type of 'simpleType' among the [children] of 'restriction' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the base [attribute] is absent the type definition corresponding to&#10;                             the 'simpleType' among the [children] of 'restriction'."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the base [attribute] is absent the type definition corresponding to\n                             the 'simpleType' among the [children] of 'restriction'."
                                 ),
                             ]
                         ),
@@ -249,13 +249,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m.xsd"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -267,12 +267,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_baseTD00201m"
+                name='ST_baseTD00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_p.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -283,11 +283,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00201m1_p"
+                    name='ST_baseTD00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_n.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -298,10 +298,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00201m1_n"
+                    name='ST_baseTD00201m1_n'
                 ),
             ],
-            name="st_basetd00201m"
+            name='st_basetd00201m'
         ),
         TestGroup(
             annotation=[
@@ -310,11 +310,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="the 'list' alternative is chosen (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="If the 'list' or 'union' alternative is chosen, then the *simple ur-type definition*."
                                 ),
                             ]
@@ -324,13 +324,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m.xsd"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -342,12 +342,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_baseTD00301m"
+                name='ST_baseTD00301m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_p.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -358,11 +358,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00301m1_p"
+                    name='ST_baseTD00301m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_n.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -373,10 +373,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00301m1_n"
+                    name='ST_baseTD00301m1_n'
                 ),
             ],
-            name="st_basetd00301m"
+            name='st_basetd00301m'
         ),
         TestGroup(
             annotation=[
@@ -385,11 +385,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="the 'union' alternative is chosen (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="If the 'list' or 'union' alternative is chosen, then the *simple ur-type definition*."
                                 ),
                             ]
@@ -399,13 +399,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m.xsd"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m.xsd'
                     ),
                 ],
                 expected=[
@@ -417,12 +417,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_baseTD00302m"
+                name='ST_baseTD00302m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_p.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -433,11 +433,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00302m1_p"
+                    name='ST_baseTD00302m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_n.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -448,11 +448,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00302m1_n"
+                    name='ST_baseTD00302m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_p.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -463,11 +463,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00302m2_p"
+                    name='ST_baseTD00302m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_n.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -478,11 +478,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00302m2_n"
+                    name='ST_baseTD00302m2_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m3_n.xml"
+                        href='../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -493,10 +493,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_baseTD00302m3_n"
+                    name='ST_baseTD00302m3_n'
                 ),
             ],
-            name="st_basetd00302m"
+            name='st_basetd00302m'
         ),
         TestGroup(
             annotation=[
@@ -505,12 +505,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -519,13 +519,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -537,12 +537,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00101m"
+                name='ST_facets00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -553,11 +553,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00101m1_p"
+                    name='ST_facets00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -568,11 +568,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00101m1_n"
+                    name='ST_facets00101m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -583,11 +583,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00101m2_p"
+                    name='ST_facets00101m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m3_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -598,10 +598,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00101m3_p"
+                    name='ST_facets00101m3_p'
                 ),
             ],
-            name="st_facets00101m"
+            name='st_facets00101m'
         ),
         TestGroup(
             annotation=[
@@ -610,12 +610,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -624,13 +624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m.xsd'
                     ),
                 ],
                 expected=[
@@ -642,12 +642,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00102m"
+                name='ST_facets00102m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -658,11 +658,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00102m1_p"
+                    name='ST_facets00102m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -673,10 +673,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00102m1_n"
+                    name='ST_facets00102m1_n'
                 ),
             ],
-            name="st_facets00102m"
+            name='st_facets00102m'
         ),
         TestGroup(
             annotation=[
@@ -685,12 +685,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -699,13 +699,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m.xsd'
                     ),
                 ],
                 expected=[
@@ -717,12 +717,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00103m"
+                name='ST_facets00103m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -733,11 +733,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00103m1_p"
+                    name='ST_facets00103m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -748,10 +748,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00103m1_n"
+                    name='ST_facets00103m1_n'
                 ),
             ],
-            name="st_facets00103m"
+            name='st_facets00103m'
         ),
         TestGroup(
             annotation=[
@@ -760,12 +760,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -774,13 +774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m.xsd'
                     ),
                 ],
                 expected=[
@@ -792,12 +792,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00104m"
+                name='ST_facets00104m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -808,11 +808,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00104m1_p"
+                    name='ST_facets00104m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -823,10 +823,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00104m1_n"
+                    name='ST_facets00104m1_n'
                 ),
             ],
-            name="st_facets00104m"
+            name='st_facets00104m'
         ),
         TestGroup(
             annotation=[
@@ -835,12 +835,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -849,13 +849,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m.xsd'
                     ),
                 ],
                 expected=[
@@ -867,12 +867,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00105m"
+                name='ST_facets00105m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -883,11 +883,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00105m1_p"
+                    name='ST_facets00105m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -898,10 +898,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00105m1_n"
+                    name='ST_facets00105m1_n'
                 ),
             ],
-            name="st_facets00105m"
+            name='st_facets00105m'
         ),
         TestGroup(
             annotation=[
@@ -910,12 +910,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -924,13 +924,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m.xsd'
                     ),
                 ],
                 expected=[
@@ -942,12 +942,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00106m"
+                name='ST_facets00106m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -958,11 +958,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00106m1_p"
+                    name='ST_facets00106m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -973,10 +973,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00106m1_n"
+                    name='ST_facets00106m1_n'
                 ),
             ],
-            name="st_facets00106m"
+            name='st_facets00106m'
         ),
         TestGroup(
             annotation=[
@@ -985,12 +985,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -999,13 +999,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m.xsd'
                     ),
                 ],
                 expected=[
@@ -1017,12 +1017,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00107m"
+                name='ST_facets00107m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1033,11 +1033,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00107m1_p"
+                    name='ST_facets00107m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1048,10 +1048,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00107m1_n"
+                    name='ST_facets00107m1_n'
                 ),
             ],
-            name="st_facets00107m"
+            name='st_facets00107m'
         ),
         TestGroup(
             annotation=[
@@ -1060,12 +1060,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1074,13 +1074,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m.xsd'
                     ),
                 ],
                 expected=[
@@ -1092,12 +1092,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00108m"
+                name='ST_facets00108m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1108,11 +1108,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00108m1_p"
+                    name='ST_facets00108m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1123,10 +1123,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00108m1_n"
+                    name='ST_facets00108m1_n'
                 ),
             ],
-            name="st_facets00108m"
+            name='st_facets00108m'
         ),
         TestGroup(
             annotation=[
@@ -1135,12 +1135,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1149,13 +1149,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m.xsd'
                     ),
                 ],
                 expected=[
@@ -1167,12 +1167,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00109m"
+                name='ST_facets00109m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1183,11 +1183,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00109m1_p"
+                    name='ST_facets00109m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1198,10 +1198,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00109m1_n"
+                    name='ST_facets00109m1_n'
                 ),
             ],
-            name="st_facets00109m"
+            name='st_facets00109m'
         ),
         TestGroup(
             annotation=[
@@ -1210,12 +1210,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1224,13 +1224,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m.xsd'
                     ),
                 ],
                 expected=[
@@ -1242,12 +1242,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00110m"
+                name='ST_facets00110m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1258,11 +1258,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00110m1_p"
+                    name='ST_facets00110m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1273,10 +1273,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00110m1_n"
+                    name='ST_facets00110m1_n'
                 ),
             ],
-            name="st_facets00110m"
+            name='st_facets00110m'
         ),
         TestGroup(
             annotation=[
@@ -1285,12 +1285,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1299,13 +1299,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m.xsd'
                     ),
                 ],
                 expected=[
@@ -1317,12 +1317,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00111m"
+                name='ST_facets00111m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1333,11 +1333,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00111m1_p"
+                    name='ST_facets00111m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1348,10 +1348,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00111m1_n"
+                    name='ST_facets00111m1_n'
                 ),
             ],
-            name="st_facets00111m"
+            name='st_facets00111m'
         ),
         TestGroup(
             annotation=[
@@ -1360,12 +1360,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1374,13 +1374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m.xsd'
                     ),
                 ],
                 expected=[
@@ -1392,12 +1392,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00112m"
+                name='ST_facets00112m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1408,11 +1408,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00112m1_p"
+                    name='ST_facets00112m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1423,10 +1423,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00112m1_n"
+                    name='ST_facets00112m1_n'
                 ),
             ],
-            name="st_facets00112m"
+            name='st_facets00112m'
         ),
         TestGroup(
             annotation=[
@@ -1435,12 +1435,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1449,13 +1449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m.xsd'
                     ),
                 ],
                 expected=[
@@ -1467,12 +1467,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00113m"
+                name='ST_facets00113m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1483,11 +1483,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00113m1_p"
+                    name='ST_facets00113m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1498,10 +1498,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00113m1_n"
+                    name='ST_facets00113m1_n'
                 ),
             ],
-            name="st_facets00113m"
+            name='st_facets00113m'
         ),
         TestGroup(
             annotation=[
@@ -1510,12 +1510,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1524,13 +1524,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m.xsd'
                     ),
                 ],
                 expected=[
@@ -1542,12 +1542,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00114m"
+                name='ST_facets00114m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1558,11 +1558,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00114m1_p"
+                    name='ST_facets00114m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1573,10 +1573,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00114m1_n"
+                    name='ST_facets00114m1_n'
                 ),
             ],
-            name="st_facets00114m"
+            name='st_facets00114m'
         ),
         TestGroup(
             annotation=[
@@ -1585,12 +1585,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1599,13 +1599,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m.xsd'
                     ),
                 ],
                 expected=[
@@ -1617,12 +1617,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00115m"
+                name='ST_facets00115m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1633,11 +1633,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00115m1_p"
+                    name='ST_facets00115m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1648,10 +1648,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00115m1_n"
+                    name='ST_facets00115m1_n'
                 ),
             ],
-            name="st_facets00115m"
+            name='st_facets00115m'
         ),
         TestGroup(
             annotation=[
@@ -1660,12 +1660,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1674,13 +1674,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m.xsd'
                     ),
                 ],
                 expected=[
@@ -1692,12 +1692,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00116m"
+                name='ST_facets00116m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1708,11 +1708,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00116m1_p"
+                    name='ST_facets00116m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1723,10 +1723,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00116m1_n"
+                    name='ST_facets00116m1_n'
                 ),
             ],
-            name="st_facets00116m"
+            name='st_facets00116m'
         ),
         TestGroup(
             annotation=[
@@ -1735,12 +1735,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1749,13 +1749,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m.xsd'
                     ),
                 ],
                 expected=[
@@ -1767,12 +1767,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00117m"
+                name='ST_facets00117m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1783,11 +1783,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00117m1_p"
+                    name='ST_facets00117m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1798,10 +1798,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00117m1_n"
+                    name='ST_facets00117m1_n'
                 ),
             ],
-            name="st_facets00117m"
+            name='st_facets00117m'
         ),
         TestGroup(
             annotation=[
@@ -1810,12 +1810,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1824,13 +1824,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m.xsd'
                     ),
                 ],
                 expected=[
@@ -1842,12 +1842,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00118m"
+                name='ST_facets00118m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1858,11 +1858,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00118m1_p"
+                    name='ST_facets00118m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1873,10 +1873,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00118m1_n"
+                    name='ST_facets00118m1_n'
                 ),
             ],
-            name="st_facets00118m"
+            name='st_facets00118m'
         ),
         TestGroup(
             annotation=[
@@ -1885,12 +1885,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -1899,13 +1899,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m.xsd'
                     ),
                 ],
                 expected=[
@@ -1921,29 +1921,29 @@ obj = TestSet(
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2012, 3, 29),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=16569"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=16569'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2009, 5, 13),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6215"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6215'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
                 ],
-                name="ST_facets00119m"
+                name='ST_facets00119m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1954,86 +1954,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00119m1_p"
+                    name='ST_facets00119m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="ST_facets00119m1_n"
-                ),
-            ],
-            name="st_facets00119m"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00120m"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="ST_facets00120m1_p"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2044,10 +1969,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00120m1_n"
+                    name='ST_facets00119m1_n'
                 ),
             ],
-            name="st_facets00120m"
+            name='st_facets00119m'
         ),
         TestGroup(
             annotation=[
@@ -2056,12 +1981,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -2070,13 +1995,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m.xsd'
                     ),
                 ],
                 expected=[
@@ -2088,12 +2013,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00121m"
+                name='ST_facets00120m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2104,86 +2029,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00121m1_p"
+                    name='ST_facets00120m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="ST_facets00121m1_n"
-                ),
-            ],
-            name="st_facets00121m"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00122m"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="ST_facets00122m1_p"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2194,10 +2044,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00122m1_n"
+                    name='ST_facets00120m1_n'
                 ),
             ],
-            name="st_facets00122m"
+            name='st_facets00120m'
         ),
         TestGroup(
             annotation=[
@@ -2206,12 +2056,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{facets} restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {facets} of R constitute a restriction of the {facets} of B with respect to S."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -2220,13 +2070,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m.xsd'
                     ),
                 ],
                 expected=[
@@ -2238,12 +2088,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00123m"
+                name='ST_facets00121m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2254,86 +2104,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00123m1_p"
+                    name='ST_facets00121m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="ST_facets00123m1_n"
-                ),
-            ],
-            name="st_facets00123m"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxInclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00124m1"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2344,10 +2119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='ST_facets00121m1_n'
                 ),
             ],
-            name="st_facets00124m1"
+            name='st_facets00121m'
         ),
         TestGroup(
             annotation=[
@@ -2356,12 +2131,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -2370,13 +2145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m.xsd'
                     ),
                 ],
                 expected=[
@@ -2388,12 +2163,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m1"
+                name='ST_facets00122m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2404,86 +2179,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='ST_facets00122m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m1"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m10"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2494,10 +2194,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='ST_facets00122m1_n'
                 ),
             ],
-            name="st_facets00201m10"
+            name='st_facets00122m'
         ),
         TestGroup(
             annotation=[
@@ -2506,12 +2206,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{facets} restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The {facets} of R constitute a restriction of the {facets} of B with respect to S.'
                                 ),
                             ]
                         ),
@@ -2520,13 +2220,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m.xsd'
                     ),
                 ],
                 expected=[
@@ -2538,12 +2238,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m11"
+                name='ST_facets00123m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2554,86 +2254,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='ST_facets00123m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m11"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m12"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2644,10 +2269,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='ST_facets00123m1_n'
                 ),
             ],
-            name="st_facets00201m12"
+            name='st_facets00123m'
         ),
         TestGroup(
             annotation=[
@@ -2656,12 +2281,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxInclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -2670,13 +2295,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2688,12 +2313,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m13"
+                name='ST_facets00124m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2704,86 +2329,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m13"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m14"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2794,10 +2344,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00201m14"
+            name='st_facets00124m1'
         ),
         TestGroup(
             annotation=[
@@ -2806,12 +2356,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -2820,13 +2370,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2838,12 +2388,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m15"
+                name='ST_facets00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2854,86 +2404,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m15"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m16"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2944,10 +2419,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00201m16"
+            name='st_facets00201m1'
         ),
         TestGroup(
             annotation=[
@@ -2956,12 +2431,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -2970,13 +2445,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10.xsd'
                     ),
                 ],
                 expected=[
@@ -2988,12 +2463,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m2"
+                name='ST_facets00201m10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3004,86 +2479,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m2"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m3"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3094,10 +2494,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00201m3"
+            name='st_facets00201m10'
         ),
         TestGroup(
             annotation=[
@@ -3106,12 +2506,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -3120,13 +2520,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11.xsd'
                     ),
                 ],
                 expected=[
@@ -3138,12 +2538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m4"
+                name='ST_facets00201m11'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3154,86 +2554,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m4"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m5"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3244,10 +2569,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00201m5"
+            name='st_facets00201m11'
         ),
         TestGroup(
             annotation=[
@@ -3256,12 +2581,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -3270,13 +2595,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12.xsd'
                     ),
                 ],
                 expected=[
@@ -3288,12 +2613,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m6"
+                name='ST_facets00201m12'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3304,86 +2629,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m6"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m7"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3394,10 +2644,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00201m7"
+            name='st_facets00201m12'
         ),
         TestGroup(
             annotation=[
@@ -3406,12 +2656,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -3420,13 +2670,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13.xsd'
                     ),
                 ],
                 expected=[
@@ -3438,12 +2688,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00201m8"
+                name='ST_facets00201m13'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3454,86 +2704,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_n.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.INVALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Negative"
-                ),
-            ],
-            name="st_facets00201m8"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxExclusive facet (valid schema)"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes]."
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21)
-                ),
-                name="ST_facets00201m9"
-            ),
-            instance_test=[
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_p.xml"
-                    ),
-                    expected=[
-                        Expected(
-                            validity=ExpectedOutcome.VALID
-                        ),
-                    ],
-                    current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21)
-                    ),
-                    name="Positive"
-                ),
-                InstanceTest(
-                    instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3544,10 +2719,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00201m9"
+            name='st_facets00201m13'
         ),
         TestGroup(
             annotation=[
@@ -3556,12 +2731,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration facet restricts string type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type string restricted with two enumeration values '3.14' and 'int'.&#10;                             Negative document tries to use value '3,14'."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -3570,13 +2745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14.xsd'
                     ),
                 ],
                 expected=[
@@ -3588,12 +2763,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00301m"
+                name='ST_facets00201m14'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3604,11 +2779,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00301m1_p"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_n.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3619,10 +2794,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00301m1_n"
+                    name='Negative'
                 ),
             ],
-            name="st_facets00301m"
+            name='st_facets00201m14'
         ),
         TestGroup(
             annotation=[
@@ -3631,12 +2806,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that begin with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
                                 ),
                             ]
                         ),
@@ -3645,13 +2820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15.xsd'
                     ),
                 ],
                 expected=[
@@ -3663,12 +2838,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m1"
+                name='ST_facets00201m15'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3679,10 +2854,835 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m15'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m16'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m16'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m2'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m2'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m3'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m3'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m4'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m4'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m5'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m5'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m6'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m6'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m7'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m7'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m8'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m8'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxExclusive facet (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{facets} for each simple type definition are selected from those defined in [XML Schemas: Datatypes].'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00201m9'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Negative'
+                ),
+            ],
+            name='st_facets00201m9'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration facet restricts string type (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Base type string restricted with two enumeration values '3.14' and 'int'.\n                             Negative document tries to use value '3,14'."
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00301m'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='ST_facets00301m1_p'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='ST_facets00301m1_n'
+                ),
+            ],
+            name='st_facets00301m'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148 (valid schema)'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that begin with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148. The document uses each of the values.'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m1.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2005, 6, 21)
+                ),
+                name='ST_facets00401m1'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m1_p.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2005, 6, 21)
+                    ),
+                    name='Positive'
+                ),
             ],
-            name="st_facets00401m1"
+            name='st_facets00401m1'
         ),
         TestGroup(
             annotation=[
@@ -3691,12 +3691,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that begin with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that begin with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -3705,13 +3705,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m10.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m10.xsd'
                     ),
                 ],
                 expected=[
@@ -3723,12 +3723,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m10"
+                name='ST_facets00401m10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m10_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m10_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3739,10 +3739,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m10"
+            name='st_facets00401m10'
         ),
         TestGroup(
             annotation=[
@@ -3751,12 +3751,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that begin with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that begin with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -3765,13 +3765,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m11.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m11.xsd'
                     ),
                 ],
                 expected=[
@@ -3783,12 +3783,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m11"
+                name='ST_facets00401m11'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m11_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m11_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3799,10 +3799,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m11"
+            name='st_facets00401m11'
         ),
         TestGroup(
             annotation=[
@@ -3811,12 +3811,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that begin with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that begin with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -3825,13 +3825,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m12.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m12.xsd'
                     ),
                 ],
                 expected=[
@@ -3843,12 +3843,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m12"
+                name='ST_facets00401m12'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m12_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m12_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3859,10 +3859,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m12"
+            name='st_facets00401m12'
         ),
         TestGroup(
             annotation=[
@@ -3871,12 +3871,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that begin with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that begin with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -3885,13 +3885,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m13.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m13.xsd'
                     ),
                 ],
                 expected=[
@@ -3903,12 +3903,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m13"
+                name='ST_facets00401m13'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m13_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m13_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3919,10 +3919,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m13"
+            name='st_facets00401m13'
         ),
         TestGroup(
             annotation=[
@@ -3931,12 +3931,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that begin with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that begin with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -3945,13 +3945,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m14.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m14.xsd'
                     ),
                 ],
                 expected=[
@@ -3963,12 +3963,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m14"
+                name='ST_facets00401m14'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m14_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m14_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3979,10 +3979,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m14"
+            name='st_facets00401m14'
         ),
         TestGroup(
             annotation=[
@@ -3991,12 +3991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that begin with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that begin with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4005,13 +4005,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m15.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m15.xsd'
                     ),
                 ],
                 expected=[
@@ -4023,12 +4023,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m15"
+                name='ST_facets00401m15'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m15_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m15_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4039,10 +4039,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m15"
+            name='st_facets00401m15'
         ),
         TestGroup(
             annotation=[
@@ -4051,12 +4051,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 16 enumeration values &#10;                             that begin with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 16 enumeration values \n                             that begin with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4065,13 +4065,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m16.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m16.xsd'
                     ),
                 ],
                 expected=[
@@ -4083,12 +4083,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m16"
+                name='ST_facets00401m16'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m16_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m16_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4099,10 +4099,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m16"
+            name='st_facets00401m16'
         ),
         TestGroup(
             annotation=[
@@ -4111,12 +4111,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 16 enumeration values &#10;                             that begin with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 16 enumeration values \n                             that begin with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4125,13 +4125,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m17.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m17.xsd'
                     ),
                 ],
                 expected=[
@@ -4143,12 +4143,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m17"
+                name='ST_facets00401m17'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m17_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m17_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4159,10 +4159,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m17"
+            name='st_facets00401m17'
         ),
         TestGroup(
             annotation=[
@@ -4171,12 +4171,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 18 enumeration values &#10;                             that begin with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 18 enumeration values \n                             that begin with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4185,13 +4185,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m18.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m18.xsd'
                     ),
                 ],
                 expected=[
@@ -4203,12 +4203,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m18"
+                name='ST_facets00401m18'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m18_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m18_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4219,10 +4219,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m18"
+            name='st_facets00401m18'
         ),
         TestGroup(
             annotation=[
@@ -4231,12 +4231,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 20 enumeration values &#10;                             that begin with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 20 enumeration values \n                             that begin with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4245,13 +4245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m19.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m19.xsd'
                     ),
                 ],
                 expected=[
@@ -4263,12 +4263,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m19"
+                name='ST_facets00401m19'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m19_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m19_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4279,10 +4279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m19"
+            name='st_facets00401m19'
         ),
         TestGroup(
             annotation=[
@@ -4291,12 +4291,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that begin with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that begin with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4305,13 +4305,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m2.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m2.xsd'
                     ),
                 ],
                 expected=[
@@ -4323,12 +4323,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m2"
+                name='ST_facets00401m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4339,10 +4339,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m2"
+            name='st_facets00401m2'
         ),
         TestGroup(
             annotation=[
@@ -4351,12 +4351,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 24 enumeration values &#10;                             that begin with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 24 enumeration values \n                             that begin with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4365,13 +4365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m20.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m20.xsd'
                     ),
                 ],
                 expected=[
@@ -4383,12 +4383,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m20"
+                name='ST_facets00401m20'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m20_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m20_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4399,10 +4399,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m20"
+            name='st_facets00401m20'
         ),
         TestGroup(
             annotation=[
@@ -4411,12 +4411,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 21 enumeration values &#10;                             that begin with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 21 enumeration values \n                             that begin with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4425,13 +4425,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m21.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m21.xsd'
                     ),
                 ],
                 expected=[
@@ -4443,12 +4443,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m21"
+                name='ST_facets00401m21'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m21_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m21_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4459,10 +4459,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m21"
+            name='st_facets00401m21'
         ),
         TestGroup(
             annotation=[
@@ -4471,12 +4471,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that begin with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that begin with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4485,13 +4485,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m3.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m3.xsd'
                     ),
                 ],
                 expected=[
@@ -4503,12 +4503,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m3"
+                name='ST_facets00401m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m3_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4519,10 +4519,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m3"
+            name='st_facets00401m3'
         ),
         TestGroup(
             annotation=[
@@ -4531,12 +4531,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that begin with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that begin with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4545,13 +4545,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m4.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m4.xsd'
                     ),
                 ],
                 expected=[
@@ -4563,12 +4563,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m4"
+                name='ST_facets00401m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m4_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4579,10 +4579,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m4"
+            name='st_facets00401m4'
         ),
         TestGroup(
             annotation=[
@@ -4591,12 +4591,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that begin with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that begin with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4605,13 +4605,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m5.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m5.xsd'
                     ),
                 ],
                 expected=[
@@ -4623,12 +4623,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m5"
+                name='ST_facets00401m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m5_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4639,10 +4639,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m5"
+            name='st_facets00401m5'
         ),
         TestGroup(
             annotation=[
@@ -4651,12 +4651,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that begin with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that begin with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4665,13 +4665,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m6.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m6.xsd'
                     ),
                 ],
                 expected=[
@@ -4683,12 +4683,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m6"
+                name='ST_facets00401m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m6_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4699,10 +4699,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m6"
+            name='st_facets00401m6'
         ),
         TestGroup(
             annotation=[
@@ -4711,12 +4711,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that begin with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that begin with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4725,13 +4725,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m7.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m7.xsd'
                     ),
                 ],
                 expected=[
@@ -4743,12 +4743,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m7"
+                name='ST_facets00401m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m7_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4759,10 +4759,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m7"
+            name='st_facets00401m7'
         ),
         TestGroup(
             annotation=[
@@ -4771,12 +4771,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that begin with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that begin with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4785,13 +4785,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m8.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m8.xsd'
                     ),
                 ],
                 expected=[
@@ -4803,12 +4803,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m8"
+                name='ST_facets00401m8'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m8_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m8_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4819,10 +4819,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m8"
+            name='st_facets00401m8'
         ),
         TestGroup(
             annotation=[
@@ -4831,12 +4831,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that begin with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that begin with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4845,13 +4845,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m9.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m9.xsd'
                     ),
                 ],
                 expected=[
@@ -4863,12 +4863,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00401m9"
+                name='ST_facets00401m9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m9_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m9_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4879,10 +4879,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00401m9"
+            name='st_facets00401m9'
         ),
         TestGroup(
             annotation=[
@@ -4891,12 +4891,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values begin with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values begin with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 7 enumeration values &#10;                             that begin with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 7 enumeration values \n                             that begin with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -4905,13 +4905,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00402m/ST_facets00402m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00402m/ST_facets00402m1.xsd'
                     ),
                 ],
                 expected=[
@@ -4923,12 +4923,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00402m1"
+                name='ST_facets00402m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00402m/ST_facets00402m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00402m/ST_facets00402m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4939,10 +4939,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00402m1"
+            name='st_facets00402m1'
         ),
         TestGroup(
             annotation=[
@@ -4951,12 +4951,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration value begins with the underscore character 0x005f (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration value begins with the underscore character 0x005f (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with an enumeration value&#10;                             that begins with the underscore character 0x005f. The document uses the value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with an enumeration value\n                             that begins with the underscore character 0x005f. The document uses the value.'
                                 ),
                             ]
                         ),
@@ -4965,13 +4965,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00403m/ST_facets00403m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00403m/ST_facets00403m1.xsd'
                     ),
                 ],
                 expected=[
@@ -4983,12 +4983,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00403m1"
+                name='ST_facets00403m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00403m/ST_facets00403m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00403m/ST_facets00403m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4999,10 +4999,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00403m1"
+            name='st_facets00403m1'
         ),
         TestGroup(
             annotation=[
@@ -5011,12 +5011,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that end with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that end with the basic characters 0x0041, 0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0, 0x00cb, 0x00d6, 0x00d8, 0x00db, 0x00de, 0x00e0, 0x00eb, 0x00f6, 0x00f8, 0x00fb, 0x00ff, 0x0100, 0x0118, 0x0131, 0x0134, 0x0139, 0x013e, 0x0141, 0x0144, 0x0148. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5025,13 +5025,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m1.xsd'
                     ),
                 ],
                 expected=[
@@ -5043,12 +5043,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m1"
+                name='ST_facets00501m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5059,10 +5059,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m1"
+            name='st_facets00501m1'
         ),
         TestGroup(
             annotation=[
@@ -5071,12 +5071,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the basic characters 0x0b2a, 0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d, 0x0b5c, 0x0b5c, 0x0b5d, 0x0b5f, 0x0b60, 0x0b61, 0x0b85, 0x0b87, 0x0b8a, 0x0b8e, 0x0b8f, 0x0b90, 0x0b92, 0x0b93, 0x0b95, 0x0b99, 0x0b99, 0x0b9a. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5085,13 +5085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m10.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m10.xsd'
                     ),
                 ],
                 expected=[
@@ -5103,12 +5103,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m10"
+                name='ST_facets00501m10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m10_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m10_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5119,10 +5119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m10"
+            name='st_facets00501m10'
         ),
         TestGroup(
             annotation=[
@@ -5131,12 +5131,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the basic characters 0x0b9c, 0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa, 0x0bae, 0x0bb1, 0x0bb5, 0x0bb7, 0x0bb8, 0x0bb9, 0x0c05, 0x0c08, 0x0c0c, 0x0c0e, 0x0c0f, 0x0c10, 0x0c12, 0x0c1d, 0x0c28, 0x0c2a, 0x0c2e, 0x0c33. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5145,13 +5145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m11.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m11.xsd'
                     ),
                 ],
                 expected=[
@@ -5163,12 +5163,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m11"
+                name='ST_facets00501m11'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m11_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m11_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5179,10 +5179,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m11"
+            name='st_facets00501m11'
         ),
         TestGroup(
             annotation=[
@@ -5191,12 +5191,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the basic characters 0x0c35, 0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e, 0x0c8f, 0x0c90, 0x0c92, 0x0c9d, 0x0ca8, 0x0caa, 0x0cae, 0x0cb3, 0x0cb5, 0x0cb7, 0x0cb9, 0x0cde, 0x0ce0, 0x0ce0, 0x0ce1, 0x0d05, 0x0d08, 0x0d0c. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5205,13 +5205,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m12.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m12.xsd'
                     ),
                 ],
                 expected=[
@@ -5223,12 +5223,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m12"
+                name='ST_facets00501m12'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m12_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m12_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5239,10 +5239,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m12"
+            name='st_facets00501m12'
         ),
         TestGroup(
             annotation=[
@@ -5251,12 +5251,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the basic characters 0x0d0e, 0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60, 0x0d60, 0x0d61, 0x0e01, 0x0e17, 0x0e2e, 0x0e30, 0x0e32, 0x0e32, 0x0e33, 0x0e40, 0x0e42, 0x0e45, 0x0e81, 0x0e81, 0x0e82, 0x0e84. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5265,13 +5265,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m13.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m13.xsd'
                     ),
                 ],
                 expected=[
@@ -5283,12 +5283,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m13"
+                name='ST_facets00501m13'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m13_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m13_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5299,10 +5299,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m13"
+            name='st_facets00501m13'
         ),
         TestGroup(
             annotation=[
@@ -5311,12 +5311,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that end with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that end with the basic characters 0x0e87, 0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c, 0x0e9f, 0x0ea1, 0x0ea2, 0x0ea3, 0x0ea5, 0x0ea7, 0x0eaa, 0x0eaa, 0x0eab, 0x0ead, 0x0ead, 0x0eae. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5325,13 +5325,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m14.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m14.xsd'
                     ),
                 ],
                 expected=[
@@ -5343,12 +5343,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m14"
+                name='ST_facets00501m14'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m14_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m14_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5359,10 +5359,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m14"
+            name='st_facets00501m14'
         ),
         TestGroup(
             annotation=[
@@ -5371,12 +5371,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that end with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that end with the basic characters 0x0eb0, 0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43, 0x0f47, 0x0f49, 0x0f59, 0x0f69, 0x1100, 0x1102, 0x1102, 0x1103, 0x1105, 0x1106, 0x1107, 0x1109. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5385,13 +5385,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m15.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m15.xsd'
                     ),
                 ],
                 expected=[
@@ -5403,12 +5403,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m15"
+                name='ST_facets00501m15'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m15_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m15_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5419,10 +5419,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m15"
+            name='st_facets00501m15'
         ),
         TestGroup(
             annotation=[
@@ -5431,12 +5431,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 16 enumeration values &#10;                             that end with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 16 enumeration values \n                             that end with the basic characters 0x110b, 0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c, 0x114e, 0x1150, 0x1154, 0x1154, 0x1155, 0x1159. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5445,13 +5445,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m16.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m16.xsd'
                     ),
                 ],
                 expected=[
@@ -5463,12 +5463,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m16"
+                name='ST_facets00501m16'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m16_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m16_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5479,10 +5479,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m16"
+            name='st_facets00501m16'
         ),
         TestGroup(
             annotation=[
@@ -5491,12 +5491,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 16 enumeration values &#10;                             that end with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 16 enumeration values \n                             that end with the basic characters 0x115f, 0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e, 0x1172, 0x1172, 0x1173, 0x1175, 0x119e, 0x11a8. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5505,13 +5505,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m17.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m17.xsd'
                     ),
                 ],
                 expected=[
@@ -5523,12 +5523,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m17"
+                name='ST_facets00501m17'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m17_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m17_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5539,10 +5539,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m17"
+            name='st_facets00501m17'
         ),
         TestGroup(
             annotation=[
@@ -5551,12 +5551,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 18 enumeration values &#10;                             that end with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 18 enumeration values \n                             that end with the basic characters 0x11ab, 0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf, 0x11c2, 0x11eb, 0x11f0, 0x11f9, 0x1e00, 0x1e4a, 0x1e95, 0x1e9b. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5565,13 +5565,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m18.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m18.xsd'
                     ),
                 ],
                 expected=[
@@ -5583,12 +5583,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m18"
+                name='ST_facets00501m18'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m18_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m18_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5599,10 +5599,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m18"
+            name='st_facets00501m18'
         ),
         TestGroup(
             annotation=[
@@ -5611,12 +5611,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 20 enumeration values &#10;                             that end with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 20 enumeration values \n                             that end with the basic characters 0x1ea0, 0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20, 0x1f32, 0x1f45, 0x1f48, 0x1f4a, 0x1f4d, 0x1f51, 0x1f53, 0x1f55, 0x1f57, 0x1f59. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5625,13 +5625,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m19.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m19.xsd'
                     ),
                 ],
                 expected=[
@@ -5643,12 +5643,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m19"
+                name='ST_facets00501m19'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m19_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m19_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5659,10 +5659,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m19"
+            name='st_facets00501m19'
         ),
         TestGroup(
             annotation=[
@@ -5671,12 +5671,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that end with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that end with the basic characters 0x014a, 0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7, 0x01a8, 0x01a9, 0x01ab, 0x01b4, 0x01bd, 0x01c0, 0x01c1, 0x01c3, 0x01cd, 0x01de, 0x01ef, 0x01f4, 0x01f4, 0x01f5, 0x01fa, 0x0208, 0x0217, 0x0250, 0x0262, 0x0274. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5685,13 +5685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m2.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m2.xsd'
                     ),
                 ],
                 expected=[
@@ -5703,12 +5703,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m2"
+                name='ST_facets00501m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5719,10 +5719,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m2"
+            name='st_facets00501m2'
         ),
         TestGroup(
             annotation=[
@@ -5731,12 +5731,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 24 enumeration values &#10;                             that end with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 24 enumeration values \n                             that end with the basic characters 0x1f5b, 0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9, 0x1fbb, 0x1fc8, 0x1fc9, 0x1fcb, 0x1fd0, 0x1fd0, 0x1fd1, 0x1fd8, 0x1fd9, 0x1fdb, 0x1fe0, 0x1fe0, 0x1fe1, 0x1fe5. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5745,13 +5745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m20.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m20.xsd'
                     ),
                 ],
                 expected=[
@@ -5763,12 +5763,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m20"
+                name='ST_facets00501m20'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m20_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m20_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5779,10 +5779,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m20"
+            name='st_facets00501m20'
         ),
         TestGroup(
             annotation=[
@@ -5791,12 +5791,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 21 enumeration values &#10;                             that end with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 21 enumeration values \n                             that end with the basic characters 0x1fe8, 0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041, 0x306a, 0x3094, 0x30a1, 0x30cd, 0x30fa, 0x3105, 0x3118, 0x312c, 0xac00, 0xc1d1, 0xd7a3. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5805,13 +5805,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m21.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m21.xsd'
                     ),
                 ],
                 expected=[
@@ -5823,12 +5823,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m21"
+                name='ST_facets00501m21'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m21_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m21_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5839,10 +5839,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m21"
+            name='st_facets00501m21'
         ),
         TestGroup(
             annotation=[
@@ -5851,12 +5851,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the basic characters 0x0276, 0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386, 0x0388, 0x0389, 0x038a, 0x038c, 0x038e, 0x038e, 0x038f, 0x0391, 0x0399, 0x03a1, 0x03a3, 0x03a9, 0x03af, 0x03b1, 0x03bf, 0x03ce. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5865,13 +5865,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m3.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m3.xsd'
                     ),
                 ],
                 expected=[
@@ -5883,12 +5883,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m3"
+                name='ST_facets00501m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m3_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5899,10 +5899,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m3"
+            name='st_facets00501m3'
         ),
         TestGroup(
             annotation=[
@@ -5911,12 +5911,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that end with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that end with the basic characters 0x03d0, 0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e, 0x042e, 0x044f, 0x0451, 0x0456, 0x045c, 0x045e, 0x046f, 0x0481, 0x0490, 0x04a7, 0x04bf, 0x04c1, 0x04c2, 0x04c4, 0x04c7, 0x04c7, 0x04c8, 0x04cb, 0x04cb, 0x04cc. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5925,13 +5925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m4.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m4.xsd'
                     ),
                 ],
                 expected=[
@@ -5943,12 +5943,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m4"
+                name='ST_facets00501m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m4_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5959,10 +5959,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m4"
+            name='st_facets00501m4'
         ),
         TestGroup(
             annotation=[
@@ -5971,12 +5971,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the basic characters 0x04d0, 0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531, 0x0543, 0x0556, 0x0559, 0x0561, 0x0573, 0x0586, 0x05d0, 0x05dd, 0x05ea, 0x05f0, 0x05f1, 0x05f2, 0x0621, 0x062d, 0x063a, 0x0641, 0x0645, 0x064a. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -5985,13 +5985,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m5.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m5.xsd'
                     ),
                 ],
                 expected=[
@@ -6003,12 +6003,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m5"
+                name='ST_facets00501m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m5_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6019,10 +6019,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m5"
+            name='st_facets00501m5'
         ),
         TestGroup(
             annotation=[
@@ -6031,12 +6031,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the basic characters 0x0671, 0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0, 0x06d1, 0x06d3, 0x06d5, 0x06e5, 0x06e5, 0x06e6, 0x0905, 0x091f, 0x0939, 0x093d, 0x0958, 0x095c, 0x0961, 0x0985, 0x0988, 0x098c. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6045,13 +6045,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m6.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m6.xsd'
                     ),
                 ],
                 expected=[
@@ -6063,12 +6063,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m6"
+                name='ST_facets00501m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m6_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6079,10 +6079,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m6"
+            name='st_facets00501m6'
         ),
         TestGroup(
             annotation=[
@@ -6091,12 +6091,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the basic characters 0x098f, 0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2, 0x09b6, 0x09b7, 0x09b9, 0x09dc, 0x09dc, 0x09dd, 0x09df, 0x09e0, 0x09e1, 0x09f0, 0x09f0, 0x09f1, 0x0a05, 0x0a07, 0x0a0a, 0x0a0f, 0x0a0f, 0x0a10. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6105,13 +6105,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m7.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m7.xsd'
                     ),
                 ],
                 expected=[
@@ -6123,12 +6123,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m7"
+                name='ST_facets00501m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m7_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6139,10 +6139,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m7"
+            name='st_facets00501m7'
         ),
         TestGroup(
             annotation=[
@@ -6151,12 +6151,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the basic characters 0x0a13, 0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35, 0x0a35, 0x0a36, 0x0a38, 0x0a38, 0x0a39, 0x0a59, 0x0a5a, 0x0a5c, 0x0a5e, 0x0a72, 0x0a73, 0x0a74, 0x0a85, 0x0a88, 0x0a8b, 0x0a8d. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6165,13 +6165,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m8.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m8.xsd'
                     ),
                 ],
                 expected=[
@@ -6183,12 +6183,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m8"
+                name='ST_facets00501m8'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m8_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m8_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6199,10 +6199,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m8"
+            name='st_facets00501m8'
         ),
         TestGroup(
             annotation=[
@@ -6211,12 +6211,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the basic characters 0x0a8f, 0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2, 0x0ab2, 0x0ab3, 0x0ab5, 0x0ab7, 0x0ab9, 0x0abd, 0x0ae0, 0x0b05, 0x0b08, 0x0b0c, 0x0b0f, 0x0b0f, 0x0b10, 0x0b13, 0x0b1d, 0x0b28. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6225,13 +6225,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m9.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m9.xsd'
                     ),
                 ],
                 expected=[
@@ -6243,12 +6243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00501m9"
+                name='ST_facets00501m9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m9_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m9_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6259,10 +6259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00501m9"
+            name='st_facets00501m9'
         ),
         TestGroup(
             annotation=[
@@ -6271,12 +6271,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 7 enumeration values &#10;                             that end with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 7 enumeration values \n                             that end with the ideographic characters 0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6285,13 +6285,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00502m/ST_facets00502m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00502m/ST_facets00502m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6303,12 +6303,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00502m1"
+                name='ST_facets00502m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00502m/ST_facets00502m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00502m/ST_facets00502m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6319,10 +6319,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00502m1"
+            name='st_facets00502m1'
         ),
         TestGroup(
             annotation=[
@@ -6331,12 +6331,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the characters 0x005f, 0x002e, 0x002d (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the characters 0x005f, 0x002e, 0x002d (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 3 enumeration values &#10;                             that end with the characters 0x005f, 0x002e, 0x002d. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 3 enumeration values \n                             that end with the characters 0x005f, 0x002e, 0x002d. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6345,13 +6345,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00503m/ST_facets00503m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00503m/ST_facets00503m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6363,12 +6363,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00503m1"
+                name='ST_facets00503m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00503m/ST_facets00503m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00503m/ST_facets00503m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6379,10 +6379,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00503m1"
+            name='st_facets00503m1'
         ),
         TestGroup(
             annotation=[
@@ -6391,12 +6391,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the digit characters 0x0030, 0x0034, 0x0039, 0x0660, 0x0664, 0x0669, 0x06f0, 0x06f4, 0x06f9, 0x0966, 0x096a, 0x096f, 0x09e6, 0x09ea, 0x09ef, 0x0a66, 0x0a6a, 0x0a6f, 0x0ae6, 0x0aea, 0x0aef, 0x0b66, 0x0b6a, 0x0b6f, 0x0be7, 0x0beb, 0x0bef, 0x0c66, 0x0c6a, 0x0c6f (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the digit characters 0x0030, 0x0034, 0x0039, 0x0660, 0x0664, 0x0669, 0x06f0, 0x06f4, 0x06f9, 0x0966, 0x096a, 0x096f, 0x09e6, 0x09ea, 0x09ef, 0x0a66, 0x0a6a, 0x0a6f, 0x0ae6, 0x0aea, 0x0aef, 0x0b66, 0x0b6a, 0x0b6f, 0x0be7, 0x0beb, 0x0bef, 0x0c66, 0x0c6a, 0x0c6f (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 30 enumeration values &#10;                             that end with the digit characters 0x0030, 0x0034, 0x0039, 0x0660, 0x0664, 0x0669, 0x06f0, 0x06f4, 0x06f9, 0x0966, 0x096a, 0x096f, 0x09e6, 0x09ea, 0x09ef, 0x0a66, 0x0a6a, 0x0a6f, 0x0ae6, 0x0aea, 0x0aef, 0x0b66, 0x0b6a, 0x0b6f, 0x0be7, 0x0beb, 0x0bef, 0x0c66, 0x0c6a, 0x0c6f. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 30 enumeration values \n                             that end with the digit characters 0x0030, 0x0034, 0x0039, 0x0660, 0x0664, 0x0669, 0x06f0, 0x06f4, 0x06f9, 0x0966, 0x096a, 0x096f, 0x09e6, 0x09ea, 0x09ef, 0x0a66, 0x0a6a, 0x0a6f, 0x0ae6, 0x0aea, 0x0aef, 0x0b66, 0x0b6a, 0x0b6f, 0x0be7, 0x0beb, 0x0bef, 0x0c66, 0x0c6a, 0x0c6f. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6405,13 +6405,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6423,12 +6423,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00504m1"
+                name='ST_facets00504m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6439,10 +6439,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00504m1"
+            name='st_facets00504m1'
         ),
         TestGroup(
             annotation=[
@@ -6451,12 +6451,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the digit characters 0x0ce6, 0x0cea, 0x0cef, 0x0d66, 0x0d6a, 0x0d6f, 0x0e50, 0x0e54, 0x0e59, 0x0ed0, 0x0ed4, 0x0ed9, 0x0f20, 0x0f24, 0x0f29 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the digit characters 0x0ce6, 0x0cea, 0x0cef, 0x0d66, 0x0d6a, 0x0d6f, 0x0e50, 0x0e54, 0x0e59, 0x0ed0, 0x0ed4, 0x0ed9, 0x0f20, 0x0f24, 0x0f29 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 15 enumeration values &#10;                             that end with the digit characters 0x0ce6, 0x0cea, 0x0cef, 0x0d66, 0x0d6a, 0x0d6f, 0x0e50, 0x0e54, 0x0e59, 0x0ed0, 0x0ed4, 0x0ed9, 0x0f20, 0x0f24, 0x0f29. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 15 enumeration values \n                             that end with the digit characters 0x0ce6, 0x0cea, 0x0cef, 0x0d66, 0x0d6a, 0x0d6f, 0x0e50, 0x0e54, 0x0e59, 0x0ed0, 0x0ed4, 0x0ed9, 0x0f20, 0x0f24, 0x0f29. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6465,13 +6465,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m2.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m2.xsd'
                     ),
                 ],
                 expected=[
@@ -6483,12 +6483,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00504m2"
+                name='ST_facets00504m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6499,10 +6499,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00504m2"
+            name='st_facets00504m2'
         ),
         TestGroup(
             annotation=[
@@ -6511,12 +6511,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0300, 0x0322, 0x0344, 0x0360, 0x0360, 0x0361, 0x0483, 0x0484, 0x0486, 0x0591, 0x0599, 0x05a1, 0x05a3, 0x05ae, 0x05b9, 0x05bb, 0x05bc, 0x05bd, 0x05bf, 0x05c1, 0x05c1, 0x05c2, 0x05c4, 0x064b, 0x064e, 0x0652 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0300, 0x0322, 0x0344, 0x0360, 0x0360, 0x0361, 0x0483, 0x0484, 0x0486, 0x0591, 0x0599, 0x05a1, 0x05a3, 0x05ae, 0x05b9, 0x05bb, 0x05bc, 0x05bd, 0x05bf, 0x05c1, 0x05c1, 0x05c2, 0x05c4, 0x064b, 0x064e, 0x0652 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the combining characters 0x0300, 0x0322, 0x0344, 0x0360, 0x0360, 0x0361, 0x0483, 0x0484, 0x0486, 0x0591, 0x0599, 0x05a1, 0x05a3, 0x05ae, 0x05b9, 0x05bb, 0x05bc, 0x05bd, 0x05bf, 0x05c1, 0x05c1, 0x05c2, 0x05c4, 0x064b, 0x064e, 0x0652. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the combining characters 0x0300, 0x0322, 0x0344, 0x0360, 0x0360, 0x0361, 0x0483, 0x0484, 0x0486, 0x0591, 0x0599, 0x05a1, 0x05a3, 0x05ae, 0x05b9, 0x05bb, 0x05bc, 0x05bd, 0x05bf, 0x05c1, 0x05c1, 0x05c2, 0x05c4, 0x064b, 0x064e, 0x0652. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6525,13 +6525,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6543,12 +6543,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m1"
+                name='ST_facets00505m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6559,10 +6559,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m1"
+            name='st_facets00505m1'
         ),
         TestGroup(
             annotation=[
@@ -6571,12 +6571,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x20d0, 0x20d6, 0x20dc, 0x20e1, 0x302a, 0x302c, 0x302f, 0x3099, 0x309a (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x20d0, 0x20d6, 0x20dc, 0x20e1, 0x302a, 0x302c, 0x302f, 0x3099, 0x309a (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 9 enumeration values &#10;                             that end with the combining characters 0x20d0, 0x20d6, 0x20dc, 0x20e1, 0x302a, 0x302c, 0x302f, 0x3099, 0x309a. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 9 enumeration values \n                             that end with the combining characters 0x20d0, 0x20d6, 0x20dc, 0x20e1, 0x302a, 0x302c, 0x302f, 0x3099, 0x309a. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6585,13 +6585,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m10.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m10.xsd'
                     ),
                 ],
                 expected=[
@@ -6603,12 +6603,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m10"
+                name='ST_facets00505m10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m10_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m10_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6619,10 +6619,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m10"
+            name='st_facets00505m10'
         ),
         TestGroup(
             annotation=[
@@ -6631,12 +6631,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0670, 0x06d6, 0x06d9, 0x06dc, 0x06dd, 0x06de, 0x06df, 0x06e0, 0x06e2, 0x06e4, 0x06e7, 0x06e7, 0x06e8, 0x06ea, 0x06eb, 0x06ed, 0x0901, 0x0902, 0x0903, 0x093c, 0x093e, 0x0945, 0x094c, 0x094d (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0670, 0x06d6, 0x06d9, 0x06dc, 0x06dd, 0x06de, 0x06df, 0x06e0, 0x06e2, 0x06e4, 0x06e7, 0x06e7, 0x06e8, 0x06ea, 0x06eb, 0x06ed, 0x0901, 0x0902, 0x0903, 0x093c, 0x093e, 0x0945, 0x094c, 0x094d (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 24 enumeration values &#10;                             that end with the combining characters 0x0670, 0x06d6, 0x06d9, 0x06dc, 0x06dd, 0x06de, 0x06df, 0x06e0, 0x06e2, 0x06e4, 0x06e7, 0x06e7, 0x06e8, 0x06ea, 0x06eb, 0x06ed, 0x0901, 0x0902, 0x0903, 0x093c, 0x093e, 0x0945, 0x094c, 0x094d. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 24 enumeration values \n                             that end with the combining characters 0x0670, 0x06d6, 0x06d9, 0x06dc, 0x06dd, 0x06de, 0x06df, 0x06e0, 0x06e2, 0x06e4, 0x06e7, 0x06e7, 0x06e8, 0x06ea, 0x06eb, 0x06ed, 0x0901, 0x0902, 0x0903, 0x093c, 0x093e, 0x0945, 0x094c, 0x094d. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6645,13 +6645,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m2.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m2.xsd'
                     ),
                 ],
                 expected=[
@@ -6663,12 +6663,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m2"
+                name='ST_facets00505m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6679,10 +6679,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m2"
+            name='st_facets00505m2'
         ),
         TestGroup(
             annotation=[
@@ -6691,12 +6691,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0951, 0x0952, 0x0954, 0x0962, 0x0962, 0x0963, 0x0981, 0x0982, 0x0983, 0x09bc, 0x09be, 0x09bf, 0x09c0, 0x09c2, 0x09c4, 0x09c7, 0x09c7, 0x09c8, 0x09cb, 0x09cc, 0x09cd, 0x09d7 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0951, 0x0952, 0x0954, 0x0962, 0x0962, 0x0963, 0x0981, 0x0982, 0x0983, 0x09bc, 0x09be, 0x09bf, 0x09c0, 0x09c2, 0x09c4, 0x09c7, 0x09c7, 0x09c8, 0x09cb, 0x09cc, 0x09cd, 0x09d7 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that end with the combining characters 0x0951, 0x0952, 0x0954, 0x0962, 0x0962, 0x0963, 0x0981, 0x0982, 0x0983, 0x09bc, 0x09be, 0x09bf, 0x09c0, 0x09c2, 0x09c4, 0x09c7, 0x09c7, 0x09c8, 0x09cb, 0x09cc, 0x09cd, 0x09d7. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that end with the combining characters 0x0951, 0x0952, 0x0954, 0x0962, 0x0962, 0x0963, 0x0981, 0x0982, 0x0983, 0x09bc, 0x09be, 0x09bf, 0x09c0, 0x09c2, 0x09c4, 0x09c7, 0x09c7, 0x09c8, 0x09cb, 0x09cc, 0x09cd, 0x09d7. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6705,13 +6705,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m3.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m3.xsd'
                     ),
                 ],
                 expected=[
@@ -6723,12 +6723,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m3"
+                name='ST_facets00505m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m3_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6739,10 +6739,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m3"
+            name='st_facets00505m3'
         ),
         TestGroup(
             annotation=[
@@ -6751,12 +6751,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x09e2, 0x09e2, 0x09e3, 0x0a02, 0x0a3c, 0x0a3e, 0x0a3f, 0x0a40, 0x0a41, 0x0a42, 0x0a47, 0x0a47, 0x0a48, 0x0a4b, 0x0a4c, 0x0a4d, 0x0a70, 0x0a70, 0x0a71, 0x0a81, 0x0a82, 0x0a83 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x09e2, 0x09e2, 0x09e3, 0x0a02, 0x0a3c, 0x0a3e, 0x0a3f, 0x0a40, 0x0a41, 0x0a42, 0x0a47, 0x0a47, 0x0a48, 0x0a4b, 0x0a4c, 0x0a4d, 0x0a70, 0x0a70, 0x0a71, 0x0a81, 0x0a82, 0x0a83 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that end with the combining characters 0x09e2, 0x09e2, 0x09e3, 0x0a02, 0x0a3c, 0x0a3e, 0x0a3f, 0x0a40, 0x0a41, 0x0a42, 0x0a47, 0x0a47, 0x0a48, 0x0a4b, 0x0a4c, 0x0a4d, 0x0a70, 0x0a70, 0x0a71, 0x0a81, 0x0a82, 0x0a83. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that end with the combining characters 0x09e2, 0x09e2, 0x09e3, 0x0a02, 0x0a3c, 0x0a3e, 0x0a3f, 0x0a40, 0x0a41, 0x0a42, 0x0a47, 0x0a47, 0x0a48, 0x0a4b, 0x0a4c, 0x0a4d, 0x0a70, 0x0a70, 0x0a71, 0x0a81, 0x0a82, 0x0a83. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6765,13 +6765,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m4.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m4.xsd'
                     ),
                 ],
                 expected=[
@@ -6783,12 +6783,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m4"
+                name='ST_facets00505m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m4_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6799,10 +6799,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m4"
+            name='st_facets00505m4'
         ),
         TestGroup(
             annotation=[
@@ -6811,12 +6811,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0abc, 0x0abe, 0x0ac1, 0x0ac5, 0x0ac7, 0x0ac8, 0x0ac9, 0x0acb, 0x0acc, 0x0acd, 0x0b01, 0x0b02, 0x0b03, 0x0b3c, 0x0b3e, 0x0b40, 0x0b43, 0x0b47, 0x0b47, 0x0b48, 0x0b4b, 0x0b4c, 0x0b4d, 0x0b56, 0x0b56, 0x0b57 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0abc, 0x0abe, 0x0ac1, 0x0ac5, 0x0ac7, 0x0ac8, 0x0ac9, 0x0acb, 0x0acc, 0x0acd, 0x0b01, 0x0b02, 0x0b03, 0x0b3c, 0x0b3e, 0x0b40, 0x0b43, 0x0b47, 0x0b47, 0x0b48, 0x0b4b, 0x0b4c, 0x0b4d, 0x0b56, 0x0b56, 0x0b57 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 26 enumeration values &#10;                             that end with the combining characters 0x0abc, 0x0abe, 0x0ac1, 0x0ac5, 0x0ac7, 0x0ac8, 0x0ac9, 0x0acb, 0x0acc, 0x0acd, 0x0b01, 0x0b02, 0x0b03, 0x0b3c, 0x0b3e, 0x0b40, 0x0b43, 0x0b47, 0x0b47, 0x0b48, 0x0b4b, 0x0b4c, 0x0b4d, 0x0b56, 0x0b56, 0x0b57. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 26 enumeration values \n                             that end with the combining characters 0x0abc, 0x0abe, 0x0ac1, 0x0ac5, 0x0ac7, 0x0ac8, 0x0ac9, 0x0acb, 0x0acc, 0x0acd, 0x0b01, 0x0b02, 0x0b03, 0x0b3c, 0x0b3e, 0x0b40, 0x0b43, 0x0b47, 0x0b47, 0x0b48, 0x0b4b, 0x0b4c, 0x0b4d, 0x0b56, 0x0b56, 0x0b57. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6825,13 +6825,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m5.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m5.xsd'
                     ),
                 ],
                 expected=[
@@ -6843,12 +6843,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m5"
+                name='ST_facets00505m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m5_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6859,10 +6859,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m5"
+            name='st_facets00505m5'
         ),
         TestGroup(
             annotation=[
@@ -6871,12 +6871,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0b82, 0x0b82, 0x0b83, 0x0bbe, 0x0bc0, 0x0bc2, 0x0bc6, 0x0bc7, 0x0bc8, 0x0bca, 0x0bcb, 0x0bcd, 0x0bd7, 0x0c01, 0x0c02, 0x0c03, 0x0c3e, 0x0c41, 0x0c44, 0x0c46, 0x0c47, 0x0c48, 0x0c4a, 0x0c4b, 0x0c4d, 0x0c55, 0x0c55, 0x0c56 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0b82, 0x0b82, 0x0b83, 0x0bbe, 0x0bc0, 0x0bc2, 0x0bc6, 0x0bc7, 0x0bc8, 0x0bca, 0x0bcb, 0x0bcd, 0x0bd7, 0x0c01, 0x0c02, 0x0c03, 0x0c3e, 0x0c41, 0x0c44, 0x0c46, 0x0c47, 0x0c48, 0x0c4a, 0x0c4b, 0x0c4d, 0x0c55, 0x0c55, 0x0c56 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the combining characters 0x0b82, 0x0b82, 0x0b83, 0x0bbe, 0x0bc0, 0x0bc2, 0x0bc6, 0x0bc7, 0x0bc8, 0x0bca, 0x0bcb, 0x0bcd, 0x0bd7, 0x0c01, 0x0c02, 0x0c03, 0x0c3e, 0x0c41, 0x0c44, 0x0c46, 0x0c47, 0x0c48, 0x0c4a, 0x0c4b, 0x0c4d, 0x0c55, 0x0c55, 0x0c56. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the combining characters 0x0b82, 0x0b82, 0x0b83, 0x0bbe, 0x0bc0, 0x0bc2, 0x0bc6, 0x0bc7, 0x0bc8, 0x0bca, 0x0bcb, 0x0bcd, 0x0bd7, 0x0c01, 0x0c02, 0x0c03, 0x0c3e, 0x0c41, 0x0c44, 0x0c46, 0x0c47, 0x0c48, 0x0c4a, 0x0c4b, 0x0c4d, 0x0c55, 0x0c55, 0x0c56. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6885,13 +6885,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m6.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m6.xsd'
                     ),
                 ],
                 expected=[
@@ -6903,12 +6903,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m6"
+                name='ST_facets00505m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m6_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6919,10 +6919,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m6"
+            name='st_facets00505m6'
         ),
         TestGroup(
             annotation=[
@@ -6931,12 +6931,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0c82, 0x0c82, 0x0c83, 0x0cbe, 0x0cc1, 0x0cc4, 0x0cc6, 0x0cc7, 0x0cc8, 0x0cca, 0x0ccb, 0x0ccd, 0x0cd5, 0x0cd5, 0x0cd6, 0x0d02, 0x0d02, 0x0d03, 0x0d3e, 0x0d40, 0x0d43, 0x0d46, 0x0d47, 0x0d48, 0x0d4a, 0x0d4b, 0x0d4d, 0x0d57 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0c82, 0x0c82, 0x0c83, 0x0cbe, 0x0cc1, 0x0cc4, 0x0cc6, 0x0cc7, 0x0cc8, 0x0cca, 0x0ccb, 0x0ccd, 0x0cd5, 0x0cd5, 0x0cd6, 0x0d02, 0x0d02, 0x0d03, 0x0d3e, 0x0d40, 0x0d43, 0x0d46, 0x0d47, 0x0d48, 0x0d4a, 0x0d4b, 0x0d4d, 0x0d57 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 28 enumeration values &#10;                             that end with the combining characters 0x0c82, 0x0c82, 0x0c83, 0x0cbe, 0x0cc1, 0x0cc4, 0x0cc6, 0x0cc7, 0x0cc8, 0x0cca, 0x0ccb, 0x0ccd, 0x0cd5, 0x0cd5, 0x0cd6, 0x0d02, 0x0d02, 0x0d03, 0x0d3e, 0x0d40, 0x0d43, 0x0d46, 0x0d47, 0x0d48, 0x0d4a, 0x0d4b, 0x0d4d, 0x0d57. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 28 enumeration values \n                             that end with the combining characters 0x0c82, 0x0c82, 0x0c83, 0x0cbe, 0x0cc1, 0x0cc4, 0x0cc6, 0x0cc7, 0x0cc8, 0x0cca, 0x0ccb, 0x0ccd, 0x0cd5, 0x0cd5, 0x0cd6, 0x0d02, 0x0d02, 0x0d03, 0x0d3e, 0x0d40, 0x0d43, 0x0d46, 0x0d47, 0x0d48, 0x0d4a, 0x0d4b, 0x0d4d, 0x0d57. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -6945,13 +6945,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m7.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m7.xsd'
                     ),
                 ],
                 expected=[
@@ -6963,12 +6963,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m7"
+                name='ST_facets00505m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m7_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6979,10 +6979,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m7"
+            name='st_facets00505m7'
         ),
         TestGroup(
             annotation=[
@@ -6991,12 +6991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0e31, 0x0e34, 0x0e37, 0x0e3a, 0x0e47, 0x0e4a, 0x0e4e, 0x0eb1, 0x0eb4, 0x0eb6, 0x0eb9, 0x0ebb, 0x0ebb, 0x0ebc, 0x0ec8, 0x0eca, 0x0ecd, 0x0f18, 0x0f18, 0x0f19, 0x0f35, 0x0f37 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0e31, 0x0e34, 0x0e37, 0x0e3a, 0x0e47, 0x0e4a, 0x0e4e, 0x0eb1, 0x0eb4, 0x0eb6, 0x0eb9, 0x0ebb, 0x0ebb, 0x0ebc, 0x0ec8, 0x0eca, 0x0ecd, 0x0f18, 0x0f18, 0x0f19, 0x0f35, 0x0f37 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 22 enumeration values &#10;                             that end with the combining characters 0x0e31, 0x0e34, 0x0e37, 0x0e3a, 0x0e47, 0x0e4a, 0x0e4e, 0x0eb1, 0x0eb4, 0x0eb6, 0x0eb9, 0x0ebb, 0x0ebb, 0x0ebc, 0x0ec8, 0x0eca, 0x0ecd, 0x0f18, 0x0f18, 0x0f19, 0x0f35, 0x0f37. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 22 enumeration values \n                             that end with the combining characters 0x0e31, 0x0e34, 0x0e37, 0x0e3a, 0x0e47, 0x0e4a, 0x0e4e, 0x0eb1, 0x0eb4, 0x0eb6, 0x0eb9, 0x0ebb, 0x0ebb, 0x0ebc, 0x0ec8, 0x0eca, 0x0ecd, 0x0f18, 0x0f18, 0x0f19, 0x0f35, 0x0f37. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7005,13 +7005,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m8.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m8.xsd'
                     ),
                 ],
                 expected=[
@@ -7023,12 +7023,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m8"
+                name='ST_facets00505m8'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m8_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m8_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7039,10 +7039,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m8"
+            name='st_facets00505m8'
         ),
         TestGroup(
             annotation=[
@@ -7051,12 +7051,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the combining characters 0x0f39, 0x0f3e, 0x0f3f, 0x0f71, 0x0f7a, 0x0f84, 0x0f86, 0x0f86, 0x0f87, 0x0f90, 0x0f92, 0x0f95, 0x0f97, 0x0f99, 0x0fa3, 0x0fad, 0x0fb1, 0x0fb4, 0x0fb7, 0x0fb9 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the combining characters 0x0f39, 0x0f3e, 0x0f3f, 0x0f71, 0x0f7a, 0x0f84, 0x0f86, 0x0f86, 0x0f87, 0x0f90, 0x0f92, 0x0f95, 0x0f97, 0x0f99, 0x0fa3, 0x0fad, 0x0fb1, 0x0fb4, 0x0fb7, 0x0fb9 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 20 enumeration values &#10;                             that end with the combining characters 0x0f39, 0x0f3e, 0x0f3f, 0x0f71, 0x0f7a, 0x0f84, 0x0f86, 0x0f86, 0x0f87, 0x0f90, 0x0f92, 0x0f95, 0x0f97, 0x0f99, 0x0fa3, 0x0fad, 0x0fb1, 0x0fb4, 0x0fb7, 0x0fb9. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 20 enumeration values \n                             that end with the combining characters 0x0f39, 0x0f3e, 0x0f3f, 0x0f71, 0x0f7a, 0x0f84, 0x0f86, 0x0f86, 0x0f87, 0x0f90, 0x0f92, 0x0f95, 0x0f97, 0x0f99, 0x0fa3, 0x0fad, 0x0fb1, 0x0fb4, 0x0fb7, 0x0fb9. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7065,13 +7065,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m9.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m9.xsd'
                     ),
                 ],
                 expected=[
@@ -7083,12 +7083,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00505m9"
+                name='ST_facets00505m9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m9_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m9_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7099,10 +7099,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00505m9"
+            name='st_facets00505m9'
         ),
         TestGroup(
             annotation=[
@@ -7111,12 +7111,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the extender characters 0x00b7, 0x02d0, 0x02d1, 0x0387, 0x0640, 0x0e46, 0x0ec6, 0x3005, 0x3031, 0x3033, 0x3035, 0x309d, 0x309d, 0x309e (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the extender characters 0x00b7, 0x02d0, 0x02d1, 0x0387, 0x0640, 0x0e46, 0x0ec6, 0x3005, 0x3031, 0x3033, 0x3035, 0x309d, 0x309d, 0x309e (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 14 enumeration values &#10;                             that end with the extender characters 0x00b7, 0x02d0, 0x02d1, 0x0387, 0x0640, 0x0e46, 0x0ec6, 0x3005, 0x3031, 0x3033, 0x3035, 0x309d, 0x309d, 0x309e. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 14 enumeration values \n                             that end with the extender characters 0x00b7, 0x02d0, 0x02d1, 0x0387, 0x0640, 0x0e46, 0x0ec6, 0x3005, 0x3031, 0x3033, 0x3035, 0x309d, 0x309d, 0x309e. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7125,13 +7125,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m1.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m1.xsd'
                     ),
                 ],
                 expected=[
@@ -7143,12 +7143,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00506m1"
+                name='ST_facets00506m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m1_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7159,10 +7159,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00506m1"
+            name='st_facets00506m1'
         ),
         TestGroup(
             annotation=[
@@ -7171,12 +7171,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values end with the extender characters 0x30fc, 0x30fd, 0x30fe (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values end with the extender characters 0x30fc, 0x30fd, 0x30fe (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 3 enumeration values &#10;                             that end with the extender characters 0x30fc, 0x30fd, 0x30fe. The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 3 enumeration values \n                             that end with the extender characters 0x30fc, 0x30fd, 0x30fe. The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7185,13 +7185,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m2.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m2.xsd'
                     ),
                 ],
                 expected=[
@@ -7203,12 +7203,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00506m2"
+                name='ST_facets00506m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m2_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7219,10 +7219,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="st_facets00506m2"
+            name='st_facets00506m2'
         ),
         TestGroup(
             annotation=[
@@ -7231,12 +7231,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values contain several punctuation characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values contain several punctuation characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with 7 enumeration &#10;                                     values that has the following punctuation characters:&#10;                                     hyphen ('-', \u002D, HYPHEN-MINUS), period ('.', \u002E, FULL STOP),&#10;                                     underscore ('_', \u005F, LOW LINE),&#10;                                     dot ('.', \u00B7, MIDDLE DOT), \u0387, GREEK ANO TELEIA,&#10;                                     \u06DD, ARABIC END OF AYAH and \u06DE, ARABIC START OF RUB EL HIZB.&#10;                             &#10;                                     The document uses each of the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Declare a simple type based on NCName and restricted with 7 enumeration \n                                     values that has the following punctuation characters:\n                                     hyphen ('-', \\u002D, HYPHEN-MINUS), period ('.', \\u002E, FULL STOP),\n                                     underscore ('_', \\u005F, LOW LINE),\n                                     dot ('.', \\u00B7, MIDDLE DOT), \\u0387, GREEK ANO TELEIA,\n                                     \\u06DD, ARABIC END OF AYAH and \\u06DE, ARABIC START OF RUB EL HIZB.\n                             \n                                     The document uses each of the values."
                                 ),
                             ]
                         ),
@@ -7245,13 +7245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00601/ST_facets00601.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00601/ST_facets00601.xsd'
                     ),
                 ],
                 expected=[
@@ -7263,12 +7263,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00601"
+                name='ST_facets00601'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00601/ST_facets00601_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00601/ST_facets00601_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7279,10 +7279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00601_p"
+                    name='ST_facets00601_p'
                 ),
             ],
-            name="st_facets00601"
+            name='st_facets00601'
         ),
         TestGroup(
             annotation=[
@@ -7291,12 +7291,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values contain several punctuation characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values contain several punctuation characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare a simple type based on NCName and restricted with 2 enumeration&#10;                                     values "a&amp;#x002D;1&amp;#x002E;2&amp;#x005F;3&amp;#x00B7;4&amp;#x0387;5&amp;#x06DD;6&amp;#x06DE;" and "a1_2_3_4_5_6".&#10;                             &#10;                                     The document uses each of the values.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 2 enumeration\n                                     values "a&#x002D;1&#x002E;2&#x005F;3&#x00B7;4&#x0387;5&#x06DD;6&#x06DE;" and "a1_2_3_4_5_6".\n                             \n                                     The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7305,13 +7305,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00602/ST_facets00602.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00602/ST_facets00602.xsd'
                     ),
                 ],
                 expected=[
@@ -7323,12 +7323,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00602"
+                name='ST_facets00602'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00602/ST_facets00602_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00602/ST_facets00602_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7339,10 +7339,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00602_p"
+                    name='ST_facets00602_p'
                 ),
             ],
-            name="st_facets00602"
+            name='st_facets00602'
         ),
         TestGroup(
             annotation=[
@@ -7351,12 +7351,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values contain digits followed by a non-digit characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values contain digits followed by a non-digit characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare a simple type based on NCName and restricted with 3 enumeration&#10;                                     values "aa111a2Aa", "aa22B3c" and "aa3-4_".&#10;                             &#10;                                     The document uses each of the values.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 3 enumeration\n                                     values "aa111a2Aa", "aa22B3c" and "aa3-4_".\n                             \n                                     The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7365,13 +7365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00603/ST_facets00603.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00603/ST_facets00603.xsd'
                     ),
                 ],
                 expected=[
@@ -7383,12 +7383,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00603"
+                name='ST_facets00603'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00603/ST_facets00603_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00603/ST_facets00603_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7399,10 +7399,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00603_p"
+                    name='ST_facets00603_p'
                 ),
             ],
-            name="st_facets00603"
+            name='st_facets00603'
         ),
         TestGroup(
             annotation=[
@@ -7411,12 +7411,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values contain lower case and upper case letters and non-letter characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values contain lower case and upper case letters and non-letter characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare a simple type based on NCName and restricted with several enumeration&#10;                                     values that contain lower case and upper case letters and non-letter characters:&#10;                                     "aaaa",  "bbbB",  "ccCc",  "ddDD",  "eEee",  &#10;                                     "fFfF",  "pPPp",  "gGGG",  "Hhhh",  "IiiI",  "JjJj", &#10;                                     "KkKK",  "LLll",  "MMmM",  "NNNn",  "OOOO", &#10;                                     "bbb0",  "cc0c",  "dd00",  "e0ee",  "f0f0",  "p00p",  "g000", &#10;                                     "bbb_",  "cc_c",  "dd__",  "e_ee",  "f_f_",  "p__p",  "g___", &#10;                                     "H111",  "I11I",  "J1J1",  "K1KK",  "LL11",  "MM1M",  "NNN1", &#10;                                     "H---",  "I--I",  "J-J-",  "K-KK",  "LL--",  "MM-M",  "NNN-". &#10;                             &#10;                                     The document uses each of the values.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with several enumeration\n                                     values that contain lower case and upper case letters and non-letter characters:\n                                     "aaaa",  "bbbB",  "ccCc",  "ddDD",  "eEee",  \n                                     "fFfF",  "pPPp",  "gGGG",  "Hhhh",  "IiiI",  "JjJj", \n                                     "KkKK",  "LLll",  "MMmM",  "NNNn",  "OOOO", \n                                     "bbb0",  "cc0c",  "dd00",  "e0ee",  "f0f0",  "p00p",  "g000", \n                                     "bbb_",  "cc_c",  "dd__",  "e_ee",  "f_f_",  "p__p",  "g___", \n                                     "H111",  "I11I",  "J1J1",  "K1KK",  "LL11",  "MM1M",  "NNN1", \n                                     "H---",  "I--I",  "J-J-",  "K-KK",  "LL--",  "MM-M",  "NNN-". \n                             \n                                     The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7425,13 +7425,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00604/ST_facets00604.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00604/ST_facets00604.xsd'
                     ),
                 ],
                 expected=[
@@ -7443,12 +7443,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00604"
+                name='ST_facets00604'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00604/ST_facets00604_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00604/ST_facets00604_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7459,10 +7459,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00604_p"
+                    name='ST_facets00604_p'
                 ),
             ],
-            name="st_facets00604"
+            name='st_facets00604'
         ),
         TestGroup(
             annotation=[
@@ -7471,12 +7471,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values contain only punctuation characters and digits. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values contain only punctuation characters and digits. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare a simple type based on NCName and restricted with 2 enumeration&#10;                                     values "_-." and "_-0.".&#10;                             &#10;                                     The document uses each of the values.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with 2 enumeration\n                                     values "_-." and "_-0.".\n                             \n                                     The document uses each of the values.'
                                 ),
                             ]
                         ),
@@ -7485,13 +7485,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00605/ST_facets00605.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00605/ST_facets00605.xsd'
                     ),
                 ],
                 expected=[
@@ -7503,12 +7503,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00605"
+                name='ST_facets00605'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00605/ST_facets00605_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00605/ST_facets00605_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7519,10 +7519,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00605_p"
+                    name='ST_facets00605_p'
                 ),
             ],
-            name="st_facets00605"
+            name='st_facets00605'
         ),
         TestGroup(
             annotation=[
@@ -7531,12 +7531,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Enumeration values contain an uncased letter followed by upper or lower case letter. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Enumeration values contain an uncased letter followed by upper or lower case letter. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a simple type based on NCName and restricted with enumeration&#10;                                     values that contain one Unicode letter #x01BB which is neither upper nor lower.&#10;                             &#10;                                     The document ST_facets00608_p.xml uses all the values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a simple type based on NCName and restricted with enumeration\n                                     values that contain one Unicode letter #x01BB which is neither upper nor lower.\n                             \n                                     The document ST_facets00608_p.xml uses all the values.'
                                 ),
                             ]
                         ),
@@ -7545,13 +7545,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00608/ST_facets00608.xsd"
+                        href='../sunData/SType/ST_facets/ST_facets00608/ST_facets00608.xsd'
                     ),
                 ],
                 expected=[
@@ -7563,12 +7563,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_facets00608"
+                name='ST_facets00608'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_facets/ST_facets00608/ST_facets00608_p.xml"
+                        href='../sunData/SType/ST_facets/ST_facets00608/ST_facets00608_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7579,10 +7579,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_facets00608_p"
+                    name='ST_facets00608_p'
                 ),
             ],
-            name="st_facets00608"
+            name='st_facets00608'
         ),
         TestGroup(
             annotation=[
@@ -7591,12 +7591,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by restriction (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by restriction (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value restriction prevents further derivations by restriction (to yield a simple type)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value restriction prevents further derivations by restriction (to yield a simple type).'
                                 ),
                             ]
                         ),
@@ -7605,13 +7605,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m1.xsd"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -7623,9 +7623,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00101m1"
+                name='ST_final00101m1'
             ),
-            name="st_final00101m1"
+            name='st_final00101m1'
         ),
         TestGroup(
             annotation=[
@@ -7634,12 +7634,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by list (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by list (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value restriction prevents further derivations by restriction (to yield a simple type)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value restriction prevents further derivations by restriction (to yield a simple type).'
                                 ),
                             ]
                         ),
@@ -7648,13 +7648,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m2.xsd"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -7666,12 +7666,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00101m2"
+                name='ST_final00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m2_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7682,11 +7682,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m2_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7697,10 +7697,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00101m2"
+            name='st_final00101m2'
         ),
         TestGroup(
             annotation=[
@@ -7709,12 +7709,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value restriction prevents further derivations by restriction (to yield a simple type)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value restriction prevents further derivations by restriction (to yield a simple type).'
                                 ),
                             ]
                         ),
@@ -7723,13 +7723,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m3.xsd"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -7741,12 +7741,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00101m3"
+                name='ST_final00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m3_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7757,11 +7757,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m3_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7772,10 +7772,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00101m3"
+            name='st_final00101m3'
         ),
         TestGroup(
             annotation=[
@@ -7784,12 +7784,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value restriction prevents further derivations by restriction (to yield a simple type)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value restriction prevents further derivations by restriction (to yield a simple type).'
                                 ),
                             ]
                         ),
@@ -7798,13 +7798,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m4.xsd"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -7816,12 +7816,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00101m4"
+                name='ST_final00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m4_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7832,11 +7832,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m4_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7847,10 +7847,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00101m4"
+            name='st_final00101m4'
         ),
         TestGroup(
             annotation=[
@@ -7859,12 +7859,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value restriction prevents further derivations by restriction (to yield a simple type)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value restriction prevents further derivations by restriction (to yield a simple type).'
                                 ),
                             ]
                         ),
@@ -7873,13 +7873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m5.xsd"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -7891,12 +7891,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00101m5"
+                name='ST_final00101m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m5_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7907,11 +7907,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m5_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m5_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7922,10 +7922,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00101m5"
+            name='st_final00101m5'
         ),
         TestGroup(
             annotation=[
@@ -7934,12 +7934,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value restriction prevents further derivations by restriction (to yield a simple type)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value restriction prevents further derivations by restriction (to yield a simple type).'
                                 ),
                             ]
                         ),
@@ -7948,13 +7948,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m6.xsd"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -7966,12 +7966,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00101m6"
+                name='ST_final00101m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m6_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7982,11 +7982,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00101m/ST_final00101m6_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00101m/ST_final00101m6_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7997,10 +7997,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00101m6"
+            name='st_final00101m6'
         ),
         TestGroup(
             annotation=[
@@ -8009,12 +8009,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by list (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by list (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value list prevents further use in constructing lists."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value list prevents further use in constructing lists.'
                                 ),
                             ]
                         ),
@@ -8023,13 +8023,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m1.xsd"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -8041,9 +8041,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00102m1"
+                name='ST_final00102m1'
             ),
-            name="st_final00102m1"
+            name='st_final00102m1'
         ),
         TestGroup(
             annotation=[
@@ -8052,12 +8052,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value list prevents further use in constructing lists."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value list prevents further use in constructing lists.'
                                 ),
                             ]
                         ),
@@ -8066,13 +8066,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m2.xsd"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m2.xsd'
                     ),
                 ],
                 expected=[
@@ -8084,12 +8084,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00102m2"
+                name='ST_final00102m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m2_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8100,11 +8100,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m2_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8115,10 +8115,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00102m2"
+            name='st_final00102m2'
         ),
         TestGroup(
             annotation=[
@@ -8127,12 +8127,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value list prevents further use in constructing lists."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value list prevents further use in constructing lists.'
                                 ),
                             ]
                         ),
@@ -8141,13 +8141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m3.xsd"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m3.xsd'
                     ),
                 ],
                 expected=[
@@ -8159,12 +8159,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00102m3"
+                name='ST_final00102m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m3_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8175,11 +8175,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m3_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8190,10 +8190,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00102m3"
+            name='st_final00102m3'
         ),
         TestGroup(
             annotation=[
@@ -8202,12 +8202,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value list prevents further use in constructing lists."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value list prevents further use in constructing lists.'
                                 ),
                             ]
                         ),
@@ -8216,13 +8216,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m4.xsd"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m4.xsd'
                     ),
                 ],
                 expected=[
@@ -8234,12 +8234,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00102m4"
+                name='ST_final00102m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m4_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8250,11 +8250,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m4_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8265,10 +8265,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00102m4"
+            name='st_final00102m4'
         ),
         TestGroup(
             annotation=[
@@ -8277,12 +8277,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value list prevents further use in constructing lists."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value list prevents further use in constructing lists.'
                                 ),
                             ]
                         ),
@@ -8291,13 +8291,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m5.xsd"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m5.xsd'
                     ),
                 ],
                 expected=[
@@ -8309,12 +8309,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00102m5"
+                name='ST_final00102m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m5_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8325,11 +8325,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m5_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m5_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8340,10 +8340,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00102m5"
+            name='st_final00102m5'
         ),
         TestGroup(
             annotation=[
@@ -8352,12 +8352,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value list prevents further use in constructing lists."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value list prevents further use in constructing lists.'
                                 ),
                             ]
                         ),
@@ -8366,13 +8366,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m6.xsd"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m6.xsd'
                     ),
                 ],
                 expected=[
@@ -8384,12 +8384,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00102m6"
+                name='ST_final00102m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m6_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8400,11 +8400,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00102m/ST_final00102m6_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00102m/ST_final00102m6_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8415,10 +8415,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00102m6"
+            name='st_final00102m6'
         ),
         TestGroup(
             annotation=[
@@ -8427,12 +8427,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by union (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by union (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value union prevents further use in constructing unions."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value union prevents further use in constructing unions.'
                                 ),
                             ]
                         ),
@@ -8441,13 +8441,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m1.xsd"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m1.xsd'
                     ),
                 ],
                 expected=[
@@ -8459,9 +8459,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00103m1"
+                name='ST_final00103m1'
             ),
-            name="st_final00103m1"
+            name='st_final00103m1'
         ),
         TestGroup(
             annotation=[
@@ -8470,12 +8470,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value union prevents further use in constructing unions."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value union prevents further use in constructing unions.'
                                 ),
                             ]
                         ),
@@ -8484,13 +8484,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m2.xsd"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m2.xsd'
                     ),
                 ],
                 expected=[
@@ -8502,12 +8502,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00103m2"
+                name='ST_final00103m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m2_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8518,11 +8518,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m2_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8533,10 +8533,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00103m2"
+            name='st_final00103m2'
         ),
         TestGroup(
             annotation=[
@@ -8545,12 +8545,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derivation by list (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derivation by list (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit value union prevents further use in constructing unions."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit value union prevents further use in constructing unions.'
                                 ),
                             ]
                         ),
@@ -8559,13 +8559,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m3.xsd"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m3.xsd'
                     ),
                 ],
                 expected=[
@@ -8577,12 +8577,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_final00103m3"
+                name='ST_final00103m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m3_p.xml"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8593,11 +8593,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_final/ST_final00103m/ST_final00103m3_n.xml"
+                        href='../sunData/SType/ST_final/ST_final00103m/ST_final00103m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8608,10 +8608,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_final00103m3"
+            name='st_final00103m3'
         ),
         TestGroup(
             annotation=[
@@ -8620,12 +8620,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple types are identified by their {name} and {target namespace}. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple types are identified by their {name} and {target namespace}. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple types are identified by their {name} and {target namespace}."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple types are identified by their {name} and {target namespace}.'
                                 ),
                             ]
                         ),
@@ -8634,13 +8634,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_name/ST_name00101m/ST_name00101m.xsd"
+                        href='../sunData/SType/ST_name/ST_name00101m/ST_name00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -8652,12 +8652,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_name00101m"
+                name='ST_name00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_name/ST_name00101m/ST_name00101m1_p.xml"
+                        href='../sunData/SType/ST_name/ST_name00101m/ST_name00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8668,11 +8668,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_name00101m1_p"
+                    name='ST_name00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_name/ST_name00101m/ST_name00101m1_n.xml"
+                        href='../sunData/SType/ST_name/ST_name00101m/ST_name00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8683,10 +8683,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_name00101m1_n"
+                    name='ST_name00101m1_n'
                 ),
             ],
-            name="st_name00101m"
+            name='st_name00101m'
         ),
         TestGroup(
             annotation=[
@@ -8695,11 +8695,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="The ':' is prohibited in {name}. (invalid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="The ':' is prohibited in {name}."
                                 ),
                             ]
@@ -8709,13 +8709,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_name/ST_name00201m/ST_name00201m.xsd"
+                        href='../sunData/SType/ST_name/ST_name00201m/ST_name00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -8727,9 +8727,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_name00201m"
+                name='ST_name00201m'
             ),
-            name="st_name00201m"
+            name='st_name00201m'
         ),
         TestGroup(
             annotation=[
@@ -8738,12 +8738,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="No simple type definition can have the same name (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='No simple type definition can have the same name (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="No simple type definition can have the same name as another simple type&#10;                              definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='No simple type definition can have the same name as another simple type\n                              definition.'
                                 ),
                             ]
                         ),
@@ -8752,13 +8752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_name/ST_name00301m/ST_name00301m.xsd"
+                        href='../sunData/SType/ST_name/ST_name00301m/ST_name00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -8770,9 +8770,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_name00301m"
+                name='ST_name00301m'
             ),
-            name="st_name00301m"
+            name='st_name00301m'
         ),
         TestGroup(
             annotation=[
@@ -8781,12 +8781,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple type {name}s is provided for reference (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple type {name}s is provided for reference (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type {name}s is provided for reference from instances."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple type {name}s is provided for reference from instances.'
                                 ),
                             ]
                         ),
@@ -8795,13 +8795,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_name/ST_name00401m/ST_name00401m.xsd"
+                        href='../sunData/SType/ST_name/ST_name00401m/ST_name00401m.xsd'
                     ),
                 ],
                 expected=[
@@ -8813,12 +8813,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_name00401m"
+                name='ST_name00401m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_name/ST_name00401m/ST_name00401m1_p.xml"
+                        href='../sunData/SType/ST_name/ST_name00401m/ST_name00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8829,10 +8829,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_name00401m1_p"
+                    name='ST_name00401m1_p'
                 ),
             ],
-            name="st_name00401m"
+            name='st_name00401m'
         ),
         TestGroup(
             annotation=[
@@ -8841,12 +8841,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Identify the type by their {name} and {target namespace} (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Identify the type by their {name} and {target namespace} (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple types are identified by their {name} and {target namespace}."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple types are identified by their {name} and {target namespace}.'
                                 ),
                             ]
                         ),
@@ -8855,13 +8855,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m.xsd"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -8873,12 +8873,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_targetNS00101m"
+                name='ST_targetNS00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_p.xml"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8889,11 +8889,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_targetNS00101m1_p"
+                    name='ST_targetNS00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_n.xml"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8904,11 +8904,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_targetNS00101m1_n"
+                    name='ST_targetNS00101m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_p.xml"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8919,11 +8919,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_targetNS00101m2_p"
+                    name='ST_targetNS00101m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_n.xml"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8934,10 +8934,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_targetNS00101m2_n"
+                    name='ST_targetNS00101m2_n'
                 ),
             ],
-            name="st_targetns00101m"
+            name='st_targetns00101m'
         ),
         TestGroup(
             annotation=[
@@ -8946,12 +8946,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="reference to type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='reference to type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type {name}s and {target namespace}s are provided for reference from instances."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple type {name}s and {target namespace}s are provided for reference from instances.'
                                 ),
                             ]
                         ),
@@ -8960,13 +8960,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00201m/ST_targetNS00201m.xsd"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00201m/ST_targetNS00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -8978,12 +8978,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_targetNS00201m"
+                name='ST_targetNS00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_targetNS/ST_targetNS00201m/ST_targetNS00201m1_p.xml"
+                        href='../sunData/SType/ST_targetNS/ST_targetNS00201m/ST_targetNS00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8994,10 +8994,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="ST_targetNS00201m1_p"
+                    name='ST_targetNS00201m1_p'
                 ),
             ],
-            name="st_targetns00201m"
+            name='st_targetns00201m'
         ),
         TestGroup(
             annotation=[
@@ -9006,12 +9006,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {variety} is atomic (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {variety} is atomic (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the {variety} is atomic, then all of the following must be true:&#10;                                1. The {base type definition} must be an atomic simple type definition&#10;                                   or a built-in primitive datatype.&#10;                                2. The {final} of the {base type definition} must not contain restriction. &#10;                                3. For each facet in the {facets} there must be a facet of the same kind&#10;                                   in the {facets} of the {base type definition} of whose {value} the facet&#10;                                   in question's {value} must be a valid restriction as defined in&#10;                                   [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the {variety} is atomic, then all of the following must be true:\n                                1. The {base type definition} must be an atomic simple type definition\n                                   or a built-in primitive datatype.\n                                2. The {final} of the {base type definition} must not contain restriction. \n                                3. For each facet in the {facets} there must be a facet of the same kind\n                                   in the {facets} of the {base type definition} of whose {value} the facet\n                                   in question's {value} must be a valid restriction as defined in\n                                   [XML Schemas: Datatypes]."
                                 ),
                             ]
                         ),
@@ -9020,13 +9020,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1.xsd"
+                        href='../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -9038,12 +9038,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_variety00101m1"
+                name='ST_variety00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_p.xml"
+                        href='../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9054,11 +9054,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_n.xml"
+                        href='../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9069,10 +9069,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_variety00101m1"
+            name='st_variety00101m1'
         ),
         TestGroup(
             annotation=[
@@ -9081,12 +9081,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {variety} is atomic (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {variety} is atomic (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the {variety} is atomic, then all of the following must be true:&#10;                                1. The {base type definition} must be an atomic simple type definition&#10;                                   or a built-in primitive datatype.&#10;                                2. The {final} of the {base type definition} must not contain restriction. &#10;                                3. For each facet in the {facets} there must be a facet of the same kind&#10;                                   in the {facets} of the {base type definition} of whose {value} the facet&#10;                                   in question's {value} must be a valid restriction as defined in&#10;                                   [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the {variety} is atomic, then all of the following must be true:\n                                1. The {base type definition} must be an atomic simple type definition\n                                   or a built-in primitive datatype.\n                                2. The {final} of the {base type definition} must not contain restriction. \n                                3. For each facet in the {facets} there must be a facet of the same kind\n                                   in the {facets} of the {base type definition} of whose {value} the facet\n                                   in question's {value} must be a valid restriction as defined in\n                                   [XML Schemas: Datatypes]."
                                 ),
                             ]
                         ),
@@ -9095,13 +9095,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2.xsd"
+                        href='../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -9113,12 +9113,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_variety00101m2"
+                name='ST_variety00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_p.xml"
+                        href='../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9129,11 +9129,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_n.xml"
+                        href='../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9144,10 +9144,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="st_variety00101m2"
+            name='st_variety00101m2'
         ),
         TestGroup(
             annotation=[
@@ -9156,12 +9156,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {variety} is list (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {variety} is list (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the {variety} is list, then all of the following must be true:&#10;                                1. The {item type definition} must have a {variety} of atomic or union&#10;                                   (in which case all the {member type definitions} must be atomic).&#10;                                2. Only length, minLength, maxLength, pattern and enumeration facet&#10;                                   components are allowed among the {facets}.&#10;                                3. If the {base type definition} is not the *simple ur-type definition*,&#10;                                   then all of the following must be true:&#10;                                   3.1. The {base type definition} must have a {variety} of list. &#10;                                   3.2. The {final} of the {base type definition} must not contain&#10;                                       restriction.&#10;                                   3.3. For each facet in the {facets} there must be a facet of the same&#10;                                        kind in the {facets} of the {base type definition} of whose {value}&#10;                                        the facet in question's {value} must be a valid restriction as&#10;                                        defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the {variety} is list, then all of the following must be true:\n                                1. The {item type definition} must have a {variety} of atomic or union\n                                   (in which case all the {member type definitions} must be atomic).\n                                2. Only length, minLength, maxLength, pattern and enumeration facet\n                                   components are allowed among the {facets}.\n                                3. If the {base type definition} is not the *simple ur-type definition*,\n                                   then all of the following must be true:\n                                   3.1. The {base type definition} must have a {variety} of list. \n                                   3.2. The {final} of the {base type definition} must not contain\n                                       restriction.\n                                   3.3. For each facet in the {facets} there must be a facet of the same\n                                        kind in the {facets} of the {base type definition} of whose {value}\n                                        the facet in question's {value} must be a valid restriction as\n                                        defined in [XML Schemas: Datatypes]."
                                 ),
                             ]
                         ),
@@ -9170,13 +9170,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00201m/ST_variety00201m1.xsd"
+                        href='../sunData/SType/ST_variety/ST_variety00201m/ST_variety00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -9188,9 +9188,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_variety00201m1"
+                name='ST_variety00201m1'
             ),
-            name="st_variety00201m1"
+            name='st_variety00201m1'
         ),
         TestGroup(
             annotation=[
@@ -9199,12 +9199,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {variety} is list (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {variety} is list (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the {variety} is list, then all of the following must be true:&#10;                                1. The {item type definition} must have a {variety} of atomic or union&#10;                                   (in which case all the {member type definitions} must be atomic).&#10;                                2. Only length, minLength, maxLength, pattern and enumeration facet&#10;                                   components are allowed among the {facets}.&#10;                                3. If the {base type definition} is not the *simple ur-type definition*,&#10;                                   then all of the following must be true:&#10;                                   3.1. The {base type definition} must have a {variety} of list. &#10;                                   3.2. The {final} of the {base type definition} must not contain&#10;                                       restriction.&#10;                                   3.3. For each facet in the {facets} there must be a facet of the same&#10;                                        kind in the {facets} of the {base type definition} of whose {value}&#10;                                        the facet in question's {value} must be a valid restriction as&#10;                                        defined in [XML Schemas: Datatypes]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the {variety} is list, then all of the following must be true:\n                                1. The {item type definition} must have a {variety} of atomic or union\n                                   (in which case all the {member type definitions} must be atomic).\n                                2. Only length, minLength, maxLength, pattern and enumeration facet\n                                   components are allowed among the {facets}.\n                                3. If the {base type definition} is not the *simple ur-type definition*,\n                                   then all of the following must be true:\n                                   3.1. The {base type definition} must have a {variety} of list. \n                                   3.2. The {final} of the {base type definition} must not contain\n                                       restriction.\n                                   3.3. For each facet in the {facets} there must be a facet of the same\n                                        kind in the {facets} of the {base type definition} of whose {value}\n                                        the facet in question's {value} must be a valid restriction as\n                                        defined in [XML Schemas: Datatypes]."
                                 ),
                             ]
                         ),
@@ -9213,13 +9213,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/SType/ST_variety/ST_variety00201m/ST_variety00201m2.xsd"
+                        href='../sunData/SType/ST_variety/ST_variety00201m/ST_variety00201m2.xsd'
                     ),
                 ],
                 expected=[
@@ -9231,14 +9231,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="ST_variety00201m2"
+                name='ST_variety00201m2'
             ),
-            name="st_variety00201m2"
+            name='st_variety00201m2'
         ),
     ],
-    contributor="SUN",
-    name="SType",
+    contributor='SUN',
+    name='SType',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

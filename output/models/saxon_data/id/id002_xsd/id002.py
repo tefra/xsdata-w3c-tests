@@ -11,21 +11,21 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     id_one: Optional[str] = field(
         default=None,
         metadata={
             "name": "id-one",
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

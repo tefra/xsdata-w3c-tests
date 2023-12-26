@@ -7,7 +7,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[bool, float, str] = field(
-        init=False,
-        default=1.0
-    )
+    value: Union[bool, float, str] = field(init=False, default=1.0)

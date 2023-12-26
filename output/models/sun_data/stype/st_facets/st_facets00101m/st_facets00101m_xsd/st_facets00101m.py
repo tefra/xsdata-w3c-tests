@@ -13,5 +13,5 @@ class Test:
         default="",
         metadata={
             "pattern": r"1*",
-        }
+        },
     )

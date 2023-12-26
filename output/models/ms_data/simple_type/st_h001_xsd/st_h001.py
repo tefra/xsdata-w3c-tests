@@ -19,7 +19,7 @@ class FooTest:
         metadata={
             "min_inclusive": 100,
             "max_inclusive": 200,
-        }
+        },
     )
 
 
@@ -36,5 +36,5 @@ class Root:
             "required": True,
             "min_inclusive": 100,
             "max_inclusive": 200,
-        }
+        },
     )

@@ -7,12 +7,12 @@ obj = Doc(
     elem=Elem(
         a1_or_a2=[
             AnyElement(
-                qname="a2",
-                text=""
+                qname='a2',
+                text=''
             ),
             AnyElement(
-                qname="a1",
-                text=""
+                qname='a1',
+                text=''
             ),
         ]
     )

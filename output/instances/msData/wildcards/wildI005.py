@@ -6,32 +6,32 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Foo(
     foo_element=[
         AnyElement(
-            qname="{foo}b",
-            text="test"
+            qname='{foo}b',
+            text='test'
         ),
         AnyElement(
-            qname="{foo}b",
-            text="test"
+            qname='{foo}b',
+            text='test'
         ),
     ],
     a_element=[
         AnyElement(
-            qname="{a}b",
-            text="test"
+            qname='{a}b',
+            text='test'
         ),
         AnyElement(
-            qname="{a}b",
-            text="test"
+            qname='{a}b',
+            text='test'
         ),
     ],
     b_element=[
         AnyElement(
-            qname="{b}b",
-            text="test"
+            qname='{b}b',
+            text='test'
         ),
         AnyElement(
-            qname="{b}b",
-            text="test"
+            qname='{b}b',
+            text='test'
         ),
     ],
     target_namespace_element=AnyElement(
@@ -43,8 +43,8 @@ obj = Foo(
 
             ),
             AnyElement(
-                qname="{http://foo}foo",
-                text=" test"
+                qname='{http://foo}foo',
+                text=' test'
             ),
         ]
     )

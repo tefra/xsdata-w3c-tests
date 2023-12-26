@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern1(
-    value="ithe.by.and.tools.software-adoption-in-wi"
+    value='ithe.by.and.tools.software-adoption-in-wi'
 )

@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.long.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListLongPattern3(
     value=[
-        "-951136371753746475",
-        "-151864283",
-        "-8",
-        "23486",
-        "973825443782315775",
+        '-951136371753746475',
+        '-151864283',
+        '-8',
+        '23486',
+        '973825443782315775',
     ]
 )

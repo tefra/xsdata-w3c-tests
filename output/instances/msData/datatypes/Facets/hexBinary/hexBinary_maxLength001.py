@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.hex_binary.hex_binary_max_length001_
 
 
 obj = Test(
-    foo=b"\xab\xcd\xef"
+    foo=b'\xab\xcd\xef'
 )

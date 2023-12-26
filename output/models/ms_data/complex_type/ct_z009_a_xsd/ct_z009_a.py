@@ -23,5 +23,5 @@ class Root:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

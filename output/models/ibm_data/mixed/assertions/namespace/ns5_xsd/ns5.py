@@ -11,14 +11,14 @@ class TestType:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class X(TestType):
         metadata={
             "type": "Attribute",
             "namespace": "http://test1",
-        }
+        },
     )

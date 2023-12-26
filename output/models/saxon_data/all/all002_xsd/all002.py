@@ -12,7 +12,7 @@ class C1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class D1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class C2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -54,7 +54,7 @@ class D2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -68,7 +68,7 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 5,
-        }
+        },
     )
     b: List[object] = field(
         default_factory=list,
@@ -76,9 +76,9 @@ class Doc:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )
-    c_or_c: List[Union[C2, C1]] = field(
+    c_or_c: List[Union[C1, C2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -92,9 +92,9 @@ class Doc:
                     "type": C2,
                 },
             ),
-        }
+        },
     )
-    d_or_d: Optional[Union[D2, D1]] = field(
+    d_or_d: Optional[Union[D1, D2]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -108,5 +108,5 @@ class Doc:
                     "type": D2,
                 },
             ),
-        }
+        },
     )

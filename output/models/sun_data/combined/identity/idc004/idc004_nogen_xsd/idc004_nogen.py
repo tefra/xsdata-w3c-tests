@@ -15,7 +15,7 @@ class Person:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -25,14 +25,14 @@ class Person:
             metadata={
                 "name": "regState",
                 "type": "Attribute",
-            }
+            },
         )
         reg_plate: Optional[int] = field(
             default=None,
             metadata={
                 "name": "regPlate",
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -47,13 +47,13 @@ class Vehicle:
         metadata={
             "name": "plateNumber",
             "type": "Attribute",
-        }
+        },
     )
     state: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -68,19 +68,19 @@ class State:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     vehicle: List[Vehicle] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     person: List[Person] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -95,5 +95,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

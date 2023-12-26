@@ -6,13 +6,13 @@ obj = Root(
     idref_element=[
         Idrefs(
             idref_subelement=[
-                "_d8732d",
-                "asd87123_",
+                '_d8732d',
+                'asd87123_',
             ],
-            idref1="asd87123_",
-            idref2="_d8732d"
+            idref1='asd87123_',
+            idref2='_d8732d'
         ),
     ],
-    id1="asd87123_",
-    id2="_d8732d"
+    id1='asd87123_',
+    id2='_d8732d'
 )

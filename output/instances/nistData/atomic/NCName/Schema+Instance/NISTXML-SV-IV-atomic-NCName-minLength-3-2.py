@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength3(
-    value="aimplementation.file.embedded-of-and.add"
+    value='aimplementation.file.embedded-of-and.add'
 )

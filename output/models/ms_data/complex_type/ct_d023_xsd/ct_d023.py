@@ -11,5 +11,5 @@ class Root:
         metadata={
             "required": True,
             "pattern": r"[A-Z]{0,5}",
-        }
+        },
     )

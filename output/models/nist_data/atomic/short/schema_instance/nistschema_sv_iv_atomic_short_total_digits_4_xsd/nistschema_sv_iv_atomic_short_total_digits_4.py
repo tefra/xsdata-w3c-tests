@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicShortTotalDigits4:
         metadata={
             "required": True,
             "total_digits": 4,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength5(
-    value="nissues-developing_with.object_and-languages.emerging-will-voice"
+    value='nissues-developing_with.object_and-languages.emerging-will-voice'
 )

@@ -16,5 +16,5 @@ class NistschemaSvIvListNmtokensPattern3:
             "required": True,
             "pattern": r"\c{20} \c{48} \c{3} \c{54} \c{13} \c{29} \c{5}",
             "tokens": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern3(
-    value="ywith_and.emerging.computer_to_be"
+    value='ywith_and.emerging.computer_to_be'
 )

@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-key",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#declare-key',
                     },
                     content=[
-                        "&#10;        Impact of xpathDefaultNamespace locally and globally on key/keyref/unique selection expressions &#10;&#9;      ",
+                        '\n        Impact of xpathDefaultNamespace locally and globally on key/keyref/unique selection expressions \n\t      ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "unique selection expressions  ",
+                                'unique selection expressions  ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v01.xsd"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2v01s"
+                name='s3_11_2v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v01.xml"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2v01i"
+                    name='s3_11_2v01i'
                 ),
             ],
-            name="s3_11_2v01",
+            name='s3_11_2v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "unique selection expressions 2 ",
+                                'unique selection expressions 2 ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v02.xsd"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2v02s"
+                name='s3_11_2v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v02.xml"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2v02i"
+                    name='s3_11_2v02i'
                 ),
             ],
-            name="s3_11_2v02",
+            name='s3_11_2v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "key selection expressions_1 ",
+                                'key selection expressions_1 ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v03.xsd"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2v03s"
+                name='s3_11_2v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v03.xml"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2v03i"
+                    name='s3_11_2v03i'
                 ),
             ],
-            name="s3_11_2v03",
+            name='s3_11_2v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "key selection expressions_2 ",
+                                'key selection expressions_2 ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v04.xsd"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2v04s"
+                name='s3_11_2v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v04.xml"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2v04i"
+                    name='s3_11_2v04i'
                 ),
             ],
-            name="s3_11_2v04",
+            name='s3_11_2v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "key/keyref selection expressions_1 ",
+                                'key/keyref selection expressions_1 ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v05.xsd"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2v05s"
+                name='s3_11_2v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v05.xml"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2v05i"
+                    name='s3_11_2v05i'
                 ),
             ],
-            name="s3_11_2v05",
+            name='s3_11_2v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "key/keyref selection expressions_2  ",
+                                'key/keyref selection expressions_2  ',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v06.xsd"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2v06s"
+                name='s3_11_2v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_11_2/s3_11_2v06.xml"
+                        href='../ibmData/valid/S3_11_2/s3_11_2v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2v06i"
+                    name='s3_11_2v06i'
                 ),
             ],
-            name="s3_11_2v06",
+            name='s3_11_2v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance unique selection expressions_1 ",
+                                'invalid instance unique selection expressions_1 ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii01s"
+                name='s3_11_2ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii01.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii01i"
+                    name='s3_11_2ii01i'
                 ),
             ],
-            name="s3_11_2ii01",
+            name='s3_11_2ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance unique selection expressions_2 ",
+                                'invalid instance unique selection expressions_2 ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii02s"
+                name='s3_11_2ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii02.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii02i"
+                    name='s3_11_2ii02i'
                 ),
             ],
-            name="s3_11_2ii02",
+            name='s3_11_2ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -509,7 +509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance unique selection expressions_3 ",
+                                'invalid instance unique selection expressions_3 ',
                             ]
                         ),
                     ]
@@ -517,16 +517,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -538,12 +538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii03s"
+                name='s3_11_2ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii03.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -554,10 +554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii03i"
+                    name='s3_11_2ii03i'
                 ),
             ],
-            name="s3_11_2ii03",
+            name='s3_11_2ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -568,7 +568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance key selection expressions_1 ",
+                                'invalid instance key selection expressions_1 ',
                             ]
                         ),
                     ]
@@ -576,16 +576,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -597,12 +597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii04s"
+                name='s3_11_2ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii04.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -613,10 +613,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii04i"
+                    name='s3_11_2ii04i'
                 ),
             ],
-            name="s3_11_2ii04",
+            name='s3_11_2ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -627,7 +627,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance key selection expressions_2 ",
+                                'invalid instance key selection expressions_2 ',
                             ]
                         ),
                     ]
@@ -635,16 +635,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -656,12 +656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii05s"
+                name='s3_11_2ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii05.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -672,10 +672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii05i"
+                    name='s3_11_2ii05i'
                 ),
             ],
-            name="s3_11_2ii05",
+            name='s3_11_2ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -686,7 +686,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance key/keyref selection expressions_1 ",
+                                'invalid instance key/keyref selection expressions_1 ',
                             ]
                         ),
                     ]
@@ -694,16 +694,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii06.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -715,12 +715,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii06s"
+                name='s3_11_2ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii06.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -731,10 +731,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii06i"
+                    name='s3_11_2ii06i'
                 ),
             ],
-            name="s3_11_2ii06",
+            name='s3_11_2ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -745,7 +745,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance key/keyref selection expressions_2 ",
+                                'invalid instance key/keyref selection expressions_2 ',
                             ]
                         ),
                     ]
@@ -753,16 +753,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-key'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii07.xsd"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii07.xsd'
                     ),
                 ],
                 expected=[
@@ -774,12 +774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_11_2ii07s"
+                name='s3_11_2ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_11_2/s3_11_2ii07.xml"
+                        href='../ibmData/instance_invalid/S3_11_2/s3_11_2ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -790,18 +790,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_11_2ii07i"
+                    name='s3_11_2ii07i'
                 ),
             ],
-            name="s3_11_2ii07",
+            name='s3_11_2ii07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="XPathDefaultNSonKeyKeyRefUnique",
+    contributor='IBM',
+    name='XPathDefaultNSonKeyKeyRefUnique',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

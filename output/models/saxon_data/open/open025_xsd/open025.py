@@ -11,7 +11,7 @@ class T:
             "type": "Wildcard",
             "namespace": "##local",
             "process_contents": "skip",
-        }
+        },
     )
     i: List[int] = field(
         default_factory=list,
@@ -19,14 +19,14 @@ class T:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     d: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

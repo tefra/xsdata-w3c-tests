@@ -10,5 +10,5 @@ class E:
         default="",
         metadata={
             "pattern": r"[-+]*",
-        }
+        },
     )

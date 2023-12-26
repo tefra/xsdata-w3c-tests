@@ -17,7 +17,7 @@ class Array:
             "type": "Element",
             "namespace": "",
             "nillable": True,
-        }
+        },
     )
     item_type: QName = field(
         default=QName("{http://www.w3.org/2001/XMLSchema}anyType"),
@@ -25,7 +25,7 @@ class Array:
             "name": "ItemType",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/2003/10/Serialization/",
-        }
+        },
     )
     dimensions: List[int] = field(
         default_factory=lambda: [
@@ -35,7 +35,7 @@ class Array:
             "name": "Dimensions",
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     lower_bounds: List[int] = field(
         default_factory=lambda: [
@@ -45,5 +45,5 @@ class Array:
             "name": "LowerBounds",
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )

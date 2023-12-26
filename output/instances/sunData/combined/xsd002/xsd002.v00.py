@@ -5,28 +5,28 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     foo_or_bar_or_zot=[
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="{http://foo.com}bar",
-            text=""
+            qname='{http://foo.com}bar',
+            text=''
         ),
         AnyElement(
-            qname="zot",
-            text=""
+            qname='zot',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="{http://foo.com}bar",
-            text=""
+            qname='{http://foo.com}bar',
+            text=''
         ),
         AnyElement(
-            qname="zot",
-            text=""
+            qname='zot',
+            text=''
         ),
     ]
 )

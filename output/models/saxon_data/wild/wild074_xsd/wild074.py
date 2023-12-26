@@ -12,7 +12,7 @@ class A1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class A2:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -40,9 +40,9 @@ class Zing:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
-    a_or_a: Optional[Union[str, A1]] = field(
+    a_or_a: Optional[Union[A1, str]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -56,21 +56,21 @@ class Zing:
                     "type": str,
                 },
             ),
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

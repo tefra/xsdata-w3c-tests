@@ -9,13 +9,13 @@ obj = Root(
         AType(
             bs=BsType(
                 b=BType(
-                    att_b="a"
+                    att_b='a'
                 )
             ),
             c=[
-                "",
+                '',
             ],
-            att_a="a"
+            att_a='a'
         ),
     ]
 )

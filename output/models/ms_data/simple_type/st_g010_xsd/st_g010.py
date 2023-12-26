@@ -17,7 +17,7 @@ class FooTest:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

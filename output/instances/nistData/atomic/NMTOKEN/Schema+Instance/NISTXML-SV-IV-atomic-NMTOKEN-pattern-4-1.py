@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern4(
-    value="small-.and.for.these-for:Provide-"
+    value='small-.and.for.these-for:Provide-'
 )

@@ -14,7 +14,7 @@ class Product:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     description: Optional[str] = field(
         default=None,
@@ -22,13 +22,13 @@ class Product:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class Apparel(Product):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     style: Optional[str] = field(
         default=None,
@@ -48,7 +48,7 @@ class Apparel(Product):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -60,7 +60,7 @@ class MediaItem(Product):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     category: Optional[str] = field(
         default=None,
@@ -68,7 +68,7 @@ class MediaItem(Product):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -80,7 +80,7 @@ class Book(MediaItem):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     publish_date: Optional[XmlDate] = field(
         default=None,
@@ -88,7 +88,7 @@ class Book(MediaItem):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -103,7 +103,7 @@ class Cd(MediaItem):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     release_date: Optional[XmlDate] = field(
         default=None,
@@ -111,7 +111,7 @@ class Cd(MediaItem):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -126,7 +126,7 @@ class Dvd(MediaItem):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     release_date: Optional[XmlDate] = field(
         default=None,
@@ -134,13 +134,13 @@ class Dvd(MediaItem):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
 @dataclass
 class ProductList:
-    choice: List[Union[Apparel, Cd, Book, Dvd]] = field(
+    choice: List[Union[Book, Dvd, Apparel, Cd]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -166,7 +166,7 @@ class ProductList:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

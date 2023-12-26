@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -20,7 +20,7 @@ class B:
             "namespace": "http://importedXSD",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )
 
 
@@ -35,7 +35,7 @@ class ExtRefType:
             "name": "impE1",
             "type": "Element",
             "namespace": "http://importedXSD",
-        }
+        },
     )
     imp_e2: Optional[object] = field(
         default=None,
@@ -43,14 +43,14 @@ class ExtRefType:
             "name": "impE2",
             "type": "Element",
             "namespace": "http://importedXSD",
-        }
+        },
     )
     imp_a1: Optional[object] = field(
         default=None,
         metadata={
             "name": "impA1",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class ImpElem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

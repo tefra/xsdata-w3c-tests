@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringWhiteSpace2(
-    value="g community has led to the creation of a second-generation Internet language cal"
+    value='g community has led to the creation of a second-generation Internet language cal'
 )

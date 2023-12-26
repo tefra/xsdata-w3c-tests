@@ -11,14 +11,14 @@ class FooType:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 

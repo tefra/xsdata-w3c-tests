@@ -13,5 +13,5 @@ class Test:
         default="",
         metadata={
             "length": 4,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.duration.schema_instance.nistschema_sv_iv_at
 
 
 obj = NistschemaSvIvAtomicDurationPattern5(
-    value="P2063Y04M17DT07H34M43S"
+    value='P2063Y04M17DT07H34M43S'
 )

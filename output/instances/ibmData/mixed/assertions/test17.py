@@ -5,14 +5,14 @@ from output.models.ibm_data.mixed.assertions.test17_xsd.test17 import Y
 
 obj = Test(
     x=X(
-        a="hello",
-        b="world",
-        d="world.."
+        a='hello',
+        b='world',
+        d='world..'
     ),
     y=Y(
-        a="hello",
-        b="world",
-        c="hello..",
-        d="world.."
+        a='hello',
+        b='world',
+        c='hello..',
+        d='world..'
     )
 )

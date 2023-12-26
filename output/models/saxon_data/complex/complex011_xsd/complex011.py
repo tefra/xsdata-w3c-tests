@@ -13,11 +13,11 @@ class Root:
         default=None,
         metadata={
             "nillable": True,
-        }
+        },
     )
     present: bool = field(
         default=True,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

@@ -13,7 +13,7 @@ class E2:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     any_element: Optional[object] = field(
         default=None,
@@ -36,5 +36,5 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )

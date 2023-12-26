@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMaxLength3(
     value=[
-        "Pervasive-",
-        "as_five.fo",
-        "As-create.",
-        "result_is_",
-        "XML_OASIS.",
-        "registries",
+        'Pervasive-',
+        'as_five.fo',
+        'As-create.',
+        'result_is_',
+        'XML_OASIS.',
+        'registries',
     ]
 )

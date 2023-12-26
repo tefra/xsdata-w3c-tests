@@ -5,36 +5,36 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     foo_or_sg=[
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
         AnyElement(
-            qname="foo",
-            text=""
+            qname='foo',
+            text=''
         ),
     ]
 )

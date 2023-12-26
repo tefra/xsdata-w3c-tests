@@ -2,6 +2,6 @@ from output.models.ms_data.particles.particles_ea004_xsd.particles_ea004 import 
 
 
 obj = Doc(
-    a1="",
-    a2=""
+    a1='',
+    a2=''
 )

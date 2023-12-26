@@ -10,7 +10,7 @@ class B:
             "type": "Wildcard",
             "namespace": "http://open.com/",
             "process_contents": "skip",
-        }
+        },
     )
     a: List[object] = field(
         default_factory=list,
@@ -18,28 +18,28 @@ class B:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     b: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class R(B):
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
 
 

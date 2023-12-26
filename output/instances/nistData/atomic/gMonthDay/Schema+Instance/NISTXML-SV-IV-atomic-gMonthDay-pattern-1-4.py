@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.g_month_day.schema_instance.nistschema_sv_iv
 
 
 obj = NistschemaSvIvAtomicGMonthDayPattern1(
-    value="--02-17"
+    value='--02-17'
 )

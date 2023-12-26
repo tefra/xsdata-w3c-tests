@@ -2,5 +2,5 @@ from output.models.sun_data.stype.st_facets.st_facets00101m.st_facets00101m_xsd.
 
 
 obj = Test(
-    value="111"
+    value='111'
 )

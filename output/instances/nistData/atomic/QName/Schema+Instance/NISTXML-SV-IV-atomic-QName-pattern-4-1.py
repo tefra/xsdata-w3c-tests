@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern4(
-    value="_known.embed:fdiscover.to.transactional-w"
+    value='_known.embed:fdiscover.to.transactional-w'
 )

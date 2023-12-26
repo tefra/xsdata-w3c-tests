@@ -15,7 +15,7 @@ class NistschemaSvIvListIdLength5:
         metadata={
             "length": 10,
             "tokens": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

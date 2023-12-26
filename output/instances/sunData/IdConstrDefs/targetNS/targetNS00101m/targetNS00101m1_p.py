@@ -4,7 +4,7 @@ from output.models.sun_data.id_constr_defs.target_ns.target_ns00101m.target_ns00
 obj = Root(
     person=[
         Root.Person(
-            value="William Smith"
+            value='William Smith'
         ),
     ]
 )

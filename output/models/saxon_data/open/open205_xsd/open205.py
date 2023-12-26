@@ -16,7 +16,7 @@ class AType:
             "name": "extra-number",
             "type": "Attribute",
             "namespace": "http://open205x.com/",
-        }
+        },
     )
     extra_date: Optional[XmlDate] = field(
         default=None,
@@ -24,7 +24,7 @@ class AType:
             "name": "extra-date",
             "type": "Attribute",
             "namespace": "http://open205x.com/",
-        }
+        },
     )
 
 
@@ -39,7 +39,7 @@ class Doc:
             "name": "extra-number",
             "type": "Attribute",
             "namespace": "http://open205x.com/",
-        }
+        },
     )
     extra_date: Optional[XmlDate] = field(
         default=None,
@@ -47,7 +47,7 @@ class Doc:
             "name": "extra-date",
             "type": "Attribute",
             "namespace": "http://open205x.com/",
-        }
+        },
     )
     a: Optional[AType] = field(
         default=None,
@@ -55,7 +55,7 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[BType] = field(
         default=None,
@@ -63,12 +63,12 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

@@ -17,7 +17,7 @@ class Global:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Main:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

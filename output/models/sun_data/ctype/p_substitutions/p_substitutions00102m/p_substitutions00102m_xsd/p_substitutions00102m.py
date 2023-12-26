@@ -14,7 +14,7 @@ class A:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class B(A):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

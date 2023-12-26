@@ -7,30 +7,30 @@ obj = Root(
     t=[
         T(
             r=R(
-                val="1",
+                val='1',
                 content=[
-                    " 1 ",
+                    ' 1 ',
                 ]
             ),
-            val="1"
+            val='1'
         ),
         T(
             r=R(
-                val="2",
+                val='2',
                 content=[
-                    " 2 ",
+                    ' 2 ',
                 ]
             ),
-            val="2"
+            val='2'
         ),
         T(
             r=R(
-                val="3",
+                val='3',
                 content=[
-                    " 3 ",
+                    ' 3 ',
                 ]
             ),
-            val="3"
+            val='3'
         ),
     ]
 )

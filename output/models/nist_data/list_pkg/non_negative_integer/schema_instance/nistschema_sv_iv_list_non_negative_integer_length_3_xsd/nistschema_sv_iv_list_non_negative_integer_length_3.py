@@ -15,5 +15,5 @@ class NistschemaSvIvListNonNegativeIntegerLength3:
         metadata={
             "length": 7,
             "tokens": True,
-        }
+        },
     )

@@ -12,5 +12,5 @@ class Doc:
         metadata={
             "type": "Attribute",
             "pattern": r"([0-9]+(\.[0-9]+){3})",
-        }
+        },
     )

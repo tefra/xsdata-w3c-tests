@@ -16,7 +16,7 @@ class A1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     date: Optional[XmlDate] = field(
         default=None,
@@ -24,7 +24,7 @@ class A1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

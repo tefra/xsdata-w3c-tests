@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class',
                     },
                     content=[
-                        "substitutionGroup ",
+                        'substitutionGroup ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests abstract substitution group ",
+                                'Tests abstract substitution group ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-AbstrElemAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_2_2/s2_2_2v01.xsd"
+                        href='../ibmData/valid/S2_2_2/s2_2_2v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_2v01s"
+                name='s2_2_2v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_2_2/s2_2_2v01.xml"
+                        href='../ibmData/valid/S2_2_2/s2_2_2v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_2v01i"
+                    name='s2_2_2v01i'
                 ),
             ],
-            name="s2_2_2v01",
+            name='s2_2_2v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests multiple substitution group heads ",
+                                'Tests multiple substitution group heads ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_2_2/s2_2_2v02.xsd"
+                        href='../ibmData/valid/S2_2_2/s2_2_2v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_2v02s"
+                name='s2_2_2v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_2_2/s2_2_2v02.xml"
+                        href='../ibmData/valid/S2_2_2/s2_2_2v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_2v02i"
+                    name='s2_2_2v02i'
                 ),
             ],
-            name="s2_2_2v02",
+            name='s2_2_2v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for 1 substitution group head ",
+                                'Tests for 1 substitution group head ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_2_2/s2_2_2v03.xsd"
+                        href='../ibmData/valid/S2_2_2/s2_2_2v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_2v03s"
+                name='s2_2_2v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_2_2/s2_2_2v03.xml"
+                        href='../ibmData/valid/S2_2_2/s2_2_2v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_2v03i"
+                    name='s2_2_2v03i'
                 ),
             ],
-            name="s2_2_2v03",
+            name='s2_2_2v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "structures 3.3.6.1.5 - there are circular substitution groups ",
+                                'structures 3.3.6.1.5 - there are circular substitution groups ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_2/s2_2_2si01.xsd"
+                        href='../ibmData/schema_invalid/S2_2_2/s2_2_2si01.xsd'
                     ),
                 ],
                 expected=[
@@ -243,9 +243,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_2si01s"
+                name='s2_2_2si01s'
             ),
-            name="s2_2_2si01",
+            name='s2_2_2si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -264,16 +264,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_2/s2_2_2si02.xsd"
+                        href='../ibmData/schema_invalid/S2_2_2/s2_2_2si02.xsd'
                     ),
                 ],
                 expected=[
@@ -285,17 +285,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_2si02s"
+                name='s2_2_2si02s'
             ),
-            name="s2_2_2si02",
+            name='s2_2_2si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="substitutionGroup",
+    contributor='IBM',
+    name='substitutionGroup',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -16,13 +16,13 @@ obj = Data(
     parent=[
         ParentType(
             grandchild=ParentType.Grandchild(
-                name="abc",
+                name='abc',
                 dob=XmlDate(2007, 1, 1)
             )
         ),
         ParentType(
             child=ParentType.Child(
-                name="abc",
+                name='abc',
                 dob=XmlDate(1997, 1, 1)
             )
         ),

@@ -7,7 +7,7 @@ from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 impo
 
 obj = Doc(
     elem=R(
-        foo="",
+        foo='',
         choice=[
             E2(
 

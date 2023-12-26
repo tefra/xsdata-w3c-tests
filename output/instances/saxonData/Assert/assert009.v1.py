@@ -5,100 +5,100 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     any_element=[
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="",
+                            qname='c',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="allowed",
-                                    text=""
+                                    qname='allowed',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -107,100 +107,100 @@ obj = Doc(
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="",
+                            qname='c',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="allowed",
-                                    text=""
+                                    qname='allowed',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -209,100 +209,100 @@ obj = Doc(
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="asdasas"
+                            qname='c',
+                            text='asdasas'
                         ),
                     ]
                 ),
             ]
         ),
         AnyElement(
-            qname="a",
-            text="",
+            qname='a',
+            text='',
             children=[
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="c",
-                            text="",
+                            qname='c',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="allowed",
-                                    text=""
+                                    qname='allowed',
+                                    text=''
                                 ),
                             ]
                         ),

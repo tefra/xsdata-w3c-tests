@@ -9,40 +9,40 @@ obj = Doc(
             node_or_id_or_idrefs=[
                 Node(
                     idrefs_attribute=[
-                        "bbb",
-                        "ccc",
+                        'bbb',
+                        'ccc',
                         29,
-                        "ggg",
+                        'ggg',
                     ]
                 ),
                 Node(
                     node_or_id_or_idrefs=[
                         DerivedElement(
-                            qname="idrefs",
+                            qname='idrefs',
                             value=[
-                                "aaa",
+                                'aaa',
                                 97,
-                                "ddd",
+                                'ddd',
                             ]
                         ),
                     ],
                     id_attribute=[
-                        "ggg",
+                        'ggg',
                         23,
                     ]
                 ),
                 [
-                    "ccc",
-                    "ddd",
+                    'ccc',
+                    'ddd',
                 ],
                 [
                     12,
                 ],
             ],
             id_attribute=[
-                "aaa",
+                'aaa',
                 23,
-                "bbb",
+                'bbb',
             ]
         ),
     ]

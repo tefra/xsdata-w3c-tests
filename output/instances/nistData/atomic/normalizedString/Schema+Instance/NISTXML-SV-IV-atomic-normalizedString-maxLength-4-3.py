@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMaxLength4(
-    value="guage for defining data  known as HTML  has led to the creation of the world s first digital library  Using the simplicity of HTML w"
+    value='guage for defining data  known as HTML  has led to the creation of the world s first digital library  Using the simplicity of HTML w'
 )

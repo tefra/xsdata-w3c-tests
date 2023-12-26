@@ -10,16 +10,16 @@ obj = Root(
             a2=True
         ),
         AnyElement(
-            qname="e1",
-            text="",
+            qname='e1',
+            text='',
             children=[
                 AnyElement(
-                    qname="a1",
-                    text="true"
+                    qname='a1',
+                    text='true'
                 ),
                 AnyElement(
-                    qname="a2",
-                    text="123"
+                    qname='a2',
+                    text='123'
                 ),
             ]
         ),

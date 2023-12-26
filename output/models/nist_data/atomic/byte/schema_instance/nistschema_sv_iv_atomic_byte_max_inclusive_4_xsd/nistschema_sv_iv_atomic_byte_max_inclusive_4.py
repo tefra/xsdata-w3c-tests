@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicByteMaxInclusive4:
         metadata={
             "required": True,
             "max_inclusive": -47,
-        }
+        },
     )

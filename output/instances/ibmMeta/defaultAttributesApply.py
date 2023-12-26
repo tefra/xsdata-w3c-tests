@@ -22,10 +22,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses',
                     },
                     content=[
-                        "defaultAttributesApply tests",
+                        'defaultAttributesApply tests',
                     ]
                 ),
             ]
@@ -38,7 +38,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply is absent",
+                                'test defaultAttributesApply is absent',
                             ]
                         ),
                     ]
@@ -46,16 +46,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xsd"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xsd'
                     ),
                 ],
                 expected=[
@@ -67,12 +67,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4v01s"
+                name='s3_4_2_4v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xml"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -83,10 +83,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4v01i"
+                    name='s3_4_2_4v01i'
                 ),
             ],
-            name="s3_4_2_4v01",
+            name='s3_4_2_4v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -97,7 +97,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false",
+                                'test defaultAttributesApply = false',
                             ]
                         ),
                     ]
@@ -105,16 +105,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xsd"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xsd'
                     ),
                 ],
                 expected=[
@@ -126,12 +126,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4v02s"
+                name='s3_4_2_4v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xml"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -142,10 +142,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4v02i"
+                    name='s3_4_2_4v02i'
                 ),
             ],
-            name="s3_4_2_4v02",
+            name='s3_4_2_4v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -156,7 +156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = true",
+                                'test defaultAttributesApply = true',
                             ]
                         ),
                     ]
@@ -164,16 +164,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xsd"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xsd'
                     ),
                 ],
                 expected=[
@@ -185,12 +185,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4v03s"
+                name='s3_4_2_4v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xml"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -201,10 +201,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4v03i"
+                    name='s3_4_2_4v03i'
                 ),
             ],
-            name="s3_4_2_4v03",
+            name='s3_4_2_4v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -215,7 +215,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply is absent, and ref attribute in attributeGroup",
+                                'test defaultAttributesApply is absent, and ref attribute in attributeGroup',
                             ]
                         ),
                     ]
@@ -223,16 +223,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xsd"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xsd'
                     ),
                 ],
                 expected=[
@@ -244,12 +244,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4v13s"
+                name='s3_4_2_4v13s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xml"
+                        href='../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xml'
                     ),
                     expected=[
                         Expected(
@@ -260,10 +260,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4v13i"
+                    name='s3_4_2_4v13i'
                 ),
             ],
-            name="s3_4_2_4v13",
+            name='s3_4_2_4v13',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -274,7 +274,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false, across multiple schema documents",
+                                'test defaultAttributesApply = false, across multiple schema documents',
                             ]
                         ),
                     ]
@@ -282,19 +282,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01b.xsd'
                     ),
                 ],
                 expected=[
@@ -306,12 +306,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii01s"
+                name='s3_4_2_4ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -322,10 +322,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii01i"
+                    name='s3_4_2_4ii01i'
                 ),
             ],
-            name="s3_4_2_4ii01",
+            name='s3_4_2_4ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -336,7 +336,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false",
+                                'test defaultAttributesApply = false',
                             ]
                         ),
                     ]
@@ -344,16 +344,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -365,12 +365,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii02s"
+                name='s3_4_2_4ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -381,10 +381,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii02i"
+                    name='s3_4_2_4ii02i'
                 ),
             ],
-            name="s3_4_2_4ii02",
+            name='s3_4_2_4ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -395,7 +395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false and redefined as absent",
+                                'test defaultAttributesApply = false and redefined as absent',
                             ]
                         ),
                     ]
@@ -403,19 +403,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03b.xsd'
                     ),
                 ],
                 expected=[
@@ -427,12 +427,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii03s"
+                name='s3_4_2_4ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -443,10 +443,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii03i"
+                    name='s3_4_2_4ii03i'
                 ),
             ],
-            name="s3_4_2_4ii03",
+            name='s3_4_2_4ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -457,7 +457,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false and redefined as true",
+                                'test defaultAttributesApply = false and redefined as true',
                             ]
                         ),
                     ]
@@ -465,19 +465,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05b.xsd'
                     ),
                 ],
                 expected=[
@@ -489,12 +489,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii05s"
+                name='s3_4_2_4ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -505,10 +505,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii05i"
+                    name='s3_4_2_4ii05i'
                 ),
             ],
-            name="s3_4_2_4ii05",
+            name='s3_4_2_4ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -519,7 +519,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = true and redefined as false",
+                                'test defaultAttributesApply = true and redefined as false',
                             ]
                         ),
                     ]
@@ -527,19 +527,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06b.xsd'
                     ),
                 ],
                 expected=[
@@ -551,12 +551,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii06s"
+                name='s3_4_2_4ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -569,7 +569,7 @@ obj = TestSet(
                                 appinfo_or_documentation=[
                                     Documentation(
                                         content=[
-                                            '&#10;                        Changed the status to "valid" in response to bug #12129&#10;                    ',
+                                            '\n                        Changed the status to "valid" in response to bug #12129\n                    ',
                                         ]
                                     ),
                                 ]
@@ -584,10 +584,10 @@ obj = TestSet(
                             date=XmlDate(2010, 12, 1)
                         ),
                     ],
-                    name="s3_4_2_4ii06i"
+                    name='s3_4_2_4ii06i'
                 ),
             ],
-            name="s3_4_2_4ii06",
+            name='s3_4_2_4ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -598,7 +598,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false and redefined as absent",
+                                'test defaultAttributesApply = false and redefined as absent',
                             ]
                         ),
                     ]
@@ -606,19 +606,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07b.xsd'
                     ),
                 ],
                 expected=[
@@ -630,12 +630,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii07s"
+                name='s3_4_2_4ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -646,10 +646,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii07i"
+                    name='s3_4_2_4ii07i'
                 ),
             ],
-            name="s3_4_2_4ii07",
+            name='s3_4_2_4ii07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -660,7 +660,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false and override as absent",
+                                'test defaultAttributesApply = false and override as absent',
                             ]
                         ),
                     ]
@@ -668,19 +668,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08b.xsd'
                     ),
                 ],
                 expected=[
@@ -692,12 +692,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii08s"
+                name='s3_4_2_4ii08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xml'
                     ),
                     expected=[
                         Expected(
@@ -708,10 +708,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii08i"
+                    name='s3_4_2_4ii08i'
                 ),
             ],
-            name="s3_4_2_4ii08",
+            name='s3_4_2_4ii08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -722,7 +722,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false/true/absent across multiple schema documents",
+                                'test defaultAttributesApply = false/true/absent across multiple schema documents',
                             ]
                         ),
                     ]
@@ -730,19 +730,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09b.xsd'
                     ),
                 ],
                 expected=[
@@ -754,12 +754,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii09s"
+                name='s3_4_2_4ii09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xml'
                     ),
                     expected=[
                         Expected(
@@ -770,10 +770,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii09i"
+                    name='s3_4_2_4ii09i'
                 ),
             ],
-            name="s3_4_2_4ii09",
+            name='s3_4_2_4ii09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -784,7 +784,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply = false and override as false",
+                                'test defaultAttributesApply = false and override as false',
                             ]
                         ),
                     ]
@@ -792,19 +792,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10b.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10b.xsd'
                     ),
                 ],
                 expected=[
@@ -816,12 +816,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii10s"
+                name='s3_4_2_4ii10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xml'
                     ),
                     expected=[
                         Expected(
@@ -832,10 +832,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii10i"
+                    name='s3_4_2_4ii10i'
                 ),
             ],
-            name="s3_4_2_4ii10",
+            name='s3_4_2_4ii10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -846,7 +846,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test defaultAttributesApply is absent, and ref attribute in attributeGroup",
+                                'test defaultAttributesApply is absent, and ref attribute in attributeGroup',
                             ]
                         ),
                     ]
@@ -854,16 +854,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xsd"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xsd'
                     ),
                 ],
                 expected=[
@@ -875,12 +875,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4ii11s"
+                name='s3_4_2_4ii11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xml"
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xml'
                     ),
                     expected=[
                         Expected(
@@ -891,10 +891,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_2_4ii11i"
+                    name='s3_4_2_4ii11i'
                 ),
             ],
-            name="s3_4_2_4ii11",
+            name='s3_4_2_4ii11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -905,7 +905,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Test defaultAttributesApply is absent and the attribute group defined by defaultAttributes does not exist",
+                                'Test defaultAttributesApply is absent and the attribute group defined by defaultAttributes does not exist',
                             ]
                         ),
                     ]
@@ -913,16 +913,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si01.xsd"
+                        href='../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si01.xsd'
                     ),
                 ],
                 expected=[
@@ -934,9 +934,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4si01s"
+                name='s3_4_2_4si01s'
             ),
-            name="s3_4_2_4si01",
+            name='s3_4_2_4si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -947,7 +947,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Test defaultAttributesApply=true and the attribute group defined by defaultAttributes exists and results in a duplicate attribute&#10;          definition",
+                                'Test defaultAttributesApply=true and the attribute group defined by defaultAttributes exists and results in a duplicate attribute\n          definition',
                             ]
                         ),
                     ]
@@ -955,16 +955,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si02.xsd"
+                        href='../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si02.xsd'
                     ),
                 ],
                 expected=[
@@ -976,9 +976,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4si02s"
+                name='s3_4_2_4si02s'
             ),
-            name="s3_4_2_4si02",
+            name='s3_4_2_4si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -989,7 +989,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Test defaultAttributesApply is absent and the attribute group defined by defaultAttributes which exists. This references another attributeGroup which references the defaultAttributes attributeGroup resulting in a circular definition",
+                                'Test defaultAttributesApply is absent and the attribute group defined by defaultAttributes which exists. This references another attributeGroup which references the defaultAttributes attributeGroup resulting in a circular definition',
                             ]
                         ),
                     ]
@@ -997,16 +997,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
+                    href='http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si03.xsd"
+                        href='../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si03.xsd'
                     ),
                 ],
                 expected=[
@@ -1018,17 +1018,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_2_4si03s"
+                name='s3_4_2_4si03s'
             ),
-            name="s3_4_2_4si03",
+            name='s3_4_2_4si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="defaultAttributesApply",
+    contributor='IBM',
+    name='defaultAttributesApply',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

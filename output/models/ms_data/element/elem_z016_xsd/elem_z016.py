@@ -12,7 +12,7 @@ class DataTypes:
             "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     idref: List[str] = field(
         default_factory=list,
@@ -22,7 +22,7 @@ class DataTypes:
             "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     idrefs: List[List[str]] = field(
         default_factory=list,
@@ -33,7 +33,7 @@ class DataTypes:
             "max_occurs": 2,
             "sequence": 1,
             "tokens": True,
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class Id:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -59,7 +59,7 @@ class Idref:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -73,7 +73,7 @@ class Idrefs:
         metadata={
             "required": True,
             "tokens": True,
-        }
+        },
     )
 
 
@@ -84,5 +84,5 @@ class Root:
         metadata={
             "name": "DataTypes",
             "type": "Element",
-        }
+        },
     )

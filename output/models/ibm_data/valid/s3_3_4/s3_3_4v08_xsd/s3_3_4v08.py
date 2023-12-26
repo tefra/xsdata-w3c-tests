@@ -12,7 +12,7 @@ class Ids:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -29,7 +29,7 @@ class Idrefs:
         default=ValueConstraint.ASD,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -44,7 +44,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[Idrefs] = field(
         default=None,
@@ -52,5 +52,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

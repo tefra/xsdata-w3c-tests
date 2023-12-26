@@ -30,7 +30,7 @@ class Any1:
                     "namespace": "http://importedXSD",
                 },
             ),
-        }
+        },
     )
 
 
@@ -44,13 +44,13 @@ class Imp:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -65,12 +65,12 @@ class Doc1:
         metadata={
             "type": "Element",
             "max_occurs": 100,
-        }
+        },
     )
     elem2: List[Any1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "max_occurs": 100,
-        }
+        },
     )

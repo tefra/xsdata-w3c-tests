@@ -13,5 +13,5 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

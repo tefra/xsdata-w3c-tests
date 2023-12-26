@@ -4,7 +4,7 @@ from output.models.ms_data.datatypes.hex_binary_xsd.hex_binary import Root
 
 obj = Root(
     complex_test=ComplexTest(
-        comp_foo=""
+        comp_foo=b''
     ),
-    simple_test=""
+    simple_test=b''
 )

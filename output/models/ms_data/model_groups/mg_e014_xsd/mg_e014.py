@@ -12,7 +12,7 @@ class PersonName:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class SimpleName(PersonName):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 

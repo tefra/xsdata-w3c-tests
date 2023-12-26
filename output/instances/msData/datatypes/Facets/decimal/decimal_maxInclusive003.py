@@ -3,5 +3,5 @@ from output.models.ms_data.datatypes.facets.decimal.decimal_max_inclusive003_xsd
 
 
 obj = Test(
-    foo=Decimal("5.55")
+    foo=Decimal('5.55')
 )

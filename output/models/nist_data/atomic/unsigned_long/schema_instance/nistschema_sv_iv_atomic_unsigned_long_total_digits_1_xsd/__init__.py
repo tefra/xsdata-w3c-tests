@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.unsigned_long.schema_instance.nistschema_sv_iv_atomic_unsigned_long_total_digits_1_xsd.nistschema_sv_iv_atomic_unsigned_long_total_digits_1 import NistschemaSvIvAtomicUnsignedLongTotalDigits1
+from output.models.nist_data.atomic.unsigned_long.schema_instance.nistschema_sv_iv_atomic_unsigned_long_total_digits_1_xsd.nistschema_sv_iv_atomic_unsigned_long_total_digits_1 import (
+    NistschemaSvIvAtomicUnsignedLongTotalDigits1,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicUnsignedLongTotalDigits1",

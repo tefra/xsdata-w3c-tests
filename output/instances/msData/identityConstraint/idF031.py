@@ -7,21 +7,21 @@ obj = Root(
     t=[
         T(
             r2_or_r=DerivedElement(
-                qname="r",
-                value=" 1 "
+                qname='r',
+                value=' 1 '
             )
         ),
         T(
-            r2_or_r=" 2 "
+            r2_or_r=' 2 '
         ),
         T(
             r2_or_r=DerivedElement(
-                qname="r",
-                value=" 3 "
+                qname='r',
+                value=' 3 '
             )
         ),
         T(
-            r2_or_r=" 4 "
+            r2_or_r=' 4 '
         ),
     ]
 )

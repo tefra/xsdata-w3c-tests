@@ -26,5 +26,5 @@ class NistschemaSvIvAtomicDecimalEnumeration5:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

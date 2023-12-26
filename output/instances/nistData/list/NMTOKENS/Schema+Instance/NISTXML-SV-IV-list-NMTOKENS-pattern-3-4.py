@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensPattern3(
     value=[
-        "has.as:supply-Standa",
-        "HTML:industry-results-and.involved.open_link:app",
-        "dia",
-        "to:than.them-signatures_interoperability-body.Descript",
-        "by_Errors:add",
-        "of:the:complete.match-emergin",
-        "Provi",
+        'has.as:supply-Standa',
+        'HTML:industry-results-and.involved.open_link:app',
+        'dia',
+        'to:than.them-signatures_interoperability-body.Descript',
+        'by_Errors:add',
+        'of:the:complete.match-emergin',
+        'Provi',
     ]
 )

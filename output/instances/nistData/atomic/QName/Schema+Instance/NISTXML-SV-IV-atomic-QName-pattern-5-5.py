@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern5(
-    value="wregistries_and.organizations:pembedded-among_g_can.discovery_eliminated.and-language-dis"
+    value='wregistries_and.organizations:pembedded-among_g_can.discovery_eliminated.and-language-dis'
 )

@@ -16,7 +16,7 @@ class Base:
             "namespace": "http://xsdtesting",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Doc(Base):
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

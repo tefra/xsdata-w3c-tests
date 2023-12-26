@@ -6,9 +6,9 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     foo_test=FooTest(
         any_element=AnyElement(
-            text="1",
+            text='1',
             attributes={
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "myList",
+                '{http://www.w3.org/2001/XMLSchema-instance}type': 'myList',
             }
         )
     )

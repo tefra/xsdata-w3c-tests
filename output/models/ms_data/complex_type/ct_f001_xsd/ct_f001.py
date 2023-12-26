@@ -14,7 +14,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

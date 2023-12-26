@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListLanguageMinLength3(
     value=[
-        "FO-USA",
-        "FR-USA",
-        "FY-USA",
-        "GA-USA",
-        "GD-USA",
-        "GL-USA",
-        "GN-USA",
+        'FO-USA',
+        'FR-USA',
+        'FY-USA',
+        'GA-USA',
+        'GD-USA',
+        'GL-USA',
+        'GN-USA',
     ]
 )

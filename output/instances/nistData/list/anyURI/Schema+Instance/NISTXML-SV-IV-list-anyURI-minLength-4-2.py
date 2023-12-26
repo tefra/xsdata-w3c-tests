@@ -3,15 +3,15 @@ from output.models.nist_data.list_pkg.any_uri.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListAnyUriMinLength4(
     value=[
-        "telnet://ause.the.so.org",
-        "ftp://co.u.A.gov",
-        "news://and.con.edu",
-        "ftp://c.On.net",
-        "ftp://sig.a.Nat.net",
-        "telnet://spec.th.org",
-        "ftp://and.org",
-        "telnet://Tech.net",
-        "http://s.Th.com",
-        "gopher://dis.org",
+        'telnet://ause.the.so.org',
+        'ftp://co.u.A.gov',
+        'news://and.con.edu',
+        'ftp://c.On.net',
+        'ftp://sig.a.Nat.net',
+        'telnet://spec.th.org',
+        'ftp://and.org',
+        'telnet://Tech.net',
+        'http://s.Th.com',
+        'gopher://dis.org',
     ]
 )

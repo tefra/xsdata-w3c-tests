@@ -5,10 +5,10 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = RootElem(
     any_element=DerivedElement(
-        qname="myelem",
+        qname='myelem',
         value=CtypeFoo(
-            a="hello"
+            a='hello'
         ),
-        type="{urn-klondike-test}ctype_foo"
+        type='{urn-klondike-test}ctype_foo'
     )
 )

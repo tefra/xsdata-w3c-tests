@@ -12,14 +12,14 @@ class FooType:
         metadata={
             "name": "attrTest2",
             "type": "Attribute",
-        }
+        },
     )
     attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",
             "type": "Attribute",
-        }
+        },
     )
 
 

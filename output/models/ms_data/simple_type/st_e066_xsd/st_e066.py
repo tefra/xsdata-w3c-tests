@@ -8,7 +8,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, str] = field(
-        init=False,
-        default="ENU "
-    )
+    value: Union[XmlPeriod, str] = field(init=False, default="ENU ")

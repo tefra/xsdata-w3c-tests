@@ -9,6 +9,4 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D4_3_15"
 
-    value: str = field(
-        default=""
-    )
+    value: str = field(default="")

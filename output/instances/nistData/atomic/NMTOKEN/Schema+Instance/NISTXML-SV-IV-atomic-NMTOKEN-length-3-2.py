@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength3(
-    value="NSRL_utilities.discover_to.ability.also:for:are-helping_p"
+    value='NSRL_utilities.discover_to.ability.also:for:are-helping_p'
 )

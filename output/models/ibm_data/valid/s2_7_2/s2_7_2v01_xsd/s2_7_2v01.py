@@ -15,7 +15,7 @@ class B:
         default=None,
         metadata={
             "nillable": True,
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "nillable": True,
-        }
+        },
     )
 
 

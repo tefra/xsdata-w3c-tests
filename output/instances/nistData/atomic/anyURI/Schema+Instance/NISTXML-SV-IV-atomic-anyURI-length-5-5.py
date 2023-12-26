@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriLength5(
-    value="ftp://ftp.constituent.roupsobjec.iveNSRLcri.eriacanisO.ethe.com"
+    value='ftp://ftp.constituent.roupsobjec.iveNSRLcri.eriacanisO.ethe.com'
 )

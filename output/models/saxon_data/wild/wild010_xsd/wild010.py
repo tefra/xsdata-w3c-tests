@@ -15,5 +15,5 @@ class Eden:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

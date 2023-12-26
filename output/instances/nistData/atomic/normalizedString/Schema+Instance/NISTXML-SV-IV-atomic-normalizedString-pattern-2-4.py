@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringPattern2(
-    value="1 Both Language Is And Street Must Infrastructure , SC 11352"
+    value='1 Both Language Is And Street Must Infrastructure , SC 11352'
 )

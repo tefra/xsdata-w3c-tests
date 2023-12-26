@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Equality testing (enumeration) for dateTime values, use YEAR as ZERO"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Equality testing (enumeration) for dateTime values, use YEAR as ZERO'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use Year as Zero "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Use Year as Zero '
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone401.xsd"
+                        href='../oracleData/Zone/zone401.xsd'
                     ),
                 ],
                 expected=[
@@ -61,7 +61,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone401.xsd"
+                name='zone401.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -70,14 +70,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid date per enumeration&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid date per enumeration\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone401.v1.xml"
+                        href='../oracleData/Zone/zone401.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -88,7 +88,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone401.v1.xml"
+                    name='zone401.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -96,14 +96,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid date per enumeration&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid date per enumeration\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone401.v2.xml"
+                        href='../oracleData/Zone/zone401.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -114,7 +114,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone401.v2.xml"
+                    name='zone401.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -122,14 +122,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid date per enumeration&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid date per enumeration\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone401.v3.xml"
+                        href='../oracleData/Zone/zone401.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -140,7 +140,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone401.v3.xml"
+                    name='zone401.v3.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -148,14 +148,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid date per enumeration&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid date per enumeration\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone401.n1.xml"
+                        href='../oracleData/Zone/zone401.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -166,7 +166,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone401.n1.xml"
+                    name='zone401.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -174,14 +174,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid date per enumeration&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid date per enumeration\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone401.n2.xml"
+                        href='../oracleData/Zone/zone401.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -192,10 +192,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone401.n2.xml"
+                    name='zone401.n2.xml'
                 ),
             ],
-            name="zone401",
+            name='zone401',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -207,12 +207,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text=" Test year zero allowed for facet maxInclusive for datatype xs:dateTime "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text=' Test year zero allowed for facet maxInclusive for datatype xs:dateTime '
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=" Test year zero allowed for facet maxInclusive for datatype xs:dateTime"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=' Test year zero allowed for facet maxInclusive for datatype xs:dateTime'
                                 ),
                             ]
                         ),
@@ -221,16 +221,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone402.xsd"
+                        href='../oracleData/Zone/zone402.xsd'
                     ),
                 ],
                 expected=[
@@ -242,7 +242,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone402.xsd"
+                name='zone402.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -251,14 +251,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid date per maxInclusive facet&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid date per maxInclusive facet\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone402.n1.xml"
+                        href='../oracleData/Zone/zone402.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -269,7 +269,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone402.n1.xml"
+                    name='zone402.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -277,14 +277,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid date per maxInclusive facet&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid date per maxInclusive facet\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone402.n2.xml"
+                        href='../oracleData/Zone/zone402.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -295,7 +295,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone402.n2.xml"
+                    name='zone402.n2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -303,14 +303,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid date per maxInclusive facet&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid date per maxInclusive facet\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone402.v1.xml"
+                        href='../oracleData/Zone/zone402.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -321,10 +321,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone402.v1.xml"
+                    name='zone402.v1.xml'
                 ),
             ],
-            name="zone402",
+            name='zone402',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -336,11 +336,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime'
                                 ),
                             ]
@@ -350,16 +350,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone403.xsd"
+                        href='../oracleData/Zone/zone403.xsd'
                     ),
                 ],
                 expected=[
@@ -371,7 +371,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone403.xsd"
+                name='zone403.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -380,14 +380,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone403.v1.xml"
+                        href='../oracleData/Zone/zone403.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -398,7 +398,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone403.v1.xml"
+                    name='zone403.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -406,14 +406,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone403.v2.xml"
+                        href='../oracleData/Zone/zone403.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -424,7 +424,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone403.v2.xml"
+                    name='zone403.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -432,14 +432,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, timezone not present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, timezone not present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone403.n1.xml"
+                        href='../oracleData/Zone/zone403.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -450,10 +450,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone403.n1.xml"
+                    name='zone403.n1.xml'
                 ),
             ],
-            name="zone403",
+            name='zone403',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -465,11 +465,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime'
                                 ),
                             ]
@@ -479,16 +479,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone404.xsd"
+                        href='../oracleData/Zone/zone404.xsd'
                     ),
                 ],
                 expected=[
@@ -500,7 +500,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone404.xsd"
+                name='zone404.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -509,14 +509,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid, timezone not present as expected&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid, timezone not present as expected\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone404.v1.xml"
+                        href='../oracleData/Zone/zone404.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -527,7 +527,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone404.v1.xml"
+                    name='zone404.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -535,14 +535,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone404.n1.xml"
+                        href='../oracleData/Zone/zone404.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -553,7 +553,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone404.n1.xml"
+                    name='zone404.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -561,14 +561,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, timezone present.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone404.n2.xml"
+                        href='../oracleData/Zone/zone404.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -579,10 +579,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone404.n2.xml"
+                    name='zone404.n2.xml'
                 ),
             ],
-            name="zone404",
+            name='zone404',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -594,11 +594,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime'
                                 ),
                             ]
@@ -608,16 +608,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone405.xsd"
+                        href='../oracleData/Zone/zone405.xsd'
                     ),
                 ],
                 expected=[
@@ -631,7 +631,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Typo corrected - see bug #12189&#10;&#9;&#9;            ",
+                                        '\n\t\t                Typo corrected - see bug #12189\n\t\t            ',
                                     ]
                                 ),
                             ]
@@ -646,7 +646,7 @@ obj = TestSet(
                         date=XmlDate(2011, 2, 24)
                     ),
                 ],
-                name="zone405.xsd"
+                name='zone405.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -655,14 +655,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid date&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid date\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone405.v1.xml"
+                        href='../oracleData/Zone/zone405.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -673,7 +673,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone405.v1.xml"
+                    name='zone405.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -681,14 +681,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid date&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid date\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone405.v2.xml"
+                        href='../oracleData/Zone/zone405.v2.xml'
                     ),
                     expected=[
                         Expected(
@@ -699,7 +699,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone405.v2.xml"
+                    name='zone405.v2.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -707,14 +707,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                valid date&#10;&#9;&#9;            ",
+                                        '\n\t\t                valid date\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../oracleData/Zone/zone405.v3.xml"
+                        href='../oracleData/Zone/zone405.v3.xml'
                     ),
                     expected=[
                         Expected(
@@ -725,10 +725,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 24)
                     ),
-                    name="zone405.v3.xml"
+                    name='zone405.v3.xml'
                 ),
             ],
-            name="zone405",
+            name='zone405',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -740,12 +740,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime'
                                 ),
                             ]
                         ),
@@ -754,16 +754,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone406.bad.xsd"
+                        href='../oracleData/Zone/zone406.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -775,9 +775,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone406.xsd"
+                name='zone406.xsd'
             ),
-            name="zone406",
+            name='zone406',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -789,12 +789,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime'
                                 ),
                             ]
                         ),
@@ -803,16 +803,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone407.bad.xsd"
+                        href='../oracleData/Zone/zone407.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -824,9 +824,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone407.xsd"
+                name='zone407.xsd'
             ),
-            name="zone407",
+            name='zone407',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -838,11 +838,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text=' Test explicitTimezone facet: cannot derive "required" from "prohibited"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text=' Test explicitTimezone facet: cannot derive "required" from "prohibited"'
                                 ),
                             ]
@@ -852,16 +852,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone408.bad.xsd"
+                        href='../oracleData/Zone/zone408.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -873,9 +873,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone408.xsd"
+                name='zone408.xsd'
             ),
-            name="zone408",
+            name='zone408',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -887,11 +887,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text=' Test explicitTimezone facet: cannot derive "prohibited" from "required"'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text=' Test explicitTimezone facet: cannot derive "prohibited" from "required"'
                                 ),
                             ]
@@ -901,16 +901,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../oracleData/Zone/zone409.bad.xsd"
+                        href='../oracleData/Zone/zone409.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -922,16 +922,16 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 24)
                 ),
-                name="zone409.xsd"
+                name='zone409.xsd'
             ),
-            name="zone409",
+            name='zone409',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Oracle Corporation",
-    name="Zone",
+    contributor='Oracle Corporation',
+    name='Zone',
     version=[
         KnownToken.VALUE_1_1,
     ]

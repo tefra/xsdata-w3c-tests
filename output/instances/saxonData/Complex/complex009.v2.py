@@ -3,15 +3,15 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = DerivedElement(
-    qname="root",
+    qname='root',
     value=R(
         e=[
-            "",
+            '',
         ],
         f=[
-            "",
+            '',
         ],
-        type_value="R"
+        type_value='R'
     ),
-    type="R"
+    type='R'
 )

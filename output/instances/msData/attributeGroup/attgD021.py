@@ -7,7 +7,7 @@ obj = Doc(
         AttgRef(
             att1=123,
             any_attributes={
-                "{foo}foo": "foo",
+                '{foo}foo': 'foo',
             }
         ),
     ]

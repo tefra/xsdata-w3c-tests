@@ -13,7 +13,7 @@ class Address:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     street: Optional[str] = field(
         default=None,
@@ -21,7 +21,7 @@ class Address:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     city: Optional[str] = field(
         default=None,
@@ -29,7 +29,7 @@ class Address:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Ukaddress(Address):
             "required": True,
             "length": 7,
             "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
-        }
+        },
     )
     export_code: int = field(
         init=False,
@@ -61,7 +61,7 @@ class Ukaddress(Address):
             "name": "exportCode",
             "type": "Attribute",
             "namespace": "http://www.example.com/IPO",
-        }
+        },
     )
 
 
@@ -76,7 +76,7 @@ class Usaddress(Address):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     zip: Optional[int] = field(
         default=None,
@@ -84,5 +84,5 @@ class Usaddress(Address):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

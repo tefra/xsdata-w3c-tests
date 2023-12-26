@@ -16,7 +16,7 @@ class ElementWithAttr:
         metadata={
             "type": "Attribute",
             "namespace": "AttrUse/valConstr",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Root:
             "name": "elementWithAttr",
             "type": "Element",
             "required": True,
-        }
+        },
     )

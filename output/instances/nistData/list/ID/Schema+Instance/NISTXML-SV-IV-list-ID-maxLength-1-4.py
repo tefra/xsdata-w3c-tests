@@ -5,11 +5,11 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdMaxLength1(
         value=[
-            "xparticular.applications.has-these-d",
-            "bare_such.and.from.for.areas.the_met",
-            "_uses-relationships_information.for-",
-            "csecurity.known_to_work-methods_for.",
-            "fstandards_in-house_popular.to_graph",
+            'xparticular.applications.has-these-d',
+            'bare_such.and.from.for.areas.the_met',
+            '_uses-relationships_information.for-',
+            'csecurity.known_to_work-methods_for.',
+            'fstandards_in-house_popular.to_graph',
         ]
     )
 )

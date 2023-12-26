@@ -12,7 +12,7 @@ class E1:
         default=None,
         metadata={
             "nillable": True,
-        }
+        },
     )
 
 
@@ -26,5 +26,5 @@ class Root:
         metadata={
             "type": "Element",
             "nillable": True,
-        }
+        },
     )

@@ -13,5 +13,5 @@ class A:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

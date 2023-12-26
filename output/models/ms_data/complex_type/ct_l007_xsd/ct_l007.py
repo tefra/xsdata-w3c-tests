@@ -12,14 +12,14 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     elem2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

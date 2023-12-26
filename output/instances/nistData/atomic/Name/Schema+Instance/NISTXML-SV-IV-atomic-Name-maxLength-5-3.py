@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMaxLength5(
-    value=":the:for:wireless.reference:as:"
+    value=':the:for:wireless.reference:as:'
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength5(
-    value="and:e:program_rigorous:discuss_we:a_the:tools:robust_robust_is:r"
+    value='and:e:program_rigorous:discuss_we:a_the:tools:robust_robust_is:r'
 )

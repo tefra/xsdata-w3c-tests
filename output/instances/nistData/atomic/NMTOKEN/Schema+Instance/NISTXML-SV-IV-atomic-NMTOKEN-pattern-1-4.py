@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern1(
-    value="only-review_that:particularly-DOM:Comput"
+    value='only-review_that:particularly-DOM:Comput'
 )

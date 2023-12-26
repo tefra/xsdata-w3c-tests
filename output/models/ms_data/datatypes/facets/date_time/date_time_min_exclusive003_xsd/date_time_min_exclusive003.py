@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "min_exclusive": XmlDateTime(1981, 3, 12, 10, 30, 0),
-        }
+        },
     )
 
 

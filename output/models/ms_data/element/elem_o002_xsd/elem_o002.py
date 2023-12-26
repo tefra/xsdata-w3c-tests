@@ -12,7 +12,7 @@ class FooTest:
         metadata={
             "required": True,
             "pattern": r"[A-E]{1,2}",
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class Root:
             "type": "Element",
             "required": True,
             "pattern": r"[A-E]{1,2}",
-        }
+        },
     )

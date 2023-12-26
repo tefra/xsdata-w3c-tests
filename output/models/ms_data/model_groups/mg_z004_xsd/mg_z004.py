@@ -41,5 +41,5 @@ class Root:
                     "type": str,
                 },
             ),
-        }
+        },
     )

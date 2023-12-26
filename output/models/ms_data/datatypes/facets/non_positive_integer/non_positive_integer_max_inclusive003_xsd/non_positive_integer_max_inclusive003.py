@@ -14,7 +14,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "max_inclusive": -1,
-        }
+        },
     )
 
 

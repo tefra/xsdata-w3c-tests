@@ -14,13 +14,13 @@ class MessageType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     value: Optional[Union[Decimal, int, XmlDate, XmlTime, QName, str]] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -76,5 +76,5 @@ class Messages:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

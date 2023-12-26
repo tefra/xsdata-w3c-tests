@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-datatype",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#declare-datatype',
                     },
                     content=[
-                        "unions",
+                        'unions',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tests restriction facet in intervening union ",
+                                'tests restriction facet in intervening union ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v01.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v01s"
+                name='s3_16_2v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v01.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v01i"
+                    name='s3_16_2v01i'
                 ),
             ],
-            name="s3_16_2v01",
+            name='s3_16_2v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Types derived by restriction from a union type ",
+                                'Types derived by restriction from a union type ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v02.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v02s"
+                name='s3_16_2v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v02.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v02i"
+                    name='s3_16_2v02i'
                 ),
             ],
-            name="s3_16_2v02",
+            name='s3_16_2v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tests restriction facet in intervening union ",
+                                'tests restriction facet in intervening union ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v03.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v03s"
+                name='s3_16_2v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v03.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v03i"
+                    name='s3_16_2v03i'
                 ),
             ],
-            name="s3_16_2v03",
+            name='s3_16_2v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Types derived by restriction from a union type ",
+                                'Types derived by restriction from a union type ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v04.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v04s"
+                name='s3_16_2v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v04.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v04i"
+                    name='s3_16_2v04i'
                 ),
             ],
-            name="s3_16_2v04",
+            name='s3_16_2v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type used to name a member of a restricted union type ",
+                                'xsi:type used to name a member of a restricted union type ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v05.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v05s"
+                name='s3_16_2v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v05.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v05i"
+                    name='s3_16_2v05i'
                 ),
             ],
-            name="s3_16_2v05",
+            name='s3_16_2v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Union of unions",
+                                'Union of unions',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v06.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v06s"
+                name='s3_16_2v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v06.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v06i"
+                    name='s3_16_2v06i'
                 ),
             ],
-            name="s3_16_2v06",
+            name='s3_16_2v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type used to name a member of a restricted union type ",
+                                'xsi:type used to name a member of a restricted union type ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v07.xsd"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v07.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2v07s"
+                name='s3_16_2v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_16_2/s3_16_2v07.xml"
+                        href='../ibmData/valid/S3_16_2/s3_16_2v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2v07i"
+                    name='s3_16_2v07i'
                 ),
             ],
-            name="s3_16_2v07"
+            name='s3_16_2v07'
         ),
         TestGroup(
             annotation=[
@@ -447,7 +447,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tests restriction facet in intervening union ",
+                                'tests restriction facet in intervening union ',
                             ]
                         ),
                     ]
@@ -455,16 +455,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -476,12 +476,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii01s"
+                name='s3_16_2ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii01.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -492,10 +492,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii01i"
+                    name='s3_16_2ii01i'
                 ),
             ],
-            name="s3_16_2ii01",
+            name='s3_16_2ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -506,7 +506,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tests restriction facet in intervening union ",
+                                'tests restriction facet in intervening union ',
                             ]
                         ),
                     ]
@@ -514,16 +514,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -535,12 +535,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii02s"
+                name='s3_16_2ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii02.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -551,10 +551,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii02i"
+                    name='s3_16_2ii02i'
                 ),
             ],
-            name="s3_16_2ii02",
+            name='s3_16_2ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -565,7 +565,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tests restriction facet in intervening union ",
+                                'tests restriction facet in intervening union ',
                             ]
                         ),
                     ]
@@ -573,16 +573,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -594,12 +594,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii03s"
+                name='s3_16_2ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii03.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -610,10 +610,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii03i"
+                    name='s3_16_2ii03i'
                 ),
             ],
-            name="s3_16_2ii03",
+            name='s3_16_2ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -624,7 +624,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Types derived by restriction from a union type ",
+                                'Types derived by restriction from a union type ',
                             ]
                         ),
                     ]
@@ -632,16 +632,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="hhttp://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='hhttp://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -653,12 +653,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii04s"
+                name='s3_16_2ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii04.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -669,10 +669,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii04i"
+                    name='s3_16_2ii04i'
                 ),
             ],
-            name="s3_16_2ii04",
+            name='s3_16_2ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -683,7 +683,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type used to name a member of a restricted union type  ",
+                                'xsi:type used to name a member of a restricted union type  ',
                             ]
                         ),
                     ]
@@ -691,16 +691,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -712,12 +712,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii05s"
+                name='s3_16_2ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii05.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -728,10 +728,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii05i"
+                    name='s3_16_2ii05i'
                 ),
             ],
-            name="s3_16_2ii05",
+            name='s3_16_2ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -742,7 +742,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type used to name a member of a restricted union type",
+                                'xsi:type used to name a member of a restricted union type',
                             ]
                         ),
                     ]
@@ -750,16 +750,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii06.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -771,12 +771,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii06s"
+                name='s3_16_2ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii06.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -787,10 +787,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii06i"
+                    name='s3_16_2ii06i'
                 ),
             ],
-            name="s3_16_2ii06",
+            name='s3_16_2ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -801,7 +801,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xsi:type used to name a member of a restricted union type ",
+                                'xsi:type used to name a member of a restricted union type ',
                             ]
                         ),
                     ]
@@ -809,16 +809,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii07.xsd"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii07.xsd'
                     ),
                 ],
                 expected=[
@@ -830,12 +830,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2ii07s"
+                name='s3_16_2ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_16_2/s3_16_2ii07.xml"
+                        href='../ibmData/instance_invalid/S3_16_2/s3_16_2ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -846,10 +846,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_16_2ii07i"
+                    name='s3_16_2ii07i'
                 ),
             ],
-            name="s3_16_2ii07",
+            name='s3_16_2ii07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -860,7 +860,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Union type a member of its own transitive membership  ",
+                                'Union type a member of its own transitive membership  ',
                             ]
                         ),
                     ]
@@ -868,16 +868,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_16_2/s3_16_2si01.xsd"
+                        href='../ibmData/schema_invalid/S3_16_2/s3_16_2si01.xsd'
                     ),
                 ],
                 expected=[
@@ -889,9 +889,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2si01s"
+                name='s3_16_2si01s'
             ),
-            name="s3_16_2si01",
+            name='s3_16_2si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -902,7 +902,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Cyclicity of union types  ",
+                                'Cyclicity of union types  ',
                             ]
                         ),
                     ]
@@ -910,16 +910,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_16_2/s3_16_2si02.xsd"
+                        href='../ibmData/schema_invalid/S3_16_2/s3_16_2si02.xsd'
                     ),
                 ],
                 expected=[
@@ -931,9 +931,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2si02s"
+                name='s3_16_2si02s'
             ),
-            name="s3_16_2si02",
+            name='s3_16_2si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -944,7 +944,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Cyclicity of union types",
+                                'Cyclicity of union types',
                             ]
                         ),
                     ]
@@ -952,16 +952,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_16_2/s3_16_2si03.xsd"
+                        href='../ibmData/schema_invalid/S3_16_2/s3_16_2si03.xsd'
                     ),
                 ],
                 expected=[
@@ -973,9 +973,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2si03s"
+                name='s3_16_2si03s'
             ),
-            name="s3_16_2si03",
+            name='s3_16_2si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -986,7 +986,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Cyclicity of union types  ",
+                                'Cyclicity of union types  ',
                             ]
                         ),
                     ]
@@ -994,16 +994,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_16_2/s3_16_2si04.xsd"
+                        href='../ibmData/schema_invalid/S3_16_2/s3_16_2si04.xsd'
                     ),
                 ],
                 expected=[
@@ -1015,9 +1015,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2si04s"
+                name='s3_16_2si04s'
             ),
-            name="s3_16_2si04",
+            name='s3_16_2si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1028,7 +1028,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Cyclicity of union types ",
+                                'Cyclicity of union types ',
                             ]
                         ),
                     ]
@@ -1036,16 +1036,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
+                    href='http://www.w3.org/TR/xmlschema11-1/#declare-datatype'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_16_2/s3_16_2si05.xsd"
+                        href='../ibmData/schema_invalid/S3_16_2/s3_16_2si05.xsd'
                     ),
                 ],
                 expected=[
@@ -1057,17 +1057,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_16_2si05s"
+                name='s3_16_2si05s'
             ),
-            name="s3_16_2si05",
+            name='s3_16_2si05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="union",
+    contributor='IBM',
+    name='union',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

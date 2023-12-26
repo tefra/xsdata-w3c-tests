@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.g_year_month.schema_instance.nistschema_sv
 
 obj = NistschemaSvIvListGYearMonthPattern5(
     value=[
-        "1977-11",
-        "2006-09",
-        "1709-06",
-        "1920-01",
-        "1977-04",
-        "1919-03",
-        "1788-11",
+        '1977-11',
+        '2006-09',
+        '1709-06',
+        '1920-01',
+        '1977-04',
+        '1919-03',
+        '1788-11',
     ]
 )

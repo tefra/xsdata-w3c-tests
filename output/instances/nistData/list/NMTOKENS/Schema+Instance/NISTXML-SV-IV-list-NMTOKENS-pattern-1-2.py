@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensPattern1(
     value=[
-        "such_as-informat",
-        "describes",
-        "signatures_such.testing.EC-of:certain.capabi",
-        "to_with-and.issues-interoperabilit",
-        "The:software-the:working-with-the_performance.",
-        "used_t",
+        'such_as-informat',
+        'describes',
+        'signatures_such.testing.EC-of:certain.capabi',
+        'to_with-and.issues-interoperabilit',
+        'The:software-the:working-with-the_performance.',
+        'used_t',
     ]
 )

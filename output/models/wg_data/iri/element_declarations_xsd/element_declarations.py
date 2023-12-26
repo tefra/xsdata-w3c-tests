@@ -11,7 +11,7 @@ class Iri3987:
         metadata={
             "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?(|[-󰀀-󿿽􀀀-􏿽/?])*))?((#((|/|\?))*))?)",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class IriReference3987:
         default="",
         metadata={
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?(|[-󰀀-󿿽􀀀-􏿽/?])*))?((#((|/|\?))*))?)",
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class Uri3986:
         metadata={
             "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?((#((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?)",
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class UriReference3986:
         default="",
         metadata={
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?((#((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?)",
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class AbsoluteIri3987:
         metadata={
             "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?(|[-󰀀-󿿽􀀀-􏿽/?])*))?)",
-        }
+        },
     )
 
 
@@ -79,7 +79,7 @@ class AbsoluteUri3986:
         metadata={
             "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?)",
-        }
+        },
     )
 
 
@@ -93,7 +93,7 @@ class RelativeReference3986:
         metadata={
             "required": True,
             "pattern": r"",
-        }
+        },
     )
 
 
@@ -107,5 +107,5 @@ class RelativeReference3987:
         metadata={
             "required": True,
             "pattern": r"",
-        }
+        },
     )

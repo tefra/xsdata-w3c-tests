@@ -3,15 +3,15 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMinLength4(
     value=[
-        "rcreation:",
-        "sfurther_a",
-        "yportable_",
-        "ta:interna",
-        "_and_simpl",
-        "mrelated_t",
-        "dand-appli",
-        "tin:techno",
-        "awell.prof",
-        "ythat_cros",
+        'rcreation:',
+        'sfurther_a',
+        'yportable_',
+        'ta:interna',
+        '_and_simpl',
+        'mrelated_t',
+        'dand-appli',
+        'tin:techno',
+        'awell.prof',
+        'ythat_cros',
     ]
 )

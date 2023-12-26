@@ -4,23 +4,23 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     g1_or_g12=AnyElement(
-        qname="g1",
-        text=""
+        qname='g1',
+        text=''
     ),
     g2_or_g22=AnyElement(
-        qname="g2",
-        text=""
+        qname='g2',
+        text=''
     ),
     g3_or_g32=AnyElement(
-        qname="g3",
-        text=""
+        qname='g3',
+        text=''
     ),
     g4_or_g42=AnyElement(
-        qname="g4",
-        text=""
+        qname='g4',
+        text=''
     ),
-    c1="",
-    c2="",
-    c3="",
-    c4=""
+    c1='',
+    c2='',
+    c3='',
+    c4=''
 )

@@ -10,7 +10,7 @@ class C1:
             "type": "Element",
             "namespace": "",
             "max_occurs": 10,
-        }
+        },
     )
 
 

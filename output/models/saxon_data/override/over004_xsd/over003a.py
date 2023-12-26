@@ -13,5 +13,5 @@ class Doc:
             "type": "Element",
             "min_occurs": 1,
             "pattern": r"[0-9]+-[0-9]+-[0-9]+",
-        }
+        },
     )

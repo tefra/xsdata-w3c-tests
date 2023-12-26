@@ -3,6 +3,6 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = Root(
-    ele="hello",
+    ele='hello',
     date=XmlDate(2000, 12, 12)
 )

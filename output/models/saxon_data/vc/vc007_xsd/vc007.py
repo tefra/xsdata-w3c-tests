@@ -8,6 +8,4 @@ class Temp:
     class Meta:
         name = "temp"
 
-    value: Optional[XmlDate] = field(
-        default=None
-    )
+    value: Optional[XmlDate] = field(default=None)

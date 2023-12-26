@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdPattern2(
-        value="ncross-reference-the_be-collaborate_systems-e-to.the_par"
+        value='ncross-reference-the_be-collaborate_systems-e-to.the_par'
     )
 )

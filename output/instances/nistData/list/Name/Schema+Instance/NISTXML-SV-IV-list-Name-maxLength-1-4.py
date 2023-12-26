@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMaxLength1(
     value=[
-        "eto:be-rapi",
-        "hto-tools_t",
-        "_applicatio",
-        "_tune:confo",
-        "kand:web.of",
+        'eto:be-rapi',
+        'hto-tools_t',
+        '_applicatio',
+        '_tune:confo',
+        'kand:web.of',
     ]
 )

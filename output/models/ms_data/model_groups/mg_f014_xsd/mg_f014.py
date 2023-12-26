@@ -13,14 +13,14 @@ class Foo:
             "type": "Wildcard",
             "namespace": "http://www.w3.org/1999/xhtml",
             "process_contents": "skip",
-        }
+        },
     )
     d: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b_or_b2: Optional[str] = field(
         default=None,
@@ -38,7 +38,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     a: Optional[int] = field(
         default=None,
@@ -46,7 +46,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional[bool] = field(
         default=None,
@@ -54,7 +54,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

@@ -16,7 +16,7 @@ class Keyname:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     numname: Optional[str] = field(
         default=None,
@@ -25,7 +25,7 @@ class Keyname:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Root:
             "name": "Number",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringPattern2(
-    value="3 Manipulate Robust Street&#10;Use Is And , AZ 15849"
+    value='3 Manipulate Robust Street\nUse Is And , AZ 15849'
 )

@@ -22,7 +22,7 @@ class ContainHead2Type:
                     "namespace": "urn:my-namespace",
                 },
             ),
-        }
+        },
     )
 
 
@@ -35,7 +35,7 @@ class Member2:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -48,7 +48,7 @@ class ContainMember2Type(ContainHead2Type):
             "type": "Element",
             "namespace": "urn:my-namespace",
             "required": True,
-        }
+        },
     )
 
 

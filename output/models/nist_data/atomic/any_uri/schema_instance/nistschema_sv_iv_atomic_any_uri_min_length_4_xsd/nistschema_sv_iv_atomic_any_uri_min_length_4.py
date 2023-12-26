@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicAnyUriMinLength4:
         metadata={
             "required": True,
             "min_length": 50,
-        }
+        },
     )

@@ -15,5 +15,5 @@ class NistschemaSvIvListTimePattern5:
         metadata={
             "pattern": r"\d2:\d8:3\d 1\d:\d7:\d5 1\d:\d4:0\d \d3:\d9:4\d \d4:4\d:3\d",
             "tokens": True,
-        }
+        },
     )

@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameMinLength1(
     value=[
-        "l",
-        "_",
-        "x",
-        "_",
-        "i",
-        "r",
+        'l',
+        '_',
+        'x',
+        '_',
+        'i',
+        'r',
     ]
 )

@@ -15,7 +15,7 @@ class Elem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Elem2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Elem3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -55,7 +55,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem2_or_elem1: Optional[Union[Elem1, Elem2]] = field(
+    elem2_or_elem1: Optional[Union[Elem2, Elem1]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -69,5 +69,5 @@ class Doc:
                     "type": Elem1,
                 },
             ),
-        }
+        },
     )

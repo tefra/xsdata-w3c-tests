@@ -15,7 +15,7 @@ class R:
         metadata={
             "type": "Attribute",
             "namespace": "importNS",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -23,5 +23,5 @@ class R:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

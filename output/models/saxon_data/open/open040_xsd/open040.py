@@ -13,7 +13,7 @@ class Alpha:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Doc:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

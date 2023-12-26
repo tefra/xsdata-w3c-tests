@@ -12,7 +12,7 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -23,5 +23,5 @@ class Root:
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            }
+            },
         )

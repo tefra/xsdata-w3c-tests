@@ -15,7 +15,7 @@ class Root:
         metadata={
             "type": "Attribute",
             "namespace": "foo",
-        }
+        },
     )
     attr2: str = field(
         init=False,
@@ -23,7 +23,7 @@ class Root:
         metadata={
             "type": "Attribute",
             "namespace": "foo",
-        }
+        },
     )
     attr3: bool = field(
         init=False,
@@ -31,5 +31,5 @@ class Root:
         metadata={
             "type": "Attribute",
             "namespace": "foo",
-        }
+        },
     )

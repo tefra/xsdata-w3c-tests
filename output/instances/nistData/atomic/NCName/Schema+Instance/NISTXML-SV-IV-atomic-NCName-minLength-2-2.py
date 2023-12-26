@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength2(
-    value="gregard-hardware-first-generation.ambiguities.a-opp"
+    value='gregard-hardware-first-generation.ambiguities.a-opp'
 )

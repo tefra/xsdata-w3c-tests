@@ -8,9 +8,9 @@ class FooAttrTest(Enum):
     FOO123 = "foo123"
     FU1 = "fu1"
     FOO_FU1 = (
-            "foo",
-            "fu1",
-        )
+        "foo",
+        "fu1",
+    )
 
 
 @dataclass
@@ -24,7 +24,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -33,14 +33,14 @@ class FooType:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         attr_test: Optional[FooAttrTest] = field(
             default=None,
             metadata={
                 "name": "attrTest",
                 "type": "Attribute",
-            }
+            },
         )
 
 

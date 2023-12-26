@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.hex_binary.schema_instance.nistschema_sv_i
 
 obj = NistschemaSvIvListHexBinaryMaxLength2(
     value=[
-        b"my",
-        b"ss",
-        b"hn",
-        b"ln",
-        b"cs",
+        b'my',
+        b'ss',
+        b'hn',
+        b'ln',
+        b'cs',
     ]
 )

@@ -25,7 +25,7 @@ class DerivedFromType(TypeType):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -41,7 +41,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member1_or_head: List[Union[Head, Member1]] = field(
+    member1_or_head: List[Union[Member1, Head]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -55,5 +55,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

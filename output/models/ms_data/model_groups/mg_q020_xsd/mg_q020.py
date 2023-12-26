@@ -13,7 +13,7 @@ class Bar:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -22,7 +22,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    e1_or_e2: Optional[Union[Bar, str]] = field(
+    e1_or_e2: Optional[Union[str, Bar]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -38,7 +38,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

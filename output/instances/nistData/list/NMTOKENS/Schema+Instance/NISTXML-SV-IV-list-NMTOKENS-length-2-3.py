@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensLength2(
     value=[
-        "B",
-        "B",
-        "t",
-        "o",
-        "g",
-        "a",
+        'B',
+        'B',
+        't',
+        'o',
+        'g',
+        'a',
     ]
 )

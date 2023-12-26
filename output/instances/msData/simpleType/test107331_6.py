@@ -13,63 +13,63 @@ from xsdata.models.datatype import XmlTime
 obj = Root(
     choice=[
         Item(
-            value="abc"
+            value='abc'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=123
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=4.56
         ),
         DerivedElement(
-            qname="item",
-            value="this is a string"
+            qname='item',
+            value='this is a string'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=False
         ),
         DerivedElement(
-            qname="item",
-            value=Decimal("45")
+            qname='item',
+            value=Decimal('45')
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=XmlDuration("P1347Y")
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=XmlDateTime(1999, 5, 31, 13, 20, 0, 0, -300)
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=XmlTime(13, 20, 0, 0, -300)
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=XmlDate(1999, 5, 31)
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=XmlPeriod("1999")
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=XmlPeriod("--02-13")
         ),
         DerivedElement(
-            qname="item",
-            value=b"\xab\xcd"
+            qname='item',
+            value=b'\xab\xcd'
         ),
         DerivedElement(
-            qname="item",
-            value="http://tempuri"
+            qname='item',
+            value='http://tempuri'
         ),
         DerivedElement(
-            qname="item",
-            value="123"
+            qname='item',
+            value='123'
         ),
     ]
 )

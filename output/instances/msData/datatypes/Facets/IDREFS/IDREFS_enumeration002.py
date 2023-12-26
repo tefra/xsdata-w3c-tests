@@ -6,6 +6,6 @@ from output.models.ms_data.datatypes.facets.idrefs.idrefs_enumeration002_xsd.idr
 obj = Test(
     foo=Foo(
         idrefs_attr=FooIdrefsAttr.FOO,
-        id_attr="foo"
+        id_attr='foo'
     )
 )

@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="+INF allowed in xs:double lexical space"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='+INF allowed in xs:double lexical space'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="+INF allowed in xs:double lexical space in XSD 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='+INF allowed in xs:double lexical space in XSD 1.1'
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple001.xsd"
+                        href='../saxonData/Simple/simple001.xsd'
                     ),
                 ],
                 expected=[
@@ -61,7 +61,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple001.xsd"
+                name='simple001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -70,14 +70,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, +INF used legitimately.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, +INF used legitimately.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple001.v01.xml"
+                        href='../saxonData/Simple/simple001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -88,7 +88,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple001.v01.xml"
+                    name='simple001.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -96,14 +96,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, -INF conflicts with fixed value.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, -INF conflicts with fixed value.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple001.n01.xml"
+                        href='../saxonData/Simple/simple001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -114,7 +114,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple001.n01.xml"
+                    name='simple001.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -122,14 +122,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, NaN conflicts with fixed value.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, NaN conflicts with fixed value.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple001.n02.xml"
+                        href='../saxonData/Simple/simple001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -140,10 +140,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple001.n02.xml"
+                    name='simple001.n02.xml'
                 ),
             ],
-            name="simple001"
+            name='simple001'
         ),
         TestGroup(
             annotation=[
@@ -152,12 +152,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="+INF allowed in xs:float lexical space"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='+INF allowed in xs:float lexical space'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="+INF allowed in xs:float lexical space in XSD 1.1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='+INF allowed in xs:float lexical space in XSD 1.1'
                                 ),
                             ]
                         ),
@@ -166,16 +166,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple002.xsd"
+                        href='../saxonData/Simple/simple002.xsd'
                     ),
                 ],
                 expected=[
@@ -187,7 +187,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple002.xsd"
+                name='simple002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -196,14 +196,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, +INF used legitimately.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, +INF used legitimately.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple001.v01.xml"
+                        href='../saxonData/Simple/simple001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -214,7 +214,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple002.v01.xml"
+                    name='simple002.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -222,14 +222,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, -INF conflicts with fixed value.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, -INF conflicts with fixed value.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple001.n01.xml"
+                        href='../saxonData/Simple/simple001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -240,7 +240,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple002.n01.xml"
+                    name='simple002.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -248,14 +248,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, NaN conflicts with fixed value.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, NaN conflicts with fixed value.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple001.n02.xml"
+                        href='../saxonData/Simple/simple001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -266,10 +266,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple002.n02.xml"
+                    name='simple002.n02.xml'
                 ),
             ],
-            name="simple002"
+            name='simple002'
         ),
         TestGroup(
             annotation=[
@@ -278,12 +278,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test that simpleType/@final = extension is allowed"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test that simpleType/@final = extension is allowed'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Depends on resolution of spec bug 2074"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Depends on resolution of spec bug 2074'
                                 ),
                             ]
                         ),
@@ -292,16 +292,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"
+                    href='https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple003.xsd"
+                        href='../saxonData/Simple/simple003.xsd'
                     ),
                 ],
                 expected=[
@@ -313,7 +313,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 25)
                 ),
-                name="simple003.xsd"
+                name='simple003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -322,14 +322,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, the simpleType that prohibits extension is not extended.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, the simpleType that prohibits extension is not extended.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple003.v01.xml"
+                        href='../saxonData/Simple/simple003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -340,10 +340,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 25)
                     ),
-                    name="simple003.v01.xml"
+                    name='simple003.v01.xml'
                 ),
             ],
-            name="simple003"
+            name='simple003'
         ),
         TestGroup(
             annotation=[
@@ -352,12 +352,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test that simpleType/@final = extension is allowed, and works"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test that simpleType/@final = extension is allowed, and works'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Depends on resolution of spec bug 2074"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Depends on resolution of spec bug 2074'
                                 ),
                             ]
                         ),
@@ -366,10 +366,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"
+                    href='https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074'
                 ),
             ],
             schema_test=SchemaTest(
@@ -378,7 +378,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;&#9;                Invalid, the simpleType that prohibits extension gets extended.&#10;&#9;&#9;            ",
+                                    '\n\t\t                Invalid, the simpleType that prohibits extension gets extended.\n\t\t            ',
                                 ]
                             ),
                         ]
@@ -386,7 +386,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple004.bad.xsd"
+                        href='../saxonData/Simple/simple004.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -398,9 +398,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 25)
                 ),
-                name="simple004.xsd"
+                name='simple004.xsd'
             ),
-            name="simple004"
+            name='simple004'
         ),
         TestGroup(
             annotation=[
@@ -409,12 +409,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test simpleType/@final = extension defaulted from finalDefault, and works"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Test simpleType/@final = extension defaulted from finalDefault, and works'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Depends on resolution of spec bug 2074"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Depends on resolution of spec bug 2074'
                                 ),
                             ]
                         ),
@@ -423,10 +423,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"
+                    href='https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074'
                 ),
             ],
             schema_test=SchemaTest(
@@ -435,7 +435,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;&#9;                Invalid, the simpleType that prohibits extension gets extended.&#10;&#9;&#9;            ",
+                                    '\n\t\t                Invalid, the simpleType that prohibits extension gets extended.\n\t\t            ',
                                 ]
                             ),
                         ]
@@ -443,7 +443,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple005.bad.xsd"
+                        href='../saxonData/Simple/simple005.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -455,9 +455,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 25)
                 ),
-                name="simple005.xsd"
+                name='simple005.xsd'
             ),
-            name="simple005"
+            name='simple005'
         ),
         TestGroup(
             annotation=[
@@ -466,12 +466,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="List type with a missing item type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='List type with a missing item type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Marked invalid here, though one could argue for "valid" under&#10;                section 5.3, missing components'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Marked invalid here, though one could argue for "valid" under\n                section 5.3, missing components'
                                 ),
                             ]
                         ),
@@ -480,7 +480,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -489,7 +489,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;&#9;                Invalid, the list type refers to a non-existent item type.&#10;&#9;&#9;            ",
+                                    '\n\t\t                Invalid, the list type refers to a non-existent item type.\n\t\t            ',
                                 ]
                             ),
                         ]
@@ -497,7 +497,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple006.bad.xsd"
+                        href='../saxonData/Simple/simple006.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -509,9 +509,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 25)
                 ),
-                name="simple006.xsd"
+                name='simple006.xsd'
             ),
-            name="simple006"
+            name='simple006'
         ),
         TestGroup(
             annotation=[
@@ -520,12 +520,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type X is substitutable for union(X,Y)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type X is substitutable for union(X,Y)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Union is substitutable by one of the member types"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Union is substitutable by one of the member types'
                                 ),
                             ]
                         ),
@@ -534,16 +534,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple010.xsd"
+                        href='../saxonData/Simple/simple010.xsd'
                     ),
                 ],
                 expected=[
@@ -555,7 +555,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple010.xsd"
+                name='simple010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -564,14 +564,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple010.v01.xml"
+                        href='../saxonData/Simple/simple010.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -582,7 +582,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple010.v01.xml"
+                    name='simple010.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -590,14 +590,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple010.n01.xml"
+                        href='../saxonData/Simple/simple010.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -608,7 +608,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple010.n01.xml"
+                    name='simple010.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -616,14 +616,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple010.n02.xml"
+                        href='../saxonData/Simple/simple010.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -634,10 +634,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple010.n02.xml"
+                    name='simple010.n02.xml'
                 ),
             ],
-            name="simple010"
+            name='simple010'
         ),
         TestGroup(
             annotation=[
@@ -646,11 +646,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union(X,Y) is not validly derived from Union(X,Y,Z)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Union(X,Y) is not validly derived from Union(X,Y,Z)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Doesn't make much sense, but that's what the spec says."
                                 ),
                             ]
@@ -660,16 +660,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple011.bad.xsd"
+                        href='../saxonData/Simple/simple011.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -681,9 +681,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple011.xsd"
+                name='simple011.xsd'
             ),
-            name="simple011"
+            name='simple011'
         ),
         TestGroup(
             annotation=[
@@ -692,12 +692,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type X is substitutable for union(X,Y) when X is itself a union type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type X is substitutable for union(X,Y) when X is itself a union type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Union is substitutable by one of the member types when that member type is a union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Union is substitutable by one of the member types when that member type is a union'
                                 ),
                             ]
                         ),
@@ -706,16 +706,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple012.xsd"
+                        href='../saxonData/Simple/simple012.xsd'
                     ),
                 ],
                 expected=[
@@ -727,7 +727,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple012.xsd"
+                name='simple012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -736,14 +736,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple012.v01.xml"
+                        href='../saxonData/Simple/simple012.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -754,7 +754,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple012.v01.xml"
+                    name='simple012.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -762,14 +762,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid use of xsi:type here&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid use of xsi:type here\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple012.v02.xml"
+                        href='../saxonData/Simple/simple012.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -780,7 +780,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple012.v02.xml"
+                    name='simple012.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -788,14 +788,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple012.n01.xml"
+                        href='../saxonData/Simple/simple012.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -806,7 +806,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple012.n01.xml"
+                    name='simple012.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -814,14 +814,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple012.n02.xml"
+                        href='../saxonData/Simple/simple012.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -832,10 +832,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple012.n02.xml"
+                    name='simple012.n02.xml'
                 ),
             ],
-            name="simple012"
+            name='simple012'
         ),
         TestGroup(
             annotation=[
@@ -844,12 +844,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type D is substitutable for union(X,DT) when DT is union (D,T)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type D is substitutable for union(X,DT) when DT is union (D,T)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests substitutability of transitive membership of the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests substitutability of transitive membership of the union'
                                 ),
                             ]
                         ),
@@ -858,16 +858,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple013.xsd"
+                        href='../saxonData/Simple/simple013.xsd'
                     ),
                 ],
                 expected=[
@@ -879,7 +879,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple013.xsd"
+                name='simple013.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -888,14 +888,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple013.v01.xml"
+                        href='../saxonData/Simple/simple013.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -906,7 +906,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple013.v01.xml"
+                    name='simple013.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -914,14 +914,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple013.n01.xml"
+                        href='../saxonData/Simple/simple013.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -932,7 +932,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple013.n01.xml"
+                    name='simple013.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -940,14 +940,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple013.n02.xml"
+                        href='../saxonData/Simple/simple013.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -958,10 +958,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple013.n02.xml"
+                    name='simple013.n02.xml'
                 ),
             ],
-            name="simple013"
+            name='simple013'
         ),
         TestGroup(
             annotation=[
@@ -970,12 +970,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Member of a union is not substitutable if the union is derived by restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Member of a union is not substitutable if the union is derived by restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests substitutability of transitive membership of the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests substitutability of transitive membership of the union'
                                 ),
                             ]
                         ),
@@ -984,16 +984,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple014.bad.xsd"
+                        href='../saxonData/Simple/simple014.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1005,9 +1005,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple014.xsd"
+                name='simple014.xsd'
             ),
-            name="simple014"
+            name='simple014'
         ),
         TestGroup(
             annotation=[
@@ -1016,12 +1016,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Member of a union is not substitutable if the union is derived by restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Member of a union is not substitutable if the union is derived by restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests substitutability of transitive membership of the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests substitutability of transitive membership of the union'
                                 ),
                             ]
                         ),
@@ -1030,16 +1030,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple015.bad.xsd"
+                        href='../saxonData/Simple/simple015.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1051,9 +1051,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple015.xsd"
+                name='simple015.xsd'
             ),
-            name="simple015"
+            name='simple015'
         ),
         TestGroup(
             annotation=[
@@ -1062,12 +1062,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type OK to select a member of a union only if there are no restriction facets"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:type OK to select a member of a union only if there are no restriction facets'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xsi:type OK to select a member of a union only if there are no restriction facets"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xsi:type OK to select a member of a union only if there are no restriction facets'
                                 ),
                             ]
                         ),
@@ -1076,16 +1076,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple016.xsd"
+                        href='../saxonData/Simple/simple016.xsd'
                     ),
                 ],
                 expected=[
@@ -1097,7 +1097,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 8)
                 ),
-                name="simple016.xsd"
+                name='simple016.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1106,14 +1106,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, xsi:type is OK here as the union is unrestricted&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, xsi:type is OK here as the union is unrestricted\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple016.v01.xml"
+                        href='../saxonData/Simple/simple016.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1124,7 +1124,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple016.v01.xml"
+                    name='simple016.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1132,14 +1132,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, xsi:type cannot be used here as the union is restricted.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, xsi:type cannot be used here as the union is restricted.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple016.n01.xml"
+                        href='../saxonData/Simple/simple016.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1150,10 +1150,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple016.n01.xml"
+                    name='simple016.n01.xml'
                 ),
             ],
-            name="simple016"
+            name='simple016'
         ),
         TestGroup(
             annotation=[
@@ -1162,12 +1162,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain the union itself"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The transitive membership of a union type must not contain the union itself'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain the union itself"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The transitive membership of a union type must not contain the union itself'
                                 ),
                             ]
                         ),
@@ -1176,10 +1176,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1188,7 +1188,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
+                                    '\n\t                invalid, cyclic union definition\n\t            ',
                                 ]
                             ),
                         ]
@@ -1196,7 +1196,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple017.bad.xsd"
+                        href='../saxonData/Simple/simple017.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1208,9 +1208,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple017.xsd"
+                name='simple017.xsd'
             ),
-            name="simple017"
+            name='simple017'
         ),
         TestGroup(
             annotation=[
@@ -1219,12 +1219,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain a type derived from the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The transitive membership of a union type must not contain a type derived from the union'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain a type derived from the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The transitive membership of a union type must not contain a type derived from the union'
                                 ),
                             ]
                         ),
@@ -1233,10 +1233,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1245,7 +1245,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
+                                    '\n\t                invalid, cyclic union definition\n\t            ',
                                 ]
                             ),
                         ]
@@ -1253,7 +1253,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple018.bad.xsd"
+                        href='../saxonData/Simple/simple018.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1265,9 +1265,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple018.xsd"
+                name='simple018.xsd'
             ),
-            name="simple018"
+            name='simple018'
         ),
         TestGroup(
             annotation=[
@@ -1276,12 +1276,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The transitive membership of a union type must not contain a type constructed from the union'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The transitive membership of a union type must not contain a type constructed from the union'
                                 ),
                             ]
                         ),
@@ -1290,10 +1290,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1302,7 +1302,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
+                                    '\n\t                invalid, cyclic union definition\n\t            ',
                                 ]
                             ),
                         ]
@@ -1310,7 +1310,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple019.bad.xsd"
+                        href='../saxonData/Simple/simple019.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1322,9 +1322,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple019.xsd"
+                name='simple019.xsd'
             ),
-            name="simple019"
+            name='simple019'
         ),
         TestGroup(
             annotation=[
@@ -1333,12 +1333,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The transitive membership of a union type must not contain a type constructed from the union'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The transitive membership of a union type must not contain a type constructed from the union'
                                 ),
                             ]
                         ),
@@ -1347,10 +1347,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1359,7 +1359,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
+                                    '\n\t                invalid, cyclic union definition\n\t            ',
                                 ]
                             ),
                         ]
@@ -1367,7 +1367,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple020.bad.xsd"
+                        href='../saxonData/Simple/simple020.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1379,9 +1379,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple020.xsd"
+                name='simple020.xsd'
             ),
-            name="simple020"
+            name='simple020'
         ),
         TestGroup(
             annotation=[
@@ -1390,11 +1390,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='The string "[^]" is not a valid regex'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='The string "[^]" is not a valid regex'
                                 ),
                             ]
@@ -1404,7 +1404,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#charcter-classes"
+                    href='http://www.w3.org/TR/xmlschema11-2/#charcter-classes'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1413,7 +1413,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid regular expression in pattern facet&#10;&#9;            ",
+                                    '\n\t                invalid regular expression in pattern facet\n\t            ',
                                 ]
                             ),
                         ]
@@ -1421,7 +1421,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple021.bad.xsd"
+                        href='../saxonData/Simple/simple021.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1433,9 +1433,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 1, 25)
                 ),
-                name="simple021.xsd"
+                name='simple021.xsd'
             ),
-            name="simple021"
+            name='simple021'
         ),
         TestGroup(
             annotation=[
@@ -1444,11 +1444,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196'
                                 ),
                             ]
@@ -1458,13 +1458,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-IdentityAndEquality"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-IdentityAndEquality'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple022.xsd"
+                        href='../saxonData/Simple/simple022.xsd'
                     ),
                 ],
                 expected=[
@@ -1476,7 +1476,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 6)
                 ),
-                name="simple022.xsd"
+                name='simple022.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1485,14 +1485,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Valid, Enumeration value OK if "equal or identical"&#10;&#9;&#9;            ',
+                                        '\n\t\t                Valid, Enumeration value OK if "equal or identical"\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple022.v01.xml"
+                        href='../saxonData/Simple/simple022.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1503,7 +1503,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="simple022.v01.xml"
+                    name='simple022.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1511,14 +1511,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Valid, Enumeration value OK if "equal or identical"&#10;&#9;&#9;            ',
+                                        '\n\t\t                Valid, Enumeration value OK if "equal or identical"\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple022.v02.xml"
+                        href='../saxonData/Simple/simple022.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1529,7 +1529,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="simple022.v02.xml"
+                    name='simple022.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1537,14 +1537,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Valid, Enumeration value OK if "equal or identical"&#10;&#9;&#9;            ',
+                                        '\n\t\t                Valid, Enumeration value OK if "equal or identical"\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple022.v03.xml"
+                        href='../saxonData/Simple/simple022.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1555,7 +1555,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="simple022.v03.xml"
+                    name='simple022.v03.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1563,14 +1563,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid, Enumeration value OK only if "equal or identical".&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid, Enumeration value OK only if "equal or identical".\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple022.n01.xml"
+                        href='../saxonData/Simple/simple022.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1581,10 +1581,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 2, 6)
                     ),
-                    name="simple016.n01.xml"
+                    name='simple016.n01.xml'
                 ),
             ],
-            name="simple022"
+            name='simple022'
         ),
         TestGroup(
             annotation=[
@@ -1593,12 +1593,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -1607,16 +1607,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple040.xsd"
+                        href='../saxonData/Simple/simple040.xsd'
                     ),
                 ],
                 expected=[
@@ -1628,7 +1628,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple040.xsd"
+                name='simple040.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1637,14 +1637,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple040.v01.xml"
+                        href='../saxonData/Simple/simple040.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1655,7 +1655,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple040.v01.xml"
+                    name='simple040.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1663,14 +1663,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple040.n01.xml"
+                        href='../saxonData/Simple/simple040.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1681,7 +1681,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple040.n01.xml"
+                    name='simple040.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1689,14 +1689,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple040.n02.xml"
+                        href='../saxonData/Simple/simple040.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1707,10 +1707,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 8)
                     ),
-                    name="simple040.n02.xml"
+                    name='simple040.n02.xml'
                 ),
             ],
-            name="simple040"
+            name='simple040'
         ),
         TestGroup(
             annotation=[
@@ -1719,12 +1719,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -1733,10 +1733,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1745,7 +1745,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
+                                    '\n\t                invalid, cyclic union definition\n\t            ',
                                 ]
                             ),
                         ]
@@ -1753,7 +1753,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple041.bad.xsd"
+                        href='../saxonData/Simple/simple041.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1765,9 +1765,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple041.bad.xsd"
+                name='simple041.bad.xsd'
             ),
-            name="simple041"
+            name='simple041'
         ),
         TestGroup(
             annotation=[
@@ -1776,12 +1776,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -1790,10 +1790,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1802,7 +1802,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
+                                    '\n\t                invalid, cyclic union definition\n\t            ',
                                 ]
                             ),
                         ]
@@ -1810,7 +1810,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple042.bad.xsd"
+                        href='../saxonData/Simple/simple042.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1822,9 +1822,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple042.bad.xsd"
+                name='simple042.bad.xsd'
             ),
-            name="simple042"
+            name='simple042'
         ),
         TestGroup(
             annotation=[
@@ -1833,12 +1833,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -1847,10 +1847,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1859,7 +1859,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.&#10;&#9;            ",
+                                    '\n\t                this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.\n\t            ',
                                 ]
                             ),
                         ]
@@ -1867,7 +1867,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple043.xsd"
+                        href='../saxonData/Simple/simple043.xsd'
                     ),
                 ],
                 expected=[
@@ -1885,9 +1885,9 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 11)
                     ),
                 ],
-                name="simple043.xsd"
+                name='simple043.xsd'
             ),
-            name="simple043"
+            name='simple043'
         ),
         TestGroup(
             annotation=[
@@ -1896,12 +1896,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -1910,10 +1910,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
@@ -1922,7 +1922,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                valid regex&#10;&#9;            ",
+                                    '\n\t                valid regex\n\t            ',
                                 ]
                             ),
                         ]
@@ -1930,7 +1930,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple044.xsd"
+                        href='../saxonData/Simple/simple044.xsd'
                     ),
                 ],
                 expected=[
@@ -1942,7 +1942,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple044.xsd"
+                name='simple044.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1951,14 +1951,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple044.v01.xml"
+                        href='../saxonData/Simple/simple044.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1969,7 +1969,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple044.v01.xml"
+                    name='simple044.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1977,14 +1977,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple044.n01.xml"
+                        href='../saxonData/Simple/simple044.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1995,10 +1995,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple044.n01.xml"
+                    name='simple044.n01.xml'
                 ),
             ],
-            name="simple044"
+            name='simple044'
         ),
         TestGroup(
             annotation=[
@@ -2007,12 +2007,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -2021,10 +2021,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2033,7 +2033,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                valid regex&#10;&#9;            ",
+                                    '\n\t                valid regex\n\t            ',
                                 ]
                             ),
                         ]
@@ -2041,7 +2041,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple045.xsd"
+                        href='../saxonData/Simple/simple045.xsd'
                     ),
                 ],
                 expected=[
@@ -2053,7 +2053,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple045.xsd"
+                name='simple045.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2062,14 +2062,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple045.v01.xml"
+                        href='../saxonData/Simple/simple045.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2080,7 +2080,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple045.v01.xml"
+                    name='simple045.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2088,14 +2088,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple045.n01.xml"
+                        href='../saxonData/Simple/simple045.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2106,10 +2106,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple045.n01.xml"
+                    name='simple045.n01.xml'
                 ),
             ],
-            name="simple045"
+            name='simple045'
         ),
         TestGroup(
             annotation=[
@@ -2118,12 +2118,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Hyphens in regular expressions'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of hyphens in regular expressions'
                                 ),
                             ]
                         ),
@@ -2132,10 +2132,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2144,7 +2144,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                valid regex&#10;&#9;            ",
+                                    '\n\t                valid regex\n\t            ',
                                 ]
                             ),
                         ]
@@ -2152,7 +2152,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple046.xsd"
+                        href='../saxonData/Simple/simple046.xsd'
                     ),
                 ],
                 expected=[
@@ -2164,7 +2164,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple046.xsd"
+                name='simple046.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2173,14 +2173,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple046.v01.xml"
+                        href='../saxonData/Simple/simple046.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2191,7 +2191,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple046.v01.xml"
+                    name='simple046.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2199,14 +2199,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple046.n01.xml"
+                        href='../saxonData/Simple/simple046.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2217,10 +2217,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple046.n01.xml"
+                    name='simple046.n01.xml'
                 ),
             ],
-            name="simple046"
+            name='simple046'
         ),
         TestGroup(
             annotation=[
@@ -2229,12 +2229,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of xs:anyAtomicType'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of xs:anyAtomicType as the type of an element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of xs:anyAtomicType as the type of an element declaration'
                                 ),
                             ]
                         ),
@@ -2243,10 +2243,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2255,7 +2255,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                valid schema using anyAtomicType&#10;&#9;            ",
+                                    '\n\t                valid schema using anyAtomicType\n\t            ',
                                 ]
                             ),
                         ]
@@ -2263,7 +2263,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple050.xsd"
+                        href='../saxonData/Simple/simple050.xsd'
                     ),
                 ],
                 expected=[
@@ -2275,7 +2275,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple050.xsd"
+                name='simple050.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2284,14 +2284,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, anyAtomicType allows anything&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, anyAtomicType allows anything\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple050.v01.xml"
+                        href='../saxonData/Simple/simple050.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2302,7 +2302,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple050.v01.xml"
+                    name='simple050.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2310,14 +2310,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid xsi:type restricting to a date&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid xsi:type restricting to a date\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple050.v02.xml"
+                        href='../saxonData/Simple/simple050.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2328,7 +2328,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple050.v02.xml"
+                    name='simple050.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2336,14 +2336,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, if restricting to a date the date must be valid&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, if restricting to a date the date must be valid\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple050.n01.xml"
+                        href='../saxonData/Simple/simple050.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2354,7 +2354,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple050.n01.xml"
+                    name='simple050.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2362,14 +2362,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, restricting to an unknown type&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, restricting to an unknown type\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple050.n02.xml"
+                        href='../saxonData/Simple/simple050.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2380,7 +2380,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple050.n02.xml"
+                    name='simple050.n02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2388,14 +2388,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, restricting to untypedAtomic&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, restricting to untypedAtomic\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple050.n03.xml"
+                        href='../saxonData/Simple/simple050.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2406,10 +2406,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 11)
                     ),
-                    name="simple050.n03.xml"
+                    name='simple050.n03.xml'
                 ),
             ],
-            name="simple050"
+            name='simple050'
         ),
         TestGroup(
             annotation=[
@@ -2418,12 +2418,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of xs:anyAtomicType'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cannot use xs:anyAtomicType as the base type of a restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Cannot use xs:anyAtomicType as the base type of a restriction'
                                 ),
                             ]
                         ),
@@ -2432,10 +2432,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2444,7 +2444,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema using anyAtomicType&#10;&#9;            ",
+                                    '\n\t                invalid schema using anyAtomicType\n\t            ',
                                 ]
                             ),
                         ]
@@ -2452,7 +2452,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple051.bad.xsd"
+                        href='../saxonData/Simple/simple051.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2464,9 +2464,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 11)
                 ),
-                name="simple050.xsd"
+                name='simple050.xsd'
             ),
-            name="simple051"
+            name='simple051'
         ),
         TestGroup(
             annotation=[
@@ -2475,12 +2475,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of xs:anyAtomicType'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of xs:anyAtomicType as the item type of a list.&#10;                This has been disallowed in consequence of the resolution of bug 11103"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of xs:anyAtomicType as the item type of a list.\n                This has been disallowed in consequence of the resolution of bug 11103'
                                 ),
                             ]
                         ),
@@ -2489,10 +2489,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2501,7 +2501,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema using anyAtomicType as the item type of a list&#10;&#9;            ",
+                                    '\n\t                invalid schema using anyAtomicType as the item type of a list\n\t            ',
                                 ]
                             ),
                         ]
@@ -2509,64 +2509,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple052.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 7)
-                ),
-                name="simple052.xsd"
-            ),
-            name="simple052"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType"
-                                ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of xs:anyAtomicType as the member type of a union.&#10;                Union of xs:anyAtomicType is not allowed, as a consequence of the resolution of bug 11103"
-                                ),
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
-                ),
-                DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
-                ),
-            ],
-            schema_test=SchemaTest(
-                annotation=[
-                    Annotation(
-                        appinfo_or_documentation=[
-                            Documentation(
-                                content=[
-                                    "&#10;&#9;                invalid schema using anyAtomicType as a member type in a union&#10;&#9;            ",
-                                ]
-                            ),
-                        ]
-                    ),
-                ],
-                schema_document=[
-                    SchemaDocument(
-                        href="../saxonData/Simple/simple053.xsd"
+                        href='../saxonData/Simple/simple052.xsd'
                     ),
                 ],
                 expected=[
@@ -2578,9 +2521,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 7)
                 ),
-                name="simple053.xsd"
+                name='simple052.xsd'
             ),
-            name="simple053"
+            name='simple052'
         ),
         TestGroup(
             annotation=[
@@ -2589,11 +2532,68 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type must resolve"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Use of xs:anyAtomicType'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Tests use of xs:anyAtomicType as the member type of a union.\n                Union of xs:anyAtomicType is not allowed, as a consequence of the resolution of bug 11103'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
+                ),
+                DocumentationReference(
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType'
+                ),
+            ],
+            schema_test=SchemaTest(
+                annotation=[
+                    Annotation(
+                        appinfo_or_documentation=[
+                            Documentation(
+                                content=[
+                                    '\n\t                invalid schema using anyAtomicType as a member type in a union\n\t            ',
+                                ]
+                            ),
+                        ]
+                    ),
+                ],
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Simple/simple053.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2011, 2, 7)
+                ),
+                name='simple053.xsd'
+            ),
+            name='simple053'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:type must resolve'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="xsi:type isn't one of the member type of a union, in fact it doesn't exist"
                                 ),
                             ]
@@ -2603,10 +2603,10 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2615,7 +2615,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                valid schema using a union&#10;&#9;            ",
+                                    '\n\t                valid schema using a union\n\t            ',
                                 ]
                             ),
                         ]
@@ -2623,7 +2623,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple054.xsd"
+                        href='../saxonData/Simple/simple054.xsd'
                     ),
                 ],
                 expected=[
@@ -2635,7 +2635,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="simple054.xsd"
+                name='simple054.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2644,14 +2644,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown xsi:type&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown xsi:type\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple054.n01.xml"
+                        href='../saxonData/Simple/simple054.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2662,10 +2662,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 11, 17)
                     ),
-                    name="simple053.n01.xml"
+                    name='simple053.n01.xml'
                 ),
             ],
-            name="simple054"
+            name='simple054'
         ),
         TestGroup(
             annotation=[
@@ -2674,12 +2674,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Selector in identity constraint mistakenly identifies an element with a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Selector in identity constraint mistakenly identifies an element with a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Not an error in the schema, though Saxon gives a warning: it causes all instances to be invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Not an error in the schema, though Saxon gives a warning: it causes all instances to be invalid.'
                                 ),
                             ]
                         ),
@@ -2688,7 +2688,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2697,7 +2697,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                schema is valid though not useful&#10;&#9;            ",
+                                    '\n\t                schema is valid though not useful\n\t            ',
                                 ]
                             ),
                         ]
@@ -2705,7 +2705,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple055.xsd"
+                        href='../saxonData/Simple/simple055.xsd'
                     ),
                 ],
                 expected=[
@@ -2717,7 +2717,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 27)
                 ),
-                name="simple055.xsd"
+                name='simple055.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2726,14 +2726,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, field of selector selects nothing&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, field of selector selects nothing\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple055.n01.xml"
+                        href='../saxonData/Simple/simple055.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2744,10 +2744,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 28)
                     ),
-                    name="simple055.n01.xml"
+                    name='simple055.n01.xml'
                 ),
             ],
-            name="simple055"
+            name='simple055'
         ),
         TestGroup(
             annotation=[
@@ -2756,12 +2756,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -2770,7 +2770,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2779,7 +2779,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -2787,7 +2787,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple060.bad.xsd"
+                        href='../saxonData/Simple/simple060.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2799,9 +2799,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple060.xsd"
+                name='simple060.xsd'
             ),
-            name="simple060"
+            name='simple060'
         ),
         TestGroup(
             annotation=[
@@ -2810,12 +2810,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -2824,7 +2824,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2833,7 +2833,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -2841,7 +2841,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple061.bad.xsd"
+                        href='../saxonData/Simple/simple061.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2853,9 +2853,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple061.xsd"
+                name='simple061.xsd'
             ),
-            name="simple061"
+            name='simple061'
         ),
         TestGroup(
             annotation=[
@@ -2864,12 +2864,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -2878,7 +2878,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2887,7 +2887,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -2895,7 +2895,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple062.bad.xsd"
+                        href='../saxonData/Simple/simple062.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2907,9 +2907,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple062.xsd"
+                name='simple062.xsd'
             ),
-            name="simple062"
+            name='simple062'
         ),
         TestGroup(
             annotation=[
@@ -2918,12 +2918,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -2932,7 +2932,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2941,7 +2941,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -2949,7 +2949,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple063.bad.xsd"
+                        href='../saxonData/Simple/simple063.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2961,9 +2961,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple063.xsd"
+                name='simple063.xsd'
             ),
-            name="simple063"
+            name='simple063'
         ),
         TestGroup(
             annotation=[
@@ -2972,12 +2972,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -2986,7 +2986,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -2995,7 +2995,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3003,7 +3003,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple064.bad.xsd"
+                        href='../saxonData/Simple/simple064.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3015,9 +3015,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple064.xsd"
+                name='simple064.xsd'
             ),
-            name="simple064"
+            name='simple064'
         ),
         TestGroup(
             annotation=[
@@ -3026,12 +3026,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3040,7 +3040,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3049,7 +3049,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3057,7 +3057,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple065.bad.xsd"
+                        href='../saxonData/Simple/simple065.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3069,9 +3069,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple065.xsd"
+                name='simple065.xsd'
             ),
-            name="simple065"
+            name='simple065'
         ),
         TestGroup(
             annotation=[
@@ -3080,12 +3080,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3094,7 +3094,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3103,7 +3103,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3111,7 +3111,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple066.bad.xsd"
+                        href='../saxonData/Simple/simple066.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3123,9 +3123,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple066.xsd"
+                name='simple066.xsd'
             ),
-            name="simple066"
+            name='simple066'
         ),
         TestGroup(
             annotation=[
@@ -3134,12 +3134,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3148,7 +3148,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3157,7 +3157,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3165,7 +3165,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple067.bad.xsd"
+                        href='../saxonData/Simple/simple067.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3177,9 +3177,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple067.xsd"
+                name='simple067.xsd'
             ),
-            name="simple067"
+            name='simple067'
         ),
         TestGroup(
             annotation=[
@@ -3188,12 +3188,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3202,7 +3202,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3211,7 +3211,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3219,7 +3219,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple068.bad.xsd"
+                        href='../saxonData/Simple/simple068.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3231,9 +3231,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple068.xsd"
+                name='simple068.xsd'
             ),
-            name="simple068"
+            name='simple068'
         ),
         TestGroup(
             annotation=[
@@ -3242,12 +3242,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3256,7 +3256,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3265,7 +3265,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3273,7 +3273,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple069.bad.xsd"
+                        href='../saxonData/Simple/simple069.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3285,9 +3285,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple069.xsd"
+                name='simple069.xsd'
             ),
-            name="simple069"
+            name='simple069'
         ),
         TestGroup(
             annotation=[
@@ -3296,12 +3296,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3310,7 +3310,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3319,7 +3319,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3327,7 +3327,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple070.bad.xsd"
+                        href='../saxonData/Simple/simple070.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3339,9 +3339,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple070.xsd"
+                name='simple070.xsd'
             ),
-            name="simple070"
+            name='simple070'
         ),
         TestGroup(
             annotation=[
@@ -3350,12 +3350,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3364,7 +3364,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3373,7 +3373,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3381,7 +3381,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple071.bad.xsd"
+                        href='../saxonData/Simple/simple071.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3393,9 +3393,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple071.xsd"
+                name='simple071.xsd'
             ),
-            name="simple071"
+            name='simple071'
         ),
         TestGroup(
             annotation=[
@@ -3404,12 +3404,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3418,7 +3418,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3427,7 +3427,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3435,7 +3435,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple072.bad.xsd"
+                        href='../saxonData/Simple/simple072.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3447,9 +3447,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple072.xsd"
+                name='simple072.xsd'
             ),
-            name="simple072"
+            name='simple072'
         ),
         TestGroup(
             annotation=[
@@ -3458,12 +3458,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3472,7 +3472,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3481,7 +3481,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3489,7 +3489,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple073.bad.xsd"
+                        href='../saxonData/Simple/simple073.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3501,9 +3501,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple073.xsd"
+                name='simple073.xsd'
             ),
-            name="simple073"
+            name='simple073'
         ),
         TestGroup(
             annotation=[
@@ -3512,12 +3512,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3526,7 +3526,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3535,7 +3535,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3543,7 +3543,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple074.bad.xsd"
+                        href='../saxonData/Simple/simple074.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3555,9 +3555,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple074.xsd"
+                name='simple074.xsd'
             ),
-            name="simple074"
+            name='simple074'
         ),
         TestGroup(
             annotation=[
@@ -3566,12 +3566,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3580,7 +3580,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3589,7 +3589,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3597,7 +3597,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple075.bad.xsd"
+                        href='../saxonData/Simple/simple075.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3609,9 +3609,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple075.xsd"
+                name='simple075.xsd'
             ),
-            name="simple075"
+            name='simple075'
         ),
         TestGroup(
             annotation=[
@@ -3620,12 +3620,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3634,7 +3634,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3643,7 +3643,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3651,7 +3651,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple076.bad.xsd"
+                        href='../saxonData/Simple/simple076.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3663,9 +3663,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple076.xsd"
+                name='simple076.xsd'
             ),
-            name="simple076"
+            name='simple076'
         ),
         TestGroup(
             annotation=[
@@ -3674,12 +3674,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3688,7 +3688,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3697,7 +3697,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3705,7 +3705,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple077.bad.xsd"
+                        href='../saxonData/Simple/simple077.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3717,9 +3717,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple077.xsd"
+                name='simple077.xsd'
             ),
-            name="simple077"
+            name='simple077'
         ),
         TestGroup(
             annotation=[
@@ -3728,12 +3728,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3742,7 +3742,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3751,7 +3751,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3759,7 +3759,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple078.bad.xsd"
+                        href='../saxonData/Simple/simple078.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3771,9 +3771,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple078.xsd"
+                name='simple078.xsd'
             ),
-            name="simple078"
+            name='simple078'
         ),
         TestGroup(
             annotation=[
@@ -3782,12 +3782,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3796,7 +3796,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3805,7 +3805,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3813,7 +3813,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple079.bad.xsd"
+                        href='../saxonData/Simple/simple079.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3825,9 +3825,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple079.xsd"
+                name='simple079.xsd'
             ),
-            name="simple079"
+            name='simple079'
         ),
         TestGroup(
             annotation=[
@@ -3836,12 +3836,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3850,7 +3850,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3859,7 +3859,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3867,7 +3867,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple080.bad.xsd"
+                        href='../saxonData/Simple/simple080.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3879,9 +3879,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple080.xsd"
+                name='simple080.xsd'
             ),
-            name="simple080"
+            name='simple080'
         ),
         TestGroup(
             annotation=[
@@ -3890,12 +3890,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3904,7 +3904,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3913,7 +3913,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3921,7 +3921,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple081.bad.xsd"
+                        href='../saxonData/Simple/simple081.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3933,9 +3933,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple081.xsd"
+                name='simple081.xsd'
             ),
-            name="simple081"
+            name='simple081'
         ),
         TestGroup(
             annotation=[
@@ -3944,12 +3944,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -3958,7 +3958,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -3967,7 +3967,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -3975,7 +3975,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple082.bad.xsd"
+                        href='../saxonData/Simple/simple082.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -3987,9 +3987,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple082.xsd"
+                name='simple082.xsd'
             ),
-            name="simple082"
+            name='simple082'
         ),
         TestGroup(
             annotation=[
@@ -3998,12 +3998,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -4012,7 +4012,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -4021,7 +4021,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -4029,7 +4029,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple083.bad.xsd"
+                        href='../saxonData/Simple/simple083.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4041,9 +4041,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple083.xsd"
+                name='simple083.xsd'
             ),
-            name="simple083"
+            name='simple083'
         ),
         TestGroup(
             annotation=[
@@ -4052,12 +4052,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Facet must not appear more than once'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Facet must not appear more than once'
                                 ),
                             ]
                         ),
@@ -4066,7 +4066,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
+                    href='http://www.w3.org/TR/xmlschema11-1/#st-props-correct'
                 ),
             ],
             schema_test=SchemaTest(
@@ -4075,7 +4075,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
+                                    '\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            ',
                                 ]
                             ),
                         ]
@@ -4083,7 +4083,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple084.bad.xsd"
+                        href='../saxonData/Simple/simple084.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -4095,9 +4095,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 2, 21)
                 ),
-                name="simple084.xsd"
+                name='simple084.xsd'
             ),
-            name="simple084"
+            name='simple084'
         ),
         TestGroup(
             annotation=[
@@ -4106,12 +4106,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union derived by restriction with a pattern facet"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Union derived by restriction with a pattern facet'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Pattern facet applies after doing whitespace processing defined&#10;                             in the member type against which validation succeeded&#10;                "
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Pattern facet applies after doing whitespace processing defined\n                             in the member type against which validation succeeded\n                '
                                 ),
                             ]
                         ),
@@ -4120,7 +4120,7 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
                 ),
             ],
             schema_test=SchemaTest(
@@ -4129,7 +4129,7 @@ obj = TestSet(
                         appinfo_or_documentation=[
                             Documentation(
                                 content=[
-                                    "&#10;&#9;                schema is valid&#10;&#9;            ",
+                                    '\n\t                schema is valid\n\t            ',
                                 ]
                             ),
                         ]
@@ -4137,7 +4137,7 @@ obj = TestSet(
                 ],
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Simple/simple085.xsd"
+                        href='../saxonData/Simple/simple085.xsd'
                     ),
                 ],
                 expected=[
@@ -4149,7 +4149,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2014, 12, 5)
                 ),
-                name="simple085.xsd"
+                name='simple085.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -4158,14 +4158,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid; pattern matches the input after whitespace normalization&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid; pattern matches the input after whitespace normalization\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Simple/simple085.v01.xml"
+                        href='../saxonData/Simple/simple085.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -4176,18 +4176,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2014, 12, 5)
                     ),
-                    name="simple085.v01.xml"
+                    name='simple085.v01.xml'
                 ),
             ],
-            name="simple085"
+            name='simple085'
         ),
     ],
-    contributor="Saxonica",
-    name="Simple",
+    contributor='Saxonica',
+    name='Simple',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

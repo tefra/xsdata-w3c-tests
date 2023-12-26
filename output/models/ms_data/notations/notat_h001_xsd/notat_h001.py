@@ -12,5 +12,5 @@ class Foo:
         metadata={
             "type": "Attributes",
             "namespace": "http://foo",
-        }
+        },
     )

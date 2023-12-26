@@ -24,7 +24,7 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class NistschemaSvIvAtomicIdEnumeration5:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

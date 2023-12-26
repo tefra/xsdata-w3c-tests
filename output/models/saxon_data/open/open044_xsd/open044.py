@@ -13,14 +13,14 @@ class Beta:
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
     w3_org_xml_1998_namespace_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class Doc:
         metadata={
             "type": "Attributes",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -54,5 +54,5 @@ class Doc:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

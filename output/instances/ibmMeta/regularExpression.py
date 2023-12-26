@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#regexs',
                     },
                     content=[
-                        "substitutionGroup ",
+                        'substitutionGroup ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "use of hyphens within square brackets in regular expressions [a-c] ",
+                                'use of hyphens within square brackets in regular expressions [a-c] ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D6_G/d6_gv01.xsd"
+                        href='../ibmData/valid/D6_G/d6_gv01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gv01s"
+                name='d6_gv01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D6_G/d6_gv01.xml"
+                        href='../ibmData/valid/D6_G/d6_gv01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gv01i"
+                    name='d6_gv01i'
                 ),
             ],
-            name="d6_gv01",
+            name='d6_gv01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "use of hyphens within square brackets in regular expressions [abc-[c]] ",
+                                'use of hyphens within square brackets in regular expressions [abc-[c]] ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D6_G/d6_gv02.xsd"
+                        href='../ibmData/valid/D6_G/d6_gv02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gv02s"
+                name='d6_gv02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D6_G/d6_gv02.xml"
+                        href='../ibmData/valid/D6_G/d6_gv02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gv02i"
+                    name='d6_gv02i'
                 ),
             ],
-            name="d6_gv02",
+            name='d6_gv02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "use of hyphens within square brackets in regular expressions [-abc] ",
+                                'use of hyphens within square brackets in regular expressions [-abc] ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D6_G/d6_gv03.xsd"
+                        href='../ibmData/valid/D6_G/d6_gv03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gv03s"
+                name='d6_gv03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D6_G/d6_gv03.xml"
+                        href='../ibmData/valid/D6_G/d6_gv03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gv03i"
+                    name='d6_gv03i'
                 ),
             ],
-            name="d6_gv03",
+            name='d6_gv03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "use of hyphens within square brackets in regular expressions [bc-] ",
+                                'use of hyphens within square brackets in regular expressions [bc-] ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D6_G/d6_gv04.xsd"
+                        href='../ibmData/valid/D6_G/d6_gv04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gv04s"
+                name='d6_gv04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D6_G/d6_gv04.xml"
+                        href='../ibmData/valid/D6_G/d6_gv04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gv04i"
+                    name='d6_gv04i'
                 ),
             ],
-            name="d6_gv04",
+            name='d6_gv04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance use of hyphens within square brackets in regular expressions [a-c] ",
+                                'invalid instance use of hyphens within square brackets in regular expressions [a-c] ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii01.xsd"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii01.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gii01s"
+                name='d6_gii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii01.xml"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gii01i"
+                    name='d6_gii01i'
                 ),
             ],
-            name="d6_gii01",
+            name='d6_gii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] ",
+                                'invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] ',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii02.xsd"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii02.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gii02s"
+                name='d6_gii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii02.xml"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gii02i"
+                    name='d6_gii02i'
                 ),
             ],
-            name="d6_gii02",
+            name='d6_gii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                " invalid instance use of hyphens within square brackets in regular expressions [-abc] ",
+                                ' invalid instance use of hyphens within square brackets in regular expressions [-abc] ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii03.xsd"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii03.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gii03s"
+                name='d6_gii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii03.xml"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gii03i"
+                    name='d6_gii03i'
                 ),
             ],
-            name="d6_gii03",
+            name='d6_gii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance use of hyphens within square brackets in regular expressions [bc-] ",
+                                'invalid instance use of hyphens within square brackets in regular expressions [bc-] ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    href='http://www.w3.org/TR/xmlschema11-2/#regexs'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii04.xsd"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii04.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d6_gii04s"
+                name='d6_gii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D6_G/d6_gii04.xml"
+                        href='../ibmData/instance_invalid/D6_G/d6_gii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,18 +495,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d6_gii04i"
+                    name='d6_gii04i'
                 ),
             ],
-            name="d6_gii04",
+            name='d6_gii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="RegularExpression",
+    contributor='IBM',
+    name='RegularExpression',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

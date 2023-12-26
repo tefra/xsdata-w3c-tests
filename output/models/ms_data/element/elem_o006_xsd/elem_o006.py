@@ -13,7 +13,7 @@ class FooTest:
         metadata={
             "min_length": 3,
             "nillable": True,
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Root:
             "type": "Element",
             "min_length": 3,
             "nillable": True,
-        }
+        },
     )

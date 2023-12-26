@@ -14,20 +14,20 @@ class A1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     attr1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     attr2: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 

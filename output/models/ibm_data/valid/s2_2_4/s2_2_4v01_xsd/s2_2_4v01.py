@@ -13,13 +13,13 @@ class T1:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     a2: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class T0:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     e2: List[T1] = field(
         default_factory=list,
@@ -42,7 +42,7 @@ class T0:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     e3: List[T1] = field(
         default_factory=list,
@@ -50,7 +50,7 @@ class T0:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class RootType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     hi2: Optional[T0] = field(
         default=None,
@@ -73,7 +73,7 @@ class RootType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

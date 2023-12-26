@@ -3,5 +3,5 @@ from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicDecimalTotalDigits4(
-    value=Decimal("1524616")
+    value=Decimal('1524616')
 )

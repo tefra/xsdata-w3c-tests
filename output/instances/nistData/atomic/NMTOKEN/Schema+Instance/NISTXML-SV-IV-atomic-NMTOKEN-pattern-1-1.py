@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern1(
-    value="participants.file-interconnecting_will.v"
+    value='participants.file-interconnecting_will.v'
 )

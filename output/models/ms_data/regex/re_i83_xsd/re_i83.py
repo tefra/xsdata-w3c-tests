@@ -9,7 +9,7 @@ class Regex:
         metadata={
             "type": "Attribute",
             "pattern": r"\\.*,\\s*,\\S*,\\i*,\\I?,\\c+,\\C+,\\d{0,3},\\D{1,1000},\\w*,\\W+",
-        }
+        },
     )
 
 
@@ -24,5 +24,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenLength4(
     value=[
-        "perv",
-        "Lang",
-        "be.A",
-        "regi",
-        "in-d",
-        "voic",
-        "used",
-        "comm",
+        'perv',
+        'Lang',
+        'be.A',
+        'regi',
+        'in-d',
+        'voic',
+        'used',
+        'comm',
     ]
 )

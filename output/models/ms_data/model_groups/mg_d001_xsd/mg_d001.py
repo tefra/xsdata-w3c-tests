@@ -12,12 +12,12 @@ class Test:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

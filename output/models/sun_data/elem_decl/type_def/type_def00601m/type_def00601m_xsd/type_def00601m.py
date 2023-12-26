@@ -10,6 +10,4 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)

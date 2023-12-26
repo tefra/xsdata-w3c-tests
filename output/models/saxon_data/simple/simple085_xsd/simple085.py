@@ -11,5 +11,5 @@ class Elem:
         metadata={
             "white_space": "collapse",
             "pattern": r"Hello world",
-        }
+        },
     )

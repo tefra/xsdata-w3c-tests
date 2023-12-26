@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdWhiteSpace1(
-        value="yto-by_process-primarily-type_revolution.and-the_te"
+        value='yto-by_process-primarily-type_revolution.and-the_te'
     )
 )

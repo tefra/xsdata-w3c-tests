@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenPattern4(
-    value="224 Assuring Discovery Areas Street Assuring Provided , NE 13573"
+    value='224 Assuring Discovery Areas Street Assuring Provided , NE 13573'
 )

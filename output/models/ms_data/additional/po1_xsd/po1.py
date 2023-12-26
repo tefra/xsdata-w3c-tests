@@ -11,7 +11,7 @@ class Items:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -23,7 +23,7 @@ class Items:
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            }
+            },
         )
         quantity: Optional[int] = field(
             default=None,
@@ -32,7 +32,7 @@ class Items:
                 "namespace": "",
                 "required": True,
                 "max_exclusive": 100,
-            }
+            },
         )
         usprice: Optional[Decimal] = field(
             default=None,
@@ -41,13 +41,13 @@ class Items:
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            }
+            },
         )
         comment: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Element",
-            }
+            },
         )
         ship_date: Optional[XmlDate] = field(
             default=None,
@@ -55,7 +55,7 @@ class Items:
                 "name": "shipDate",
                 "type": "Element",
                 "namespace": "",
-            }
+            },
         )
         part_num: Optional[str] = field(
             default=None,
@@ -64,7 +64,7 @@ class Items:
                 "type": "Attribute",
                 "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
-            }
+            },
         )
 
 
@@ -79,7 +79,7 @@ class Usaddress:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     street: Optional[str] = field(
         default=None,
@@ -87,7 +87,7 @@ class Usaddress:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     city: Optional[str] = field(
         default=None,
@@ -95,7 +95,7 @@ class Usaddress:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     state: Optional[str] = field(
         default=None,
@@ -103,7 +103,7 @@ class Usaddress:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     zip: Optional[Decimal] = field(
         default=None,
@@ -111,14 +111,14 @@ class Usaddress:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     country: str = field(
         init=False,
         default="US",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -131,7 +131,7 @@ class Comment:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -144,7 +144,7 @@ class PurchaseOrderType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     bill_to: Optional[Usaddress] = field(
         default=None,
@@ -153,13 +153,13 @@ class PurchaseOrderType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     comment: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     items: Optional[Items] = field(
         default=None,
@@ -167,14 +167,14 @@ class PurchaseOrderType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     order_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "orderDate",
             "type": "Attribute",
-        }
+        },
     )
 
 

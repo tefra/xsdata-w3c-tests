@@ -8,12 +8,14 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-nonPositiveInteger-minInclusive-2-NS"
 class NistschemaSvIvAtomicNonPositiveIntegerMinInclusive2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonPositiveInteger-minInclusive-2"
-        namespace = "NISTSchema-SV-IV-atomic-nonPositiveInteger-minInclusive-2-NS"
+        namespace = (
+            "NISTSchema-SV-IV-atomic-nonPositiveInteger-minInclusive-2-NS"
+        )
 
     value: Optional[int] = field(
         default=None,
         metadata={
             "required": True,
             "min_inclusive": -927820889571802863,
-        }
+        },
     )

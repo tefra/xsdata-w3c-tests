@@ -14,5 +14,5 @@ class A:
         metadata={
             "required": True,
             "pattern": r"[b|c]+",
-        }
+        },
     )

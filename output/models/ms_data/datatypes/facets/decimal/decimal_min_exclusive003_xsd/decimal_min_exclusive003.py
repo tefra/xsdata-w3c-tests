@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "min_exclusive": Decimal("1.1"),
-        }
+        },
     )
 
 

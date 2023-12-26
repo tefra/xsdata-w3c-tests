@@ -5,7 +5,7 @@ from output.models.ms_data.datatypes.facets.notation.notation_length003_xsd.nota
 
 obj = Test(
     foo=FooType.Foo(
-        value="special test for datatypes that are attribute only",
+        value='special test for datatypes that are attribute only',
         attr_test=BuildNotation.MPEG
     )
 )

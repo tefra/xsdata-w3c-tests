@@ -14,7 +14,7 @@ class Root:
             "namespace": "",
             "required": True,
             "tokens": True,
-        }
+        },
     )
     idref: Optional[str] = field(
         default=None,
@@ -22,5 +22,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

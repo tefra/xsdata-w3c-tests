@@ -14,7 +14,7 @@ class Base:
         metadata={
             "type": "Attributes",
             "namespace": "urn:a urn:b",
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class Extension(Base):
         metadata={
             "type": "Attributes",
             "namespace": "urn:c",
-        }
+        },
     )
 
 
@@ -51,5 +51,5 @@ class Restriction(Base):
         metadata={
             "type": "Attributes",
             "namespace": "urn:a",
-        }
+        },
     )

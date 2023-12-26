@@ -14,7 +14,7 @@ class CInvalid:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -29,13 +29,13 @@ class Cs:
             "required": True,
             "min_length": 1,
             "max_length": 2,
-        }
+        },
     )
     a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class Fe1Valid:
             "required": True,
             "min_length": 1,
             "max_length": 2,
-        }
+        },
     )
 
 
@@ -66,7 +66,7 @@ class FeValid:
         metadata={
             "required": True,
             "max_length": 4,
-        }
+        },
     )
 
 
@@ -93,7 +93,7 @@ class Root:
                     "max_length": 4,
                 },
             ),
-        }
+        },
     )
 
 
@@ -106,5 +106,5 @@ class Cc(Cs):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

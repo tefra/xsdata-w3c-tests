@@ -5,20 +5,20 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Eden(
     any_element=[
         AnyElement(
-            qname="adam",
-            text="m"
+            qname='adam',
+            text='m'
         ),
         AnyElement(
-            qname="eve",
-            text="f"
+            qname='eve',
+            text='f'
         ),
         AnyElement(
-            qname="{http://genesis.com/}cain",
-            text="m"
+            qname='{http://genesis.com/}cain',
+            text='m'
         ),
         AnyElement(
-            qname="{http://genesis.com/}abel",
-            text="m"
+            qname='{http://genesis.com/}abel',
+            text='m'
         ),
     ]
 )

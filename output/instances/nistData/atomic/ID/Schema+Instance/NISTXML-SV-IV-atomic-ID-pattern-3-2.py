@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdPattern3(
-        value="_to_contribute_stim"
+        value='_to_contribute_stim'
     )
 )

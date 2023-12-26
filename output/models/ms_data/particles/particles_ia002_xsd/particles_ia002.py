@@ -14,14 +14,14 @@ class T1:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class Base:
             "min_occurs": 2,
             "max_occurs": 6,
             "nillable": True,
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -47,7 +47,7 @@ class Base:
             "namespace": "http://xsdtesting",
             "min_occurs": 2,
             "max_occurs": 6,
-        }
+        },
     )
 
 

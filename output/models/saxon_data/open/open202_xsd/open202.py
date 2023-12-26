@@ -20,14 +20,14 @@ class Doc:
         metadata={
             "name": "extra-number",
             "type": "Attribute",
-        }
+        },
     )
     extra_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "extra-date",
             "type": "Attribute",
-        }
+        },
     )
     a: Optional[AType] = field(
         default=None,
@@ -35,19 +35,19 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

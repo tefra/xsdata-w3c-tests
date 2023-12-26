@@ -14,14 +14,14 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
-        }
+        },
     )
     any_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -35,7 +35,7 @@ class Z:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 

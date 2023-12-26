@@ -6,6 +6,4 @@ class X:
     class Meta:
         name = "x"
 
-    value: str = field(
-        default=""
-    )
+    value: str = field(default="")

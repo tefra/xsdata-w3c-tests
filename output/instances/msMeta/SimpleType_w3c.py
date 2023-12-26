@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA001.xsd"
+                        href='../msData/simpleType/stA001.xsd'
                     ),
                 ],
                 expected=[
@@ -50,9 +50,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA001"
+                name='stA001'
             ),
-            name="stA001"
+            name='stA001'
         ),
         TestGroup(
             annotation=[
@@ -68,13 +68,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA002.xsd"
+                        href='../msData/simpleType/stA002.xsd'
                     ),
                 ],
                 expected=[
@@ -86,9 +86,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA002"
+                name='stA002'
             ),
-            name="stA002"
+            name='stA002'
         ),
         TestGroup(
             annotation=[
@@ -104,13 +104,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA003.xsd"
+                        href='../msData/simpleType/stA003.xsd'
                     ),
                 ],
                 expected=[
@@ -122,9 +122,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA003"
+                name='stA003'
             ),
-            name="stA003"
+            name='stA003'
         ),
         TestGroup(
             annotation=[
@@ -140,13 +140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA004.xsd"
+                        href='../msData/simpleType/stA004.xsd'
                     ),
                 ],
                 expected=[
@@ -158,9 +158,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA004"
+                name='stA004'
             ),
-            name="stA004"
+            name='stA004'
         ),
         TestGroup(
             annotation=[
@@ -176,13 +176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA005.xsd"
+                        href='../msData/simpleType/stA005.xsd'
                     ),
                 ],
                 expected=[
@@ -194,9 +194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA005"
+                name='stA005'
             ),
-            name="stA005"
+            name='stA005'
         ),
         TestGroup(
             annotation=[
@@ -212,13 +212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA006.xsd"
+                        href='../msData/simpleType/stA006.xsd'
                     ),
                 ],
                 expected=[
@@ -230,9 +230,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA006"
+                name='stA006'
             ),
-            name="stA006"
+            name='stA006'
         ),
         TestGroup(
             annotation=[
@@ -248,13 +248,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA007.xsd"
+                        href='../msData/simpleType/stA007.xsd'
                     ),
                 ],
                 expected=[
@@ -266,9 +266,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA007"
+                name='stA007'
             ),
-            name="stA007"
+            name='stA007'
         ),
         TestGroup(
             annotation=[
@@ -284,13 +284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA008.xsd"
+                        href='../msData/simpleType/stA008.xsd'
                     ),
                 ],
                 expected=[
@@ -302,9 +302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA008"
+                name='stA008'
             ),
-            name="stA008"
+            name='stA008'
         ),
         TestGroup(
             annotation=[
@@ -320,13 +320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA009.xsd"
+                        href='../msData/simpleType/stA009.xsd'
                     ),
                 ],
                 expected=[
@@ -338,9 +338,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA009"
+                name='stA009'
             ),
-            name="stA009"
+            name='stA009'
         ),
         TestGroup(
             annotation=[
@@ -356,13 +356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA010.xsd"
+                        href='../msData/simpleType/stA010.xsd'
                     ),
                 ],
                 expected=[
@@ -374,9 +374,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA010"
+                name='stA010'
             ),
-            name="stA010"
+            name='stA010'
         ),
         TestGroup(
             annotation=[
@@ -392,13 +392,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA011.xsd"
+                        href='../msData/simpleType/stA011.xsd'
                     ),
                 ],
                 expected=[
@@ -410,9 +410,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA011"
+                name='stA011'
             ),
-            name="stA011"
+            name='stA011'
         ),
         TestGroup(
             annotation=[
@@ -428,13 +428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA012.xsd"
+                        href='../msData/simpleType/stA012.xsd'
                     ),
                 ],
                 expected=[
@@ -446,9 +446,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA012"
+                name='stA012'
             ),
-            name="stA012"
+            name='stA012'
         ),
         TestGroup(
             annotation=[
@@ -464,13 +464,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA013.xsd"
+                        href='../msData/simpleType/stA013.xsd'
                     ),
                 ],
                 expected=[
@@ -482,9 +482,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA013"
+                name='stA013'
             ),
-            name="stA013"
+            name='stA013'
         ),
         TestGroup(
             annotation=[
@@ -500,13 +500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA014.xsd"
+                        href='../msData/simpleType/stA014.xsd'
                     ),
                 ],
                 expected=[
@@ -518,9 +518,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA014"
+                name='stA014'
             ),
-            name="stA014"
+            name='stA014'
         ),
         TestGroup(
             annotation=[
@@ -536,13 +536,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA015.xsd"
+                        href='../msData/simpleType/stA015.xsd'
                     ),
                 ],
                 expected=[
@@ -554,9 +554,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA015"
+                name='stA015'
             ),
-            name="stA015"
+            name='stA015'
         ),
         TestGroup(
             annotation=[
@@ -572,13 +572,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA016.xsd"
+                        href='../msData/simpleType/stA016.xsd'
                     ),
                 ],
                 expected=[
@@ -590,9 +590,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA016"
+                name='stA016'
             ),
-            name="stA016"
+            name='stA016'
         ),
         TestGroup(
             annotation=[
@@ -608,13 +608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA017.xsd"
+                        href='../msData/simpleType/stA017.xsd'
                     ),
                 ],
                 expected=[
@@ -626,9 +626,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA017"
+                name='stA017'
             ),
-            name="stA017"
+            name='stA017'
         ),
         TestGroup(
             annotation=[
@@ -644,13 +644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA018.xsd"
+                        href='../msData/simpleType/stA018.xsd'
                     ),
                 ],
                 expected=[
@@ -662,9 +662,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA018"
+                name='stA018'
             ),
-            name="stA018"
+            name='stA018'
         ),
         TestGroup(
             annotation=[
@@ -680,13 +680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA019.xsd"
+                        href='../msData/simpleType/stA019.xsd'
                     ),
                 ],
                 expected=[
@@ -698,9 +698,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA019"
+                name='stA019'
             ),
-            name="stA019"
+            name='stA019'
         ),
         TestGroup(
             annotation=[
@@ -708,7 +708,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : attribute with non-schema namespace",
+                                'TEST :Syntax Checking for simpleType Declaration : attribute with non-schema namespace',
                             ]
                         ),
                     ]
@@ -716,13 +716,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stA020.xsd"
+                        href='../msData/simpleType/stA020.xsd'
                     ),
                 ],
                 expected=[
@@ -734,9 +734,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stA020"
+                name='stA020'
             ),
-            name="stA020"
+            name='stA020'
         ),
         TestGroup(
             annotation=[
@@ -744,7 +744,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content of single annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : content of single annotation',
                             ]
                         ),
                     ]
@@ -752,13 +752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB001.xsd"
+                        href='../msData/simpleType/stB001.xsd'
                     ),
                 ],
                 expected=[
@@ -770,9 +770,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB001"
+                name='stB001'
             ),
-            name="stB001"
+            name='stB001'
         ),
         TestGroup(
             annotation=[
@@ -780,7 +780,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two annotations",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two annotations',
                             ]
                         ),
                     ]
@@ -788,13 +788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB002.xsd"
+                        href='../msData/simpleType/stB002.xsd'
                     ),
                 ],
                 expected=[
@@ -806,9 +806,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB002"
+                name='stB002'
             ),
-            name="stB002"
+            name='stB002'
         ),
         TestGroup(
             annotation=[
@@ -816,7 +816,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : content with restriction',
                             ]
                         ),
                     ]
@@ -824,13 +824,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB003.xsd"
+                        href='../msData/simpleType/stB003.xsd'
                     ),
                 ],
                 expected=[
@@ -842,9 +842,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB003"
+                name='stB003'
             ),
-            name="stB003"
+            name='stB003'
         ),
         TestGroup(
             annotation=[
@@ -852,7 +852,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two restrctions",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two restrctions',
                             ]
                         ),
                     ]
@@ -860,13 +860,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB004.xsd"
+                        href='../msData/simpleType/stB004.xsd'
                     ),
                 ],
                 expected=[
@@ -878,9 +878,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB004"
+                name='stB004'
             ),
-            name="stB004"
+            name='stB004'
         ),
         TestGroup(
             annotation=[
@@ -888,7 +888,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with restriction then annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : content with restriction then annotation',
                             ]
                         ),
                     ]
@@ -896,13 +896,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB005.xsd"
+                        href='../msData/simpleType/stB005.xsd'
                     ),
                 ],
                 expected=[
@@ -914,9 +914,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB005"
+                name='stB005'
             ),
-            name="stB005"
+            name='stB005'
         ),
         TestGroup(
             annotation=[
@@ -924,7 +924,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with annotation then restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : content with annotation then restriction',
                             ]
                         ),
                     ]
@@ -932,13 +932,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB006.xsd"
+                        href='../msData/simpleType/stB006.xsd'
                     ),
                 ],
                 expected=[
@@ -950,9 +950,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB006"
+                name='stB006'
             ),
-            name="stB006"
+            name='stB006'
         ),
         TestGroup(
             annotation=[
@@ -960,7 +960,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with restriction then attribute",
+                                'TEST :Syntax Checking for simpleType Declaration : content with restriction then attribute',
                             ]
                         ),
                     ]
@@ -968,13 +968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB007.xsd"
+                        href='../msData/simpleType/stB007.xsd'
                     ),
                 ],
                 expected=[
@@ -986,9 +986,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB007"
+                name='stB007'
             ),
-            name="stB007"
+            name='stB007'
         ),
         TestGroup(
             annotation=[
@@ -996,7 +996,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with list",
+                                'TEST :Syntax Checking for simpleType Declaration : content with list',
                             ]
                         ),
                     ]
@@ -1004,13 +1004,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB008.xsd"
+                        href='../msData/simpleType/stB008.xsd'
                     ),
                 ],
                 expected=[
@@ -1022,9 +1022,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB008"
+                name='stB008'
             ),
-            name="stB008"
+            name='stB008'
         ),
         TestGroup(
             annotation=[
@@ -1032,7 +1032,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two lists",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two lists',
                             ]
                         ),
                     ]
@@ -1040,13 +1040,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB009.xsd"
+                        href='../msData/simpleType/stB009.xsd'
                     ),
                 ],
                 expected=[
@@ -1058,9 +1058,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB009"
+                name='stB009'
             ),
-            name="stB009"
+            name='stB009'
         ),
         TestGroup(
             annotation=[
@@ -1068,7 +1068,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with list then annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : content with list then annotation',
                             ]
                         ),
                     ]
@@ -1076,13 +1076,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB010.xsd"
+                        href='../msData/simpleType/stB010.xsd'
                     ),
                 ],
                 expected=[
@@ -1094,9 +1094,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB010"
+                name='stB010'
             ),
-            name="stB010"
+            name='stB010'
         ),
         TestGroup(
             annotation=[
@@ -1104,7 +1104,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with annotation then list",
+                                'TEST :Syntax Checking for simpleType Declaration : content with annotation then list',
                             ]
                         ),
                     ]
@@ -1112,13 +1112,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB011.xsd"
+                        href='../msData/simpleType/stB011.xsd'
                     ),
                 ],
                 expected=[
@@ -1130,9 +1130,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB011"
+                name='stB011'
             ),
-            name="stB011"
+            name='stB011'
         ),
         TestGroup(
             annotation=[
@@ -1140,7 +1140,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with union",
+                                'TEST :Syntax Checking for simpleType Declaration : content with union',
                             ]
                         ),
                     ]
@@ -1148,13 +1148,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB012.xsd"
+                        href='../msData/simpleType/stB012.xsd'
                     ),
                 ],
                 expected=[
@@ -1166,9 +1166,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB012"
+                name='stB012'
             ),
-            name="stB012"
+            name='stB012'
         ),
         TestGroup(
             annotation=[
@@ -1176,7 +1176,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two unions",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two unions',
                             ]
                         ),
                     ]
@@ -1184,13 +1184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB013.xsd"
+                        href='../msData/simpleType/stB013.xsd'
                     ),
                 ],
                 expected=[
@@ -1202,9 +1202,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB013"
+                name='stB013'
             ),
-            name="stB013"
+            name='stB013'
         ),
         TestGroup(
             annotation=[
@@ -1212,7 +1212,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with union then annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : content with union then annotation',
                             ]
                         ),
                     ]
@@ -1220,13 +1220,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB014.xsd"
+                        href='../msData/simpleType/stB014.xsd'
                     ),
                 ],
                 expected=[
@@ -1238,9 +1238,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB014"
+                name='stB014'
             ),
-            name="stB014"
+            name='stB014'
         ),
         TestGroup(
             annotation=[
@@ -1248,7 +1248,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with annotation then union",
+                                'TEST :Syntax Checking for simpleType Declaration : content with annotation then union',
                             ]
                         ),
                     ]
@@ -1256,13 +1256,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB015.xsd"
+                        href='../msData/simpleType/stB015.xsd'
                     ),
                 ],
                 expected=[
@@ -1274,9 +1274,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB015"
+                name='stB015'
             ),
-            name="stB015"
+            name='stB015'
         ),
         TestGroup(
             annotation=[
@@ -1284,7 +1284,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two annotations then restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two annotations then restriction',
                             ]
                         ),
                     ]
@@ -1292,13 +1292,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB016.xsd"
+                        href='../msData/simpleType/stB016.xsd'
                     ),
                 ],
                 expected=[
@@ -1310,9 +1310,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB016"
+                name='stB016'
             ),
-            name="stB016"
+            name='stB016'
         ),
         TestGroup(
             annotation=[
@@ -1320,7 +1320,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two annotations then list",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two annotations then list',
                             ]
                         ),
                     ]
@@ -1328,13 +1328,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB017.xsd"
+                        href='../msData/simpleType/stB017.xsd'
                     ),
                 ],
                 expected=[
@@ -1346,9 +1346,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB017"
+                name='stB017'
             ),
-            name="stB017"
+            name='stB017'
         ),
         TestGroup(
             annotation=[
@@ -1356,7 +1356,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with two annotations then union",
+                                'TEST :Syntax Checking for simpleType Declaration : content with two annotations then union',
                             ]
                         ),
                     ]
@@ -1364,13 +1364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB018.xsd"
+                        href='../msData/simpleType/stB018.xsd'
                     ),
                 ],
                 expected=[
@@ -1382,9 +1382,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB018"
+                name='stB018'
             ),
-            name="stB018"
+            name='stB018'
         ),
         TestGroup(
             annotation=[
@@ -1392,7 +1392,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with list then restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : content with list then restriction',
                             ]
                         ),
                     ]
@@ -1400,13 +1400,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB019.xsd"
+                        href='../msData/simpleType/stB019.xsd'
                     ),
                 ],
                 expected=[
@@ -1418,9 +1418,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB019"
+                name='stB019'
             ),
-            name="stB019"
+            name='stB019'
         ),
         TestGroup(
             annotation=[
@@ -1428,7 +1428,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with list then union",
+                                'TEST :Syntax Checking for simpleType Declaration : content with list then union',
                             ]
                         ),
                     ]
@@ -1436,13 +1436,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB020.xsd"
+                        href='../msData/simpleType/stB020.xsd'
                     ),
                 ],
                 expected=[
@@ -1454,9 +1454,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB020"
+                name='stB020'
             ),
-            name="stB020"
+            name='stB020'
         ),
         TestGroup(
             annotation=[
@@ -1464,7 +1464,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with restriction then list",
+                                'TEST :Syntax Checking for simpleType Declaration : content with restriction then list',
                             ]
                         ),
                     ]
@@ -1472,13 +1472,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB021.xsd"
+                        href='../msData/simpleType/stB021.xsd'
                     ),
                 ],
                 expected=[
@@ -1490,9 +1490,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB021"
+                name='stB021'
             ),
-            name="stB021"
+            name='stB021'
         ),
         TestGroup(
             annotation=[
@@ -1500,7 +1500,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with restriction then union",
+                                'TEST :Syntax Checking for simpleType Declaration : content with restriction then union',
                             ]
                         ),
                     ]
@@ -1508,13 +1508,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB022.xsd"
+                        href='../msData/simpleType/stB022.xsd'
                     ),
                 ],
                 expected=[
@@ -1526,9 +1526,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB022"
+                name='stB022'
             ),
-            name="stB022"
+            name='stB022'
         ),
         TestGroup(
             annotation=[
@@ -1536,7 +1536,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with union then list",
+                                'TEST :Syntax Checking for simpleType Declaration : content with union then list',
                             ]
                         ),
                     ]
@@ -1544,13 +1544,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB023.xsd"
+                        href='../msData/simpleType/stB023.xsd'
                     ),
                 ],
                 expected=[
@@ -1562,9 +1562,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB023"
+                name='stB023'
             ),
-            name="stB023"
+            name='stB023'
         ),
         TestGroup(
             annotation=[
@@ -1572,7 +1572,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : content with union then restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : content with union then restriction',
                             ]
                         ),
                     ]
@@ -1580,13 +1580,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stB024.xsd"
+                        href='../msData/simpleType/stB024.xsd'
                     ),
                 ],
                 expected=[
@@ -1598,9 +1598,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stB024"
+                name='stB024'
             ),
-            name="stB024"
+            name='stB024'
         ),
         TestGroup(
             annotation=[
@@ -1616,13 +1616,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC001.xsd"
+                        href='../msData/simpleType/stC001.xsd'
                     ),
                 ],
                 expected=[
@@ -1634,9 +1634,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC001"
+                name='stC001'
             ),
-            name="stC001"
+            name='stC001'
         ),
         TestGroup(
             annotation=[
@@ -1652,13 +1652,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC002.xsd"
+                        href='../msData/simpleType/stC002.xsd'
                     ),
                 ],
                 expected=[
@@ -1670,9 +1670,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC002"
+                name='stC002'
             ),
-            name="stC002"
+            name='stC002'
         ),
         TestGroup(
             annotation=[
@@ -1688,13 +1688,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC003.xsd"
+                        href='../msData/simpleType/stC003.xsd'
                     ),
                 ],
                 expected=[
@@ -1706,9 +1706,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC003"
+                name='stC003'
             ),
-            name="stC003"
+            name='stC003'
         ),
         TestGroup(
             annotation=[
@@ -1724,13 +1724,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC004.xsd"
+                        href='../msData/simpleType/stC004.xsd'
                     ),
                 ],
                 expected=[
@@ -1742,9 +1742,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC004"
+                name='stC004'
             ),
-            name="stC004"
+            name='stC004'
         ),
         TestGroup(
             annotation=[
@@ -1760,13 +1760,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC005.xsd"
+                        href='../msData/simpleType/stC005.xsd'
                     ),
                 ],
                 expected=[
@@ -1778,9 +1778,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC005"
+                name='stC005'
             ),
-            name="stC005"
+            name='stC005'
         ),
         TestGroup(
             annotation=[
@@ -1796,13 +1796,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC006.xsd"
+                        href='../msData/simpleType/stC006.xsd'
                     ),
                 ],
                 expected=[
@@ -1814,9 +1814,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC006"
+                name='stC006'
             ),
-            name="stC006"
+            name='stC006'
         ),
         TestGroup(
             annotation=[
@@ -1832,13 +1832,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC007.xsd"
+                        href='../msData/simpleType/stC007.xsd'
                     ),
                 ],
                 expected=[
@@ -1850,9 +1850,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC007"
+                name='stC007'
             ),
-            name="stC007"
+            name='stC007'
         ),
         TestGroup(
             annotation=[
@@ -1868,13 +1868,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC008.xsd"
+                        href='../msData/simpleType/stC008.xsd'
                     ),
                 ],
                 expected=[
@@ -1886,9 +1886,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC008"
+                name='stC008'
             ),
-            name="stC008"
+            name='stC008'
         ),
         TestGroup(
             annotation=[
@@ -1904,13 +1904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC009.xsd"
+                        href='../msData/simpleType/stC009.xsd'
                     ),
                 ],
                 expected=[
@@ -1922,9 +1922,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC009"
+                name='stC009'
             ),
-            name="stC009"
+            name='stC009'
         ),
         TestGroup(
             annotation=[
@@ -1932,7 +1932,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. content of simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. content of simpleType',
                             ]
                         ),
                     ]
@@ -1940,13 +1940,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC010.xsd"
+                        href='../msData/simpleType/stC010.xsd'
                     ),
                 ],
                 expected=[
@@ -1958,9 +1958,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC010"
+                name='stC010'
             ),
-            name="stC010"
+            name='stC010'
         ),
         TestGroup(
             annotation=[
@@ -1968,7 +1968,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. content of two simpleTypes",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. content of two simpleTypes',
                             ]
                         ),
                     ]
@@ -1976,13 +1976,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC011.xsd"
+                        href='../msData/simpleType/stC011.xsd'
                     ),
                 ],
                 expected=[
@@ -1994,9 +1994,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC011"
+                name='stC011'
             ),
-            name="stC011"
+            name='stC011'
         ),
         TestGroup(
             annotation=[
@@ -2004,7 +2004,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of duration",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of duration',
                             ]
                         ),
                     ]
@@ -2012,13 +2012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC012.xsd"
+                        href='../msData/simpleType/stC012.xsd'
                     ),
                 ],
                 expected=[
@@ -2030,9 +2030,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC012"
+                name='stC012'
             ),
-            name="stC012"
+            name='stC012'
         ),
         TestGroup(
             annotation=[
@@ -2040,7 +2040,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of encoding",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of encoding',
                             ]
                         ),
                     ]
@@ -2048,13 +2048,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC013.xsd"
+                        href='../msData/simpleType/stC013.xsd'
                     ),
                 ],
                 expected=[
@@ -2066,9 +2066,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC013"
+                name='stC013'
             ),
-            name="stC013"
+            name='stC013'
         ),
         TestGroup(
             annotation=[
@@ -2076,7 +2076,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of enumeration",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of enumeration',
                             ]
                         ),
                     ]
@@ -2084,13 +2084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC014.xsd"
+                        href='../msData/simpleType/stC014.xsd'
                     ),
                 ],
                 expected=[
@@ -2102,9 +2102,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC014"
+                name='stC014'
             ),
-            name="stC014"
+            name='stC014'
         ),
         TestGroup(
             annotation=[
@@ -2112,7 +2112,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of length",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of length',
                             ]
                         ),
                     ]
@@ -2120,13 +2120,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC015.xsd"
+                        href='../msData/simpleType/stC015.xsd'
                     ),
                 ],
                 expected=[
@@ -2138,9 +2138,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC015"
+                name='stC015'
             ),
-            name="stC015"
+            name='stC015'
         ),
         TestGroup(
             annotation=[
@@ -2148,7 +2148,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxExclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxExclusive',
                             ]
                         ),
                     ]
@@ -2156,13 +2156,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC016.xsd"
+                        href='../msData/simpleType/stC016.xsd'
                     ),
                 ],
                 expected=[
@@ -2174,9 +2174,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC016"
+                name='stC016'
             ),
-            name="stC016"
+            name='stC016'
         ),
         TestGroup(
             annotation=[
@@ -2184,7 +2184,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxInclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxInclusive',
                             ]
                         ),
                     ]
@@ -2192,13 +2192,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC017.xsd"
+                        href='../msData/simpleType/stC017.xsd'
                     ),
                 ],
                 expected=[
@@ -2210,9 +2210,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC017"
+                name='stC017'
             ),
-            name="stC017"
+            name='stC017'
         ),
         TestGroup(
             annotation=[
@@ -2220,7 +2220,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxLength",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxLength',
                             ]
                         ),
                     ]
@@ -2228,13 +2228,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC018.xsd"
+                        href='../msData/simpleType/stC018.xsd'
                     ),
                 ],
                 expected=[
@@ -2246,9 +2246,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC018"
+                name='stC018'
             ),
-            name="stC018"
+            name='stC018'
         ),
         TestGroup(
             annotation=[
@@ -2256,7 +2256,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minExclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minExclusive',
                             ]
                         ),
                     ]
@@ -2264,13 +2264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC019.xsd"
+                        href='../msData/simpleType/stC019.xsd'
                     ),
                 ],
                 expected=[
@@ -2282,9 +2282,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC019"
+                name='stC019'
             ),
-            name="stC019"
+            name='stC019'
         ),
         TestGroup(
             annotation=[
@@ -2292,7 +2292,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minInclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minInclusive',
                             ]
                         ),
                     ]
@@ -2300,13 +2300,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC020.xsd"
+                        href='../msData/simpleType/stC020.xsd'
                     ),
                 ],
                 expected=[
@@ -2318,9 +2318,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC020"
+                name='stC020'
             ),
-            name="stC020"
+            name='stC020'
         ),
         TestGroup(
             annotation=[
@@ -2328,7 +2328,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minLength",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minLength',
                             ]
                         ),
                     ]
@@ -2336,13 +2336,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC021.xsd"
+                        href='../msData/simpleType/stC021.xsd'
                     ),
                 ],
                 expected=[
@@ -2354,9 +2354,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC021"
+                name='stC021'
             ),
-            name="stC021"
+            name='stC021'
         ),
         TestGroup(
             annotation=[
@@ -2364,7 +2364,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of pattern",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of pattern',
                             ]
                         ),
                     ]
@@ -2372,13 +2372,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC022.xsd"
+                        href='../msData/simpleType/stC022.xsd'
                     ),
                 ],
                 expected=[
@@ -2390,9 +2390,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC022"
+                name='stC022'
             ),
-            name="stC022"
+            name='stC022'
         ),
         TestGroup(
             annotation=[
@@ -2400,7 +2400,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of period",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of period',
                             ]
                         ),
                     ]
@@ -2408,13 +2408,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC023.xsd"
+                        href='../msData/simpleType/stC023.xsd'
                     ),
                 ],
                 expected=[
@@ -2426,9 +2426,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC023"
+                name='stC023'
             ),
-            name="stC023"
+            name='stC023'
         ),
         TestGroup(
             annotation=[
@@ -2436,7 +2436,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of totalDigits",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of totalDigits',
                             ]
                         ),
                     ]
@@ -2444,13 +2444,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC024.xsd"
+                        href='../msData/simpleType/stC024.xsd'
                     ),
                 ],
                 expected=[
@@ -2462,9 +2462,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC024"
+                name='stC024'
             ),
-            name="stC024"
+            name='stC024'
         ),
         TestGroup(
             annotation=[
@@ -2472,7 +2472,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of fractionDigits",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of fractionDigits',
                             ]
                         ),
                     ]
@@ -2480,13 +2480,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC025.xsd"
+                        href='../msData/simpleType/stC025.xsd'
                     ),
                 ],
                 expected=[
@@ -2498,9 +2498,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC025"
+                name='stC025'
             ),
-            name="stC025"
+            name='stC025'
         ),
         TestGroup(
             annotation=[
@@ -2508,7 +2508,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of whiteSpace",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of whiteSpace',
                             ]
                         ),
                     ]
@@ -2516,13 +2516,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC026.xsd"
+                        href='../msData/simpleType/stC026.xsd'
                     ),
                 ],
                 expected=[
@@ -2534,9 +2534,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC026"
+                name='stC026'
             ),
-            name="stC026"
+            name='stC026'
         ),
         TestGroup(
             annotation=[
@@ -2544,7 +2544,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of attribute",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of attribute',
                             ]
                         ),
                     ]
@@ -2552,13 +2552,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC027.xsd"
+                        href='../msData/simpleType/stC027.xsd'
                     ),
                 ],
                 expected=[
@@ -2570,9 +2570,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC027"
+                name='stC027'
             ),
-            name="stC027"
+            name='stC027'
         ),
         TestGroup(
             annotation=[
@@ -2580,7 +2580,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. content of attributeGroup",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. content of attributeGroup',
                             ]
                         ),
                     ]
@@ -2588,13 +2588,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC028.xsd"
+                        href='../msData/simpleType/stC028.xsd'
                     ),
                 ],
                 expected=[
@@ -2606,9 +2606,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC028"
+                name='stC028'
             ),
-            name="stC028"
+            name='stC028'
         ),
         TestGroup(
             annotation=[
@@ -2616,7 +2616,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. content of anyAttribute",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. content of anyAttribute',
                             ]
                         ),
                     ]
@@ -2624,13 +2624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC029.xsd"
+                        href='../msData/simpleType/stC029.xsd'
                     ),
                 ],
                 expected=[
@@ -2642,9 +2642,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC029"
+                name='stC029'
             ),
-            name="stC029"
+            name='stC029'
         ),
         TestGroup(
             annotation=[
@@ -2660,13 +2660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC030.xsd"
+                        href='../msData/simpleType/stC030.xsd'
                     ),
                 ],
                 expected=[
@@ -2678,9 +2678,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC030"
+                name='stC030'
             ),
-            name="stC030"
+            name='stC030'
         ),
         TestGroup(
             annotation=[
@@ -2696,13 +2696,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC031.xsd"
+                        href='../msData/simpleType/stC031.xsd'
                     ),
                 ],
                 expected=[
@@ -2714,9 +2714,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC031"
+                name='stC031'
             ),
-            name="stC031"
+            name='stC031'
         ),
         TestGroup(
             annotation=[
@@ -2724,7 +2724,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. content of simpleType and length=5",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. content of simpleType and length=5',
                             ]
                         ),
                     ]
@@ -2732,13 +2732,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC032.xsd"
+                        href='../msData/simpleType/stC032.xsd'
                     ),
                 ],
                 expected=[
@@ -2750,9 +2750,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC032"
+                name='stC032'
             ),
-            name="stC032"
+            name='stC032'
         ),
         TestGroup(
             annotation=[
@@ -2760,7 +2760,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Restriction. attribute with non-schema namespace",
+                                'TEST :Syntax Checking for simpleType Declaration : Restriction. attribute with non-schema namespace',
                             ]
                         ),
                     ]
@@ -2768,13 +2768,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC033.xsd"
+                        href='../msData/simpleType/stC033.xsd'
                     ),
                 ],
                 expected=[
@@ -2786,9 +2786,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC033"
+                name='stC033'
             ),
-            name="stC033"
+            name='stC033'
         ),
         TestGroup(
             annotation=[
@@ -2796,7 +2796,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : error for duration value that is not conformed to the duration format.",
+                                'TEST :Syntax Checking for simpleType Declaration : error for duration value that is not conformed to the duration format.',
                             ]
                         ),
                     ]
@@ -2804,13 +2804,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC034.xsd"
+                        href='../msData/simpleType/stC034.xsd'
                     ),
                 ],
                 expected=[
@@ -2822,12 +2822,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC034"
+                name='stC034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stC034.xml"
+                        href='../msData/simpleType/stC034.xml'
                     ),
                     expected=[
                         Expected(
@@ -2838,10 +2838,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stC034.i"
+                    name='stC034.i'
                 ),
             ],
-            name="stC034"
+            name='stC034'
         ),
         TestGroup(
             annotation=[
@@ -2849,7 +2849,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : fraction of second for the duration datatype",
+                                'TEST :Syntax Checking for simpleType Declaration : fraction of second for the duration datatype',
                             ]
                         ),
                     ]
@@ -2857,13 +2857,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stC035.xsd"
+                        href='../msData/simpleType/stC035.xsd'
                     ),
                 ],
                 expected=[
@@ -2875,9 +2875,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stC035"
+                name='stC035'
             ),
-            name="stC035"
+            name='stC035'
         ),
         TestGroup(
             annotation=[
@@ -2893,13 +2893,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD001.xsd"
+                        href='../msData/simpleType/stD001.xsd'
                     ),
                 ],
                 expected=[
@@ -2911,9 +2911,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD001"
+                name='stD001'
             ),
-            name="stD001"
+            name='stD001'
         ),
         TestGroup(
             annotation=[
@@ -2929,13 +2929,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD002.xsd"
+                        href='../msData/simpleType/stD002.xsd'
                     ),
                 ],
                 expected=[
@@ -2947,9 +2947,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD002"
+                name='stD002'
             ),
-            name="stD002"
+            name='stD002'
         ),
         TestGroup(
             annotation=[
@@ -2965,13 +2965,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD003.xsd"
+                        href='../msData/simpleType/stD003.xsd'
                     ),
                 ],
                 expected=[
@@ -2983,9 +2983,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD003"
+                name='stD003'
             ),
-            name="stD003"
+            name='stD003'
         ),
         TestGroup(
             annotation=[
@@ -3001,13 +3001,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD004.xsd"
+                        href='../msData/simpleType/stD004.xsd'
                     ),
                 ],
                 expected=[
@@ -3019,9 +3019,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD004"
+                name='stD004'
             ),
-            name="stD004"
+            name='stD004'
         ),
         TestGroup(
             annotation=[
@@ -3037,13 +3037,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD005.xsd"
+                        href='../msData/simpleType/stD005.xsd'
                     ),
                 ],
                 expected=[
@@ -3055,9 +3055,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD005"
+                name='stD005'
             ),
-            name="stD005"
+            name='stD005'
         ),
         TestGroup(
             annotation=[
@@ -3073,13 +3073,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD006.xsd"
+                        href='../msData/simpleType/stD006.xsd'
                     ),
                 ],
                 expected=[
@@ -3091,9 +3091,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD006"
+                name='stD006'
             ),
-            name="stD006"
+            name='stD006'
         ),
         TestGroup(
             annotation=[
@@ -3109,13 +3109,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD007.xsd"
+                        href='../msData/simpleType/stD007.xsd'
                     ),
                 ],
                 expected=[
@@ -3127,9 +3127,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD007"
+                name='stD007'
             ),
-            name="stD007"
+            name='stD007'
         ),
         TestGroup(
             annotation=[
@@ -3145,13 +3145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD008.xsd"
+                        href='../msData/simpleType/stD008.xsd'
                     ),
                 ],
                 expected=[
@@ -3163,9 +3163,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD008"
+                name='stD008'
             ),
-            name="stD008"
+            name='stD008'
         ),
         TestGroup(
             annotation=[
@@ -3181,13 +3181,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD009.xsd"
+                        href='../msData/simpleType/stD009.xsd'
                     ),
                 ],
                 expected=[
@@ -3199,9 +3199,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD009"
+                name='stD009'
             ),
-            name="stD009"
+            name='stD009'
         ),
         TestGroup(
             annotation=[
@@ -3217,13 +3217,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD010.xsd"
+                        href='../msData/simpleType/stD010.xsd'
                     ),
                 ],
                 expected=[
@@ -3235,9 +3235,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD010"
+                name='stD010'
             ),
-            name="stD010"
+            name='stD010'
         ),
         TestGroup(
             annotation=[
@@ -3245,7 +3245,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List attribute with non-schema namespace",
+                                'TEST :Syntax Checking for simpleType Declaration : List attribute with non-schema namespace',
                             ]
                         ),
                     ]
@@ -3253,13 +3253,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD011.xsd"
+                        href='../msData/simpleType/stD011.xsd'
                     ),
                 ],
                 expected=[
@@ -3271,9 +3271,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD011"
+                name='stD011'
             ),
-            name="stD011"
+            name='stD011'
         ),
         TestGroup(
             annotation=[
@@ -3281,7 +3281,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List content is empty",
+                                'TEST :Syntax Checking for simpleType Declaration : List content is empty',
                             ]
                         ),
                     ]
@@ -3289,13 +3289,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD012.xsd"
+                        href='../msData/simpleType/stD012.xsd'
                     ),
                 ],
                 expected=[
@@ -3307,9 +3307,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD012"
+                name='stD012'
             ),
-            name="stD012"
+            name='stD012'
         ),
         TestGroup(
             annotation=[
@@ -3317,7 +3317,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List content of single annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : List content of single annotation',
                             ]
                         ),
                     ]
@@ -3325,13 +3325,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD013.xsd"
+                        href='../msData/simpleType/stD013.xsd'
                     ),
                 ],
                 expected=[
@@ -3343,9 +3343,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD013"
+                name='stD013'
             ),
-            name="stD013"
+            name='stD013'
         ),
         TestGroup(
             annotation=[
@@ -3353,7 +3353,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List content of single annotation then simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : List content of single annotation then simpleType',
                             ]
                         ),
                     ]
@@ -3361,13 +3361,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD014.xsd"
+                        href='../msData/simpleType/stD014.xsd'
                     ),
                 ],
                 expected=[
@@ -3379,9 +3379,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD014"
+                name='stD014'
             ),
-            name="stD014"
+            name='stD014'
         ),
         TestGroup(
             annotation=[
@@ -3389,7 +3389,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List content of two simpleTypes",
+                                'TEST :Syntax Checking for simpleType Declaration : List content of two simpleTypes',
                             ]
                         ),
                     ]
@@ -3397,13 +3397,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD015.xsd"
+                        href='../msData/simpleType/stD015.xsd'
                     ),
                 ],
                 expected=[
@@ -3415,9 +3415,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD015"
+                name='stD015'
             ),
-            name="stD015"
+            name='stD015'
         ),
         TestGroup(
             annotation=[
@@ -3425,7 +3425,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List content of two annotations then simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : List content of two annotations then simpleType',
                             ]
                         ),
                     ]
@@ -3433,13 +3433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD016.xsd"
+                        href='../msData/simpleType/stD016.xsd'
                     ),
                 ],
                 expected=[
@@ -3451,9 +3451,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD016"
+                name='stD016'
             ),
-            name="stD016"
+            name='stD016'
         ),
         TestGroup(
             annotation=[
@@ -3461,7 +3461,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : List content of simpleType then annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : List content of simpleType then annotation',
                             ]
                         ),
                     ]
@@ -3469,13 +3469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD017.xsd"
+                        href='../msData/simpleType/stD017.xsd'
                     ),
                 ],
                 expected=[
@@ -3487,9 +3487,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD017"
+                name='stD017'
             ),
-            name="stD017"
+            name='stD017'
         ),
         TestGroup(
             annotation=[
@@ -3505,13 +3505,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD018.xsd"
+                        href='../msData/simpleType/stD018.xsd'
                     ),
                 ],
                 expected=[
@@ -3523,9 +3523,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD018"
+                name='stD018'
             ),
-            name="stD018"
+            name='stD018'
         ),
         TestGroup(
             annotation=[
@@ -3541,13 +3541,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD019.xsd"
+                        href='../msData/simpleType/stD019.xsd'
                     ),
                 ],
                 expected=[
@@ -3559,9 +3559,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD019"
+                name='stD019'
             ),
-            name="stD019"
+            name='stD019'
         ),
         TestGroup(
             annotation=[
@@ -3577,13 +3577,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD020.xsd"
+                        href='../msData/simpleType/stD020.xsd'
                     ),
                 ],
                 expected=[
@@ -3595,9 +3595,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD020"
+                name='stD020'
             ),
-            name="stD020"
+            name='stD020'
         ),
         TestGroup(
             annotation=[
@@ -3613,13 +3613,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stD021.xsd"
+                        href='../msData/simpleType/stD021.xsd'
                     ),
                 ],
                 expected=[
@@ -3631,9 +3631,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stD021"
+                name='stD021'
             ),
-            name="stD021"
+            name='stD021'
         ),
         TestGroup(
             annotation=[
@@ -3649,13 +3649,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE001.xsd"
+                        href='../msData/simpleType/stE001.xsd'
                     ),
                 ],
                 expected=[
@@ -3667,9 +3667,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE001"
+                name='stE001'
             ),
-            name="stE001"
+            name='stE001'
         ),
         TestGroup(
             annotation=[
@@ -3685,13 +3685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE002.xsd"
+                        href='../msData/simpleType/stE002.xsd'
                     ),
                 ],
                 expected=[
@@ -3703,9 +3703,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE002"
+                name='stE002'
             ),
-            name="stE002"
+            name='stE002'
         ),
         TestGroup(
             annotation=[
@@ -3721,13 +3721,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE003.xsd"
+                        href='../msData/simpleType/stE003.xsd'
                     ),
                 ],
                 expected=[
@@ -3739,9 +3739,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE003"
+                name='stE003'
             ),
-            name="stE003"
+            name='stE003'
         ),
         TestGroup(
             annotation=[
@@ -3757,13 +3757,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE004.xsd"
+                        href='../msData/simpleType/stE004.xsd'
                     ),
                 ],
                 expected=[
@@ -3775,9 +3775,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE004"
+                name='stE004'
             ),
-            name="stE004"
+            name='stE004'
         ),
         TestGroup(
             annotation=[
@@ -3793,13 +3793,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE005.xsd"
+                        href='../msData/simpleType/stE005.xsd'
                     ),
                 ],
                 expected=[
@@ -3811,9 +3811,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE005"
+                name='stE005'
             ),
-            name="stE005"
+            name='stE005'
         ),
         TestGroup(
             annotation=[
@@ -3829,13 +3829,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE006.xsd"
+                        href='../msData/simpleType/stE006.xsd'
                     ),
                 ],
                 expected=[
@@ -3847,9 +3847,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE006"
+                name='stE006'
             ),
-            name="stE006"
+            name='stE006'
         ),
         TestGroup(
             annotation=[
@@ -3865,13 +3865,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE007.xsd"
+                        href='../msData/simpleType/stE007.xsd'
                     ),
                 ],
                 expected=[
@@ -3883,9 +3883,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE007"
+                name='stE007'
             ),
-            name="stE007"
+            name='stE007'
         ),
         TestGroup(
             annotation=[
@@ -3901,13 +3901,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE008.xsd"
+                        href='../msData/simpleType/stE008.xsd'
                     ),
                 ],
                 expected=[
@@ -3919,9 +3919,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE008"
+                name='stE008'
             ),
-            name="stE008"
+            name='stE008'
         ),
         TestGroup(
             annotation=[
@@ -3929,7 +3929,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union attribute with non-schema namespace",
+                                'TEST :Syntax Checking for simpleType Declaration : Union attribute with non-schema namespace',
                             ]
                         ),
                     ]
@@ -3937,13 +3937,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE009.xsd"
+                        href='../msData/simpleType/stE009.xsd'
                     ),
                 ],
                 expected=[
@@ -3955,9 +3955,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE009"
+                name='stE009'
             ),
-            name="stE009"
+            name='stE009'
         ),
         TestGroup(
             annotation=[
@@ -3965,7 +3965,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union content is empty",
+                                'TEST :Syntax Checking for simpleType Declaration : Union content is empty',
                             ]
                         ),
                     ]
@@ -3973,13 +3973,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE010.xsd"
+                        href='../msData/simpleType/stE010.xsd'
                     ),
                 ],
                 expected=[
@@ -3991,9 +3991,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE010"
+                name='stE010'
             ),
-            name="stE010"
+            name='stE010'
         ),
         TestGroup(
             annotation=[
@@ -4001,7 +4001,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union memberTypes attribute and content of single annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : Union memberTypes attribute and content of single annotation',
                             ]
                         ),
                     ]
@@ -4009,13 +4009,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE011.xsd"
+                        href='../msData/simpleType/stE011.xsd'
                     ),
                 ],
                 expected=[
@@ -4027,9 +4027,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE011"
+                name='stE011'
             ),
-            name="stE011"
+            name='stE011'
         ),
         TestGroup(
             annotation=[
@@ -4037,7 +4037,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union no attributes and content of single annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : Union no attributes and content of single annotation',
                             ]
                         ),
                     ]
@@ -4045,13 +4045,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE012.xsd"
+                        href='../msData/simpleType/stE012.xsd'
                     ),
                 ],
                 expected=[
@@ -4063,9 +4063,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE012"
+                name='stE012'
             ),
-            name="stE012"
+            name='stE012'
         ),
         TestGroup(
             annotation=[
@@ -4073,7 +4073,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union content of single annotation then simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : Union content of single annotation then simpleType',
                             ]
                         ),
                     ]
@@ -4081,13 +4081,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE013.xsd"
+                        href='../msData/simpleType/stE013.xsd'
                     ),
                 ],
                 expected=[
@@ -4099,9 +4099,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE013"
+                name='stE013'
             ),
-            name="stE013"
+            name='stE013'
         ),
         TestGroup(
             annotation=[
@@ -4109,7 +4109,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union content of two simpleTypes",
+                                'TEST :Syntax Checking for simpleType Declaration : Union content of two simpleTypes',
                             ]
                         ),
                     ]
@@ -4117,13 +4117,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE014.xsd"
+                        href='../msData/simpleType/stE014.xsd'
                     ),
                 ],
                 expected=[
@@ -4135,9 +4135,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE014"
+                name='stE014'
             ),
-            name="stE014"
+            name='stE014'
         ),
         TestGroup(
             annotation=[
@@ -4145,7 +4145,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union content of two annotations then simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : Union content of two annotations then simpleType',
                             ]
                         ),
                     ]
@@ -4153,13 +4153,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE015.xsd"
+                        href='../msData/simpleType/stE015.xsd'
                     ),
                 ],
                 expected=[
@@ -4171,9 +4171,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE015"
+                name='stE015'
             ),
-            name="stE015"
+            name='stE015'
         ),
         TestGroup(
             annotation=[
@@ -4181,7 +4181,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union content of simpleType then annotation",
+                                'TEST :Syntax Checking for simpleType Declaration : Union content of simpleType then annotation',
                             ]
                         ),
                     ]
@@ -4189,13 +4189,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE016.xsd"
+                        href='../msData/simpleType/stE016.xsd'
                     ),
                 ],
                 expected=[
@@ -4207,9 +4207,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE016"
+                name='stE016'
             ),
-            name="stE016"
+            name='stE016'
         ),
         TestGroup(
             annotation=[
@@ -4217,7 +4217,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union memberTypes attribute and content of simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : Union memberTypes attribute and content of simpleType',
                             ]
                         ),
                     ]
@@ -4225,13 +4225,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE017.xsd"
+                        href='../msData/simpleType/stE017.xsd'
                     ),
                 ],
                 expected=[
@@ -4243,9 +4243,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE017"
+                name='stE017'
             ),
-            name="stE017"
+            name='stE017'
         ),
         TestGroup(
             annotation=[
@@ -4253,7 +4253,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union derived from complexType",
+                                'TEST :Syntax Checking for simpleType Declaration : Union derived from complexType',
                             ]
                         ),
                     ]
@@ -4261,13 +4261,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE018.xsd"
+                        href='../msData/simpleType/stE018.xsd'
                     ),
                 ],
                 expected=[
@@ -4279,9 +4279,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE018"
+                name='stE018'
             ),
-            name="stE018"
+            name='stE018'
         ),
         TestGroup(
             annotation=[
@@ -4289,7 +4289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (1)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (1)',
                             ]
                         ),
                     ]
@@ -4297,13 +4297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE050.xsd"
+                        href='../msData/simpleType/stE050.xsd'
                     ),
                 ],
                 expected=[
@@ -4315,12 +4315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE050"
+                name='stE050'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE050.xml"
+                        href='../msData/simpleType/stE050.xml'
                     ),
                     expected=[
                         Expected(
@@ -4331,10 +4331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE050.v"
+                    name='stE050.v'
                 ),
             ],
-            name="stE050"
+            name='stE050'
         ),
         TestGroup(
             annotation=[
@@ -4342,7 +4342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (2)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (2)',
                             ]
                         ),
                     ]
@@ -4350,13 +4350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE051.xsd"
+                        href='../msData/simpleType/stE051.xsd'
                     ),
                 ],
                 expected=[
@@ -4368,12 +4368,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE051"
+                name='stE051'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE051.xml"
+                        href='../msData/simpleType/stE051.xml'
                     ),
                     expected=[
                         Expected(
@@ -4384,10 +4384,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE051.i"
+                    name='stE051.i'
                 ),
             ],
-            name="stE051"
+            name='stE051'
         ),
         TestGroup(
             annotation=[
@@ -4395,7 +4395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (3)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (3)',
                             ]
                         ),
                     ]
@@ -4403,13 +4403,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE052.xsd"
+                        href='../msData/simpleType/stE052.xsd'
                     ),
                 ],
                 expected=[
@@ -4421,12 +4421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE052"
+                name='stE052'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE052.xml"
+                        href='../msData/simpleType/stE052.xml'
                     ),
                     expected=[
                         Expected(
@@ -4437,10 +4437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE052.v"
+                    name='stE052.v'
                 ),
             ],
-            name="stE052"
+            name='stE052'
         ),
         TestGroup(
             annotation=[
@@ -4448,12 +4448,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (4)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (4)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "In XSD 1.1, xs:simpleType is not allowed as a member type of a union (see note in Part 2 section 2.4.1)",
+                                'In XSD 1.1, xs:simpleType is not allowed as a member type of a union (see note in Part 2 section 2.4.1)',
                             ]
                         ),
                     ]
@@ -4461,13 +4461,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE053.xsd"
+                        href='../msData/simpleType/stE053.xsd'
                     ),
                 ],
                 expected=[
@@ -4488,12 +4488,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE053"
+                name='stE053'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE053.xml"
+                        href='../msData/simpleType/stE053.xml'
                     ),
                     expected=[
                         Expected(
@@ -4504,13 +4504,13 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE053.i",
+                    name='stE053.i',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="stE053"
+            name='stE053'
         ),
         TestGroup(
             annotation=[
@@ -4518,7 +4518,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (5)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (5)',
                             ]
                         ),
                     ]
@@ -4526,13 +4526,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE054.xsd"
+                        href='../msData/simpleType/stE054.xsd'
                     ),
                 ],
                 expected=[
@@ -4544,12 +4544,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE054"
+                name='stE054'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE054.xml"
+                        href='../msData/simpleType/stE054.xml'
                     ),
                     expected=[
                         Expected(
@@ -4560,10 +4560,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE054.i"
+                    name='stE054.i'
                 ),
             ],
-            name="stE054"
+            name='stE054'
         ),
         TestGroup(
             annotation=[
@@ -4571,7 +4571,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (6)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (6)',
                             ]
                         ),
                     ]
@@ -4579,13 +4579,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE055.xsd"
+                        href='../msData/simpleType/stE055.xsd'
                     ),
                 ],
                 expected=[
@@ -4597,12 +4597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE055"
+                name='stE055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE055.xml"
+                        href='../msData/simpleType/stE055.xml'
                     ),
                     expected=[
                         Expected(
@@ -4613,10 +4613,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE055.v"
+                    name='stE055.v'
                 ),
             ],
-            name="stE055"
+            name='stE055'
         ),
         TestGroup(
             annotation=[
@@ -4624,7 +4624,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (7)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (7)',
                             ]
                         ),
                     ]
@@ -4632,13 +4632,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE056.xsd"
+                        href='../msData/simpleType/stE056.xsd'
                     ),
                 ],
                 expected=[
@@ -4650,12 +4650,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE056"
+                name='stE056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE056.xml"
+                        href='../msData/simpleType/stE056.xml'
                     ),
                     expected=[
                         Expected(
@@ -4666,10 +4666,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE056.i"
+                    name='stE056.i'
                 ),
             ],
-            name="stE056"
+            name='stE056'
         ),
         TestGroup(
             annotation=[
@@ -4677,7 +4677,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (8)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (8)',
                             ]
                         ),
                     ]
@@ -4685,13 +4685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE057.xsd"
+                        href='../msData/simpleType/stE057.xsd'
                     ),
                 ],
                 expected=[
@@ -4703,12 +4703,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE057"
+                name='stE057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE057.xml"
+                        href='../msData/simpleType/stE057.xml'
                     ),
                     expected=[
                         Expected(
@@ -4719,10 +4719,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE057.v"
+                    name='stE057.v'
                 ),
             ],
-            name="stE057"
+            name='stE057'
         ),
         TestGroup(
             annotation=[
@@ -4730,7 +4730,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (9)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (9)',
                             ]
                         ),
                     ]
@@ -4738,13 +4738,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE058.xsd"
+                        href='../msData/simpleType/stE058.xsd'
                     ),
                 ],
                 expected=[
@@ -4756,12 +4756,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE058"
+                name='stE058'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE058.xml"
+                        href='../msData/simpleType/stE058.xml'
                     ),
                     expected=[
                         Expected(
@@ -4772,10 +4772,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE058.v"
+                    name='stE058.v'
                 ),
             ],
-            name="stE058"
+            name='stE058'
         ),
         TestGroup(
             annotation=[
@@ -4783,7 +4783,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (10)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (10)',
                             ]
                         ),
                     ]
@@ -4791,13 +4791,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE059.xsd"
+                        href='../msData/simpleType/stE059.xsd'
                     ),
                 ],
                 expected=[
@@ -4809,12 +4809,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE059"
+                name='stE059'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE059.xml"
+                        href='../msData/simpleType/stE059.xml'
                     ),
                     expected=[
                         Expected(
@@ -4825,10 +4825,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE059.v"
+                    name='stE059.v'
                 ),
             ],
-            name="stE059"
+            name='stE059'
         ),
         TestGroup(
             annotation=[
@@ -4836,7 +4836,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (11)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (11)',
                             ]
                         ),
                     ]
@@ -4844,13 +4844,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE060.xsd"
+                        href='../msData/simpleType/stE060.xsd'
                     ),
                 ],
                 expected=[
@@ -4862,12 +4862,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE060"
+                name='stE060'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE060.xml"
+                        href='../msData/simpleType/stE060.xml'
                     ),
                     expected=[
                         Expected(
@@ -4878,10 +4878,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE060.v"
+                    name='stE060.v'
                 ),
             ],
-            name="stE060"
+            name='stE060'
         ),
         TestGroup(
             annotation=[
@@ -4889,7 +4889,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (12)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (12)',
                             ]
                         ),
                     ]
@@ -4897,13 +4897,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE061.xsd"
+                        href='../msData/simpleType/stE061.xsd'
                     ),
                 ],
                 expected=[
@@ -4915,12 +4915,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE061"
+                name='stE061'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE061.xml"
+                        href='../msData/simpleType/stE061.xml'
                     ),
                     expected=[
                         Expected(
@@ -4931,10 +4931,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE061.v"
+                    name='stE061.v'
                 ),
             ],
-            name="stE061"
+            name='stE061'
         ),
         TestGroup(
             annotation=[
@@ -4942,7 +4942,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (13)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (13)',
                             ]
                         ),
                     ]
@@ -4950,13 +4950,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE062.xsd"
+                        href='../msData/simpleType/stE062.xsd'
                     ),
                 ],
                 expected=[
@@ -4968,12 +4968,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE062"
+                name='stE062'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE062.xml"
+                        href='../msData/simpleType/stE062.xml'
                     ),
                     expected=[
                         Expected(
@@ -4984,10 +4984,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE062.v"
+                    name='stE062.v'
                 ),
             ],
-            name="stE062"
+            name='stE062'
         ),
         TestGroup(
             annotation=[
@@ -4995,7 +4995,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (14)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (14)',
                             ]
                         ),
                     ]
@@ -5003,13 +5003,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE063.xsd"
+                        href='../msData/simpleType/stE063.xsd'
                     ),
                 ],
                 expected=[
@@ -5021,12 +5021,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE063"
+                name='stE063'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE063.xml"
+                        href='../msData/simpleType/stE063.xml'
                     ),
                     expected=[
                         Expected(
@@ -5037,10 +5037,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE063.i"
+                    name='stE063.i'
                 ),
             ],
-            name="stE063"
+            name='stE063'
         ),
         TestGroup(
             annotation=[
@@ -5048,7 +5048,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (15)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (15)',
                             ]
                         ),
                     ]
@@ -5056,13 +5056,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE064.xsd"
+                        href='../msData/simpleType/stE064.xsd'
                     ),
                 ],
                 expected=[
@@ -5074,12 +5074,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE064"
+                name='stE064'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE064.xml"
+                        href='../msData/simpleType/stE064.xml'
                     ),
                     expected=[
                         Expected(
@@ -5090,10 +5090,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE064.v"
+                    name='stE064.v'
                 ),
             ],
-            name="stE064"
+            name='stE064'
         ),
         TestGroup(
             annotation=[
@@ -5101,7 +5101,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (16)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (16)',
                             ]
                         ),
                     ]
@@ -5109,13 +5109,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE065.xsd"
+                        href='../msData/simpleType/stE065.xsd'
                     ),
                 ],
                 expected=[
@@ -5127,12 +5127,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE065"
+                name='stE065'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE065.xml"
+                        href='../msData/simpleType/stE065.xml'
                     ),
                     expected=[
                         Expected(
@@ -5143,10 +5143,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE065.v"
+                    name='stE065.v'
                 ),
             ],
-            name="stE065"
+            name='stE065'
         ),
         TestGroup(
             annotation=[
@@ -5154,7 +5154,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (17)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (17)',
                             ]
                         ),
                     ]
@@ -5162,13 +5162,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE066.xsd"
+                        href='../msData/simpleType/stE066.xsd'
                     ),
                 ],
                 expected=[
@@ -5180,12 +5180,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE066"
+                name='stE066'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE066.xml"
+                        href='../msData/simpleType/stE066.xml'
                     ),
                     expected=[
                         Expected(
@@ -5196,10 +5196,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE066.v"
+                    name='stE066.v'
                 ),
             ],
-            name="stE066"
+            name='stE066'
         ),
         TestGroup(
             annotation=[
@@ -5207,7 +5207,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (18)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (18)',
                             ]
                         ),
                     ]
@@ -5215,13 +5215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE067.xsd"
+                        href='../msData/simpleType/stE067.xsd'
                     ),
                 ],
                 expected=[
@@ -5233,12 +5233,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE067"
+                name='stE067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE067.xml"
+                        href='../msData/simpleType/stE067.xml'
                     ),
                     expected=[
                         Expected(
@@ -5249,10 +5249,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE067.v"
+                    name='stE067.v'
                 ),
             ],
-            name="stE067"
+            name='stE067'
         ),
         TestGroup(
             annotation=[
@@ -5260,7 +5260,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (19)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (19)',
                             ]
                         ),
                     ]
@@ -5268,13 +5268,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE068.xsd"
+                        href='../msData/simpleType/stE068.xsd'
                     ),
                 ],
                 expected=[
@@ -5286,12 +5286,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE068"
+                name='stE068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE068.xml"
+                        href='../msData/simpleType/stE068.xml'
                     ),
                     expected=[
                         Expected(
@@ -5302,10 +5302,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE068.v"
+                    name='stE068.v'
                 ),
             ],
-            name="stE068"
+            name='stE068'
         ),
         TestGroup(
             annotation=[
@@ -5313,7 +5313,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (20)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (20)',
                             ]
                         ),
                     ]
@@ -5321,13 +5321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE069.xsd"
+                        href='../msData/simpleType/stE069.xsd'
                     ),
                 ],
                 expected=[
@@ -5339,12 +5339,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE069"
+                name='stE069'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE069.xml"
+                        href='../msData/simpleType/stE069.xml'
                     ),
                     expected=[
                         Expected(
@@ -5355,10 +5355,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE069.v"
+                    name='stE069.v'
                 ),
             ],
-            name="stE069"
+            name='stE069'
         ),
         TestGroup(
             annotation=[
@@ -5366,7 +5366,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (21)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (21)',
                             ]
                         ),
                     ]
@@ -5374,13 +5374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE070.xsd"
+                        href='../msData/simpleType/stE070.xsd'
                     ),
                 ],
                 expected=[
@@ -5392,12 +5392,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE070"
+                name='stE070'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE070.xml"
+                        href='../msData/simpleType/stE070.xml'
                     ),
                     expected=[
                         Expected(
@@ -5408,10 +5408,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE070.i"
+                    name='stE070.i'
                 ),
             ],
-            name="stE070"
+            name='stE070'
         ),
         TestGroup(
             annotation=[
@@ -5419,7 +5419,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (22)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (22)',
                             ]
                         ),
                     ]
@@ -5427,13 +5427,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE071.xsd"
+                        href='../msData/simpleType/stE071.xsd'
                     ),
                 ],
                 expected=[
@@ -5445,12 +5445,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE071"
+                name='stE071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE071.xml"
+                        href='../msData/simpleType/stE071.xml'
                     ),
                     expected=[
                         Expected(
@@ -5461,10 +5461,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE071.i"
+                    name='stE071.i'
                 ),
             ],
-            name="stE071"
+            name='stE071'
         ),
         TestGroup(
             annotation=[
@@ -5472,17 +5472,17 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (23)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (23)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Changed to add a wrapper element to avoid problems with having an ID in the outermost element - MHK 2010-07-10",
+                                'Changed to add a wrapper element to avoid problems with having an ID in the outermost element - MHK 2010-07-10',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "But schema is possibly invalid in XSD 1.0 because ID cannot have a fixed value.",
+                                'But schema is possibly invalid in XSD 1.0 because ID cannot have a fixed value.',
                             ]
                         ),
                     ]
@@ -5490,13 +5490,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE072.xsd"
+                        href='../msData/simpleType/stE072.xsd'
                     ),
                 ],
                 expected=[
@@ -5508,12 +5508,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE072"
+                name='stE072'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE072.xml"
+                        href='../msData/simpleType/stE072.xml'
                     ),
                     expected=[
                         Expected(
@@ -5532,13 +5532,13 @@ obj = TestSet(
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2010, 7, 9),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=10111"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=10111'
                         ),
                     ],
-                    name="stE072.v"
+                    name='stE072.v'
                 ),
             ],
-            name="stE072"
+            name='stE072'
         ),
         TestGroup(
             annotation=[
@@ -5546,7 +5546,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (24)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (24)',
                             ]
                         ),
                     ]
@@ -5554,13 +5554,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE073.xsd"
+                        href='../msData/simpleType/stE073.xsd'
                     ),
                 ],
                 expected=[
@@ -5572,12 +5572,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE073"
+                name='stE073'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE073.xml"
+                        href='../msData/simpleType/stE073.xml'
                     ),
                     expected=[
                         Expected(
@@ -5588,10 +5588,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE073.i"
+                    name='stE073.i'
                 ),
             ],
-            name="stE073"
+            name='stE073'
         ),
         TestGroup(
             annotation=[
@@ -5599,7 +5599,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (25)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (25)',
                             ]
                         ),
                     ]
@@ -5607,13 +5607,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE073v.xsd"
+                        href='../msData/simpleType/stE073v.xsd'
                     ),
                 ],
                 expected=[
@@ -5625,12 +5625,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE073v"
+                name='stE073v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE073v.xml"
+                        href='../msData/simpleType/stE073v.xml'
                     ),
                     expected=[
                         Expected(
@@ -5641,10 +5641,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE073v.v"
+                    name='stE073v.v'
                 ),
             ],
-            name="stE073v"
+            name='stE073v'
         ),
         TestGroup(
             annotation=[
@@ -5652,7 +5652,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (26)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (26)',
                             ]
                         ),
                     ]
@@ -5660,13 +5660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE074.xsd"
+                        href='../msData/simpleType/stE074.xsd'
                     ),
                 ],
                 expected=[
@@ -5678,12 +5678,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE074"
+                name='stE074'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE074.xml"
+                        href='../msData/simpleType/stE074.xml'
                     ),
                     expected=[
                         Expected(
@@ -5694,10 +5694,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE074.i"
+                    name='stE074.i'
                 ),
             ],
-            name="stE074"
+            name='stE074'
         ),
         TestGroup(
             annotation=[
@@ -5705,7 +5705,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (27)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (27)',
                             ]
                         ),
                     ]
@@ -5713,13 +5713,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/ste074v.xsd"
+                        href='../msData/simpleType/ste074v.xsd'
                     ),
                 ],
                 expected=[
@@ -5731,12 +5731,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ste074v"
+                name='ste074v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/ste074v.xml"
+                        href='../msData/simpleType/ste074v.xml'
                     ),
                     expected=[
                         Expected(
@@ -5747,10 +5747,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ste074v.v"
+                    name='ste074v.v'
                 ),
             ],
-            name="ste074v"
+            name='ste074v'
         ),
         TestGroup(
             annotation=[
@@ -5758,7 +5758,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (28)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (28)',
                             ]
                         ),
                     ]
@@ -5766,13 +5766,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE075.xsd"
+                        href='../msData/simpleType/stE075.xsd'
                     ),
                 ],
                 expected=[
@@ -5780,12 +5780,12 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID
                     ),
                 ],
-                name="stE075"
+                name='stE075'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE075.xml"
+                        href='../msData/simpleType/stE075.xml'
                     ),
                     expected=[
                         Expected(
@@ -5796,10 +5796,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE075.i"
+                    name='stE075.i'
                 ),
             ],
-            name="stE075"
+            name='stE075'
         ),
         TestGroup(
             annotation=[
@@ -5807,7 +5807,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (29)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (29)',
                             ]
                         ),
                     ]
@@ -5815,13 +5815,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE076.xsd"
+                        href='../msData/simpleType/stE076.xsd'
                     ),
                 ],
                 expected=[
@@ -5833,12 +5833,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE076"
+                name='stE076'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE076.xml"
+                        href='../msData/simpleType/stE076.xml'
                     ),
                     expected=[
                         Expected(
@@ -5849,10 +5849,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE076.i"
+                    name='stE076.i'
                 ),
             ],
-            name="stE076"
+            name='stE076'
         ),
         TestGroup(
             annotation=[
@@ -5860,7 +5860,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (30)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (30)',
                             ]
                         ),
                     ]
@@ -5868,13 +5868,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE077.xsd"
+                        href='../msData/simpleType/stE077.xsd'
                     ),
                 ],
                 expected=[
@@ -5886,12 +5886,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE077"
+                name='stE077'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE077.xml"
+                        href='../msData/simpleType/stE077.xml'
                     ),
                     expected=[
                         Expected(
@@ -5902,10 +5902,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE077.v"
+                    name='stE077.v'
                 ),
             ],
-            name="stE077"
+            name='stE077'
         ),
         TestGroup(
             annotation=[
@@ -5913,7 +5913,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (31)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (31)',
                             ]
                         ),
                     ]
@@ -5921,13 +5921,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE078.xsd"
+                        href='../msData/simpleType/stE078.xsd'
                     ),
                 ],
                 expected=[
@@ -5939,12 +5939,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE078"
+                name='stE078'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE078.xml"
+                        href='../msData/simpleType/stE078.xml'
                     ),
                     expected=[
                         Expected(
@@ -5955,10 +5955,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE078.i"
+                    name='stE078.i'
                 ),
             ],
-            name="stE078"
+            name='stE078'
         ),
         TestGroup(
             annotation=[
@@ -5966,7 +5966,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (32)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (32)',
                             ]
                         ),
                     ]
@@ -5974,13 +5974,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE079.xsd"
+                        href='../msData/simpleType/stE079.xsd'
                     ),
                 ],
                 expected=[
@@ -5992,12 +5992,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE079"
+                name='stE079'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE079.xml"
+                        href='../msData/simpleType/stE079.xml'
                     ),
                     expected=[
                         Expected(
@@ -6008,10 +6008,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE079.v"
+                    name='stE079.v'
                 ),
             ],
-            name="stE079"
+            name='stE079'
         ),
         TestGroup(
             annotation=[
@@ -6019,7 +6019,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (33)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (33)',
                             ]
                         ),
                     ]
@@ -6027,13 +6027,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE080.xsd"
+                        href='../msData/simpleType/stE080.xsd'
                     ),
                 ],
                 expected=[
@@ -6045,12 +6045,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE080"
+                name='stE080'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE080.xml"
+                        href='../msData/simpleType/stE080.xml'
                     ),
                     expected=[
                         Expected(
@@ -6061,10 +6061,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE080.v"
+                    name='stE080.v'
                 ),
             ],
-            name="stE080"
+            name='stE080'
         ),
         TestGroup(
             annotation=[
@@ -6072,7 +6072,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (34)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (34)',
                             ]
                         ),
                     ]
@@ -6080,13 +6080,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE081.xsd"
+                        href='../msData/simpleType/stE081.xsd'
                     ),
                 ],
                 expected=[
@@ -6098,12 +6098,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE081"
+                name='stE081'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE081.xml"
+                        href='../msData/simpleType/stE081.xml'
                     ),
                     expected=[
                         Expected(
@@ -6114,10 +6114,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE081.v"
+                    name='stE081.v'
                 ),
             ],
-            name="stE081"
+            name='stE081'
         ),
         TestGroup(
             annotation=[
@@ -6125,7 +6125,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (35)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (35)',
                             ]
                         ),
                     ]
@@ -6133,13 +6133,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE082.xsd"
+                        href='../msData/simpleType/stE082.xsd'
                     ),
                 ],
                 expected=[
@@ -6151,12 +6151,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE082"
+                name='stE082'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE082.xml"
+                        href='../msData/simpleType/stE082.xml'
                     ),
                     expected=[
                         Expected(
@@ -6167,10 +6167,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE082.i"
+                    name='stE082.i'
                 ),
             ],
-            name="stE082"
+            name='stE082'
         ),
         TestGroup(
             annotation=[
@@ -6178,7 +6178,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (36)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (36)',
                             ]
                         ),
                     ]
@@ -6186,13 +6186,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE090.xsd"
+                        href='../msData/simpleType/stE090.xsd'
                     ),
                 ],
                 expected=[
@@ -6204,12 +6204,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE090"
+                name='stE090'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE090.xml"
+                        href='../msData/simpleType/stE090.xml'
                     ),
                     expected=[
                         Expected(
@@ -6220,10 +6220,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE090.v"
+                    name='stE090.v'
                 ),
             ],
-            name="stE090"
+            name='stE090'
         ),
         TestGroup(
             annotation=[
@@ -6231,7 +6231,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (37)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (37)',
                             ]
                         ),
                     ]
@@ -6239,13 +6239,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE091.xsd"
+                        href='../msData/simpleType/stE091.xsd'
                     ),
                 ],
                 expected=[
@@ -6257,12 +6257,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE091"
+                name='stE091'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE091.xml"
+                        href='../msData/simpleType/stE091.xml'
                     ),
                     expected=[
                         Expected(
@@ -6273,10 +6273,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE091.v"
+                    name='stE091.v'
                 ),
             ],
-            name="stE091"
+            name='stE091'
         ),
         TestGroup(
             annotation=[
@@ -6284,7 +6284,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (38)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (38)',
                             ]
                         ),
                     ]
@@ -6292,13 +6292,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE092.xsd"
+                        href='../msData/simpleType/stE092.xsd'
                     ),
                 ],
                 expected=[
@@ -6310,12 +6310,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE092"
+                name='stE092'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE092.xml"
+                        href='../msData/simpleType/stE092.xml'
                     ),
                     expected=[
                         Expected(
@@ -6326,10 +6326,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE092.v"
+                    name='stE092.v'
                 ),
             ],
-            name="stE092"
+            name='stE092'
         ),
         TestGroup(
             annotation=[
@@ -6337,7 +6337,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (39)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (39)',
                             ]
                         ),
                     ]
@@ -6345,13 +6345,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE093.xsd"
+                        href='../msData/simpleType/stE093.xsd'
                     ),
                 ],
                 expected=[
@@ -6363,12 +6363,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE093"
+                name='stE093'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE093.xml"
+                        href='../msData/simpleType/stE093.xml'
                     ),
                     expected=[
                         Expected(
@@ -6379,10 +6379,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE093.v"
+                    name='stE093.v'
                 ),
             ],
-            name="stE093"
+            name='stE093'
         ),
         TestGroup(
             annotation=[
@@ -6390,7 +6390,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (40)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (40)',
                             ]
                         ),
                     ]
@@ -6398,13 +6398,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE094.xsd"
+                        href='../msData/simpleType/stE094.xsd'
                     ),
                 ],
                 expected=[
@@ -6416,12 +6416,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE094"
+                name='stE094'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE094.xml"
+                        href='../msData/simpleType/stE094.xml'
                     ),
                     expected=[
                         Expected(
@@ -6432,10 +6432,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE094.v"
+                    name='stE094.v'
                 ),
             ],
-            name="stE094"
+            name='stE094'
         ),
         TestGroup(
             annotation=[
@@ -6443,7 +6443,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (41)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (41)',
                             ]
                         ),
                     ]
@@ -6451,13 +6451,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE095.xsd"
+                        href='../msData/simpleType/stE095.xsd'
                     ),
                 ],
                 expected=[
@@ -6469,12 +6469,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE095"
+                name='stE095'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE095.xml"
+                        href='../msData/simpleType/stE095.xml'
                     ),
                     expected=[
                         Expected(
@@ -6485,10 +6485,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stE095.i"
+                    name='stE095.i'
                 ),
             ],
-            name="stE095"
+            name='stE095'
         ),
         TestGroup(
             annotation=[
@@ -6496,7 +6496,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (42)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (42)',
                             ]
                         ),
                     ]
@@ -6504,13 +6504,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE096.xsd"
+                        href='../msData/simpleType/stE096.xsd'
                     ),
                 ],
                 expected=[
@@ -6522,22 +6522,22 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE096"
+                name='stE096'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE096.xml"
+                        href='../msData/simpleType/stE096.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="stE096.v"
+                    name='stE096.v'
                 ),
             ],
-            name="stE096"
+            name='stE096'
         ),
         TestGroup(
             annotation=[
@@ -6545,7 +6545,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (43)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (43)',
                             ]
                         ),
                     ]
@@ -6553,13 +6553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE097.xsd"
+                        href='../msData/simpleType/stE097.xsd'
                     ),
                 ],
                 expected=[
@@ -6571,12 +6571,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stE097"
+                name='stE097'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stE097.xml"
+                        href='../msData/simpleType/stE097.xml'
                     ),
                     expected=[
                         Expected(
@@ -6586,7 +6586,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 12),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901'
                     ),
                     prior=[
                         Prior(
@@ -6594,10 +6594,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="stE097.i"
+                    name='stE097.i'
                 ),
             ],
-            name="stE097"
+            name='stE097'
         ),
         TestGroup(
             annotation=[
@@ -6605,7 +6605,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (44)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (44)',
                             ]
                         ),
                     ]
@@ -6613,13 +6613,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/ste098.xsd"
+                        href='../msData/simpleType/ste098.xsd'
                     ),
                 ],
                 expected=[
@@ -6631,12 +6631,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ste098"
+                name='ste098'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/ste098.xml"
+                        href='../msData/simpleType/ste098.xml'
                     ),
                     expected=[
                         Expected(
@@ -6647,10 +6647,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ste098.i"
+                    name='ste098.i'
                 ),
             ],
-            name="ste098"
+            name='ste098'
         ),
         TestGroup(
             annotation=[
@@ -6658,7 +6658,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (45)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (45)',
                             ]
                         ),
                     ]
@@ -6666,13 +6666,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/ste099.xsd"
+                        href='../msData/simpleType/ste099.xsd'
                     ),
                 ],
                 expected=[
@@ -6684,12 +6684,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ste099"
+                name='ste099'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/ste099.xml"
+                        href='../msData/simpleType/ste099.xml'
                     ),
                     expected=[
                         Expected(
@@ -6700,10 +6700,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ste099.v"
+                    name='ste099.v'
                 ),
             ],
-            name="ste099"
+            name='ste099'
         ),
         TestGroup(
             annotation=[
@@ -6711,7 +6711,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (46)",
+                                'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (46)',
                             ]
                         ),
                     ]
@@ -6719,13 +6719,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/ste100.xsd"
+                        href='../msData/simpleType/ste100.xsd'
                     ),
                 ],
                 expected=[
@@ -6737,12 +6737,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="ste100"
+                name='ste100'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/ste100.xml"
+                        href='../msData/simpleType/ste100.xml'
                     ),
                     expected=[
                         Expected(
@@ -6753,10 +6753,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ste100.i"
+                    name='ste100.i'
                 ),
             ],
-            name="ste100"
+            name='ste100'
         ),
         TestGroup(
             annotation=[
@@ -6764,7 +6764,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : test circular union",
+                                'TEST :Syntax Checking for simpleType Declaration : test circular union',
                             ]
                         ),
                     ]
@@ -6772,13 +6772,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stE110.xsd"
+                        href='../msData/simpleType/stE110.xsd'
                     ),
                 ],
                 expected=[
@@ -6789,7 +6789,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 8, 17),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4957"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4957'
                 ),
                 prior=[
                     Prior(
@@ -6797,12 +6797,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ste110"
+                name='ste110'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/ste100.xml"
+                        href='../msData/simpleType/ste100.xml'
                     ),
                     expected=[
                         Expected(
@@ -6813,10 +6813,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="ste110.i"
+                    name='ste110.i'
                 ),
             ],
-            name="ste110"
+            name='ste110'
         ),
         TestGroup(
             annotation=[
@@ -6824,7 +6824,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of length",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of length',
                             ]
                         ),
                     ]
@@ -6832,13 +6832,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF001.xsd"
+                        href='../msData/simpleType/stF001.xsd'
                     ),
                 ],
                 expected=[
@@ -6850,9 +6850,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF001"
+                name='stF001'
             ),
-            name="stF001"
+            name='stF001'
         ),
         TestGroup(
             annotation=[
@@ -6860,7 +6860,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxLength",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxLength',
                             ]
                         ),
                     ]
@@ -6868,13 +6868,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF002.xsd"
+                        href='../msData/simpleType/stF002.xsd'
                     ),
                 ],
                 expected=[
@@ -6886,9 +6886,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF002"
+                name='stF002'
             ),
-            name="stF002"
+            name='stF002'
         ),
         TestGroup(
             annotation=[
@@ -6896,7 +6896,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minLength",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minLength',
                             ]
                         ),
                     ]
@@ -6904,13 +6904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF003.xsd"
+                        href='../msData/simpleType/stF003.xsd'
                     ),
                 ],
                 expected=[
@@ -6922,9 +6922,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF003"
+                name='stF003'
             ),
-            name="stF003"
+            name='stF003'
         ),
         TestGroup(
             annotation=[
@@ -6932,7 +6932,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of enumeration",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of enumeration',
                             ]
                         ),
                     ]
@@ -6940,13 +6940,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF004.xsd"
+                        href='../msData/simpleType/stF004.xsd'
                     ),
                 ],
                 expected=[
@@ -6958,9 +6958,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF004"
+                name='stF004'
             ),
-            name="stF004"
+            name='stF004'
         ),
         TestGroup(
             annotation=[
@@ -6968,7 +6968,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of whitespace",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of whitespace',
                             ]
                         ),
                     ]
@@ -6976,13 +6976,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF005.xsd"
+                        href='../msData/simpleType/stF005.xsd'
                     ),
                 ],
                 expected=[
@@ -6994,9 +6994,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF005"
+                name='stF005'
             ),
-            name="stF005"
+            name='stF005'
         ),
         TestGroup(
             annotation=[
@@ -7004,7 +7004,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of pattern",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of pattern',
                             ]
                         ),
                     ]
@@ -7012,13 +7012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF006.xsd"
+                        href='../msData/simpleType/stF006.xsd'
                     ),
                 ],
                 expected=[
@@ -7030,9 +7030,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF006"
+                name='stF006'
             ),
-            name="stF006"
+            name='stF006'
         ),
         TestGroup(
             annotation=[
@@ -7040,7 +7040,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of duration",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of duration',
                             ]
                         ),
                     ]
@@ -7048,13 +7048,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF007.xsd"
+                        href='../msData/simpleType/stF007.xsd'
                     ),
                 ],
                 expected=[
@@ -7066,9 +7066,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF007"
+                name='stF007'
             ),
-            name="stF007"
+            name='stF007'
         ),
         TestGroup(
             annotation=[
@@ -7076,7 +7076,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of encoding",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of encoding',
                             ]
                         ),
                     ]
@@ -7084,13 +7084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF008.xsd"
+                        href='../msData/simpleType/stF008.xsd'
                     ),
                 ],
                 expected=[
@@ -7102,9 +7102,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF008"
+                name='stF008'
             ),
-            name="stF008"
+            name='stF008'
         ),
         TestGroup(
             annotation=[
@@ -7112,7 +7112,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxExclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxExclusive',
                             ]
                         ),
                     ]
@@ -7120,13 +7120,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF009.xsd"
+                        href='../msData/simpleType/stF009.xsd'
                     ),
                 ],
                 expected=[
@@ -7138,9 +7138,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF009"
+                name='stF009'
             ),
-            name="stF009"
+            name='stF009'
         ),
         TestGroup(
             annotation=[
@@ -7148,7 +7148,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxInclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxInclusive',
                             ]
                         ),
                     ]
@@ -7156,13 +7156,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF010.xsd"
+                        href='../msData/simpleType/stF010.xsd'
                     ),
                 ],
                 expected=[
@@ -7174,9 +7174,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF010"
+                name='stF010'
             ),
-            name="stF010"
+            name='stF010'
         ),
         TestGroup(
             annotation=[
@@ -7184,7 +7184,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minExclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minExclusive',
                             ]
                         ),
                     ]
@@ -7192,13 +7192,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF011.xsd"
+                        href='../msData/simpleType/stF011.xsd'
                     ),
                 ],
                 expected=[
@@ -7210,9 +7210,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF011"
+                name='stF011'
             ),
-            name="stF011"
+            name='stF011'
         ),
         TestGroup(
             annotation=[
@@ -7220,7 +7220,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minInclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minInclusive',
                             ]
                         ),
                     ]
@@ -7228,13 +7228,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF012.xsd"
+                        href='../msData/simpleType/stF012.xsd'
                     ),
                 ],
                 expected=[
@@ -7246,9 +7246,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF012"
+                name='stF012'
             ),
-            name="stF012"
+            name='stF012'
         ),
         TestGroup(
             annotation=[
@@ -7256,7 +7256,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of period",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of period',
                             ]
                         ),
                     ]
@@ -7264,13 +7264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF013.xsd"
+                        href='../msData/simpleType/stF013.xsd'
                     ),
                 ],
                 expected=[
@@ -7282,9 +7282,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF013"
+                name='stF013'
             ),
-            name="stF013"
+            name='stF013'
         ),
         TestGroup(
             annotation=[
@@ -7292,7 +7292,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of precision",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of precision',
                             ]
                         ),
                     ]
@@ -7300,13 +7300,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF014.xsd"
+                        href='../msData/simpleType/stF014.xsd'
                     ),
                 ],
                 expected=[
@@ -7318,9 +7318,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF014"
+                name='stF014'
             ),
-            name="stF014"
+            name='stF014'
         ),
         TestGroup(
             annotation=[
@@ -7328,7 +7328,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of scale",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of scale',
                             ]
                         ),
                     ]
@@ -7336,13 +7336,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF015.xsd"
+                        href='../msData/simpleType/stF015.xsd'
                     ),
                 ],
                 expected=[
@@ -7354,9 +7354,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF015"
+                name='stF015'
             ),
-            name="stF015"
+            name='stF015'
         ),
         TestGroup(
             annotation=[
@@ -7364,7 +7364,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of pattern",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of pattern',
                             ]
                         ),
                     ]
@@ -7372,13 +7372,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF016.xsd"
+                        href='../msData/simpleType/stF016.xsd'
                     ),
                 ],
                 expected=[
@@ -7390,9 +7390,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF016"
+                name='stF016'
             ),
-            name="stF016"
+            name='stF016'
         ),
         TestGroup(
             annotation=[
@@ -7400,7 +7400,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of enumeration",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of enumeration',
                             ]
                         ),
                     ]
@@ -7408,13 +7408,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF017.xsd"
+                        href='../msData/simpleType/stF017.xsd'
                     ),
                 ],
                 expected=[
@@ -7426,9 +7426,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF017"
+                name='stF017'
             ),
-            name="stF017"
+            name='stF017'
         ),
         TestGroup(
             annotation=[
@@ -7436,7 +7436,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of length",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of length',
                             ]
                         ),
                     ]
@@ -7444,13 +7444,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF018.xsd"
+                        href='../msData/simpleType/stF018.xsd'
                     ),
                 ],
                 expected=[
@@ -7462,9 +7462,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF018"
+                name='stF018'
             ),
-            name="stF018"
+            name='stF018'
         ),
         TestGroup(
             annotation=[
@@ -7472,7 +7472,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxLength",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxLength',
                             ]
                         ),
                     ]
@@ -7480,13 +7480,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF019.xsd"
+                        href='../msData/simpleType/stF019.xsd'
                     ),
                 ],
                 expected=[
@@ -7498,9 +7498,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF019"
+                name='stF019'
             ),
-            name="stF019"
+            name='stF019'
         ),
         TestGroup(
             annotation=[
@@ -7508,7 +7508,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minLength",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minLength',
                             ]
                         ),
                     ]
@@ -7516,13 +7516,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF020.xsd"
+                        href='../msData/simpleType/stF020.xsd'
                     ),
                 ],
                 expected=[
@@ -7534,9 +7534,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF020"
+                name='stF020'
             ),
-            name="stF020"
+            name='stF020'
         ),
         TestGroup(
             annotation=[
@@ -7544,7 +7544,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of whitespace",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of whitespace',
                             ]
                         ),
                     ]
@@ -7552,13 +7552,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF021.xsd"
+                        href='../msData/simpleType/stF021.xsd'
                     ),
                 ],
                 expected=[
@@ -7570,9 +7570,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF021"
+                name='stF021'
             ),
-            name="stF021"
+            name='stF021'
         ),
         TestGroup(
             annotation=[
@@ -7580,7 +7580,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of duration",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of duration',
                             ]
                         ),
                     ]
@@ -7588,13 +7588,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF022.xsd"
+                        href='../msData/simpleType/stF022.xsd'
                     ),
                 ],
                 expected=[
@@ -7606,9 +7606,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF022"
+                name='stF022'
             ),
-            name="stF022"
+            name='stF022'
         ),
         TestGroup(
             annotation=[
@@ -7616,7 +7616,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of encoding",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of encoding',
                             ]
                         ),
                     ]
@@ -7624,13 +7624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF023.xsd"
+                        href='../msData/simpleType/stF023.xsd'
                     ),
                 ],
                 expected=[
@@ -7642,9 +7642,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF023"
+                name='stF023'
             ),
-            name="stF023"
+            name='stF023'
         ),
         TestGroup(
             annotation=[
@@ -7652,7 +7652,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxExclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxExclusive',
                             ]
                         ),
                     ]
@@ -7660,13 +7660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF024.xsd"
+                        href='../msData/simpleType/stF024.xsd'
                     ),
                 ],
                 expected=[
@@ -7678,9 +7678,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF024"
+                name='stF024'
             ),
-            name="stF024"
+            name='stF024'
         ),
         TestGroup(
             annotation=[
@@ -7688,7 +7688,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxInclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxInclusive',
                             ]
                         ),
                     ]
@@ -7696,13 +7696,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF025.xsd"
+                        href='../msData/simpleType/stF025.xsd'
                     ),
                 ],
                 expected=[
@@ -7714,9 +7714,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF025"
+                name='stF025'
             ),
-            name="stF025"
+            name='stF025'
         ),
         TestGroup(
             annotation=[
@@ -7724,7 +7724,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minExclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minExclusive',
                             ]
                         ),
                     ]
@@ -7732,13 +7732,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF026.xsd"
+                        href='../msData/simpleType/stF026.xsd'
                     ),
                 ],
                 expected=[
@@ -7750,9 +7750,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF026"
+                name='stF026'
             ),
-            name="stF026"
+            name='stF026'
         ),
         TestGroup(
             annotation=[
@@ -7760,7 +7760,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minInclusive",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minInclusive',
                             ]
                         ),
                     ]
@@ -7768,13 +7768,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF027.xsd"
+                        href='../msData/simpleType/stF027.xsd'
                     ),
                 ],
                 expected=[
@@ -7786,9 +7786,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF027"
+                name='stF027'
             ),
-            name="stF027"
+            name='stF027'
         ),
         TestGroup(
             annotation=[
@@ -7796,7 +7796,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of period",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of period',
                             ]
                         ),
                     ]
@@ -7804,13 +7804,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF028.xsd"
+                        href='../msData/simpleType/stF028.xsd'
                     ),
                 ],
                 expected=[
@@ -7822,9 +7822,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF028"
+                name='stF028'
             ),
-            name="stF028"
+            name='stF028'
         ),
         TestGroup(
             annotation=[
@@ -7832,7 +7832,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of precision",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of precision',
                             ]
                         ),
                     ]
@@ -7840,13 +7840,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF029.xsd"
+                        href='../msData/simpleType/stF029.xsd'
                     ),
                 ],
                 expected=[
@@ -7858,9 +7858,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF029"
+                name='stF029'
             ),
-            name="stF029"
+            name='stF029'
         ),
         TestGroup(
             annotation=[
@@ -7868,7 +7868,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of scale",
+                                'TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of scale',
                             ]
                         ),
                     ]
@@ -7876,13 +7876,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF030.xsd"
+                        href='../msData/simpleType/stF030.xsd'
                     ),
                 ],
                 expected=[
@@ -7894,9 +7894,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF030"
+                name='stF030'
             ),
-            name="stF030"
+            name='stF030'
         ),
         TestGroup(
             annotation=[
@@ -7904,7 +7904,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for list, union and restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for list, union and restriction',
                             ]
                         ),
                     ]
@@ -7912,13 +7912,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF031.xsd"
+                        href='../msData/simpleType/stF031.xsd'
                     ),
                 ],
                 expected=[
@@ -7930,9 +7930,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF031"
+                name='stF031'
             ),
-            name="stF031"
+            name='stF031'
         ),
         TestGroup(
             annotation=[
@@ -7940,7 +7940,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for #all",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for #all',
                             ]
                         ),
                     ]
@@ -7948,13 +7948,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF032.xsd"
+                        href='../msData/simpleType/stF032.xsd'
                     ),
                 ],
                 expected=[
@@ -7966,9 +7966,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF032"
+                name='stF032'
             ),
-            name="stF032"
+            name='stF032'
         ),
         TestGroup(
             annotation=[
@@ -7976,7 +7976,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for #all",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for #all',
                             ]
                         ),
                     ]
@@ -7984,13 +7984,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF033.xsd"
+                        href='../msData/simpleType/stF033.xsd'
                     ),
                 ],
                 expected=[
@@ -8002,9 +8002,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF033"
+                name='stF033'
             ),
-            name="stF033"
+            name='stF033'
         ),
         TestGroup(
             annotation=[
@@ -8012,7 +8012,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = list stops simpleType derivations",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = list stops simpleType derivations',
                             ]
                         ),
                     ]
@@ -8020,13 +8020,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF034.xsd"
+                        href='../msData/simpleType/stF034.xsd'
                     ),
                 ],
                 expected=[
@@ -8038,9 +8038,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF034"
+                name='stF034'
             ),
-            name="stF034"
+            name='stF034'
         ),
         TestGroup(
             annotation=[
@@ -8048,7 +8048,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = list stops simpleType derivations",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = list stops simpleType derivations',
                             ]
                         ),
                     ]
@@ -8056,13 +8056,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF035.xsd"
+                        href='../msData/simpleType/stF035.xsd'
                     ),
                 ],
                 expected=[
@@ -8074,9 +8074,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF035"
+                name='stF035'
             ),
-            name="stF035"
+            name='stF035'
         ),
         TestGroup(
             annotation=[
@@ -8084,7 +8084,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = union stops simpleType derivations",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = union stops simpleType derivations',
                             ]
                         ),
                     ]
@@ -8092,13 +8092,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF036.xsd"
+                        href='../msData/simpleType/stF036.xsd'
                     ),
                 ],
                 expected=[
@@ -8110,9 +8110,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF036"
+                name='stF036'
             ),
-            name="stF036"
+            name='stF036'
         ),
         TestGroup(
             annotation=[
@@ -8120,7 +8120,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = union stops simpleType derivations",
+                                'TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = union stops simpleType derivations',
                             ]
                         ),
                     ]
@@ -8128,13 +8128,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stF037.xsd"
+                        href='../msData/simpleType/stF037.xsd'
                     ),
                 ],
                 expected=[
@@ -8146,9 +8146,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stF037"
+                name='stF037'
             ),
-            name="stF037"
+            name='stF037'
         ),
         TestGroup(
             annotation=[
@@ -8156,7 +8156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list of atomic type instance document contains items of the same atomic type",
+                                'TEST :Syntax Checking for simpleType Declaration : list of atomic type instance document contains items of the same atomic type',
                             ]
                         ),
                     ]
@@ -8164,13 +8164,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG001.xsd"
+                        href='../msData/simpleType/stG001.xsd'
                     ),
                 ],
                 expected=[
@@ -8182,12 +8182,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG001"
+                name='stG001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG001.xml"
+                        href='../msData/simpleType/stG001.xml'
                     ),
                     expected=[
                         Expected(
@@ -8198,10 +8198,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG001.v"
+                    name='stG001.v'
                 ),
             ],
-            name="stG001"
+            name='stG001'
         ),
         TestGroup(
             annotation=[
@@ -8217,13 +8217,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG002.xsd"
+                        href='../msData/simpleType/stG002.xsd'
                     ),
                 ],
                 expected=[
@@ -8235,12 +8235,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG002"
+                name='stG002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG002.xml"
+                        href='../msData/simpleType/stG002.xml'
                     ),
                     expected=[
                         Expected(
@@ -8251,10 +8251,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG002.v"
+                    name='stG002.v'
                 ),
             ],
-            name="stG002"
+            name='stG002'
         ),
         TestGroup(
             annotation=[
@@ -8270,13 +8270,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG003.xsd"
+                        href='../msData/simpleType/stG003.xsd'
                     ),
                 ],
                 expected=[
@@ -8288,12 +8288,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG003"
+                name='stG003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG003.xml"
+                        href='../msData/simpleType/stG003.xml'
                     ),
                     expected=[
                         Expected(
@@ -8304,10 +8304,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG003.i"
+                    name='stG003.i'
                 ),
             ],
-            name="stG003"
+            name='stG003'
         ),
         TestGroup(
             annotation=[
@@ -8315,7 +8315,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : schema is a list derived from a union of integer and NMTOKEN instance document contains valid items of integer and NMTOKEN",
+                                'TEST :Syntax Checking for simpleType Declaration : schema is a list derived from a union of integer and NMTOKEN instance document contains valid items of integer and NMTOKEN',
                             ]
                         ),
                     ]
@@ -8323,13 +8323,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG004.xsd"
+                        href='../msData/simpleType/stG004.xsd'
                     ),
                 ],
                 expected=[
@@ -8341,12 +8341,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG004"
+                name='stG004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG004.xml"
+                        href='../msData/simpleType/stG004.xml'
                     ),
                     expected=[
                         Expected(
@@ -8357,10 +8357,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG004.v"
+                    name='stG004.v'
                 ),
             ],
-            name="stG004"
+            name='stG004'
         ),
         TestGroup(
             annotation=[
@@ -8368,7 +8368,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : schema is a list derived from a union of integer and NMTOKEN instance document contains float",
+                                'TEST :Syntax Checking for simpleType Declaration : schema is a list derived from a union of integer and NMTOKEN instance document contains float',
                             ]
                         ),
                     ]
@@ -8376,13 +8376,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG005.xsd"
+                        href='../msData/simpleType/stG005.xsd'
                     ),
                 ],
                 expected=[
@@ -8394,12 +8394,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG005"
+                name='stG005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG005.xml"
+                        href='../msData/simpleType/stG005.xml'
                     ),
                     expected=[
                         Expected(
@@ -8410,10 +8410,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG005.i"
+                    name='stG005.i'
                 ),
             ],
-            name="stG005"
+            name='stG005'
         ),
         TestGroup(
             annotation=[
@@ -8429,13 +8429,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG006.xsd"
+                        href='../msData/simpleType/stG006.xsd'
                     ),
                 ],
                 expected=[
@@ -8447,12 +8447,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG006"
+                name='stG006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG006.xml"
+                        href='../msData/simpleType/stG006.xml'
                     ),
                     expected=[
                         Expected(
@@ -8463,10 +8463,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG006.v"
+                    name='stG006.v'
                 ),
             ],
-            name="stG006"
+            name='stG006'
         ),
         TestGroup(
             annotation=[
@@ -8482,13 +8482,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG007.xsd"
+                        href='../msData/simpleType/stG007.xsd'
                     ),
                 ],
                 expected=[
@@ -8500,12 +8500,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG007"
+                name='stG007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG007.xml"
+                        href='../msData/simpleType/stG007.xml'
                     ),
                     expected=[
                         Expected(
@@ -8516,10 +8516,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG007.i"
+                    name='stG007.i'
                 ),
             ],
-            name="stG007"
+            name='stG007'
         ),
         TestGroup(
             annotation=[
@@ -8535,13 +8535,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG008.xsd"
+                        href='../msData/simpleType/stG008.xsd'
                     ),
                 ],
                 expected=[
@@ -8553,12 +8553,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG008"
+                name='stG008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG008.xml"
+                        href='../msData/simpleType/stG008.xml'
                     ),
                     expected=[
                         Expected(
@@ -8569,10 +8569,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG008.v"
+                    name='stG008.v'
                 ),
             ],
-            name="stG008"
+            name='stG008'
         ),
         TestGroup(
             annotation=[
@@ -8588,13 +8588,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG009.xsd"
+                        href='../msData/simpleType/stG009.xsd'
                     ),
                 ],
                 expected=[
@@ -8606,12 +8606,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG009"
+                name='stG009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG009.xml"
+                        href='../msData/simpleType/stG009.xml'
                     ),
                     expected=[
                         Expected(
@@ -8622,10 +8622,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG009.i"
+                    name='stG009.i'
                 ),
             ],
-            name="stG009"
+            name='stG009'
         ),
         TestGroup(
             annotation=[
@@ -8641,13 +8641,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG010.xsd"
+                        href='../msData/simpleType/stG010.xsd'
                     ),
                 ],
                 expected=[
@@ -8659,12 +8659,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG010"
+                name='stG010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG010.xml"
+                        href='../msData/simpleType/stG010.xml'
                     ),
                     expected=[
                         Expected(
@@ -8675,10 +8675,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG010.v"
+                    name='stG010.v'
                 ),
             ],
-            name="stG010"
+            name='stG010'
         ),
         TestGroup(
             annotation=[
@@ -8694,13 +8694,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG011.xsd"
+                        href='../msData/simpleType/stG011.xsd'
                     ),
                 ],
                 expected=[
@@ -8712,12 +8712,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG011"
+                name='stG011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG011.xml"
+                        href='../msData/simpleType/stG011.xml'
                     ),
                     expected=[
                         Expected(
@@ -8728,10 +8728,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG011.i"
+                    name='stG011.i'
                 ),
             ],
-            name="stG011"
+            name='stG011'
         ),
         TestGroup(
             annotation=[
@@ -8747,13 +8747,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG012.xsd"
+                        href='../msData/simpleType/stG012.xsd'
                     ),
                 ],
                 expected=[
@@ -8765,12 +8765,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG012"
+                name='stG012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG012.xml"
+                        href='../msData/simpleType/stG012.xml'
                     ),
                     expected=[
                         Expected(
@@ -8781,10 +8781,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG012.v"
+                    name='stG012.v'
                 ),
             ],
-            name="stG012"
+            name='stG012'
         ),
         TestGroup(
             annotation=[
@@ -8800,13 +8800,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stG013.xsd"
+                        href='../msData/simpleType/stG013.xsd'
                     ),
                 ],
                 expected=[
@@ -8818,12 +8818,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stG013"
+                name='stG013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stG013.xml"
+                        href='../msData/simpleType/stG013.xml'
                     ),
                     expected=[
                         Expected(
@@ -8834,10 +8834,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stG013.i"
+                    name='stG013.i'
                 ),
             ],
-            name="stG013"
+            name='stG013'
         ),
         TestGroup(
             annotation=[
@@ -8845,7 +8845,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : schema defines a union of positiveInteger with minInclusive and maxInclusive restrictions and NMTOKEN with enumeration instance document has valid values",
+                                'TEST :Syntax Checking for simpleType Declaration : schema defines a union of positiveInteger with minInclusive and maxInclusive restrictions and NMTOKEN with enumeration instance document has valid values',
                             ]
                         ),
                     ]
@@ -8853,13 +8853,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH001.xsd"
+                        href='../msData/simpleType/stH001.xsd'
                     ),
                 ],
                 expected=[
@@ -8871,12 +8871,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH001"
+                name='stH001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH001.xml"
+                        href='../msData/simpleType/stH001.xml'
                     ),
                     expected=[
                         Expected(
@@ -8887,10 +8887,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH001.v"
+                    name='stH001.v'
                 ),
             ],
-            name="stH001"
+            name='stH001'
         ),
         TestGroup(
             annotation=[
@@ -8898,7 +8898,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : schema defines a union of positiveInteger with minInclusive and maxInclusive restrictions and NMTOKEN with enumeration instance document an invalid value",
+                                'TEST :Syntax Checking for simpleType Declaration : schema defines a union of positiveInteger with minInclusive and maxInclusive restrictions and NMTOKEN with enumeration instance document an invalid value',
                             ]
                         ),
                     ]
@@ -8906,13 +8906,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH002.xsd"
+                        href='../msData/simpleType/stH002.xsd'
                     ),
                 ],
                 expected=[
@@ -8924,12 +8924,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH002"
+                name='stH002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH002.xml"
+                        href='../msData/simpleType/stH002.xml'
                     ),
                     expected=[
                         Expected(
@@ -8940,10 +8940,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH002.i"
+                    name='stH002.i'
                 ),
             ],
-            name="stH002"
+            name='stH002'
         ),
         TestGroup(
             annotation=[
@@ -8951,7 +8951,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : schema defines a union with memberTypes of a list of states(restricted strings) and a list of zip codes(restricted positiveIntegers) instance document has valid values",
+                                'TEST :Syntax Checking for simpleType Declaration : schema defines a union with memberTypes of a list of states(restricted strings) and a list of zip codes(restricted positiveIntegers) instance document has valid values',
                             ]
                         ),
                     ]
@@ -8959,13 +8959,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH003.xsd"
+                        href='../msData/simpleType/stH003.xsd'
                     ),
                 ],
                 expected=[
@@ -8977,12 +8977,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH003"
+                name='stH003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH003.xml"
+                        href='../msData/simpleType/stH003.xml'
                     ),
                     expected=[
                         Expected(
@@ -8993,10 +8993,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH003.v"
+                    name='stH003.v'
                 ),
             ],
-            name="stH003"
+            name='stH003'
         ),
         TestGroup(
             annotation=[
@@ -9004,7 +9004,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : schema defines a union with memberTypes of a list of states(restricted strings) and a list of zip codes(restricted positiveIntegers) instance document has zip code out of range",
+                                'TEST :Syntax Checking for simpleType Declaration : schema defines a union with memberTypes of a list of states(restricted strings) and a list of zip codes(restricted positiveIntegers) instance document has zip code out of range',
                             ]
                         ),
                     ]
@@ -9012,13 +9012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH004.xsd"
+                        href='../msData/simpleType/stH004.xsd'
                     ),
                 ],
                 expected=[
@@ -9030,12 +9030,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH004"
+                name='stH004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH004.xml"
+                        href='../msData/simpleType/stH004.xml'
                     ),
                     expected=[
                         Expected(
@@ -9046,10 +9046,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH004.i"
+                    name='stH004.i'
                 ),
             ],
-            name="stH004"
+            name='stH004'
         ),
         TestGroup(
             annotation=[
@@ -9065,13 +9065,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH005.xsd"
+                        href='../msData/simpleType/stH005.xsd'
                     ),
                 ],
                 expected=[
@@ -9083,12 +9083,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH005"
+                name='stH005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH005.xml"
+                        href='../msData/simpleType/stH005.xml'
                     ),
                     expected=[
                         Expected(
@@ -9099,10 +9099,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH005.v"
+                    name='stH005.v'
                 ),
             ],
-            name="stH005"
+            name='stH005'
         ),
         TestGroup(
             annotation=[
@@ -9118,13 +9118,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH006.xsd"
+                        href='../msData/simpleType/stH006.xsd'
                     ),
                 ],
                 expected=[
@@ -9136,12 +9136,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH006"
+                name='stH006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH006.xml"
+                        href='../msData/simpleType/stH006.xml'
                     ),
                     expected=[
                         Expected(
@@ -9152,10 +9152,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH006.i"
+                    name='stH006.i'
                 ),
             ],
-            name="stH006"
+            name='stH006'
         ),
         TestGroup(
             annotation=[
@@ -9171,13 +9171,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH007.xsd"
+                        href='../msData/simpleType/stH007.xsd'
                     ),
                 ],
                 expected=[
@@ -9189,12 +9189,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH007"
+                name='stH007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH007.xml"
+                        href='../msData/simpleType/stH007.xml'
                     ),
                     expected=[
                         Expected(
@@ -9205,10 +9205,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH007.v"
+                    name='stH007.v'
                 ),
             ],
-            name="stH007"
+            name='stH007'
         ),
         TestGroup(
             annotation=[
@@ -9224,13 +9224,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stH008.xsd"
+                        href='../msData/simpleType/stH008.xsd'
                     ),
                 ],
                 expected=[
@@ -9242,12 +9242,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stH008"
+                name='stH008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stH008.xml"
+                        href='../msData/simpleType/stH008.xml'
                     ),
                     expected=[
                         Expected(
@@ -9258,10 +9258,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stH008.i"
+                    name='stH008.i'
                 ),
             ],
-            name="stH008"
+            name='stH008'
         ),
         TestGroup(
             annotation=[
@@ -9269,7 +9269,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is atomic",
+                                'TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is atomic',
                             ]
                         ),
                     ]
@@ -9277,13 +9277,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stI001.xsd"
+                        href='../msData/simpleType/stI001.xsd'
                     ),
                 ],
                 expected=[
@@ -9295,9 +9295,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stI001"
+                name='stI001'
             ),
-            name="stI001"
+            name='stI001'
         ),
         TestGroup(
             annotation=[
@@ -9305,7 +9305,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is union",
+                                'TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is union',
                             ]
                         ),
                     ]
@@ -9313,13 +9313,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stI002.xsd"
+                        href='../msData/simpleType/stI002.xsd'
                     ),
                 ],
                 expected=[
@@ -9331,9 +9331,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stI002"
+                name='stI002'
             ),
-            name="stI002"
+            name='stI002'
         ),
         TestGroup(
             annotation=[
@@ -9341,7 +9341,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is list",
+                                'TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is list',
                             ]
                         ),
                     ]
@@ -9349,13 +9349,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stI003.xsd"
+                        href='../msData/simpleType/stI003.xsd'
                     ),
                 ],
                 expected=[
@@ -9367,9 +9367,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stI003"
+                name='stI003'
             ),
-            name="stI003"
+            name='stI003'
         ),
         TestGroup(
             annotation=[
@@ -9377,7 +9377,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is complexType",
+                                'TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is complexType',
                             ]
                         ),
                     ]
@@ -9385,13 +9385,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stI004.xsd"
+                        href='../msData/simpleType/stI004.xsd'
                     ),
                 ],
                 expected=[
@@ -9403,9 +9403,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stI004"
+                name='stI004'
             ),
-            name="stI004"
+            name='stI004'
         ),
         TestGroup(
             annotation=[
@@ -9413,7 +9413,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : atomic. derived facet value is outside base facet acceptable restriction.",
+                                'TEST :Syntax Checking for simpleType Declaration : atomic. derived facet value is outside base facet acceptable restriction.',
                             ]
                         ),
                     ]
@@ -9421,13 +9421,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stI005.xsd"
+                        href='../msData/simpleType/stI005.xsd'
                     ),
                 ],
                 expected=[
@@ -9439,9 +9439,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stI005"
+                name='stI005'
             ),
-            name="stI005"
+            name='stI005'
         ),
         TestGroup(
             annotation=[
@@ -9449,7 +9449,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to atomic type",
+                                'TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to atomic type',
                             ]
                         ),
                     ]
@@ -9457,13 +9457,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ001.xsd"
+                        href='../msData/simpleType/stJ001.xsd'
                     ),
                 ],
                 expected=[
@@ -9475,9 +9475,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ001"
+                name='stJ001'
             ),
-            name="stJ001"
+            name='stJ001'
         ),
         TestGroup(
             annotation=[
@@ -9485,7 +9485,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to union type",
+                                'TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to union type',
                             ]
                         ),
                     ]
@@ -9493,13 +9493,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ002.xsd"
+                        href='../msData/simpleType/stJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -9511,9 +9511,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ002"
+                name='stJ002'
             ),
-            name="stJ002"
+            name='stJ002'
         ),
         TestGroup(
             annotation=[
@@ -9521,7 +9521,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to complexType",
+                                'TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to complexType',
                             ]
                         ),
                     ]
@@ -9529,13 +9529,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ003.xsd"
+                        href='../msData/simpleType/stJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -9547,9 +9547,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ003"
+                name='stJ003'
             ),
-            name="stJ003"
+            name='stJ003'
         ),
         TestGroup(
             annotation=[
@@ -9557,7 +9557,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. length facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. length facet',
                             ]
                         ),
                     ]
@@ -9565,13 +9565,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ004.xsd"
+                        href='../msData/simpleType/stJ004.xsd'
                     ),
                 ],
                 expected=[
@@ -9583,9 +9583,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ004"
+                name='stJ004'
             ),
-            name="stJ004"
+            name='stJ004'
         ),
         TestGroup(
             annotation=[
@@ -9593,7 +9593,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. minLength facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. minLength facet',
                             ]
                         ),
                     ]
@@ -9601,13 +9601,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ005.xsd"
+                        href='../msData/simpleType/stJ005.xsd'
                     ),
                 ],
                 expected=[
@@ -9619,9 +9619,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ005"
+                name='stJ005'
             ),
-            name="stJ005"
+            name='stJ005'
         ),
         TestGroup(
             annotation=[
@@ -9629,7 +9629,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. maxLength facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. maxLength facet',
                             ]
                         ),
                     ]
@@ -9637,13 +9637,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ006.xsd"
+                        href='../msData/simpleType/stJ006.xsd'
                     ),
                 ],
                 expected=[
@@ -9655,9 +9655,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ006"
+                name='stJ006'
             ),
-            name="stJ006"
+            name='stJ006'
         ),
         TestGroup(
             annotation=[
@@ -9665,7 +9665,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. pattern facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. pattern facet',
                             ]
                         ),
                     ]
@@ -9673,13 +9673,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ007.xsd"
+                        href='../msData/simpleType/stJ007.xsd'
                     ),
                 ],
                 expected=[
@@ -9691,9 +9691,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ007"
+                name='stJ007'
             ),
-            name="stJ007"
+            name='stJ007'
         ),
         TestGroup(
             annotation=[
@@ -9701,7 +9701,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. enumeration facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. enumeration facet',
                             ]
                         ),
                     ]
@@ -9709,13 +9709,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ008.xsd"
+                        href='../msData/simpleType/stJ008.xsd'
                     ),
                 ],
                 expected=[
@@ -9727,9 +9727,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ008"
+                name='stJ008'
             ),
-            name="stJ008"
+            name='stJ008'
         ),
         TestGroup(
             annotation=[
@@ -9737,7 +9737,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. whiteSpace facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. whiteSpace facet',
                             ]
                         ),
                     ]
@@ -9745,13 +9745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ009.xsd"
+                        href='../msData/simpleType/stJ009.xsd'
                     ),
                 ],
                 expected=[
@@ -9763,9 +9763,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ009"
+                name='stJ009'
             ),
-            name="stJ009"
+            name='stJ009'
         ),
         TestGroup(
             annotation=[
@@ -9773,7 +9773,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. maxInclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. maxInclusive facet',
                             ]
                         ),
                     ]
@@ -9781,13 +9781,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ010.xsd"
+                        href='../msData/simpleType/stJ010.xsd'
                     ),
                 ],
                 expected=[
@@ -9799,9 +9799,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ010"
+                name='stJ010'
             ),
-            name="stJ010"
+            name='stJ010'
         ),
         TestGroup(
             annotation=[
@@ -9809,7 +9809,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. maxExclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. maxExclusive facet',
                             ]
                         ),
                     ]
@@ -9817,13 +9817,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ011.xsd"
+                        href='../msData/simpleType/stJ011.xsd'
                     ),
                 ],
                 expected=[
@@ -9835,9 +9835,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ011"
+                name='stJ011'
             ),
-            name="stJ011"
+            name='stJ011'
         ),
         TestGroup(
             annotation=[
@@ -9845,7 +9845,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. minExclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. minExclusive facet',
                             ]
                         ),
                     ]
@@ -9853,13 +9853,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ012.xsd"
+                        href='../msData/simpleType/stJ012.xsd'
                     ),
                 ],
                 expected=[
@@ -9871,9 +9871,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ012"
+                name='stJ012'
             ),
-            name="stJ012"
+            name='stJ012'
         ),
         TestGroup(
             annotation=[
@@ -9881,7 +9881,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. minInclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. minInclusive facet',
                             ]
                         ),
                     ]
@@ -9889,13 +9889,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ013.xsd"
+                        href='../msData/simpleType/stJ013.xsd'
                     ),
                 ],
                 expected=[
@@ -9907,9 +9907,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ013"
+                name='stJ013'
             ),
-            name="stJ013"
+            name='stJ013'
         ),
         TestGroup(
             annotation=[
@@ -9917,7 +9917,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. precision facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. precision facet',
                             ]
                         ),
                     ]
@@ -9925,13 +9925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ014.xsd"
+                        href='../msData/simpleType/stJ014.xsd'
                     ),
                 ],
                 expected=[
@@ -9943,9 +9943,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ014"
+                name='stJ014'
             ),
-            name="stJ014"
+            name='stJ014'
         ),
         TestGroup(
             annotation=[
@@ -9953,7 +9953,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. scale facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. scale facet',
                             ]
                         ),
                     ]
@@ -9961,13 +9961,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ015.xsd"
+                        href='../msData/simpleType/stJ015.xsd'
                     ),
                 ],
                 expected=[
@@ -9979,9 +9979,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ015"
+                name='stJ015'
             ),
-            name="stJ015"
+            name='stJ015'
         ),
         TestGroup(
             annotation=[
@@ -9989,7 +9989,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. encoding facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. encoding facet',
                             ]
                         ),
                     ]
@@ -9997,13 +9997,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ016.xsd"
+                        href='../msData/simpleType/stJ016.xsd'
                     ),
                 ],
                 expected=[
@@ -10015,9 +10015,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ016"
+                name='stJ016'
             ),
-            name="stJ016"
+            name='stJ016'
         ),
         TestGroup(
             annotation=[
@@ -10025,7 +10025,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. duration facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. duration facet',
                             ]
                         ),
                     ]
@@ -10033,13 +10033,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ017.xsd"
+                        href='../msData/simpleType/stJ017.xsd'
                     ),
                 ],
                 expected=[
@@ -10051,9 +10051,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ017"
+                name='stJ017'
             ),
-            name="stJ017"
+            name='stJ017'
         ),
         TestGroup(
             annotation=[
@@ -10061,7 +10061,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. period facet",
+                                'TEST :Syntax Checking for simpleType Declaration : list. period facet',
                             ]
                         ),
                     ]
@@ -10069,13 +10069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ018.xsd"
+                        href='../msData/simpleType/stJ018.xsd'
                     ),
                 ],
                 expected=[
@@ -10087,9 +10087,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ018"
+                name='stJ018'
             ),
-            name="stJ018"
+            name='stJ018'
         ),
         TestGroup(
             annotation=[
@@ -10097,7 +10097,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to listType",
+                                'TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to listType',
                             ]
                         ),
                     ]
@@ -10105,13 +10105,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stJ019.xsd"
+                        href='../msData/simpleType/stJ019.xsd'
                     ),
                 ],
                 expected=[
@@ -10123,9 +10123,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stJ019"
+                name='stJ019'
             ),
-            name="stJ019"
+            name='stJ019'
         ),
         TestGroup(
             annotation=[
@@ -10133,7 +10133,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to atomic type",
+                                'TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to atomic type',
                             ]
                         ),
                     ]
@@ -10141,13 +10141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK001.xsd"
+                        href='../msData/simpleType/stK001.xsd'
                     ),
                 ],
                 expected=[
@@ -10159,9 +10159,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK001"
+                name='stK001'
             ),
-            name="stK001"
+            name='stK001'
         ),
         TestGroup(
             annotation=[
@@ -10169,7 +10169,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to union type",
+                                'TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to union type',
                             ]
                         ),
                     ]
@@ -10177,13 +10177,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK002.xsd"
+                        href='../msData/simpleType/stK002.xsd'
                     ),
                 ],
                 expected=[
@@ -10195,9 +10195,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK002"
+                name='stK002'
             ),
-            name="stK002"
+            name='stK002'
         ),
         TestGroup(
             annotation=[
@@ -10205,7 +10205,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to complexType",
+                                'TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to complexType',
                             ]
                         ),
                     ]
@@ -10213,13 +10213,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK003.xsd"
+                        href='../msData/simpleType/stK003.xsd'
                     ),
                 ],
                 expected=[
@@ -10231,9 +10231,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK003"
+                name='stK003'
             ),
-            name="stK003"
+            name='stK003'
         ),
         TestGroup(
             annotation=[
@@ -10241,7 +10241,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to list type",
+                                'TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to list type',
                             ]
                         ),
                     ]
@@ -10249,13 +10249,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK004.xsd"
+                        href='../msData/simpleType/stK004.xsd'
                     ),
                 ],
                 expected=[
@@ -10267,9 +10267,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK004"
+                name='stK004'
             ),
-            name="stK004"
+            name='stK004'
         ),
         TestGroup(
             annotation=[
@@ -10277,7 +10277,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. length facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. length facet',
                             ]
                         ),
                     ]
@@ -10285,13 +10285,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK005.xsd"
+                        href='../msData/simpleType/stK005.xsd'
                     ),
                 ],
                 expected=[
@@ -10303,9 +10303,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK005"
+                name='stK005'
             ),
-            name="stK005"
+            name='stK005'
         ),
         TestGroup(
             annotation=[
@@ -10313,7 +10313,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. minLength facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. minLength facet',
                             ]
                         ),
                     ]
@@ -10321,13 +10321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK006.xsd"
+                        href='../msData/simpleType/stK006.xsd'
                     ),
                 ],
                 expected=[
@@ -10339,9 +10339,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK006"
+                name='stK006'
             ),
-            name="stK006"
+            name='stK006'
         ),
         TestGroup(
             annotation=[
@@ -10349,7 +10349,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. maxLength facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. maxLength facet',
                             ]
                         ),
                     ]
@@ -10357,13 +10357,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK007.xsd"
+                        href='../msData/simpleType/stK007.xsd'
                     ),
                 ],
                 expected=[
@@ -10375,9 +10375,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK007"
+                name='stK007'
             ),
-            name="stK007"
+            name='stK007'
         ),
         TestGroup(
             annotation=[
@@ -10385,7 +10385,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. pattern facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. pattern facet',
                             ]
                         ),
                     ]
@@ -10393,13 +10393,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK008.xsd"
+                        href='../msData/simpleType/stK008.xsd'
                     ),
                 ],
                 expected=[
@@ -10411,9 +10411,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK008"
+                name='stK008'
             ),
-            name="stK008"
+            name='stK008'
         ),
         TestGroup(
             annotation=[
@@ -10421,7 +10421,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. enumeration facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. enumeration facet',
                             ]
                         ),
                     ]
@@ -10429,13 +10429,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK009.xsd"
+                        href='../msData/simpleType/stK009.xsd'
                     ),
                 ],
                 expected=[
@@ -10447,9 +10447,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK009"
+                name='stK009'
             ),
-            name="stK009"
+            name='stK009'
         ),
         TestGroup(
             annotation=[
@@ -10457,7 +10457,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. whiteSpace facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. whiteSpace facet',
                             ]
                         ),
                     ]
@@ -10465,13 +10465,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK010.xsd"
+                        href='../msData/simpleType/stK010.xsd'
                     ),
                 ],
                 expected=[
@@ -10483,9 +10483,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK010"
+                name='stK010'
             ),
-            name="stK010"
+            name='stK010'
         ),
         TestGroup(
             annotation=[
@@ -10493,7 +10493,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. maxInclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. maxInclusive facet',
                             ]
                         ),
                     ]
@@ -10501,13 +10501,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK011.xsd"
+                        href='../msData/simpleType/stK011.xsd'
                     ),
                 ],
                 expected=[
@@ -10519,9 +10519,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK011"
+                name='stK011'
             ),
-            name="stK011"
+            name='stK011'
         ),
         TestGroup(
             annotation=[
@@ -10529,7 +10529,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. maxExclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. maxExclusive facet',
                             ]
                         ),
                     ]
@@ -10537,13 +10537,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK012.xsd"
+                        href='../msData/simpleType/stK012.xsd'
                     ),
                 ],
                 expected=[
@@ -10555,9 +10555,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK012"
+                name='stK012'
             ),
-            name="stK012"
+            name='stK012'
         ),
         TestGroup(
             annotation=[
@@ -10565,7 +10565,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. minExclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. minExclusive facet',
                             ]
                         ),
                     ]
@@ -10573,13 +10573,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK013.xsd"
+                        href='../msData/simpleType/stK013.xsd'
                     ),
                 ],
                 expected=[
@@ -10591,9 +10591,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK013"
+                name='stK013'
             ),
-            name="stK013"
+            name='stK013'
         ),
         TestGroup(
             annotation=[
@@ -10601,7 +10601,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. minInclusive facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. minInclusive facet',
                             ]
                         ),
                     ]
@@ -10609,13 +10609,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK014.xsd"
+                        href='../msData/simpleType/stK014.xsd'
                     ),
                 ],
                 expected=[
@@ -10627,9 +10627,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK014"
+                name='stK014'
             ),
-            name="stK014"
+            name='stK014'
         ),
         TestGroup(
             annotation=[
@@ -10637,7 +10637,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. precision facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. precision facet',
                             ]
                         ),
                     ]
@@ -10645,13 +10645,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK015.xsd"
+                        href='../msData/simpleType/stK015.xsd'
                     ),
                 ],
                 expected=[
@@ -10663,9 +10663,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK015"
+                name='stK015'
             ),
-            name="stK015"
+            name='stK015'
         ),
         TestGroup(
             annotation=[
@@ -10673,7 +10673,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. scale facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. scale facet',
                             ]
                         ),
                     ]
@@ -10681,13 +10681,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK016.xsd"
+                        href='../msData/simpleType/stK016.xsd'
                     ),
                 ],
                 expected=[
@@ -10699,9 +10699,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK016"
+                name='stK016'
             ),
-            name="stK016"
+            name='stK016'
         ),
         TestGroup(
             annotation=[
@@ -10709,7 +10709,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. encoding facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. encoding facet',
                             ]
                         ),
                     ]
@@ -10717,13 +10717,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK017.xsd"
+                        href='../msData/simpleType/stK017.xsd'
                     ),
                 ],
                 expected=[
@@ -10735,9 +10735,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK017"
+                name='stK017'
             ),
-            name="stK017"
+            name='stK017'
         ),
         TestGroup(
             annotation=[
@@ -10745,7 +10745,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. duration facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. duration facet',
                             ]
                         ),
                     ]
@@ -10753,13 +10753,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK018.xsd"
+                        href='../msData/simpleType/stK018.xsd'
                     ),
                 ],
                 expected=[
@@ -10771,9 +10771,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK018"
+                name='stK018'
             ),
-            name="stK018"
+            name='stK018'
         ),
         TestGroup(
             annotation=[
@@ -10781,7 +10781,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : union. period facet",
+                                'TEST :Syntax Checking for simpleType Declaration : union. period facet',
                             ]
                         ),
                     ]
@@ -10789,13 +10789,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stK019.xsd"
+                        href='../msData/simpleType/stK019.xsd'
                     ),
                 ],
                 expected=[
@@ -10807,9 +10807,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stK019"
+                name='stK019'
             ),
-            name="stK019"
+            name='stK019'
         ),
         TestGroup(
             annotation=[
@@ -10817,7 +10817,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : simpleType does not support final attribute",
+                                'TEST :Syntax Checking for simpleType Declaration : simpleType does not support final attribute',
                             ]
                         ),
                     ]
@@ -10825,13 +10825,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ001.xsd"
+                        href='../msData/simpleType/stZ001.xsd'
                     ),
                 ],
                 expected=[
@@ -10843,9 +10843,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ001"
+                name='stZ001'
             ),
-            name="stZ001"
+            name='stZ001'
         ),
         TestGroup(
             annotation=[
@@ -10853,7 +10853,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: enumeration valid restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: enumeration valid restriction',
                             ]
                         ),
                     ]
@@ -10861,13 +10861,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ002.xsd"
+                        href='../msData/simpleType/stZ002.xsd'
                     ),
                 ],
                 expected=[
@@ -10879,9 +10879,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ002"
+                name='stZ002'
             ),
-            name="stZ002"
+            name='stZ002'
         ),
         TestGroup(
             annotation=[
@@ -10889,7 +10889,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : test simpleType final attribute and extension enumeration",
+                                'TEST :Syntax Checking for simpleType Declaration : test simpleType final attribute and extension enumeration',
                             ]
                         ),
                     ]
@@ -10897,13 +10897,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ003.xsd"
+                        href='../msData/simpleType/stZ003.xsd'
                     ),
                 ],
                 expected=[
@@ -10915,9 +10915,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ003"
+                name='stZ003'
             ),
-            name="stZ003"
+            name='stZ003'
         ),
         TestGroup(
             annotation=[
@@ -10925,7 +10925,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd:can not specify HalfWidth-KANA to Instance documents when schema has pattern facet including Japanese character.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd:can not specify HalfWidth-KANA to Instance documents when schema has pattern facet including Japanese character.',
                             ]
                         ),
                     ]
@@ -10933,13 +10933,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ004.xsd"
+                        href='../msData/simpleType/stZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -10951,12 +10951,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ004"
+                name='stZ004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ004.xml"
+                        href='../msData/simpleType/stZ004.xml'
                     ),
                     expected=[
                         Expected(
@@ -10967,10 +10967,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ004.v"
+                    name='stZ004.v'
                 ),
             ],
-            name="stZ004"
+            name='stZ004'
         ),
         TestGroup(
             annotation=[
@@ -10978,7 +10978,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : rename a simpleType to anySimpleType using restriction, xml has valid data",
+                                'TEST :Syntax Checking for simpleType Declaration : rename a simpleType to anySimpleType using restriction, xml has valid data',
                             ]
                         ),
                     ]
@@ -10986,13 +10986,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ005.xsd"
+                        href='../msData/simpleType/stZ005.xsd'
                     ),
                 ],
                 expected=[
@@ -11004,9 +11004,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ005"
+                name='stZ005'
             ),
-            name="stZ005"
+            name='stZ005'
         ),
         TestGroup(
             annotation=[
@@ -11014,7 +11014,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : rename a SimpleTypeype to anySimpleType using restriction, xml has an element (invalid because anySimpleType cannot be element)",
+                                'TEST :Syntax Checking for simpleType Declaration : rename a SimpleTypeype to anySimpleType using restriction, xml has an element (invalid because anySimpleType cannot be element)',
                             ]
                         ),
                     ]
@@ -11022,13 +11022,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ006.xsd"
+                        href='../msData/simpleType/stZ006.xsd'
                     ),
                 ],
                 expected=[
@@ -11040,9 +11040,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ006"
+                name='stZ006'
             ),
-            name="stZ006"
+            name='stZ006'
         ),
         TestGroup(
             annotation=[
@@ -11050,7 +11050,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using extension, and restrict it to another complexType",
+                                'TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using extension, and restrict it to another complexType',
                             ]
                         ),
                     ]
@@ -11058,13 +11058,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ007.xsd"
+                        href='../msData/simpleType/stZ007.xsd'
                     ),
                 ],
                 expected=[
@@ -11084,7 +11084,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 11, 30),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559'
                 ),
                 prior=[
                     Prior(
@@ -11092,25 +11092,25 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ007"
+                name='stZ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ007.xml"
+                        href='../msData/simpleType/stZ007.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="stZ007.v",
+                    name='stZ007.v',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="stZ007"
+            name='stZ007'
         ),
         TestGroup(
             annotation=[
@@ -11118,7 +11118,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using extension, and extend it to another complexType with attribute",
+                                'TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using extension, and extend it to another complexType with attribute',
                             ]
                         ),
                     ]
@@ -11126,13 +11126,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ008.xsd"
+                        href='../msData/simpleType/stZ008.xsd'
                     ),
                 ],
                 expected=[
@@ -11144,12 +11144,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ008"
+                name='stZ008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ008.xml"
+                        href='../msData/simpleType/stZ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -11160,10 +11160,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ008.v"
+                    name='stZ008.v'
                 ),
             ],
-            name="stZ008"
+            name='stZ008'
         ),
         TestGroup(
             annotation=[
@@ -11171,7 +11171,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using restriction",
+                                'TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using restriction',
                             ]
                         ),
                     ]
@@ -11179,13 +11179,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ009.xsd"
+                        href='../msData/simpleType/stZ009.xsd'
                     ),
                 ],
                 expected=[
@@ -11197,9 +11197,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ009"
+                name='stZ009'
             ),
-            name="stZ009"
+            name='stZ009'
         ),
         TestGroup(
             annotation=[
@@ -11207,7 +11207,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : derive from a type renamed to anySimpleType, with minLength Facet",
+                                'TEST :Syntax Checking for simpleType Declaration : derive from a type renamed to anySimpleType, with minLength Facet',
                             ]
                         ),
                     ]
@@ -11215,13 +11215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ010.xsd"
+                        href='../msData/simpleType/stZ010.xsd'
                     ),
                 ],
                 expected=[
@@ -11233,9 +11233,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ010"
+                name='stZ010'
             ),
-            name="stZ010"
+            name='stZ010'
         ),
         TestGroup(
             annotation=[
@@ -11243,7 +11243,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : use a typed renamed to anySimpleType in UNION and LIST with valid XML",
+                                'TEST :Syntax Checking for simpleType Declaration : use a typed renamed to anySimpleType in UNION and LIST with valid XML',
                             ]
                         ),
                     ]
@@ -11251,13 +11251,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ011.xsd"
+                        href='../msData/simpleType/stZ011.xsd'
                     ),
                 ],
                 expected=[
@@ -11269,9 +11269,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ011"
+                name='stZ011'
             ),
-            name="stZ011"
+            name='stZ011'
         ),
         TestGroup(
             annotation=[
@@ -11279,7 +11279,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : use substitutionGroup with a type renamed to anySimpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : use substitutionGroup with a type renamed to anySimpleType',
                             ]
                         ),
                     ]
@@ -11287,13 +11287,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ012.xsd"
+                        href='../msData/simpleType/stZ012.xsd'
                     ),
                 ],
                 expected=[
@@ -11305,9 +11305,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ012"
+                name='stZ012'
             ),
-            name="stZ012"
+            name='stZ012'
         ),
         TestGroup(
             annotation=[
@@ -11315,7 +11315,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xs:whitespace is preserve and the xs:whitespace of the parent is replaced.",
+                                'TEST :Syntax Checking for simpleType Declaration : xs:whitespace is preserve and the xs:whitespace of the parent is replaced.',
                             ]
                         ),
                     ]
@@ -11323,13 +11323,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ013.xsd"
+                        href='../msData/simpleType/stZ013.xsd'
                     ),
                 ],
                 expected=[
@@ -11341,9 +11341,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ013"
+                name='stZ013'
             ),
-            name="stZ013"
+            name='stZ013'
         ),
         TestGroup(
             annotation=[
@@ -11351,7 +11351,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : TotalDigits facet values on derived types should not be greater than those on the base type",
+                                'TEST :Syntax Checking for simpleType Declaration : TotalDigits facet values on derived types should not be greater than those on the base type',
                             ]
                         ),
                     ]
@@ -11359,13 +11359,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ014.xsd"
+                        href='../msData/simpleType/stZ014.xsd'
                     ),
                 ],
                 expected=[
@@ -11377,9 +11377,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ014"
+                name='stZ014'
             ),
-            name="stZ014"
+            name='stZ014'
         ),
         TestGroup(
             annotation=[
@@ -11387,7 +11387,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : The value of totalDigits facet on a base simple type carrying forward to the derivedType",
+                                'TEST :Syntax Checking for simpleType Declaration : The value of totalDigits facet on a base simple type carrying forward to the derivedType',
                             ]
                         ),
                     ]
@@ -11395,13 +11395,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ015.xsd"
+                        href='../msData/simpleType/stZ015.xsd'
                     ),
                 ],
                 expected=[
@@ -11413,12 +11413,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ015"
+                name='stZ015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ015.xml"
+                        href='../msData/simpleType/stZ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -11429,10 +11429,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ015.v"
+                    name='stZ015.v'
                 ),
             ],
-            name="stZ015"
+            name='stZ015'
         ),
         TestGroup(
             annotation=[
@@ -11440,7 +11440,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : minExclusive and minInclusive facets when they are defined on base and derived types resp.",
+                                'TEST :Syntax Checking for simpleType Declaration : minExclusive and minInclusive facets when they are defined on base and derived types resp.',
                             ]
                         ),
                     ]
@@ -11448,13 +11448,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ016.xsd"
+                        href='../msData/simpleType/stZ016.xsd'
                     ),
                 ],
                 expected=[
@@ -11466,9 +11466,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ016"
+                name='stZ016'
             ),
-            name="stZ016"
+            name='stZ016'
         ),
         TestGroup(
             annotation=[
@@ -11476,7 +11476,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=collapse",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=collapse',
                             ]
                         ),
                     ]
@@ -11484,13 +11484,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ017.xsd"
+                        href='../msData/simpleType/stZ017.xsd'
                     ),
                 ],
                 expected=[
@@ -11502,9 +11502,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ017"
+                name='stZ017'
             ),
-            name="stZ017"
+            name='stZ017'
         ),
         TestGroup(
             annotation=[
@@ -11512,7 +11512,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=replace",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=replace',
                             ]
                         ),
                     ]
@@ -11520,13 +11520,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ018.xsd"
+                        href='../msData/simpleType/stZ018.xsd'
                     ),
                 ],
                 expected=[
@@ -11538,9 +11538,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ018"
+                name='stZ018'
             ),
-            name="stZ018"
+            name='stZ018'
         ),
         TestGroup(
             annotation=[
@@ -11548,7 +11548,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=preserve",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=preserve',
                             ]
                         ),
                     ]
@@ -11556,13 +11556,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ019.xsd"
+                        href='../msData/simpleType/stZ019.xsd'
                     ),
                 ],
                 expected=[
@@ -11574,9 +11574,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ019"
+                name='stZ019'
             ),
-            name="stZ019"
+            name='stZ019'
         ),
         TestGroup(
             annotation=[
@@ -11584,7 +11584,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=collapse",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=collapse',
                             ]
                         ),
                     ]
@@ -11592,13 +11592,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ020.xsd"
+                        href='../msData/simpleType/stZ020.xsd'
                     ),
                 ],
                 expected=[
@@ -11610,9 +11610,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ020"
+                name='stZ020'
             ),
-            name="stZ020"
+            name='stZ020'
         ),
         TestGroup(
             annotation=[
@@ -11620,7 +11620,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=replace",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=replace',
                             ]
                         ),
                     ]
@@ -11628,13 +11628,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ021.xsd"
+                        href='../msData/simpleType/stZ021.xsd'
                     ),
                 ],
                 expected=[
@@ -11646,9 +11646,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ021"
+                name='stZ021'
             ),
-            name="stZ021"
+            name='stZ021'
         ),
         TestGroup(
             annotation=[
@@ -11656,7 +11656,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=preserve",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=preserve',
                             ]
                         ),
                     ]
@@ -11664,13 +11664,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ022.xsd"
+                        href='../msData/simpleType/stZ022.xsd'
                     ),
                 ],
                 expected=[
@@ -11682,9 +11682,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ022"
+                name='stZ022'
             ),
-            name="stZ022"
+            name='stZ022'
         ),
         TestGroup(
             annotation=[
@@ -11692,7 +11692,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=collapse",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=collapse',
                             ]
                         ),
                     ]
@@ -11700,13 +11700,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ023.xsd"
+                        href='../msData/simpleType/stZ023.xsd'
                     ),
                 ],
                 expected=[
@@ -11718,9 +11718,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ023"
+                name='stZ023'
             ),
-            name="stZ023"
+            name='stZ023'
         ),
         TestGroup(
             annotation=[
@@ -11728,7 +11728,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=replace",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=replace',
                             ]
                         ),
                     ]
@@ -11736,13 +11736,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ024.xsd"
+                        href='../msData/simpleType/stZ024.xsd'
                     ),
                 ],
                 expected=[
@@ -11754,9 +11754,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ024"
+                name='stZ024'
             ),
-            name="stZ024"
+            name='stZ024'
         ),
         TestGroup(
             annotation=[
@@ -11764,7 +11764,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=preserve",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=preserve',
                             ]
                         ),
                     ]
@@ -11772,13 +11772,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ025.xsd"
+                        href='../msData/simpleType/stZ025.xsd'
                     ),
                 ],
                 expected=[
@@ -11790,9 +11790,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ025"
+                name='stZ025'
             ),
-            name="stZ025"
+            name='stZ025'
         ),
         TestGroup(
             annotation=[
@@ -11800,7 +11800,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=collapse, derived=replace",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=collapse, derived=replace',
                             ]
                         ),
                     ]
@@ -11808,13 +11808,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ026.xsd"
+                        href='../msData/simpleType/stZ026.xsd'
                     ),
                 ],
                 expected=[
@@ -11826,9 +11826,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ026"
+                name='stZ026'
             ),
-            name="stZ026"
+            name='stZ026'
         ),
         TestGroup(
             annotation=[
@@ -11836,7 +11836,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=collapse, derived=preserve",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=collapse, derived=preserve',
                             ]
                         ),
                     ]
@@ -11844,13 +11844,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ027.xsd"
+                        href='../msData/simpleType/stZ027.xsd'
                     ),
                 ],
                 expected=[
@@ -11862,9 +11862,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ027"
+                name='stZ027'
             ),
-            name="stZ027"
+            name='stZ027'
         ),
         TestGroup(
             annotation=[
@@ -11872,7 +11872,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=replace, derived=preserve",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=replace, derived=preserve',
                             ]
                         ),
                     ]
@@ -11880,13 +11880,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ028.xsd"
+                        href='../msData/simpleType/stZ028.xsd'
                     ),
                 ],
                 expected=[
@@ -11898,9 +11898,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ028"
+                name='stZ028'
             ),
-            name="stZ028"
+            name='stZ028'
         ),
         TestGroup(
             annotation=[
@@ -11908,7 +11908,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=preserve, derived=replace",
+                                'TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=preserve, derived=replace',
                             ]
                         ),
                     ]
@@ -11916,13 +11916,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ029.xsd"
+                        href='../msData/simpleType/stZ029.xsd'
                     ),
                 ],
                 expected=[
@@ -11934,9 +11934,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ029"
+                name='stZ029'
             ),
-            name="stZ029"
+            name='stZ029'
         ),
         TestGroup(
             annotation=[
@@ -11944,7 +11944,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: facet minExclusive in restricted type while minInclusive is in base type",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: facet minExclusive in restricted type while minInclusive is in base type',
                             ]
                         ),
                     ]
@@ -11952,13 +11952,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ030.xsd"
+                        href='../msData/simpleType/stZ030.xsd'
                     ),
                 ],
                 expected=[
@@ -11970,12 +11970,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ030"
+                name='stZ030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ030.xml"
+                        href='../msData/simpleType/stZ030.xml'
                     ),
                     expected=[
                         Expected(
@@ -11986,10 +11986,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ030.v"
+                    name='stZ030.v'
                 ),
             ],
-            name="stZ030"
+            name='stZ030'
         ),
         TestGroup(
             annotation=[
@@ -11997,7 +11997,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: we should not parser Name as QName.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: we should not parser Name as QName.',
                             ]
                         ),
                     ]
@@ -12005,13 +12005,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ031.xsd"
+                        href='../msData/simpleType/stZ031.xsd'
                     ),
                 ],
                 expected=[
@@ -12023,12 +12023,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ031"
+                name='stZ031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ031.xml"
+                        href='../msData/simpleType/stZ031.xml'
                     ),
                     expected=[
                         Expected(
@@ -12039,10 +12039,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ031.v"
+                    name='stZ031.v'
                 ),
             ],
-            name="stZ031"
+            name='stZ031'
         ),
         TestGroup(
             annotation=[
@@ -12050,7 +12050,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.',
                             ]
                         ),
                     ]
@@ -12058,13 +12058,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ032.xsd"
+                        href='../msData/simpleType/stZ032.xsd'
                     ),
                 ],
                 expected=[
@@ -12076,12 +12076,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ032"
+                name='stZ032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ032.xml"
+                        href='../msData/simpleType/stZ032.xml'
                     ),
                     expected=[
                         Expected(
@@ -12092,10 +12092,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ032.i"
+                    name='stZ032.i'
                 ),
             ],
-            name="stZ032"
+            name='stZ032'
         ),
         TestGroup(
             annotation=[
@@ -12103,7 +12103,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.',
                             ]
                         ),
                     ]
@@ -12111,13 +12111,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ033.xsd"
+                        href='../msData/simpleType/stZ033.xsd'
                     ),
                 ],
                 expected=[
@@ -12129,12 +12129,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ033"
+                name='stZ033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ033.xml"
+                        href='../msData/simpleType/stZ033.xml'
                     ),
                     expected=[
                         Expected(
@@ -12145,10 +12145,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ033.i"
+                    name='stZ033.i'
                 ),
             ],
-            name="stZ033"
+            name='stZ033'
         ),
         TestGroup(
             annotation=[
@@ -12156,7 +12156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.',
                             ]
                         ),
                     ]
@@ -12164,13 +12164,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ033.xsd"
+                        href='../msData/simpleType/stZ033.xsd'
                     ),
                 ],
                 expected=[
@@ -12182,12 +12182,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ034"
+                name='stZ034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ034.xml"
+                        href='../msData/simpleType/stZ034.xml'
                     ),
                     expected=[
                         Expected(
@@ -12198,10 +12198,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ034.i"
+                    name='stZ034.i'
                 ),
             ],
-            name="stZ034"
+            name='stZ034'
         ),
         TestGroup(
             annotation=[
@@ -12209,7 +12209,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.',
                             ]
                         ),
                     ]
@@ -12217,13 +12217,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ035.xsd"
+                        href='../msData/simpleType/stZ035.xsd'
                     ),
                 ],
                 expected=[
@@ -12235,12 +12235,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ035"
+                name='stZ035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ035.xml"
+                        href='../msData/simpleType/stZ035.xml'
                     ),
                     expected=[
                         Expected(
@@ -12251,10 +12251,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ035.i"
+                    name='stZ035.i'
                 ),
             ],
-            name="stZ035"
+            name='stZ035'
         ),
         TestGroup(
             annotation=[
@@ -12262,7 +12262,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.',
                             ]
                         ),
                     ]
@@ -12270,13 +12270,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ035.xsd"
+                        href='../msData/simpleType/stZ035.xsd'
                     ),
                 ],
                 expected=[
@@ -12288,12 +12288,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ036"
+                name='stZ036'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ036.xml"
+                        href='../msData/simpleType/stZ036.xml'
                     ),
                     expected=[
                         Expected(
@@ -12304,10 +12304,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ036.v"
+                    name='stZ036.v'
                 ),
             ],
-            name="stZ036"
+            name='stZ036'
         ),
         TestGroup(
             annotation=[
@@ -12315,7 +12315,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.",
+                                'TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.',
                             ]
                         ),
                     ]
@@ -12323,13 +12323,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ035.xsd"
+                        href='../msData/simpleType/stZ035.xsd'
                     ),
                 ],
                 expected=[
@@ -12341,12 +12341,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ037"
+                name='stZ037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ037.xml"
+                        href='../msData/simpleType/stZ037.xml'
                     ),
                     expected=[
                         Expected(
@@ -12357,10 +12357,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ037.i"
+                    name='stZ037.i'
                 ),
             ],
-            name="stZ037"
+            name='stZ037'
         ),
         TestGroup(
             annotation=[
@@ -12376,13 +12376,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ038.xsd"
+                        href='../msData/simpleType/stZ038.xsd'
                     ),
                 ],
                 expected=[
@@ -12394,9 +12394,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ038"
+                name='stZ038'
             ),
-            name="stZ038"
+            name='stZ038'
         ),
         TestGroup(
             annotation=[
@@ -12404,7 +12404,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Defining a simpleType by restricting another simpleType",
+                                'TEST :Syntax Checking for simpleType Declaration : Defining a simpleType by restricting another simpleType',
                             ]
                         ),
                     ]
@@ -12412,13 +12412,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ039.xsd"
+                        href='../msData/simpleType/stZ039.xsd'
                     ),
                 ],
                 expected=[
@@ -12430,12 +12430,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ039"
+                name='stZ039'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ039.xml"
+                        href='../msData/simpleType/stZ039.xml'
                     ),
                     expected=[
                         Expected(
@@ -12446,10 +12446,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ039.i"
+                    name='stZ039.i'
                 ),
             ],
-            name="stZ039"
+            name='stZ039'
         ),
         TestGroup(
             annotation=[
@@ -12457,7 +12457,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Using an xsd union in the definition of another",
+                                'TEST :Syntax Checking for simpleType Declaration : Using an xsd union in the definition of another',
                             ]
                         ),
                     ]
@@ -12465,13 +12465,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ040.xsd"
+                        href='../msData/simpleType/stZ040.xsd'
                     ),
                 ],
                 expected=[
@@ -12483,12 +12483,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ040"
+                name='stZ040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ040.xml"
+                        href='../msData/simpleType/stZ040.xml'
                     ),
                     expected=[
                         Expected(
@@ -12499,10 +12499,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ040.v"
+                    name='stZ040.v'
                 ),
             ],
-            name="stZ040"
+            name='stZ040'
         ),
         TestGroup(
             annotation=[
@@ -12510,12 +12510,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : test extension on final for simpletypes",
+                                'TEST :Syntax Checking for simpleType Declaration : test extension on final for simpletypes',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "WG decided this was invalid",
+                                'WG decided this was invalid',
                             ]
                         ),
                     ]
@@ -12523,13 +12523,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ041.xsd"
+                        href='../msData/simpleType/stZ041.xsd'
                     ),
                 ],
                 expected=[
@@ -12540,22 +12540,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ041"
+                name='stZ041'
             ),
-            name="stZ041"
+            name='stZ041'
         ),
         TestGroup(
             annotation=[
@@ -12563,7 +12563,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: enumeration of list of QName(s)",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: enumeration of list of QName(s)',
                             ]
                         ),
                     ]
@@ -12571,13 +12571,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ042.xsd"
+                        href='../msData/simpleType/stZ042.xsd'
                     ),
                 ],
                 expected=[
@@ -12589,9 +12589,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ042"
+                name='stZ042'
             ),
-            name="stZ042"
+            name='stZ042'
         ),
         TestGroup(
             annotation=[
@@ -12599,7 +12599,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group.",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group.',
                             ]
                         ),
                     ]
@@ -12607,13 +12607,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_a.xsd"
+                        href='../msData/simpleType/test107331_a.xsd'
                     ),
                 ],
                 expected=[
@@ -12625,12 +12625,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ043"
+                name='stZ043'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_1.xml"
+                        href='../msData/simpleType/test107331_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -12640,7 +12640,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 12),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901'
                     ),
                     prior=[
                         Prior(
@@ -12648,10 +12648,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="stZ043.v"
+                    name='stZ043.v'
                 ),
             ],
-            name="stZ043"
+            name='stZ043'
         ),
         TestGroup(
             annotation=[
@@ -12659,7 +12659,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, head has abstract=true.",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, head has abstract=true.',
                             ]
                         ),
                     ]
@@ -12667,13 +12667,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_b.xsd"
+                        href='../msData/simpleType/test107331_b.xsd'
                     ),
                 ],
                 expected=[
@@ -12685,12 +12685,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ044"
+                name='stZ044'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_1.xml"
+                        href='../msData/simpleType/test107331_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -12701,10 +12701,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ044.i"
+                    name='stZ044.i'
                 ),
             ],
-            name="stZ044"
+            name='stZ044'
         ),
         TestGroup(
             annotation=[
@@ -12712,7 +12712,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, Lists and Unions",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, Lists and Unions',
                             ]
                         ),
                     ]
@@ -12720,13 +12720,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_c.xsd"
+                        href='../msData/simpleType/test107331_c.xsd'
                     ),
                 ],
                 expected=[
@@ -12738,12 +12738,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ045"
+                name='stZ045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_2.xml"
+                        href='../msData/simpleType/test107331_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -12754,10 +12754,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ045.v"
+                    name='stZ045.v'
                 ),
             ],
-            name="stZ045"
+            name='stZ045'
         ),
         TestGroup(
             annotation=[
@@ -12765,7 +12765,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, substituting anyST with anyST",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, substituting anyST with anyST',
                             ]
                         ),
                     ]
@@ -12773,13 +12773,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_d.xsd"
+                        href='../msData/simpleType/test107331_d.xsd'
                     ),
                 ],
                 expected=[
@@ -12791,12 +12791,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ046"
+                name='stZ046'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_3.xml"
+                        href='../msData/simpleType/test107331_3.xml'
                     ),
                     expected=[
                         Expected(
@@ -12807,10 +12807,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ046.v"
+                    name='stZ046.v'
                 ),
             ],
-            name="stZ046"
+            name='stZ046'
         ),
         TestGroup(
             annotation=[
@@ -12818,7 +12818,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, CT with simpleContent",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, CT with simpleContent',
                             ]
                         ),
                     ]
@@ -12826,13 +12826,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_e.xsd"
+                        href='../msData/simpleType/test107331_e.xsd'
                     ),
                 ],
                 expected=[
@@ -12852,7 +12852,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 11, 30),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559'
                 ),
                 prior=[
                     Prior(
@@ -12860,12 +12860,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ047"
+                name='stZ047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_4.xml"
+                        href='../msData/simpleType/test107331_4.xml'
                     ),
                     expected=[
                         Expected(
@@ -12876,13 +12876,13 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ047.v",
+                    name='stZ047.v',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="stZ047"
+            name='stZ047'
         ),
         TestGroup(
             annotation=[
@@ -12890,7 +12890,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, CT with complexContent",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, CT with complexContent',
                             ]
                         ),
                     ]
@@ -12898,13 +12898,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_f.xsd"
+                        href='../msData/simpleType/test107331_f.xsd'
                     ),
                 ],
                 expected=[
@@ -12916,9 +12916,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ048"
+                name='stZ048'
             ),
-            name="stZ048"
+            name='stZ048'
         ),
         TestGroup(
             annotation=[
@@ -12926,7 +12926,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, complexcontent restr anyType",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, complexcontent restr anyType',
                             ]
                         ),
                     ]
@@ -12934,13 +12934,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_g.xsd"
+                        href='../msData/simpleType/test107331_g.xsd'
                     ),
                 ],
                 expected=[
@@ -12952,9 +12952,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ049"
+                name='stZ049'
             ),
-            name="stZ049"
+            name='stZ049'
         ),
         TestGroup(
             annotation=[
@@ -12962,7 +12962,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, anySimpleType substituting anyType",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, anySimpleType substituting anyType',
                             ]
                         ),
                     ]
@@ -12970,13 +12970,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_h.xsd"
+                        href='../msData/simpleType/test107331_h.xsd'
                     ),
                 ],
                 expected=[
@@ -12988,12 +12988,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ050"
+                name='stZ050'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_5.xml"
+                        href='../msData/simpleType/test107331_5.xml'
                     ),
                     expected=[
                         Expected(
@@ -13004,10 +13004,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ050.v"
+                    name='stZ050.v'
                 ),
             ],
-            name="stZ050"
+            name='stZ050'
         ),
         TestGroup(
             annotation=[
@@ -13015,7 +13015,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with block=#all",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with block=#all',
                             ]
                         ),
                     ]
@@ -13023,13 +13023,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_i.xsd"
+                        href='../msData/simpleType/test107331_i.xsd'
                     ),
                 ],
                 expected=[
@@ -13041,12 +13041,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ051"
+                name='stZ051'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_1.xml"
+                        href='../msData/simpleType/test107331_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -13057,10 +13057,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ051.i"
+                    name='stZ051.i'
                 ),
             ],
-            name="stZ051"
+            name='stZ051'
         ),
         TestGroup(
             annotation=[
@@ -13068,7 +13068,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (basic types)",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (basic types)',
                             ]
                         ),
                     ]
@@ -13076,13 +13076,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_a.xsd"
+                        href='../msData/simpleType/test107331_a.xsd'
                     ),
                 ],
                 expected=[
@@ -13094,12 +13094,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ052"
+                name='stZ052'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_6.xml"
+                        href='../msData/simpleType/test107331_6.xml'
                     ),
                     expected=[
                         Expected(
@@ -13110,10 +13110,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ052.v"
+                    name='stZ052.v'
                 ),
             ],
-            name="stZ052"
+            name='stZ052'
         ),
         TestGroup(
             annotation=[
@@ -13121,7 +13121,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (anyType)",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (anyType)',
                             ]
                         ),
                     ]
@@ -13129,13 +13129,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_h.xsd"
+                        href='../msData/simpleType/test107331_h.xsd'
                     ),
                 ],
                 expected=[
@@ -13147,12 +13147,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ053"
+                name='stZ053'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_7.xml"
+                        href='../msData/simpleType/test107331_7.xml'
                     ),
                     expected=[
                         Expected(
@@ -13163,10 +13163,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ053.v"
+                    name='stZ053.v'
                 ),
             ],
-            name="stZ053"
+            name='stZ053'
         ),
         TestGroup(
             annotation=[
@@ -13174,7 +13174,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (List Unions)",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (List Unions)',
                             ]
                         ),
                     ]
@@ -13182,13 +13182,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_c.xsd"
+                        href='../msData/simpleType/test107331_c.xsd'
                     ),
                 ],
                 expected=[
@@ -13200,12 +13200,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ054"
+                name='stZ054'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_8.xml"
+                        href='../msData/simpleType/test107331_8.xml'
                     ),
                     expected=[
                         Expected(
@@ -13216,10 +13216,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ054.v"
+                    name='stZ054.v'
                 ),
             ],
-            name="stZ054"
+            name='stZ054'
         ),
         TestGroup(
             annotation=[
@@ -13227,7 +13227,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (CT with simplecontent)",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (CT with simplecontent)',
                             ]
                         ),
                     ]
@@ -13235,13 +13235,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_e.xsd"
+                        href='../msData/simpleType/test107331_e.xsd'
                     ),
                 ],
                 expected=[
@@ -13261,7 +13261,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 11, 30),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559'
                 ),
                 prior=[
                     Prior(
@@ -13269,12 +13269,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ055"
+                name='stZ055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_9.xml"
+                        href='../msData/simpleType/test107331_9.xml'
                     ),
                     expected=[
                         Expected(
@@ -13285,13 +13285,13 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ055.v",
+                    name='stZ055.v',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="stZ055"
+            name='stZ055'
         ),
         TestGroup(
             annotation=[
@@ -13299,7 +13299,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type=anyType",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type=anyType',
                             ]
                         ),
                     ]
@@ -13307,13 +13307,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_a.xsd"
+                        href='../msData/simpleType/test107331_a.xsd'
                     ),
                 ],
                 expected=[
@@ -13325,12 +13325,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ056"
+                name='stZ056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_10.xml"
+                        href='../msData/simpleType/test107331_10.xml'
                     ),
                     expected=[
                         Expected(
@@ -13341,10 +13341,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ056.i"
+                    name='stZ056.i'
                 ),
             ],
-            name="stZ056"
+            name='stZ056'
         ),
         TestGroup(
             annotation=[
@@ -13352,7 +13352,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Need to permit anyType as a valid data type for the head element of a substitution group",
+                                'TEST :Syntax Checking for simpleType Declaration : Need to permit anyType as a valid data type for the head element of a substitution group',
                             ]
                         ),
                     ]
@@ -13360,13 +13360,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test107331_j.xsd"
+                        href='../msData/simpleType/test107331_j.xsd'
                     ),
                 ],
                 expected=[
@@ -13378,12 +13378,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ057"
+                name='stZ057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test107331_10.xml"
+                        href='../msData/simpleType/test107331_10.xml'
                     ),
                     expected=[
                         Expected(
@@ -13394,10 +13394,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ057.v"
+                    name='stZ057.v'
                 ),
             ],
-            name="stZ057"
+            name='stZ057'
         ),
         TestGroup(
             annotation=[
@@ -13405,7 +13405,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13413,13 +13413,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_1.xml"
+                        href='../msData/simpleType/test102159_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -13430,10 +13430,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ058.v"
+                    name='stZ058.v'
                 ),
             ],
-            name="stZ058"
+            name='stZ058'
         ),
         TestGroup(
             annotation=[
@@ -13441,7 +13441,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13449,13 +13449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_2.xml"
+                        href='../msData/simpleType/test102159_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -13466,10 +13466,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ059.i"
+                    name='stZ059.i'
                 ),
             ],
-            name="stZ059"
+            name='stZ059'
         ),
         TestGroup(
             annotation=[
@@ -13477,7 +13477,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13485,13 +13485,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_3.xml"
+                        href='../msData/simpleType/test102159_3.xml'
                     ),
                     expected=[
                         Expected(
@@ -13502,10 +13502,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ060.i"
+                    name='stZ060.i'
                 ),
             ],
-            name="stZ060"
+            name='stZ060'
         ),
         TestGroup(
             annotation=[
@@ -13513,7 +13513,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13521,13 +13521,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_4.xml"
+                        href='../msData/simpleType/test102159_4.xml'
                     ),
                     expected=[
                         Expected(
@@ -13538,10 +13538,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ061.i"
+                    name='stZ061.i'
                 ),
             ],
-            name="stZ061"
+            name='stZ061'
         ),
         TestGroup(
             annotation=[
@@ -13549,7 +13549,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13557,13 +13557,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_5.xml"
+                        href='../msData/simpleType/test102159_5.xml'
                     ),
                     expected=[
                         Expected(
@@ -13574,10 +13574,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ062.v"
+                    name='stZ062.v'
                 ),
             ],
-            name="stZ062"
+            name='stZ062'
         ),
         TestGroup(
             annotation=[
@@ -13585,7 +13585,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13593,13 +13593,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_6.xml"
+                        href='../msData/simpleType/test102159_6.xml'
                     ),
                     expected=[
                         Expected(
@@ -13610,10 +13610,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ063.v"
+                    name='stZ063.v'
                 ),
             ],
-            name="stZ063"
+            name='stZ063'
         ),
         TestGroup(
             annotation=[
@@ -13621,7 +13621,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13629,13 +13629,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_7.xml"
+                        href='../msData/simpleType/test102159_7.xml'
                     ),
                     expected=[
                         Expected(
@@ -13646,10 +13646,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ064.i"
+                    name='stZ064.i'
                 ),
             ],
-            name="stZ064"
+            name='stZ064'
         ),
         TestGroup(
             annotation=[
@@ -13657,7 +13657,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
+                                'TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists',
                             ]
                         ),
                     ]
@@ -13665,13 +13665,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test102159_9.xml"
+                        href='../msData/simpleType/test102159_9.xml'
                     ),
                     expected=[
                         Expected(
@@ -13682,10 +13682,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ066.i"
+                    name='stZ066.i'
                 ),
             ],
-            name="stZ066"
+            name='stZ066'
         ),
         TestGroup(
             annotation=[
@@ -13693,7 +13693,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType-&gt;union",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType->union',
                             ]
                         ),
                     ]
@@ -13701,13 +13701,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test109339_1.xsd"
+                        href='../msData/simpleType/test109339_1.xsd'
                     ),
                 ],
                 expected=[
@@ -13719,9 +13719,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ067"
+                name='stZ067'
             ),
-            name="stZ067"
+            name='stZ067'
         ),
         TestGroup(
             annotation=[
@@ -13729,7 +13729,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType-&gt;union(2)",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType->union(2)',
                             ]
                         ),
                     ]
@@ -13737,13 +13737,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test109339_2.xsd"
+                        href='../msData/simpleType/test109339_2.xsd'
                     ),
                 ],
                 expected=[
@@ -13755,9 +13755,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ068"
+                name='stZ068'
             ),
-            name="stZ068"
+            name='stZ068'
         ),
         TestGroup(
             annotation=[
@@ -13765,7 +13765,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType-&gt;union(3)",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType->union(3)',
                             ]
                         ),
                     ]
@@ -13773,13 +13773,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test109339_3.xsd"
+                        href='../msData/simpleType/test109339_3.xsd'
                     ),
                 ],
                 expected=[
@@ -13791,9 +13791,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ069"
+                name='stZ069'
             ),
-            name="stZ069"
+            name='stZ069'
         ),
         TestGroup(
             annotation=[
@@ -13801,7 +13801,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: test an invalid fixed value for a union",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: test an invalid fixed value for a union',
                             ]
                         ),
                     ]
@@ -13809,13 +13809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ070.xsd"
+                        href='../msData/simpleType/stZ070.xsd'
                     ),
                 ],
                 expected=[
@@ -13827,9 +13827,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ070"
+                name='stZ070'
             ),
-            name="stZ070"
+            name='stZ070'
         ),
         TestGroup(
             annotation=[
@@ -13837,7 +13837,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : adding chameleon schemas that have unions without memberTypes",
+                                'TEST :Syntax Checking for simpleType Declaration : adding chameleon schemas that have unions without memberTypes',
                             ]
                         ),
                     ]
@@ -13845,13 +13845,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/test298668_a.xsd"
+                        href='../msData/simpleType/test298668_a.xsd'
                     ),
                 ],
                 expected=[
@@ -13863,12 +13863,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ071"
+                name='stZ071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/test298668.xml"
+                        href='../msData/simpleType/test298668.xml'
                     ),
                     expected=[
                         Expected(
@@ -13879,10 +13879,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ071.v"
+                    name='stZ071.v'
                 ),
             ],
-            name="stZ071"
+            name='stZ071'
         ),
         TestGroup(
             annotation=[
@@ -13890,7 +13890,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: valid default value of a list of union with enumeration facet",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: valid default value of a list of union with enumeration facet',
                             ]
                         ),
                     ]
@@ -13898,13 +13898,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ072.xsd"
+                        href='../msData/simpleType/stZ072.xsd'
                     ),
                 ],
                 expected=[
@@ -13916,12 +13916,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ072"
+                name='stZ072'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ072.xml"
+                        href='../msData/simpleType/stZ072.xml'
                     ),
                     expected=[
                         Expected(
@@ -13932,10 +13932,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ072.v"
+                    name='stZ072.v'
                 ),
             ],
-            name="stZ072"
+            name='stZ072'
         ),
         TestGroup(
             annotation=[
@@ -13943,12 +13943,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type on a union type(2)",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type on a union type(2)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Instance test awaiting disposition of 5784, which in turn may or may&#10;not require schema test to change",
+                                'Instance test awaiting disposition of 5784, which in turn may or may\nnot require schema test to change',
                             ]
                         ),
                     ]
@@ -13956,13 +13956,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ073b.xsd"
+                        href='../msData/simpleType/stZ073b.xsd'
                     ),
                 ],
                 expected=[
@@ -13973,25 +13973,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 4, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                 ),
                 prior=[
                     Prior(
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ073b",
+                name='stZ073b',
                 version=[
                     KnownToken.VALUE_1_0,
                 ]
@@ -13999,7 +13999,7 @@ obj = TestSet(
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ073.xml"
+                        href='../msData/simpleType/stZ073.xml'
                     ),
                     expected=[
                         Expected(
@@ -14009,31 +14009,31 @@ obj = TestSet(
                     current=Current(
                         status=Status.DISPUTED_SPEC,
                         date=XmlDate(2010, 4, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                     ),
                     prior=[
                         Prior(
                             status=Status.DISPUTED_SPEC,
                             date=XmlDate(2009, 1, 14),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                         ),
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="stZ073b.i",
+                    name='stZ073b.i',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="stZ073b"
+            name='stZ073b'
         ),
         TestGroup(
             annotation=[
@@ -14041,12 +14041,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type on a union type(2)",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type on a union type(2)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Instance test awaiting disposition of 5784, which in turn may or may&#10;not require schema test to change",
+                                'Instance test awaiting disposition of 5784, which in turn may or may\nnot require schema test to change',
                             ]
                         ),
                     ]
@@ -14054,13 +14054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ073b.xsd"
+                        href='../msData/simpleType/stZ073b.xsd'
                     ),
                 ],
                 expected=[
@@ -14071,25 +14071,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 4, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                 ),
                 prior=[
                     Prior(
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ073b",
+                name='stZ073b',
                 version=[
                     KnownToken.VALUE_1_1,
                 ]
@@ -14097,7 +14097,7 @@ obj = TestSet(
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ073.xml"
+                        href='../msData/simpleType/stZ073.xml'
                     ),
                     expected=[
                         Expected(
@@ -14107,31 +14107,31 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 4, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                     ),
                     prior=[
                         Prior(
                             status=Status.DISPUTED_SPEC,
                             date=XmlDate(2009, 1, 14),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                         ),
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="stZ073b.i",
+                    name='stZ073b.i',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
             ],
-            name="stZ073ba"
+            name='stZ073ba'
         ),
         TestGroup(
             annotation=[
@@ -14139,7 +14139,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : chameleon lists and union of lists",
+                                'TEST :Syntax Checking for simpleType Declaration : chameleon lists and union of lists',
                             ]
                         ),
                     ]
@@ -14147,13 +14147,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ074_a.xsd"
+                        href='../msData/simpleType/stZ074_a.xsd'
                     ),
                 ],
                 expected=[
@@ -14165,12 +14165,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ074"
+                name='stZ074'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ074.xml"
+                        href='../msData/simpleType/stZ074.xml'
                     ),
                     expected=[
                         Expected(
@@ -14181,10 +14181,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ074.v"
+                    name='stZ074.v'
                 ),
             ],
-            name="stZ074"
+            name='stZ074'
         ),
         TestGroup(
             annotation=[
@@ -14192,7 +14192,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking for simpleType Declaration : XSD: xs:NOTATION type on elements",
+                                'TEST :Syntax Checking for simpleType Declaration : XSD: xs:NOTATION type on elements',
                             ]
                         ),
                     ]
@@ -14200,13 +14200,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/simpleType/stZ075.xsd"
+                        href='../msData/simpleType/stZ075.xsd'
                     ),
                 ],
                 expected=[
@@ -14218,12 +14218,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="stZ075"
+                name='stZ075'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/simpleType/stZ075.xml"
+                        href='../msData/simpleType/stZ075.xml'
                     ),
                     expected=[
                         Expected(
@@ -14234,15 +14234,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="stZ075.v"
+                    name='stZ075.v'
                 ),
             ],
-            name="stZ075"
+            name='stZ075'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-SimpleType2006-07-15",
+    contributor='Microsoft',
+    name='MS-SimpleType2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

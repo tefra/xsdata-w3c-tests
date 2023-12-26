@@ -8,14 +8,14 @@ obj = Root(
     any_element=[
         E1(
             b1_or_b2=AnyElement(
-                qname="{ns-a}b1",
-                text=""
+                qname='{ns-a}b1',
+                text=''
             )
         ),
         BE1(
             b1_or_b2=AnyElement(
-                qname="{ns-a}b2",
-                text=""
+                qname='{ns-a}b2',
+                text=''
             )
         ),
     ]

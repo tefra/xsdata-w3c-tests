@@ -12,7 +12,7 @@ class HeadType:
             "name": "Ear",
             "type": "Element",
             "namespace": "ElemDecl/disallowedSubst",
-        }
+        },
     )
     eye: Optional[object] = field(
         default=None,
@@ -20,7 +20,7 @@ class HeadType:
             "name": "Eye",
             "type": "Element",
             "namespace": "ElemDecl/disallowedSubst",
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member1_or_head: List[Union[Head, Member1]] = field(
+    member1_or_head: List[Union[Member1, Head]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -56,5 +56,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

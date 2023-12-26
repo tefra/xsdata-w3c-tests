@@ -15,7 +15,7 @@ class NistschemaSvIvAtomicIdPattern1:
         metadata={
             "required": True,
             "pattern": r"[\i-[:]][\c-[:]]{11}",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

@@ -5,49 +5,49 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     foo_or_bar_or_zot=[
         AnyElement(
-            qname="foo",
-            text="",
+            qname='foo',
+            text='',
             children=[
                 AnyElement(
-                    qname="this",
-                    text=""
+                    qname='this',
+                    text=''
                 ),
                 AnyElement(
-                    qname="contents",
-                    text="",
-                    tail="&#10;&#9;&#9;should not be&#10;&#9;&#9;validated&#10;&#9;&#9;"
+                    qname='contents',
+                    text='',
+                    tail='\n\t\tshould not be\n\t\tvalidated\n\t\t'
                 ),
                 AnyElement(
-                    qname="because",
-                    text="",
+                    qname='because',
+                    text='',
                     attributes={
-                        "it": "is ur-type",
+                        'it': 'is ur-type',
                     }
                 ),
             ]
         ),
         AnyElement(
-            qname="{http://foo.com}bar",
-            text=""
+            qname='{http://foo.com}bar',
+            text=''
         ),
         AnyElement(
-            qname="zot",
-            text="&#10;&#9;&#9;when using ",
+            qname='zot',
+            text='\n\t\twhen using ',
             children=[
                 AnyElement(
-                    qname="ur",
-                    text="",
+                    qname='ur',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="type",
-                            text=""
+                            qname='type',
+                            text=''
                         ),
                     ]
                 ),
             ],
             attributes={
-                "attributes": "are",
-                "also": "ignored",
+                'attributes': 'are',
+                'also': 'ignored',
             }
         ),
     ]

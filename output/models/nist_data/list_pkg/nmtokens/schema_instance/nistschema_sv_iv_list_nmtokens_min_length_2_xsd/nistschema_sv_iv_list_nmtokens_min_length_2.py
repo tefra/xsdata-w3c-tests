@@ -16,5 +16,5 @@ class NistschemaSvIvListNmtokensMinLength2:
             "required": True,
             "min_length": 6,
             "tokens": True,
-        }
+        },
     )

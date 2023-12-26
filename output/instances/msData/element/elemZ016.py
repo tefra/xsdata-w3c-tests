@@ -6,19 +6,19 @@ obj = Root(
     data_types=[
         DataTypes(
             id=[
-                "Address",
-                "Address",
+                'Address',
+                'Address',
             ],
             idref=[
-                "Address",
-                "Address",
+                'Address',
+                'Address',
             ],
             idrefs=[
                 [
-                    "Address",
+                    'Address',
                 ],
                 [
-                    "Address",
+                    'Address',
                 ],
             ]
         ),

@@ -16,7 +16,7 @@ class Root:
             "name": "testToken",
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class TestToken:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

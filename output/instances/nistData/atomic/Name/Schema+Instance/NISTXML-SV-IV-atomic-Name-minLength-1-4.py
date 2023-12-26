@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength1(
-    value="xregistry:shift.business:known-eliminated.of.s"
+    value='xregistry:shift.business:known-eliminated.of.s'
 )

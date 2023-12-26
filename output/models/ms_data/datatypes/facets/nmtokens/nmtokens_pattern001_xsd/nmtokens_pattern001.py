@@ -13,5 +13,5 @@ class Foo:
             "required": True,
             "pattern": r"[A-C]{0,2}",
             "tokens": True,
-        }
+        },
     )

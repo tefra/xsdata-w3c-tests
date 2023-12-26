@@ -7,69 +7,69 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     any_or_a=[
         A(
-            value="a1",
+            value='a1',
             att1=123,
             att2=True
         ),
         AnyType(
             any_element=[
                 AnyElement(
-                    qname="foo",
-                    text="",
+                    qname='foo',
+                    text='',
                     attributes={
-                        "bar": "bla",
-                        "a1": "b",
-                        "a2": "b",
-                        "a3": "b",
-                        "a4": "b",
-                        "a5": "b",
-                        "a6": "b",
-                        "a7": "b",
-                        "a8": "b",
+                        'bar': 'bla',
+                        'a1': 'b',
+                        'a2': 'b',
+                        'a3': 'b',
+                        'a4': 'b',
+                        'a5': 'b',
+                        'a6': 'b',
+                        'a7': 'b',
+                        'a8': 'b',
                     }
                 ),
                 AnyElement(
-                    qname="bar",
-                    text="",
+                    qname='bar',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="foo",
-                            text="",
+                            qname='foo',
+                            text='',
                             attributes={
-                                "bar": "bla",
-                                "a1": "b",
-                                "a2": "b",
-                                "a3": "b",
-                                "a4": "b",
-                                "a5": "b",
-                                "a6": "b",
-                                "a7": "b",
-                                "a8": "b",
+                                'bar': 'bla',
+                                'a1': 'b',
+                                'a2': 'b',
+                                'a3': 'b',
+                                'a4': 'b',
+                                'a5': 'b',
+                                'a6': 'b',
+                                'a7': 'b',
+                                'a8': 'b',
                             }
                         ),
                     ]
                 ),
                 AnyElement(
-                    qname="foo",
-                    text="",
+                    qname='foo',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="bar",
-                            text="",
+                            qname='bar',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="foo",
-                                    text="",
+                                    qname='foo',
+                                    text='',
                                     attributes={
-                                        "bar": "bla",
-                                        "a1": "b",
-                                        "a2": "b",
-                                        "a3": "b",
-                                        "a4": "b",
-                                        "a5": "b",
-                                        "a6": "b",
-                                        "a7": "b",
-                                        "a8": "b",
+                                        'bar': 'bla',
+                                        'a1': 'b',
+                                        'a2': 'b',
+                                        'a3': 'b',
+                                        'a4': 'b',
+                                        'a5': 'b',
+                                        'a6': 'b',
+                                        'a7': 'b',
+                                        'a8': 'b',
                                     }
                                 ),
                             ]
@@ -77,34 +77,34 @@ obj = Root(
                     ]
                 ),
                 AnyElement(
-                    qname="foo",
-                    text="",
+                    qname='foo',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="bar",
-                            text="",
+                            qname='bar',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="foo",
-                                    text="",
+                                    qname='foo',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="bar",
-                                            text="",
+                                            qname='bar',
+                                            text='',
                                             children=[
                                                 AnyElement(
-                                                    qname="foo",
-                                                    text="",
+                                                    qname='foo',
+                                                    text='',
                                                     attributes={
-                                                        "bar": "bla",
-                                                        "a1": "b",
-                                                        "a2": "b",
-                                                        "a3": "b",
-                                                        "a4": "b",
-                                                        "a5": "b",
-                                                        "a6": "b",
-                                                        "a7": "b",
-                                                        "a8": "b",
+                                                        'bar': 'bla',
+                                                        'a1': 'b',
+                                                        'a2': 'b',
+                                                        'a3': 'b',
+                                                        'a4': 'b',
+                                                        'a5': 'b',
+                                                        'a6': 'b',
+                                                        'a7': 'b',
+                                                        'a8': 'b',
                                                     }
                                                 ),
                                             ]
@@ -116,50 +116,50 @@ obj = Root(
                     ]
                 ),
                 AnyElement(
-                    qname="foo",
-                    text="",
+                    qname='foo',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="bar",
-                            text="",
+                            qname='bar',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="foo",
-                                    text="",
+                                    qname='foo',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="bar",
-                                            text="",
+                                            qname='bar',
+                                            text='',
                                             children=[
                                                 AnyElement(
-                                                    qname="foo",
-                                                    text="",
+                                                    qname='foo',
+                                                    text='',
                                                     children=[
                                                         AnyElement(
-                                                            qname="bar",
-                                                            text="",
+                                                            qname='bar',
+                                                            text='',
                                                             children=[
                                                                 AnyElement(
-                                                                    qname="foo",
-                                                                    text="",
+                                                                    qname='foo',
+                                                                    text='',
                                                                     children=[
                                                                         AnyElement(
-                                                                            qname="bar",
-                                                                            text="",
+                                                                            qname='bar',
+                                                                            text='',
                                                                             children=[
                                                                                 AnyElement(
-                                                                                    qname="foo",
-                                                                                    text="",
+                                                                                    qname='foo',
+                                                                                    text='',
                                                                                     attributes={
-                                                                                        "bar": "bla",
-                                                                                        "a1": "b",
-                                                                                        "a2": "b",
-                                                                                        "a3": "b",
-                                                                                        "a4": "b",
-                                                                                        "a5": "b",
-                                                                                        "a6": "b",
-                                                                                        "a7": "b",
-                                                                                        "a8": "b",
+                                                                                        'bar': 'bla',
+                                                                                        'a1': 'b',
+                                                                                        'a2': 'b',
+                                                                                        'a3': 'b',
+                                                                                        'a4': 'b',
+                                                                                        'a5': 'b',
+                                                                                        'a6': 'b',
+                                                                                        'a7': 'b',
+                                                                                        'a8': 'b',
                                                                                     }
                                                                                 ),
                                                                             ]
@@ -179,31 +179,31 @@ obj = Root(
                     ]
                 ),
                 AnyElement(
-                    qname="a",
-                    text="a1",
+                    qname='a',
+                    text='a1',
                     attributes={
-                        "att1": "123",
-                        "att2": "true",
+                        'att1': '123',
+                        'att2': 'true',
                     }
                 ),
                 AnyElement(
-                    qname="a",
-                    text="1"
+                    qname='a',
+                    text='1'
                 ),
                 AnyElement(
-                    qname="a",
-                    text="blue",
+                    qname='a',
+                    text='blue',
                     attributes={
-                        "att1": "123",
-                        "att2": "false",
+                        'att1': '123',
+                        'att2': 'false',
                     }
                 ),
                 AnyElement(
-                    qname="b",
-                    text="",
+                    qname='b',
+                    text='',
                     attributes={
-                        "att1": "123",
-                        "att2": "false",
+                        'att1': '123',
+                        'att2': 'false',
                     }
                 ),
             ]

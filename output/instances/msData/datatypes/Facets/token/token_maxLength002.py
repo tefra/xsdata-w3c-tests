@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.token.token_max_length002_xsd.token_
 
 
 obj = Test(
-    foo="foofo"
+    foo='foofo'
 )

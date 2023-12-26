@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern1(
-    value="yrecognition.will:security_automating_library_"
+    value='yrecognition.will:security_automating_library_'
 )

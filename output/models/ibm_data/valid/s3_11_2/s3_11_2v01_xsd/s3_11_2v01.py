@@ -16,5 +16,5 @@ class Root:
             "name": "Number",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

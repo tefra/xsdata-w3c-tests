@@ -8,18 +8,18 @@ obj = Doc(
         AnyType(
             foo_bar_element=[
                 AnyElement(
-                    qname="{foo}foo",
-                    text="",
+                    qname='{foo}foo',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{just_testing_should_pass}bar",
-                            text=""
+                            qname='{just_testing_should_pass}bar',
+                            text=''
                         ),
                     ]
                 ),
                 AnyElement(
-                    qname="{foo}foo",
-                    text=""
+                    qname='{foo}foo',
+                    text=''
                 ),
             ]
         ),

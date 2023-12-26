@@ -11,41 +11,41 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Order(
     buyer=Buyer(
         choice=[
-            "Jimmy",
+            'Jimmy',
             DerivedElement(
-                qname="lName",
-                value="Nice"
+                qname='lName',
+                value='Nice'
             ),
         ]
     ),
     billing_address=Address(
-        street1="XYZ Street1",
-        street2="Near Leapord Market",
-        city="ABC",
-        zipcode="122001",
-        state="PQR",
-        country="my country"
+        street1='XYZ Street1',
+        street2='Near Leapord Market',
+        city='ABC',
+        zipcode='122001',
+        state='PQR',
+        country='my country'
     ),
     shipping_address=Address(
 
     ),
-    email="jimmy.nice@jimmy.org",
+    email='jimmy.nice@jimmy.org',
     items=Poitems(
         item=[
             LongItemDefn(
                 quantity=1,
-                price=Decimal("88.10"),
-                description="Inside Java Virtual Machine: Sun Press (James Gosling)"
+                price=Decimal('88.10'),
+                description='Inside Java Virtual Machine: Sun Press (James Gosling)'
             ),
             ShortItemDefn(
                 quantity=2,
-                price=Decimal("20"),
-                id="105"
+                price=Decimal('20'),
+                id='105'
             ),
         ]
     ),
-    tax=Decimal("10.81"),
-    bill_amount=Decimal("118.91"),
-    currency="USD",
-    id="100"
+    tax=Decimal('10.81'),
+    bill_amount=Decimal('118.91'),
+    currency='USD',
+    id='100'
 )

@@ -12,7 +12,7 @@ class Temp:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     start_date: Optional[XmlDate] = field(
         default=None,
@@ -20,5 +20,5 @@ class Temp:
             "name": "startDate",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )

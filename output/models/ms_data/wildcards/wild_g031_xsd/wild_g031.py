@@ -14,7 +14,7 @@ class Bar:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "A B C D E ##targetNamespace ##local",
-        }
+        },
     )

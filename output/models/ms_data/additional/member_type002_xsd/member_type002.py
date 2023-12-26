@@ -11,13 +11,13 @@ class Ct:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     att: Optional[Union[bool, int, str]] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -33,5 +33,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )

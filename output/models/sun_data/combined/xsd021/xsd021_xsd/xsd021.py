@@ -10,7 +10,18 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[Union["Root.LaxLocal", "Root.SkipOther", "Root.SkipBar", "Root.StrictTarget", "Root.SkipAny", "Root.StrictAny", "Root.LaxAny", "Root.StrictLocal"]] = field(
+    choice: List[
+        Union[
+            "Root.SkipAny",
+            "Root.LaxAny",
+            "Root.StrictAny",
+            "Root.SkipOther",
+            "Root.LaxLocal",
+            "Root.StrictLocal",
+            "Root.StrictTarget",
+            "Root.SkipBar",
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -48,7 +59,7 @@ class Root:
                     "type": Type["Root.SkipBar"],
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -58,7 +69,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##any",
-            }
+            },
         )
 
     @dataclass
@@ -68,7 +79,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##any",
-            }
+            },
         )
 
     @dataclass
@@ -78,7 +89,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##any",
-            }
+            },
         )
 
     @dataclass
@@ -88,7 +99,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##other",
-            }
+            },
         )
 
     @dataclass
@@ -98,7 +109,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##local",
-            }
+            },
         )
 
     @dataclass
@@ -108,7 +119,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##local",
-            }
+            },
         )
 
     @dataclass
@@ -118,7 +129,7 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "##targetNamespace",
-            }
+            },
         )
 
     @dataclass
@@ -128,5 +139,5 @@ class Root:
             metadata={
                 "type": "Attributes",
                 "namespace": "bar",
-            }
+            },
         )

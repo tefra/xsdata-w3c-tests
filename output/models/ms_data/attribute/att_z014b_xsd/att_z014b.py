@@ -11,20 +11,20 @@ class Base:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 

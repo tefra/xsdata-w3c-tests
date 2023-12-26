@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#time",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#time',
                     },
                     content=[
-                        "time ",
+                        'time ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;&#9;&#9;1a: chameleon include on unqualified names in XPath expressions&#10;&#9;&#9;        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.&#10;&#9;&#9;        1c: A time in a timezone may convert to a UTC time on a different day. &#10;&#9;&#9;        ",
+                                '\n\t\t\t\t1a: chameleon include on unqualified names in XPath expressions\n\t\t        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.\n\t\t        1c: A time in a timezone may convert to a UTC time on a different day. \n\t\t        ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#time"
+                    href='http://www.w3.org/TR/xmlschema11-2/#time'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_3_9/d3_3_9v01.xsd"
+                        href='../ibmData/valid/D3_3_9/d3_3_9v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_3_9v01s"
+                name='d3_3_9v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_3_9/d3_3_9v01.xml"
+                        href='../ibmData/valid/D3_3_9/d3_3_9v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,11 +82,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_3_9v01i"
+                    name='d3_3_9v01i'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_3_9/d3_3_9v01a.xml"
+                        href='../ibmData/valid/D3_3_9/d3_3_9v01a.xml'
                     ),
                     expected=[
                         Expected(
@@ -97,11 +97,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_3_9v01ai"
+                    name='d3_3_9v01ai'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_3_9/d3_3_9v01b.xml"
+                        href='../ibmData/valid/D3_3_9/d3_3_9v01b.xml'
                     ),
                     expected=[
                         Expected(
@@ -112,11 +112,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_3_9v01bi"
+                    name='d3_3_9v01bi'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_3_9/d3_3_9v01c.xml"
+                        href='../ibmData/valid/D3_3_9/d3_3_9v01c.xml'
                     ),
                     expected=[
                         Expected(
@@ -127,18 +127,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_3_9v01ci"
+                    name='d3_3_9v01ci'
                 ),
             ],
-            name="d3_3_9v01",
+            name='d3_3_9v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="time",
+    contributor='IBM',
+    name='time',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

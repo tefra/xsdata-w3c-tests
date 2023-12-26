@@ -4,7 +4,7 @@ from xsdata.models.datatype import XmlDate
 
 obj = Doc(
     para=[
-        "",
+        '',
     ],
     code=XmlDate(2001, 1, 1)
 )

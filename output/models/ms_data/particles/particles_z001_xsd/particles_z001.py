@@ -11,7 +11,7 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     element_or_any: List[object] = field(
         default_factory=list,
@@ -29,7 +29,7 @@ class Base:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -50,5 +50,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

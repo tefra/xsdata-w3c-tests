@@ -6,48 +6,48 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Foo(
     local_w3_org_1999_xhtml_element=[
         AnyElement(
-            qname="bar",
-            text="test"
+            qname='bar',
+            text='test'
         ),
         Foo(
             any_element=AnyElement(
-                text="test"
+                text='test'
             )
         ),
         AnyElement(
-            qname="bar",
-            text="test"
+            qname='bar',
+            text='test'
         ),
         Foo(
             any_element=AnyElement(
-                text="test"
+                text='test'
             )
         ),
         AnyElement(
-            qname="bar",
-            text="test"
+            qname='bar',
+            text='test'
         ),
         Foo(
             any_element=AnyElement(
-                text="test"
+                text='test'
             )
         ),
         AnyElement(
-            qname="bar",
-            text="test"
+            qname='bar',
+            text='test'
         ),
         Foo(
             any_element=AnyElement(
-                text="test"
+                text='test'
             )
         ),
         AnyElement(
-            qname="bar",
-            text="test"
+            qname='bar',
+            text='test'
         ),
         Foo(
             any_element=AnyElement(
-                text="test"
+                text='test'
             )
         ),
     ]

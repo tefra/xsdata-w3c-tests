@@ -15,19 +15,19 @@ class Root:
         metadata={
             "name": "number00_",
             "type": "Attribute",
-        }
+        },
     )
     number01: Optional[int] = field(
         default=None,
         metadata={
             "name": "number01.",
             "type": "Attribute",
-        }
+        },
     )
     number02: Optional[int] = field(
         default=None,
         metadata={
             "name": "number02-",
             "type": "Attribute",
-        }
+        },
     )

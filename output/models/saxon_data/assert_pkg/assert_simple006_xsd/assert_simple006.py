@@ -13,7 +13,7 @@ class Outer:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -22,6 +22,4 @@ class Value:
     class Meta:
         name = "value"
 
-    value: Optional[Union[XmlDate, XmlDateTime]] = field(
-        default=None
-    )
+    value: Optional[Union[XmlDate, XmlDateTime]] = field(default=None)

@@ -64,7 +64,7 @@ class Bar:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -79,5 +79,5 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 100,
-        }
+        },
     )

@@ -22,10 +22,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative',
                     },
                     content=[
-                        "Type alternative test cases.",
+                        'Type alternative test cases.',
                     ]
                 ),
             ]
@@ -38,7 +38,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives. The alternative type extends the base element's type. &#10;            More that one alternative type is present. One of the alternative types is the default type.  &#10;            ",
+                                "\n            Basic type alternatives. The alternative type extends the base element's type. \n            More that one alternative type is present. One of the alternative types is the default type.  \n            ",
                             ]
                         ),
                     ]
@@ -46,16 +46,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v01.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v01.xsd'
                     ),
                 ],
                 expected=[
@@ -67,12 +67,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v01s"
+                name='s3_12v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v01.xml"
+                        href='../ibmData/valid/S3_12/s3_12v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -83,10 +83,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v01i"
+                    name='s3_12v01i'
                 ),
             ],
-            name="s3_12v01",
+            name='s3_12v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -97,7 +97,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives. alternative element with a complexType child that is &#10;&#9;&#9;        derived from the base element  type and no type attribute More that one alternative &#10;&#9;&#9;        type is present. One of the alternative types is the default type.   &#10;&#9;&#9;        ",
+                                '\n            Basic type alternatives. alternative element with a complexType child that is \n\t\t        derived from the base element  type and no type attribute More that one alternative \n\t\t        type is present. One of the alternative types is the default type.   \n\t\t        ',
                             ]
                         ),
                     ]
@@ -105,16 +105,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v02.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v02.xsd'
                     ),
                 ],
                 expected=[
@@ -126,12 +126,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v02s"
+                name='s3_12v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v02.xml"
+                        href='../ibmData/valid/S3_12/s3_12v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -142,10 +142,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v02i"
+                    name='s3_12v02i'
                 ),
             ],
-            name="s3_12v02",
+            name='s3_12v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -156,7 +156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives. &#10;&#9;&#9;        The alternative type extends the base element's type. &#10;&#9;&#9;        More that one alternative type is present. One of the alternative types is the default type.  &#10;&#9;&#9;        ",
+                                "\n            Basic type alternatives. \n\t\t        The alternative type extends the base element's type. \n\t\t        More that one alternative type is present. One of the alternative types is the default type.  \n\t\t        ",
                             ]
                         ),
                     ]
@@ -164,16 +164,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v03.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v03.xsd'
                     ),
                 ],
                 expected=[
@@ -185,12 +185,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v03s"
+                name='s3_12v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v03.xml"
+                        href='../ibmData/valid/S3_12/s3_12v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -201,10 +201,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v03i"
+                    name='s3_12v03i'
                 ),
             ],
-            name="s3_12v03",
+            name='s3_12v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -215,7 +215,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives.&#10;            For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.&#10;            The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. &#10;            For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.&#10;            In both cases, the alternative type should not be selected. &#10;            ",
+                                "\n            Basic type alternatives.\n            For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.\n            The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. \n            For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.\n            In both cases, the alternative type should not be selected. \n            ",
                             ]
                         ),
                     ]
@@ -223,16 +223,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v04.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v04.xsd'
                     ),
                 ],
                 expected=[
@@ -244,12 +244,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v04s"
+                name='s3_12v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v04.xml"
+                        href='../ibmData/valid/S3_12/s3_12v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -260,10 +260,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v04i"
+                    name='s3_12v04i'
                 ),
             ],
-            name="s3_12v04",
+            name='s3_12v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -274,7 +274,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives.&#10;            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value&#10;            ",
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value\n            ",
                             ]
                         ),
                     ]
@@ -282,16 +282,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v05.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v05.xsd'
                     ),
                 ],
                 expected=[
@@ -303,12 +303,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v05s"
+                name='s3_12v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v05.xml"
+                        href='../ibmData/valid/S3_12/s3_12v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -319,10 +319,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v05i"
+                    name='s3_12v05i'
                 ),
             ],
-            name="s3_12v05",
+            name='s3_12v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -333,7 +333,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives.&#10;            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  &#10;            ",
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  \n            ",
                             ]
                         ),
                     ]
@@ -341,16 +341,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v06.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v06.xsd'
                     ),
                 ],
                 expected=[
@@ -362,12 +362,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v06s"
+                name='s3_12v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v06.xml"
+                        href='../ibmData/valid/S3_12/s3_12v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -378,10 +378,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v06i"
+                    name='s3_12v06i'
                 ),
             ],
-            name="s3_12v06",
+            name='s3_12v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -392,7 +392,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives.&#10;            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values&#10;            ",
+                                '\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values\n            ',
                             ]
                         ),
                     ]
@@ -400,16 +400,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v07.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v07.xsd'
                     ),
                 ],
                 expected=[
@@ -421,12 +421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v07s"
+                name='s3_12v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v07.xml"
+                        href='../ibmData/valid/S3_12/s3_12v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -437,10 +437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v07i"
+                    name='s3_12v07i'
                 ),
             ],
-            name="s3_12v07",
+            name='s3_12v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -451,7 +451,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives.&#10;            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  &#10;            ",
+                                '\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  \n            ',
                             ]
                         ),
                     ]
@@ -459,16 +459,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v08.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v08.xsd'
                     ),
                 ],
                 expected=[
@@ -480,12 +480,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v08s"
+                name='s3_12v08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v08.xml"
+                        href='../ibmData/valid/S3_12/s3_12v08.xml'
                     ),
                     expected=[
                         Expected(
@@ -496,10 +496,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v08i"
+                    name='s3_12v08i'
                 ),
             ],
-            name="s3_12v08",
+            name='s3_12v08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -510,7 +510,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Basic type alternatives.",
+                                'Basic type alternatives.',
                             ]
                         ),
                     ]
@@ -518,16 +518,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v09.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v09.xsd'
                     ),
                 ],
                 expected=[
@@ -539,12 +539,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v09s"
+                name='s3_12v09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v09.xml"
+                        href='../ibmData/valid/S3_12/s3_12v09.xml'
                     ),
                     expected=[
                         Expected(
@@ -555,10 +555,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v09i"
+                    name='s3_12v09i'
                 ),
             ],
-            name="s3_12v09",
+            name='s3_12v09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -569,7 +569,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Basic type alternatives.&#10;            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values&#10;            ",
+                                '\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values\n            ',
                             ]
                         ),
                     ]
@@ -577,16 +577,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v10.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v10.xsd'
                     ),
                 ],
                 expected=[
@@ -598,12 +598,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v10s"
+                name='s3_12v10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v10.xml"
+                        href='../ibmData/valid/S3_12/s3_12v10.xml'
                     ),
                     expected=[
                         Expected(
@@ -614,10 +614,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v11i"
+                    name='s3_12v11i'
                 ),
             ],
-            name="s3_12v10",
+            name='s3_12v10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -628,7 +628,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Attribute declarations can now be marked {inheritable}. ",
+                                'Attribute declarations can now be marked {inheritable}. ',
                             ]
                         ),
                     ]
@@ -636,16 +636,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_12/s3_12v11.xsd"
+                        href='../ibmData/valid/S3_12/s3_12v11.xsd'
                     ),
                 ],
                 expected=[
@@ -657,12 +657,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12v11s"
+                name='s3_12v11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_12/s3_12v11.xml"
+                        href='../ibmData/valid/S3_12/s3_12v11.xml'
                     ),
                     expected=[
                         Expected(
@@ -673,10 +673,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12v01i"
+                    name='s3_12v01i'
                 ),
             ],
-            name="s3_12v11",
+            name='s3_12v11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -695,16 +695,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -716,12 +716,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12ii01s"
+                name='s3_12ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii01.xml"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -732,10 +732,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12ii01i"
+                    name='s3_12ii01i'
                 ),
             ],
-            name="s3_12ii01",
+            name='s3_12ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -746,7 +746,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The type alternative is selects an invalid element using comparator operators.",
+                                'The type alternative is selects an invalid element using comparator operators.',
                             ]
                         ),
                     ]
@@ -754,16 +754,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -775,12 +775,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12ii02s"
+                name='s3_12ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii02.xml"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -791,10 +791,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12ii02i"
+                    name='s3_12ii02i'
                 ),
             ],
-            name="s3_12ii02",
+            name='s3_12ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -805,7 +805,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The type alternative is selects an invalid element using constructor functions and comparator operators.",
+                                'The type alternative is selects an invalid element using constructor functions and comparator operators.',
                             ]
                         ),
                     ]
@@ -813,16 +813,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -834,12 +834,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12ii03s"
+                name='s3_12ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii03.xml"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -850,10 +850,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12ii03i"
+                    name='s3_12ii03i'
                 ),
             ],
-            name="s3_12ii03",
+            name='s3_12ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -864,7 +864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Basic type alternatives selecting invalid content.",
+                                'Basic type alternatives selecting invalid content.',
                             ]
                         ),
                     ]
@@ -872,16 +872,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -893,12 +893,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12ii04s"
+                name='s3_12ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii04.xml"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -909,10 +909,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12ii04i"
+                    name='s3_12ii04i'
                 ),
             ],
-            name="s3_12ii04",
+            name='s3_12ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -923,7 +923,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test xs:error as conditionally assigned type",
+                                'test xs:error as conditionally assigned type',
                             ]
                         ),
                     ]
@@ -931,16 +931,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -952,12 +952,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12ii05s"
+                name='s3_12ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii05.xml"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -968,10 +968,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_12ii05i"
+                    name='s3_12ii05i'
                 ),
             ],
-            name="s3_12ii05",
+            name='s3_12ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -982,7 +982,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests an invalid XPath cast expression. The cast expression casts to a simple type defined in the schema.",
+                                'Tests an invalid XPath cast expression. The cast expression casts to a simple type defined in the schema.',
                             ]
                         ),
                     ]
@@ -990,16 +990,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_12/s3_12ii06.xsd"
+                        href='../ibmData/instance_invalid/S3_12/s3_12ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -1013,7 +1013,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;                        Changed the status to "invalid" and removed the instance test, in response to bug #12139&#10;                    ',
+                                        '\n                        Changed the status to "invalid" and removed the instance test, in response to bug #12139\n                    ',
                                     ]
                                 ),
                             ]
@@ -1028,9 +1028,9 @@ obj = TestSet(
                         date=XmlDate(2010, 12, 1)
                     ),
                 ],
-                name="s3_12ii06s"
+                name='s3_12ii06s'
             ),
-            name="s3_12ii06",
+            name='s3_12ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1041,7 +1041,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the selection of type alternative when the element type definition",
+                                'Tests the selection of type alternative when the element type definition',
                             ]
                         ),
                     ]
@@ -1049,16 +1049,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_12/s3_12si01.xsd"
+                        href='../ibmData/schema_invalid/S3_12/s3_12si01.xsd'
                     ),
                 ],
                 expected=[
@@ -1070,9 +1070,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12si01s"
+                name='s3_12si01s'
             ),
-            name="s3_12si01",
+            name='s3_12si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1083,7 +1083,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type ",
+                                'Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type ',
                             ]
                         ),
                     ]
@@ -1091,16 +1091,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_12/s3_12si02.xsd"
+                        href='../ibmData/schema_invalid/S3_12/s3_12si02.xsd'
                     ),
                 ],
                 expected=[
@@ -1112,9 +1112,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12si02s"
+                name='s3_12si02s'
             ),
-            name="s3_12si02",
+            name='s3_12si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1125,7 +1125,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Alternatives not valid derivation of declared type ",
+                                'Alternatives not valid derivation of declared type ',
                             ]
                         ),
                     ]
@@ -1133,16 +1133,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_12/s3_12si03.xsd"
+                        href='../ibmData/schema_invalid/S3_12/s3_12si03.xsd'
                     ),
                 ],
                 expected=[
@@ -1154,9 +1154,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12si03s"
+                name='s3_12si03s'
             ),
-            name="s3_12si03",
+            name='s3_12si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1167,7 +1167,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests invalid XPath expression",
+                                'Tests invalid XPath expression',
                             ]
                         ),
                     ]
@@ -1175,16 +1175,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_12/s3_12si04.xsd"
+                        href='../ibmData/schema_invalid/S3_12/s3_12si04.xsd'
                     ),
                 ],
                 expected=[
@@ -1196,9 +1196,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12si04s"
+                name='s3_12si04s'
             ),
-            name="s3_12si04",
+            name='s3_12si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1209,7 +1209,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests an invalid XPath expression. The letter case in the AND expression is incorrect.",
+                                'Tests an invalid XPath expression. The letter case in the AND expression is incorrect.',
                             ]
                         ),
                     ]
@@ -1217,16 +1217,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_12/s3_12si05.xsd"
+                        href='../ibmData/schema_invalid/S3_12/s3_12si05.xsd'
                     ),
                 ],
                 expected=[
@@ -1238,9 +1238,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12si05s"
+                name='s3_12si05s'
             ),
-            name="s3_12si05",
+            name='s3_12si05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1251,7 +1251,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests an invalid XPath cast expression. The QName in the cast expression is incorrect.",
+                                'Tests an invalid XPath cast expression. The QName in the cast expression is incorrect.',
                             ]
                         ),
                     ]
@@ -1259,16 +1259,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_12/s3_12si06.xsd"
+                        href='../ibmData/schema_invalid/S3_12/s3_12si06.xsd'
                     ),
                 ],
                 expected=[
@@ -1280,17 +1280,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_12si06s"
+                name='s3_12si06s'
             ),
-            name="s3_12si06",
+            name='s3_12si06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="TypeAlternativeTests",
+    contributor='IBM',
+    name='TypeAlternativeTests',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

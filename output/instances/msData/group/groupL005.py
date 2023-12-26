@@ -6,8 +6,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     elem=Elem(
         b1_or_b2=AnyElement(
-            qname="b2",
-            text=""
+            qname='b2',
+            text=''
         )
     )
 )

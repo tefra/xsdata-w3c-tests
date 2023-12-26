@@ -3,9 +3,9 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Zing(
-    name="",
+    name='',
     any_element=AnyElement(
-        qname="nome",
-        text=""
+        qname='nome',
+        text=''
     )
 )

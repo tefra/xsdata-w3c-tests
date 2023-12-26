@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic_byte_max_inclusive_4_xsd.nistschema_sv_iv_atomic_byte_max_inclusive_4 import NistschemaSvIvAtomicByteMaxInclusive4
+from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic_byte_max_inclusive_4_xsd.nistschema_sv_iv_atomic_byte_max_inclusive_4 import (
+    NistschemaSvIvAtomicByteMaxInclusive4,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicByteMaxInclusive4",

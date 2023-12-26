@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriWhiteSpace1(
-    value="telnet://adventdatab.seensureis.awcreateor.anizations.elp.org"
+    value='telnet://adventdatab.seensureis.awcreateor.anizations.elp.org'
 )

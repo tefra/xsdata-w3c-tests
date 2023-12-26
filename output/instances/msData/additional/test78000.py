@@ -11,75 +11,75 @@ obj = Doc(
         RootContainer(
             strict_container=StrictContainer(
                 other_element=AnyElement(
-                    qname="{b}test",
-                    text="",
+                    qname='{b}test',
+                    text='',
                     attributes={
-                        "b1": "a",
+                        'b1': 'a',
                     }
                 )
             ),
             lax_container=LaxContainer(
                 other_element=AnyElement(
-                    qname="{b}test",
-                    text="",
+                    qname='{b}test',
+                    text='',
                     attributes={
-                        "b1": "a",
+                        'b1': 'a',
                     }
                 )
             ),
             skip_container=SkipContainer(
                 other_element=AnyElement(
-                    qname="{other}anyOtherGarbage",
-                    text=""
+                    qname='{other}anyOtherGarbage',
+                    text=''
                 )
             )
         ),
         RootContainer(
             strict_container=StrictContainer(
                 other_element=AnyElement(
-                    qname="{b}test",
-                    text="",
+                    qname='{b}test',
+                    text='',
                     attributes={
-                        "b1": "a",
+                        'b1': 'a',
                     }
                 )
             ),
             lax_container=LaxContainer(
                 other_element=AnyElement(
-                    qname="{other}anyOtherGarbage",
-                    text=""
+                    qname='{other}anyOtherGarbage',
+                    text=''
                 )
             ),
             skip_container=SkipContainer(
                 other_element=AnyElement(
-                    qname="{other}anyOtherGarbage",
-                    text=""
+                    qname='{other}anyOtherGarbage',
+                    text=''
                 )
             )
         ),
         RootContainer(
             strict_container=StrictContainer(
                 other_element=AnyElement(
-                    qname="{b}test",
-                    text="",
+                    qname='{b}test',
+                    text='',
                     attributes={
-                        "b1": "a",
+                        'b1': 'a',
                     }
                 )
             ),
             lax_container=LaxContainer(
                 other_element=AnyElement(
-                    qname="{b}test",
-                    text="",
+                    qname='{b}test',
+                    text='',
                     attributes={
-                        "b1": "a",
+                        'b1': 'a',
                     }
                 )
             ),
             skip_container=SkipContainer(
                 other_element=AnyElement(
-                    qname="{b}test",
-                    text=""
+                    qname='{b}test',
+                    text=''
                 )
             )
         ),

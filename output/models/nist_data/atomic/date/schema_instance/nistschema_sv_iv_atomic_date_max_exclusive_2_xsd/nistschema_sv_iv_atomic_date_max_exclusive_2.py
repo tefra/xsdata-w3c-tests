@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDateMaxExclusive2:
         metadata={
             "required": True,
             "max_exclusive": XmlDate(2016, 9, 5),
-        }
+        },
     )

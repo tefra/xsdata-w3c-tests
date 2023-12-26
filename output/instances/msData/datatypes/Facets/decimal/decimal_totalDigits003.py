@@ -3,5 +3,5 @@ from output.models.ms_data.datatypes.facets.decimal.decimal_total_digits003_xsd.
 
 
 obj = Test(
-    foo=Decimal("123")
+    foo=Decimal('123')
 )

@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.long.long_pattern001_xsd.long_patter
 
 
 obj = Test(
-    foo="5"
+    foo='5'
 )

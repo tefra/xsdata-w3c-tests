@@ -1,7 +1,13 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional, Union
-from xsdata.models.datatype import XmlDate, XmlDateTime, XmlDuration, XmlPeriod, XmlTime
+from xsdata.models.datatype import (
+    XmlDate,
+    XmlDateTime,
+    XmlDuration,
+    XmlPeriod,
+    XmlTime,
+)
 
 
 @dataclass
@@ -13,7 +19,7 @@ class Anyuri:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -26,7 +32,7 @@ class Bool:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -39,7 +45,7 @@ class Date:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -52,7 +58,7 @@ class Datetime:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -65,7 +71,7 @@ class Day:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -78,7 +84,7 @@ class DecimalType:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -91,7 +97,7 @@ class Double:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -104,7 +110,7 @@ class Duration:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -117,7 +123,7 @@ class Entity:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -130,7 +136,7 @@ class Float:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -144,7 +150,7 @@ class Hexbinary:
         metadata={
             "required": True,
             "format": "base16",
-        }
+        },
     )
 
 
@@ -157,7 +163,7 @@ class Int:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -166,9 +172,7 @@ class Item:
     class Meta:
         name = "item"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
 
 
 @dataclass
@@ -180,7 +184,7 @@ class Month:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -193,7 +197,7 @@ class Monthday:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -202,7 +206,22 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[Union[str, XmlDateTime, Decimal, int, float, bytes, bool, XmlPeriod, XmlDate, object, XmlTime, XmlDuration]] = field(
+    choice: List[
+        Union[
+            str,
+            bytes,
+            XmlPeriod,
+            XmlDate,
+            XmlTime,
+            XmlDateTime,
+            XmlDuration,
+            Decimal,
+            float,
+            bool,
+            int,
+            object,
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -281,7 +300,7 @@ class Root:
                     "type": object,
                 },
             ),
-        }
+        },
     )
 
 
@@ -294,7 +313,7 @@ class String:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -307,7 +326,7 @@ class Time:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -320,5 +339,5 @@ class Year:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

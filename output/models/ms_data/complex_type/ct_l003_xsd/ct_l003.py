@@ -12,14 +12,14 @@ class FooTest:
         metadata={
             "required": True,
             "white_space": "collapse",
-        }
+        },
     )
     my_attr: Optional[str] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,5 +34,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

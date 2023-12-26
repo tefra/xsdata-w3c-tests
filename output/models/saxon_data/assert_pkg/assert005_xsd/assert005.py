@@ -12,20 +12,20 @@ class Inner:
         metadata={
             "type": "Element",
             "max_occurs": 4,
-        }
+        },
     )
     x: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
     @dataclass
@@ -35,7 +35,7 @@ class Inner:
             metadata={
                 "type": "Element",
                 "max_occurs": 4,
-            }
+            },
         )
 
 
@@ -49,5 +49,5 @@ class Outer:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -13,12 +13,12 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_length": 6,
-        }
+        },
     )
     att: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "min_length": 6,
-        }
+        },
     )

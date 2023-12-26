@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_max_inclusive_5_xsd.nistschema_sv_iv_atomic_long_max_inclusive_5 import NistschemaSvIvAtomicLongMaxInclusive5
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_max_inclusive_5_xsd.nistschema_sv_iv_atomic_long_max_inclusive_5 import (
+    NistschemaSvIvAtomicLongMaxInclusive5,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicLongMaxInclusive5",

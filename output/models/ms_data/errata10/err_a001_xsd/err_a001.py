@@ -101,5 +101,5 @@ class Root:
                     "fraction_digits": 5,
                 },
             ),
-        }
+        },
     )

@@ -10,6 +10,4 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    value: Optional[int] = field(
-        default=None
-    )
+    value: Optional[int] = field(default=None)

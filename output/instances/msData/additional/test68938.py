@@ -3,5 +3,5 @@ from output.models.ms_data.additional.test68938_xsd.test68938 import Foo
 
 
 obj = Foo(
-    value=Decimal("123")
+    value=Decimal('123')
 )

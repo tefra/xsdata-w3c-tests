@@ -13,7 +13,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

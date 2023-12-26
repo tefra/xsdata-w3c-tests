@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength4(
-    value="kand.the.000-will_known.networks.manufacturers-to_resource.g_"
+    value='kand.the.000-will_known.networks.manufacturers-to_resource.g_'
 )

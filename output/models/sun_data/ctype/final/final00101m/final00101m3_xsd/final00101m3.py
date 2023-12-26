@@ -12,7 +12,7 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class B1(A):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

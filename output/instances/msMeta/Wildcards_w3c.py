@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA001.xsd"
+                        href='../msData/wildcards/wildA001.xsd'
                     ),
                 ],
                 expected=[
@@ -50,9 +50,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA001"
+                name='wildA001'
             ),
-            name="wildA001"
+            name='wildA001'
         ),
         TestGroup(
             annotation=[
@@ -68,13 +68,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA002.xsd"
+                        href='../msData/wildcards/wildA002.xsd'
                     ),
                 ],
                 expected=[
@@ -86,9 +86,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA002"
+                name='wildA002'
             ),
-            name="wildA002"
+            name='wildA002'
         ),
         TestGroup(
             annotation=[
@@ -104,13 +104,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA003.xsd"
+                        href='../msData/wildcards/wildA003.xsd'
                     ),
                 ],
                 expected=[
@@ -122,9 +122,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA003"
+                name='wildA003'
             ),
-            name="wildA003"
+            name='wildA003'
         ),
         TestGroup(
             annotation=[
@@ -140,13 +140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA004.xsd"
+                        href='../msData/wildcards/wildA004.xsd'
                     ),
                 ],
                 expected=[
@@ -158,9 +158,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA004"
+                name='wildA004'
             ),
-            name="wildA004"
+            name='wildA004'
         ),
         TestGroup(
             annotation=[
@@ -176,13 +176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA005.xsd"
+                        href='../msData/wildcards/wildA005.xsd'
                     ),
                 ],
                 expected=[
@@ -194,9 +194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA005"
+                name='wildA005'
             ),
-            name="wildA005"
+            name='wildA005'
         ),
         TestGroup(
             annotation=[
@@ -212,13 +212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA006.xsd"
+                        href='../msData/wildcards/wildA006.xsd'
                     ),
                 ],
                 expected=[
@@ -230,9 +230,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA006"
+                name='wildA006'
             ),
-            name="wildA006"
+            name='wildA006'
         ),
         TestGroup(
             annotation=[
@@ -248,13 +248,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA007.xsd"
+                        href='../msData/wildcards/wildA007.xsd'
                     ),
                 ],
                 expected=[
@@ -266,9 +266,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA007"
+                name='wildA007'
             ),
-            name="wildA007"
+            name='wildA007'
         ),
         TestGroup(
             annotation=[
@@ -284,13 +284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildA008.xsd"
+                        href='../msData/wildcards/wildA008.xsd'
                     ),
                 ],
                 expected=[
@@ -302,9 +302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildA008"
+                name='wildA008'
             ),
-            name="wildA008"
+            name='wildA008'
         ),
         TestGroup(
             annotation=[
@@ -320,13 +320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB010.xsd"
+                        href='../msData/wildcards/wildB010.xsd'
                     ),
                 ],
                 expected=[
@@ -338,9 +338,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB010"
+                name='wildB010'
             ),
-            name="wildB010"
+            name='wildB010'
         ),
         TestGroup(
             annotation=[
@@ -356,13 +356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB011.xsd"
+                        href='../msData/wildcards/wildB011.xsd'
                     ),
                 ],
                 expected=[
@@ -374,9 +374,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB011"
+                name='wildB011'
             ),
-            name="wildB011"
+            name='wildB011'
         ),
         TestGroup(
             annotation=[
@@ -392,13 +392,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB012.xsd"
+                        href='../msData/wildcards/wildB012.xsd'
                     ),
                 ],
                 expected=[
@@ -410,9 +410,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB012"
+                name='wildB012'
             ),
-            name="wildB012"
+            name='wildB012'
         ),
         TestGroup(
             annotation=[
@@ -428,13 +428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB013.xsd"
+                        href='../msData/wildcards/wildB013.xsd'
                     ),
                 ],
                 expected=[
@@ -446,9 +446,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB013"
+                name='wildB013'
             ),
-            name="wildB013"
+            name='wildB013'
         ),
         TestGroup(
             annotation=[
@@ -464,13 +464,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB014.xsd"
+                        href='../msData/wildcards/wildB014.xsd'
                     ),
                 ],
                 expected=[
@@ -482,9 +482,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB014"
+                name='wildB014'
             ),
-            name="wildB014"
+            name='wildB014'
         ),
         TestGroup(
             annotation=[
@@ -500,13 +500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB015.xsd"
+                        href='../msData/wildcards/wildB015.xsd'
                     ),
                 ],
                 expected=[
@@ -518,9 +518,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB015"
+                name='wildB015'
             ),
-            name="wildB015"
+            name='wildB015'
         ),
         TestGroup(
             annotation=[
@@ -536,13 +536,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB016.xsd"
+                        href='../msData/wildcards/wildB016.xsd'
                     ),
                 ],
                 expected=[
@@ -554,9 +554,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB016"
+                name='wildB016'
             ),
-            name="wildB016"
+            name='wildB016'
         ),
         TestGroup(
             annotation=[
@@ -572,13 +572,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB017.xsd"
+                        href='../msData/wildcards/wildB017.xsd'
                     ),
                 ],
                 expected=[
@@ -590,9 +590,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB017"
+                name='wildB017'
             ),
-            name="wildB017"
+            name='wildB017'
         ),
         TestGroup(
             annotation=[
@@ -608,13 +608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB018.xsd"
+                        href='../msData/wildcards/wildB018.xsd'
                     ),
                 ],
                 expected=[
@@ -626,9 +626,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB018"
+                name='wildB018'
             ),
-            name="wildB018"
+            name='wildB018'
         ),
         TestGroup(
             annotation=[
@@ -644,13 +644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB019.xsd"
+                        href='../msData/wildcards/wildB019.xsd'
                     ),
                 ],
                 expected=[
@@ -662,9 +662,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB019"
+                name='wildB019'
             ),
-            name="wildB019"
+            name='wildB019'
         ),
         TestGroup(
             annotation=[
@@ -680,13 +680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB020.xsd"
+                        href='../msData/wildcards/wildB020.xsd'
                     ),
                 ],
                 expected=[
@@ -698,9 +698,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB020"
+                name='wildB020'
             ),
-            name="wildB020"
+            name='wildB020'
         ),
         TestGroup(
             annotation=[
@@ -716,13 +716,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB021.xsd"
+                        href='../msData/wildcards/wildB021.xsd'
                     ),
                 ],
                 expected=[
@@ -734,9 +734,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB021"
+                name='wildB021'
             ),
-            name="wildB021"
+            name='wildB021'
         ),
         TestGroup(
             annotation=[
@@ -752,13 +752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB022.xsd"
+                        href='../msData/wildcards/wildB022.xsd'
                     ),
                 ],
                 expected=[
@@ -770,9 +770,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB022"
+                name='wildB022'
             ),
-            name="wildB022"
+            name='wildB022'
         ),
         TestGroup(
             annotation=[
@@ -788,13 +788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB023.xsd"
+                        href='../msData/wildcards/wildB023.xsd'
                     ),
                 ],
                 expected=[
@@ -806,9 +806,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB023"
+                name='wildB023'
             ),
-            name="wildB023"
+            name='wildB023'
         ),
         TestGroup(
             annotation=[
@@ -824,13 +824,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB024.xsd"
+                        href='../msData/wildcards/wildB024.xsd'
                     ),
                 ],
                 expected=[
@@ -842,9 +842,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB024"
+                name='wildB024'
             ),
-            name="wildB024"
+            name='wildB024'
         ),
         TestGroup(
             annotation=[
@@ -860,13 +860,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB025.xsd"
+                        href='../msData/wildcards/wildB025.xsd'
                     ),
                 ],
                 expected=[
@@ -878,9 +878,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB025"
+                name='wildB025'
             ),
-            name="wildB025"
+            name='wildB025'
         ),
         TestGroup(
             annotation=[
@@ -896,13 +896,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB026.xsd"
+                        href='../msData/wildcards/wildB026.xsd'
                     ),
                 ],
                 expected=[
@@ -914,9 +914,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB026"
+                name='wildB026'
             ),
-            name="wildB026"
+            name='wildB026'
         ),
         TestGroup(
             annotation=[
@@ -932,13 +932,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB027.xsd"
+                        href='../msData/wildcards/wildB027.xsd'
                     ),
                 ],
                 expected=[
@@ -950,9 +950,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB027"
+                name='wildB027'
             ),
-            name="wildB027"
+            name='wildB027'
         ),
         TestGroup(
             annotation=[
@@ -968,13 +968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB028.xsd"
+                        href='../msData/wildcards/wildB028.xsd'
                     ),
                 ],
                 expected=[
@@ -986,9 +986,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB028"
+                name='wildB028'
             ),
-            name="wildB028"
+            name='wildB028'
         ),
         TestGroup(
             annotation=[
@@ -1004,13 +1004,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildB029.xsd"
+                        href='../msData/wildcards/wildB029.xsd'
                     ),
                 ],
                 expected=[
@@ -1022,9 +1022,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildB029"
+                name='wildB029'
             ),
-            name="wildB029"
+            name='wildB029'
         ),
         TestGroup(
             annotation=[
@@ -1032,7 +1032,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace =",
+                                'TEST :Syntax Validation - any : ANY with namespace =',
                             ]
                         ),
                     ]
@@ -1040,13 +1040,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC030.xsd"
+                        href='../msData/wildcards/wildC030.xsd'
                     ),
                 ],
                 expected=[
@@ -1058,9 +1058,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC030"
+                name='wildC030'
             ),
-            name="wildC030"
+            name='wildC030'
         ),
         TestGroup(
             annotation=[
@@ -1068,7 +1068,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any',
                             ]
                         ),
                     ]
@@ -1076,13 +1076,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC031.xsd"
+                        href='../msData/wildcards/wildC031.xsd'
                     ),
                 ],
                 expected=[
@@ -1094,9 +1094,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC031"
+                name='wildC031'
             ),
-            name="wildC031"
+            name='wildC031'
         ),
         TestGroup(
             annotation=[
@@ -1104,7 +1104,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##local",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##local',
                             ]
                         ),
                     ]
@@ -1112,13 +1112,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC032.xsd"
+                        href='../msData/wildcards/wildC032.xsd'
                     ),
                 ],
                 expected=[
@@ -1130,9 +1130,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC032"
+                name='wildC032'
             ),
-            name="wildC032"
+            name='wildC032'
         ),
         TestGroup(
             annotation=[
@@ -1140,7 +1140,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##other",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##other',
                             ]
                         ),
                     ]
@@ -1148,13 +1148,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC033.xsd"
+                        href='../msData/wildcards/wildC033.xsd'
                     ),
                 ],
                 expected=[
@@ -1166,9 +1166,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC033"
+                name='wildC033'
             ),
-            name="wildC033"
+            name='wildC033'
         ),
         TestGroup(
             annotation=[
@@ -1176,7 +1176,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##targetNamespace',
                             ]
                         ),
                     ]
@@ -1184,13 +1184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC034.xsd"
+                        href='../msData/wildcards/wildC034.xsd'
                     ),
                 ],
                 expected=[
@@ -1202,9 +1202,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC034"
+                name='wildC034'
             ),
-            name="wildC034"
+            name='wildC034'
         ),
         TestGroup(
             annotation=[
@@ -1212,7 +1212,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##target",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##target',
                             ]
                         ),
                     ]
@@ -1220,13 +1220,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC035.xsd"
+                        href='../msData/wildcards/wildC035.xsd'
                     ),
                 ],
                 expected=[
@@ -1238,9 +1238,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC035"
+                name='wildC035'
             ),
-            name="wildC035"
+            name='wildC035'
         ),
         TestGroup(
             annotation=[
@@ -1248,7 +1248,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##all",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##all',
                             ]
                         ),
                     ]
@@ -1256,13 +1256,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC036.xsd"
+                        href='../msData/wildcards/wildC036.xsd'
                     ),
                 ],
                 expected=[
@@ -1274,9 +1274,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC036"
+                name='wildC036'
             ),
-            name="wildC036"
+            name='wildC036'
         ),
         TestGroup(
             annotation=[
@@ -1284,7 +1284,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = #any",
+                                'TEST :Syntax Validation - any : ANY with namespace = #any',
                             ]
                         ),
                     ]
@@ -1292,13 +1292,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC037.xsd"
+                        href='../msData/wildcards/wildC037.xsd'
                     ),
                 ],
                 expected=[
@@ -1310,9 +1310,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC037"
+                name='wildC037'
             ),
-            name="wildC037"
+            name='wildC037'
         ),
         TestGroup(
             annotation=[
@@ -1320,7 +1320,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = #local",
+                                'TEST :Syntax Validation - any : ANY with namespace = #local',
                             ]
                         ),
                     ]
@@ -1328,13 +1328,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC038.xsd"
+                        href='../msData/wildcards/wildC038.xsd'
                     ),
                 ],
                 expected=[
@@ -1346,9 +1346,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC038"
+                name='wildC038'
             ),
-            name="wildC038"
+            name='wildC038'
         ),
         TestGroup(
             annotation=[
@@ -1356,7 +1356,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = #other",
+                                'TEST :Syntax Validation - any : ANY with namespace = #other',
                             ]
                         ),
                     ]
@@ -1364,13 +1364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC039.xsd"
+                        href='../msData/wildcards/wildC039.xsd'
                     ),
                 ],
                 expected=[
@@ -1382,9 +1382,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC039"
+                name='wildC039'
             ),
-            name="wildC039"
+            name='wildC039'
         ),
         TestGroup(
             annotation=[
@@ -1392,7 +1392,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = #targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = #targetNamespace',
                             ]
                         ),
                     ]
@@ -1400,13 +1400,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC040.xsd"
+                        href='../msData/wildcards/wildC040.xsd'
                     ),
                 ],
                 expected=[
@@ -1418,9 +1418,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC040"
+                name='wildC040'
             ),
-            name="wildC040"
+            name='wildC040'
         ),
         TestGroup(
             annotation=[
@@ -1428,7 +1428,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = #target",
+                                'TEST :Syntax Validation - any : ANY with namespace = #target',
                             ]
                         ),
                     ]
@@ -1436,13 +1436,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC041.xsd"
+                        href='../msData/wildcards/wildC041.xsd'
                     ),
                 ],
                 expected=[
@@ -1454,9 +1454,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC041"
+                name='wildC041'
             ),
-            name="wildC041"
+            name='wildC041'
         ),
         TestGroup(
             annotation=[
@@ -1464,7 +1464,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = #all",
+                                'TEST :Syntax Validation - any : ANY with namespace = #all',
                             ]
                         ),
                     ]
@@ -1472,13 +1472,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC042.xsd"
+                        href='../msData/wildcards/wildC042.xsd'
                     ),
                 ],
                 expected=[
@@ -1490,9 +1490,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC042"
+                name='wildC042'
             ),
-            name="wildC042"
+            name='wildC042'
         ),
         TestGroup(
             annotation=[
@@ -1500,7 +1500,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = any",
+                                'TEST :Syntax Validation - any : ANY with namespace = any',
                             ]
                         ),
                     ]
@@ -1508,13 +1508,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC043.xsd"
+                        href='../msData/wildcards/wildC043.xsd'
                     ),
                 ],
                 expected=[
@@ -1526,9 +1526,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC043"
+                name='wildC043'
             ),
-            name="wildC043"
+            name='wildC043'
         ),
         TestGroup(
             annotation=[
@@ -1536,7 +1536,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = local",
+                                'TEST :Syntax Validation - any : ANY with namespace = local',
                             ]
                         ),
                     ]
@@ -1544,13 +1544,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC044.xsd"
+                        href='../msData/wildcards/wildC044.xsd'
                     ),
                 ],
                 expected=[
@@ -1562,9 +1562,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC044"
+                name='wildC044'
             ),
-            name="wildC044"
+            name='wildC044'
         ),
         TestGroup(
             annotation=[
@@ -1572,7 +1572,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = other",
+                                'TEST :Syntax Validation - any : ANY with namespace = other',
                             ]
                         ),
                     ]
@@ -1580,13 +1580,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC045.xsd"
+                        href='../msData/wildcards/wildC045.xsd'
                     ),
                 ],
                 expected=[
@@ -1598,9 +1598,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC045"
+                name='wildC045'
             ),
-            name="wildC045"
+            name='wildC045'
         ),
         TestGroup(
             annotation=[
@@ -1608,7 +1608,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = targetNamespace',
                             ]
                         ),
                     ]
@@ -1616,13 +1616,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC046.xsd"
+                        href='../msData/wildcards/wildC046.xsd'
                     ),
                 ],
                 expected=[
@@ -1634,9 +1634,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC046"
+                name='wildC046'
             ),
-            name="wildC046"
+            name='wildC046'
         ),
         TestGroup(
             annotation=[
@@ -1644,7 +1644,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = target",
+                                'TEST :Syntax Validation - any : ANY with namespace = target',
                             ]
                         ),
                     ]
@@ -1652,13 +1652,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC047.xsd"
+                        href='../msData/wildcards/wildC047.xsd'
                     ),
                 ],
                 expected=[
@@ -1670,9 +1670,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC047"
+                name='wildC047'
             ),
-            name="wildC047"
+            name='wildC047'
         ),
         TestGroup(
             annotation=[
@@ -1680,7 +1680,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = all",
+                                'TEST :Syntax Validation - any : ANY with namespace = all',
                             ]
                         ),
                     ]
@@ -1688,13 +1688,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC048.xsd"
+                        href='../msData/wildcards/wildC048.xsd'
                     ),
                 ],
                 expected=[
@@ -1706,9 +1706,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC048"
+                name='wildC048'
             ),
-            name="wildC048"
+            name='wildC048'
         ),
         TestGroup(
             annotation=[
@@ -1716,7 +1716,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##other",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##other',
                             ]
                         ),
                     ]
@@ -1724,13 +1724,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC049.xsd"
+                        href='../msData/wildcards/wildC049.xsd'
                     ),
                 ],
                 expected=[
@@ -1742,9 +1742,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC049"
+                name='wildC049'
             ),
-            name="wildC049"
+            name='wildC049'
         ),
         TestGroup(
             annotation=[
@@ -1752,7 +1752,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##local",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##local',
                             ]
                         ),
                     ]
@@ -1760,13 +1760,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC050.xsd"
+                        href='../msData/wildcards/wildC050.xsd'
                     ),
                 ],
                 expected=[
@@ -1778,9 +1778,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC050"
+                name='wildC050'
             ),
-            name="wildC050"
+            name='wildC050'
         ),
         TestGroup(
             annotation=[
@@ -1788,7 +1788,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##targetNamespace',
                             ]
                         ),
                     ]
@@ -1796,13 +1796,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC051.xsd"
+                        href='../msData/wildcards/wildC051.xsd'
                     ),
                 ],
                 expected=[
@@ -1814,9 +1814,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC051"
+                name='wildC051'
             ),
-            name="wildC051"
+            name='wildC051'
         ),
         TestGroup(
             annotation=[
@@ -1824,7 +1824,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##other ##local",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##other ##local',
                             ]
                         ),
                     ]
@@ -1832,13 +1832,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC052.xsd"
+                        href='../msData/wildcards/wildC052.xsd'
                     ),
                 ],
                 expected=[
@@ -1850,9 +1850,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC052"
+                name='wildC052'
             ),
-            name="wildC052"
+            name='wildC052'
         ),
         TestGroup(
             annotation=[
@@ -1860,7 +1860,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##other ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##other ##targetNamespace',
                             ]
                         ),
                     ]
@@ -1868,13 +1868,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC053.xsd"
+                        href='../msData/wildcards/wildC053.xsd'
                     ),
                 ],
                 expected=[
@@ -1886,9 +1886,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC053"
+                name='wildC053'
             ),
-            name="wildC053"
+            name='wildC053'
         ),
         TestGroup(
             annotation=[
@@ -1896,7 +1896,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##local ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##local ##targetNamespace',
                             ]
                         ),
                     ]
@@ -1904,13 +1904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC054.xsd"
+                        href='../msData/wildcards/wildC054.xsd'
                     ),
                 ],
                 expected=[
@@ -1922,9 +1922,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC054"
+                name='wildC054'
             ),
-            name="wildC054"
+            name='wildC054'
         ),
         TestGroup(
             annotation=[
@@ -1932,7 +1932,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##other ##local",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##other ##local',
                             ]
                         ),
                     ]
@@ -1940,13 +1940,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC055.xsd"
+                        href='../msData/wildcards/wildC055.xsd'
                     ),
                 ],
                 expected=[
@@ -1958,9 +1958,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC055"
+                name='wildC055'
             ),
-            name="wildC055"
+            name='wildC055'
         ),
         TestGroup(
             annotation=[
@@ -1968,7 +1968,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##other ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##other ##targetNamespace',
                             ]
                         ),
                     ]
@@ -1976,13 +1976,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC056.xsd"
+                        href='../msData/wildcards/wildC056.xsd'
                     ),
                 ],
                 expected=[
@@ -1994,9 +1994,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC056"
+                name='wildC056'
             ),
-            name="wildC056"
+            name='wildC056'
         ),
         TestGroup(
             annotation=[
@@ -2004,7 +2004,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##local ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##local ##targetNamespace',
                             ]
                         ),
                     ]
@@ -2012,13 +2012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC057.xsd"
+                        href='../msData/wildcards/wildC057.xsd'
                     ),
                 ],
                 expected=[
@@ -2030,9 +2030,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC057"
+                name='wildC057'
             ),
-            name="wildC057"
+            name='wildC057'
         ),
         TestGroup(
             annotation=[
@@ -2040,7 +2040,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any ##other ##local ##targetNamespace",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any ##other ##local ##targetNamespace',
                             ]
                         ),
                     ]
@@ -2048,13 +2048,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC058.xsd"
+                        href='../msData/wildcards/wildC058.xsd'
                     ),
                 ],
                 expected=[
@@ -2066,9 +2066,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC058"
+                name='wildC058'
             ),
-            name="wildC058"
+            name='wildC058'
         ),
         TestGroup(
             annotation=[
@@ -2076,7 +2076,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/xhtml",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/xhtml',
                             ]
                         ),
                     ]
@@ -2084,13 +2084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC059.xsd"
+                        href='../msData/wildcards/wildC059.xsd'
                     ),
                 ],
                 expected=[
@@ -2102,9 +2102,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC059"
+                name='wildC059'
             ),
-            name="wildC059"
+            name='wildC059'
         ),
         TestGroup(
             annotation=[
@@ -2112,7 +2112,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude',
                             ]
                         ),
                     ]
@@ -2120,13 +2120,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC060.xsd"
+                        href='../msData/wildcards/wildC060.xsd'
                     ),
                 ],
                 expected=[
@@ -2138,9 +2138,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC060"
+                name='wildC060'
             ),
-            name="wildC060"
+            name='wildC060'
         ),
         TestGroup(
             annotation=[
@@ -2148,7 +2148,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema',
                             ]
                         ),
                     ]
@@ -2156,13 +2156,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC061.xsd"
+                        href='../msData/wildcards/wildC061.xsd'
                     ),
                 ],
                 expected=[
@@ -2174,9 +2174,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC061"
+                name='wildC061'
             ),
-            name="wildC061"
+            name='wildC061'
         ),
         TestGroup(
             annotation=[
@@ -2184,7 +2184,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/Graphics/SVG/",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/Graphics/SVG/',
                             ]
                         ),
                     ]
@@ -2192,13 +2192,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC062.xsd"
+                        href='../msData/wildcards/wildC062.xsd'
                     ),
                 ],
                 expected=[
@@ -2210,9 +2210,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC062"
+                name='wildC062'
             ),
-            name="wildC062"
+            name='wildC062'
         ),
         TestGroup(
             annotation=[
@@ -2220,7 +2220,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -2228,13 +2228,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC063.xsd"
+                        href='../msData/wildcards/wildC063.xsd'
                     ),
                 ],
                 expected=[
@@ -2246,9 +2246,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC063"
+                name='wildC063'
             ),
-            name="wildC063"
+            name='wildC063'
         ),
         TestGroup(
             annotation=[
@@ -2256,7 +2256,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/XMLSchema",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/XMLSchema',
                             ]
                         ),
                     ]
@@ -2264,13 +2264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC064.xsd"
+                        href='../msData/wildcards/wildC064.xsd'
                     ),
                 ],
                 expected=[
@@ -2282,9 +2282,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC064"
+                name='wildC064'
             ),
-            name="wildC064"
+            name='wildC064'
         ),
         TestGroup(
             annotation=[
@@ -2292,7 +2292,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/XMLSchema http://www.w3.org/1999/XMLSchema-instance http://www.w3.org/1999/XMLSchema-datatypes",
+                                'TEST :Syntax Validation - any : ANY with namespace = http://www.w3.org/1999/XMLSchema http://www.w3.org/1999/XMLSchema-instance http://www.w3.org/1999/XMLSchema-datatypes',
                             ]
                         ),
                     ]
@@ -2300,13 +2300,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC065.xsd"
+                        href='../msData/wildcards/wildC065.xsd'
                     ),
                 ],
                 expected=[
@@ -2318,9 +2318,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC065"
+                name='wildC065'
             ),
-            name="wildC065"
+            name='wildC065'
         ),
         TestGroup(
             annotation=[
@@ -2328,7 +2328,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##any http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##any http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -2336,13 +2336,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC066.xsd"
+                        href='../msData/wildcards/wildC066.xsd'
                     ),
                 ],
                 expected=[
@@ -2354,9 +2354,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC066"
+                name='wildC066'
             ),
-            name="wildC066"
+            name='wildC066'
         ),
         TestGroup(
             annotation=[
@@ -2364,7 +2364,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##other http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##other http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -2372,13 +2372,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC067.xsd"
+                        href='../msData/wildcards/wildC067.xsd'
                     ),
                 ],
                 expected=[
@@ -2390,9 +2390,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC067"
+                name='wildC067'
             ),
-            name="wildC067"
+            name='wildC067'
         ),
         TestGroup(
             annotation=[
@@ -2400,7 +2400,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##local http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##local http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -2408,13 +2408,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC068.xsd"
+                        href='../msData/wildcards/wildC068.xsd'
                     ),
                 ],
                 expected=[
@@ -2426,9 +2426,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC068"
+                name='wildC068'
             ),
-            name="wildC068"
+            name='wildC068'
         ),
         TestGroup(
             annotation=[
@@ -2436,7 +2436,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -2444,13 +2444,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC069.xsd"
+                        href='../msData/wildcards/wildC069.xsd'
                     ),
                 ],
                 expected=[
@@ -2462,9 +2462,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC069"
+                name='wildC069'
             ),
-            name="wildC069"
+            name='wildC069'
         ),
         TestGroup(
             annotation=[
@@ -2472,7 +2472,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with namespace = ##local ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : ANY with namespace = ##local ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -2480,13 +2480,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildC070.xsd"
+                        href='../msData/wildcards/wildC070.xsd'
                     ),
                 ],
                 expected=[
@@ -2498,9 +2498,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildC070"
+                name='wildC070'
             ),
-            name="wildC070"
+            name='wildC070'
         ),
         TestGroup(
             annotation=[
@@ -2508,7 +2508,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents =",
+                                'TEST :Syntax Validation - any : ANY with processContents =',
                             ]
                         ),
                     ]
@@ -2516,13 +2516,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD071.xsd"
+                        href='../msData/wildcards/wildD071.xsd'
                     ),
                 ],
                 expected=[
@@ -2534,9 +2534,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD071"
+                name='wildD071'
             ),
-            name="wildD071"
+            name='wildD071'
         ),
         TestGroup(
             annotation=[
@@ -2544,7 +2544,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = lax",
+                                'TEST :Syntax Validation - any : ANY with processContents = lax',
                             ]
                         ),
                     ]
@@ -2552,13 +2552,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD072.xsd"
+                        href='../msData/wildcards/wildD072.xsd'
                     ),
                 ],
                 expected=[
@@ -2570,9 +2570,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD072"
+                name='wildD072'
             ),
-            name="wildD072"
+            name='wildD072'
         ),
         TestGroup(
             annotation=[
@@ -2580,7 +2580,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = skip",
+                                'TEST :Syntax Validation - any : ANY with processContents = skip',
                             ]
                         ),
                     ]
@@ -2588,13 +2588,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD073.xsd"
+                        href='../msData/wildcards/wildD073.xsd'
                     ),
                 ],
                 expected=[
@@ -2606,9 +2606,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD073"
+                name='wildD073'
             ),
-            name="wildD073"
+            name='wildD073'
         ),
         TestGroup(
             annotation=[
@@ -2616,7 +2616,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = strict",
+                                'TEST :Syntax Validation - any : ANY with processContents = strict',
                             ]
                         ),
                     ]
@@ -2624,13 +2624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD074.xsd"
+                        href='../msData/wildcards/wildD074.xsd'
                     ),
                 ],
                 expected=[
@@ -2642,9 +2642,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD074"
+                name='wildD074'
             ),
-            name="wildD074"
+            name='wildD074'
         ),
         TestGroup(
             annotation=[
@@ -2652,7 +2652,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = lax skip",
+                                'TEST :Syntax Validation - any : ANY with processContents = lax skip',
                             ]
                         ),
                     ]
@@ -2660,13 +2660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD075.xsd"
+                        href='../msData/wildcards/wildD075.xsd'
                     ),
                 ],
                 expected=[
@@ -2678,9 +2678,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD075"
+                name='wildD075'
             ),
-            name="wildD075"
+            name='wildD075'
         ),
         TestGroup(
             annotation=[
@@ -2688,7 +2688,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = lax strict",
+                                'TEST :Syntax Validation - any : ANY with processContents = lax strict',
                             ]
                         ),
                     ]
@@ -2696,13 +2696,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD076.xsd"
+                        href='../msData/wildcards/wildD076.xsd'
                     ),
                 ],
                 expected=[
@@ -2714,9 +2714,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD076"
+                name='wildD076'
             ),
-            name="wildD076"
+            name='wildD076'
         ),
         TestGroup(
             annotation=[
@@ -2724,7 +2724,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = skip strict",
+                                'TEST :Syntax Validation - any : ANY with processContents = skip strict',
                             ]
                         ),
                     ]
@@ -2732,13 +2732,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD077.xsd"
+                        href='../msData/wildcards/wildD077.xsd'
                     ),
                 ],
                 expected=[
@@ -2750,9 +2750,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD077"
+                name='wildD077'
             ),
-            name="wildD077"
+            name='wildD077'
         ),
         TestGroup(
             annotation=[
@@ -2760,7 +2760,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = lax skip strict",
+                                'TEST :Syntax Validation - any : ANY with processContents = lax skip strict',
                             ]
                         ),
                     ]
@@ -2768,13 +2768,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD078.xsd"
+                        href='../msData/wildcards/wildD078.xsd'
                     ),
                 ],
                 expected=[
@@ -2786,9 +2786,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD078"
+                name='wildD078'
             ),
-            name="wildD078"
+            name='wildD078'
         ),
         TestGroup(
             annotation=[
@@ -2796,7 +2796,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with processContents = all",
+                                'TEST :Syntax Validation - any : ANY with processContents = all',
                             ]
                         ),
                     ]
@@ -2804,13 +2804,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildD079.xsd"
+                        href='../msData/wildcards/wildD079.xsd'
                     ),
                 ],
                 expected=[
@@ -2822,9 +2822,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildD079"
+                name='wildD079'
             ),
-            name="wildD079"
+            name='wildD079'
         ),
         TestGroup(
             annotation=[
@@ -2832,7 +2832,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with an annotation",
+                                'TEST :Syntax Validation - any : ANY with an annotation',
                             ]
                         ),
                     ]
@@ -2840,13 +2840,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildE001.xsd"
+                        href='../msData/wildcards/wildE001.xsd'
                     ),
                 ],
                 expected=[
@@ -2858,9 +2858,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildE001"
+                name='wildE001'
             ),
-            name="wildE001"
+            name='wildE001'
         ),
         TestGroup(
             annotation=[
@@ -2868,7 +2868,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with two annotations",
+                                'TEST :Syntax Validation - any : ANY with two annotations',
                             ]
                         ),
                     ]
@@ -2876,13 +2876,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildE002.xsd"
+                        href='../msData/wildcards/wildE002.xsd'
                     ),
                 ],
                 expected=[
@@ -2894,9 +2894,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildE002"
+                name='wildE002'
             ),
-            name="wildE002"
+            name='wildE002'
         ),
         TestGroup(
             annotation=[
@@ -2912,13 +2912,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF001.xsd"
+                        href='../msData/wildcards/wildF001.xsd'
                     ),
                 ],
                 expected=[
@@ -2930,9 +2930,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF001"
+                name='wildF001'
             ),
-            name="wildF001"
+            name='wildF001'
         ),
         TestGroup(
             annotation=[
@@ -2948,13 +2948,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF002.xsd"
+                        href='../msData/wildcards/wildF002.xsd'
                     ),
                 ],
                 expected=[
@@ -2966,9 +2966,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF002"
+                name='wildF002'
             ),
-            name="wildF002"
+            name='wildF002'
         ),
         TestGroup(
             annotation=[
@@ -2984,13 +2984,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF003.xsd"
+                        href='../msData/wildcards/wildF003.xsd'
                     ),
                 ],
                 expected=[
@@ -3002,9 +3002,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF003"
+                name='wildF003'
             ),
-            name="wildF003"
+            name='wildF003'
         ),
         TestGroup(
             annotation=[
@@ -3020,13 +3020,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF004.xsd"
+                        href='../msData/wildcards/wildF004.xsd'
                     ),
                 ],
                 expected=[
@@ -3038,9 +3038,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF004"
+                name='wildF004'
             ),
-            name="wildF004"
+            name='wildF004'
         ),
         TestGroup(
             annotation=[
@@ -3056,13 +3056,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF005.xsd"
+                        href='../msData/wildcards/wildF005.xsd'
                     ),
                 ],
                 expected=[
@@ -3074,9 +3074,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF005"
+                name='wildF005'
             ),
-            name="wildF005"
+            name='wildF005'
         ),
         TestGroup(
             annotation=[
@@ -3092,13 +3092,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF006.xsd"
+                        href='../msData/wildcards/wildF006.xsd'
                     ),
                 ],
                 expected=[
@@ -3110,9 +3110,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF006"
+                name='wildF006'
             ),
-            name="wildF006"
+            name='wildF006'
         ),
         TestGroup(
             annotation=[
@@ -3128,13 +3128,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF007.xsd"
+                        href='../msData/wildcards/wildF007.xsd'
                     ),
                 ],
                 expected=[
@@ -3146,9 +3146,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF007"
+                name='wildF007'
             ),
-            name="wildF007"
+            name='wildF007'
         ),
         TestGroup(
             annotation=[
@@ -3164,13 +3164,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF008.xsd"
+                        href='../msData/wildcards/wildF008.xsd'
                     ),
                 ],
                 expected=[
@@ -3182,9 +3182,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF008"
+                name='wildF008'
             ),
-            name="wildF008"
+            name='wildF008'
         ),
         TestGroup(
             annotation=[
@@ -3200,13 +3200,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF009.xsd"
+                        href='../msData/wildcards/wildF009.xsd'
                     ),
                 ],
                 expected=[
@@ -3218,9 +3218,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF009"
+                name='wildF009'
             ),
-            name="wildF009"
+            name='wildF009'
         ),
         TestGroup(
             annotation=[
@@ -3236,13 +3236,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF010.xsd"
+                        href='../msData/wildcards/wildF010.xsd'
                     ),
                 ],
                 expected=[
@@ -3254,9 +3254,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF010"
+                name='wildF010'
             ),
-            name="wildF010"
+            name='wildF010'
         ),
         TestGroup(
             annotation=[
@@ -3272,13 +3272,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF011.xsd"
+                        href='../msData/wildcards/wildF011.xsd'
                     ),
                 ],
                 expected=[
@@ -3290,9 +3290,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF011"
+                name='wildF011'
             ),
-            name="wildF011"
+            name='wildF011'
         ),
         TestGroup(
             annotation=[
@@ -3308,13 +3308,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF012.xsd"
+                        href='../msData/wildcards/wildF012.xsd'
                     ),
                 ],
                 expected=[
@@ -3326,9 +3326,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF012"
+                name='wildF012'
             ),
-            name="wildF012"
+            name='wildF012'
         ),
         TestGroup(
             annotation=[
@@ -3344,13 +3344,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF013.xsd"
+                        href='../msData/wildcards/wildF013.xsd'
                     ),
                 ],
                 expected=[
@@ -3362,9 +3362,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF013"
+                name='wildF013'
             ),
-            name="wildF013"
+            name='wildF013'
         ),
         TestGroup(
             annotation=[
@@ -3380,13 +3380,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF014.xsd"
+                        href='../msData/wildcards/wildF014.xsd'
                     ),
                 ],
                 expected=[
@@ -3398,9 +3398,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF014"
+                name='wildF014'
             ),
-            name="wildF014"
+            name='wildF014'
         ),
         TestGroup(
             annotation=[
@@ -3416,13 +3416,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF015.xsd"
+                        href='../msData/wildcards/wildF015.xsd'
                     ),
                 ],
                 expected=[
@@ -3434,9 +3434,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF015"
+                name='wildF015'
             ),
-            name="wildF015"
+            name='wildF015'
         ),
         TestGroup(
             annotation=[
@@ -3452,13 +3452,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF016.xsd"
+                        href='../msData/wildcards/wildF016.xsd'
                     ),
                 ],
                 expected=[
@@ -3470,9 +3470,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF016"
+                name='wildF016'
             ),
-            name="wildF016"
+            name='wildF016'
         ),
         TestGroup(
             annotation=[
@@ -3488,13 +3488,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF017.xsd"
+                        href='../msData/wildcards/wildF017.xsd'
                     ),
                 ],
                 expected=[
@@ -3506,9 +3506,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF017"
+                name='wildF017'
             ),
-            name="wildF017"
+            name='wildF017'
         ),
         TestGroup(
             annotation=[
@@ -3524,13 +3524,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF018.xsd"
+                        href='../msData/wildcards/wildF018.xsd'
                     ),
                 ],
                 expected=[
@@ -3542,9 +3542,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF018"
+                name='wildF018'
             ),
-            name="wildF018"
+            name='wildF018'
         ),
         TestGroup(
             annotation=[
@@ -3560,13 +3560,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF019.xsd"
+                        href='../msData/wildcards/wildF019.xsd'
                     ),
                 ],
                 expected=[
@@ -3578,9 +3578,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF019"
+                name='wildF019'
             ),
-            name="wildF019"
+            name='wildF019'
         ),
         TestGroup(
             annotation=[
@@ -3596,13 +3596,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildF020.xsd"
+                        href='../msData/wildcards/wildF020.xsd'
                     ),
                 ],
                 expected=[
@@ -3614,9 +3614,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildF020"
+                name='wildF020'
             ),
-            name="wildF020"
+            name='wildF020'
         ),
         TestGroup(
             annotation=[
@@ -3624,7 +3624,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -3632,13 +3632,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG001.xsd"
+                        href='../msData/wildcards/wildG001.xsd'
                     ),
                 ],
                 expected=[
@@ -3650,12 +3650,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG001"
+                name='wildG001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG001.xml"
+                        href='../msData/wildcards/wildG001.xml'
                     ),
                     expected=[
                         Expected(
@@ -3666,10 +3666,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG001.v"
+                    name='wildG001.v'
                 ),
             ],
-            name="wildG001"
+            name='wildG001'
         ),
         TestGroup(
             annotation=[
@@ -3677,7 +3677,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -3685,13 +3685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG002.xsd"
+                        href='../msData/wildcards/wildG002.xsd'
                     ),
                 ],
                 expected=[
@@ -3703,12 +3703,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG002"
+                name='wildG002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG002.xml"
+                        href='../msData/wildcards/wildG002.xml'
                     ),
                     expected=[
                         Expected(
@@ -3719,10 +3719,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG002.v"
+                    name='wildG002.v'
                 ),
             ],
-            name="wildG002"
+            name='wildG002'
         ),
         TestGroup(
             annotation=[
@@ -3730,7 +3730,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -3738,13 +3738,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG003.xsd"
+                        href='../msData/wildcards/wildG003.xsd'
                     ),
                 ],
                 expected=[
@@ -3756,12 +3756,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG003"
+                name='wildG003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG003.xml"
+                        href='../msData/wildcards/wildG003.xml'
                     ),
                     expected=[
                         Expected(
@@ -3772,10 +3772,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG003.i"
+                    name='wildG003.i'
                 ),
             ],
-            name="wildG003"
+            name='wildG003'
         ),
         TestGroup(
             annotation=[
@@ -3783,7 +3783,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -3791,13 +3791,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG004.xsd"
+                        href='../msData/wildcards/wildG004.xsd'
                     ),
                 ],
                 expected=[
@@ -3809,12 +3809,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG004"
+                name='wildG004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG004.xml"
+                        href='../msData/wildcards/wildG004.xml'
                     ),
                     expected=[
                         Expected(
@@ -3825,10 +3825,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG004.v"
+                    name='wildG004.v'
                 ),
             ],
-            name="wildG004"
+            name='wildG004'
         ),
         TestGroup(
             annotation=[
@@ -3836,7 +3836,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -3844,13 +3844,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG005.xsd"
+                        href='../msData/wildcards/wildG005.xsd'
                     ),
                 ],
                 expected=[
@@ -3862,12 +3862,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG005"
+                name='wildG005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG005.xml"
+                        href='../msData/wildcards/wildG005.xml'
                     ),
                     expected=[
                         Expected(
@@ -3878,10 +3878,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG005.i"
+                    name='wildG005.i'
                 ),
             ],
-            name="wildG005"
+            name='wildG005'
         ),
         TestGroup(
             annotation=[
@@ -3889,7 +3889,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) and instance document has elements from no namespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) and instance document has elements from no namespace',
                             ]
                         ),
                     ]
@@ -3897,13 +3897,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG006.xsd"
+                        href='../msData/wildcards/wildG006.xsd'
                     ),
                 ],
                 expected=[
@@ -3915,12 +3915,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG006"
+                name='wildG006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG006.xml"
+                        href='../msData/wildcards/wildG006.xml'
                     ),
                     expected=[
                         Expected(
@@ -3931,10 +3931,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG006.v"
+                    name='wildG006.v'
                 ),
             ],
-            name="wildG006"
+            name='wildG006'
         ),
         TestGroup(
             annotation=[
@@ -3942,7 +3942,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -3950,13 +3950,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG007.xsd"
+                        href='../msData/wildcards/wildG007.xsd'
                     ),
                 ],
                 expected=[
@@ -3968,12 +3968,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG007"
+                name='wildG007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG007.xml"
+                        href='../msData/wildcards/wildG007.xml'
                     ),
                     expected=[
                         Expected(
@@ -3984,10 +3984,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG007.v"
+                    name='wildG007.v'
                 ),
             ],
-            name="wildG007"
+            name='wildG007'
         ),
         TestGroup(
             annotation=[
@@ -3995,7 +3995,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4003,13 +4003,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG008.xsd"
+                        href='../msData/wildcards/wildG008.xsd'
                     ),
                 ],
                 expected=[
@@ -4021,12 +4021,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG008"
+                name='wildG008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG008.xml"
+                        href='../msData/wildcards/wildG008.xml'
                     ),
                     expected=[
                         Expected(
@@ -4037,10 +4037,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG008.i"
+                    name='wildG008.i'
                 ),
             ],
-            name="wildG008"
+            name='wildG008'
         ),
         TestGroup(
             annotation=[
@@ -4048,7 +4048,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4056,13 +4056,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG009.xsd"
+                        href='../msData/wildcards/wildG009.xsd'
                     ),
                 ],
                 expected=[
@@ -4074,12 +4074,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG009"
+                name='wildG009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG009.xml"
+                        href='../msData/wildcards/wildG009.xml'
                     ),
                     expected=[
                         Expected(
@@ -4090,10 +4090,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG009.i"
+                    name='wildG009.i'
                 ),
             ],
-            name="wildG009"
+            name='wildG009'
         ),
         TestGroup(
             annotation=[
@@ -4101,7 +4101,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has elements from both namespaces",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has elements from both namespaces',
                             ]
                         ),
                     ]
@@ -4109,13 +4109,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG010.xsd"
+                        href='../msData/wildcards/wildG010.xsd'
                     ),
                 ],
                 expected=[
@@ -4127,12 +4127,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG010"
+                name='wildG010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG010.xml"
+                        href='../msData/wildcards/wildG010.xml'
                     ),
                     expected=[
                         Expected(
@@ -4143,10 +4143,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG010.v"
+                    name='wildG010.v'
                 ),
             ],
-            name="wildG010"
+            name='wildG010'
         ),
         TestGroup(
             annotation=[
@@ -4154,7 +4154,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4162,13 +4162,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG011.xsd"
+                        href='../msData/wildcards/wildG011.xsd'
                     ),
                 ],
                 expected=[
@@ -4180,12 +4180,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG011"
+                name='wildG011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG011.xml"
+                        href='../msData/wildcards/wildG011.xml'
                     ),
                     expected=[
                         Expected(
@@ -4196,10 +4196,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG011.i"
+                    name='wildG011.i'
                 ),
             ],
-            name="wildG011"
+            name='wildG011'
         ),
         TestGroup(
             annotation=[
@@ -4207,7 +4207,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4215,13 +4215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG012.xsd"
+                        href='../msData/wildcards/wildG012.xsd'
                     ),
                 ],
                 expected=[
@@ -4233,12 +4233,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG012"
+                name='wildG012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG012.xml"
+                        href='../msData/wildcards/wildG012.xml'
                     ),
                     expected=[
                         Expected(
@@ -4249,10 +4249,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG012.v"
+                    name='wildG012.v'
                 ),
             ],
-            name="wildG012"
+            name='wildG012'
         ),
         TestGroup(
             annotation=[
@@ -4260,7 +4260,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has elements from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has elements from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -4268,13 +4268,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG013.xsd"
+                        href='../msData/wildcards/wildG013.xsd'
                     ),
                 ],
                 expected=[
@@ -4286,12 +4286,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG013"
+                name='wildG013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG013.xml"
+                        href='../msData/wildcards/wildG013.xml'
                     ),
                     expected=[
                         Expected(
@@ -4302,10 +4302,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG013.v"
+                    name='wildG013.v'
                 ),
             ],
-            name="wildG013"
+            name='wildG013'
         ),
         TestGroup(
             annotation=[
@@ -4313,7 +4313,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4321,13 +4321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG014.xsd"
+                        href='../msData/wildcards/wildG014.xsd'
                     ),
                 ],
                 expected=[
@@ -4339,12 +4339,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG014"
+                name='wildG014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG014.xml"
+                        href='../msData/wildcards/wildG014.xml'
                     ),
                     expected=[
                         Expected(
@@ -4355,10 +4355,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG014.i"
+                    name='wildG014.i'
                 ),
             ],
-            name="wildG014"
+            name='wildG014'
         ),
         TestGroup(
             annotation=[
@@ -4366,7 +4366,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4374,13 +4374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG015.xsd"
+                        href='../msData/wildcards/wildG015.xsd'
                     ),
                 ],
                 expected=[
@@ -4392,12 +4392,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG015"
+                name='wildG015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG015.xml"
+                        href='../msData/wildcards/wildG015.xml'
                     ),
                     expected=[
                         Expected(
@@ -4408,10 +4408,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG015.v"
+                    name='wildG015.v'
                 ),
             ],
-            name="wildG015"
+            name='wildG015'
         ),
         TestGroup(
             annotation=[
@@ -4419,7 +4419,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4427,16 +4427,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG016.xsd"
+                        href='../msData/wildcards/wildG016.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG016a.xsd"
+                        href='../msData/wildcards/wildG016a.xsd'
                     ),
                 ],
                 expected=[
@@ -4448,12 +4448,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG016"
+                name='wildG016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG016.xml"
+                        href='../msData/wildcards/wildG016.xml'
                     ),
                     expected=[
                         Expected(
@@ -4464,10 +4464,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG016.v"
+                    name='wildG016.v'
                 ),
             ],
-            name="wildG016"
+            name='wildG016'
         ),
         TestGroup(
             annotation=[
@@ -4475,7 +4475,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4483,13 +4483,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG017.xsd"
+                        href='../msData/wildcards/wildG017.xsd'
                     ),
                 ],
                 expected=[
@@ -4501,12 +4501,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG017"
+                name='wildG017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG017.xml"
+                        href='../msData/wildcards/wildG017.xml'
                     ),
                     expected=[
                         Expected(
@@ -4517,10 +4517,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG017.i"
+                    name='wildG017.i'
                 ),
             ],
-            name="wildG017"
+            name='wildG017'
         ),
         TestGroup(
             annotation=[
@@ -4528,7 +4528,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4536,16 +4536,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG018.xsd"
+                        href='../msData/wildcards/wildG018.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG018a.xsd"
+                        href='../msData/wildcards/wildG018a.xsd'
                     ),
                 ],
                 expected=[
@@ -4557,12 +4557,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG018"
+                name='wildG018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG018.xml"
+                        href='../msData/wildcards/wildG018.xml'
                     ),
                     expected=[
                         Expected(
@@ -4573,10 +4573,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG018.v"
+                    name='wildG018.v'
                 ),
             ],
-            name="wildG018"
+            name='wildG018'
         ),
         TestGroup(
             annotation=[
@@ -4584,7 +4584,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4592,13 +4592,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG019.xsd"
+                        href='../msData/wildcards/wildG019.xsd'
                     ),
                 ],
                 expected=[
@@ -4610,12 +4610,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG019"
+                name='wildG019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG019.xml"
+                        href='../msData/wildcards/wildG019.xml'
                     ),
                     expected=[
                         Expected(
@@ -4626,10 +4626,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG019.i"
+                    name='wildG019.i'
                 ),
             ],
-            name="wildG019"
+            name='wildG019'
         ),
         TestGroup(
             annotation=[
@@ -4637,7 +4637,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4645,13 +4645,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG020.xsd"
+                        href='../msData/wildcards/wildG020.xsd'
                     ),
                 ],
                 expected=[
@@ -4663,12 +4663,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG020"
+                name='wildG020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG020.xml"
+                        href='../msData/wildcards/wildG020.xml'
                     ),
                     expected=[
                         Expected(
@@ -4679,10 +4679,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG020.i"
+                    name='wildG020.i'
                 ),
             ],
-            name="wildG020"
+            name='wildG020'
         ),
         TestGroup(
             annotation=[
@@ -4690,7 +4690,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4698,13 +4698,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG021.xsd"
+                        href='../msData/wildcards/wildG021.xsd'
                     ),
                 ],
                 expected=[
@@ -4716,12 +4716,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG021"
+                name='wildG021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG021.xml"
+                        href='../msData/wildcards/wildG021.xml'
                     ),
                     expected=[
                         Expected(
@@ -4732,10 +4732,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG021.v"
+                    name='wildG021.v'
                 ),
             ],
-            name="wildG021"
+            name='wildG021'
         ),
         TestGroup(
             annotation=[
@@ -4743,7 +4743,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4751,16 +4751,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG022.xsd"
+                        href='../msData/wildcards/wildG022.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG022a.xsd"
+                        href='../msData/wildcards/wildG022a.xsd'
                     ),
                 ],
                 expected=[
@@ -4772,12 +4772,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG022"
+                name='wildG022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG022.xml"
+                        href='../msData/wildcards/wildG022.xml'
                     ),
                     expected=[
                         Expected(
@@ -4788,10 +4788,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG022.i"
+                    name='wildG022.i'
                 ),
             ],
-            name="wildG022"
+            name='wildG022'
         ),
         TestGroup(
             annotation=[
@@ -4799,7 +4799,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4807,13 +4807,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG023.xsd"
+                        href='../msData/wildcards/wildG023.xsd'
                     ),
                 ],
                 expected=[
@@ -4825,12 +4825,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG023"
+                name='wildG023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG023.xml"
+                        href='../msData/wildcards/wildG023.xml'
                     ),
                     expected=[
                         Expected(
@@ -4841,10 +4841,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG023.v"
+                    name='wildG023.v'
                 ),
             ],
-            name="wildG023"
+            name='wildG023'
         ),
         TestGroup(
             annotation=[
@@ -4852,7 +4852,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4860,16 +4860,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG024.xsd"
+                        href='../msData/wildcards/wildG024.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG024a.xsd"
+                        href='../msData/wildcards/wildG024a.xsd'
                     ),
                 ],
                 expected=[
@@ -4881,12 +4881,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG024"
+                name='wildG024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG024.xml"
+                        href='../msData/wildcards/wildG024.xml'
                     ),
                     expected=[
                         Expected(
@@ -4897,10 +4897,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG024.i"
+                    name='wildG024.i'
                 ),
             ],
-            name="wildG024"
+            name='wildG024'
         ),
         TestGroup(
             annotation=[
@@ -4908,7 +4908,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -4916,13 +4916,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG025.xsd"
+                        href='../msData/wildcards/wildG025.xsd'
                     ),
                 ],
                 expected=[
@@ -4934,12 +4934,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG025"
+                name='wildG025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG025.xml"
+                        href='../msData/wildcards/wildG025.xml'
                     ),
                     expected=[
                         Expected(
@@ -4950,10 +4950,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG025.i"
+                    name='wildG025.i'
                 ),
             ],
-            name="wildG025"
+            name='wildG025'
         ),
         TestGroup(
             annotation=[
@@ -4961,7 +4961,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -4969,16 +4969,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG026.xsd"
+                        href='../msData/wildcards/wildG026.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG026a.xsd"
+                        href='../msData/wildcards/wildG026a.xsd'
                     ),
                 ],
                 expected=[
@@ -4990,12 +4990,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG026"
+                name='wildG026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG026.xml"
+                        href='../msData/wildcards/wildG026.xml'
                     ),
                     expected=[
                         Expected(
@@ -5006,10 +5006,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG026.v"
+                    name='wildG026.v'
                 ),
             ],
-            name="wildG026"
+            name='wildG026'
         ),
         TestGroup(
             annotation=[
@@ -5017,7 +5017,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5025,13 +5025,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG027.xsd"
+                        href='../msData/wildcards/wildG027.xsd'
                     ),
                 ],
                 expected=[
@@ -5043,12 +5043,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG027"
+                name='wildG027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG027.xml"
+                        href='../msData/wildcards/wildG027.xml'
                     ),
                     expected=[
                         Expected(
@@ -5059,10 +5059,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG027.v"
+                    name='wildG027.v'
                 ),
             ],
-            name="wildG027"
+            name='wildG027'
         ),
         TestGroup(
             annotation=[
@@ -5070,7 +5070,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -5078,16 +5078,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG028.xsd"
+                        href='../msData/wildcards/wildG028.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG028a.xsd"
+                        href='../msData/wildcards/wildG028a.xsd'
                     ),
                 ],
                 expected=[
@@ -5099,12 +5099,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG028"
+                name='wildG028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG028.xml"
+                        href='../msData/wildcards/wildG028.xml'
                     ),
                     expected=[
                         Expected(
@@ -5115,10 +5115,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG028.i"
+                    name='wildG028.i'
                 ),
             ],
-            name="wildG028"
+            name='wildG028'
         ),
         TestGroup(
             annotation=[
@@ -5126,7 +5126,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5134,13 +5134,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG029.xsd"
+                        href='../msData/wildcards/wildG029.xsd'
                     ),
                 ],
                 expected=[
@@ -5152,12 +5152,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG029"
+                name='wildG029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG029.xml"
+                        href='../msData/wildcards/wildG029.xml'
                     ),
                     expected=[
                         Expected(
@@ -5168,10 +5168,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG029.i"
+                    name='wildG029.i'
                 ),
             ],
-            name="wildG029"
+            name='wildG029'
         ),
         TestGroup(
             annotation=[
@@ -5179,7 +5179,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -5187,13 +5187,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG030.xsd"
+                        href='../msData/wildcards/wildG030.xsd'
                     ),
                 ],
                 expected=[
@@ -5205,12 +5205,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG030"
+                name='wildG030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG030.xml"
+                        href='../msData/wildcards/wildG030.xml'
                     ),
                     expected=[
                         Expected(
@@ -5221,10 +5221,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG030.i"
+                    name='wildG030.i'
                 ),
             ],
-            name="wildG030"
+            name='wildG030'
         ),
         TestGroup(
             annotation=[
@@ -5232,7 +5232,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=A B C D E ##local ##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from all of them",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=A B C D E ##local ##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from all of them',
                             ]
                         ),
                     ]
@@ -5240,16 +5240,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG031.xsd"
+                        href='../msData/wildcards/wildG031.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG031a.xsd"
+                        href='../msData/wildcards/wildG031a.xsd'
                     ),
                 ],
                 expected=[
@@ -5261,12 +5261,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG031"
+                name='wildG031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG031.xml"
+                        href='../msData/wildcards/wildG031.xml'
                     ),
                     expected=[
                         Expected(
@@ -5277,10 +5277,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG031.v"
+                    name='wildG031.v'
                 ),
             ],
-            name="wildG031"
+            name='wildG031'
         ),
         TestGroup(
             annotation=[
@@ -5288,7 +5288,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=A B C D E ##local ##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from all of them + bar",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=A B C D E ##local ##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from all of them + bar',
                             ]
                         ),
                     ]
@@ -5296,16 +5296,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG032.xsd"
+                        href='../msData/wildcards/wildG032.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG032a.xsd"
+                        href='../msData/wildcards/wildG032a.xsd'
                     ),
                 ],
                 expected=[
@@ -5317,12 +5317,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG032"
+                name='wildG032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG032.xml"
+                        href='../msData/wildcards/wildG032.xml'
                     ),
                     expected=[
                         Expected(
@@ -5333,10 +5333,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG032.i"
+                    name='wildG032.i'
                 ),
             ],
-            name="wildG032"
+            name='wildG032'
         ),
         TestGroup(
             annotation=[
@@ -5344,7 +5344,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5352,16 +5352,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG033.xsd"
+                        href='../msData/wildcards/wildG033.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG033a.xsd"
+                        href='../msData/wildcards/wildG033a.xsd'
                     ),
                 ],
                 expected=[
@@ -5373,12 +5373,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG033"
+                name='wildG033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG033.xml"
+                        href='../msData/wildcards/wildG033.xml'
                     ),
                     expected=[
                         Expected(
@@ -5389,10 +5389,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG033.v"
+                    name='wildG033.v'
                 ),
             ],
-            name="wildG033"
+            name='wildG033'
         ),
         TestGroup(
             annotation=[
@@ -5400,7 +5400,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -5408,13 +5408,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG034.xsd"
+                        href='../msData/wildcards/wildG034.xsd'
                     ),
                 ],
                 expected=[
@@ -5426,12 +5426,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG034"
+                name='wildG034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG034.xml"
+                        href='../msData/wildcards/wildG034.xml'
                     ),
                     expected=[
                         Expected(
@@ -5442,10 +5442,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG034.i"
+                    name='wildG034.i'
                 ),
             ],
-            name="wildG034"
+            name='wildG034'
         ),
         TestGroup(
             annotation=[
@@ -5453,7 +5453,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://www.w3.org/1999/xhtml and instance document has elements from local",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://www.w3.org/1999/xhtml and instance document has elements from local',
                             ]
                         ),
                     ]
@@ -5461,16 +5461,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG035.xsd"
+                        href='../msData/wildcards/wildG035.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG035a.xsd"
+                        href='../msData/wildcards/wildG035a.xsd'
                     ),
                 ],
                 expected=[
@@ -5482,12 +5482,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG035"
+                name='wildG035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG035.xml"
+                        href='../msData/wildcards/wildG035.xml'
                     ),
                     expected=[
                         Expected(
@@ -5498,10 +5498,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG035.v"
+                    name='wildG035.v'
                 ),
             ],
-            name="wildG035"
+            name='wildG035'
         ),
         TestGroup(
             annotation=[
@@ -5509,7 +5509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -5517,13 +5517,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG036.xsd"
+                        href='../msData/wildcards/wildG036.xsd'
                     ),
                 ],
                 expected=[
@@ -5535,12 +5535,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG036"
+                name='wildG036'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG036.xml"
+                        href='../msData/wildcards/wildG036.xml'
                     ),
                     expected=[
                         Expected(
@@ -5551,10 +5551,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG036.i"
+                    name='wildG036.i'
                 ),
             ],
-            name="wildG036"
+            name='wildG036'
         ),
         TestGroup(
             annotation=[
@@ -5562,7 +5562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -5570,16 +5570,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG037.xsd"
+                        href='../msData/wildcards/wildG037.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG037a.xsd"
+                        href='../msData/wildcards/wildG037a.xsd'
                     ),
                 ],
                 expected=[
@@ -5591,12 +5591,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG037"
+                name='wildG037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG037.xml"
+                        href='../msData/wildcards/wildG037.xml'
                     ),
                     expected=[
                         Expected(
@@ -5607,10 +5607,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG037.v"
+                    name='wildG037.v'
                 ),
             ],
-            name="wildG037"
+            name='wildG037'
         ),
         TestGroup(
             annotation=[
@@ -5618,7 +5618,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5626,13 +5626,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG038.xsd"
+                        href='../msData/wildcards/wildG038.xsd'
                     ),
                 ],
                 expected=[
@@ -5644,12 +5644,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG038"
+                name='wildG038'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG038.xml"
+                        href='../msData/wildcards/wildG038.xml'
                     ),
                     expected=[
                         Expected(
@@ -5660,10 +5660,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG038.v"
+                    name='wildG038.v'
                 ),
             ],
-            name="wildG038"
+            name='wildG038'
         ),
         TestGroup(
             annotation=[
@@ -5671,7 +5671,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -5679,16 +5679,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG039.xsd"
+                        href='../msData/wildcards/wildG039.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildG039a.xsd"
+                        href='../msData/wildcards/wildG039a.xsd'
                     ),
                 ],
                 expected=[
@@ -5700,12 +5700,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG039"
+                name='wildG039'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG039.xml"
+                        href='../msData/wildcards/wildG039.xml'
                     ),
                     expected=[
                         Expected(
@@ -5716,10 +5716,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG039.i"
+                    name='wildG039.i'
                 ),
             ],
-            name="wildG039"
+            name='wildG039'
         ),
         TestGroup(
             annotation=[
@@ -5727,7 +5727,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has elements from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -5735,13 +5735,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildG040.xsd"
+                        href='../msData/wildcards/wildG040.xsd'
                     ),
                 ],
                 expected=[
@@ -5753,12 +5753,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildG040"
+                name='wildG040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildG040.xml"
+                        href='../msData/wildcards/wildG040.xml'
                     ),
                     expected=[
                         Expected(
@@ -5769,10 +5769,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildG040.v"
+                    name='wildG040.v'
                 ),
             ],
-            name="wildG040"
+            name='wildG040'
         ),
         TestGroup(
             annotation=[
@@ -5780,7 +5780,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://www.w3.org/1999/xhtml and instance document has undeclared elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://www.w3.org/1999/xhtml and instance document has undeclared elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5788,13 +5788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH001.xsd"
+                        href='../msData/wildcards/wildH001.xsd'
                     ),
                 ],
                 expected=[
@@ -5806,12 +5806,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH001"
+                name='wildH001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH001.xml"
+                        href='../msData/wildcards/wildH001.xml'
                     ),
                     expected=[
                         Expected(
@@ -5822,10 +5822,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH001.i"
+                    name='wildH001.i'
                 ),
             ],
-            name="wildH001"
+            name='wildH001'
         ),
         TestGroup(
             annotation=[
@@ -5833,7 +5833,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://www.w3.org/1999/xhtml and instance document has elements from other namespace",
+                                'TEST :Syntax Validation - any : ANY (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://www.w3.org/1999/xhtml and instance document has elements from other namespace',
                             ]
                         ),
                     ]
@@ -5841,16 +5841,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH002.xsd"
+                        href='../msData/wildcards/wildH002.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildH002a.xsd"
+                        href='../msData/wildcards/wildH002a.xsd'
                     ),
                 ],
                 expected=[
@@ -5862,12 +5862,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH002"
+                name='wildH002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH002.xml"
+                        href='../msData/wildcards/wildH002.xml'
                     ),
                     expected=[
                         Expected(
@@ -5878,10 +5878,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH002.i"
+                    name='wildH002.i'
                 ),
             ],
-            name="wildH002"
+            name='wildH002'
         ),
         TestGroup(
             annotation=[
@@ -5889,7 +5889,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5897,13 +5897,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH003.xsd"
+                        href='../msData/wildcards/wildH003.xsd'
                     ),
                 ],
                 expected=[
@@ -5915,12 +5915,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH003"
+                name='wildH003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH003.xml"
+                        href='../msData/wildcards/wildH003.xml'
                     ),
                     expected=[
                         Expected(
@@ -5931,10 +5931,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH003.v"
+                    name='wildH003.v'
                 ),
             ],
-            name="wildH003"
+            name='wildH003'
         ),
         TestGroup(
             annotation=[
@@ -5942,7 +5942,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has undeclared elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has undeclared elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -5950,13 +5950,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH004.xsd"
+                        href='../msData/wildcards/wildH004.xsd'
                     ),
                 ],
                 expected=[
@@ -5968,12 +5968,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH004"
+                name='wildH004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH004.xml"
+                        href='../msData/wildcards/wildH004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5984,10 +5984,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH004.v"
+                    name='wildH004.v'
                 ),
             ],
-            name="wildH004"
+            name='wildH004'
         ),
         TestGroup(
             annotation=[
@@ -5995,7 +5995,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has undeclared elements from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has undeclared elements from targetNamespace',
                             ]
                         ),
                     ]
@@ -6003,13 +6003,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH005.xsd"
+                        href='../msData/wildcards/wildH005.xsd'
                     ),
                 ],
                 expected=[
@@ -6021,12 +6021,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH005"
+                name='wildH005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH005.xml"
+                        href='../msData/wildcards/wildH005.xml'
                     ),
                     expected=[
                         Expected(
@@ -6037,10 +6037,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH005.v"
+                    name='wildH005.v'
                 ),
             ],
-            name="wildH005"
+            name='wildH005'
         ),
         TestGroup(
             annotation=[
@@ -6048,7 +6048,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from other namespace",
+                                'TEST :Syntax Validation - any : ANY (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has elements from other namespace',
                             ]
                         ),
                     ]
@@ -6056,16 +6056,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH006.xsd"
+                        href='../msData/wildcards/wildH006.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildH006a.xsd"
+                        href='../msData/wildcards/wildH006a.xsd'
                     ),
                 ],
                 expected=[
@@ -6077,12 +6077,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH006"
+                name='wildH006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH006.xml"
+                        href='../msData/wildcards/wildH006.xml'
                     ),
                     expected=[
                         Expected(
@@ -6093,10 +6093,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH006.i"
+                    name='wildH006.i'
                 ),
             ],
-            name="wildH006"
+            name='wildH006'
         ),
         TestGroup(
             annotation=[
@@ -6104,7 +6104,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and declared element, processContents=strict)",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and declared element, processContents=strict)',
                             ]
                         ),
                     ]
@@ -6112,13 +6112,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH007.xsd"
+                        href='../msData/wildcards/wildH007.xsd'
                     ),
                 ],
                 expected=[
@@ -6130,12 +6130,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH007"
+                name='wildH007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH007.xml"
+                        href='../msData/wildcards/wildH007.xml'
                     ),
                     expected=[
                         Expected(
@@ -6146,10 +6146,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH007.v"
+                    name='wildH007.v'
                 ),
             ],
-            name="wildH007"
+            name='wildH007'
         ),
         TestGroup(
             annotation=[
@@ -6157,7 +6157,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and undeclared element, processContents=strict)",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and undeclared element, processContents=strict)',
                             ]
                         ),
                     ]
@@ -6165,13 +6165,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH008.xsd"
+                        href='../msData/wildcards/wildH008.xsd'
                     ),
                 ],
                 expected=[
@@ -6183,12 +6183,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH008"
+                name='wildH008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH008.xml"
+                        href='../msData/wildcards/wildH008.xml'
                     ),
                     expected=[
                         Expected(
@@ -6199,10 +6199,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH008.i"
+                    name='wildH008.i'
                 ),
             ],
-            name="wildH008"
+            name='wildH008'
         ),
         TestGroup(
             annotation=[
@@ -6210,7 +6210,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and declared element, processContents=lax)",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and declared element, processContents=lax)',
                             ]
                         ),
                     ]
@@ -6218,16 +6218,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH009.xsd"
+                        href='../msData/wildcards/wildH009.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildH009a.xsd"
+                        href='../msData/wildcards/wildH009a.xsd'
                     ),
                 ],
                 expected=[
@@ -6239,12 +6239,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH009"
+                name='wildH009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH009.xml"
+                        href='../msData/wildcards/wildH009.xml'
                     ),
                     expected=[
                         Expected(
@@ -6255,10 +6255,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH009.v"
+                    name='wildH009.v'
                 ),
             ],
-            name="wildH009"
+            name='wildH009'
         ),
         TestGroup(
             annotation=[
@@ -6266,7 +6266,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and undeclared element, processContents=lax)",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and undeclared element, processContents=lax)',
                             ]
                         ),
                     ]
@@ -6274,13 +6274,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH010.xsd"
+                        href='../msData/wildcards/wildH010.xsd'
                     ),
                 ],
                 expected=[
@@ -6292,12 +6292,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH010"
+                name='wildH010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH010.xml"
+                        href='../msData/wildcards/wildH010.xml'
                     ),
                     expected=[
                         Expected(
@@ -6308,10 +6308,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH010.v"
+                    name='wildH010.v'
                 ),
             ],
-            name="wildH010"
+            name='wildH010'
         ),
         TestGroup(
             annotation=[
@@ -6319,7 +6319,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and declared element, processContents=skip)",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and declared element, processContents=skip)',
                             ]
                         ),
                     ]
@@ -6327,13 +6327,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH011.xsd"
+                        href='../msData/wildcards/wildH011.xsd'
                     ),
                 ],
                 expected=[
@@ -6345,12 +6345,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH011"
+                name='wildH011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH011.xml"
+                        href='../msData/wildcards/wildH011.xml'
                     ),
                     expected=[
                         Expected(
@@ -6361,10 +6361,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH011.v"
+                    name='wildH011.v'
                 ),
             ],
-            name="wildH011"
+            name='wildH011'
         ),
         TestGroup(
             annotation=[
@@ -6372,7 +6372,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and undeclared element, processContents=skip)",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://www.w3.org/1999/xhtml and undeclared element, processContents=skip)',
                             ]
                         ),
                     ]
@@ -6380,13 +6380,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildH012.xsd"
+                        href='../msData/wildcards/wildH012.xsd'
                     ),
                 ],
                 expected=[
@@ -6398,12 +6398,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildH012"
+                name='wildH012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildH012.xml"
+                        href='../msData/wildcards/wildH012.xml'
                     ),
                     expected=[
                         Expected(
@@ -6414,10 +6414,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildH012.v"
+                    name='wildH012.v'
                 ),
             ],
-            name="wildH012"
+            name='wildH012'
         ),
         TestGroup(
             annotation=[
@@ -6433,13 +6433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI001.xsd"
+                        href='../msData/wildcards/wildI001.xsd'
                     ),
                 ],
                 expected=[
@@ -6451,9 +6451,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI001"
+                name='wildI001'
             ),
-            name="wildI001"
+            name='wildI001'
         ),
         TestGroup(
             annotation=[
@@ -6461,7 +6461,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY with an attribute a:b=&quot;c&quot; where a doesn't have a non-schema namespace",
+                                'TEST :Syntax Validation - any : ANY with an attribute a:b="c" where a doesn\'t have a non-schema namespace',
                             ]
                         ),
                     ]
@@ -6469,13 +6469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI002.xsd"
+                        href='../msData/wildcards/wildI002.xsd'
                     ),
                 ],
                 expected=[
@@ -6487,9 +6487,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI002"
+                name='wildI002'
             ),
-            name="wildI002"
+            name='wildI002'
         ),
         TestGroup(
             annotation=[
@@ -6505,13 +6505,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI003.xsd"
+                        href='../msData/wildcards/wildI003.xsd'
                     ),
                 ],
                 expected=[
@@ -6523,9 +6523,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI003"
+                name='wildI003'
             ),
-            name="wildI003"
+            name='wildI003'
         ),
         TestGroup(
             annotation=[
@@ -6533,7 +6533,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 67191 - ensuring that processContents of lax will validate",
+                                'TEST :Syntax Validation - any : 67191 - ensuring that processContents of lax will validate',
                             ]
                         ),
                     ]
@@ -6541,13 +6541,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI004.xsd"
+                        href='../msData/wildcards/wildI004.xsd'
                     ),
                 ],
                 expected=[
@@ -6559,12 +6559,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI004"
+                name='wildI004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI004.xml"
+                        href='../msData/wildcards/wildI004.xml'
                     ),
                     expected=[
                         Expected(
@@ -6575,10 +6575,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI004.v"
+                    name='wildI004.v'
                 ),
             ],
-            name="wildI004"
+            name='wildI004'
         ),
         TestGroup(
             annotation=[
@@ -6586,7 +6586,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 67191 - ensuring that processContents of lax will validate",
+                                'TEST :Syntax Validation - any : 67191 - ensuring that processContents of lax will validate',
                             ]
                         ),
                     ]
@@ -6594,13 +6594,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI004i.xsd"
+                        href='../msData/wildcards/wildI004i.xsd'
                     ),
                 ],
                 expected=[
@@ -6612,12 +6612,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI004i"
+                name='wildI004i'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI004i.xml"
+                        href='../msData/wildcards/wildI004i.xml'
                     ),
                     expected=[
                         Expected(
@@ -6628,10 +6628,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI004i.i"
+                    name='wildI004i.i'
                 ),
             ],
-            name="wildI004i"
+            name='wildI004i'
         ),
         TestGroup(
             annotation=[
@@ -6639,7 +6639,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in sequence with different namespaces and valid instance xml",
+                                'TEST :Syntax Validation - any : multiple any in sequence with different namespaces and valid instance xml',
                             ]
                         ),
                     ]
@@ -6647,16 +6647,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI005.xsd"
+                        href='../msData/wildcards/wildI005.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildI005a.xsd"
+                        href='../msData/wildcards/wildI005a.xsd'
                     ),
                 ],
                 expected=[
@@ -6668,12 +6668,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI005"
+                name='wildI005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI005.xml"
+                        href='../msData/wildcards/wildI005.xml'
                     ),
                     expected=[
                         Expected(
@@ -6684,10 +6684,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI005.v"
+                    name='wildI005.v'
                 ),
             ],
-            name="wildI005"
+            name='wildI005'
         ),
         TestGroup(
             annotation=[
@@ -6695,7 +6695,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in choice with different namespaces (a, b, ##targetNamespace, ##local), and valid instance xml",
+                                'TEST :Syntax Validation - any : multiple any in choice with different namespaces (a, b, ##targetNamespace, ##local), and valid instance xml',
                             ]
                         ),
                     ]
@@ -6703,16 +6703,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI006.xsd"
+                        href='../msData/wildcards/wildI006.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildI006a.xsd"
+                        href='../msData/wildcards/wildI006a.xsd'
                     ),
                 ],
                 expected=[
@@ -6724,12 +6724,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI006"
+                name='wildI006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI006.xml"
+                        href='../msData/wildcards/wildI006.xml'
                     ),
                     expected=[
                         Expected(
@@ -6740,10 +6740,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI006.v"
+                    name='wildI006.v'
                 ),
             ],
-            name="wildI006"
+            name='wildI006'
         ),
         TestGroup(
             annotation=[
@@ -6751,7 +6751,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in choice with namespaces (##other, ##targetNamespace), and valid instance xml",
+                                'TEST :Syntax Validation - any : multiple any in choice with namespaces (##other, ##targetNamespace), and valid instance xml',
                             ]
                         ),
                     ]
@@ -6759,13 +6759,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI007.xsd"
+                        href='../msData/wildcards/wildI007.xsd'
                     ),
                 ],
                 expected=[
@@ -6777,12 +6777,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI007"
+                name='wildI007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI007.xml"
+                        href='../msData/wildcards/wildI007.xml'
                     ),
                     expected=[
                         Expected(
@@ -6793,10 +6793,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI007.v"
+                    name='wildI007.v'
                 ),
             ],
-            name="wildI007"
+            name='wildI007'
         ),
         TestGroup(
             annotation=[
@@ -6804,7 +6804,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in choice with namespaces (##other, ##local), this test is valid, because ##other means NOT ##local or ##targetNamespace. Therefore, it is NOT non-deterministic",
+                                'TEST :Syntax Validation - any : multiple any in choice with namespaces (##other, ##local), this test is valid, because ##other means NOT ##local or ##targetNamespace. Therefore, it is NOT non-deterministic',
                             ]
                         ),
                     ]
@@ -6812,13 +6812,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI008.xsd"
+                        href='../msData/wildcards/wildI008.xsd'
                     ),
                 ],
                 expected=[
@@ -6830,9 +6830,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI008"
+                name='wildI008'
             ),
-            name="wildI008"
+            name='wildI008'
         ),
         TestGroup(
             annotation=[
@@ -6840,7 +6840,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in choice with namespaces (##other, A), non-deterministic declaration",
+                                'TEST :Syntax Validation - any : multiple any in choice with namespaces (##other, A), non-deterministic declaration',
                             ]
                         ),
                     ]
@@ -6848,13 +6848,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI009.xsd"
+                        href='../msData/wildcards/wildI009.xsd'
                     ),
                 ],
                 expected=[
@@ -6866,9 +6866,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI009"
+                name='wildI009'
             ),
-            name="wildI009"
+            name='wildI009'
         ),
         TestGroup(
             annotation=[
@@ -6876,7 +6876,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in choice with namespaces (A, A), non-deterministic declaration",
+                                'TEST :Syntax Validation - any : multiple any in choice with namespaces (A, A), non-deterministic declaration',
                             ]
                         ),
                     ]
@@ -6884,13 +6884,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI010.xsd"
+                        href='../msData/wildcards/wildI010.xsd'
                     ),
                 ],
                 expected=[
@@ -6902,9 +6902,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI010"
+                name='wildI010'
             ),
-            name="wildI010"
+            name='wildI010'
         ),
         TestGroup(
             annotation=[
@@ -6912,7 +6912,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in sequence with namespaces (##other{1}, A{1}), non-deterministic declaration",
+                                'TEST :Syntax Validation - any : multiple any in sequence with namespaces (##other{1}, A{1}), non-deterministic declaration',
                             ]
                         ),
                     ]
@@ -6920,13 +6920,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI011.xsd"
+                        href='../msData/wildcards/wildI011.xsd'
                     ),
                 ],
                 expected=[
@@ -6938,12 +6938,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI011"
+                name='wildI011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI011.xml"
+                        href='../msData/wildcards/wildI011.xml'
                     ),
                     expected=[
                         Expected(
@@ -6954,10 +6954,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI011.v"
+                    name='wildI011.v'
                 ),
             ],
-            name="wildI011"
+            name='wildI011'
         ),
         TestGroup(
             annotation=[
@@ -6965,7 +6965,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in sequence with namespaces (##other{1}, A{2}), non-deterministic declaration",
+                                'TEST :Syntax Validation - any : multiple any in sequence with namespaces (##other{1}, A{2}), non-deterministic declaration',
                             ]
                         ),
                     ]
@@ -6973,13 +6973,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI012.xsd"
+                        href='../msData/wildcards/wildI012.xsd'
                     ),
                 ],
                 expected=[
@@ -6991,12 +6991,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI012"
+                name='wildI012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildI012.xml"
+                        href='../msData/wildcards/wildI012.xml'
                     ),
                     expected=[
                         Expected(
@@ -7007,10 +7007,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildI012.v"
+                    name='wildI012.v'
                 ),
             ],
-            name="wildI012"
+            name='wildI012'
         ),
         TestGroup(
             annotation=[
@@ -7018,7 +7018,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in sequence with namespaces (##other{2}, A{1}), non-deterministic declaration",
+                                'TEST :Syntax Validation - any : multiple any in sequence with namespaces (##other{2}, A{1}), non-deterministic declaration',
                             ]
                         ),
                     ]
@@ -7026,13 +7026,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI013.xsd"
+                        href='../msData/wildcards/wildI013.xsd'
                     ),
                 ],
                 expected=[
@@ -7044,9 +7044,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI013"
+                name='wildI013'
             ),
-            name="wildI013"
+            name='wildI013'
         ),
         TestGroup(
             annotation=[
@@ -7054,7 +7054,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : multiple any in sequence with namespaces (A{1},##other{2}, A{1}), non-deterministic declaration",
+                                'TEST :Syntax Validation - any : multiple any in sequence with namespaces (A{1},##other{2}, A{1}), non-deterministic declaration',
                             ]
                         ),
                     ]
@@ -7062,13 +7062,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildI014.xsd"
+                        href='../msData/wildcards/wildI014.xsd'
                     ),
                 ],
                 expected=[
@@ -7080,9 +7080,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildI014"
+                name='wildI014'
             ),
-            name="wildI014"
+            name='wildI014'
         ),
         TestGroup(
             annotation=[
@@ -7098,13 +7098,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ001.xsd"
+                        href='../msData/wildcards/wildJ001.xsd'
                     ),
                 ],
                 expected=[
@@ -7116,9 +7116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ001"
+                name='wildJ001'
             ),
-            name="wildJ001"
+            name='wildJ001'
         ),
         TestGroup(
             annotation=[
@@ -7134,13 +7134,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ002.xsd"
+                        href='../msData/wildcards/wildJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -7152,9 +7152,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ002"
+                name='wildJ002'
             ),
-            name="wildJ002"
+            name='wildJ002'
         ),
         TestGroup(
             annotation=[
@@ -7170,13 +7170,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ003.xsd"
+                        href='../msData/wildcards/wildJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -7188,9 +7188,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ003"
+                name='wildJ003'
             ),
-            name="wildJ003"
+            name='wildJ003'
         ),
         TestGroup(
             annotation=[
@@ -7206,13 +7206,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ004.xsd"
+                        href='../msData/wildcards/wildJ004.xsd'
                     ),
                 ],
                 expected=[
@@ -7224,9 +7224,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ004"
+                name='wildJ004'
             ),
-            name="wildJ004"
+            name='wildJ004'
         ),
         TestGroup(
             annotation=[
@@ -7242,13 +7242,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ005.xsd"
+                        href='../msData/wildcards/wildJ005.xsd'
                     ),
                 ],
                 expected=[
@@ -7260,9 +7260,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ005"
+                name='wildJ005'
             ),
-            name="wildJ005"
+            name='wildJ005'
         ),
         TestGroup(
             annotation=[
@@ -7278,13 +7278,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ006.xsd"
+                        href='../msData/wildcards/wildJ006.xsd'
                     ),
                 ],
                 expected=[
@@ -7296,9 +7296,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ006"
+                name='wildJ006'
             ),
-            name="wildJ006"
+            name='wildJ006'
         ),
         TestGroup(
             annotation=[
@@ -7314,13 +7314,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ007.xsd"
+                        href='../msData/wildcards/wildJ007.xsd'
                     ),
                 ],
                 expected=[
@@ -7332,9 +7332,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ007"
+                name='wildJ007'
             ),
-            name="wildJ007"
+            name='wildJ007'
         ),
         TestGroup(
             annotation=[
@@ -7350,13 +7350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildJ008.xsd"
+                        href='../msData/wildcards/wildJ008.xsd'
                     ),
                 ],
                 expected=[
@@ -7368,9 +7368,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildJ008"
+                name='wildJ008'
             ),
-            name="wildJ008"
+            name='wildJ008'
         ),
         TestGroup(
             annotation=[
@@ -7378,7 +7378,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace =",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace =',
                             ]
                         ),
                     ]
@@ -7386,13 +7386,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK001.xsd"
+                        href='../msData/wildcards/wildK001.xsd'
                     ),
                 ],
                 expected=[
@@ -7404,9 +7404,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK001"
+                name='wildK001'
             ),
-            name="wildK001"
+            name='wildK001'
         ),
         TestGroup(
             annotation=[
@@ -7414,7 +7414,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute',
                             ]
                         ),
                     ]
@@ -7422,13 +7422,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK002.xsd"
+                        href='../msData/wildcards/wildK002.xsd'
                     ),
                 ],
                 expected=[
@@ -7440,9 +7440,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK002"
+                name='wildK002'
             ),
-            name="wildK002"
+            name='wildK002'
         ),
         TestGroup(
             annotation=[
@@ -7450,7 +7450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##local",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##local',
                             ]
                         ),
                     ]
@@ -7458,13 +7458,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK003.xsd"
+                        href='../msData/wildcards/wildK003.xsd'
                     ),
                 ],
                 expected=[
@@ -7476,9 +7476,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK003"
+                name='wildK003'
             ),
-            name="wildK003"
+            name='wildK003'
         ),
         TestGroup(
             annotation=[
@@ -7486,7 +7486,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##other",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##other',
                             ]
                         ),
                     ]
@@ -7494,13 +7494,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK004.xsd"
+                        href='../msData/wildcards/wildK004.xsd'
                     ),
                 ],
                 expected=[
@@ -7512,9 +7512,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK004"
+                name='wildK004'
             ),
-            name="wildK004"
+            name='wildK004'
         ),
         TestGroup(
             annotation=[
@@ -7522,7 +7522,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##targetNamespace',
                             ]
                         ),
                     ]
@@ -7530,13 +7530,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK005.xsd"
+                        href='../msData/wildcards/wildK005.xsd'
                     ),
                 ],
                 expected=[
@@ -7548,9 +7548,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK005"
+                name='wildK005'
             ),
-            name="wildK005"
+            name='wildK005'
         ),
         TestGroup(
             annotation=[
@@ -7558,7 +7558,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##target",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##target',
                             ]
                         ),
                     ]
@@ -7566,13 +7566,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK006.xsd"
+                        href='../msData/wildcards/wildK006.xsd'
                     ),
                 ],
                 expected=[
@@ -7584,9 +7584,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK006"
+                name='wildK006'
             ),
-            name="wildK006"
+            name='wildK006'
         ),
         TestGroup(
             annotation=[
@@ -7594,7 +7594,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##all",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##all',
                             ]
                         ),
                     ]
@@ -7602,13 +7602,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK007.xsd"
+                        href='../msData/wildcards/wildK007.xsd'
                     ),
                 ],
                 expected=[
@@ -7620,9 +7620,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK007"
+                name='wildK007'
             ),
-            name="wildK007"
+            name='wildK007'
         ),
         TestGroup(
             annotation=[
@@ -7630,7 +7630,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = #anyAttribute",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = #anyAttribute',
                             ]
                         ),
                     ]
@@ -7638,13 +7638,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK008.xsd"
+                        href='../msData/wildcards/wildK008.xsd'
                     ),
                 ],
                 expected=[
@@ -7656,9 +7656,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK008"
+                name='wildK008'
             ),
-            name="wildK008"
+            name='wildK008'
         ),
         TestGroup(
             annotation=[
@@ -7666,7 +7666,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = #local",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = #local',
                             ]
                         ),
                     ]
@@ -7674,13 +7674,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK009.xsd"
+                        href='../msData/wildcards/wildK009.xsd'
                     ),
                 ],
                 expected=[
@@ -7692,9 +7692,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK009"
+                name='wildK009'
             ),
-            name="wildK009"
+            name='wildK009'
         ),
         TestGroup(
             annotation=[
@@ -7702,7 +7702,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = #other",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = #other',
                             ]
                         ),
                     ]
@@ -7710,13 +7710,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK010.xsd"
+                        href='../msData/wildcards/wildK010.xsd'
                     ),
                 ],
                 expected=[
@@ -7728,9 +7728,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK010"
+                name='wildK010'
             ),
-            name="wildK010"
+            name='wildK010'
         ),
         TestGroup(
             annotation=[
@@ -7738,7 +7738,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = #targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = #targetNamespace',
                             ]
                         ),
                     ]
@@ -7746,13 +7746,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK011.xsd"
+                        href='../msData/wildcards/wildK011.xsd'
                     ),
                 ],
                 expected=[
@@ -7764,9 +7764,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK011"
+                name='wildK011'
             ),
-            name="wildK011"
+            name='wildK011'
         ),
         TestGroup(
             annotation=[
@@ -7774,7 +7774,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = #target",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = #target',
                             ]
                         ),
                     ]
@@ -7782,13 +7782,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK012.xsd"
+                        href='../msData/wildcards/wildK012.xsd'
                     ),
                 ],
                 expected=[
@@ -7800,9 +7800,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK012"
+                name='wildK012'
             ),
-            name="wildK012"
+            name='wildK012'
         ),
         TestGroup(
             annotation=[
@@ -7810,7 +7810,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = #all",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = #all',
                             ]
                         ),
                     ]
@@ -7818,13 +7818,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK013.xsd"
+                        href='../msData/wildcards/wildK013.xsd'
                     ),
                 ],
                 expected=[
@@ -7836,9 +7836,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK013"
+                name='wildK013'
             ),
-            name="wildK013"
+            name='wildK013'
         ),
         TestGroup(
             annotation=[
@@ -7846,7 +7846,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = anyAttribute",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = anyAttribute',
                             ]
                         ),
                     ]
@@ -7854,13 +7854,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK014.xsd"
+                        href='../msData/wildcards/wildK014.xsd'
                     ),
                 ],
                 expected=[
@@ -7872,9 +7872,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK014"
+                name='wildK014'
             ),
-            name="wildK014"
+            name='wildK014'
         ),
         TestGroup(
             annotation=[
@@ -7882,7 +7882,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = local",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = local',
                             ]
                         ),
                     ]
@@ -7890,13 +7890,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK015.xsd"
+                        href='../msData/wildcards/wildK015.xsd'
                     ),
                 ],
                 expected=[
@@ -7908,9 +7908,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK015"
+                name='wildK015'
             ),
-            name="wildK015"
+            name='wildK015'
         ),
         TestGroup(
             annotation=[
@@ -7918,7 +7918,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = other",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = other',
                             ]
                         ),
                     ]
@@ -7926,13 +7926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK016.xsd"
+                        href='../msData/wildcards/wildK016.xsd'
                     ),
                 ],
                 expected=[
@@ -7944,9 +7944,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK016"
+                name='wildK016'
             ),
-            name="wildK016"
+            name='wildK016'
         ),
         TestGroup(
             annotation=[
@@ -7954,7 +7954,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = targetNamespace',
                             ]
                         ),
                     ]
@@ -7962,13 +7962,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK017.xsd"
+                        href='../msData/wildcards/wildK017.xsd'
                     ),
                 ],
                 expected=[
@@ -7980,9 +7980,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK017"
+                name='wildK017'
             ),
-            name="wildK017"
+            name='wildK017'
         ),
         TestGroup(
             annotation=[
@@ -7990,7 +7990,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = target",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = target',
                             ]
                         ),
                     ]
@@ -7998,13 +7998,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK018.xsd"
+                        href='../msData/wildcards/wildK018.xsd'
                     ),
                 ],
                 expected=[
@@ -8016,9 +8016,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK018"
+                name='wildK018'
             ),
-            name="wildK018"
+            name='wildK018'
         ),
         TestGroup(
             annotation=[
@@ -8026,7 +8026,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = all",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = all',
                             ]
                         ),
                     ]
@@ -8034,13 +8034,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK019.xsd"
+                        href='../msData/wildcards/wildK019.xsd'
                     ),
                 ],
                 expected=[
@@ -8052,9 +8052,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK019"
+                name='wildK019'
             ),
-            name="wildK019"
+            name='wildK019'
         ),
         TestGroup(
             annotation=[
@@ -8062,7 +8062,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other',
                             ]
                         ),
                     ]
@@ -8070,13 +8070,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK020.xsd"
+                        href='../msData/wildcards/wildK020.xsd'
                     ),
                 ],
                 expected=[
@@ -8088,9 +8088,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK020"
+                name='wildK020'
             ),
-            name="wildK020"
+            name='wildK020'
         ),
         TestGroup(
             annotation=[
@@ -8098,7 +8098,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##local",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##local',
                             ]
                         ),
                     ]
@@ -8106,13 +8106,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK021.xsd"
+                        href='../msData/wildcards/wildK021.xsd'
                     ),
                 ],
                 expected=[
@@ -8124,9 +8124,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK021"
+                name='wildK021'
             ),
-            name="wildK021"
+            name='wildK021'
         ),
         TestGroup(
             annotation=[
@@ -8134,7 +8134,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##targetNamespace',
                             ]
                         ),
                     ]
@@ -8142,13 +8142,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK022.xsd"
+                        href='../msData/wildcards/wildK022.xsd'
                     ),
                 ],
                 expected=[
@@ -8160,9 +8160,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK022"
+                name='wildK022'
             ),
-            name="wildK022"
+            name='wildK022'
         ),
         TestGroup(
             annotation=[
@@ -8170,7 +8170,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##other ##local",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##other ##local',
                             ]
                         ),
                     ]
@@ -8178,13 +8178,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK023.xsd"
+                        href='../msData/wildcards/wildK023.xsd'
                     ),
                 ],
                 expected=[
@@ -8196,9 +8196,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK023"
+                name='wildK023'
             ),
-            name="wildK023"
+            name='wildK023'
         ),
         TestGroup(
             annotation=[
@@ -8206,7 +8206,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##other ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##other ##targetNamespace',
                             ]
                         ),
                     ]
@@ -8214,13 +8214,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK024.xsd"
+                        href='../msData/wildcards/wildK024.xsd'
                     ),
                 ],
                 expected=[
@@ -8232,9 +8232,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK024"
+                name='wildK024'
             ),
-            name="wildK024"
+            name='wildK024'
         ),
         TestGroup(
             annotation=[
@@ -8242,7 +8242,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##local ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##local ##targetNamespace',
                             ]
                         ),
                     ]
@@ -8250,13 +8250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK025.xsd"
+                        href='../msData/wildcards/wildK025.xsd'
                     ),
                 ],
                 expected=[
@@ -8268,9 +8268,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK025"
+                name='wildK025'
             ),
-            name="wildK025"
+            name='wildK025'
         ),
         TestGroup(
             annotation=[
@@ -8278,7 +8278,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other ##local",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other ##local',
                             ]
                         ),
                     ]
@@ -8286,13 +8286,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK026.xsd"
+                        href='../msData/wildcards/wildK026.xsd'
                     ),
                 ],
                 expected=[
@@ -8304,9 +8304,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK026"
+                name='wildK026'
             ),
-            name="wildK026"
+            name='wildK026'
         ),
         TestGroup(
             annotation=[
@@ -8314,7 +8314,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other ##targetNamespace',
                             ]
                         ),
                     ]
@@ -8322,13 +8322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK027.xsd"
+                        href='../msData/wildcards/wildK027.xsd'
                     ),
                 ],
                 expected=[
@@ -8340,9 +8340,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK027"
+                name='wildK027'
             ),
-            name="wildK027"
+            name='wildK027'
         ),
         TestGroup(
             annotation=[
@@ -8350,7 +8350,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##local ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##local ##targetNamespace',
                             ]
                         ),
                     ]
@@ -8358,13 +8358,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK028.xsd"
+                        href='../msData/wildcards/wildK028.xsd'
                     ),
                 ],
                 expected=[
@@ -8376,9 +8376,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK028"
+                name='wildK028'
             ),
-            name="wildK028"
+            name='wildK028'
         ),
         TestGroup(
             annotation=[
@@ -8386,7 +8386,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other ##local ##targetNamespace",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##anyAttribute ##other ##local ##targetNamespace',
                             ]
                         ),
                     ]
@@ -8394,13 +8394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK029.xsd"
+                        href='../msData/wildcards/wildK029.xsd'
                     ),
                 ],
                 expected=[
@@ -8412,9 +8412,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK029"
+                name='wildK029'
             ),
-            name="wildK029"
+            name='wildK029'
         ),
         TestGroup(
             annotation=[
@@ -8422,7 +8422,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/xhtml",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/xhtml',
                             ]
                         ),
                     ]
@@ -8430,13 +8430,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK030.xsd"
+                        href='../msData/wildcards/wildK030.xsd'
                     ),
                 ],
                 expected=[
@@ -8448,9 +8448,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK030"
+                name='wildK030'
             ),
-            name="wildK030"
+            name='wildK030'
         ),
         TestGroup(
             annotation=[
@@ -8458,7 +8458,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude',
                             ]
                         ),
                     ]
@@ -8466,13 +8466,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK031.xsd"
+                        href='../msData/wildcards/wildK031.xsd'
                     ),
                 ],
                 expected=[
@@ -8484,9 +8484,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK031"
+                name='wildK031'
             ),
-            name="wildK031"
+            name='wildK031'
         ),
         TestGroup(
             annotation=[
@@ -8494,7 +8494,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema',
                             ]
                         ),
                     ]
@@ -8502,13 +8502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK032.xsd"
+                        href='../msData/wildcards/wildK032.xsd'
                     ),
                 ],
                 expected=[
@@ -8520,9 +8520,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK032"
+                name='wildK032'
             ),
-            name="wildK032"
+            name='wildK032'
         ),
         TestGroup(
             annotation=[
@@ -8530,7 +8530,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/Graphics/SVG/",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/Graphics/SVG/',
                             ]
                         ),
                     ]
@@ -8538,13 +8538,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK033.xsd"
+                        href='../msData/wildcards/wildK033.xsd'
                     ),
                 ],
                 expected=[
@@ -8556,9 +8556,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK033"
+                name='wildK033'
             ),
-            name="wildK033"
+            name='wildK033'
         ),
         TestGroup(
             annotation=[
@@ -8566,7 +8566,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -8574,13 +8574,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK034.xsd"
+                        href='../msData/wildcards/wildK034.xsd'
                     ),
                 ],
                 expected=[
@@ -8592,9 +8592,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK034"
+                name='wildK034'
             ),
-            name="wildK034"
+            name='wildK034'
         ),
         TestGroup(
             annotation=[
@@ -8602,7 +8602,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/XMLSchema",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/XMLSchema',
                             ]
                         ),
                     ]
@@ -8610,13 +8610,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK035.xsd"
+                        href='../msData/wildcards/wildK035.xsd'
                     ),
                 ],
                 expected=[
@@ -8628,9 +8628,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK035"
+                name='wildK035'
             ),
-            name="wildK035"
+            name='wildK035'
         ),
         TestGroup(
             annotation=[
@@ -8638,7 +8638,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/XMLSchema http://www.w3.org/1999/XMLSchema-instance http://www.w3.org/1999/XMLSchema-datatypes",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/XMLSchema http://www.w3.org/1999/XMLSchema-instance http://www.w3.org/1999/XMLSchema-datatypes',
                             ]
                         ),
                     ]
@@ -8646,13 +8646,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK036.xsd"
+                        href='../msData/wildcards/wildK036.xsd'
                     ),
                 ],
                 expected=[
@@ -8664,9 +8664,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK036"
+                name='wildK036'
             ),
-            name="wildK036"
+            name='wildK036'
         ),
         TestGroup(
             annotation=[
@@ -8674,7 +8674,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -8682,13 +8682,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK037.xsd"
+                        href='../msData/wildcards/wildK037.xsd'
                     ),
                 ],
                 expected=[
@@ -8700,9 +8700,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK037"
+                name='wildK037'
             ),
-            name="wildK037"
+            name='wildK037'
         ),
         TestGroup(
             annotation=[
@@ -8710,7 +8710,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##other http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##other http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -8718,13 +8718,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK038.xsd"
+                        href='../msData/wildcards/wildK038.xsd'
                     ),
                 ],
                 expected=[
@@ -8736,9 +8736,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK038"
+                name='wildK038'
             ),
-            name="wildK038"
+            name='wildK038'
         ),
         TestGroup(
             annotation=[
@@ -8746,7 +8746,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##local http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##local http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -8754,13 +8754,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK039.xsd"
+                        href='../msData/wildcards/wildK039.xsd'
                     ),
                 ],
                 expected=[
@@ -8772,9 +8772,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK039"
+                name='wildK039'
             ),
-            name="wildK039"
+            name='wildK039'
         ),
         TestGroup(
             annotation=[
@@ -8782,7 +8782,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -8790,13 +8790,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK040.xsd"
+                        href='../msData/wildcards/wildK040.xsd'
                     ),
                 ],
                 expected=[
@@ -8808,9 +8808,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK040"
+                name='wildK040'
             ),
-            name="wildK040"
+            name='wildK040'
         ),
         TestGroup(
             annotation=[
@@ -8818,7 +8818,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with namespace = ##local ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119",
+                                'TEST :Syntax Validation - any : anyAttribute with namespace = ##local ##targetNamespace http://www.w3.org/1999/xhtml http://www.w3.org/1999/XSL/Transform http://www.w3.org/1999/XML/xinclude http://www.w3.org/1999/02/22-rdf-syntax-ns http://www.w3.org/2000/01/rdf-schema http://www.w3.org/Graphics/SVG/ http://www.w3.org/2000/02/xmldsig http://www.w3.org/TR/2000/WD-xml-c14n-20000119',
                             ]
                         ),
                     ]
@@ -8826,13 +8826,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildK041.xsd"
+                        href='../msData/wildcards/wildK041.xsd'
                     ),
                 ],
                 expected=[
@@ -8844,9 +8844,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildK041"
+                name='wildK041'
             ),
-            name="wildK041"
+            name='wildK041'
         ),
         TestGroup(
             annotation=[
@@ -8854,7 +8854,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents =",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents =',
                             ]
                         ),
                     ]
@@ -8862,13 +8862,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL001.xsd"
+                        href='../msData/wildcards/wildL001.xsd'
                     ),
                 ],
                 expected=[
@@ -8880,9 +8880,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL001"
+                name='wildL001'
             ),
-            name="wildL001"
+            name='wildL001'
         ),
         TestGroup(
             annotation=[
@@ -8890,7 +8890,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = lax",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = lax',
                             ]
                         ),
                     ]
@@ -8898,13 +8898,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL002.xsd"
+                        href='../msData/wildcards/wildL002.xsd'
                     ),
                 ],
                 expected=[
@@ -8916,9 +8916,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL002"
+                name='wildL002'
             ),
-            name="wildL002"
+            name='wildL002'
         ),
         TestGroup(
             annotation=[
@@ -8926,7 +8926,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = skip",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = skip',
                             ]
                         ),
                     ]
@@ -8934,13 +8934,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL003.xsd"
+                        href='../msData/wildcards/wildL003.xsd'
                     ),
                 ],
                 expected=[
@@ -8952,9 +8952,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL003"
+                name='wildL003'
             ),
-            name="wildL003"
+            name='wildL003'
         ),
         TestGroup(
             annotation=[
@@ -8962,7 +8962,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = strict",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = strict',
                             ]
                         ),
                     ]
@@ -8970,13 +8970,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL004.xsd"
+                        href='../msData/wildcards/wildL004.xsd'
                     ),
                 ],
                 expected=[
@@ -8988,9 +8988,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL004"
+                name='wildL004'
             ),
-            name="wildL004"
+            name='wildL004'
         ),
         TestGroup(
             annotation=[
@@ -8998,7 +8998,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = lax skip",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = lax skip',
                             ]
                         ),
                     ]
@@ -9006,13 +9006,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL005.xsd"
+                        href='../msData/wildcards/wildL005.xsd'
                     ),
                 ],
                 expected=[
@@ -9024,9 +9024,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL005"
+                name='wildL005'
             ),
-            name="wildL005"
+            name='wildL005'
         ),
         TestGroup(
             annotation=[
@@ -9034,7 +9034,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = lax strict",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = lax strict',
                             ]
                         ),
                     ]
@@ -9042,13 +9042,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL006.xsd"
+                        href='../msData/wildcards/wildL006.xsd'
                     ),
                 ],
                 expected=[
@@ -9060,9 +9060,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL006"
+                name='wildL006'
             ),
-            name="wildL006"
+            name='wildL006'
         ),
         TestGroup(
             annotation=[
@@ -9070,7 +9070,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = skip strict",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = skip strict',
                             ]
                         ),
                     ]
@@ -9078,13 +9078,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL007.xsd"
+                        href='../msData/wildcards/wildL007.xsd'
                     ),
                 ],
                 expected=[
@@ -9096,9 +9096,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL007"
+                name='wildL007'
             ),
-            name="wildL007"
+            name='wildL007'
         ),
         TestGroup(
             annotation=[
@@ -9106,7 +9106,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = lax skip strict",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = lax skip strict',
                             ]
                         ),
                     ]
@@ -9114,13 +9114,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL008.xsd"
+                        href='../msData/wildcards/wildL008.xsd'
                     ),
                 ],
                 expected=[
@@ -9132,9 +9132,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL008"
+                name='wildL008'
             ),
-            name="wildL008"
+            name='wildL008'
         ),
         TestGroup(
             annotation=[
@@ -9142,7 +9142,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with processContents = all",
+                                'TEST :Syntax Validation - any : anyAttribute with processContents = all',
                             ]
                         ),
                     ]
@@ -9150,13 +9150,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildL009.xsd"
+                        href='../msData/wildcards/wildL009.xsd'
                     ),
                 ],
                 expected=[
@@ -9168,9 +9168,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildL009"
+                name='wildL009'
             ),
-            name="wildL009"
+            name='wildL009'
         ),
         TestGroup(
             annotation=[
@@ -9178,7 +9178,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with an annotation",
+                                'TEST :Syntax Validation - any : anyAttribute with an annotation',
                             ]
                         ),
                     ]
@@ -9186,13 +9186,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildM001.xsd"
+                        href='../msData/wildcards/wildM001.xsd'
                     ),
                 ],
                 expected=[
@@ -9204,9 +9204,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildM001"
+                name='wildM001'
             ),
-            name="wildM001"
+            name='wildM001'
         ),
         TestGroup(
             annotation=[
@@ -9214,7 +9214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : anyAttribute with two annotations",
+                                'TEST :Syntax Validation - any : anyAttribute with two annotations',
                             ]
                         ),
                     ]
@@ -9222,13 +9222,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildM002.xsd"
+                        href='../msData/wildcards/wildM002.xsd'
                     ),
                 ],
                 expected=[
@@ -9240,9 +9240,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildM002"
+                name='wildM002'
             ),
-            name="wildM002"
+            name='wildM002'
         ),
         TestGroup(
             annotation=[
@@ -9258,13 +9258,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN001.xsd"
+                        href='../msData/wildcards/wildN001.xsd'
                     ),
                 ],
                 expected=[
@@ -9276,9 +9276,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN001"
+                name='wildN001'
             ),
-            name="wildN001"
+            name='wildN001'
         ),
         TestGroup(
             annotation=[
@@ -9294,13 +9294,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN002.xsd"
+                        href='../msData/wildcards/wildN002.xsd'
                     ),
                 ],
                 expected=[
@@ -9312,9 +9312,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN002"
+                name='wildN002'
             ),
-            name="wildN002"
+            name='wildN002'
         ),
         TestGroup(
             annotation=[
@@ -9330,13 +9330,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN003.xsd"
+                        href='../msData/wildcards/wildN003.xsd'
                     ),
                 ],
                 expected=[
@@ -9348,9 +9348,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN003"
+                name='wildN003'
             ),
-            name="wildN003"
+            name='wildN003'
         ),
         TestGroup(
             annotation=[
@@ -9366,13 +9366,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN004.xsd"
+                        href='../msData/wildcards/wildN004.xsd'
                     ),
                 ],
                 expected=[
@@ -9384,9 +9384,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN004"
+                name='wildN004'
             ),
-            name="wildN004"
+            name='wildN004'
         ),
         TestGroup(
             annotation=[
@@ -9402,13 +9402,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN005.xsd"
+                        href='../msData/wildcards/wildN005.xsd'
                     ),
                 ],
                 expected=[
@@ -9420,9 +9420,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN005"
+                name='wildN005'
             ),
-            name="wildN005"
+            name='wildN005'
         ),
         TestGroup(
             annotation=[
@@ -9438,13 +9438,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN006.xsd"
+                        href='../msData/wildcards/wildN006.xsd'
                     ),
                 ],
                 expected=[
@@ -9456,9 +9456,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN006"
+                name='wildN006'
             ),
-            name="wildN006"
+            name='wildN006'
         ),
         TestGroup(
             annotation=[
@@ -9474,13 +9474,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN007.xsd"
+                        href='../msData/wildcards/wildN007.xsd'
                     ),
                 ],
                 expected=[
@@ -9492,9 +9492,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN007"
+                name='wildN007'
             ),
-            name="wildN007"
+            name='wildN007'
         ),
         TestGroup(
             annotation=[
@@ -9510,13 +9510,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN008.xsd"
+                        href='../msData/wildcards/wildN008.xsd'
                     ),
                 ],
                 expected=[
@@ -9528,9 +9528,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN008"
+                name='wildN008'
             ),
-            name="wildN008"
+            name='wildN008'
         ),
         TestGroup(
             annotation=[
@@ -9546,13 +9546,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN009.xsd"
+                        href='../msData/wildcards/wildN009.xsd'
                     ),
                 ],
                 expected=[
@@ -9564,9 +9564,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN009"
+                name='wildN009'
             ),
-            name="wildN009"
+            name='wildN009'
         ),
         TestGroup(
             annotation=[
@@ -9582,13 +9582,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN010.xsd"
+                        href='../msData/wildcards/wildN010.xsd'
                     ),
                 ],
                 expected=[
@@ -9600,9 +9600,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN010"
+                name='wildN010'
             ),
-            name="wildN010"
+            name='wildN010'
         ),
         TestGroup(
             annotation=[
@@ -9618,13 +9618,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN011.xsd"
+                        href='../msData/wildcards/wildN011.xsd'
                     ),
                 ],
                 expected=[
@@ -9636,9 +9636,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN011"
+                name='wildN011'
             ),
-            name="wildN011"
+            name='wildN011'
         ),
         TestGroup(
             annotation=[
@@ -9654,13 +9654,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN012.xsd"
+                        href='../msData/wildcards/wildN012.xsd'
                     ),
                 ],
                 expected=[
@@ -9672,9 +9672,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN012"
+                name='wildN012'
             ),
-            name="wildN012"
+            name='wildN012'
         ),
         TestGroup(
             annotation=[
@@ -9690,13 +9690,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN013.xsd"
+                        href='../msData/wildcards/wildN013.xsd'
                     ),
                 ],
                 expected=[
@@ -9708,9 +9708,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN013"
+                name='wildN013'
             ),
-            name="wildN013"
+            name='wildN013'
         ),
         TestGroup(
             annotation=[
@@ -9726,13 +9726,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN014.xsd"
+                        href='../msData/wildcards/wildN014.xsd'
                     ),
                 ],
                 expected=[
@@ -9744,9 +9744,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN014"
+                name='wildN014'
             ),
-            name="wildN014"
+            name='wildN014'
         ),
         TestGroup(
             annotation=[
@@ -9762,13 +9762,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN015.xsd"
+                        href='../msData/wildcards/wildN015.xsd'
                     ),
                 ],
                 expected=[
@@ -9780,9 +9780,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN015"
+                name='wildN015'
             ),
-            name="wildN015"
+            name='wildN015'
         ),
         TestGroup(
             annotation=[
@@ -9798,13 +9798,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN016.xsd"
+                        href='../msData/wildcards/wildN016.xsd'
                     ),
                 ],
                 expected=[
@@ -9816,9 +9816,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN016"
+                name='wildN016'
             ),
-            name="wildN016"
+            name='wildN016'
         ),
         TestGroup(
             annotation=[
@@ -9834,13 +9834,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN017.xsd"
+                        href='../msData/wildcards/wildN017.xsd'
                     ),
                 ],
                 expected=[
@@ -9852,9 +9852,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN017"
+                name='wildN017'
             ),
-            name="wildN017"
+            name='wildN017'
         ),
         TestGroup(
             annotation=[
@@ -9870,13 +9870,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN018.xsd"
+                        href='../msData/wildcards/wildN018.xsd'
                     ),
                 ],
                 expected=[
@@ -9888,9 +9888,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN018"
+                name='wildN018'
             ),
-            name="wildN018"
+            name='wildN018'
         ),
         TestGroup(
             annotation=[
@@ -9906,13 +9906,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN019.xsd"
+                        href='../msData/wildcards/wildN019.xsd'
                     ),
                 ],
                 expected=[
@@ -9924,9 +9924,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN019"
+                name='wildN019'
             ),
-            name="wildN019"
+            name='wildN019'
         ),
         TestGroup(
             annotation=[
@@ -9942,13 +9942,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildN020.xsd"
+                        href='../msData/wildcards/wildN020.xsd'
                     ),
                 ],
                 expected=[
@@ -9960,9 +9960,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildN020"
+                name='wildN020'
             ),
-            name="wildN020"
+            name='wildN020'
         ),
         TestGroup(
             annotation=[
@@ -9970,7 +9970,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute declared twice",
+                                'TEST :Syntax Validation - any : ANYAttribute declared twice',
                             ]
                         ),
                     ]
@@ -9978,13 +9978,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildQ001.xsd"
+                        href='../msData/wildcards/wildQ001.xsd'
                     ),
                 ],
                 expected=[
@@ -9996,9 +9996,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildQ001"
+                name='wildQ001'
             ),
-            name="wildQ001"
+            name='wildQ001'
         ),
         TestGroup(
             annotation=[
@@ -10006,7 +10006,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (minoccurs=2)",
+                                'TEST :Syntax Validation - any : ANYAttribute (minoccurs=2)',
                             ]
                         ),
                     ]
@@ -10014,13 +10014,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildQ002.xsd"
+                        href='../msData/wildcards/wildQ002.xsd'
                     ),
                 ],
                 expected=[
@@ -10032,9 +10032,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildQ002"
+                name='wildQ002'
             ),
-            name="wildQ002"
+            name='wildQ002'
         ),
         TestGroup(
             annotation=[
@@ -10042,7 +10042,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (maxoccurs=2)",
+                                'TEST :Syntax Validation - any : ANYAttribute (maxoccurs=2)',
                             ]
                         ),
                     ]
@@ -10050,13 +10050,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildQ003.xsd"
+                        href='../msData/wildcards/wildQ003.xsd'
                     ),
                 ],
                 expected=[
@@ -10068,9 +10068,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildQ003"
+                name='wildQ003'
             ),
-            name="wildQ003"
+            name='wildQ003'
         ),
         TestGroup(
             annotation=[
@@ -10078,7 +10078,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (minoccurs=2, maxoccurs=unbounded)",
+                                'TEST :Syntax Validation - any : ANYAttribute (minoccurs=2, maxoccurs=unbounded)',
                             ]
                         ),
                     ]
@@ -10086,13 +10086,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildQ004.xsd"
+                        href='../msData/wildcards/wildQ004.xsd'
                     ),
                 ],
                 expected=[
@@ -10104,9 +10104,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildQ004"
+                name='wildQ004'
             ),
-            name="wildQ004"
+            name='wildQ004'
         ),
         TestGroup(
             annotation=[
@@ -10114,7 +10114,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10122,13 +10122,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO001.xsd"
+                        href='../msData/wildcards/wildO001.xsd'
                     ),
                 ],
                 expected=[
@@ -10140,12 +10140,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO001"
+                name='wildO001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO001.xml"
+                        href='../msData/wildcards/wildO001.xml'
                     ),
                     expected=[
                         Expected(
@@ -10156,10 +10156,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO001.v"
+                    name='wildO001.v'
                 ),
             ],
-            name="wildO001"
+            name='wildO001'
         ),
         TestGroup(
             annotation=[
@@ -10167,7 +10167,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -10175,16 +10175,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO002.xsd"
+                        href='../msData/wildcards/wildO002.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO002a.xsd"
+                        href='../msData/wildcards/wildO002a.xsd'
                     ),
                 ],
                 expected=[
@@ -10196,12 +10196,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO002"
+                name='wildO002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO002.xml"
+                        href='../msData/wildcards/wildO002.xml'
                     ),
                     expected=[
                         Expected(
@@ -10212,10 +10212,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO002.v"
+                    name='wildO002.v'
                 ),
             ],
-            name="wildO002"
+            name='wildO002'
         ),
         TestGroup(
             annotation=[
@@ -10223,7 +10223,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10231,13 +10231,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO003.xsd"
+                        href='../msData/wildcards/wildO003.xsd'
                     ),
                 ],
                 expected=[
@@ -10249,12 +10249,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO003"
+                name='wildO003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO003.xml"
+                        href='../msData/wildcards/wildO003.xml'
                     ),
                     expected=[
                         Expected(
@@ -10265,10 +10265,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO003.i"
+                    name='wildO003.i'
                 ),
             ],
-            name="wildO003"
+            name='wildO003'
         ),
         TestGroup(
             annotation=[
@@ -10276,7 +10276,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -10284,16 +10284,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO004.xsd"
+                        href='../msData/wildcards/wildO004.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO004a.xsd"
+                        href='../msData/wildcards/wildO004a.xsd'
                     ),
                 ],
                 expected=[
@@ -10305,12 +10305,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO004"
+                name='wildO004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO004.xml"
+                        href='../msData/wildcards/wildO004.xml'
                     ),
                     expected=[
                         Expected(
@@ -10321,10 +10321,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO004.v"
+                    name='wildO004.v'
                 ),
             ],
-            name="wildO004"
+            name='wildO004'
         ),
         TestGroup(
             annotation=[
@@ -10332,7 +10332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) and instance document has attributes from local Namespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) and instance document has attributes from local Namespace',
                             ]
                         ),
                     ]
@@ -10340,16 +10340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO005.xsd"
+                        href='../msData/wildcards/wildO005.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO005a.xsd"
+                        href='../msData/wildcards/wildO005a.xsd'
                     ),
                 ],
                 expected=[
@@ -10361,12 +10361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO005"
+                name='wildO005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO005.xml"
+                        href='../msData/wildcards/wildO005.xml'
                     ),
                     expected=[
                         Expected(
@@ -10377,10 +10377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO005.v"
+                    name='wildO005.v'
                 ),
             ],
-            name="wildO005"
+            name='wildO005'
         ),
         TestGroup(
             annotation=[
@@ -10388,7 +10388,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) and instance document has attributes from other namespaces besides local",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) and instance document has attributes from other namespaces besides local',
                             ]
                         ),
                     ]
@@ -10396,13 +10396,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO006.xsd"
+                        href='../msData/wildcards/wildO006.xsd'
                     ),
                 ],
                 expected=[
@@ -10414,12 +10414,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO006"
+                name='wildO006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO006.xml"
+                        href='../msData/wildcards/wildO006.xml'
                     ),
                     expected=[
                         Expected(
@@ -10430,10 +10430,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO006.i"
+                    name='wildO006.i'
                 ),
             ],
-            name="wildO006"
+            name='wildO006'
         ),
         TestGroup(
             annotation=[
@@ -10441,7 +10441,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10449,13 +10449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO007.xsd"
+                        href='../msData/wildcards/wildO007.xsd'
                     ),
                 ],
                 expected=[
@@ -10467,12 +10467,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO007"
+                name='wildO007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO007.xml"
+                        href='../msData/wildcards/wildO007.xml'
                     ),
                     expected=[
                         Expected(
@@ -10483,10 +10483,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO007.v"
+                    name='wildO007.v'
                 ),
             ],
-            name="wildO007"
+            name='wildO007'
         ),
         TestGroup(
             annotation=[
@@ -10494,7 +10494,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -10502,16 +10502,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO008.xsd"
+                        href='../msData/wildcards/wildO008.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO008a.xsd"
+                        href='../msData/wildcards/wildO008a.xsd'
                     ),
                 ],
                 expected=[
@@ -10523,12 +10523,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO008"
+                name='wildO008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO008.xml"
+                        href='../msData/wildcards/wildO008.xml'
                     ),
                     expected=[
                         Expected(
@@ -10539,10 +10539,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO008.i"
+                    name='wildO008.i'
                 ),
             ],
-            name="wildO008"
+            name='wildO008'
         ),
         TestGroup(
             annotation=[
@@ -10550,7 +10550,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10558,13 +10558,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO009.xsd"
+                        href='../msData/wildcards/wildO009.xsd'
                     ),
                 ],
                 expected=[
@@ -10576,12 +10576,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO009"
+                name='wildO009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO009.xml"
+                        href='../msData/wildcards/wildO009.xml'
                     ),
                     expected=[
                         Expected(
@@ -10592,10 +10592,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO009.i"
+                    name='wildO009.i'
                 ),
             ],
-            name="wildO009"
+            name='wildO009'
         ),
         TestGroup(
             annotation=[
@@ -10603,7 +10603,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has attributes from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has attributes from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -10611,16 +10611,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO010.xsd"
+                        href='../msData/wildcards/wildO010.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO010a.xsd"
+                        href='../msData/wildcards/wildO010a.xsd'
                     ),
                 ],
                 expected=[
@@ -10632,12 +10632,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO010"
+                name='wildO010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO010.xml"
+                        href='../msData/wildcards/wildO010.xml'
                     ),
                     expected=[
                         Expected(
@@ -10648,10 +10648,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO010.v"
+                    name='wildO010.v'
                 ),
             ],
-            name="wildO010"
+            name='wildO010'
         ),
         TestGroup(
             annotation=[
@@ -10659,7 +10659,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -10667,16 +10667,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO011.xsd"
+                        href='../msData/wildcards/wildO011.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO011a.xsd"
+                        href='../msData/wildcards/wildO011a.xsd'
                     ),
                 ],
                 expected=[
@@ -10688,12 +10688,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO011"
+                name='wildO011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO011.xml"
+                        href='../msData/wildcards/wildO011.xml'
                     ),
                     expected=[
                         Expected(
@@ -10704,10 +10704,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO011.i"
+                    name='wildO011.i'
                 ),
             ],
-            name="wildO011"
+            name='wildO011'
         ),
         TestGroup(
             annotation=[
@@ -10715,7 +10715,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10723,13 +10723,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO012.xsd"
+                        href='../msData/wildcards/wildO012.xsd'
                     ),
                 ],
                 expected=[
@@ -10741,12 +10741,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO012"
+                name='wildO012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO012.xml"
+                        href='../msData/wildcards/wildO012.xml'
                     ),
                     expected=[
                         Expected(
@@ -10757,10 +10757,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO012.v"
+                    name='wildO012.v'
                 ),
             ],
-            name="wildO012"
+            name='wildO012'
         ),
         TestGroup(
             annotation=[
@@ -10768,7 +10768,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has attributes from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has attributes from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -10776,16 +10776,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO013.xsd"
+                        href='../msData/wildcards/wildO013.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO013a.xsd"
+                        href='../msData/wildcards/wildO013a.xsd'
                     ),
                 ],
                 expected=[
@@ -10797,12 +10797,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO013"
+                name='wildO013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO013.xml"
+                        href='../msData/wildcards/wildO013.xml'
                     ),
                     expected=[
                         Expected(
@@ -10813,10 +10813,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO013.v"
+                    name='wildO013.v'
                 ),
             ],
-            name="wildO013"
+            name='wildO013'
         ),
         TestGroup(
             annotation=[
@@ -10824,7 +10824,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -10832,16 +10832,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO014.xsd"
+                        href='../msData/wildcards/wildO014.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO014a.xsd"
+                        href='../msData/wildcards/wildO014a.xsd'
                     ),
                 ],
                 expected=[
@@ -10853,12 +10853,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO014"
+                name='wildO014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO014.xml"
+                        href='../msData/wildcards/wildO014.xml'
                     ),
                     expected=[
                         Expected(
@@ -10869,10 +10869,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO014.i"
+                    name='wildO014.i'
                 ),
             ],
-            name="wildO014"
+            name='wildO014'
         ),
         TestGroup(
             annotation=[
@@ -10880,7 +10880,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10888,13 +10888,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO015.xsd"
+                        href='../msData/wildcards/wildO015.xsd'
                     ),
                 ],
                 expected=[
@@ -10906,12 +10906,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO015"
+                name='wildO015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO015.xml"
+                        href='../msData/wildcards/wildO015.xml'
                     ),
                     expected=[
                         Expected(
@@ -10922,10 +10922,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO015.v"
+                    name='wildO015.v'
                 ),
             ],
-            name="wildO015"
+            name='wildO015'
         ),
         TestGroup(
             annotation=[
@@ -10933,7 +10933,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -10941,16 +10941,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO016.xsd"
+                        href='../msData/wildcards/wildO016.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO016a.xsd"
+                        href='../msData/wildcards/wildO016a.xsd'
                     ),
                 ],
                 expected=[
@@ -10962,12 +10962,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO016"
+                name='wildO016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO016.xml"
+                        href='../msData/wildcards/wildO016.xml'
                     ),
                     expected=[
                         Expected(
@@ -10978,10 +10978,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO016.v"
+                    name='wildO016.v'
                 ),
             ],
-            name="wildO016"
+            name='wildO016'
         ),
         TestGroup(
             annotation=[
@@ -10989,7 +10989,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -10997,13 +10997,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO017.xsd"
+                        href='../msData/wildcards/wildO017.xsd'
                     ),
                 ],
                 expected=[
@@ -11015,12 +11015,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO017"
+                name='wildO017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO017.xml"
+                        href='../msData/wildcards/wildO017.xml'
                     ),
                     expected=[
                         Expected(
@@ -11031,10 +11031,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO017.i"
+                    name='wildO017.i'
                 ),
             ],
-            name="wildO017"
+            name='wildO017'
         ),
         TestGroup(
             annotation=[
@@ -11042,7 +11042,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11050,16 +11050,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO018.xsd"
+                        href='../msData/wildcards/wildO018.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO018a.xsd"
+                        href='../msData/wildcards/wildO018a.xsd'
                     ),
                 ],
                 expected=[
@@ -11071,12 +11071,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO018"
+                name='wildO018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO018.xml"
+                        href='../msData/wildcards/wildO018.xml'
                     ),
                     expected=[
                         Expected(
@@ -11087,10 +11087,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO018.v"
+                    name='wildO018.v'
                 ),
             ],
-            name="wildO018"
+            name='wildO018'
         ),
         TestGroup(
             annotation=[
@@ -11098,7 +11098,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from local",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from local',
                             ]
                         ),
                     ]
@@ -11106,16 +11106,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO019.xsd"
+                        href='../msData/wildcards/wildO019.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO019a.xsd"
+                        href='../msData/wildcards/wildO019a.xsd'
                     ),
                 ],
                 expected=[
@@ -11127,12 +11127,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO019"
+                name='wildO019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO019.xml"
+                        href='../msData/wildcards/wildO019.xml'
                     ),
                     expected=[
                         Expected(
@@ -11143,10 +11143,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO019.v"
+                    name='wildO019.v'
                 ),
             ],
-            name="wildO019"
+            name='wildO019'
         ),
         TestGroup(
             annotation=[
@@ -11154,7 +11154,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides local",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides local',
                             ]
                         ),
                     ]
@@ -11162,13 +11162,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO020.xsd"
+                        href='../msData/wildcards/wildO020.xsd'
                     ),
                 ],
                 expected=[
@@ -11180,12 +11180,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO020"
+                name='wildO020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO020.xml"
+                        href='../msData/wildcards/wildO020.xml'
                     ),
                     expected=[
                         Expected(
@@ -11196,10 +11196,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO020.i"
+                    name='wildO020.i'
                 ),
             ],
-            name="wildO020"
+            name='wildO020'
         ),
         TestGroup(
             annotation=[
@@ -11207,7 +11207,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -11215,13 +11215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO021.xsd"
+                        href='../msData/wildcards/wildO021.xsd'
                     ),
                 ],
                 expected=[
@@ -11233,12 +11233,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO021"
+                name='wildO021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO021.xml"
+                        href='../msData/wildcards/wildO021.xml'
                     ),
                     expected=[
                         Expected(
@@ -11249,10 +11249,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO021.v"
+                    name='wildO021.v'
                 ),
             ],
-            name="wildO021"
+            name='wildO021'
         ),
         TestGroup(
             annotation=[
@@ -11260,7 +11260,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11268,16 +11268,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO022.xsd"
+                        href='../msData/wildcards/wildO022.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO022a.xsd"
+                        href='../msData/wildcards/wildO022a.xsd'
                     ),
                 ],
                 expected=[
@@ -11289,12 +11289,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO022"
+                name='wildO022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO022.xml"
+                        href='../msData/wildcards/wildO022.xml'
                     ),
                     expected=[
                         Expected(
@@ -11305,10 +11305,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO022.i"
+                    name='wildO022.i'
                 ),
             ],
-            name="wildO022"
+            name='wildO022'
         ),
         TestGroup(
             annotation=[
@@ -11316,7 +11316,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -11324,13 +11324,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO023.xsd"
+                        href='../msData/wildcards/wildO023.xsd'
                     ),
                 ],
                 expected=[
@@ -11342,12 +11342,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO023"
+                name='wildO023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO023.xml"
+                        href='../msData/wildcards/wildO023.xml'
                     ),
                     expected=[
                         Expected(
@@ -11358,10 +11358,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO023.v"
+                    name='wildO023.v'
                 ),
             ],
-            name="wildO023"
+            name='wildO023'
         ),
         TestGroup(
             annotation=[
@@ -11369,7 +11369,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11377,16 +11377,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO024.xsd"
+                        href='../msData/wildcards/wildO024.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO024a.xsd"
+                        href='../msData/wildcards/wildO024a.xsd'
                     ),
                 ],
                 expected=[
@@ -11398,12 +11398,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO024"
+                name='wildO024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO024.xml"
+                        href='../msData/wildcards/wildO024.xml'
                     ),
                     expected=[
                         Expected(
@@ -11414,10 +11414,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO024.i"
+                    name='wildO024.i'
                 ),
             ],
-            name="wildO024"
+            name='wildO024'
         ),
         TestGroup(
             annotation=[
@@ -11425,7 +11425,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -11433,13 +11433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO025.xsd"
+                        href='../msData/wildcards/wildO025.xsd'
                     ),
                 ],
                 expected=[
@@ -11451,12 +11451,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO025"
+                name='wildO025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO025.xml"
+                        href='../msData/wildcards/wildO025.xml'
                     ),
                     expected=[
                         Expected(
@@ -11467,10 +11467,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO025.i"
+                    name='wildO025.i'
                 ),
             ],
-            name="wildO025"
+            name='wildO025'
         ),
         TestGroup(
             annotation=[
@@ -11478,7 +11478,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11486,16 +11486,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO026.xsd"
+                        href='../msData/wildcards/wildO026.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO026a.xsd"
+                        href='../msData/wildcards/wildO026a.xsd'
                     ),
                 ],
                 expected=[
@@ -11507,12 +11507,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO026"
+                name='wildO026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO026.xml"
+                        href='../msData/wildcards/wildO026.xml'
                     ),
                     expected=[
                         Expected(
@@ -11523,10 +11523,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO026.v"
+                    name='wildO026.v'
                 ),
             ],
-            name="wildO026"
+            name='wildO026'
         ),
         TestGroup(
             annotation=[
@@ -11534,7 +11534,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -11542,13 +11542,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO027.xsd"
+                        href='../msData/wildcards/wildO027.xsd'
                     ),
                 ],
                 expected=[
@@ -11560,12 +11560,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO027"
+                name='wildO027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO027.xml"
+                        href='../msData/wildcards/wildO027.xml'
                     ),
                     expected=[
                         Expected(
@@ -11576,10 +11576,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO027.v"
+                    name='wildO027.v'
                 ),
             ],
-            name="wildO027"
+            name='wildO027'
         ),
         TestGroup(
             annotation=[
@@ -11587,7 +11587,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11595,16 +11595,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO028.xsd"
+                        href='../msData/wildcards/wildO028.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO028a.xsd"
+                        href='../msData/wildcards/wildO028a.xsd'
                     ),
                 ],
                 expected=[
@@ -11616,12 +11616,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO028"
+                name='wildO028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO028.xml"
+                        href='../msData/wildcards/wildO028.xml'
                     ),
                     expected=[
                         Expected(
@@ -11632,10 +11632,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO028.i"
+                    name='wildO028.i'
                 ),
             ],
-            name="wildO028"
+            name='wildO028'
         ),
         TestGroup(
             annotation=[
@@ -11643,7 +11643,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from local",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from local',
                             ]
                         ),
                     ]
@@ -11651,16 +11651,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO029.xsd"
+                        href='../msData/wildcards/wildO029.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO029a.xsd"
+                        href='../msData/wildcards/wildO029a.xsd'
                     ),
                 ],
                 expected=[
@@ -11672,12 +11672,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO029"
+                name='wildO029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO029.xml"
+                        href='../msData/wildcards/wildO029.xml'
                     ),
                     expected=[
                         Expected(
@@ -11688,10 +11688,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO029.v"
+                    name='wildO029.v'
                 ),
             ],
-            name="wildO029"
+            name='wildO029'
         ),
         TestGroup(
             annotation=[
@@ -11699,7 +11699,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11707,16 +11707,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO030.xsd"
+                        href='../msData/wildcards/wildO030.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO030a.xsd"
+                        href='../msData/wildcards/wildO030a.xsd'
                     ),
                 ],
                 expected=[
@@ -11728,12 +11728,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO030"
+                name='wildO030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO030.xml"
+                        href='../msData/wildcards/wildO030.xml'
                     ),
                     expected=[
                         Expected(
@@ -11744,10 +11744,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO030.i"
+                    name='wildO030.i'
                 ),
             ],
-            name="wildO030"
+            name='wildO030'
         ),
         TestGroup(
             annotation=[
@@ -11755,7 +11755,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -11763,13 +11763,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO031.xsd"
+                        href='../msData/wildcards/wildO031.xsd'
                     ),
                 ],
                 expected=[
@@ -11781,12 +11781,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO031"
+                name='wildO031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO031.xml"
+                        href='../msData/wildcards/wildO031.xml'
                     ),
                     expected=[
                         Expected(
@@ -11797,10 +11797,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO031.v"
+                    name='wildO031.v'
                 ),
             ],
-            name="wildO031"
+            name='wildO031'
         ),
         TestGroup(
             annotation=[
@@ -11808,7 +11808,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -11816,16 +11816,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO032.xsd"
+                        href='../msData/wildcards/wildO032.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO032a.xsd"
+                        href='../msData/wildcards/wildO032a.xsd'
                     ),
                 ],
                 expected=[
@@ -11837,12 +11837,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO032"
+                name='wildO032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO032.xml"
+                        href='../msData/wildcards/wildO032.xml'
                     ),
                     expected=[
                         Expected(
@@ -11853,10 +11853,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO032.i"
+                    name='wildO032.i'
                 ),
             ],
-            name="wildO032"
+            name='wildO032'
         ),
         TestGroup(
             annotation=[
@@ -11864,7 +11864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from local",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from local',
                             ]
                         ),
                     ]
@@ -11872,16 +11872,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO033.xsd"
+                        href='../msData/wildcards/wildO033.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO033a.xsd"
+                        href='../msData/wildcards/wildO033a.xsd'
                     ),
                 ],
                 expected=[
@@ -11893,12 +11893,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO033"
+                name='wildO033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO033.xml"
+                        href='../msData/wildcards/wildO033.xml'
                     ),
                     expected=[
                         Expected(
@@ -11909,10 +11909,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO033.v"
+                    name='wildO033.v'
                 ),
             ],
-            name="wildO033"
+            name='wildO033'
         ),
         TestGroup(
             annotation=[
@@ -11920,7 +11920,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides listed",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://foobar) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides listed',
                             ]
                         ),
                     ]
@@ -11928,16 +11928,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO034.xsd"
+                        href='../msData/wildcards/wildO034.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO034a.xsd"
+                        href='../msData/wildcards/wildO034a.xsd'
                     ),
                 ],
                 expected=[
@@ -11949,12 +11949,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO034"
+                name='wildO034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO034.xml"
+                        href='../msData/wildcards/wildO034.xml'
                     ),
                     expected=[
                         Expected(
@@ -11965,10 +11965,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO034.i"
+                    name='wildO034.i'
                 ),
             ],
-            name="wildO034"
+            name='wildO034'
         ),
         TestGroup(
             annotation=[
@@ -11976,7 +11976,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -11984,13 +11984,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO035.xsd"
+                        href='../msData/wildcards/wildO035.xsd'
                     ),
                 ],
                 expected=[
@@ -12002,12 +12002,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO035"
+                name='wildO035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO035.xml"
+                        href='../msData/wildcards/wildO035.xml'
                     ),
                     expected=[
                         Expected(
@@ -12018,10 +12018,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO035.i"
+                    name='wildO035.i'
                 ),
             ],
-            name="wildO035"
+            name='wildO035'
         ),
         TestGroup(
             annotation=[
@@ -12029,7 +12029,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -12037,16 +12037,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO037.xsd"
+                        href='../msData/wildcards/wildO037.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO037a.xsd"
+                        href='../msData/wildcards/wildO037a.xsd'
                     ),
                 ],
                 expected=[
@@ -12058,12 +12058,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO037"
+                name='wildO037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO037.xml"
+                        href='../msData/wildcards/wildO037.xml'
                     ),
                     expected=[
                         Expected(
@@ -12074,10 +12074,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO037.v"
+                    name='wildO037.v'
                 ),
             ],
-            name="wildO037"
+            name='wildO037'
         ),
         TestGroup(
             annotation=[
@@ -12085,7 +12085,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12093,13 +12093,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO038.xsd"
+                        href='../msData/wildcards/wildO038.xsd'
                     ),
                 ],
                 expected=[
@@ -12111,12 +12111,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO038"
+                name='wildO038'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO038.xml"
+                        href='../msData/wildcards/wildO038.xml'
                     ),
                     expected=[
                         Expected(
@@ -12127,10 +12127,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO038.v"
+                    name='wildO038.v'
                 ),
             ],
-            name="wildO038"
+            name='wildO038'
         ),
         TestGroup(
             annotation=[
@@ -12138,7 +12138,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from other namespaces besides target',
                             ]
                         ),
                     ]
@@ -12146,16 +12146,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO039.xsd"
+                        href='../msData/wildcards/wildO039.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO039a.xsd"
+                        href='../msData/wildcards/wildO039a.xsd'
                     ),
                 ],
                 expected=[
@@ -12167,12 +12167,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO039"
+                name='wildO039'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO039.xml"
+                        href='../msData/wildcards/wildO039.xml'
                     ),
                     expected=[
                         Expected(
@@ -12183,10 +12183,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO039.i"
+                    name='wildO039.i'
                 ),
             ],
-            name="wildO039"
+            name='wildO039'
         ),
         TestGroup(
             annotation=[
@@ -12194,7 +12194,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from the xhtml namespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema targetNamespace=http://foobar and instance document has attributes from the xhtml namespace',
                             ]
                         ),
                     ]
@@ -12202,16 +12202,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildO040.xsd"
+                        href='../msData/wildcards/wildO040.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildO040a.xsd"
+                        href='../msData/wildcards/wildO040a.xsd'
                     ),
                 ],
                 expected=[
@@ -12223,12 +12223,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildO040"
+                name='wildO040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildO040.xml"
+                        href='../msData/wildcards/wildO040.xml'
                     ),
                     expected=[
                         Expected(
@@ -12239,10 +12239,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildO040.v"
+                    name='wildO040.v'
                 ),
             ],
-            name="wildO040"
+            name='wildO040'
         ),
         TestGroup(
             annotation=[
@@ -12250,7 +12250,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute declared and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute declared and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12258,13 +12258,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildP001.xsd"
+                        href='../msData/wildcards/wildP001.xsd'
                     ),
                 ],
                 expected=[
@@ -12276,12 +12276,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildP001"
+                name='wildP001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildP001.xml"
+                        href='../msData/wildcards/wildP001.xml'
                     ),
                     expected=[
                         Expected(
@@ -12292,10 +12292,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildP001.v"
+                    name='wildP001.v'
                 ),
             ],
-            name="wildP001"
+            name='wildP001'
         ),
         TestGroup(
             annotation=[
@@ -12303,7 +12303,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute not declared and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ processContents=strict and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute not declared and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12311,13 +12311,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildP002.xsd"
+                        href='../msData/wildcards/wildP002.xsd'
                     ),
                 ],
                 expected=[
@@ -12329,12 +12329,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildP002"
+                name='wildP002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildP002.xml"
+                        href='../msData/wildcards/wildP002.xml'
                     ),
                     expected=[
                         Expected(
@@ -12345,10 +12345,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildP002.i"
+                    name='wildP002.i'
                 ),
             ],
-            name="wildP002"
+            name='wildP002'
         ),
         TestGroup(
             annotation=[
@@ -12356,7 +12356,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute declared and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute declared and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12364,13 +12364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildP003.xsd"
+                        href='../msData/wildcards/wildP003.xsd'
                     ),
                 ],
                 expected=[
@@ -12382,12 +12382,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildP003"
+                name='wildP003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildP003.xml"
+                        href='../msData/wildcards/wildP003.xml'
                     ),
                     expected=[
                         Expected(
@@ -12398,10 +12398,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildP003.v"
+                    name='wildP003.v'
                 ),
             ],
-            name="wildP003"
+            name='wildP003'
         ),
         TestGroup(
             annotation=[
@@ -12409,7 +12409,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute not declared and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ processContents=lax and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute not declared and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12417,13 +12417,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildP004.xsd"
+                        href='../msData/wildcards/wildP004.xsd'
                     ),
                 ],
                 expected=[
@@ -12435,12 +12435,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildP004"
+                name='wildP004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildP004.xml"
+                        href='../msData/wildcards/wildP004.xml'
                     ),
                     expected=[
                         Expected(
@@ -12451,10 +12451,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildP004.v"
+                    name='wildP004.v'
                 ),
             ],
-            name="wildP004"
+            name='wildP004'
         ),
         TestGroup(
             annotation=[
@@ -12462,7 +12462,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute declared and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute declared and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12470,13 +12470,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildP005.xsd"
+                        href='../msData/wildcards/wildP005.xsd'
                     ),
                 ],
                 expected=[
@@ -12488,12 +12488,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildP005"
+                name='wildP005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildP005.xml"
+                        href='../msData/wildcards/wildP005.xml'
                     ),
                     expected=[
                         Expected(
@@ -12504,10 +12504,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildP005.v"
+                    name='wildP005.v'
                 ),
             ],
-            name="wildP005"
+            name='wildP005'
         ),
         TestGroup(
             annotation=[
@@ -12515,7 +12515,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : ANYAttribute (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute not declared and instance document has attributes from targetNamespace",
+                                'TEST :Syntax Validation - any : ANYAttribute (w/ processContents=skip and namespace=##targetNamespace) with schema targetNamespace=http://foobar, attribute not declared and instance document has attributes from targetNamespace',
                             ]
                         ),
                     ]
@@ -12523,13 +12523,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildP006.xsd"
+                        href='../msData/wildcards/wildP006.xsd'
                     ),
                 ],
                 expected=[
@@ -12541,12 +12541,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildP006"
+                name='wildP006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildP006.xml"
+                        href='../msData/wildcards/wildP006.xml'
                     ),
                     expected=[
                         Expected(
@@ -12557,10 +12557,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildP006.v"
+                    name='wildP006.v'
                 ),
             ],
-            name="wildP006"
+            name='wildP006'
         ),
         TestGroup(
             annotation=[
@@ -12568,7 +12568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : validate namespace set to a valid namespace URI and instance document has correct elements",
+                                'TEST :Syntax Validation - any : validate namespace set to a valid namespace URI and instance document has correct elements',
                             ]
                         ),
                     ]
@@ -12576,13 +12576,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ001.xsd"
+                        href='../msData/wildcards/wildZ001.xsd'
                     ),
                 ],
                 expected=[
@@ -12594,12 +12594,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ001"
+                name='wildZ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ001.xml"
+                        href='../msData/wildcards/wildZ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -12610,10 +12610,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ001.i"
+                    name='wildZ001.i'
                 ),
             ],
-            name="wildZ001"
+            name='wildZ001'
         ),
         TestGroup(
             annotation=[
@@ -12629,19 +12629,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ002.xsd"
+                        href='../msData/wildcards/wildZ002.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ002_a.xsd"
+                        href='../msData/wildcards/wildZ002_a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ002_b.xsd"
+                        href='../msData/wildcards/wildZ002_b.xsd'
                     ),
                 ],
                 expected=[
@@ -12653,12 +12653,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ002"
+                name='wildZ002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ002.xml"
+                        href='../msData/wildcards/wildZ002.xml'
                     ),
                     expected=[
                         Expected(
@@ -12669,10 +12669,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ002.v"
+                    name='wildZ002.v'
                 ),
             ],
-            name="wildZ002"
+            name='wildZ002'
         ),
         TestGroup(
             annotation=[
@@ -12688,16 +12688,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ003_b.xsd"
+                        href='../msData/wildcards/wildZ003_b.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ003_a.xsd"
+                        href='../msData/wildcards/wildZ003_a.xsd'
                     ),
                 ],
                 expected=[
@@ -12709,12 +12709,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ003"
+                name='wildZ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ003.xml"
+                        href='../msData/wildcards/wildZ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -12725,10 +12725,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ003.v"
+                    name='wildZ003.v'
                 ),
             ],
-            name="wildZ003"
+            name='wildZ003'
         ),
         TestGroup(
             annotation=[
@@ -12736,7 +12736,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : xsd: un-declared element when content is xsd:anyType.",
+                                'TEST :Syntax Validation - any : xsd: un-declared element when content is xsd:anyType.',
                             ]
                         ),
                     ]
@@ -12744,13 +12744,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ004.xsd"
+                        href='../msData/wildcards/wildZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -12762,12 +12762,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ004"
+                name='wildZ004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ004.xml"
+                        href='../msData/wildcards/wildZ004.xml'
                     ),
                     expected=[
                         Expected(
@@ -12778,10 +12778,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ004.v"
+                    name='wildZ004.v'
                 ),
             ],
-            name="wildZ004"
+            name='wildZ004'
         ),
         TestGroup(
             annotation=[
@@ -12797,13 +12797,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ005.xsd"
+                        href='../msData/wildcards/wildZ005.xsd'
                     ),
                 ],
                 expected=[
@@ -12815,12 +12815,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ005"
+                name='wildZ005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ005.xml"
+                        href='../msData/wildcards/wildZ005.xml'
                     ),
                     expected=[
                         Expected(
@@ -12831,10 +12831,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ005.i"
+                    name='wildZ005.i'
                 ),
             ],
-            name="wildZ005"
+            name='wildZ005'
         ),
         TestGroup(
             annotation=[
@@ -12842,7 +12842,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : any with namespace ##other should not allow local element",
+                                'TEST :Syntax Validation - any : any with namespace ##other should not allow local element',
                             ]
                         ),
                     ]
@@ -12850,13 +12850,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ006.xsd"
+                        href='../msData/wildcards/wildZ006.xsd'
                     ),
                 ],
                 expected=[
@@ -12868,12 +12868,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ006"
+                name='wildZ006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ006.xml"
+                        href='../msData/wildcards/wildZ006.xml'
                     ),
                     expected=[
                         Expected(
@@ -12884,10 +12884,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ006.i"
+                    name='wildZ006.i'
                 ),
             ],
-            name="wildZ006"
+            name='wildZ006'
         ),
         TestGroup(
             annotation=[
@@ -12903,13 +12903,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ007.xsd"
+                        href='../msData/wildcards/wildZ007.xsd'
                     ),
                 ],
                 expected=[
@@ -12921,12 +12921,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ007"
+                name='wildZ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ007.xml"
+                        href='../msData/wildcards/wildZ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -12937,10 +12937,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ007.v"
+                    name='wildZ007.v'
                 ),
             ],
-            name="wildZ007"
+            name='wildZ007'
         ),
         TestGroup(
             annotation=[
@@ -12948,7 +12948,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : XSD: processContents on derivation",
+                                'TEST :Syntax Validation - any : XSD: processContents on derivation',
                             ]
                         ),
                     ]
@@ -12956,13 +12956,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ008.xsd"
+                        href='../msData/wildcards/wildZ008.xsd'
                     ),
                 ],
                 expected=[
@@ -12974,9 +12974,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ008"
+                name='wildZ008'
             ),
-            name="wildZ008"
+            name='wildZ008'
         ),
         TestGroup(
             annotation=[
@@ -12984,7 +12984,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : XSD: processContents on derivation(2)",
+                                'TEST :Syntax Validation - any : XSD: processContents on derivation(2)',
                             ]
                         ),
                     ]
@@ -12992,13 +12992,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ009.xsd"
+                        href='../msData/wildcards/wildZ009.xsd'
                     ),
                 ],
                 expected=[
@@ -13010,9 +13010,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ009"
+                name='wildZ009'
             ),
-            name="wildZ009"
+            name='wildZ009'
         ),
         TestGroup(
             annotation=[
@@ -13020,7 +13020,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : XSD: processContents on derivation(3)",
+                                'TEST :Syntax Validation - any : XSD: processContents on derivation(3)',
                             ]
                         ),
                     ]
@@ -13028,13 +13028,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ009b.xsd"
+                        href='../msData/wildcards/wildZ009b.xsd'
                     ),
                 ],
                 expected=[
@@ -13046,9 +13046,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ009b"
+                name='wildZ009b'
             ),
-            name="wildZ009b"
+            name='wildZ009b'
         ),
         TestGroup(
             annotation=[
@@ -13061,7 +13061,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled the instance invalid -- no defaulting of the empty string&#10;to ##any is licensed by the spec.",
+                                'TSTF ruled the instance invalid -- no defaulting of the empty string\nto ##any is licensed by the spec.',
                             ]
                         ),
                     ]
@@ -13069,13 +13069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ010_a.xsd"
+                        href='../msData/wildcards/wildZ010_a.xsd'
                     ),
                 ],
                 expected=[
@@ -13087,12 +13087,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ010"
+                name='wildZ010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ010.xml"
+                        href='../msData/wildcards/wildZ010.xml'
                     ),
                     expected=[
                         Expected(
@@ -13102,23 +13102,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2009, 1, 15),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4066"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4066'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4066"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4066'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="wildZ010.v"
+                    name='wildZ010.v'
                 ),
             ],
-            name="wildZ010"
+            name='wildZ010'
         ),
         TestGroup(
             annotation=[
@@ -13126,7 +13126,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : XSD: process Contents for the complete wildcard component",
+                                'TEST :Syntax Validation - any : XSD: process Contents for the complete wildcard component',
                             ]
                         ),
                     ]
@@ -13134,13 +13134,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/wildZ011a.xsd"
+                        href='../msData/wildcards/wildZ011a.xsd'
                     ),
                 ],
                 expected=[
@@ -13152,12 +13152,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ011"
+                name='wildZ011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/wildZ011.xml"
+                        href='../msData/wildcards/wildZ011.xml'
                     ),
                     expected=[
                         Expected(
@@ -13168,10 +13168,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ011.i"
+                    name='wildZ011.i'
                 ),
             ],
-            name="wildZ011"
+            name='wildZ011'
         ),
         TestGroup(
             annotation=[
@@ -13179,7 +13179,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13187,13 +13187,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873i.xsd"
+                        href='../msData/wildcards/test328873i.xsd'
                     ),
                 ],
                 expected=[
@@ -13213,22 +13213,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 3, 27),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=15629"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=15629'
                 ),
                 prior=[
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 11, 30),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14556"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=14556'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="wildZ013"
+                name='wildZ013'
             ),
-            name="wildZ013"
+            name='wildZ013'
         ),
         TestGroup(
             annotation=[
@@ -13236,7 +13236,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13244,13 +13244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873.xsd"
+                        href='../msData/wildcards/test328873.xsd'
                     ),
                 ],
                 expected=[
@@ -13262,12 +13262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ013a"
+                name='wildZ013a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/test328873a.xml"
+                        href='../msData/wildcards/test328873a.xml'
                     ),
                     expected=[
                         Expected(
@@ -13278,10 +13278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ013a.i"
+                    name='wildZ013a.i'
                 ),
             ],
-            name="wildZ013a"
+            name='wildZ013a'
         ),
         TestGroup(
             annotation=[
@@ -13289,7 +13289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13297,13 +13297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873.xsd"
+                        href='../msData/wildcards/test328873.xsd'
                     ),
                 ],
                 expected=[
@@ -13315,12 +13315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ013b"
+                name='wildZ013b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/test328873b.xml"
+                        href='../msData/wildcards/test328873b.xml'
                     ),
                     expected=[
                         Expected(
@@ -13331,10 +13331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ013b.v"
+                    name='wildZ013b.v'
                 ),
             ],
-            name="wildZ013b"
+            name='wildZ013b'
         ),
         TestGroup(
             annotation=[
@@ -13342,7 +13342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13350,13 +13350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873.xsd"
+                        href='../msData/wildcards/test328873.xsd'
                     ),
                 ],
                 expected=[
@@ -13368,12 +13368,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ013c"
+                name='wildZ013c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/test328873c.xml"
+                        href='../msData/wildcards/test328873c.xml'
                     ),
                     expected=[
                         Expected(
@@ -13384,10 +13384,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ013c.v"
+                    name='wildZ013c.v'
                 ),
             ],
-            name="wildZ013c"
+            name='wildZ013c'
         ),
         TestGroup(
             annotation=[
@@ -13395,7 +13395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13403,13 +13403,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873.xsd"
+                        href='../msData/wildcards/test328873.xsd'
                     ),
                 ],
                 expected=[
@@ -13421,12 +13421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ013d"
+                name='wildZ013d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/test328873d.xml"
+                        href='../msData/wildcards/test328873d.xml'
                     ),
                     expected=[
                         Expected(
@@ -13437,10 +13437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ013d.i"
+                    name='wildZ013d.i'
                 ),
             ],
-            name="wildZ013d"
+            name='wildZ013d'
         ),
         TestGroup(
             annotation=[
@@ -13448,7 +13448,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13456,13 +13456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873.xsd"
+                        href='../msData/wildcards/test328873.xsd'
                     ),
                 ],
                 expected=[
@@ -13474,12 +13474,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ013e"
+                name='wildZ013e'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/test328873e.xml"
+                        href='../msData/wildcards/test328873e.xml'
                     ),
                     expected=[
                         Expected(
@@ -13490,10 +13490,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ013e.i"
+                    name='wildZ013e.i'
                 ),
             ],
-            name="wildZ013e"
+            name='wildZ013e'
         ),
         TestGroup(
             annotation=[
@@ -13501,7 +13501,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set",
+                                'TEST :Syntax Validation - any : 328873: Attribute Wildcard Intersection and Union rules according to Errata E1-10 in schema set',
                             ]
                         ),
                     ]
@@ -13509,13 +13509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/wildcards/test328873.xsd"
+                        href='../msData/wildcards/test328873.xsd'
                     ),
                 ],
                 expected=[
@@ -13527,12 +13527,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="wildZ013f"
+                name='wildZ013f'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/wildcards/test328873f.xml"
+                        href='../msData/wildcards/test328873f.xml'
                     ),
                     expected=[
                         Expected(
@@ -13543,15 +13543,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="wildZ013f.i"
+                    name='wildZ013f.i'
                 ),
             ],
-            name="wildZ013f"
+            name='wildZ013f'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Wildcards2006-07-15",
+    contributor='Microsoft',
+    name='MS-Wildcards2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

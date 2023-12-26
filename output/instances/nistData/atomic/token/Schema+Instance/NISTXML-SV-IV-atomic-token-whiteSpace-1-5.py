@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenWhiteSpace1(
-    value="led the Extensible Markup Language XML which is rapidly becoming one of the most"
+    value='led the Extensible Markup Language XML which is rapidly becoming one of the most'
 )

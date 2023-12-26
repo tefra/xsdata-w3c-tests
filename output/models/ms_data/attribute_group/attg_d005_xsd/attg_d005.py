@@ -11,32 +11,32 @@ class Doc:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     foo: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     bar: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "max_exclusive": 100,
-        }
+        },
     )
     att3: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -44,5 +44,5 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

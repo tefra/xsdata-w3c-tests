@@ -5,12 +5,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = A(
     ns_test1_ns_test2_element=[
         AnyElement(
-            qname="{ns_test1}date",
-            text="2002-04-29"
+            qname='{ns_test1}date',
+            text='2002-04-29'
         ),
         AnyElement(
-            qname="{ns_test2}time",
-            text="15:15:00"
+            qname='{ns_test2}time',
+            text='15:15:00'
         ),
     ]
 )

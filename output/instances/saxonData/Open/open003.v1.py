@@ -3,10 +3,10 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    a="",
-    b="",
+    a='',
+    b='',
     local_com_element=AnyElement(
-        qname="{http://local.com/}extra",
-        text="42"
+        qname='{http://local.com/}extra',
+        text='42'
     )
 )

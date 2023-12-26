@@ -15,26 +15,26 @@ class ElementWithAttr:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     number: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     height: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -49,5 +49,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

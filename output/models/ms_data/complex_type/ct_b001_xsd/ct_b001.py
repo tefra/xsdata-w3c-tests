@@ -6,6 +6,7 @@ class FooType:
     """
     Annotation information.
     """
+
     class Meta:
         name = "fooType"
 

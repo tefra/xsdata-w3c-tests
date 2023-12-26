@@ -23,7 +23,7 @@ class FooType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     attr_test: Optional[object] = field(
         default=None,
@@ -31,7 +31,7 @@ class FooType:
             "name": "attrTest",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 

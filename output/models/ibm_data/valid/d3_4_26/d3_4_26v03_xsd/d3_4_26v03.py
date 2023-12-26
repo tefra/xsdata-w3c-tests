@@ -13,6 +13,7 @@ class Root:
     :ivar ely_mdunion_c: Tests the simpleType yearMonthDuration used in
         a unions
     """
+
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_26_v03"
@@ -24,7 +25,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     ely_mdunion_b: List[Union[XmlDuration, int]] = field(
         default_factory=list,
@@ -33,7 +34,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     ely_mdunion_c: List[Union[XmlDuration, str, int]] = field(
         default_factory=list,
@@ -42,5 +43,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

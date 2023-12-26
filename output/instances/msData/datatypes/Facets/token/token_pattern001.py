@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.token.token_pattern001_xsd.token_pat
 
 
 obj = Test(
-    foo="abc"
+    foo='abc'
 )

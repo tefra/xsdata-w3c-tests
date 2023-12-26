@@ -20,9 +20,11 @@ class NistschemaSvIvAtomicPositiveIntegerEnumeration3:
         name = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvAtomicPositiveIntegerEnumeration3Type] = field(
+    value: Optional[
+        NistschemaSvIvAtomicPositiveIntegerEnumeration3Type
+    ] = field(
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

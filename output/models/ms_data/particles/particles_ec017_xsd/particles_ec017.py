@@ -25,5 +25,5 @@ class Doc:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )

@@ -14,7 +14,7 @@ class Elem:
             "namespace": "",
             "max_occurs": 99999999999999,
             "sequence": 1,
-        }
+        },
     )
     a2: List[object] = field(
         default_factory=list,
@@ -23,7 +23,7 @@ class Elem:
             "namespace": "",
             "max_occurs": 99999999999999,
             "sequence": 1,
-        }
+        },
     )
     a3: List[object] = field(
         default_factory=list,
@@ -32,7 +32,7 @@ class Elem:
             "namespace": "",
             "max_occurs": 99999999999999,
             "sequence": 1,
-        }
+        },
     )
     a4: List[object] = field(
         default_factory=list,
@@ -41,7 +41,7 @@ class Elem:
             "namespace": "",
             "max_occurs": 99999999999999,
             "sequence": 1,
-        }
+        },
     )
     a5: List[object] = field(
         default_factory=list,
@@ -50,7 +50,7 @@ class Elem:
             "namespace": "",
             "max_occurs": 99999999999999,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -64,5 +64,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

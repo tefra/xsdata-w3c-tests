@@ -2,5 +2,5 @@ from output.models.ms_data.regex.superscriptsand_subscripts_xsd.superscriptsand_
 
 
 obj = Doc(
-    value="⁰ⁱ⁲⁳⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎₏ₐₑₒₓₔₕₖₗₘₙₚₛₜ₝₞₟"
+    value='⁰ⁱ\u2072\u2073⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎\u208fₐₑₒₓₔₕₖₗₘₙₚₛₜ\u209d\u209e\u209f'
 )

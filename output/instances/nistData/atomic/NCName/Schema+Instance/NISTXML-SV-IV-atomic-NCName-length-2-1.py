@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength2(
-    value="ie.signatures_advent-quality-being_templates.process_can.stan"
+    value='ie.signatures_advent-quality-being_templates.process_can.stan'
 )

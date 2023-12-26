@@ -15,7 +15,7 @@ class NistschemaSvIvAtomicIdMinLength2:
         metadata={
             "required": True,
             "min_length": 45,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensLength2(
     value=[
-        "that.Provide:is",
-        "thus:The-indust",
-        "heterogeneous_c",
-        "provides:fed_an",
-        "PC:enforcement:",
-        "and:the_the.tes",
+        'that.Provide:is',
+        'thus:The-indust',
+        'heterogeneous_c',
+        'provides:fed_an',
+        'PC:enforcement:',
+        'and:the_the.tes',
     ]
 )

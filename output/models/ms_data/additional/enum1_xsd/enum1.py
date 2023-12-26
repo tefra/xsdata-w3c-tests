@@ -17,11 +17,11 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     att: Optional[EnumType] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

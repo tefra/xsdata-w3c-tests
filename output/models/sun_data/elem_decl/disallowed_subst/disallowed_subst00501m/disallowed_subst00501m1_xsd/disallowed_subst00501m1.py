@@ -13,7 +13,7 @@ class Head:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class Member1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -50,5 +50,5 @@ class Root:
                     "type": str,
                 },
             ),
-        }
+        },
     )

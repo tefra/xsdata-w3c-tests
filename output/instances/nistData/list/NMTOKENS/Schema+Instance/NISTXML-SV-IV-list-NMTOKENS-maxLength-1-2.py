@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMaxLength1(
     value=[
-        "the:tools_its.consistency.of:them.any-and-s",
-        "methods_maintains.to_and.be-information.of.",
-        "as_used-by-particularly.The.Conference.a.in",
-        "Committee-consistency-and_language-devices-",
-        "stakeholders:data.database:be_Consequently:",
+        'the:tools_its.consistency.of:them.any-and-s',
+        'methods_maintains.to_and.be-information.of.',
+        'as_used-by-particularly.The.Conference.a.in',
+        'Committee-consistency-and_language-devices-',
+        'stakeholders:data.database:be_Consequently:',
     ]
 )

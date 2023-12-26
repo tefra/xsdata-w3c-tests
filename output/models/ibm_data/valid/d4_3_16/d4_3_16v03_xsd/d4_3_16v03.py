@@ -18,7 +18,7 @@ class DTimeRoot:
             "namespace": "",
             "required": True,
             "explicit_timezone": "required",
-        }
+        },
     )
     el_dtime_list_required: List[XmlDateTime] = field(
         default_factory=list,
@@ -29,7 +29,7 @@ class DTimeRoot:
             "required": True,
             "explicit_timezone": "required",
             "tokens": True,
-        }
+        },
     )
     el_dtime_list_prohibited: List[XmlDateTime] = field(
         default_factory=list,
@@ -40,7 +40,7 @@ class DTimeRoot:
             "required": True,
             "explicit_timezone": "prohibited",
             "tokens": True,
-        }
+        },
     )
     el_dtime_list_optional: List[XmlDateTime] = field(
         default_factory=list,
@@ -51,7 +51,7 @@ class DTimeRoot:
             "required": True,
             "explicit_timezone": "optional",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -66,7 +66,7 @@ class ElDtimeListOptional:
         metadata={
             "explicit_timezone": "optional",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -81,7 +81,7 @@ class ElDtimeListProhibited:
         metadata={
             "explicit_timezone": "prohibited",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -96,7 +96,7 @@ class ElDtimeListRequired:
         metadata={
             "explicit_timezone": "required",
             "tokens": True,
-        }
+        },
     )
 
 

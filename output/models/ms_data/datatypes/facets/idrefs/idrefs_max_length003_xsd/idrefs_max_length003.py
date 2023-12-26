@@ -13,13 +13,13 @@ class Foo:
             "type": "Attribute",
             "max_length": 2,
             "tokens": True,
-        }
+        },
     )
     id1_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -33,13 +33,13 @@ class FooType:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     id2_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

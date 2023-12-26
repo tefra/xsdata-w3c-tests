@@ -13,7 +13,7 @@ class Bar:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     e2: Optional[Bar] = field(
         default=None,
@@ -36,7 +36,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

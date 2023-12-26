@@ -7,7 +7,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    choice: List[Union[str, bool, int, object]] = field(
+    choice: List[Union[bool, object, str, int]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -44,7 +44,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

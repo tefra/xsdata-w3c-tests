@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicLanguagePattern5:
         metadata={
             "required": True,
             "pattern": r"([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*",
-        }
+        },
     )

@@ -12,21 +12,21 @@ obj = Jsml(
             events=EventsType(
                 event=[
                     EventType(
-                        desc="&#10;&#9;&#9;&#9;&#9;&#9;Fired when the singleton instance is created.&#10;&#9;&#9;&#9;&#9;",
-                        name="InstanceCreated",
+                        desc='\n\t\t\t\t\tFired when the singleton instance is created.\n\t\t\t\t',
+                        name='InstanceCreated',
                         scope=ScopeType.CLASS
                     ),
                 ]
             ),
             property=[
                 PropertyType(
-                    desc="&#10;&#9;&#9;&#9;&#9;Singleton instance, initialized on first access.&#10;&#9;&#9;&#9;",
-                    name="instance",
+                    desc='\n\t\t\t\tSingleton instance, initialized on first access.\n\t\t\t',
+                    name='instance',
                     scope=ScopeType.CLASS,
-                    type_value="Singleton"
+                    type_value='Singleton'
                 ),
             ],
-            name="Singleton"
+            name='Singleton'
         ),
     ]
 )

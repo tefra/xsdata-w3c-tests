@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDecimalMinExclusive5:
         metadata={
             "required": True,
             "min_exclusive": Decimal("999999999999999998"),
-        }
+        },
     )

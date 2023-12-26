@@ -11,7 +11,7 @@ obj = Root(
             ),
             ElementWithAttr(
                 any_attributes={
-                    "notDefined": "wood",
+                    'notDefined': 'wood',
                 }
             ),
         ]

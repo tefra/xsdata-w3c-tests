@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.positive_integer.schema_instance.nistschem
 
 obj = NistschemaSvIvListPositiveIntegerPattern5(
     value=[
-        "6",
-        "6723",
-        "8516557",
-        "3353783384",
-        "5532511337396",
-        "933238824262545122",
+        '6',
+        '6723',
+        '8516557',
+        '3353783384',
+        '5532511337396',
+        '933238824262545122',
     ]
 )

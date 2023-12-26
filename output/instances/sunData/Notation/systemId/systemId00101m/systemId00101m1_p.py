@@ -2,5 +2,5 @@ from output.models.sun_data.notation.system_id.system_id00101m.system_id00101m1_
 
 
 obj = A(
-    value="abc"
+    value='abc'
 )

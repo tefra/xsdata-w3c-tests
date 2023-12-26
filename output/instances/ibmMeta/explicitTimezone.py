@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone',
                     },
                     content=[
-                        " explicitTimezone&#10;&#9; ",
+                        ' explicitTimezone\n\t ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements ",
+                                'Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v01.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v01s"
+                name='d4_3_16v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v01.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v01i"
+                    name='d4_3_16v01i'
                 ),
             ],
-            name="d4_3_16v01",
+            name='d4_3_16v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements ",
+                                'Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v02.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v02s"
+                name='d4_3_16v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v02.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v02i"
+                    name='d4_3_16v02i'
                 ),
             ],
-            name="d4_3_16v02",
+            name='d4_3_16v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType precisionDecimal and its facet, explicitTimezone, used in lists",
+                                'Tests the simpleType precisionDecimal and its facet, explicitTimezone, used in lists',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v03.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v03s"
+                name='d4_3_16v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v03.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v03i"
+                    name='d4_3_16v03i'
                 ),
             ],
-            name="d4_3_16v03",
+            name='d4_3_16v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            Tests the simpleType dateTime and its facet, explicitTimezone used with unions &#10;            ",
+                                '\n            Tests the simpleType dateTime and its facet, explicitTimezone used with unions \n            ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v04.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v04s"
+                name='d4_3_16v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v04.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v04i"
+                    name='d4_3_16v04i'
                 ),
             ],
-            name="d4_3_16v04",
+            name='d4_3_16v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets, explicitTimezone  ",
+                                'Tests the simpleType dateTime and its facets, explicitTimezone  ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v05.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v05s"
+                name='d4_3_16v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v05.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v05i"
+                    name='d4_3_16v05i'
                 ),
             ],
-            name="d4_3_16v05",
+            name='d4_3_16v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes",
+                                'Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v06.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v06s"
+                name='d4_3_16v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v06.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v06i"
+                    name='d4_3_16v06i'
                 ),
             ],
-            name="d4_3_16v06",
+            name='d4_3_16v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets with explicitTimezone constraint checks in derivations of simpleTypes ",
+                                'Tests the simpleType dateTime and its facets with explicitTimezone constraint checks in derivations of simpleTypes ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v07.xsd"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v07.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16v07s"
+                name='d4_3_16v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_16/d4_3_16v07.xml"
+                        href='../ibmData/valid/D4_3_16/d4_3_16v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16v07i"
+                    name='d4_3_16v07i'
                 ),
             ],
-            name="d4_3_16v07",
+            name='d4_3_16v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid dateTime values ",
+                                'invalid dateTime values ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii01.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii01s"
+                name='d4_3_16ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii01.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii01i"
+                    name='d4_3_16ii01i'
                 ),
             ],
-            name="d4_3_16ii01",
+            name='d4_3_16ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -509,7 +509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its explicitTimezone facets and its use in attributes ",
+                                'Tests the simpleType dateTime and its explicitTimezone facets and its use in attributes ',
                             ]
                         ),
                     ]
@@ -517,16 +517,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii02.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -538,12 +538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii02s"
+                name='d4_3_16ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii02.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -554,10 +554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii02i"
+                    name='d4_3_16ii02i'
                 ),
             ],
-            name="d4_3_16ii02",
+            name='d4_3_16ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -568,7 +568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets explicitTimezone, used in lists",
+                                'Tests the simpleType dateTime and its facets explicitTimezone, used in lists',
                             ]
                         ),
                     ]
@@ -576,16 +576,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii03.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -597,12 +597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii03s"
+                name='d4_3_16ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii03.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -613,10 +613,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii03i"
+                    name='d4_3_16ii03i'
                 ),
             ],
-            name="d4_3_16ii03",
+            name='d4_3_16ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -627,7 +627,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets explicitionTimezone, used with unions ",
+                                'Tests the simpleType dateTime and its facets explicitionTimezone, used with unions ',
                             ]
                         ),
                     ]
@@ -635,16 +635,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii04.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -656,12 +656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii04s"
+                name='d4_3_16ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii04.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -672,10 +672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii04i"
+                    name='d4_3_16ii04i'
                 ),
             ],
-            name="d4_3_16ii04",
+            name='d4_3_16ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -686,7 +686,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facets, explicitTimezone ",
+                                'Tests the simpleType dateTime and its facets, explicitTimezone ',
                             ]
                         ),
                     ]
@@ -694,16 +694,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii05.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -715,12 +715,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii05s"
+                name='d4_3_16ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii05.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -731,10 +731,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii05i"
+                    name='d4_3_16ii05i'
                 ),
             ],
-            name="d4_3_16ii05",
+            name='d4_3_16ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -745,7 +745,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes ",
+                                'Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes ',
                             ]
                         ),
                     ]
@@ -753,16 +753,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii06.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -774,12 +774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii06s"
+                name='d4_3_16ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii06.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -790,10 +790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii06i"
+                    name='d4_3_16ii06i'
                 ),
             ],
-            name="d4_3_16ii06",
+            name='d4_3_16ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -804,7 +804,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes ",
+                                'Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes ',
                             ]
                         ),
                     ]
@@ -812,16 +812,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii07.xsd"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii07.xsd'
                     ),
                 ],
                 expected=[
@@ -833,12 +833,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16ii07s"
+                name='d4_3_16ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_16/d4_3_16ii07.xml"
+                        href='../ibmData/instance_invalid/D4_3_16/d4_3_16ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -849,10 +849,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_16ii07i"
+                    name='d4_3_16ii07i'
                 ),
             ],
-            name="d4_3_16ii07",
+            name='d4_3_16ii07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -863,7 +863,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "explicitTimezone, schema invalid test cases ",
+                                'explicitTimezone, schema invalid test cases ',
                             ]
                         ),
                     ]
@@ -871,16 +871,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D4_3_16/d4_3_16si01.xsd"
+                        href='../ibmData/schema_invalid/D4_3_16/d4_3_16si01.xsd'
                     ),
                 ],
                 expected=[
@@ -892,9 +892,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16si01s"
+                name='d4_3_16si01s'
             ),
-            name="d4_3_16si01",
+            name='d4_3_16si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -905,7 +905,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "It is an error to specify more than one explicitTimezone for the same type definition ",
+                                'It is an error to specify more than one explicitTimezone for the same type definition ',
                             ]
                         ),
                     ]
@@ -913,16 +913,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D4_3_16/d4_3_16si02.xsd"
+                        href='../ibmData/schema_invalid/D4_3_16/d4_3_16si02.xsd'
                     ),
                 ],
                 expected=[
@@ -934,9 +934,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16si02s"
+                name='d4_3_16si02s'
             ),
-            name="d4_3_16si02",
+            name='d4_3_16si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -947,7 +947,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "error if base = prohibited and child != prohibited&#10;          base = required and child != required  ",
+                                'error if base = prohibited and child != prohibited\n          base = required and child != required  ',
                             ]
                         ),
                     ]
@@ -955,16 +955,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D4_3_16/d4_3_16si03.xsd"
+                        href='../ibmData/schema_invalid/D4_3_16/d4_3_16si03.xsd'
                     ),
                 ],
                 expected=[
@@ -976,9 +976,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16si03s"
+                name='d4_3_16si03s'
             ),
-            name="d4_3_16si03",
+            name='d4_3_16si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -989,7 +989,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "This test case tests the fixed attribute on facet, explicitTimezone ",
+                                'This test case tests the fixed attribute on facet, explicitTimezone ',
                             ]
                         ),
                     ]
@@ -997,16 +997,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D4_3_16/d4_3_16si04.xsd"
+                        href='../ibmData/schema_invalid/D4_3_16/d4_3_16si04.xsd'
                     ),
                 ],
                 expected=[
@@ -1018,17 +1018,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_16si04s"
+                name='d4_3_16si04s'
             ),
-            name="d4_3_16si04",
+            name='d4_3_16si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="explicitTimezone",
+    contributor='IBM',
+    name='explicitTimezone',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -14,13 +14,13 @@ class B:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -35,13 +35,13 @@ class Root:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     keyref: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
     @dataclass
@@ -51,5 +51,5 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
-            }
+            },
         )

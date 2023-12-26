@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern5(
-    value="dcan_graphical-for.the.daily.all"
+    value='dcan_graphical-for.the.daily.all'
 )

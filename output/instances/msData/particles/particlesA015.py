@@ -7,16 +7,16 @@ obj = Doc(
     elem=Elem(
         any_element=[
             AnyElement(
-                qname="{foo}any",
-                text="&#10;&#9;&#9;&#9;testing&#10;&#9;&#9;"
+                qname='{foo}any',
+                text='\n\t\t\ttesting\n\t\t'
             ),
             AnyElement(
-                qname="{foo}foo",
-                text="&#10;&#9;&#9;&#9;really testing&#10;&#9;&#9;"
+                qname='{foo}foo',
+                text='\n\t\t\treally testing\n\t\t'
             ),
             AnyElement(
-                qname="{foo}foo",
-                text="&#10;&#9;&#9;&#9;really testing&#10;&#9;&#9;"
+                qname='{foo}foo',
+                text='\n\t\t\treally testing\n\t\t'
             ),
         ]
     )

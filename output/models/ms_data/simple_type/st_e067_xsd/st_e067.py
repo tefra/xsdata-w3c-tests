@@ -9,7 +9,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, str, Decimal] = field(
-        init=False,
-        default="name"
-    )
+    value: Union[XmlPeriod, str, Decimal] = field(init=False, default="name")

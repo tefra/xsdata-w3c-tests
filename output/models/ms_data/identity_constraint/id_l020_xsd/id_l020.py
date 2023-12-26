@@ -15,7 +15,7 @@ class Ttype:
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -24,13 +24,13 @@ class Ttype:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         col: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -52,5 +52,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

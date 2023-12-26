@@ -53,7 +53,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

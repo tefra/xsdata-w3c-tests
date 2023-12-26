@@ -15,5 +15,5 @@ class NistschemaSvIvListNcnameMinLength4:
         metadata={
             "min_length": 8,
             "tokens": True,
-        }
+        },
     )

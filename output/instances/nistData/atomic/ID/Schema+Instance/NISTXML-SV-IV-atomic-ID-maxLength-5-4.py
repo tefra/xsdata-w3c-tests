@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMaxLength5(
-        value="_key.not.devices_software.of_is_including_for."
+        value='_key.not.devices_software.of_is_including_for.'
     )
 )

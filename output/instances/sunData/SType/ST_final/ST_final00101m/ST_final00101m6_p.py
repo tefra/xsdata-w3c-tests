@@ -2,5 +2,5 @@ from output.models.sun_data.stype.st_final.st_final00101m.st_final00101m6_xsd.st
 
 
 obj = Test(
-    value="4"
+    value='4'
 )

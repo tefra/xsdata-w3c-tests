@@ -28,14 +28,14 @@ class MyType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -51,21 +51,21 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_attr2: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr2",
             "type": "Attribute",
-        }
+        },
     )
     my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 

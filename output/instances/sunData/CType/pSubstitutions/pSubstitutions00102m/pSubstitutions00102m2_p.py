@@ -3,12 +3,12 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = DerivedElement(
-    qname="{pSubstitutions}e",
+    qname='{pSubstitutions}e',
     value=C(
         c=[
             1,
             2,
         ]
     ),
-    type="{pSubstitutions}C"
+    type='{pSubstitutions}C'
 )

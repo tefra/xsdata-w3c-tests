@@ -17,5 +17,5 @@ class X:
             "type": "Element",
             "namespace": "http://test2",
             "required": True,
-        }
+        },
     )

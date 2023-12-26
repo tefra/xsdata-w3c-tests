@@ -13,7 +13,7 @@ class NistschemaSvIvAtomicDoubleEnumeration1Type(Enum):
     VALUE_3_5861613937406181_E36 = "3.5861613937406181E36"
     VALUE_2_7457332729808998_E126 = "2.7457332729808998E126"
     VALUE_2_8407030485906319_E216 = "2.8407030485906319E216"
-    VALUE_1_7976931348623157_E308 = 1.7976931348623157e+308
+    VALUE_1_7976931348623157_E308 = 1.7976931348623157e308
 
 
 @dataclass
@@ -26,5 +26,5 @@ class NistschemaSvIvAtomicDoubleEnumeration1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

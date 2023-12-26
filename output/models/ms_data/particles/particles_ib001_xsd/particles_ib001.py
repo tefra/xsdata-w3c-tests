@@ -26,7 +26,7 @@ class Base:
                 },
             ),
             "max_occurs": 6,
-        }
+        },
     )
 
 

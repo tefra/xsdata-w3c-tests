@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMinLength4(
     value=[
-        "to-revolution-This_describes_to_web_sy",
-        "of_provides-and:profile_a:of.the-stimu",
-        "and-language:XML:provides_interoperabi",
-        "include:thus.Extensible-The.addressing",
-        "recent-rigorous:computer-and-between_n",
-        "library_OASIS_Errors:appropriate.the_a",
-        "The-Sun-repository.as-services_computi",
-        "display.files-localized_that-a:Academy",
+        'to-revolution-This_describes_to_web_sy',
+        'of_provides-and:profile_a:of.the-stimu',
+        'and-language:XML:provides_interoperabi',
+        'include:thus.Extensible-The.addressing',
+        'recent-rigorous:computer-and-between_n',
+        'library_OASIS_Errors:appropriate.the_a',
+        'The-Sun-repository.as-services_computi',
+        'display.files-localized_that-a:Academy',
     ]
 )

@@ -11,13 +11,13 @@ class Ids:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -41,11 +41,11 @@ class Root:
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         idref2: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

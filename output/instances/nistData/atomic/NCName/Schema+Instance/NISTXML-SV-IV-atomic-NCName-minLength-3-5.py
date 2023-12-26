@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength3(
-    value="mservices-for_has.wireless.sense-the-and.of-indication.as.and.fo"
+    value='mservices-for_has.wireless.sense-the-and.of-indication.as.and.fo'
 )

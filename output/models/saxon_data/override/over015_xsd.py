@@ -19,25 +19,25 @@ class StructuredDate:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     month: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     day: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     nota: Optional[NotaFooBar] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para_or_bezzle: List[Union[QName, StructuredDate]] = field(
+    para_or_bezzle: List[Union[StructuredDate, QName]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -60,5 +60,5 @@ class Doc:
                     "type": QName,
                 },
             ),
-        }
+        },
     )

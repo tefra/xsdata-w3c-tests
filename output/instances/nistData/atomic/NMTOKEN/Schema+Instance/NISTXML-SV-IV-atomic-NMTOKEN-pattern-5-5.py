@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern5(
-    value="be.files.and:of-tr"
+    value='be.files.and:of-tr'
 )

@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.non_positive_integer.schema_instance.nistschema_sv_iv_atomic_non_positive_integer_total_digits_3_xsd.nistschema_sv_iv_atomic_non_positive_integer_total_digits_3 import NistschemaSvIvAtomicNonPositiveIntegerTotalDigits3
+from output.models.nist_data.atomic.non_positive_integer.schema_instance.nistschema_sv_iv_atomic_non_positive_integer_total_digits_3_xsd.nistschema_sv_iv_atomic_non_positive_integer_total_digits_3 import (
+    NistschemaSvIvAtomicNonPositiveIntegerTotalDigits3,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicNonPositiveIntegerTotalDigits3",

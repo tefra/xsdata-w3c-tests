@@ -8,89 +8,89 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Root(
     choice=[
         Item(
-            value="abc"
+            value='abc'
         ),
         Item(
-            value="5"
+            value='5'
         ),
         Item(
 
         ),
         Item(
-            value="1234567890"
+            value='1234567890'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=A2(
                 value=1
             ),
-            type="A"
+            type='A'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=A2(
                 value=2
             ),
-            type="A"
+            type='A'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=A2(
                 value=3
             ),
-            type="A"
+            type='A'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=A2(
                 value=4
             ),
-            type="A"
+            type='A'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=B2(
-                value="a"
+                value='a'
             ),
-            type="B"
+            type='B'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=B2(
-                value="c123456789"
+                value='c123456789'
             ),
-            type="B"
+            type='B'
         ),
         DerivedElement(
-            qname="item",
+            qname='item',
             value=B2(
-                value="b"
+                value='b'
             ),
-            type="B"
+            type='B'
         ),
         Item(
-            value="1"
+            value='1'
         ),
         Item(
-            value="4"
+            value='4'
         ),
         Item(
-            value="c123456789"
+            value='c123456789'
         ),
         Item(
-            value="4"
+            value='4'
         ),
         Item(
-            value="1 2 3 4"
+            value='1 2 3 4'
         ),
         Item(
-            value="1 c123456789 b 4"
+            value='1 c123456789 b 4'
         ),
         Item(
-            value="1"
+            value='1'
         ),
         Item(
-            value="2"
+            value='2'
         ),
     ]
 )

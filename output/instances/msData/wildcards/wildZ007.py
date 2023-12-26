@@ -4,10 +4,10 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Stylesheet(
     any_element=AnyElement(
-        qname="e",
-        text="",
+        qname='e',
+        text='',
         attributes={
-            "{http://www.w3.org/1999/XSL/Transform}use-attribute-sets": "foo",
+            '{http://www.w3.org/1999/XSL/Transform}use-attribute-sets': 'foo',
         }
     )
 )

@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "particles"
 
-    date_or_marked: Optional[Union[bool, XmlDate]] = field(
+    date_or_marked: Optional[Union[XmlDate, bool]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -27,5 +27,5 @@ class A:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

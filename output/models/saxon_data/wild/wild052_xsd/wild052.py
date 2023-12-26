@@ -12,7 +12,7 @@ class Zang:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     any_element: Optional[object] = field(
         default=None,
@@ -35,5 +35,5 @@ class Zing:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )

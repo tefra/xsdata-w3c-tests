@@ -14,7 +14,7 @@ class MinimalA:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -27,12 +27,12 @@ class X:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     a_attribute: Optional[bool] = field(
         default=None,
         metadata={
             "name": "a",
             "type": "Attribute",
-        }
+        },
     )

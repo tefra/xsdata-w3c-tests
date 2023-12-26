@@ -11,7 +11,7 @@ class R:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class R2:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -37,13 +37,13 @@ class Rtype:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     val: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -66,7 +66,7 @@ class T:
                     "type": str,
                 },
             ),
-        }
+        },
     )
 
 
@@ -80,5 +80,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

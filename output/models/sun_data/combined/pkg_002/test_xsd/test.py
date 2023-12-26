@@ -18,7 +18,7 @@ class B:
             "type": "Element",
             "namespace": "foo",
             "required": True,
-        }
+        },
     )
 
 
@@ -43,7 +43,7 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 

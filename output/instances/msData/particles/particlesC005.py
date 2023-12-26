@@ -11,8 +11,8 @@ obj = Doc(
                 Foo(
                     any_element=[
                         AnyElement(
-                            qname="abc",
-                            text=""
+                            qname='abc',
+                            text=''
                         ),
                         Doc(
 

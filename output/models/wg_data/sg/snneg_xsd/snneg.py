@@ -22,7 +22,7 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
             ),
-        }
+        },
     )
     n: Optional[str] = field(
         default=None,
@@ -30,14 +30,14 @@ class T:
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
             "required": True,
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class E:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class N:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -79,7 +79,7 @@ class N1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -93,7 +93,7 @@ class S:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -107,7 +107,7 @@ class S1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 

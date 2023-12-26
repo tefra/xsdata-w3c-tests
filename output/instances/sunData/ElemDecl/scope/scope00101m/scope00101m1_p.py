@@ -6,8 +6,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     global_value=Global(
         any_element=AnyElement(
-            text="1"
+            text='1'
         )
     ),
-    local="2"
+    local='2'
 )

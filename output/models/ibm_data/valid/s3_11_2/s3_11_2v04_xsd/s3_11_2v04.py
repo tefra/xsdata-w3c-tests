@@ -16,7 +16,7 @@ class Keyname:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     numname: Optional[str] = field(
         default=None,
@@ -25,13 +25,13 @@ class Keyname:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     id: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -47,5 +47,5 @@ class Root:
             "name": "Number",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

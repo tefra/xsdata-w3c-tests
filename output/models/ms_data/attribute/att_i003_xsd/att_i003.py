@@ -18,13 +18,13 @@ class AttRef:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

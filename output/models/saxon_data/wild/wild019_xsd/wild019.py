@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -20,7 +20,7 @@ class R(B):
         metadata={
             "type": "Attributes",
             "namespace": "http://eve.com/",
-        }
+        },
     )
 
 

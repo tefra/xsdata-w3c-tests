@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength4(
-    value="XML:environments.is.being.objects"
+    value='XML:environments.is.being.objects'
 )

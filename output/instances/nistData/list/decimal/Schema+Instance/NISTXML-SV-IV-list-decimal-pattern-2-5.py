@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.decimal.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListDecimalPattern2(
     value=[
-        "6",
-        "-.451",
-        "5481.7",
-        "738424.7",
-        "5763532.41",
-        "-86443.868760",
-        "7656145822234",
-        "4553.98869653112246",
+        '6',
+        '-.451',
+        '5481.7',
+        '738424.7',
+        '5763532.41',
+        '-86443.868760',
+        '7656145822234',
+        '4553.98869653112246',
     ]
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength5(
-    value="xworld-participate.define.in.to.to.on-act_computing-discovery-pr"
+    value='xworld-participate.define.in.to.to.on-act_computing-discovery-pr'
 )

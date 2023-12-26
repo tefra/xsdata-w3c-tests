@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensPattern1(
     value=[
-        "a-the:software:b",
-        "to-vocabu",
-        "of-global_if_permitting.depends.ensure:this_",
-        "e-are_manufacturers-frameworks.to_",
-        "consortium:available:compatibility_interconnec",
-        "can_of",
+        'a-the:software:b',
+        'to-vocabu',
+        'of-global_if_permitting.depends.ensure:this_',
+        'e-are_manufacturers-frameworks.to_',
+        'consortium:available:compatibility_interconnec',
+        'can_of',
     ]
 )

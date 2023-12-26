@@ -13,19 +13,19 @@ class Xtype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     min: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     max: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

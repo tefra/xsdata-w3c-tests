@@ -13,19 +13,19 @@ class Numtype:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     id_1: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id_2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Root:
             "name": "Number",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

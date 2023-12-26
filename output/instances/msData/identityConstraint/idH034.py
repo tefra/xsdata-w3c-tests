@@ -8,29 +8,29 @@ obj = Root(
         T(
             c=Ctype2(
                 content=[
-                    " 1 ",
+                    ' 1 ',
                 ],
-                val2="1"
+                val2='1'
             ),
-            r="1"
+            r='1'
         ),
         T(
             c=Ctype2(
                 content=[
-                    " 2 ",
+                    ' 2 ',
                 ],
-                val2="2"
+                val2='2'
             ),
-            r="2"
+            r='2'
         ),
         T(
             c=Ctype2(
                 content=[
-                    " 3 ",
+                    ' 3 ',
                 ],
-                val2="3"
+                val2='3'
             ),
-            r="3"
+            r='3'
         ),
     ]
 )

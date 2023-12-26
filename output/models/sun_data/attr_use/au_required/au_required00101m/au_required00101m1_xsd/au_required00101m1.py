@@ -16,7 +16,7 @@ class ElementWithAttr:
             "type": "Attribute",
             "namespace": "AttrUse/required",
             "required": True,
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

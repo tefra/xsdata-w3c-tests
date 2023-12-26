@@ -13,7 +13,7 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -24,11 +24,11 @@ class Doc:
             metadata={
                 "name": "attFix",
                 "type": "Attribute",
-            }
+            },
         )
         foo: Optional[object] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

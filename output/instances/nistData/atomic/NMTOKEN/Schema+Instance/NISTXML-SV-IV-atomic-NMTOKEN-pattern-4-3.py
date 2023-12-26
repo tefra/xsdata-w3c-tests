@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern4(
-    value="nature.participate.to-key.contrib"
+    value='nature.participate.to-key.contrib'
 )

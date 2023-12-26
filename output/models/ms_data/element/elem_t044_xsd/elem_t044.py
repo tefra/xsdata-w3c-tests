@@ -21,14 +21,14 @@ class Ca:
             "type": "Element",
             "namespace": "",
             "max_occurs": 2,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class Sa:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class Test4:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -70,7 +70,7 @@ class ECa(Ca):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -85,7 +85,7 @@ class Root:
     class Meta:
         name = "root"
 
-    sa_or_test: Optional[Union[A, Sa]] = field(
+    sa_or_test: Optional[Union[Sa, A]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -99,25 +99,25 @@ class Root:
                     "type": A,
                 },
             ),
-        }
+        },
     )
     test2: Optional[A] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test3: Optional[A] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test4: Optional[Test4] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -130,7 +130,7 @@ class Test:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -143,7 +143,7 @@ class Test2:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -156,5 +156,5 @@ class Test3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

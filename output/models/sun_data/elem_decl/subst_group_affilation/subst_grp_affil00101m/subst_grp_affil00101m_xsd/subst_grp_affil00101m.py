@@ -14,7 +14,7 @@ class PublicationType:
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
             "required": True,
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class BookType(PublicationType):
             "name": "Author",
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class MagazineType(PublicationType):
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
             "required": True,
-        }
+        },
     )
 
 
@@ -80,5 +80,5 @@ class BookStore:
                     "type": Book,
                 },
             ),
-        }
+        },
     )

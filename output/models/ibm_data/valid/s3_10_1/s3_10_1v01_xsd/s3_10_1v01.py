@@ -14,7 +14,7 @@ class A:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class C:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

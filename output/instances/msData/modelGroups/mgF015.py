@@ -3,24 +3,24 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    one="",
-    two="",
-    three="",
-    four="",
+    one='',
+    two='',
+    three='',
+    four='',
     five_or_five2=AnyElement(
-        qname="five",
-        text=""
+        qname='five',
+        text=''
     ),
     six_or_six2=AnyElement(
-        qname="six",
-        text=""
+        qname='six',
+        text=''
     ),
     seven_or_seven2=AnyElement(
-        qname="seven",
-        text=""
+        qname='seven',
+        text=''
     ),
     eight_or_eight2=AnyElement(
-        qname="eight",
-        text=""
+        qname='eight',
+        text=''
     )
 )

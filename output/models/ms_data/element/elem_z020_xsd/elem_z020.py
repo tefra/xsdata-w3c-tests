@@ -6,7 +6,7 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class B:
-    choice: List[Union[bool, int]] = field(
+    foo_or_e1: List[Union[bool, int]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

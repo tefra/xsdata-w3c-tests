@@ -53,7 +53,7 @@ class R:
             "namespace": "",
         },
     )
-    choice: List[Union[ImpE2, E2]] = field(
+    e2: List[Union[ImpE2, E2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

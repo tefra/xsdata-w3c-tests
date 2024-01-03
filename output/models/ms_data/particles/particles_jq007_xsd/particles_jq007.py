@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -32,7 +32,12 @@ class Foo:
 
 @dataclass
 class R(B):
-    pass
+    target_namespace_element: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

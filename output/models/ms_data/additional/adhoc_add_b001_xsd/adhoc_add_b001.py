@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 
 __NAMESPACE__ = "ns-a"
 
@@ -31,6 +31,13 @@ class NsAAft:
 class MyType(NsAAft):
     class Meta:
         name = "myType"
+
+    y: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

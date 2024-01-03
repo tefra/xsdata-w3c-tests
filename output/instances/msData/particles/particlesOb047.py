@@ -5,7 +5,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=R(
-        foo_bar_element=AnyElement(
+        foo_element=AnyElement(
             qname='{foo}e1',
             text=''
         )

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -64,6 +64,12 @@ class NotMixed(Mixed):
     class Meta:
         name = "not_mixed"
 
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     foo: Optional[object] = field(
         default=None,
         metadata={
@@ -75,7 +81,18 @@ class NotMixed(Mixed):
 
 @dataclass
 class R(B):
-    pass
+    c2: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    d2: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict
+from typing import Dict, Any
 
 
 @dataclass
@@ -27,6 +27,12 @@ class FooType(MyType):
     class Meta:
         name = "fooType"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://xstest-tns"
@@ -79,6 +79,13 @@ class CtAlt1(CtBase):
 class CtAlt2(CtBase):
     class Meta:
         name = "ctAlt2"
+
+    child: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

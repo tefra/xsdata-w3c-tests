@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 __NAMESPACE__ = "urn:my-namespace"
 
@@ -41,6 +41,12 @@ class Member2:
 
 @dataclass
 class ContainMember2Type(ContainHead2Type):
+    head2: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     member2: Optional[str] = field(
         default=None,
         metadata={

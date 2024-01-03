@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 
 __NAMESPACE__ = "tns"
 
@@ -36,6 +36,12 @@ class DerivedType1(ChildType):
     class Meta:
         name = "derivedType1"
 
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Optional[bool] = field(default=None)
 
 
@@ -44,6 +50,12 @@ class DerivedType2(ChildType):
     class Meta:
         name = "derivedType2"
 
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Optional[int] = field(default=None)
 
 

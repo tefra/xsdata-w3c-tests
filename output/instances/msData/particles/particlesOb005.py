@@ -5,7 +5,7 @@ from output.models.ms_data.particles.particles_ob005_xsd.particles_ob005 import 
 
 obj = Doc(
     elem=R(
-        any_element=Foo(
+        target_namespace_element=Foo(
 
         )
     )

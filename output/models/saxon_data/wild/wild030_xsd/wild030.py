@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Any
 
 
 @dataclass
@@ -52,3 +52,10 @@ class Computer:
 class QuietComputer(Computer):
     class Meta:
         name = "quietComputer"
+
+    speaker: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )

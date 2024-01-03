@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Dict, Optional, Any
 
 
 @dataclass
@@ -15,6 +15,12 @@ class B:
 
 @dataclass
 class R(B):
+    target003_com_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     att: Optional[int] = field(
         default=None,
         metadata={

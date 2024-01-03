@@ -58,6 +58,12 @@ class Derived1(Base1):
 
 @dataclass
 class Derived2(Base2):
+    local_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     bar: Optional[object] = field(
         default=None,
         metadata={
@@ -68,7 +74,12 @@ class Derived2(Base2):
 
 @dataclass
 class Derived3(Base3):
-    pass
+    local_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

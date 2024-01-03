@@ -32,6 +32,18 @@ class One:
 
 @dataclass
 class Two(One):
+    elem1: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    elem2: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     att1: Any = field(
         init=False,
         metadata={

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 
 __NAMESPACE__ = "http://xstest-tns"
 
@@ -31,6 +31,12 @@ class IntegerTitleType(TitleType):
     class Meta:
         name = "integerTitleType"
 
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Optional[int] = field(default=None)
 
 
@@ -39,6 +45,12 @@ class MixedTitleType(TitleType):
     class Meta:
         name = "mixedTitleType"
 
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Union[int, str] = field(default="")
 
 
@@ -47,6 +59,12 @@ class StringTitleType(TitleType):
     class Meta:
         name = "stringTitleType"
 
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: str = field(default="")
 
 

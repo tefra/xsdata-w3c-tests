@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -49,8 +49,34 @@ class Doc(Base):
         name = "doc"
         namespace = "http://xsdtesting"
 
+    e: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    f: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+
 
 @dataclass
 class Test(B):
     class Meta:
         name = "test"
+
+    e: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    f: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )

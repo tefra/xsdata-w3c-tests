@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -38,6 +38,13 @@ class MyType:
 class FooType(MyType):
     class Meta:
         name = "fooType"
+
+    my_element: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

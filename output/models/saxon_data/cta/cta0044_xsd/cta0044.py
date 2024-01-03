@@ -49,6 +49,12 @@ class ATypeF(AType):
     class Meta:
         name = "aType_f"
 
+    t: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     f: Optional[str] = field(
         default=None,
         metadata={
@@ -70,6 +76,12 @@ class ATypeT(AType):
     class Meta:
         name = "aType_t"
 
+    f: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     t: Optional[str] = field(
         default=None,
         metadata={

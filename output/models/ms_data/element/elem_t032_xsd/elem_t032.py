@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 
 
 @dataclass
@@ -85,6 +85,13 @@ class ECa(Ca):
 class RCa(Ca):
     class Meta:
         name = "R-CA"
+
+    y: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

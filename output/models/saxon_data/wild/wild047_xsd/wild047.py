@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Any
 
 
 @dataclass
@@ -39,6 +39,13 @@ class Computer1:
 class RestrictedComputer(Computer1):
     class Meta:
         name = "restrictedComputer"
+
+    extra_com_element: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

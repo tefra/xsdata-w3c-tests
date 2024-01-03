@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict
+from typing import Dict, Any
 
 __NAMESPACE__ = "urn:foo"
 
@@ -24,6 +24,13 @@ class Alias(Base):
         name = "alias"
         namespace = "urn:foo"
 
+    a_b_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+
 
 @dataclass
 class Extension(Base):
@@ -46,6 +53,12 @@ class Restriction(Base):
         name = "restriction"
         namespace = "urn:foo"
 
+    a_b_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     a_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={

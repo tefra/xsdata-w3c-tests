@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -35,7 +35,12 @@ class Base:
 
 @dataclass
 class Derived(Base):
-    pass
+    any: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

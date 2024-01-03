@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Dict, Optional, Any
 
 
 @dataclass
@@ -45,6 +45,18 @@ class FooType(Foo):
     class Meta:
         name = "fooType"
 
+    my_ele3: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     my_ele1: Optional[str] = field(
         default=None,
         metadata={

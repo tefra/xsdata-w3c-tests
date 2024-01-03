@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from xsdata.models.datatype import XmlDate, XmlTime
 
 
@@ -53,6 +53,18 @@ class MessageTypeBase64(MessageType):
     class Meta:
         name = "messageTypeBase64"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Optional[bytes] = field(
         default=None,
         metadata={
@@ -66,6 +78,18 @@ class MessageTypeDate(MessageType):
     class Meta:
         name = "messageTypeDate"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Optional[XmlDate] = field(default=None)
 
 
@@ -74,6 +98,18 @@ class MessageTypeString(MessageType):
     class Meta:
         name = "messageTypeString"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: str = field(default="")
 
 
@@ -82,6 +118,18 @@ class MessageTypeTime(MessageType):
     class Meta:
         name = "messageTypeTime"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     value: Optional[XmlTime] = field(default=None)
 
 
@@ -90,6 +138,18 @@ class MessageTypeXml(MessageType):
     class Meta:
         name = "messageTypeXML"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    content: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     any_element: Optional[object] = field(
         default=None,
         metadata={

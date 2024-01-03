@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 from output.models.ms_data.particles.particles_k008_xsd.particles_k008_imp import (
     ImpElem1,
 )
@@ -36,7 +36,18 @@ class B:
 
 @dataclass
 class R(B):
-    pass
+    a0: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    a2: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

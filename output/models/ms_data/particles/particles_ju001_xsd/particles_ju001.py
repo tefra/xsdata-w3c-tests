@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -20,6 +20,12 @@ class B:
 
 @dataclass
 class R(B):
+    local_target_namespace_foo_imported_xsd_bar_element: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     e1: List[object] = field(
         default_factory=list,
         metadata={

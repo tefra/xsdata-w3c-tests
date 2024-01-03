@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Any
 
 __NAMESPACE__ = "foo"
 
@@ -72,3 +72,10 @@ class Root:
 class Rst(Base):
     class Meta:
         name = "rst"
+
+    b: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )

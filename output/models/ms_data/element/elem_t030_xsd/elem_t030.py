@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any
 
 
 class A(Enum):
@@ -78,6 +78,13 @@ class ECa(Ca):
 class RCa(Ca):
     class Meta:
         name = "R-CA"
+
+    y: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

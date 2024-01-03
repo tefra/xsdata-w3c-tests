@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -30,3 +30,10 @@ class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
+
+    e2: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )

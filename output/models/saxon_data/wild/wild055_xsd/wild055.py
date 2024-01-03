@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict
+from typing import Dict, Any
 
 
 @dataclass
@@ -21,6 +21,12 @@ class RestrictedZing(Zing):
     class Meta:
         name = "restrictedZing"
 
+    any_attributes: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={

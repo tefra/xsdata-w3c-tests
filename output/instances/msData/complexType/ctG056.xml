@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ctG056.xsd" myAttr="test attribute" myAttr1="group test attribute"/>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" myAttr="test attribute" myAttr1="group test attribute"/>

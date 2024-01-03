@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Any
 from output.models.ms_data.particles.particles_jf016_xsd.particles_jf016_imp import (
     ImpElem1,
 )
@@ -21,6 +21,12 @@ class B:
 
 @dataclass
 class R(B):
+    any_element: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
         metadata={

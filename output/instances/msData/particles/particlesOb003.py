@@ -5,7 +5,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=R(
-        any_element=[
+        other_element=[
             AnyElement(
                 qname='{http://other}other',
                 text=''

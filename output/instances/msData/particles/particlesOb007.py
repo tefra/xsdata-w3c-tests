@@ -5,7 +5,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=R(
-        any_element=AnyElement(
+        local_foo_bar_target_namespace_element=AnyElement(
             qname='{foo}foo',
             text='',
             children=[

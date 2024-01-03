@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -41,6 +41,19 @@ class ComplexType:
 class Elem(ComplexType):
     class Meta:
         name = "elem"
+
+    r3: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    r4: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
 
 
 @dataclass

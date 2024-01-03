@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -42,6 +42,18 @@ class X:
 
 @dataclass
 class Y(X):
+    c: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
+    d: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     a: Optional[str] = field(
         default=None,
         metadata={

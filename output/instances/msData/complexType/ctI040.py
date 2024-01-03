@@ -8,10 +8,7 @@ obj = Root(
         qname='fooTest',
         value=MyType(
             foo_ele1='len4',
-            foo_ele2=26,
-            other_attributes={
-                '{http://www.w3.org/2001/XMLSchema-instance}type': 'myType',
-            }
+            foo_ele2=26
         ),
         type='myType'
     )

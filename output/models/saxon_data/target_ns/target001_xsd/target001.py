@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -15,6 +15,12 @@ class B:
 
 @dataclass
 class R(B):
+    target001_com_element: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        },
+    )
     child: Optional[int] = field(
         default=None,
         metadata={

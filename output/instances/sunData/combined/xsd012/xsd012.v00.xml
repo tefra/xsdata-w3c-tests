@@ -3,7 +3,8 @@
   <mixed>
 		abcdef
 	</mixed>
-  <mixed><a/> mi <b/> xed <c/> content
+  <mixed>
+    <a/> mi <b/> xed <c/> content
 	</mixed>
   <elementOnly>
     <a/>

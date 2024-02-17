@@ -2,14 +2,14 @@ import functools
 import logging
 import os
 from pathlib import Path
+from typing import Any
+from typing import Dict
+from typing import Optional
 
 import pytest
 import xmlschema
 from click.testing import CliRunner
 from lxml import etree
-from typing import Any
-from typing import Dict
-from typing import Optional
 from xsdata.cli import cli
 from xsdata.formats.dataclass.context import XmlContext
 from xsdata.formats.dataclass.parsers import XmlParser
@@ -25,7 +25,7 @@ root = Path(__file__).absolute().parent.parent
 w3c = root.joinpath("w3c")
 output = root.joinpath("output/instances")
 os.chdir(w3c.parent)
-config = SerializerConfig(pretty_print=True)
+config = SerializerConfig(indent="  ")
 
 
 def assert_bindings(
@@ -103,7 +103,7 @@ def assert_xml_bindings(
         xsdata_xml = XmlSerializer(context=context, config=config).render(obj, ns_map)
         if save_path:
             save_path.write_text(xsdata_xml)
-            code = PycodeSerializer(context=context, config=config).render(obj)
+            code = PycodeSerializer(context=context).render(obj)
             save_path.with_suffix(".py").write_text(code)
 
         return assert_valid(schema_validator, xsdata_xml)

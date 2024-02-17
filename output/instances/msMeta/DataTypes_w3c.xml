@@ -16472,7 +16472,8 @@
     <annotation>
       <documentation>TEST :Facet Schemas for string : test that uri with ftp:// gofer:// mailto: news: telnet: are accepted in anyURI</documentation>
       <documentation>Schema doc changed to guaranteed-to-fail URIs, but that does not make
-the schema (or instance) invalid -- see <a xmlns="" href="http://www.w3.org/TR/xmlschema-1/#src-include">http://www.w3.org/TR/xmlschema-1/#src-include</a></documentation>
+the schema (or instance) invalid -- see <a xmlns="" href="http://www.w3.org/TR/xmlschema-1/#src-include">http://www.w3.org/TR/xmlschema-1/#src-include</a>
+      </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href=""/>
     <schemaTest name="anyURI_a004_1339">

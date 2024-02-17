@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <foo:root xmlns:foo="foo" xmlns:bar="bar" xmlns:zot="zot" xmlns="bob">
   <foo:skipAny>
-    <foo:root><foo:child/><bar:nocheck><zot:nocheck/></bar:nocheck>
+    <foo:root>
+      <foo:child/>
+      <bar:nocheck>
+        <zot:nocheck/>
+      </bar:nocheck>
 			mixed is also allowed?
 		</foo:root>
   </foo:skipAny>

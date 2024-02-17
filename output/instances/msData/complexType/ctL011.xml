@@ -4,5 +4,6 @@
 	mixed content
 	<child_1>info</child_1>
         for fooTest
-	<child_2>3</child_2></fooTest>
+	<child_2>3</child_2>
+  </fooTest>
 </root>

@@ -95,12 +95,16 @@ class ExpectedOutcome(Enum):
     <tt>indeterminate</tt>
     </dt>
     <dd>The intended result is indeterminate for one of the
-    following reasons, or for other reasons:<ul><li>The result is under-determined (the spec is vague
+    following reasons, or for other reasons:<ul>
+    <li>The result is under-determined (the spec is vague
     or underspecified), but not described explicitly as
     varying among conforming implementations.
-    </li><li>The spec imposed contradictory requirements on the
+    </li>
+    <li>The spec imposed contradictory requirements on the
     result. (I.e. the result is
-    <em>over-determined.)</em></li><li>
+    <em>over-determined.)</em>
+    </li>
+    <li>
     There is an unresolved dispute within the working
     group as to what the spec requires the result to be.
     (This includes cases where the working group cannot
@@ -109,7 +113,9 @@ class ExpectedOutcome(Enum):
     implementation-defined or not, as well as cases
     where the group cannot agree on how to apply the
     spec to the case in hand.)
-    </li></ul></dd>
+    </li>
+    </ul>
+    </dd>
     </dl>
     <p>N.B. the values <tt>implementation-dependent</tt> and
     <tt>implementation-defined</tt> should be used only when
@@ -306,15 +312,17 @@ class Documentation:
 @dataclass
 class Expected:
     """<div> <p>The validation outcome prescribed by the spec for a test in the
-    XSTS.</p> <p>This element has one optional attribute:</p> <ul>
+    XSTS.</p> <p>This element has one optional attribute:</p> <ul> <li>
 
-    <li>
-    <p><tt>version</tt> - a list of version tokens.
+    <p>
+    <tt>version</tt> - a list of version tokens.
     The result specified is applicable to processor
     configurations supporting <em>all</em> of the
     indicated versions or features of XSD.
     See the definition of the
-    <a href="#type_version-info"><tt>version-info</tt></a>
+    <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.
     </p>
     <p>It is an error for more than one <tt>expected</tt>
@@ -326,18 +334,23 @@ class Expected:
     </p>
     </li>
     </ul>
-    <p class="note">Note: The meaning of the <tt>version</tt></p>
+    <p class="note">Note: The meaning of the <tt>version</tt>
+    </p>
     <p>
     On tests and elements for groups of
     tests (<tt>testGroup</tt> etc.), a <tt>version</tt>
-    attribute of the form <code>version="<i>x</i><i>y</i><i>z</i>"</code> means "If <strong>any</strong> of
+    attribute of the form <code>version="<i>x</i>
+    <i>y</i>
+    <i>z</i>"</code> means "If <strong>any</strong> of
     <tt>x</tt>, <tt>y</tt>, or <tt>z</tt> are supported, tests
     in this group are applicable."
     </p>
     <p>On the <tt>expected</tt> element, the
     meaning changes in a crucial way: the tokens are connected
     with an implicit <tt>and</tt>, not an <tt>or</tt>. So
-    <code>version="<i>x</i><i>y</i><i>z</i>"</code> means
+    <code>version="<i>x</i>
+    <i>y</i>
+    <i>z</i>"</code> means
     "If <strong>all</strong> of <tt>x</tt>, <tt>y</tt>, or
     <tt>z</tt> are supported, the prescribed outcome is as
     described.  So on a test group, <code>version="1.0
@@ -357,7 +370,8 @@ class Expected:
     <p>And one required attribute:</p>
     <ul>
     <li>
-    <p><tt>validity</tt> - indicates the expected outcome
+    <p>
+    <tt>validity</tt> - indicates the expected outcome
     of the test, using a value of type
     <a href="#type_expected-outcome">ts:expected-outcome</a>.</p>
     <p>
@@ -533,19 +547,23 @@ class TestResult:
     This element has four required attributes:
     </p>
     <ul>
-    <li><tt>validity</tt> - the validition outcome of the test.
+    <li>
+    <tt>validity</tt> - the validition outcome of the test.
     A value of type <a href="#type_expected-outcome">ts:expected-outcome</a>,
     i.e.
     one of "<tt>valid</tt>", "<tt>invalid</tt>",
     "<tt>notKnown</tt>", or "<tt>runtime-schema-error</tt>".
     </li>
-    <li><tt>set</tt> - the value of the "<tt>name</tt>"
+    <li>
+    <tt>set</tt> - the value of the "<tt>name</tt>"
     attribute of the test set to which the test belongs.
     </li>
-    <li><tt>group</tt> - the value of the "<tt>name</tt>"
+    <li>
+    <tt>group</tt> - the value of the "<tt>name</tt>"
     attribute of the test group to which the test belongs.
     </li>
-    <li><tt>test</tt> - the value of the "<tt>name</tt>"
+    <li>
+    <tt>test</tt> - the value of the "<tt>name</tt>"
     attribute of the schema test or instance test, the
     validation outcome of which this result reports.
     </li>
@@ -561,7 +579,8 @@ class TestResult:
     This element has one optional attribute:
     </p>
     <ul>
-    <li><tt>normalizedLoad</tt> - a relative load value, intended as an indicator
+    <li>
+    <tt>normalizedLoad</tt> - a relative load value, intended as an indicator
     of the resource requirements of an individual
     test. Values may be based on processing time,
     memory usage or a combination of the two.
@@ -570,7 +589,8 @@ class TestResult:
     </ul>
     <p>The element has one optional element:</p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of more detailed
+    <li>
+    <tt>annotation</tt> - zero or more instances of more detailed
     (<tt>ts:documentation</tt>) or structured (<tt>ts:appinfo</tt>)
     information or commentary regarding the individual
     test result. Reporters are encouraged to use
@@ -637,15 +657,16 @@ class TestResult:
 @dataclass
 class Current(StatusEntry):
     """<div> <p>The current status of a test in the XSTS.</p> <p>This element has
-    two attributes, both of which are required:</p>
+    two attributes, both of which are required:</p> <ul>
 
-    <ul>
-    <li><tt>status</tt> - the status of the test. One of
+    <li>
+    <tt>status</tt> - the status of the test. One of
     "<tt>accepted</tt>", "<tt>stable</tt>",
     "<tt>disputed-test</tt>" or "<tt>disputed-spec</tt>"
     (see the XSTS website for an explanation of these values).
     </li>
-    <li><tt>date</tt> - the date on which the test or the
+    <li>
+    <tt>date</tt> - the date on which the test or the
     metadata (including the value in the
     <tt>status</tt> attribute, but also anything else
     of importance) was last changed.
@@ -682,15 +703,16 @@ class InstanceDocument(Ref):
 @dataclass
 class Prior(StatusEntry):
     """<div> <p>A former status of a test in the XSTS.</p> <p>This element has two
-    attributes, both of which are required:</p>
+    attributes, both of which are required:</p> <ul>
 
-    <ul>
-    <li><tt>status</tt> - the former status of the test. One of
+    <li>
+    <tt>status</tt> - the former status of the test. One of
     "<tt>accepted</tt>", "<tt>stable</tt>",
     "<tt>disputed-test</tt>" or "<tt>disputed-spec</tt>"
     (see the XSTS website for an explanation of these values).
     </li>
-    <li><tt>date</tt> - the date on which the test or the
+    <li>
+    <tt>date</tt> - the date on which the test or the
     metadata (including the value in the
     <tt>status</tt> attribute, but also anything else
     of importance) was last changed.
@@ -731,24 +753,28 @@ class TestSuiteResults:
     It has three required attributes:
     </p>
     <ul>
-    <li><tt>suite</tt> - the name of the test suite to which
+    <li>
+    <tt>suite</tt> - the name of the test suite to which
     these results correspond.  This should be the value of
     the <tt>name</tt> attribute of the <tt>testSuite</tt>
     element at the root of the test suite document
     describing the tests to which these results correspond.
     </li>
-    <li><tt>processor</tt> - some identifying information for
+    <li>
+    <tt>processor</tt> - some identifying information for
     the processor/ validator which produced the reported
     results. The value of this attribute is left to the
     discretion of the reporter.
     </li>
-    <li><tt>submitDate</tt> - the date on which these results
+    <li>
+    <tt>submitDate</tt> - the date on which these results
     were submitted to the XSTS Task Force.
     </li>
     </ul>
     <p>The element also has one optional attribute:</p>
     <ul>
-    <li><tt>publicationPermission</tt> - the degree to which the
+    <li>
+    <tt>publicationPermission</tt> - the degree to which the
     result reporter authorizes the W3C to disseminate the
     reported results. One of "<tt>W3C members</tt>" or
     "<tt>public</tt>" (see the XSTS website for an explanation
@@ -758,12 +784,14 @@ class TestSuiteResults:
     </ul>
     <p>This element has two optional elements:</p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of more
+    <li>
+    <tt>annotation</tt> - zero or more instances of more
     detailed (<tt>ts:documentation</tt>) or structured
     (<tt>ts:appinfo</tt>) information or commentary
     regarding the enclosed test results.
     </li>
-    <li><tt>testResult</tt> - any number of reports of the
+    <li>
+    <tt>testResult</tt> - any number of reports of the
     results of individual tests. Any results may be omitted,
     particularly those for tests of features for which the
     processor claims no support.
@@ -856,10 +884,12 @@ class InstanceTest:
     attribute:
     </p>
     <ul>
-    <li><tt>name</tt> - the name of the instance document, which
+    <li>
+    <tt>name</tt> - the name of the instance document, which
     must differ from the name of any other
     <tt>schemaTest</tt> or <tt>instanceTest</tt> element
-    within the enclosing <tt>testGroup</tt></li>
+    within the enclosing <tt>testGroup</tt>
+    </li>
     </ul>
     <p>
     and one attribute which is optional, for signaling
@@ -868,7 +898,8 @@ class InstanceTest:
     </p>
     <ul>
     <li>
-    <p><tt>version</tt> - Tests which only apply to certain
+    <p>
+    <tt>version</tt> - Tests which only apply to certain
     versions of XML Schema list those versions in the
     <tt>version</tt> attribute.
     </p>
@@ -883,7 +914,9 @@ class InstanceTest:
     </p>
     <p>
     The value is a list of version tokens.  See the
-    definition of the <a href="#type_version-info"><tt>version-info</tt></a>
+    definition of the <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.</p>
     <p class="note">Note: running instance tests with a
     processor for an inapplicable version may produce an
@@ -898,7 +931,8 @@ class InstanceTest:
     One child element is required:
     </p>
     <ul>
-    <li><tt>instanceDocument</tt> - a link to a file containing
+    <li>
+    <tt>instanceDocument</tt> - a link to a file containing
     the instance document.
     </li>
     </ul>
@@ -906,19 +940,23 @@ class InstanceTest:
     Four child elements may optionally be present:
     </p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of general
+    <li>
+    <tt>annotation</tt> - zero or more instances of general
     documentation</li>
-    <li><tt>expected</tt> - the prescribed validation outcome for
+    <li>
+    <tt>expected</tt> - the prescribed validation outcome for
     the instance document.  Optional, and repeatable.
     Each <tt>expected</tt> element indicates the result
     on this test for a particular set of versions of the
     language.
     </li>
-    <li><tt>current</tt> - the current status of this test in
+    <li>
+    <tt>current</tt> - the current status of this test in
     the XSTS (an indication of the test's accuracy in testing
     the feature it is intended to test).
     </li>
-    <li><tt>prior</tt> - the history of any changes in the
+    <li>
+    <tt>prior</tt> - the history of any changes in the
     status of this test.
     </li>
     </ul>
@@ -929,7 +967,9 @@ class InstanceTest:
     </p>
     <p>The <tt>current</tt> and <tt>prior</tt> elements should
     be used to keep a change history of the test; see
-    discussion under the <a href="#elem_schemaTest"><tt>schemaTest</tt></a> element.
+    discussion under the <a href="#elem_schemaTest">
+    <tt>schemaTest</tt>
+    </a> element.
     </p>
     </div>"""
 
@@ -1003,7 +1043,8 @@ class SchemaTest:
     It has one attribute which is required:
     </p>
     <ul>
-    <li><tt>name</tt> - the name of the schema test, which must be
+    <li>
+    <tt>name</tt> - the name of the schema test, which must be
     unique within the enclosing <tt>testGroup</tt> (i.e. it must
     differ from the name(s) of any associated <tt>instanceTest</tt>
     elements).
@@ -1015,7 +1056,8 @@ class SchemaTest:
     </p>
     <ul>
     <li>
-    <p><tt>version</tt> - Tests which only apply to certain
+    <p>
+    <tt>version</tt> - Tests which only apply to certain
     versions of XML Schema list those versions in the
     <tt>version</tt> attribute.  Processors supporting
     <em>any</em> version or feature indicated by a keyword
@@ -1030,7 +1072,9 @@ class SchemaTest:
     </p>
     <p>
     The value is a list of version tokens.  See the
-    definition of the <a href="#type_version-info"><tt>version-info</tt></a>
+    definition of the <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.</p>
     <p>Note that the omission of a version token on a schema
     test is in some sense strictly advisory: any schema
@@ -1047,7 +1091,8 @@ class SchemaTest:
     One child element is required:
     </p>
     <ul>
-    <li><tt>schemaDocument</tt> - at least one link to a file
+    <li>
+    <tt>schemaDocument</tt> - at least one link to a file
     containing a schema document. The schema for the test is
     constructed from the set (or from other schemas via
     import).
@@ -1055,19 +1100,23 @@ class SchemaTest:
     </ul>
     <p>Four child elements may optionally be present:</p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of general
+    <li>
+    <tt>annotation</tt> - zero or more instances of general
     documentation</li>
-    <li><tt>expected</tt> - indicates the conformance or
+    <li>
+    <tt>expected</tt> - indicates the conformance or
     non-conformance of the schema described by the schema
     document(s)
     (<tt>valid</tt> = conformant, <tt>invalid</tt> =
     non-conformant).
     </li>
-    <li><tt>current</tt> - the current status of this test in
+    <li>
+    <tt>current</tt> - the current status of this test in
     the XSTS (an indication of the test's accuracy in testing
     the feature it is intended to test).
     </li>
-    <li><tt>prior</tt> - the history of any changes in the
+    <li>
+    <tt>prior</tt> - the history of any changes in the
     status of this test.
     </li>
     </ul>
@@ -1163,20 +1212,22 @@ class SchemaTest:
 class TestSuite:
     """<div> <p> The root element of a document describing a set of tests for one
     or more versions of W3C XML Schema. </p> <p> The element has three attributes,
-    each of which is required: </p> <ul>
+    each of which is required: </p> <ul> <li>
 
-    <li>
-    <p><tt>name</tt> - the name of this test suite.
+    <p>
+    <tt>name</tt> - the name of this test suite.
     </p>
     </li>
     <li>
-    <p><tt>releaseDate</tt> - the date on which this test
+    <p>
+    <tt>releaseDate</tt> - the date on which this test
     suite was released. This value serves to identify the
     version of the test suite.
     </p>
     </li>
     <li>
-    <p><tt>schemaVersion</tt> - the versions of XSD for which
+    <p>
+    <tt>schemaVersion</tt> - the versions of XSD for which
     the tests are designed.  This has documentary function
     only, and is intended for human readers.  The
     machine-processable version information is handled by
@@ -1184,7 +1235,8 @@ class TestSuite:
     </p>
     </li>
     <li>
-    <p><tt>version</tt> - a list of version tokens indicating
+    <p>
+    <tt>version</tt> - a list of version tokens indicating
     versions and features for which at least some tests in the
     test suite are applicable.
     </p>
@@ -1216,9 +1268,11 @@ class TestSuite:
     Two child elements may optionally be present:
     </p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of
+    <li>
+    <tt>annotation</tt> - zero or more instances of
     general documentation.</li>
-    <li><tt>testSetRef</tt> - a set of references to the sets
+    <li>
+    <tt>testSetRef</tt> - a set of references to the sets
     of tests which make up this test suite. No two test sets
     referenced may have the same name.</li>
     </ul>
@@ -1299,7 +1353,8 @@ class TestGroup:
     required:
     </p>
     <ul>
-    <li><tt>name</tt> - an identifier for the <tt>testGroup</tt>
+    <li>
+    <tt>name</tt> - an identifier for the <tt>testGroup</tt>
     which differs from the name of any other
     <tt>testGroup</tt> in the enclosing <tt>testSet</tt>.
     </li>
@@ -1309,7 +1364,8 @@ class TestGroup:
     </p>
     <ul>
     <li>
-    <p><tt>version</tt> - a list of version tokens, indicating
+    <p>
+    <tt>version</tt> - a list of version tokens, indicating
     that the tests in the group are applicable to implementations
     supporting <em>any</em> of the versions or features
     or behaviors indicated.  Any processor or processor
@@ -1317,7 +1373,9 @@ class TestGroup:
     indicated should run the tests.  Processors which support
     <em>none</em> of them can skip the entire test set.
     See the definition of the
-    <a href="#type_version-info"><tt>version-info</tt></a>
+    <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.
     </p>
     <p>
@@ -1332,17 +1390,20 @@ class TestGroup:
     </p>
     <ul>
     <li>
-    <p><tt>annotation</tt> - zero or more instances of
+    <p>
+    <tt>annotation</tt> - zero or more instances of
     general documentation.</p>
     </li>
     <li>
-    <p><tt>documentationReference</tt> - any number of
+    <p>
+    <tt>documentationReference</tt> - any number of
     references to external documentation upon which the
     test is based, e.g. links to relevant sections of the
     Recommendation, to the Errata, etc.</p>
     </li>
     <li>
-    <p><tt>schemaTest</tt> - at most on <tt>schemaTest</tt>
+    <p>
+    <tt>schemaTest</tt> - at most on <tt>schemaTest</tt>
     element, containing any number of
     <tt>schemaDocument</tt> elements, each of which holds
     information on a single schema document.
@@ -1391,7 +1452,8 @@ class TestGroup:
     </p>
     </li>
     <li>
-    <p><tt>instanceTest</tt> - any number of elements, each
+    <p>
+    <tt>instanceTest</tt> - any number of elements, each
     of which holds information on a single instance
     document to be validated against the included
     schema.</p>
@@ -1474,18 +1536,21 @@ class TestSet:
     </p>
     <ul>
     <li>
-    <p><tt>contributor (required)</tt> - the name of the contributor of
+    <p>
+    <tt>contributor (required)</tt> - the name of the contributor of
     this <tt>testSet</tt>.  May contain any string of characters;
     intended for human readers.</p>
     </li>
     <li>
-    <p><tt>name (required)</tt> - the name of this <tt>testSet</tt>,
+    <p>
+    <tt>name (required)</tt> - the name of this <tt>testSet</tt>,
     which must be a name unique among the names of
     <tt>testSet</tt> elements within the enclosing
     <tt>testSuite</tt>.</p>
     </li>
     <li>
-    <p><tt>version (optional)</tt> - a list of version tokens indicating
+    <p>
+    <tt>version (optional)</tt> - a list of version tokens indicating
     versions and features for which at least some tests in the
     test set are applicable.</p>
     <p>Any processor or processor configuration which
@@ -1513,10 +1578,12 @@ class TestSet:
     Two child elements may optionally be present:
     </p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of general
+    <li>
+    <tt>annotation</tt> - zero or more instances of general
     documentation.
     </li>
-    <li><tt>testGroup</tt> - a set of <tt>testGroup</tt>
+    <li>
+    <tt>testGroup</tt> - a set of <tt>testGroup</tt>
     elements, each of which defines a group of closely
     related tests.
     No two <tt>testGroup</tt> elements in the same

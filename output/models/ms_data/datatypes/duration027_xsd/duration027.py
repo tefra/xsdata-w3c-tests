@@ -51,12 +51,11 @@ class Root:
             "required": True,
         },
     )
-    simple_test: List[XmlDuration] = field(
-        default_factory=list,
+    simple_test: Optional[SimpleTest] = field(
+        default=None,
         metadata={
             "name": "simpleTest",
             "type": "Element",
             "required": True,
-            "tokens": True,
         },
     )

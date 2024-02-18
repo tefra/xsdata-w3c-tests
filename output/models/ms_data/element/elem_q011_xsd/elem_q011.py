@@ -20,7 +20,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[str] = field(
+    foo_test: Optional[FooTest] = field(
         default=None,
         metadata={
             "name": "fooTest",

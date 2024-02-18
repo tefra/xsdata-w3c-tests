@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import List, Optional, Type
+from typing import List, Optional, Type, Union
 from xsdata.models.datatype import XmlDate
 from output.models.boeing_data.ipo2.ipo_xsd.address import AddressType
 
@@ -103,24 +103,26 @@ class ItemsType:
                 "required": True,
             },
         )
-        customer_comment_or_ship_comment_or_comment: List[str] = field(
+        customer_comment_or_ship_comment_or_comment: List[
+            Union[CustomerComment, ShipComment, Comment]
+        ] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
                 "choices": (
                     {
                         "name": "customerComment",
-                        "type": str,
+                        "type": CustomerComment,
                         "namespace": "http://www.example.com/IPO",
                     },
                     {
                         "name": "shipComment",
-                        "type": str,
+                        "type": ShipComment,
                         "namespace": "http://www.example.com/IPO",
                     },
                     {
                         "name": "comment",
-                        "type": str,
+                        "type": Comment,
                         "namespace": "http://www.example.com/IPO",
                     },
                 ),
@@ -186,24 +188,26 @@ class PurchaseOrderType:
             "max_occurs": 2,
         },
     )
-    customer_comment_or_ship_comment_or_comment: Optional[str] = field(
+    customer_comment_or_ship_comment_or_comment: Optional[
+        Union[CustomerComment, ShipComment, Comment]
+    ] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "customerComment",
-                    "type": str,
+                    "type": CustomerComment,
                     "namespace": "http://www.example.com/IPO",
                 },
                 {
                     "name": "shipComment",
-                    "type": str,
+                    "type": ShipComment,
                     "namespace": "http://www.example.com/IPO",
                 },
                 {
                     "name": "comment",
-                    "type": str,
+                    "type": Comment,
                     "namespace": "http://www.example.com/IPO",
                 },
             ),

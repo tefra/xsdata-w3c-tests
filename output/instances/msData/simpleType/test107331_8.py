@@ -1,8 +1,5 @@
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A2
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B2
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Item
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Root
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
@@ -19,54 +16,26 @@ obj = Root(
         Item(
             value='1234567890'
         ),
-        DerivedElement(
-            qname='item',
-            value=A2(
-                value=1
-            ),
-            type='A'
+        Item(
+            value='1'
         ),
-        DerivedElement(
-            qname='item',
-            value=A2(
-                value=2
-            ),
-            type='A'
+        Item(
+            value='2'
         ),
-        DerivedElement(
-            qname='item',
-            value=A2(
-                value=3
-            ),
-            type='A'
+        Item(
+            value='3'
         ),
-        DerivedElement(
-            qname='item',
-            value=A2(
-                value=4
-            ),
-            type='A'
+        Item(
+            value='4'
         ),
-        DerivedElement(
-            qname='item',
-            value=B2(
-                value='a'
-            ),
-            type='B'
+        Item(
+            value='a'
         ),
-        DerivedElement(
-            qname='item',
-            value=B2(
-                value='c123456789'
-            ),
-            type='B'
+        Item(
+            value='c123456789'
         ),
-        DerivedElement(
-            qname='item',
-            value=B2(
-                value='b'
-            ),
-            type='B'
+        Item(
+            value='b'
         ),
         Item(
             value='1'

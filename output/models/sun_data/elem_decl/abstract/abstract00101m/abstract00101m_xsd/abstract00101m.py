@@ -25,6 +25,12 @@ class HeadType:
 
 
 @dataclass
+class Head(HeadType):
+    class Meta:
+        namespace = "ElemDecl/abstract"
+
+
+@dataclass
 class Member1(HeadType):
     class Meta:
         namespace = "ElemDecl/abstract"

@@ -4,11 +4,21 @@ from xsdata.models.datatype import XmlDate, XmlDateTime, XmlPeriod, XmlTime
 
 
 @dataclass
+class When:
+    class Meta:
+        name = "when"
+
+    value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
+        default=None
+    )
+
+
+@dataclass
 class Event:
     class Meta:
         name = "event"
 
-    when: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
+    when: Optional[When] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -21,16 +31,6 @@ class Event:
             "name": "type",
             "type": "Attribute",
         },
-    )
-
-
-@dataclass
-class When:
-    class Meta:
-        name = "when"
-
-    value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
-        default=None
     )
 
 

@@ -1,9 +1,12 @@
 from decimal import Decimal
 from output.models.boeing_data.ipo2.ipo_xsd.address import Usaddress
 from output.models.boeing_data.ipo2.ipo_xsd.address import Usstate
+from output.models.boeing_data.ipo2.ipo_xsd.ipo import Comment
+from output.models.boeing_data.ipo2.ipo_xsd.ipo import CustomerComment
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import ItemShipBy
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import PurchaseOrder
+from output.models.boeing_data.ipo2.ipo_xsd.ipo import ShipComment
 from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 
@@ -29,8 +32,7 @@ obj = PurchaseOrder(
             type='{http://www.example.com/add}USAddress'
         ),
     ],
-    customer_comment_or_ship_comment_or_comment=DerivedElement(
-        qname='{http://www.example.com/IPO}comment',
+    customer_comment_or_ship_comment_or_comment=Comment(
         value='Hurry, my sister loves Boeing!'
     ),
     items=ItemsType(
@@ -40,11 +42,12 @@ obj = PurchaseOrder(
                 quantity=1,
                 usprice=Decimal('99.95'),
                 customer_comment_or_ship_comment_or_comment=[
-                    DerivedElement(
-                        qname='{http://www.example.com/IPO}shipComment',
+                    ShipComment(
                         value=' Use gold wrap if possible '
                     ),
-                    ' Want this for the holidays! ',
+                    CustomerComment(
+                        value=' Want this for the holidays! '
+                    ),
                 ],
                 ship_date=XmlDate(1999, 12, 5),
                 part_num='777-BA',
@@ -56,8 +59,7 @@ obj = PurchaseOrder(
                 quantity=2,
                 usprice=Decimal('199.95'),
                 customer_comment_or_ship_comment_or_comment=[
-                    DerivedElement(
-                        qname='{http://www.example.com/IPO}comment',
+                    Comment(
                         value='This is a comment...'
                     ),
                 ],

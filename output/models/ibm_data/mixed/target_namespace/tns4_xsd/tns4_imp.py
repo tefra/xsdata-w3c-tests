@@ -19,7 +19,7 @@ class Y:
         name = "y"
         namespace = "http://test2"
 
-    a: List[int] = field(
+    a: List[A] = field(
         default_factory=list,
         metadata={
             "type": "Element",

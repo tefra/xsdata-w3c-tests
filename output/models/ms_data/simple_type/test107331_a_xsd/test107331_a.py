@@ -202,109 +202,6 @@ class Monthday:
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-
-    choice: List[
-        Union[
-            str,
-            bytes,
-            XmlPeriod,
-            XmlDate,
-            XmlTime,
-            XmlDateTime,
-            XmlDuration,
-            Decimal,
-            float,
-            bool,
-            int,
-            object,
-        ]
-    ] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "entity",
-                    "type": str,
-                },
-                {
-                    "name": "anyuri",
-                    "type": str,
-                },
-                {
-                    "name": "hexbinary",
-                    "type": bytes,
-                    "format": "base16",
-                },
-                {
-                    "name": "month",
-                    "type": XmlPeriod,
-                },
-                {
-                    "name": "day",
-                    "type": XmlPeriod,
-                },
-                {
-                    "name": "monthday",
-                    "type": XmlPeriod,
-                },
-                {
-                    "name": "year",
-                    "type": XmlPeriod,
-                },
-                {
-                    "name": "date",
-                    "type": XmlDate,
-                },
-                {
-                    "name": "time",
-                    "type": XmlTime,
-                },
-                {
-                    "name": "datetime",
-                    "type": XmlDateTime,
-                },
-                {
-                    "name": "duration",
-                    "type": XmlDuration,
-                },
-                {
-                    "name": "decimal",
-                    "type": Decimal,
-                },
-                {
-                    "name": "double",
-                    "type": float,
-                },
-                {
-                    "name": "float",
-                    "type": float,
-                },
-                {
-                    "name": "bool",
-                    "type": bool,
-                },
-                {
-                    "name": "int",
-                    "type": int,
-                },
-                {
-                    "name": "string",
-                    "type": str,
-                },
-                {
-                    "name": "item",
-                    "type": object,
-                },
-            ),
-        },
-    )
-
-
-@dataclass
 class String:
     class Meta:
         name = "string"
@@ -339,5 +236,113 @@ class Year:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+
+    choice: List[
+        Union[
+            Entity,
+            Anyuri,
+            Hexbinary,
+            Month,
+            Day,
+            Monthday,
+            Year,
+            Date,
+            Time,
+            Datetime,
+            Duration,
+            DecimalType,
+            Double,
+            Float,
+            Bool,
+            Int,
+            String,
+            Item,
+        ]
+    ] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "entity",
+                    "type": Entity,
+                },
+                {
+                    "name": "anyuri",
+                    "type": Anyuri,
+                },
+                {
+                    "name": "hexbinary",
+                    "type": Hexbinary,
+                },
+                {
+                    "name": "month",
+                    "type": Month,
+                },
+                {
+                    "name": "day",
+                    "type": Day,
+                },
+                {
+                    "name": "monthday",
+                    "type": Monthday,
+                },
+                {
+                    "name": "year",
+                    "type": Year,
+                },
+                {
+                    "name": "date",
+                    "type": Date,
+                },
+                {
+                    "name": "time",
+                    "type": Time,
+                },
+                {
+                    "name": "datetime",
+                    "type": Datetime,
+                },
+                {
+                    "name": "duration",
+                    "type": Duration,
+                },
+                {
+                    "name": "decimal",
+                    "type": DecimalType,
+                },
+                {
+                    "name": "double",
+                    "type": Double,
+                },
+                {
+                    "name": "float",
+                    "type": Float,
+                },
+                {
+                    "name": "bool",
+                    "type": Bool,
+                },
+                {
+                    "name": "int",
+                    "type": Int,
+                },
+                {
+                    "name": "string",
+                    "type": String,
+                },
+                {
+                    "name": "item",
+                    "type": Item,
+                },
+            ),
         },
     )

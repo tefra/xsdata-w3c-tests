@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns/ibms3_3_6_v01"
 
@@ -37,19 +37,19 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem2_or_elem1: Optional[str] = field(
+    elem2_or_elem1: Optional[Union[Elem2, Elem1]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "elem2",
-                    "type": str,
+                    "type": Elem2,
                     "namespace": "http://xstest-tns/ibms3_3_6_v01",
                 },
                 {
                     "name": "elem1",
-                    "type": str,
+                    "type": Elem1,
                     "namespace": "http://xstest-tns/ibms3_3_6_v01",
                 },
             ),

@@ -1,10 +1,13 @@
 from output.models.ms_data.datatypes.unsigned_byte_xsd.unsigned_byte import ComplexTest
 from output.models.ms_data.datatypes.unsigned_byte_xsd.unsigned_byte import Root
+from output.models.ms_data.datatypes.unsigned_byte_xsd.unsigned_byte import SimpleTest
 
 
 obj = Root(
     complex_test=ComplexTest(
         comp_foo=0
     ),
-    simple_test=0
+    simple_test=SimpleTest(
+        value=0
+    )
 )

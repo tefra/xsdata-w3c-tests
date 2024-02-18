@@ -52,7 +52,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    aa111a2_aa: Optional[int] = field(
+    aa111a2_aa: Optional[Aa111A2Aa] = field(
         default=None,
         metadata={
             "name": "aa111a2Aa",
@@ -60,7 +60,7 @@ class Root:
             "required": True,
         },
     )
-    aa22_b3c: Optional[int] = field(
+    aa22_b3c: Optional[Aa22B3C] = field(
         default=None,
         metadata={
             "name": "aa22B3c",
@@ -68,7 +68,7 @@ class Root:
             "required": True,
         },
     )
-    aa3_4: Optional[int] = field(
+    aa3_4: Optional[Aa34] = field(
         default=None,
         metadata={
             "name": "aa3-4_",

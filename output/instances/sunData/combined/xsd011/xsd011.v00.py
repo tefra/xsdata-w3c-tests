@@ -1,4 +1,5 @@
 from output.models.sun_data.combined.xsd011.xsd011_xsd.xsd011 import Nillable1
+from output.models.sun_data.combined.xsd011.xsd011_xsd.xsd011 import Nillable2
 from output.models.sun_data.combined.xsd011.xsd011_xsd.xsd011 import NonNillable
 from output.models.sun_data.combined.xsd011.xsd011_xsd.xsd011 import Root
 
@@ -14,11 +15,15 @@ obj = Root(
         Nillable1(
 
         ),
-        [
-            51,
-            32,
-            59,
-        ],
-        [],
+        Nillable2(
+            value=[
+                51,
+                32,
+                59,
+            ]
+        ),
+        Nillable2(
+            value=None
+        ),
     ]
 )

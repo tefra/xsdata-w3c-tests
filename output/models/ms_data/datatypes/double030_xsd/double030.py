@@ -49,7 +49,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    simple_test: List[float] = field(
+    simple_test: List[SimpleTest] = field(
         default_factory=list,
         metadata={
             "name": "simpleTest",

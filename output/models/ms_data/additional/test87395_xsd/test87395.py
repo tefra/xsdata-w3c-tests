@@ -29,7 +29,7 @@ class Doc:
         name = "doc"
         namespace = "foo"
 
-    a: Optional[St] = field(
+    a: Optional[A] = field(
         default=None,
         metadata={
             "type": "Element",

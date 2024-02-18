@@ -2,9 +2,9 @@ from dataclasses import dataclass, field
 
 
 @dataclass
-class Root:
+class FooType:
     class Meta:
-        name = "root"
+        name = "fooType"
 
     value: str = field(
         default="",
@@ -12,3 +12,9 @@ class Root:
             "required": True,
         },
     )
+
+
+@dataclass
+class Root(FooType):
+    class Meta:
+        name = "root"

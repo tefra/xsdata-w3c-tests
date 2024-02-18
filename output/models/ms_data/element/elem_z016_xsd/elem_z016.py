@@ -3,41 +3,6 @@ from typing import List
 
 
 @dataclass
-class DataTypes:
-    id: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "ID",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-            "sequence": 1,
-        },
-    )
-    idref: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "IDREF",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-            "sequence": 1,
-        },
-    )
-    idrefs: List[List[str]] = field(
-        default_factory=list,
-        metadata={
-            "name": "IDREFS",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-            "sequence": 1,
-            "tokens": True,
-        },
-    )
-
-
-@dataclass
 class Id:
     class Meta:
         name = "ID"
@@ -73,6 +38,40 @@ class Idrefs:
         metadata={
             "required": True,
             "tokens": True,
+        },
+    )
+
+
+@dataclass
+class DataTypes:
+    id: List[Id] = field(
+        default_factory=list,
+        metadata={
+            "name": "ID",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+            "sequence": 1,
+        },
+    )
+    idref: List[Idref] = field(
+        default_factory=list,
+        metadata={
+            "name": "IDREF",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+            "sequence": 1,
+        },
+    )
+    idrefs: List[Idrefs] = field(
+        default_factory=list,
+        metadata={
+            "name": "IDREFS",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+            "sequence": 1,
         },
     )
 

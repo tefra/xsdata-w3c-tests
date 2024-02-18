@@ -6,68 +6,6 @@ __NAMESPACE__ = "http://www.tempuri.org"
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-        namespace = "http://www.tempuri.org"
-
-    test_date: List[XmlDate] = field(
-        default_factory=list,
-        metadata={
-            "name": "testDate",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-        },
-    )
-    test_gyear_month: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "name": "testGYearMonth",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-        },
-    )
-    test_gmonth_day: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "name": "testGMonthDay",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-        },
-    )
-    test_gday: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "name": "testGDay",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-        },
-    )
-    test_gmonth: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "name": "testGMonth",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-        },
-    )
-    test_gyear: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "name": "testGYear",
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-        },
-    )
-
-
-@dataclass
 class TestDate:
     class Meta:
         name = "testDate"
@@ -147,5 +85,67 @@ class TestGyearMonth:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+        namespace = "http://www.tempuri.org"
+
+    test_date: List[TestDate] = field(
+        default_factory=list,
+        metadata={
+            "name": "testDate",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        },
+    )
+    test_gyear_month: List[TestGyearMonth] = field(
+        default_factory=list,
+        metadata={
+            "name": "testGYearMonth",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        },
+    )
+    test_gmonth_day: List[TestGmonthDay] = field(
+        default_factory=list,
+        metadata={
+            "name": "testGMonthDay",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        },
+    )
+    test_gday: List[TestGday] = field(
+        default_factory=list,
+        metadata={
+            "name": "testGDay",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        },
+    )
+    test_gmonth: List[TestGmonth] = field(
+        default_factory=list,
+        metadata={
+            "name": "testGMonth",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        },
+    )
+    test_gyear: List[TestGyear] = field(
+        default_factory=list,
+        metadata={
+            "name": "testGYear",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
         },
     )

@@ -172,7 +172,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[Union[Sa3, Sa2, RA, A]] = field(
+    choice: List[Union[Sa3, Sa2, Sa1, Test1]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -187,23 +187,23 @@ class Root:
                 },
                 {
                     "name": "sa1",
-                    "type": RA,
+                    "type": Sa1,
                 },
                 {
                     "name": "test1",
-                    "type": A,
+                    "type": Test1,
                 },
             ),
             "max_occurs": 5,
         },
     )
-    test2: Optional[A] = field(
+    test2: Optional[Test2] = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    test3: Optional[A] = field(
+    test3: Optional[Test3] = field(
         default=None,
         metadata={
             "type": "Element",

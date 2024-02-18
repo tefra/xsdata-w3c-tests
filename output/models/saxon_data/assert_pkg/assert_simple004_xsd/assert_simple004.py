@@ -15,7 +15,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    n: List[str] = field(
+    n: List[N] = field(
         default_factory=list,
         metadata={
             "type": "Element",

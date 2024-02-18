@@ -5,22 +5,6 @@ __NAMESPACE__ = "http://www.tempuri.org"
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-        namespace = "http://www.tempuri.org"
-
-    test_element: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "testElement",
-            "type": "Element",
-            "required": True,
-        },
-    )
-
-
-@dataclass
 class TestElement:
     class Meta:
         name = "testElement"
@@ -29,6 +13,22 @@ class TestElement:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+        namespace = "http://www.tempuri.org"
+
+    test_element: Optional[TestElement] = field(
+        default=None,
+        metadata={
+            "name": "testElement",
+            "type": "Element",
             "required": True,
         },
     )

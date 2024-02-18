@@ -1,21 +1,30 @@
 from output.models.ms_data.identity_constraint.id_h027_xsd.id_h027 import Kid
 from output.models.ms_data.identity_constraint.id_h027_xsd.id_h027 import Root
 from output.models.ms_data.identity_constraint.id_h027_xsd.id_h027 import Uidtype
+from output.models.ms_data.identity_constraint.id_h027_xsd.id_h027_imp import Iid
 
 
 obj = Root(
     uid=[
         Uidtype(
-            iid='1'
+            iid=Iid(
+                value='1'
+            )
         ),
         Uidtype(
-            iid='11'
+            iid=Iid(
+                value='11'
+            )
         ),
         Uidtype(
-            iid='111'
+            iid=Iid(
+                value='111'
+            )
         ),
         Uidtype(
-            iid='1.0'
+            iid=Iid(
+                value='1.0'
+            )
         ),
     ],
     kid=[

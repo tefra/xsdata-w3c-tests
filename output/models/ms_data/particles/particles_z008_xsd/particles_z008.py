@@ -1,27 +1,18 @@
 from dataclasses import dataclass, field
-from typing import Optional, Any
+from typing import Optional
 
 __NAMESPACE__ = "urn:my-namespace"
 
 
 @dataclass
-class ContainHead2Type:
-    member2_or_head2: Optional[str] = field(
-        default=None,
+class Head2:
+    class Meta:
+        namespace = "urn:my-namespace"
+
+    value: str = field(
+        default="",
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "Member2",
-                    "type": str,
-                    "namespace": "urn:my-namespace",
-                },
-                {
-                    "name": "Head2",
-                    "type": str,
-                    "namespace": "urn:my-namespace",
-                },
-            ),
+            "required": True,
         },
     )
 
@@ -40,14 +31,20 @@ class Member2:
 
 
 @dataclass
-class ContainMember2Type(ContainHead2Type):
-    head2: Any = field(
-        init=False,
+class ContainHead2Type:
+    member2: Optional[Member2] = field(
+        default=None,
         metadata={
-            "type": "Ignore",
+            "name": "Member2",
+            "type": "Element",
+            "namespace": "urn:my-namespace",
         },
     )
-    member2: Optional[str] = field(
+
+
+@dataclass
+class ContainMember2Type(ContainHead2Type):
+    member2: Optional[Member2] = field(
         default=None,
         metadata={
             "name": "Member2",

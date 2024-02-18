@@ -620,14 +620,14 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    aaaa: Optional[int] = field(
+    aaaa: Optional[Aaaa] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    bbb_b: Optional[int] = field(
+    bbb_b: Optional[BbbB] = field(
         default=None,
         metadata={
             "name": "bbbB",
@@ -635,7 +635,7 @@ class Root:
             "required": True,
         },
     )
-    cc_cc: Optional[int] = field(
+    cc_cc: Optional[CcCc] = field(
         default=None,
         metadata={
             "name": "ccCc",
@@ -643,7 +643,7 @@ class Root:
             "required": True,
         },
     )
-    dd_dd: Optional[int] = field(
+    dd_dd: Optional[DdDd] = field(
         default=None,
         metadata={
             "name": "ddDD",
@@ -651,7 +651,7 @@ class Root:
             "required": True,
         },
     )
-    e_eee: Optional[int] = field(
+    e_eee: Optional[EEee] = field(
         default=None,
         metadata={
             "name": "eEee",
@@ -659,7 +659,7 @@ class Root:
             "required": True,
         },
     )
-    f_ff_f: Optional[int] = field(
+    f_ff_f: Optional[FFfF] = field(
         default=None,
         metadata={
             "name": "fFfF",
@@ -667,7 +667,7 @@ class Root:
             "required": True,
         },
     )
-    p_ppp: Optional[int] = field(
+    p_ppp: Optional[PPpp] = field(
         default=None,
         metadata={
             "name": "pPPp",
@@ -675,7 +675,7 @@ class Root:
             "required": True,
         },
     )
-    g_ggg: Optional[int] = field(
+    g_ggg: Optional[GGgg] = field(
         default=None,
         metadata={
             "name": "gGGG",
@@ -683,7 +683,7 @@ class Root:
             "required": True,
         },
     )
-    hhhh: Optional[int] = field(
+    hhhh: Optional[Hhhh] = field(
         default=None,
         metadata={
             "name": "Hhhh",
@@ -691,7 +691,7 @@ class Root:
             "required": True,
         },
     )
-    iii_i: Optional[int] = field(
+    iii_i: Optional[IiiI] = field(
         default=None,
         metadata={
             "name": "IiiI",
@@ -699,7 +699,7 @@ class Root:
             "required": True,
         },
     )
-    jj_jj: Optional[int] = field(
+    jj_jj: Optional[JjJj] = field(
         default=None,
         metadata={
             "name": "JjJj",
@@ -707,7 +707,7 @@ class Root:
             "required": True,
         },
     )
-    kk_kk: Optional[int] = field(
+    kk_kk: Optional[KkKk] = field(
         default=None,
         metadata={
             "name": "KkKK",
@@ -715,7 +715,7 @@ class Root:
             "required": True,
         },
     )
-    llll: Optional[int] = field(
+    llll: Optional[Llll] = field(
         default=None,
         metadata={
             "name": "LLll",
@@ -723,7 +723,7 @@ class Root:
             "required": True,
         },
     )
-    mmm_m: Optional[int] = field(
+    mmm_m: Optional[MmmM] = field(
         default=None,
         metadata={
             "name": "MMmM",
@@ -731,7 +731,7 @@ class Root:
             "required": True,
         },
     )
-    nnnn: Optional[int] = field(
+    nnnn: Optional[Nnnn] = field(
         default=None,
         metadata={
             "name": "NNNn",
@@ -739,7 +739,7 @@ class Root:
             "required": True,
         },
     )
-    oooo: Optional[int] = field(
+    oooo: Optional[Oooo] = field(
         default=None,
         metadata={
             "name": "OOOO",
@@ -747,56 +747,56 @@ class Root:
             "required": True,
         },
     )
-    bbb0: Optional[int] = field(
+    bbb0: Optional[Bbb0] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    cc0c: Optional[int] = field(
+    cc0c: Optional[Cc0C] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    dd00: Optional[int] = field(
+    dd00: Optional[Dd00] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    e0ee: Optional[int] = field(
+    e0ee: Optional[E0Ee] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    f0f0: Optional[int] = field(
+    f0f0: Optional[F0F0] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    p00p: Optional[int] = field(
+    p00p: Optional[P00P] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    g000: Optional[int] = field(
+    g000: Optional[G000] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    bbb: Optional[int] = field(
+    bbb: Optional[Bbb] = field(
         default=None,
         metadata={
             "name": "bbb_",
@@ -804,14 +804,14 @@ class Root:
             "required": True,
         },
     )
-    cc_c: Optional[int] = field(
+    cc_c: Optional[CcC] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    dd: Optional[int] = field(
+    dd: Optional[Dd] = field(
         default=None,
         metadata={
             "name": "dd__",
@@ -819,14 +819,14 @@ class Root:
             "required": True,
         },
     )
-    e_ee: Optional[int] = field(
+    e_ee: Optional[EEe] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         },
     )
-    f_f: Optional[int] = field(
+    f_f: Optional[FF] = field(
         default=None,
         metadata={
             "name": "f_f_",
@@ -834,7 +834,7 @@ class Root:
             "required": True,
         },
     )
-    p_p: Optional[int] = field(
+    p_p: Optional[PP] = field(
         default=None,
         metadata={
             "name": "p__p",
@@ -842,7 +842,7 @@ class Root:
             "required": True,
         },
     )
-    g: Optional[int] = field(
+    g: Optional[G] = field(
         default=None,
         metadata={
             "name": "g___",
@@ -850,7 +850,7 @@ class Root:
             "required": True,
         },
     )
-    h111: Optional[int] = field(
+    h111: Optional[H111] = field(
         default=None,
         metadata={
             "name": "H111",
@@ -858,7 +858,7 @@ class Root:
             "required": True,
         },
     )
-    i11_i: Optional[int] = field(
+    i11_i: Optional[I11I] = field(
         default=None,
         metadata={
             "name": "I11I",
@@ -866,7 +866,7 @@ class Root:
             "required": True,
         },
     )
-    j1_j1: Optional[int] = field(
+    j1_j1: Optional[J1J1] = field(
         default=None,
         metadata={
             "name": "J1J1",
@@ -874,7 +874,7 @@ class Root:
             "required": True,
         },
     )
-    k1_kk: Optional[int] = field(
+    k1_kk: Optional[K1Kk] = field(
         default=None,
         metadata={
             "name": "K1KK",
@@ -882,7 +882,7 @@ class Root:
             "required": True,
         },
     )
-    ll11: Optional[int] = field(
+    ll11: Optional[Ll11] = field(
         default=None,
         metadata={
             "name": "LL11",
@@ -890,7 +890,7 @@ class Root:
             "required": True,
         },
     )
-    mm1_m: Optional[int] = field(
+    mm1_m: Optional[Mm1M] = field(
         default=None,
         metadata={
             "name": "MM1M",
@@ -898,7 +898,7 @@ class Root:
             "required": True,
         },
     )
-    nnn1: Optional[int] = field(
+    nnn1: Optional[Nnn1] = field(
         default=None,
         metadata={
             "name": "NNN1",
@@ -906,7 +906,7 @@ class Root:
             "required": True,
         },
     )
-    h: Optional[int] = field(
+    h: Optional[H] = field(
         default=None,
         metadata={
             "name": "H---",
@@ -914,7 +914,7 @@ class Root:
             "required": True,
         },
     )
-    i_i: Optional[int] = field(
+    i_i: Optional[II] = field(
         default=None,
         metadata={
             "name": "I--I",
@@ -922,7 +922,7 @@ class Root:
             "required": True,
         },
     )
-    j_j: Optional[int] = field(
+    j_j: Optional[JJ] = field(
         default=None,
         metadata={
             "name": "J-J-",
@@ -930,7 +930,7 @@ class Root:
             "required": True,
         },
     )
-    k_kk: Optional[int] = field(
+    k_kk: Optional[KKk] = field(
         default=None,
         metadata={
             "name": "K-KK",
@@ -938,7 +938,7 @@ class Root:
             "required": True,
         },
     )
-    ll: Optional[int] = field(
+    ll: Optional[Ll] = field(
         default=None,
         metadata={
             "name": "LL--",
@@ -946,7 +946,7 @@ class Root:
             "required": True,
         },
     )
-    mm_m: Optional[int] = field(
+    mm_m: Optional[MmM] = field(
         default=None,
         metadata={
             "name": "MM-M",
@@ -954,7 +954,7 @@ class Root:
             "required": True,
         },
     )
-    nnn: Optional[int] = field(
+    nnn: Optional[Nnn] = field(
         default=None,
         metadata={
             "name": "NNN-",

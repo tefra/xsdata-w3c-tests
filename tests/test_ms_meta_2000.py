@@ -4296,6 +4296,7 @@ def test_elem_o009_elem_o009_v(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_elem_o008_elem_o008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

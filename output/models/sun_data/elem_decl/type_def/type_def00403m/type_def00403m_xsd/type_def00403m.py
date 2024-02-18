@@ -6,8 +6,35 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
+class Global:
+    class Meta:
+        namespace = "ElemDecl/typeDef"
+
+    value: Optional[bool] = field(
+        default=None,
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class GlobalPreDefinedType:
+    class Meta:
+        namespace = "ElemDecl/typeDef"
+
+    value: str = field(
+        default="",
+        metadata={
+            "required": True,
+            "pattern": r"1|true",
+        },
+    )
+
+
+@dataclass
 class ComplexType:
-    global_value: Optional[bool] = field(
+    global_value: Optional[Global] = field(
         default=None,
         metadata={
             "name": "Global",
@@ -16,14 +43,13 @@ class ComplexType:
             "required": True,
         },
     )
-    global_pre_defined_type: Optional[str] = field(
+    global_pre_defined_type: Optional[GlobalPreDefinedType] = field(
         default=None,
         metadata={
             "name": "GlobalPreDefinedType",
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
             "required": True,
-            "pattern": r"1|true",
         },
     )
     local: Optional[Decimal] = field(
@@ -53,33 +79,6 @@ class ComplexType:
             "namespace": "",
             "required": True,
             "pattern": r"0|false",
-        },
-    )
-
-
-@dataclass
-class Global:
-    class Meta:
-        namespace = "ElemDecl/typeDef"
-
-    value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        },
-    )
-
-
-@dataclass
-class GlobalPreDefinedType:
-    class Meta:
-        namespace = "ElemDecl/typeDef"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-            "pattern": r"1|true",
         },
     )
 

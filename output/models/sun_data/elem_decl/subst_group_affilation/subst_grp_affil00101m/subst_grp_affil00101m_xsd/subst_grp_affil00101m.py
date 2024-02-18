@@ -50,6 +50,12 @@ class MagazineType(PublicationType):
 
 
 @dataclass
+class Publication(PublicationType):
+    class Meta:
+        namespace = "ElemDecl/substGroupAffilation"
+
+
+@dataclass
 class Book(BookType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"

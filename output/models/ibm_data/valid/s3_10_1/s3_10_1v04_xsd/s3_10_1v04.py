@@ -5,11 +5,25 @@ __NAMESPACE__ = "a"
 
 
 @dataclass
+class Z:
+    class Meta:
+        name = "z"
+        namespace = "a"
+
+    value: Optional[int] = field(
+        default=None,
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class T:
     class Meta:
         name = "t"
 
-    z: Optional[int] = field(
+    z: Optional[Z] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -21,20 +35,6 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        },
-    )
-
-
-@dataclass
-class Z:
-    class Meta:
-        name = "z"
-        namespace = "a"
-
-    value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
         },
     )
 

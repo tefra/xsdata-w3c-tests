@@ -67,7 +67,7 @@ class PurchaseOrderType:
             "required": True,
         },
     )
-    comment: Optional[str] = field(
+    comment: Optional[Comment] = field(
         default=None,
         metadata={
             "type": "Element",

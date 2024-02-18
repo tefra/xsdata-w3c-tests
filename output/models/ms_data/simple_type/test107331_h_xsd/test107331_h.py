@@ -29,14 +29,14 @@ class Root:
     class Meta:
         name = "root"
 
-    a_or_item: List[Union[object, Item]] = field(
+    a_or_item: List[Union[A, Item]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "a",
-                    "type": object,
+                    "type": A,
                 },
                 {
                     "name": "item",

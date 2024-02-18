@@ -253,17 +253,23 @@ class Root:
 
     choice: List[
         Union[
-            str,
-            bytes,
-            XmlPeriod,
-            XmlDate,
-            XmlTime,
-            XmlDateTime,
-            XmlDuration,
-            Decimal,
-            float,
-            bool,
-            int,
+            Entity,
+            Anyuri,
+            Hexbinary,
+            Month,
+            Day,
+            Monthday,
+            Year,
+            Date,
+            Time,
+            Datetime,
+            Duration,
+            DecimalType,
+            Double,
+            Float,
+            Bool,
+            Int,
+            String,
             Item,
         ]
     ] = field(
@@ -273,72 +279,71 @@ class Root:
             "choices": (
                 {
                     "name": "entity",
-                    "type": str,
+                    "type": Entity,
                 },
                 {
                     "name": "anyuri",
-                    "type": str,
+                    "type": Anyuri,
                 },
                 {
                     "name": "hexbinary",
-                    "type": bytes,
-                    "format": "base16",
+                    "type": Hexbinary,
                 },
                 {
                     "name": "month",
-                    "type": XmlPeriod,
+                    "type": Month,
                 },
                 {
                     "name": "day",
-                    "type": XmlPeriod,
+                    "type": Day,
                 },
                 {
                     "name": "monthday",
-                    "type": XmlPeriod,
+                    "type": Monthday,
                 },
                 {
                     "name": "year",
-                    "type": XmlPeriod,
+                    "type": Year,
                 },
                 {
                     "name": "date",
-                    "type": XmlDate,
+                    "type": Date,
                 },
                 {
                     "name": "time",
-                    "type": XmlTime,
+                    "type": Time,
                 },
                 {
                     "name": "datetime",
-                    "type": XmlDateTime,
+                    "type": Datetime,
                 },
                 {
                     "name": "duration",
-                    "type": XmlDuration,
+                    "type": Duration,
                 },
                 {
                     "name": "decimal",
-                    "type": Decimal,
+                    "type": DecimalType,
                 },
                 {
                     "name": "double",
-                    "type": float,
+                    "type": Double,
                 },
                 {
                     "name": "float",
-                    "type": float,
+                    "type": Float,
                 },
                 {
                     "name": "bool",
-                    "type": bool,
+                    "type": Bool,
                 },
                 {
                     "name": "int",
-                    "type": int,
+                    "type": Int,
                 },
                 {
                     "name": "string",
-                    "type": str,
+                    "type": String,
                 },
                 {
                     "name": "item",

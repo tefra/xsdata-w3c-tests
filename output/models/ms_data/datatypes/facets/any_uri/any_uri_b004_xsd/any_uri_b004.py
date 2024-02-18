@@ -73,7 +73,7 @@ class Root:
     class Meta:
         name = "root"
 
-    bar: List[St] = field(
+    bar: List[Bar] = field(
         default_factory=list,
         metadata={
             "type": "Element",

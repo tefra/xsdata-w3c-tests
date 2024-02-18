@@ -6,30 +6,6 @@ __NAMESPACE__ = "myNS.tempuri.org"
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-        namespace = "myNS.tempuri.org"
-
-    t_or_u: List[Union[str, Decimal]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "t",
-                    "type": str,
-                },
-                {
-                    "name": "u",
-                    "type": Decimal,
-                },
-            ),
-        },
-    )
-
-
-@dataclass
 class T:
     class Meta:
         name = "t"
@@ -53,5 +29,29 @@ class U:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+        namespace = "myNS.tempuri.org"
+
+    t_or_u: List[Union[T, U]] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "t",
+                    "type": T,
+                },
+                {
+                    "name": "u",
+                    "type": U,
+                },
+            ),
         },
     )

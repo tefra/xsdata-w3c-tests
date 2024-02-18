@@ -1,6 +1,7 @@
 from output.models.ms_data.complex_type.ct_z007_a_xsd import (
     Address,
     City,
+    Customer,
     CustomerType,
     Customers,
     FirstName,
@@ -15,6 +16,7 @@ from output.models.ms_data.complex_type.ct_z007_a_xsd import (
 __all__ = [
     "Address",
     "City",
+    "Customer",
     "CustomerType",
     "Customers",
     "FirstName",

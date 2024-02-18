@@ -3,20 +3,6 @@ from typing import List
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-
-    uid: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "min_occurs": 1,
-        },
-    )
-
-
-@dataclass
 class Uid:
     class Meta:
         name = "uid"
@@ -25,5 +11,19 @@ class Uid:
         default="",
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+
+    uid: List[Uid] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
         },
     )

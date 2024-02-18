@@ -55,3 +55,10 @@ class Root:
             "namespace": "##any",
         },
     )
+
+
+@dataclass
+class Aft(NsAAft):
+    class Meta:
+        name = "aft"
+        namespace = "ns-a"

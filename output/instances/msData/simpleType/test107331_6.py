@@ -1,13 +1,5 @@
-from decimal import Decimal
 from output.models.ms_data.simple_type.test107331_a_xsd.test107331_a import Item
 from output.models.ms_data.simple_type.test107331_a_xsd.test107331_a import Root
-from xsdata.formats.dataclass.models.generics import DerivedElement
-from xsdata.models.datatype import XmlDate
-from xsdata.models.datatype import XmlDateTime
-from xsdata.models.datatype import XmlDuration
-from xsdata.models.datatype import XmlHexBinary
-from xsdata.models.datatype import XmlPeriod
-from xsdata.models.datatype import XmlTime
 
 
 obj = Root(
@@ -15,60 +7,46 @@ obj = Root(
         Item(
             value='abc'
         ),
-        DerivedElement(
-            qname='item',
-            value=123
+        Item(
+            value='123'
         ),
-        DerivedElement(
-            qname='item',
-            value=4.56
+        Item(
+            value='4.56'
         ),
-        DerivedElement(
-            qname='item',
+        Item(
             value='this is a string'
         ),
-        DerivedElement(
-            qname='item',
-            value=False
+        Item(
+            value='false'
         ),
-        DerivedElement(
-            qname='item',
-            value=Decimal('45')
+        Item(
+            value='45'
         ),
-        DerivedElement(
-            qname='item',
-            value=XmlDuration("P1347Y")
+        Item(
+            value='P1347Y'
         ),
-        DerivedElement(
-            qname='item',
-            value=XmlDateTime(1999, 5, 31, 13, 20, 0, 0, -300)
+        Item(
+            value='1999-05-31T13:20:00-05:00'
         ),
-        DerivedElement(
-            qname='item',
-            value=XmlTime(13, 20, 0, 0, -300)
+        Item(
+            value='13:20:00-05:00'
         ),
-        DerivedElement(
-            qname='item',
-            value=XmlDate(1999, 5, 31)
+        Item(
+            value='1999-05-31'
         ),
-        DerivedElement(
-            qname='item',
-            value=XmlPeriod("1999")
+        Item(
+            value='1999'
         ),
-        DerivedElement(
-            qname='item',
-            value=XmlPeriod("--02-13")
+        Item(
+            value='--02-13'
         ),
-        DerivedElement(
-            qname='item',
-            value=b'\xab\xcd'
+        Item(
+            value='abcd'
         ),
-        DerivedElement(
-            qname='item',
+        Item(
             value='http://tempuri'
         ),
-        DerivedElement(
-            qname='item',
+        Item(
             value='123'
         ),
     ]

@@ -1,4 +1,7 @@
 from output.models.ms_data.element.elem_z016_xsd.elem_z016 import DataTypes
+from output.models.ms_data.element.elem_z016_xsd.elem_z016 import Id
+from output.models.ms_data.element.elem_z016_xsd.elem_z016 import Idref
+from output.models.ms_data.element.elem_z016_xsd.elem_z016 import Idrefs
 from output.models.ms_data.element.elem_z016_xsd.elem_z016 import Root
 
 
@@ -6,20 +9,32 @@ obj = Root(
     data_types=[
         DataTypes(
             id=[
-                'Address',
-                'Address',
+                Id(
+                    value='Address'
+                ),
+                Id(
+                    value='Address'
+                ),
             ],
             idref=[
-                'Address',
-                'Address',
+                Idref(
+                    value='Address'
+                ),
+                Idref(
+                    value='Address'
+                ),
             ],
             idrefs=[
-                [
-                    'Address',
-                ],
-                [
-                    'Address',
-                ],
+                Idrefs(
+                    value=[
+                        'Address',
+                    ]
+                ),
+                Idrefs(
+                    value=[
+                        'Address',
+                    ]
+                ),
             ]
         ),
     ]

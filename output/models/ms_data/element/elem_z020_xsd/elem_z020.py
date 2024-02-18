@@ -5,34 +5,6 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
-class B:
-    foo_or_e1: List[Union[bool, int]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "foo",
-                    "type": bool,
-                    "namespace": "foo",
-                },
-                {
-                    "name": "e1",
-                    "type": bool,
-                    "namespace": "foo",
-                },
-                {
-                    "name": "foo",
-                    "type": int,
-                    "namespace": "",
-                },
-            ),
-            "max_occurs": 1000,
-        },
-    )
-
-
-@dataclass
 class E1:
     class Meta:
         name = "e1"
@@ -56,6 +28,34 @@ class Foo:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class B:
+    foo_or_e1: List[Union[Foo, E1, int]] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": Foo,
+                    "namespace": "foo",
+                },
+                {
+                    "name": "e1",
+                    "type": E1,
+                    "namespace": "foo",
+                },
+                {
+                    "name": "foo",
+                    "type": int,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 1000,
         },
     )
 

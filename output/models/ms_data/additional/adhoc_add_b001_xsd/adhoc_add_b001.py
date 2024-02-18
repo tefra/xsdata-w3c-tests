@@ -28,6 +28,13 @@ class NsAAft:
 
 
 @dataclass
+class Aft(NsAAft):
+    class Meta:
+        name = "aft"
+        namespace = "ns-a"
+
+
+@dataclass
 class MyType(NsAAft):
     class Meta:
         name = "myType"

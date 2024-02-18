@@ -74,11 +74,24 @@ class RCa(Ca):
 
 
 @dataclass
+class Test:
+    class Meta:
+        name = "test"
+
+    value: Optional[A] = field(
+        default=None,
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class Root:
     class Meta:
         name = "root"
 
-    s_a_or_test: Optional[Union[SA, A]] = field(
+    s_a_or_test: Optional[Union[SA, Test]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -89,21 +102,8 @@ class Root:
                 },
                 {
                     "name": "test",
-                    "type": A,
+                    "type": Test,
                 },
             ),
-        },
-    )
-
-
-@dataclass
-class Test:
-    class Meta:
-        name = "test"
-
-    value: Optional[A] = field(
-        default=None,
-        metadata={
-            "required": True,
         },
     )

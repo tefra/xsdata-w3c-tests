@@ -24,9 +24,17 @@ class Root:
                 },
                 {
                     "name": "child2",
-                    "type": Union[bool, str],
-                    "min_length": 5,
+                    "type": Type["Root.Child2"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class Child2:
+        value: Union[bool, str] = field(
+            default="",
+            metadata={
+                "min_length": 5,
+            },
+        )

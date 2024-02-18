@@ -5,10 +5,9 @@ __NAMESPACE__ = "derivationMethod"
 
 
 @dataclass
-class A:
+class A1:
     class Meta:
-        name = "a"
-        namespace = "derivationMethod"
+        name = "A"
 
     value: Optional[int] = field(
         default=None,
@@ -16,3 +15,10 @@ class A:
             "required": True,
         },
     )
+
+
+@dataclass
+class A(A1):
+    class Meta:
+        name = "a"
+        namespace = "derivationMethod"

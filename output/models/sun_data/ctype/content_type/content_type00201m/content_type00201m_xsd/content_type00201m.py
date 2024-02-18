@@ -6,10 +6,9 @@ __NAMESPACE__ = "contentType"
 
 
 @dataclass
-class A:
+class A1:
     class Meta:
-        name = "a"
-        namespace = "contentType"
+        name = "A"
 
     value: Optional[XmlDate] = field(
         default=None,
@@ -17,3 +16,10 @@ class A:
             "required": True,
         },
     )
+
+
+@dataclass
+class A(A1):
+    class Meta:
+        name = "a"
+        namespace = "contentType"

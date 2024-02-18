@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional
+from typing import List, Optional, Union
 from xsdata.models.datatype import XmlDate
 from output.models.boeing_data.ipo4.ipo_xsd.itematt import ItemShipBy
 
@@ -38,6 +38,20 @@ class AddressType:
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class Comment:
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: str = field(
+        default="",
+        metadata={
             "required": True,
         },
     )
@@ -110,24 +124,21 @@ class ItemsType:
                 "required": True,
             },
         )
-        customer_comment_or_ship_comment_or_comment: List[str] = field(
+        customer_comment_or_ship_comment: List[
+            Union[CustomerComment, ShipComment]
+        ] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
                 "choices": (
                     {
                         "name": "customerComment",
-                        "type": str,
+                        "type": CustomerComment,
                         "namespace": "http://www.example.com/IPO",
                     },
                     {
                         "name": "shipComment",
-                        "type": str,
-                        "namespace": "http://www.example.com/IPO",
-                    },
-                    {
-                        "name": "comment",
-                        "type": str,
+                        "type": ShipComment,
                         "namespace": "http://www.example.com/IPO",
                     },
                 ),
@@ -196,24 +207,21 @@ class PurchaseOrderType:
             "max_occurs": 2,
         },
     )
-    customer_comment_or_ship_comment_or_comment: Optional[str] = field(
+    customer_comment_or_ship_comment: Optional[
+        Union[CustomerComment, ShipComment]
+    ] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "customerComment",
-                    "type": str,
+                    "type": CustomerComment,
                     "namespace": "http://www.example.com/IPO",
                 },
                 {
                     "name": "shipComment",
-                    "type": str,
-                    "namespace": "http://www.example.com/IPO",
-                },
-                {
-                    "name": "comment",
-                    "type": str,
+                    "type": ShipComment,
                     "namespace": "http://www.example.com/IPO",
                 },
             ),

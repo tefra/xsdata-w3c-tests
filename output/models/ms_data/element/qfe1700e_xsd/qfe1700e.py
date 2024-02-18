@@ -21,7 +21,7 @@ class Root:
     class Meta:
         name = "root"
 
-    e1: Optional[int] = field(
+    e1: Optional[E1] = field(
         default=None,
         metadata={
             "type": "Element",

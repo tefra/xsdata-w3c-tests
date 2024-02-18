@@ -5,16 +5,20 @@ __NAMESPACE__ = "derivationMethod"
 
 
 @dataclass
-class B1:
-    class Meta:
-        name = "B"
-
+class A:
     value: str = field(
         default="",
         metadata={
             "required": True,
         },
     )
+
+
+@dataclass
+class B1(A):
+    class Meta:
+        name = "B"
+
     q: Optional[int] = field(
         default=None,
         metadata={

@@ -5,21 +5,6 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class Global:
-    class Meta:
-        namespace = "ElemDecl/name"
-
-    main: Optional[bool] = field(
-        default=None,
-        metadata={
-            "name": "Main",
-            "type": "Element",
-            "required": True,
-        },
-    )
-
-
-@dataclass
 class Main:
     class Meta:
         namespace = "ElemDecl/name"
@@ -43,5 +28,20 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+        },
+    )
+
+
+@dataclass
+class Global:
+    class Meta:
+        namespace = "ElemDecl/name"
+
+    main: Optional[Main] = field(
+        default=None,
+        metadata={
+            "name": "Main",
+            "type": "Element",
+            "required": True,
         },
     )

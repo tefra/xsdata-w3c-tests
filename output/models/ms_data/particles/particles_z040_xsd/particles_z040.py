@@ -31,11 +31,25 @@ class B:
 
 
 @dataclass
+class E:
+    class Meta:
+        name = "e"
+
+    value: str = field(
+        init=False,
+        default="e1",
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class Doc:
     class Meta:
         name = "doc"
 
-    a: List[str] = field(
+    a: List[A] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -58,19 +72,5 @@ class Doc:
             "namespace": "",
             "max_occurs": 6,
             "sequence": 1,
-        },
-    )
-
-
-@dataclass
-class E:
-    class Meta:
-        name = "e"
-
-    value: str = field(
-        init=False,
-        default="e1",
-        metadata={
-            "required": True,
         },
     )

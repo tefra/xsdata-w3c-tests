@@ -1,44 +1,7 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
-
-
-@dataclass
-class T:
-    s1_or_s: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "s1",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "name": "s",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-            ),
-        },
-    )
-    n: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "required": True,
-        },
-    )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        },
-    )
 
 
 @dataclass
@@ -107,6 +70,43 @@ class S1:
         default="",
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class T:
+    s1_or_s: Optional[Union[S1, S]] = field(
+        default=None,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s1",
+                    "type": S1,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "s",
+                    "type": S,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+            ),
+        },
+    )
+    n: Optional[N] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        },
+    )
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
         },
     )
 

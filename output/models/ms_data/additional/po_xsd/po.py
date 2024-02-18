@@ -7,71 +7,6 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
-class Items:
-    item: List["Items.Item"] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-        },
-    )
-
-    @dataclass
-    class Item:
-        product_name: Optional[str] = field(
-            default=None,
-            metadata={
-                "name": "productName",
-                "type": "Element",
-                "namespace": "foo",
-                "required": True,
-            },
-        )
-        quantity: Optional[int] = field(
-            default=None,
-            metadata={
-                "type": "Element",
-                "namespace": "foo",
-                "required": True,
-                "max_exclusive": 100,
-            },
-        )
-        usprice: Optional[Decimal] = field(
-            default=None,
-            metadata={
-                "name": "USPrice",
-                "type": "Element",
-                "namespace": "foo",
-                "required": True,
-            },
-        )
-        comment: Optional[str] = field(
-            default=None,
-            metadata={
-                "type": "Element",
-                "namespace": "foo",
-            },
-        )
-        ship_date: Optional[XmlDate] = field(
-            default=None,
-            metadata={
-                "name": "shipDate",
-                "type": "Element",
-                "namespace": "foo",
-            },
-        )
-        part_num: Optional[str] = field(
-            default=None,
-            metadata={
-                "name": "partNum",
-                "type": "Attribute",
-                "required": True,
-                "pattern": r"\d{3}-[A-Z]{2}",
-            },
-        )
-
-
-@dataclass
 class Usaddress:
     class Meta:
         name = "USAddress"
@@ -140,6 +75,71 @@ class Comment:
 
 
 @dataclass
+class Items:
+    item: List["Items.Item"] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+        },
+    )
+
+    @dataclass
+    class Item:
+        product_name: Optional[str] = field(
+            default=None,
+            metadata={
+                "name": "productName",
+                "type": "Element",
+                "namespace": "foo",
+                "required": True,
+            },
+        )
+        quantity: Optional[int] = field(
+            default=None,
+            metadata={
+                "type": "Element",
+                "namespace": "foo",
+                "required": True,
+                "max_exclusive": 100,
+            },
+        )
+        usprice: Optional[Decimal] = field(
+            default=None,
+            metadata={
+                "name": "USPrice",
+                "type": "Element",
+                "namespace": "foo",
+                "required": True,
+            },
+        )
+        comment: Optional[Comment] = field(
+            default=None,
+            metadata={
+                "type": "Element",
+                "namespace": "foo",
+            },
+        )
+        ship_date: Optional[XmlDate] = field(
+            default=None,
+            metadata={
+                "name": "shipDate",
+                "type": "Element",
+                "namespace": "foo",
+            },
+        )
+        part_num: Optional[str] = field(
+            default=None,
+            metadata={
+                "name": "partNum",
+                "type": "Attribute",
+                "required": True,
+                "pattern": r"\d{3}-[A-Z]{2}",
+            },
+        )
+
+
+@dataclass
 class PurchaseOrderType:
     ship_to: Optional[Usaddress] = field(
         default=None,
@@ -159,7 +159,7 @@ class PurchaseOrderType:
             "required": True,
         },
     )
-    comment: Optional[str] = field(
+    comment: Optional[Comment] = field(
         default=None,
         metadata={
             "type": "Element",

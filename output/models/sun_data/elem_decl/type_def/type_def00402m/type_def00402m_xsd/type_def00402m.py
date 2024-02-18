@@ -6,8 +6,21 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
+class Global:
+    class Meta:
+        namespace = "ElemDecl/typeDef"
+
+    value: Optional[bool] = field(
+        default=None,
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class ComplexType:
-    global_value: Optional[bool] = field(
+    global_value: Optional[Global] = field(
         default=None,
         metadata={
             "name": "Global",
@@ -22,19 +35,6 @@ class ComplexType:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
-        },
-    )
-
-
-@dataclass
-class Global:
-    class Meta:
-        namespace = "ElemDecl/typeDef"
-
-    value: Optional[bool] = field(
-        default=None,
-        metadata={
             "required": True,
         },
     )

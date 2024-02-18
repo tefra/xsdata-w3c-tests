@@ -3,55 +3,41 @@ from typing import List, Optional
 
 
 @dataclass
-class Back:
+class AppendixContent:
     class Meta:
-        name = "back"
+        name = "appendixContent"
 
-    appendix_content_or_para_or_chap_content: List[str] = field(
-        default_factory=list,
+    value: str = field(
+        default="",
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "appendixContent",
-                    "type": str,
-                },
-                {
-                    "name": "para",
-                    "type": str,
-                },
-                {
-                    "name": "chapContent",
-                    "type": str,
-                },
-            ),
+            "required": True,
         },
     )
 
 
 @dataclass
-class Body:
+class ChapContent:
     class Meta:
-        name = "body"
+        name = "chapContent"
 
-    appendix_content_or_para_or_chap_content: List[str] = field(
-        default_factory=list,
+    value: str = field(
+        default="",
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "appendixContent",
-                    "type": str,
-                },
-                {
-                    "name": "para",
-                    "type": str,
-                },
-                {
-                    "name": "chapContent",
-                    "type": str,
-                },
-            ),
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class Content:
+    class Meta:
+        name = "content"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
         },
     )
 
@@ -65,6 +51,32 @@ class Para:
         default="",
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Back:
+    class Meta:
+        name = "back"
+
+    para: List[Para] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        },
+    )
+
+
+@dataclass
+class Body:
+    class Meta:
+        name = "body"
+
+    para: List[Para] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
         },
     )
 

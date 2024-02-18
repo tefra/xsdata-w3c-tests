@@ -65,18 +65,18 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    e2_or_e1_or_e3: List[Union[int, bool, float, MyType10Value, E3]] = field(
+    e2_or_e1_or_e3: List[Union[E2, E1, E3]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "E2",
-                    "type": int,
+                    "type": E2,
                 },
                 {
                     "name": "E1",
-                    "type": Union[bool, float, int, MyType10Value],
+                    "type": E1,
                 },
                 {
                     "name": "E3",

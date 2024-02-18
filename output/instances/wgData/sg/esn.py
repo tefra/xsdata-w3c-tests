@@ -1,15 +1,17 @@
 from output.models.wg_data.sg.negsn_xsd.negsn import E
+from output.models.wg_data.sg.negsn_xsd.negsn import N
+from output.models.wg_data.sg.negsn_xsd.negsn import S
 from output.models.wg_data.sg.negsn_xsd.negsn import Test
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Test(
     any_element=E(
         value='Test case for interaction of substitution groups and \n   #definedSibling.'
     ),
-    s1_or_s=DerivedElement(
-        qname='{http://www.w3.org/XML/2008/xsdl-exx/ns1}s',
-        value=''
+    s1_or_s=S(
+
     ),
-    n=''
+    n=N(
+
+    )
 )

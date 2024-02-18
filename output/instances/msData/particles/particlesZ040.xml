@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doc xmlns:a="a" xmlns:b="b">
-  <a/>
+  <a>e1</a>
   <a:a1>a1</a:a1>
   <b/>
   <a:a1>a1</a:a1>

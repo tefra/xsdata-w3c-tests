@@ -20,12 +20,11 @@ class Outer:
     class Meta:
         name = "outer"
 
-    list_value: List[List[int]] = field(
+    list_value: List[ListType] = field(
         default_factory=list,
         metadata={
             "name": "list",
             "type": "Element",
             "min_occurs": 1,
-            "tokens": True,
         },
     )

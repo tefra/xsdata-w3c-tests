@@ -3,11 +3,24 @@ from typing import List
 
 
 @dataclass
+class Uid:
+    class Meta:
+        name = "uid"
+
+    value: str = field(
+        default="",
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class Root:
     class Meta:
         name = "root"
 
-    uid: List[str] = field(
+    uid: List[Uid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -20,18 +33,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        },
-    )
-
-
-@dataclass
-class Uid:
-    class Meta:
-        name = "uid"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
         },
     )

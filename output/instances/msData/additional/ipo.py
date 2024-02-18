@@ -1,4 +1,5 @@
 from decimal import Decimal
+from output.models.ms_data.additional.ipo_xsd.ipo import Comment
 from output.models.ms_data.additional.ipo_xsd.ipo import Items
 from output.models.ms_data.additional.ipo_xsd.ipo import PurchaseOrder
 from output.models.ms_data.additional.ipo_xsd.ipo_address import Ukaddress
@@ -27,7 +28,9 @@ obj = PurchaseOrder(
                 product_name='Lapis necklace',
                 quantity=1,
                 usprice=Decimal('99.95'),
-                comment='Want this for the holidays!',
+                comment=Comment(
+                    value='Want this for the holidays!'
+                ),
                 ship_date=XmlDate(1999, 12, 5),
                 part_num='833-AA'
             ),

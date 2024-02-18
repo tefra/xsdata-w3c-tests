@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "a"
 
@@ -65,19 +65,19 @@ class T:
     class Meta:
         name = "t"
 
-    d_or_b: Optional[int] = field(
+    d_or_b: Optional[Union[D, B]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "d",
-                    "type": int,
+                    "type": D,
                     "namespace": "a",
                 },
                 {
                     "name": "b",
-                    "type": int,
+                    "type": B,
                     "namespace": "a",
                 },
             ),
@@ -90,7 +90,7 @@ class T:
             "namespace": "##any",
         },
     )
-    c: Optional[int] = field(
+    c: Optional[C] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -88,47 +88,6 @@ class RCa(Ca):
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-
-    sa_or_test: Optional[Union[Sa, A]] = field(
-        default=None,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "sa",
-                    "type": Sa,
-                },
-                {
-                    "name": "test",
-                    "type": A,
-                },
-            ),
-        },
-    )
-    test2: Optional[A] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        },
-    )
-    test3: Optional[A] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        },
-    )
-    test4: Optional[Test4] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        },
-    )
-
-
-@dataclass
 class Test:
     class Meta:
         name = "test"
@@ -163,5 +122,46 @@ class Test3:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+
+    sa_or_test: Optional[Union[Sa, Test]] = field(
+        default=None,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "sa",
+                    "type": Sa,
+                },
+                {
+                    "name": "test",
+                    "type": Test,
+                },
+            ),
+        },
+    )
+    test2: Optional[Test2] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+        },
+    )
+    test3: Optional[Test3] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+        },
+    )
+    test4: Optional[Test4] = field(
+        default=None,
+        metadata={
+            "type": "Element",
         },
     )

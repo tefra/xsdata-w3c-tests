@@ -197,11 +197,10 @@ class Ct1:
     class Meta:
         name = "ct1"
 
-    e1: Optional[str] = field(
+    e1: Optional[E1] = field(
         default=None,
         metadata={
             "type": "Element",
-            "length": 4,
         },
     )
     e2: Optional[E2] = field(

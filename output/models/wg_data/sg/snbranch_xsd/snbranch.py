@@ -5,62 +5,6 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
-class T:
-    choice: List[Union[str, object]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "s1",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "name": "s",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "name": "n1",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "name": "n",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "wildcard": True,
-                    "type": object,
-                    "namespace": "##any",
-                },
-                {
-                    "name": "a",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "name": "b",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-            ),
-            "max_occurs": 10,
-        },
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "required": True,
-        },
-    )
-
-
-@dataclass
 class A:
     class Meta:
         name = "a"
@@ -167,6 +111,62 @@ class S1:
     value: str = field(
         default="",
         metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class T:
+    choice: List[Union[S1, S, N1, N, object, A, B]] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s1",
+                    "type": S1,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "s",
+                    "type": S,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "n1",
+                    "type": N1,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "n",
+                    "type": N,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##any",
+                },
+                {
+                    "name": "a",
+                    "type": A,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "b",
+                    "type": B,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+            ),
+            "max_occurs": 10,
+        },
+    )
+    c: Optional[C] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
             "required": True,
         },
     )

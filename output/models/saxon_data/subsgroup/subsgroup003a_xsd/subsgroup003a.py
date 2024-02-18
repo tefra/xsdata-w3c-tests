@@ -18,3 +18,9 @@ class ActionType:
 class Command:
     class Meta:
         namespace = "http://www.myexample.com/command"
+
+
+@dataclass
+class Action(ActionType):
+    class Meta:
+        namespace = "http://www.myexample.com/command"

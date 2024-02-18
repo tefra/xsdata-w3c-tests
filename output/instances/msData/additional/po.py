@@ -1,4 +1,5 @@
 from decimal import Decimal
+from output.models.ms_data.additional.po_xsd.po import Comment
 from output.models.ms_data.additional.po_xsd.po import Items
 from output.models.ms_data.additional.po_xsd.po import PurchaseOrder
 from output.models.ms_data.additional.po_xsd.po import Usaddress
@@ -20,14 +21,18 @@ obj = PurchaseOrder(
         state='PA',
         zip=Decimal('95819')
     ),
-    comment='Hurry, my lawn is going wild!',
+    comment=Comment(
+        value='Hurry, my lawn is going wild!'
+    ),
     items=Items(
         item=[
             Items.Item(
                 product_name='Lawnmower',
                 quantity=1,
                 usprice=Decimal('148.95'),
-                comment='Confirm this is electric',
+                comment=Comment(
+                    value='Confirm this is electric'
+                ),
                 part_num='872-AA'
             ),
             Items.Item(

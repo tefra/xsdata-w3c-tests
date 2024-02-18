@@ -67,7 +67,7 @@ class Doc:
             "required": True,
         },
     )
-    b: Optional[XmlTime] = field(
+    b: Optional[B] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -1,3 +1,4 @@
+from output.models.ms_data.element.elem_r002_xsd.elem_r002 import Comment
 from output.models.ms_data.element.elem_r002_xsd.elem_r002 import PurchaseOrder
 from output.models.ms_data.element.elem_r002_xsd.elem_r002 import Usaddress
 
@@ -11,5 +12,7 @@ obj = PurchaseOrder(
         name='Robert Smith',
         street='8 Oak Avenue'
     ),
-    comment='Hurry, my lawn is going wild!'
+    comment=Comment(
+        value='Hurry, my lawn is going wild!'
+    )
 )

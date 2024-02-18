@@ -5,21 +5,6 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class Global:
-    class Meta:
-        namespace = "ElemDecl/name"
-
-    main: List[bool] = field(
-        default_factory=list,
-        metadata={
-            "name": "Main",
-            "type": "Element",
-            "min_occurs": 1,
-        },
-    )
-
-
-@dataclass
 class Main:
     class Meta:
         namespace = "ElemDecl/name"
@@ -43,5 +28,20 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+        },
+    )
+
+
+@dataclass
+class Global:
+    class Meta:
+        namespace = "ElemDecl/name"
+
+    main: List[Main] = field(
+        default_factory=list,
+        metadata={
+            "name": "Main",
+            "type": "Element",
+            "min_occurs": 1,
         },
     )

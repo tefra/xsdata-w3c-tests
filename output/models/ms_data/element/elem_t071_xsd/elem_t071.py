@@ -11,19 +11,6 @@ class UnionA(Enum):
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-
-    test: List[UnionA] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        },
-    )
-
-
-@dataclass
 class Test:
     class Meta:
         name = "test"
@@ -32,5 +19,18 @@ class Test:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+
+    test: List[Test] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
         },
     )

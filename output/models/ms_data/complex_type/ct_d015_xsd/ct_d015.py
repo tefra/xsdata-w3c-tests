@@ -1,20 +1,34 @@
 from dataclasses import dataclass, field
-from enum import Enum
-from typing import Optional
-
-
-class FooType(Enum):
-    CA = "CA"
 
 
 @dataclass
-class Root:
+class MyType:
     class Meta:
-        name = "root"
+        name = "myType"
 
-    value: Optional[FooType] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         },
     )
+
+
+@dataclass
+class FooType(MyType):
+    class Meta:
+        name = "fooType"
+
+    value: str = field(
+        init=False,
+        default="CA",
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class Root(FooType):
+    class Meta:
+        name = "root"

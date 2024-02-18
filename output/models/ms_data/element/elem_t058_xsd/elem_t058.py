@@ -148,7 +148,7 @@ class Root:
     class Meta:
         name = "root"
 
-    sa_or_test1: Optional[Union[Sa, A]] = field(
+    sa_or_test1: Optional[Union[Sa, Test1]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -159,18 +159,18 @@ class Root:
                 },
                 {
                     "name": "test1",
-                    "type": A,
+                    "type": Test1,
                 },
             ),
         },
     )
-    test2: Optional[A] = field(
+    test2: Optional[Test2] = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    test3: Optional[A] = field(
+    test3: Optional[Test3] = field(
         default=None,
         metadata={
             "type": "Element",

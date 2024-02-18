@@ -38,7 +38,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    value: Optional[int] = field(
+    value: Optional[TypeType] = field(
         default=None,
         metadata={
             "name": "_-.",
@@ -46,7 +46,7 @@ class Root:
             "required": True,
         },
     )
-    value_0: Optional[int] = field(
+    value_0: Optional[Type0] = field(
         default=None,
         metadata={
             "name": "_-0.",

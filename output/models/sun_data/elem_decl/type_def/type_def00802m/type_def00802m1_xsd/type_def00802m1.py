@@ -24,12 +24,11 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    element: Optional[str] = field(
+    element: Optional[Element] = field(
         default=None,
         metadata={
             "name": "Element",
             "type": "Element",
             "required": True,
-            "pattern": r"1|0",
         },
     )

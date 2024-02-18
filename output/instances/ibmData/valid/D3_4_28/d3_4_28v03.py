@@ -1,3 +1,4 @@
+from output.models.ibm_data.valid.d3_4_28.d3_4_28v03_xsd.d3_4_28v03 import EldTimeStampListC
 from output.models.ibm_data.valid.d3_4_28.d3_4_28v03_xsd.d3_4_28v03 import Root
 from xsdata.models.datatype import XmlDateTime
 
@@ -15,9 +16,11 @@ obj = Root(
         '2004-01-01T12:00:00.123Z',
         '2002-01-01T12:00:00.123+09:00',
     ],
-    eld_time_stamp_list_c=[
-        '2002-01-01T12:00:00.123-09:00',
-        '2005-01-01T12:00:00.123-09:00',
-        '2006-01-01T12:00:00.123-09:00',
-    ]
+    eld_time_stamp_list_c=EldTimeStampListC(
+        value=[
+            '2002-01-01T12:00:00.123-09:00',
+            '2005-01-01T12:00:00.123-09:00',
+            '2006-01-01T12:00:00.123-09:00',
+        ]
+    )
 )

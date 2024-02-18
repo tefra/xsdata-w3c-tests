@@ -7,6 +7,7 @@ from output.models.boeing_data.ipo3.ipo_xsd.address import (
 from output.models.boeing_data.ipo3.ipo_xsd.ipo import (
     ItemsType,
     PurchaseOrderType,
+    Comment,
     CustomerComment,
     PurchaseOrder,
     ShipComment,
@@ -20,6 +21,7 @@ __all__ = [
     "Usstate",
     "ItemsType",
     "PurchaseOrderType",
+    "Comment",
     "CustomerComment",
     "PurchaseOrder",
     "ShipComment",

@@ -1,5 +1,6 @@
 from output.models.ms_data.datatypes.long009_xsd.long009 import ComplexTest
 from output.models.ms_data.datatypes.long009_xsd.long009 import Root
+from output.models.ms_data.datatypes.long009_xsd.long009 import SimpleTest
 
 
 obj = Root(
@@ -8,7 +9,9 @@ obj = Root(
             9223372036854775,
         ]
     ),
-    simple_test=[
-        9223372036854775,
-    ]
+    simple_test=SimpleTest(
+        value=[
+            9223372036854775,
+        ]
+    )
 )

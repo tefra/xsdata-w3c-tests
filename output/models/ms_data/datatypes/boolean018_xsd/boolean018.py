@@ -60,7 +60,7 @@ class Root:
             "required": True,
         },
     )
-    simple_test: Optional[SimplefooType] = field(
+    simple_test: Optional[SimpleTest] = field(
         default=None,
         metadata={
             "name": "simpleTest",

@@ -2,14 +2,25 @@ from dataclasses import dataclass, field
 
 
 @dataclass
-class Root:
+class MyType:
     class Meta:
-        name = "root"
+        name = "myType"
 
     value: str = field(
         default="",
         metadata={
             "required": True,
-            "white_space": "preserve",
         },
     )
+
+
+@dataclass
+class FooType(MyType):
+    class Meta:
+        name = "fooType"
+
+
+@dataclass
+class Root(FooType):
+    class Meta:
+        name = "root"

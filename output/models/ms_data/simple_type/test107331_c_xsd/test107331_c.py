@@ -142,71 +142,6 @@ class Ra:
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-
-    choice: List[
-        Union[RA1, UnionAb, A1, UnionA, B1, str, int, object]
-    ] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "ra",
-                    "type": RA1,
-                },
-                {
-                    "name": "lab",
-                    "type": List[UnionAb],
-                    "default_factory": list,
-                    "tokens": True,
-                },
-                {
-                    "name": "la",
-                    "type": List[A1],
-                    "default_factory": list,
-                    "tokens": True,
-                },
-                {
-                    "name": "uab",
-                    "type": UnionAb,
-                },
-                {
-                    "name": "ua",
-                    "type": UnionA,
-                },
-                {
-                    "name": "b",
-                    "type": B1,
-                },
-                {
-                    "name": "a",
-                    "type": A1,
-                },
-                {
-                    "name": "B",
-                    "type": str,
-                    "min_length": 0,
-                    "max_length": 10,
-                },
-                {
-                    "name": "A",
-                    "type": int,
-                    "min_exclusive": 0,
-                    "max_inclusive": 10,
-                },
-                {
-                    "name": "item",
-                    "type": object,
-                },
-            ),
-        },
-    )
-
-
-@dataclass
 class Ua:
     class Meta:
         name = "ua"
@@ -228,5 +163,60 @@ class Uab:
         default=None,
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+
+    choice: List[Union[Ra, Lab, La, Uab, Ua, B3, A3, B2, A2, Item]] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "ra",
+                    "type": Ra,
+                },
+                {
+                    "name": "lab",
+                    "type": Lab,
+                },
+                {
+                    "name": "la",
+                    "type": La,
+                },
+                {
+                    "name": "uab",
+                    "type": Uab,
+                },
+                {
+                    "name": "ua",
+                    "type": Ua,
+                },
+                {
+                    "name": "b",
+                    "type": B3,
+                },
+                {
+                    "name": "a",
+                    "type": A3,
+                },
+                {
+                    "name": "B",
+                    "type": B2,
+                },
+                {
+                    "name": "A",
+                    "type": A2,
+                },
+                {
+                    "name": "item",
+                    "type": Item,
+                },
+            ),
         },
     )

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -71,33 +71,6 @@ class FeValid:
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-        namespace = "http://xsdtesting"
-
-    fe1_valid_or_fe_valid: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "fe1_valid",
-                    "type": str,
-                    "min_length": 1,
-                    "max_length": 2,
-                },
-                {
-                    "name": "fe_valid",
-                    "type": str,
-                    "max_length": 4,
-                },
-            ),
-        },
-    )
-
-
-@dataclass
 class Cc(Cs):
     class Meta:
         name = "cc"
@@ -106,5 +79,29 @@ class Cc(Cs):
         default=None,
         metadata={
             "type": "Attribute",
+        },
+    )
+
+
+@dataclass
+class Root:
+    class Meta:
+        name = "root"
+        namespace = "http://xsdtesting"
+
+    fe1_valid_or_fe_valid: Optional[Union[Fe1Valid, FeValid]] = field(
+        default=None,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "fe1_valid",
+                    "type": Fe1Valid,
+                },
+                {
+                    "name": "fe_valid",
+                    "type": FeValid,
+                },
+            ),
         },
     )

@@ -20,7 +20,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: List[str] = field(
+    foo_test: List[FooTest] = field(
         default_factory=list,
         metadata={
             "name": "fooTest",

@@ -5,6 +5,7 @@ from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil0010
     BookType,
     Magazine,
     MagazineType,
+    Publication,
     PublicationType,
 )
 
@@ -15,5 +16,6 @@ __all__ = [
     "BookType",
     "Magazine",
     "MagazineType",
+    "Publication",
     "PublicationType",
 ]

@@ -34,18 +34,18 @@ class Zing:
     class Meta:
         name = "zing"
 
-    g_or_e: Optional[Union[int, Decimal]] = field(
+    g_or_e: Optional[Union[G, E]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "g",
-                    "type": int,
+                    "type": G,
                 },
                 {
                     "name": "e",
-                    "type": Decimal,
+                    "type": E,
                 },
             ),
         },

@@ -4,14 +4,25 @@ from typing import Optional
 
 
 @dataclass
-class Root:
+class MyType:
     class Meta:
-        name = "root"
+        name = "myType"
 
     value: Optional[Decimal] = field(
         default=None,
         metadata={
             "required": True,
-            "min_inclusive": Decimal("5"),
         },
     )
+
+
+@dataclass
+class FooType(MyType):
+    class Meta:
+        name = "fooType"
+
+
+@dataclass
+class Root(FooType):
+    class Meta:
+        name = "root"

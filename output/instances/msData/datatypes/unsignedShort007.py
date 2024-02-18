@@ -1,5 +1,6 @@
 from output.models.ms_data.datatypes.unsigned_short007_xsd.unsigned_short007 import ComplexTest
 from output.models.ms_data.datatypes.unsigned_short007_xsd.unsigned_short007 import Root
+from output.models.ms_data.datatypes.unsigned_short007_xsd.unsigned_short007 import SimpleTest
 
 
 obj = Root(
@@ -8,7 +9,9 @@ obj = Root(
             65530,
         ]
     ),
-    simple_test=[
-        65530,
-    ]
+    simple_test=SimpleTest(
+        value=[
+            65530,
+        ]
+    )
 )

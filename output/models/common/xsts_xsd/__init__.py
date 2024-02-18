@@ -1,11 +1,15 @@
 from output.models.common.xsts_xsd.xlink import (
     ActuateType,
+    Arc,
     ArcType,
     Extended,
+    Locator,
     LocatorType,
+    Resource,
     ResourceType,
     ShowType,
     Simple,
+    Title,
     TitleEltType,
     TypeType,
 )
@@ -39,12 +43,16 @@ from output.models.common.xsts_xsd.xsts import (
 
 __all__ = [
     "ActuateType",
+    "Arc",
     "ArcType",
     "Extended",
+    "Locator",
     "LocatorType",
+    "Resource",
     "ResourceType",
     "ShowType",
     "Simple",
+    "Title",
     "TitleEltType",
     "TypeType",
     "LangValue",

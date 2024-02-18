@@ -65,7 +65,7 @@ class T:
     class Meta:
         name = "t"
 
-    b: Optional[int] = field(
+    b: Optional[B] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -80,7 +80,7 @@ class T:
             "namespace": "##any",
         },
     )
-    c: Optional[int] = field(
+    c: Optional[C] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -39,14 +39,14 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    e1_or_e: Optional[Union[int, E]] = field(
+    e1_or_e: Optional[Union[E1, E]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "e1",
-                    "type": int,
+                    "type": E1,
                 },
                 {
                     "name": "e",

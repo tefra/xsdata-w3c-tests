@@ -5,14 +5,22 @@ __NAMESPACE__ = "baseTD"
 
 
 @dataclass
-class Root:
-    class Meta:
-        name = "root"
-        namespace = "baseTD"
-
+class Test2:
     value: Optional[int] = field(
         default=None,
         metadata={
             "required": True,
         },
     )
+
+
+@dataclass
+class Test(Test2):
+    pass
+
+
+@dataclass
+class Root(Test):
+    class Meta:
+        name = "root"
+        namespace = "baseTD"

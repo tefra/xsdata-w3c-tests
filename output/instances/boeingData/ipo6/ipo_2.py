@@ -1,4 +1,6 @@
 from decimal import Decimal
+from output.models.boeing_data.ipo6.ipo_xsd.address import Salutation
+from output.models.boeing_data.ipo6.ipo_xsd.ipo import CustomerComment
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import PurchaseOrder
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import Ukaddress
@@ -8,7 +10,9 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = PurchaseOrder(
-    salutation_or_extern_first_element='Mrs.',
+    salutation_or_extern_first_element=Salutation(
+        value='Mrs.'
+    ),
     ship_to_or_bill_to_or_single_address=[
         DerivedElement(
             qname='{http://www.example.com/IPO}singleAddress',
@@ -21,7 +25,9 @@ obj = PurchaseOrder(
             type='{http://www.example.com/IPO}UKAddress'
         ),
     ],
-    customer_comment_or_ship_comment_or_comment='I love Boeing too!',
+    customer_comment_or_ship_comment=CustomerComment(
+        value='I love Boeing too!'
+    ),
     items=ItemsType(
         content=[
             ItemsType.Item(

@@ -56,38 +56,6 @@ class Zip:
 
 
 @dataclass
-class CustomerType:
-    class Meta:
-        target_namespace = "urn:xmlns:25hoursaday-com:customer"
-
-    first_name: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "FirstName",
-            "type": "Element",
-            "namespace": "urn:xmlns:25hoursaday-com:customer",
-            "required": True,
-        },
-    )
-    last_name: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "LastName",
-            "type": "Element",
-            "namespace": "urn:xmlns:25hoursaday-com:customer",
-            "required": True,
-        },
-    )
-    customer_id: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "customerID",
-            "type": "Attribute",
-        },
-    )
-
-
-@dataclass
 class FirstName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
@@ -127,11 +95,43 @@ class PhoneNumber:
 
 
 @dataclass
+class CustomerType:
+    class Meta:
+        target_namespace = "urn:xmlns:25hoursaday-com:customer"
+
+    first_name: Optional[FirstName] = field(
+        default=None,
+        metadata={
+            "name": "FirstName",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
+        },
+    )
+    last_name: Optional[LastName] = field(
+        default=None,
+        metadata={
+            "name": "LastName",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
+        },
+    )
+    customer_id: Optional[int] = field(
+        default=None,
+        metadata={
+            "name": "customerID",
+            "type": "Attribute",
+        },
+    )
+
+
+@dataclass
 class MyCustomerType(CustomerType):
     class Meta:
         target_namespace = "urn:xmlns:25hoursaday-com:address"
 
-    phone_number: Optional[str] = field(
+    phone_number: Optional[PhoneNumber] = field(
         default=None,
         metadata={
             "name": "PhoneNumber",
@@ -140,7 +140,7 @@ class MyCustomerType(CustomerType):
             "required": True,
         },
     )
-    address: Optional[str] = field(
+    address: Optional[Address] = field(
         default=None,
         metadata={
             "name": "Address",
@@ -149,7 +149,7 @@ class MyCustomerType(CustomerType):
             "required": True,
         },
     )
-    city: Optional[str] = field(
+    city: Optional[City] = field(
         default=None,
         metadata={
             "name": "City",
@@ -158,9 +158,8 @@ class MyCustomerType(CustomerType):
             "required": True,
         },
     )
-    state: str = field(
-        init=False,
-        default="WA",
+    state: Optional[State] = field(
+        default=None,
         metadata={
             "name": "State",
             "type": "Element",
@@ -168,16 +167,21 @@ class MyCustomerType(CustomerType):
             "required": True,
         },
     )
-    zip: Optional[str] = field(
+    zip: Optional[Zip] = field(
         default=None,
         metadata={
             "name": "Zip",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
             "required": True,
-            "pattern": r"\d{5}(-\d{4})?",
         },
     )
+
+
+@dataclass
+class Customer(CustomerType):
+    class Meta:
+        namespace = "urn:xmlns:25hoursaday-com:customer"
 
 
 @dataclass

@@ -24,7 +24,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    global_value: Optional[bool] = field(
+    global_value: Optional[Global] = field(
         default=None,
         metadata={
             "name": "Global",

@@ -57,7 +57,7 @@ class Root:
         namespace = "foo"
 
     non_nillable_or_nillable1_or_nillable2: List[
-        Union[NonNillable, Nillable1, int]
+        Union[NonNillable, Nillable1, Nillable2]
     ] = field(
         default_factory=list,
         metadata={
@@ -74,11 +74,8 @@ class Root:
                 },
                 {
                     "name": "nillable2",
-                    "type": List[int],
-                    "default_factory": list,
-                    "min_length": 2,
+                    "type": Nillable2,
                     "nillable": True,
-                    "tokens": True,
                 },
             ),
         },

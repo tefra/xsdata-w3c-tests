@@ -3,7 +3,9 @@ from output.models.ibm_data.valid.s3_10_1.s3_10_1v04_xsd.s3_10_1v04 import Z
 
 
 obj = Root(
-    z=1,
+    z=Z(
+        value=1
+    ),
     any_element=Z(
         value=1
     )

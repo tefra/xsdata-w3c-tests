@@ -4,13 +4,13 @@
   <item>5</item>
   <item/>
   <item>1234567890</item>
-  <item xsi:type="A">1</item>
-  <item xsi:type="A">2</item>
-  <item xsi:type="A">3</item>
-  <item xsi:type="A">4</item>
-  <item xsi:type="B">a</item>
-  <item xsi:type="B">c123456789</item>
-  <item xsi:type="B">b</item>
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
+  <item>a</item>
+  <item>c123456789</item>
+  <item>b</item>
   <item>1</item>
   <item>4</item>
   <item>c123456789</item>

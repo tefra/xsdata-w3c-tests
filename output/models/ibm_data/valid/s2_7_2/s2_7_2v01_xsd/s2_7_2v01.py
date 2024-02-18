@@ -24,7 +24,7 @@ class T:
     class Meta:
         name = "t"
 
-    b: Optional[int] = field(
+    b: Optional[B] = field(
         default=None,
         metadata={
             "type": "Element",

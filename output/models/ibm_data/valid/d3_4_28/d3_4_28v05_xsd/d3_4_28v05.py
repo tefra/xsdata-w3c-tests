@@ -39,7 +39,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    el_enumeration_a: List[ElEnumerationAValue] = field(
+    el_enumeration_a: List[ElEnumerationA] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationA",
@@ -48,7 +48,7 @@ class Root:
             "max_occurs": 3,
         },
     )
-    el_enumeration_b: List[ElEnumerationBValue] = field(
+    el_enumeration_b: List[ElEnumerationB] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationB",

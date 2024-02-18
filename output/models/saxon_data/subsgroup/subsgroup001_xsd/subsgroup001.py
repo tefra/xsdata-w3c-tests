@@ -3,27 +3,29 @@ from typing import List, Optional
 
 
 @dataclass
-class Back:
+class AppendixContent:
     class Meta:
-        name = "back"
+        name = "appendixContent"
 
-    para: List[str] = field(
-        default_factory=list,
+    any_element: Optional[object] = field(
+        default=None,
         metadata={
-            "type": "Element",
+            "type": "Wildcard",
+            "namespace": "##any",
         },
     )
 
 
 @dataclass
-class Body:
+class ChapContent:
     class Meta:
-        name = "body"
+        name = "chapContent"
 
-    para: List[str] = field(
-        default_factory=list,
+    any_element: Optional[object] = field(
+        default=None,
         metadata={
-            "type": "Element",
+            "type": "Wildcard",
+            "namespace": "##any",
         },
     )
 
@@ -37,6 +39,32 @@ class Para:
         default="",
         metadata={
             "required": True,
+        },
+    )
+
+
+@dataclass
+class Back:
+    class Meta:
+        name = "back"
+
+    para: List[Para] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        },
+    )
+
+
+@dataclass
+class Body:
+    class Meta:
+        name = "body"
+
+    para: List[Para] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
         },
     )
 

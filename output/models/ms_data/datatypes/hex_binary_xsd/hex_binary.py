@@ -51,12 +51,11 @@ class Root:
             "required": True,
         },
     )
-    simple_test: Optional[bytes] = field(
+    simple_test: Optional[SimpleTest] = field(
         default=None,
         metadata={
             "name": "simpleTest",
             "type": "Element",
             "required": True,
-            "format": "base16",
         },
     )

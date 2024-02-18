@@ -1,5 +1,6 @@
 from decimal import Decimal
 from output.models.boeing_data.ipo3.ipo_xsd.address import Ukaddress
+from output.models.boeing_data.ipo3.ipo_xsd.ipo import CustomerComment
 from output.models.boeing_data.ipo3.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo3.ipo_xsd.ipo import PurchaseOrder
 from output.models.boeing_data.ipo3.ipo_xsd.itematt import ItemShipBy
@@ -20,7 +21,9 @@ obj = PurchaseOrder(
             type='{http://www.example.com/add}UKAddress'
         ),
     ],
-    customer_comment_or_ship_comment_or_comment='I love Boeing too!',
+    customer_comment_or_ship_comment=CustomerComment(
+        value='I love Boeing too!'
+    ),
     items=ItemsType(
         content=[
             ItemsType.Item(

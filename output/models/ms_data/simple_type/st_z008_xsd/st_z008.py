@@ -3,11 +3,18 @@ from typing import List, Optional
 
 
 @dataclass
-class T2:
+class T1:
+    class Meta:
+        name = "t1"
+
+    value: Optional[object] = field(default=None)
+
+
+@dataclass
+class T2(T1):
     class Meta:
         name = "t2"
 
-    value: Optional[object] = field(default=None)
     att: Optional[object] = field(
         default=None,
         metadata={
@@ -21,7 +28,7 @@ class Root:
     class Meta:
         name = "root"
 
-    e1: List[object] = field(
+    e1: List[T1] = field(
         default_factory=list,
         metadata={
             "type": "Element",

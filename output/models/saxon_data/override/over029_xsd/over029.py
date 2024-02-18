@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from output.models.saxon_data.override.over029_xsd.over029a import GiftWrap
 
 __NAMESPACE__ = "http://datypic.com/ord"
 
@@ -29,7 +30,7 @@ class ProductType:
             "namespace": "http://datypic.com/ord",
         },
     )
-    gift_wrap: Optional[str] = field(
+    gift_wrap: Optional[GiftWrap] = field(
         default=None,
         metadata={
             "name": "giftWrap",

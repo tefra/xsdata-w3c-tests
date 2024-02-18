@@ -8,6 +8,20 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 
 @dataclass
+class Comment:
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: str = field(
+        default="",
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class Items:
     item: List["Items.Item"] = field(
         default_factory=list,
@@ -46,7 +60,7 @@ class Items:
                 "required": True,
             },
         )
-        comment: Optional[str] = field(
+        comment: Optional[Comment] = field(
             default=None,
             metadata={
                 "type": "Element",
@@ -73,20 +87,6 @@ class Items:
 
 
 @dataclass
-class Comment:
-    class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
-
-
-@dataclass
 class PurchaseOrderType:
     ship_to: Optional[Address] = field(
         default=None,
@@ -105,7 +105,7 @@ class PurchaseOrderType:
             "namespace": "",
         },
     )
-    comment: Optional[str] = field(
+    comment: Optional[Comment] = field(
         default=None,
         metadata={
             "type": "Element",

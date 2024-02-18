@@ -1,11 +1,11 @@
+from output.models.ibm_data.valid.s3_10_1.s3_10_1v06_xsd.s3_10_1v06 import B
+from output.models.ibm_data.valid.s3_10_1.s3_10_1v06_xsd.s3_10_1v06 import C
 from output.models.ibm_data.valid.s3_10_1.s3_10_1v06_xsd.s3_10_1v06 import Root
 from xsdata.formats.dataclass.models.generics import AnyElement
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
-    d_or_b=DerivedElement(
-        qname='{a}b',
+    d_or_b=B(
         value=1
     ),
     any_element=[
@@ -14,5 +14,7 @@ obj = Root(
             text='1'
         ),
     ],
-    c=1
+    c=C(
+        value=1
+    )
 )

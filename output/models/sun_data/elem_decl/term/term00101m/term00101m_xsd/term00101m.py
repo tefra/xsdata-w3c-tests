@@ -23,7 +23,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/term"
 
-    local: Optional[bool] = field(
+    local: Optional[Local] = field(
         default=None,
         metadata={
             "name": "Local",

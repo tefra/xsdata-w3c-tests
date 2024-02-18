@@ -50,7 +50,7 @@ class Root:
             "required": True,
         },
     )
-    simple_test: Optional[Decimal] = field(
+    simple_test: Optional[SimpleTest] = field(
         default=None,
         metadata={
             "name": "simpleTest",

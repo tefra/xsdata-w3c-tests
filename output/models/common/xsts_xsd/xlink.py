@@ -355,3 +355,31 @@ class TitleEltType:
             "mixed": True,
         },
     )
+
+
+@dataclass
+class Arc(ArcType):
+    class Meta:
+        name = "arc"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Locator(LocatorType):
+    class Meta:
+        name = "locator"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Resource(ResourceType):
+    class Meta:
+        name = "resource"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Title(TitleEltType):
+    class Meta:
+        name = "title"
+        namespace = "http://www.w3.org/1999/xlink"

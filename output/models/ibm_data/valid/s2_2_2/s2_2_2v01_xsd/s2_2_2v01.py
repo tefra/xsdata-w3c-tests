@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns/ibms3_3_6_v04"
 
@@ -33,6 +33,20 @@ class Elem1:
 
 
 @dataclass
+class Elem2:
+    class Meta:
+        name = "elem2"
+        namespace = "http://xstest-tns/ibms3_3_6_v04"
+
+    value: str = field(
+        default="",
+        metadata={
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class Elem3:
     class Meta:
         name = "elem3"
@@ -51,31 +65,26 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem3_or_elem2_or_elem0: List[str] = field(
+    elem3_or_elem0: List[Union[Elem3, Elem0]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "elem3",
-                    "type": str,
-                    "namespace": "http://xstest-tns/ibms3_3_6_v04",
-                },
-                {
-                    "name": "elem2",
-                    "type": str,
+                    "type": Elem3,
                     "namespace": "http://xstest-tns/ibms3_3_6_v04",
                 },
                 {
                     "name": "elem0",
-                    "type": str,
+                    "type": Elem0,
                     "namespace": "http://xstest-tns/ibms3_3_6_v04",
                 },
             ),
             "max_occurs": 2,
         },
     )
-    elem1: Optional[str] = field(
+    elem1: Optional[Elem1] = field(
         default=None,
         metadata={
             "type": "Element",

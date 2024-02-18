@@ -1,4 +1,5 @@
 from decimal import Decimal
+from output.models.boeing_data.ipo1.ipo_xsd.ipo import Comment
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import ItemShipBy
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import PurchaseOrder
@@ -20,8 +21,7 @@ obj = PurchaseOrder(
             type='{http://www.example.com/IPO}UKAddress'
         ),
     ],
-    customer_comment_or_ship_comment_or_comment=DerivedElement(
-        qname='{http://www.example.com/IPO}comment',
+    customer_comment_or_ship_comment_or_comment=Comment(
         value='I love Boeing too!'
     ),
     items=ItemsType(

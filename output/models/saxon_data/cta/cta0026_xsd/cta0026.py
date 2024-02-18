@@ -6,12 +6,23 @@ __NAMESPACE__ = "http://cta023.com/ns"
 
 
 @dataclass
+class When:
+    class Meta:
+        name = "when"
+        namespace = "http://cta023.com/ns"
+
+    value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
+        default=None
+    )
+
+
+@dataclass
 class Event:
     class Meta:
         name = "event"
         namespace = "http://cta023.com/ns"
 
-    when: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
+    when: Optional[When] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -24,17 +35,6 @@ class Event:
             "name": "type",
             "type": "Attribute",
         },
-    )
-
-
-@dataclass
-class When:
-    class Meta:
-        name = "when"
-        namespace = "http://cta023.com/ns"
-
-    value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
-        default=None
     )
 
 

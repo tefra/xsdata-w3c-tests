@@ -16,7 +16,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    date: List[XmlDate] = field(
+    date: List[Date] = field(
         default_factory=list,
         metadata={
             "type": "Element",

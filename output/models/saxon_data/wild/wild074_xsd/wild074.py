@@ -42,7 +42,7 @@ class Zing:
             "process_contents": "skip",
         },
     )
-    a_or_a: Optional[Union[A1, str]] = field(
+    a_or_a: Optional[Union[A1, A2]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -53,7 +53,7 @@ class Zing:
                 },
                 {
                     "name": "a",
-                    "type": str,
+                    "type": A2,
                 },
             ),
         },

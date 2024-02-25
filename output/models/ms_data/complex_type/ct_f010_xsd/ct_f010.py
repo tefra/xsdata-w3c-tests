@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Type, Union
 
 
 @dataclass
@@ -7,19 +7,21 @@ class MyType:
     class Meta:
         name = "myType"
 
-    my_element_or_my_element2: Optional[str] = field(
+    my_element_or_my_element2: Optional[
+        Union["MyType.MyElement", "MyType.MyElement2"]
+    ] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "myElement",
-                    "type": str,
+                    "type": Type["MyType.MyElement"],
                     "namespace": "",
                 },
                 {
                     "name": "myElement2",
-                    "type": str,
+                    "type": Type["MyType.MyElement2"],
                     "namespace": "",
                 },
             ),
@@ -32,6 +34,24 @@ class MyType:
             "type": "Attribute",
         },
     )
+
+    @dataclass
+    class MyElement:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class MyElement2:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
 
 
 @dataclass

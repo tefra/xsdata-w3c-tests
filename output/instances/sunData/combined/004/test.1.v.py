@@ -1,4 +1,3 @@
-from output.models.sun_data.combined.pkg_004.test_xsd.test import B
 from output.models.sun_data.combined.pkg_004.test_xsd.test import De
 from output.models.sun_data.combined.pkg_004.test_xsd.test import Dee
 from output.models.sun_data.combined.pkg_004.test_xsd.test import Der
@@ -12,62 +11,79 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = Root(
     item1_or_item2=[
-        B(
+        Root.Item1(
             foo=Empty(
 
             )
         ),
-        B(
-            foo=Empty(
-
-            )
-        ),
-        Dr(
-            foo=Empty(
-
-            )
-        ),
-        De(
-            foo=Empty(
-
-            )
-        ),
-        Drr(
-            foo=Empty(
-
-            )
-        ),
-        Dre(
-            foo=Empty(
-
-            )
-        ),
-        Der(
-            foo=Empty(
-
-            )
-        ),
-        Dee(
+        Root.Item1(
             foo=Empty(
 
             )
         ),
         DerivedElement(
-            qname='{foo}item2',
-            value=B(
-                foo=Empty(
-
-                )
-            )
-        ),
-        DerivedElement(
-            qname='{foo}item2',
-            value=B(
+            qname='{foo}item1',
+            value=Dr(
                 foo=Empty(
 
                 )
             ),
-            type='{foo}B'
+            type='{foo}Dr'
+        ),
+        DerivedElement(
+            qname='{foo}item1',
+            value=De(
+                foo=Empty(
+
+                )
+            ),
+            type='{foo}De'
+        ),
+        DerivedElement(
+            qname='{foo}item1',
+            value=Drr(
+                foo=Empty(
+
+                )
+            ),
+            type='{foo}Drr'
+        ),
+        DerivedElement(
+            qname='{foo}item1',
+            value=Dre(
+                foo=Empty(
+
+                )
+            ),
+            type='{foo}Dre'
+        ),
+        DerivedElement(
+            qname='{foo}item1',
+            value=Der(
+                foo=Empty(
+
+                )
+            ),
+            type='{foo}Der'
+        ),
+        DerivedElement(
+            qname='{foo}item1',
+            value=Dee(
+                foo=Empty(
+
+                )
+            ),
+            type='{foo}Dee'
+        ),
+        Root.Item2(
+            foo=Empty(
+
+            )
+        ),
+        Root.Item2(
+            foo=Empty(
+
+            )
         ),
         DerivedElement(
             qname='{foo}item2',

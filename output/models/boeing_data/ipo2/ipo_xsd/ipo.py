@@ -164,24 +164,30 @@ class ItemsType:
 
 @dataclass
 class PurchaseOrderType:
-    ship_to_or_bill_to_or_single_address: List[AddressType] = field(
+    ship_to_or_bill_to_or_single_address: List[
+        Union[
+            "PurchaseOrderType.ShipTo",
+            "PurchaseOrderType.BillTo",
+            "PurchaseOrderType.SingleAddress",
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "shipTo",
-                    "type": AddressType,
+                    "type": Type["PurchaseOrderType.ShipTo"],
                     "namespace": "",
                 },
                 {
                     "name": "billTo",
-                    "type": AddressType,
+                    "type": Type["PurchaseOrderType.BillTo"],
                     "namespace": "",
                 },
                 {
                     "name": "singleAddress",
-                    "type": AddressType,
+                    "type": Type["PurchaseOrderType.SingleAddress"],
                     "namespace": "",
                 },
             ),
@@ -228,6 +234,18 @@ class PurchaseOrderType:
             "type": "Attribute",
         },
     )
+
+    @dataclass
+    class ShipTo(AddressType):
+        pass
+
+    @dataclass
+    class BillTo(AddressType):
+        pass
+
+    @dataclass
+    class SingleAddress(AddressType):
+        pass
 
 
 @dataclass

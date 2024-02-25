@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://id040.ly/"
 
@@ -41,19 +41,27 @@ class Doc:
         name = "doc"
         namespace = "http://id040.ly/"
 
-    chap_or_appx: List[Chap] = field(
+    chap_or_appx: List[Union["Doc.Chap", "Doc.Appx"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "chap",
-                    "type": Chap,
+                    "type": Type["Doc.Chap"],
                 },
                 {
                     "name": "appx",
-                    "type": Chap,
+                    "type": Type["Doc.Appx"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class Chap(Chap):
+        pass
+
+    @dataclass
+    class Appx(Chap):
+        pass

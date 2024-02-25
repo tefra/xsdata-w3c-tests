@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 
 @dataclass
@@ -19,21 +19,43 @@ class Root:
 
     @dataclass
     class Element1:
-        group2_element1_or_group2_element2: List[str] = field(
+        group2_element1_or_group2_element2: List[
+            Union[
+                "Root.Element1.Group2Element1", "Root.Element1.Group2Element2"
+            ]
+        ] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
                 "choices": (
                     {
                         "name": "Group2_Element1",
-                        "type": str,
+                        "type": Type["Root.Element1.Group2Element1"],
                         "namespace": "",
                     },
                     {
                         "name": "Group2_Element2",
-                        "type": str,
+                        "type": Type["Root.Element1.Group2Element2"],
                         "namespace": "",
                     },
                 ),
             },
         )
+
+        @dataclass
+        class Group2Element1:
+            value: Optional[str] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                },
+            )
+
+        @dataclass
+        class Group2Element2:
+            value: Optional[str] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                },
+            )

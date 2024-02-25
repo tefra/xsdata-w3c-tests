@@ -1,6 +1,5 @@
 from output.models.saxon_data.id.id006_xsd.id006 import Doc
 from output.models.saxon_data.id.id006_xsd.id006 import Node
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Doc(
@@ -17,8 +16,7 @@ obj = Doc(
                 ),
                 Node(
                     node_or_id_or_idrefs=[
-                        DerivedElement(
-                            qname='idrefs',
+                        Node.Idrefs(
                             value=[
                                 'aaa',
                                 97,
@@ -31,13 +29,17 @@ obj = Doc(
                         23,
                     ]
                 ),
-                [
-                    'ccc',
-                    'ddd',
-                ],
-                [
-                    12,
-                ],
+                Node.Id(
+                    value=[
+                        'ccc',
+                        'ddd',
+                    ]
+                ),
+                Node.Id(
+                    value=[
+                        12,
+                    ]
+                ),
             ],
             id_attribute=[
                 'aaa',

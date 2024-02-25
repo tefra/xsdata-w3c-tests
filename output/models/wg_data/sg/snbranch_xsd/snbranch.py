@@ -118,7 +118,7 @@ class S1:
 
 @dataclass
 class T:
-    choice: List[Union[S1, S, N1, N, object, A, B]] = field(
+    choice: List[Union[S1, S, N1, N, A, B, object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -144,11 +144,6 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
                 {
-                    "wildcard": True,
-                    "type": object,
-                    "namespace": "##any",
-                },
-                {
                     "name": "a",
                     "type": A,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
@@ -157,6 +152,11 @@ class T:
                     "name": "b",
                     "type": B,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##any",
                 },
             ),
             "max_occurs": 10,

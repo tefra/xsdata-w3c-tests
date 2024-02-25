@@ -7,7 +7,9 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idrefs: List[Union["Node", str]] = field(
+    node_or_id_or_idrefs: List[
+        Union["Node", "Node.Id", "Node.Idrefs"]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -18,15 +20,11 @@ class Node:
                 },
                 {
                     "name": "id",
-                    "type": List[str],
-                    "default_factory": list,
-                    "tokens": True,
+                    "type": Type["Node.Id"],
                 },
                 {
                     "name": "idrefs",
-                    "type": List[str],
-                    "default_factory": list,
-                    "tokens": True,
+                    "type": Type["Node.Idrefs"],
                 },
             ),
         },
@@ -47,6 +45,26 @@ class Node:
             "tokens": True,
         },
     )
+
+    @dataclass
+    class Id:
+        value: List[str] = field(
+            default_factory=list,
+            metadata={
+                "required": True,
+                "tokens": True,
+            },
+        )
+
+    @dataclass
+    class Idrefs:
+        value: List[str] = field(
+            default_factory=list,
+            metadata={
+                "required": True,
+                "tokens": True,
+            },
+        )
 
 
 @dataclass

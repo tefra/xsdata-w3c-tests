@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Optional, Type
 
 __NAMESPACE__ = "urn:test"
 
@@ -18,28 +18,82 @@ class Root:
             "choices": (
                 {
                     "name": "A",
-                    "type": str,
+                    "type": Type["Root.A"],
                 },
                 {
                     "name": "B1",
-                    "type": str,
+                    "type": Type["Root.B1"],
                 },
                 {
                     "name": "B2",
-                    "type": str,
+                    "type": Type["Root.B2"],
                 },
                 {
                     "name": "B3",
-                    "type": str,
+                    "type": Type["Root.B3"],
                 },
                 {
                     "name": "B4",
-                    "type": str,
+                    "type": Type["Root.B4"],
                 },
                 {
                     "name": "B5",
-                    "type": str,
+                    "type": Type["Root.B5"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class A:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B1:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B2:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B3:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B4:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B5:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )

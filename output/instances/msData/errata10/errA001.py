@@ -1,57 +1,46 @@
 from decimal import Decimal
 from output.models.ms_data.errata10.err_a001_xsd.err_a001 import Root
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
     choice=[
-        -100,
-        DerivedElement(
-            qname='testUnsignedByte',
+        Root.TestByte(
+            value=-100
+        ),
+        Root.TestUnsignedByte(
             value=100
         ),
-        DerivedElement(
-            qname='testInteger',
+        Root.TestInteger(
             value=-32000
         ),
-        DerivedElement(
-            qname='testPositiveInteger',
+        Root.TestPositiveInteger(
             value=50000
         ),
-        DerivedElement(
-            qname='testNegativeInteger',
+        Root.TestNegativeInteger(
             value=-50000
         ),
-        DerivedElement(
-            qname='testNonNegativeInteger',
+        Root.TestNonNegativeInteger(
             value=50000
         ),
-        DerivedElement(
-            qname='testNonPositiveInteger',
+        Root.TestNonPositiveInteger(
             value=-50000
         ),
-        DerivedElement(
-            qname='testInt',
+        Root.TestInt(
             value=-32000
         ),
-        DerivedElement(
-            qname='testUnsignedInt',
+        Root.TestUnsignedInt(
             value=50000
         ),
-        DerivedElement(
-            qname='testLong',
+        Root.TestLong(
             value=-123456789012345
         ),
-        DerivedElement(
-            qname='testUnsignedLong',
+        Root.TestUnsignedLong(
             value=12345789012345
         ),
-        DerivedElement(
-            qname='testShort',
+        Root.TestShort(
             value=-12345
         ),
-        DerivedElement(
-            qname='testUnsignedShort',
+        Root.TestUnsignedShort(
             value=12345
         ),
         Decimal('123456789.12345'),

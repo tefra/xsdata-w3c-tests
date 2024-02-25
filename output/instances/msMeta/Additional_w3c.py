@@ -9,6 +9,7 @@ from output.models.common.xsts_xsd.xsts import InstanceTest
 from output.models.common.xsts_xsd.xsts import KnownToken
 from output.models.common.xsts_xsd.xsts import Prior
 from output.models.common.xsts_xsd.xsts import SchemaDocument
+from output.models.common.xsts_xsd.xsts import SchemaDocumentRefRole
 from output.models.common.xsts_xsd.xsts import SchemaTest
 from output.models.common.xsts_xsd.xsts import Status
 from output.models.common.xsts_xsd.xsts import TestGroup
@@ -6095,7 +6096,8 @@ obj = TestSet(
                         href='../msData/additional/test66745_a.xsd'
                     ),
                     SchemaDocument(
-                        href='../msData/additional/test66745_b.xsd'
+                        href='../msData/additional/test66745_b.xsd',
+                        role=SchemaDocumentRefRole.IMPORTED
                     ),
                 ],
                 expected=[

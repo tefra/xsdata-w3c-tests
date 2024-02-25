@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "ns-a"
 
@@ -9,24 +9,46 @@ class BCt:
     class Meta:
         name = "b-ct"
 
-    b1_or_b2: Optional[object] = field(
+    b1_or_b2: Optional[Union["BCt.B1", "BCt.B2"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "b1",
-                    "type": object,
+                    "type": Type["BCt.B1"],
                     "namespace": "ns-a",
                 },
                 {
                     "name": "b2",
-                    "type": object,
+                    "type": Type["BCt.B2"],
                     "namespace": "ns-a",
                 },
             ),
         },
     )
+
+    @dataclass
+    class B1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "ns-a",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "ns-a",
+                "required": True,
+            },
+        )
 
 
 @dataclass

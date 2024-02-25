@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 
 @dataclass
@@ -7,35 +7,79 @@ class Elem:
     class Meta:
         name = "elem"
 
-    choice: List[object] = field(
+    choice: List[Union["Elem.E1", "Elem.E2", "Elem.E3", "Elem.E4"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "e1",
-                    "type": object,
+                    "type": Type["Elem.E1"],
                     "namespace": "",
                 },
                 {
                     "name": "e2",
-                    "type": object,
+                    "type": Type["Elem.E2"],
                     "namespace": "",
                 },
                 {
                     "name": "e3",
-                    "type": object,
+                    "type": Type["Elem.E3"],
                     "namespace": "",
                 },
                 {
                     "name": "e4",
-                    "type": object,
+                    "type": Type["Elem.E4"],
                     "namespace": "",
                 },
             ),
             "max_occurs": 2,
         },
     )
+
+    @dataclass
+    class E1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E3:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E4:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

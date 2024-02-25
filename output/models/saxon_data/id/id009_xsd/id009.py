@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Type, Union
+from typing import List, Optional, Type, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idref: List[Union["Node", str]] = field(
+    node_or_id_or_idref: List[Union["Node", "Node.Id", "Node.Idref"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -18,17 +18,41 @@ class Node:
                 },
                 {
                     "name": "id",
-                    "type": str,
-                    "nillable": True,
+                    "type": Type["Node.Id"],
                 },
                 {
                     "name": "idref",
-                    "type": str,
-                    "nillable": True,
+                    "type": Type["Node.Idref"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class Id:
+        class Meta:
+            global_type = False
+            nillable = True
+
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class Idref:
+        class Meta:
+            global_type = False
+            nillable = True
+
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
 
 
 @dataclass

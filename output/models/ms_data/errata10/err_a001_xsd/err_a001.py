@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Union
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -11,88 +11,92 @@ class Root:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    choice: List[Union[int, Decimal]] = field(
+    choice: List[
+        Union[
+            "Root.TestByte",
+            "Root.TestUnsignedByte",
+            "Root.TestInteger",
+            "Root.TestPositiveInteger",
+            "Root.TestNegativeInteger",
+            "Root.TestNonNegativeInteger",
+            "Root.TestNonPositiveInteger",
+            "Root.TestInt",
+            "Root.TestUnsignedInt",
+            "Root.TestLong",
+            "Root.TestUnsignedLong",
+            "Root.TestShort",
+            "Root.TestUnsignedShort",
+            Decimal,
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "testByte",
-                    "type": int,
+                    "type": Type["Root.TestByte"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testUnsignedByte",
-                    "type": int,
+                    "type": Type["Root.TestUnsignedByte"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testInteger",
-                    "type": int,
+                    "type": Type["Root.TestInteger"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testPositiveInteger",
-                    "type": int,
+                    "type": Type["Root.TestPositiveInteger"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testNegativeInteger",
-                    "type": int,
+                    "type": Type["Root.TestNegativeInteger"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testNonNegativeInteger",
-                    "type": int,
+                    "type": Type["Root.TestNonNegativeInteger"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testNonPositiveInteger",
-                    "type": int,
+                    "type": Type["Root.TestNonPositiveInteger"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testInt",
-                    "type": int,
+                    "type": Type["Root.TestInt"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testUnsignedInt",
-                    "type": int,
+                    "type": Type["Root.TestUnsignedInt"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testLong",
-                    "type": int,
+                    "type": Type["Root.TestLong"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testUnsignedLong",
-                    "type": int,
+                    "type": Type["Root.TestUnsignedLong"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testShort",
-                    "type": int,
+                    "type": Type["Root.TestShort"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testUnsignedShort",
-                    "type": int,
+                    "type": Type["Root.TestUnsignedShort"],
                     "namespace": "",
-                    "fraction_digits": 0,
                 },
                 {
                     "name": "testDecimal",
@@ -103,3 +107,133 @@ class Root:
             ),
         },
     )
+
+    @dataclass
+    class TestByte:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestUnsignedByte:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestInteger:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestPositiveInteger:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestNegativeInteger:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestNonNegativeInteger:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestNonPositiveInteger:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestInt:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestUnsignedInt:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestLong:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestUnsignedLong:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestShort:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )
+
+    @dataclass
+    class TestUnsignedShort:
+        value: Optional[int] = field(
+            default=None,
+            metadata={
+                "required": True,
+                "fraction_digits": 0,
+            },
+        )

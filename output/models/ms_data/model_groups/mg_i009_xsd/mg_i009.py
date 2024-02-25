@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import List, Optional, Type, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    choice: List[Union[int, str, bool, object]] = field(
+    choice: List[Union[int, "Foo.B", "Foo.B2", bool, "Foo.D", object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -19,12 +19,12 @@ class Foo:
                 },
                 {
                     "name": "b",
-                    "type": str,
+                    "type": Type["Foo.B"],
                     "namespace": "",
                 },
                 {
                     "name": "b2",
-                    "type": str,
+                    "type": Type["Foo.B2"],
                     "namespace": "",
                 },
                 {
@@ -34,18 +34,46 @@ class Foo:
                 },
                 {
                     "name": "d",
-                    "type": object,
+                    "type": Type["Foo.D"],
                     "namespace": "",
                 },
                 {
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://www.w3.org/1999/xhtml",
-                    "process_contents": "skip",
                 },
             ),
         },
     )
+
+    @dataclass
+    class B:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B2:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class D:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

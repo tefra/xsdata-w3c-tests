@@ -32,13 +32,13 @@ obj = Test(
     e3=[
         Ct3(
             element1_or_any_element=[
-                Element1(
+                Ct3.Element1(
 
                 ),
-                Element1(
+                Ct3.Element1(
 
                 ),
-                Element1(
+                Ct3.Element1(
 
                 ),
             ]
@@ -47,13 +47,13 @@ obj = Test(
     e4=[
         Ct4(
             any_element_or_element1=[
-                Element1(
+                Ct4.Element1(
 
                 ),
-                Element1(
+                Ct4.Element1(
 
                 ),
-                Element1(
+                Ct4.Element1(
 
                 ),
             ]

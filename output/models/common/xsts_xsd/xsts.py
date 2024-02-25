@@ -185,7 +185,16 @@ class KnownToken(Enum):
     COMMENTS_AND_PIS_INCLUDED = "comments-and-PIs-included"
 
 
+class SchemaDocumentRefRole(Enum):
+    PRINCIPAL = "principal"
+    IMPORTED = "imported"
+    INCLUDED = "included"
+    REDEFINED = "redefined"
+    OVERRIDDEN = "overridden"
+
+
 class Status(Enum):
+    SUBMITTED = "submitted"
     ACCEPTED = "accepted"
     STABLE = "stable"
     QUERIED = "queried"
@@ -335,7 +344,8 @@ class Expected:
     </li>
     </ul>
     <p class="note">Note: The meaning of the <tt>version</tt>
-    </p>
+    attribute on this element differs from its meaning
+    elsewhere.</p>
     <p>
     On tests and elements for groups of
     tests (<tt>testGroup</tt> etc.), a <tt>version</tt>
@@ -727,10 +737,25 @@ class Prior(StatusEntry):
 
 
 @dataclass
-class SchemaDocument(Ref):
+class SchemaDocumentRef(Ref):
+    """
+    :ivar role: <div> <p> Describes how the schema document is used. A
+        "principal" schema document is not referenced from any other;
+        the other roles indicate that a schema document is referenced
+        from others using xs:import, xs:include, xs:redefines, or
+        xs:override. </p> <p>This attribute is a late introduction and
+        is not widely used.</p> </div>
+    """
+
     class Meta:
-        name = "schemaDocument"
-        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+        name = "schemaDocumentRef"
+
+    role: Optional[SchemaDocumentRefRole] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        },
+    )
 
 
 @dataclass
@@ -1033,6 +1058,140 @@ class InstanceTest:
 
 
 @dataclass
+class SchemaDocument(SchemaDocumentRef):
+    class Meta:
+        name = "schemaDocument"
+        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+
+
+@dataclass
+class TestSuite:
+    """<div> <p> The root element of a document describing a set of tests for one
+    or more versions of W3C XML Schema. </p> <p> The element has three attributes,
+    each of which is required: </p> <ul> <li>
+
+    <p>
+    <tt>name</tt> - the name of this test suite.
+    </p>
+    </li>
+    <li>
+    <p>
+    <tt>releaseDate</tt> - the date on which this test
+    suite was released. This value serves to identify the
+    version of the test suite.
+    </p>
+    </li>
+    <li>
+    <p>
+    <tt>schemaVersion</tt> - the versions of XSD for which
+    the tests are designed.  This has documentary function
+    only, and is intended for human readers.  The
+    machine-processable version information is handled by
+    the <tt>version</tt> attribute.
+    </p>
+    </li>
+    <li>
+    <p>
+    <tt>version</tt> - a list of version tokens indicating
+    versions and features for which at least some tests in the
+    test suite are applicable.
+    </p>
+    <p>Any processor or processor configuration which
+    supports <em>any</em> of the tokens given should run
+    the tests.  Processors which support none of the named
+    features can skip the entire test suite without loss.
+    If no <tt>version</tt> value is given, or if the value
+    is the empty string, all processors should run the
+    tests.</p>
+    <p>For example <code>version="1.1"</code> on a test suite
+    element indicates that XSD 1.1 processors will find
+    relevant tests, and XSD 1.0 processors will not,
+    while <code>version="1.0 1.1"</code>, or no
+    <code>version</code> attribute at all, indicates
+    that the test suite contains tests relevant to both.
+    </p>
+    <p>Logically, the <tt>version</tt> attribute on
+    the <tt>testSuite</tt> element, if given explicitly,
+    should include all the tokens used on any
+    <tt>testSet</tt>, <tt>testGroup</tt>,
+    <tt>schemaTest</tt>, or <tt>instanceTest</tt> in the
+    test suite, and no others.  This is not necessarily
+    enforced, however, by the schema for this
+    vocabulary.</p>
+    </li>
+    </ul>
+    <p>
+    Two child elements may optionally be present:
+    </p>
+    <ul>
+    <li>
+    <tt>annotation</tt> - zero or more instances of
+    general documentation.</li>
+    <li>
+    <tt>testSetRef</tt> - a set of references to the sets
+    of tests which make up this test suite. No two test sets
+    referenced may have the same name.</li>
+    </ul>
+    </div>
+    """
+
+    class Meta:
+        name = "testSuite"
+        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+
+    annotation: List[Annotation] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        },
+    )
+    test_set_ref: List[TestSetRef] = field(
+        default_factory=list,
+        metadata={
+            "name": "testSetRef",
+            "type": "Element",
+        },
+    )
+    name: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        },
+    )
+    release_date: Optional[XmlDate] = field(
+        default=None,
+        metadata={
+            "name": "releaseDate",
+            "type": "Attribute",
+            "required": True,
+        },
+    )
+    schema_version: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "schemaVersion",
+            "type": "Attribute",
+            "required": True,
+        },
+    )
+    version: List[Union[KnownToken, Decimal, str]] = field(
+        default_factory=list,
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        },
+    )
+    other_attributes: Dict[str, str] = field(
+        default_factory=dict,
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        },
+    )
+
+
+@dataclass
 class SchemaTest:
     """<div>
     <p>
@@ -1188,133 +1347,6 @@ class SchemaTest:
     name: Optional[str] = field(
         default=None,
         metadata={
-            "type": "Attribute",
-            "required": True,
-        },
-    )
-    version: List[Union[KnownToken, Decimal, str]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Attribute",
-            "tokens": True,
-        },
-    )
-    other_attributes: Dict[str, str] = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##other",
-        },
-    )
-
-
-@dataclass
-class TestSuite:
-    """<div> <p> The root element of a document describing a set of tests for one
-    or more versions of W3C XML Schema. </p> <p> The element has three attributes,
-    each of which is required: </p> <ul> <li>
-
-    <p>
-    <tt>name</tt> - the name of this test suite.
-    </p>
-    </li>
-    <li>
-    <p>
-    <tt>releaseDate</tt> - the date on which this test
-    suite was released. This value serves to identify the
-    version of the test suite.
-    </p>
-    </li>
-    <li>
-    <p>
-    <tt>schemaVersion</tt> - the versions of XSD for which
-    the tests are designed.  This has documentary function
-    only, and is intended for human readers.  The
-    machine-processable version information is handled by
-    the <tt>version</tt> attribute.
-    </p>
-    </li>
-    <li>
-    <p>
-    <tt>version</tt> - a list of version tokens indicating
-    versions and features for which at least some tests in the
-    test suite are applicable.
-    </p>
-    <p>Any processor or processor configuration which
-    supports <em>any</em> of the tokens given should run
-    the tests.  Processors which support none of the named
-    features can skip the entire test suite without loss.
-    If no <tt>version</tt> value is given, or if the value
-    is the empty string, all processors should run the
-    tests.</p>
-    <p>For example <code>version="1.1"</code> on a test suite
-    element indicates that XSD 1.1 processors will find
-    relevant tests, and XSD 1.0 processors will not,
-    while <code>version="1.0 1.1"</code>, or no
-    <code>version</code> attribute at all, indicates
-    that the test suite contains tests relevant to both.
-    </p>
-    <p>Logically, the <tt>version</tt> attribute on
-    the <tt>testSuite</tt> element, if given explicitly,
-    should include all the tokens used on any
-    <tt>testSet</tt>, <tt>testGroup</tt>,
-    <tt>schemaTest</tt>, or <tt>instanceTest</tt> in the
-    test suite, and no others.  This is not necessarily
-    enforced, however, by the schema for this
-    vocabulary.</p>
-    </li>
-    </ul>
-    <p>
-    Two child elements may optionally be present:
-    </p>
-    <ul>
-    <li>
-    <tt>annotation</tt> - zero or more instances of
-    general documentation.</li>
-    <li>
-    <tt>testSetRef</tt> - a set of references to the sets
-    of tests which make up this test suite. No two test sets
-    referenced may have the same name.</li>
-    </ul>
-    </div>
-    """
-
-    class Meta:
-        name = "testSuite"
-        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
-    annotation: List[Annotation] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        },
-    )
-    test_set_ref: List[TestSetRef] = field(
-        default_factory=list,
-        metadata={
-            "name": "testSetRef",
-            "type": "Element",
-        },
-    )
-    name: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        },
-    )
-    release_date: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "name": "releaseDate",
-            "type": "Attribute",
-            "required": True,
-        },
-    )
-    schema_version: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "schemaVersion",
             "type": "Attribute",
             "required": True,
         },

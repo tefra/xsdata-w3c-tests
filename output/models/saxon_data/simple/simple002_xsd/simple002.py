@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Type, Union
 
 __NAMESPACE__ = "http://simple001.ly/"
 
@@ -47,19 +47,27 @@ class Doc:
         name = "doc"
         namespace = "http://simple001.ly/"
 
-    chap_or_appx: List[Chap] = field(
+    chap_or_appx: List[Union["Doc.Chap", "Doc.Appx"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "chap",
-                    "type": Chap,
+                    "type": Type["Doc.Chap"],
                 },
                 {
                     "name": "appx",
-                    "type": Chap,
+                    "type": Type["Doc.Appx"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class Chap(Chap):
+        pass
+
+    @dataclass
+    class Appx(Chap):
+        pass

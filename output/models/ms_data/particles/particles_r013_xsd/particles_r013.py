@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -32,19 +32,19 @@ class R:
             "namespace": "",
         },
     )
-    e1_or_e2: List[object] = field(
+    e1_or_e2: List[Union["R.E1", "R.E2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "e1",
-                    "type": object,
+                    "type": Type["R.E1"],
                     "namespace": "",
                 },
                 {
                     "name": "e2",
-                    "type": object,
+                    "type": Type["R.E2"],
                     "namespace": "",
                 },
             ),
@@ -52,6 +52,28 @@ class R:
             "max_occurs": 4,
         },
     )
+
+    @dataclass
+    class E1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

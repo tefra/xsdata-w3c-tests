@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Type, Union
 
 
 @dataclass
@@ -7,24 +7,46 @@ class Test:
     class Meta:
         name = "test"
 
-    a_or_b: Optional[object] = field(
+    a_or_b: Optional[Union["Test.A", "Test.B"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "a",
-                    "type": object,
+                    "type": Type["Test.A"],
                     "namespace": "",
                 },
                 {
                     "name": "b",
-                    "type": object,
+                    "type": Type["Test.B"],
                     "namespace": "",
                 },
             ),
         },
     )
+
+    @dataclass
+    class A:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

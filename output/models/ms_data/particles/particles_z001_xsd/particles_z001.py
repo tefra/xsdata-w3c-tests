@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Any
+from typing import List, Optional, Type, Union, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,24 +13,46 @@ class Base:
             "namespace": "",
         },
     )
-    element_or_any: List[object] = field(
+    element_or_any: List[Union["Base.Element", "Base.AnyType"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "element",
-                    "type": object,
+                    "type": Type["Base.Element"],
                     "namespace": "",
                 },
                 {
                     "name": "any",
-                    "type": object,
+                    "type": Type["Base.AnyType"],
                     "namespace": "",
                 },
             ),
         },
     )
+
+    @dataclass
+    class Element:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class AnyType:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

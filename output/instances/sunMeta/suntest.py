@@ -325,6 +325,236 @@ obj = TestSet(
                             content=[
                                 AnyElement(
                                     qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A variant of test003 that blocks extension on complex types but not on elements'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Produced by Michael Kay, Saxonica, August 2023, in response to Saxon bug 6153'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/combined/003a/test.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.SUBMITTED,
+                    date=XmlDate(2023, 8, 4)
+                ),
+                name='test'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.1.v.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.1.v'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.2.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.2.n'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.3.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.3.n'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.4.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.4.n'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.5.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.5.n'
+                ),
+            ],
+            name='test003a'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A variant of test003 that blocks extension on elements but not on complex types'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Produced by Michael Kay, Saxonica, August 2023, in response to Saxon bug 6153'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../sunData/combined/003a/test.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.SUBMITTED,
+                    date=XmlDate(2023, 8, 4)
+                ),
+                name='test'
+            ),
+            instance_test=[
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.1.v.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.1.v'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.2.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.2.n'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.3.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.3.n'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.4.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.4.n'
+                ),
+                InstanceTest(
+                    instance_document=InstanceDocument(
+                        href='../sunData/combined/003a/test.5.n.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.SUBMITTED,
+                        date=XmlDate(2023, 8, 4)
+                    ),
+                    name='test.5.n'
+                ),
+            ],
+            name='test003b'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='test'
                                 ),
                                 AnyElement(

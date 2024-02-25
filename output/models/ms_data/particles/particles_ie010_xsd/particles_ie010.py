@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Any
+from typing import Optional, Type, Union, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,24 +9,46 @@ class Base:
     class Meta:
         name = "base"
 
-    e1_or_e2: Optional[object] = field(
+    e1_or_e2: Optional[Union["Base.E1", "Base.E2"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "e1",
-                    "type": object,
+                    "type": Type["Base.E1"],
                     "namespace": "http://xsdtesting",
                 },
                 {
                     "name": "e2",
-                    "type": object,
+                    "type": Type["Base.E2"],
                     "namespace": "http://xsdtesting",
                 },
             ),
         },
     )
+
+    @dataclass
+    class E1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
 
 
 @dataclass
@@ -40,6 +62,28 @@ class Testing(Base):
             "type": "Ignore",
         },
     )
+
+    @dataclass
+    class E1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
 
 
 @dataclass

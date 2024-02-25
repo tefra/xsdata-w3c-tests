@@ -1,6 +1,5 @@
 from output.models.saxon_data.id.id007_xsd.id007 import Doc
 from output.models.saxon_data.id.id007_xsd.id007 import Node
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Doc(
@@ -19,16 +18,17 @@ obj = Doc(
         ),
         Node(
             node_or_mixed_a_or_mixed_b=[
-                [
-                    'A002',
-                    'B002',
-                ],
+                Node.MixedA(
+                    value=[
+                        'A002',
+                        'B002',
+                    ]
+                ),
             ]
         ),
         Node(
             node_or_mixed_a_or_mixed_b=[
-                DerivedElement(
-                    qname='mixedB',
+                Node.MixedB(
                     value=[
                         'A002',
                         'B002',

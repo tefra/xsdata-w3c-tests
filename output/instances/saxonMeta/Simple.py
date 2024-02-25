@@ -4181,6 +4181,140 @@ obj = TestSet(
             ],
             name='simple085'
         ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Duration seconds component requires a digit before and after the decimal point'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The BNF for the lexical space in XSD 1.1 (part 2, § 3.3.6.2) suggests that the \n                    seconds component can start or end with a decimal separator, but this disagrees with \n                    the regular expressions in the same section. The BNF is believed to be in error.\n                '
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='https://www.w3.org/TR/xmlschema11-2/#duration'
+                ),
+            ],
+            schema_test=SchemaTest(
+                annotation=[
+                    Annotation(
+                        appinfo_or_documentation=[
+                            Documentation(
+                                content=[
+                                    '\n                    schema is valid\n                ',
+                                ]
+                            ),
+                        ]
+                    ),
+                ],
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Simple/simple086.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2023, 9, 14)
+                ),
+                name='simple086.xsd'
+            ),
+            instance_test=[
+                InstanceTest(
+                    annotation=[
+                        Annotation(
+                            appinfo_or_documentation=[
+                                Documentation(
+                                    content=[
+                                        '\n                    Valid; pattern matches the input after whitespace normalization\n                ',
+                                    ]
+                                ),
+                            ]
+                        ),
+                    ],
+                    instance_document=InstanceDocument(
+                        href='../saxonData/Simple/simple086.v01.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.VALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2023, 9, 14)
+                    ),
+                    name='simple086.v01.xml'
+                ),
+                InstanceTest(
+                    annotation=[
+                        Annotation(
+                            appinfo_or_documentation=[
+                                Documentation(
+                                    content=[
+                                        '\n                    Invalid; trailing "." not allowed\n                ',
+                                    ]
+                                ),
+                            ]
+                        ),
+                    ],
+                    instance_document=InstanceDocument(
+                        href='../saxonData/Simple/simple086.n01.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2023, 9, 14)
+                    ),
+                    name='simple086.n01.xml'
+                ),
+                InstanceTest(
+                    annotation=[
+                        Annotation(
+                            appinfo_or_documentation=[
+                                Documentation(
+                                    content=[
+                                        '\n                    Invalid; leading "." not allowed\n                ',
+                                    ]
+                                ),
+                            ]
+                        ),
+                    ],
+                    instance_document=InstanceDocument(
+                        href='../saxonData/Simple/simple086.n02.xml'
+                    ),
+                    expected=[
+                        Expected(
+                            validity=ExpectedOutcome.INVALID
+                        ),
+                    ],
+                    current=Current(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2023, 9, 14)
+                    ),
+                    name='simple086.n02.xml'
+                ),
+            ],
+            name='simple086'
+        ),
     ],
     contributor='Saxonica',
     name='Simple',

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://importedXSD"
 
@@ -9,29 +9,53 @@ class Any1:
     class Meta:
         name = "any1"
 
-    local_element_or_bbb_or_ccc: Optional[object] = field(
+    local_element_or_bbb_or_ccc: Optional[
+        Union["Any1.Bbb", "Any1.Ccc", object]
+    ] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
-                    "wildcard": True,
-                    "type": object,
-                    "namespace": "##local",
-                },
-                {
                     "name": "bbb",
-                    "type": object,
+                    "type": Type["Any1.Bbb"],
                     "namespace": "http://importedXSD",
                 },
                 {
                     "name": "ccc",
-                    "type": object,
+                    "type": Type["Any1.Ccc"],
                     "namespace": "http://importedXSD",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##local",
                 },
             ),
         },
     )
+
+    @dataclass
+    class Bbb:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://importedXSD",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class Ccc:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://importedXSD",
+                "required": True,
+            },
+        )
 
 
 @dataclass

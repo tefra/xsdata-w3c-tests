@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Type, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -10,19 +10,39 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    a1_or_a2: Optional[object] = field(
+    a1_or_a2: Optional[Union["Doc.A1", "Doc.A2"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "a1",
-                    "type": object,
+                    "type": Type["Doc.A1"],
                 },
                 {
                     "name": "a2",
-                    "type": object,
+                    "type": Type["Doc.A2"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class A1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class A2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "required": True,
+            },
+        )

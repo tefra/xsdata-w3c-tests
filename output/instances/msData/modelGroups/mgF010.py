@@ -1,4 +1,5 @@
 from output.models.ms_data.model_groups.mg_f010_xsd.mg_f010 import Doc
+from output.models.ms_data.model_groups.mg_f010_xsd.mg_f010 import Foo
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
@@ -18,5 +19,7 @@ obj = Doc(
     ],
     d='',
     c=True,
-    b_or_b2='I am a stringy string'
+    b_or_b2=Foo.B(
+        value='I am a stringy string'
+    )
 )

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Union
+from typing import List, Optional, Type, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:myxsdschema"
@@ -96,7 +96,20 @@ class Datafile:
     @dataclass
     class Nonstringsection:
         choice: List[
-            Union[int, Decimal, float, MyDateTime, MySmallDateTime]
+            Union[
+                "Datafile.Nonstringsection.Bigint",
+                "Datafile.Nonstringsection.Int",
+                "Datafile.Nonstringsection.Smallint",
+                "Datafile.Nonstringsection.Tinyint",
+                "Datafile.Nonstringsection.DecimalType",
+                "Datafile.Nonstringsection.Numeric",
+                "Datafile.Nonstringsection.Money",
+                "Datafile.Nonstringsection.Smallmoney",
+                "Datafile.Nonstringsection.Float",
+                "Datafile.Nonstringsection.Real",
+                MyDateTime,
+                MySmallDateTime,
+            ]
         ] = field(
             default_factory=list,
             metadata={
@@ -104,69 +117,53 @@ class Datafile:
                 "choices": (
                     {
                         "name": "bigint",
-                        "type": int,
+                        "type": Type["Datafile.Nonstringsection.Bigint"],
                         "namespace": "",
                     },
                     {
                         "name": "int",
-                        "type": int,
+                        "type": Type["Datafile.Nonstringsection.Int"],
                         "namespace": "",
                     },
                     {
                         "name": "smallint",
-                        "type": int,
+                        "type": Type["Datafile.Nonstringsection.Smallint"],
                         "namespace": "",
                     },
                     {
                         "name": "tinyint",
-                        "type": int,
+                        "type": Type["Datafile.Nonstringsection.Tinyint"],
                         "namespace": "",
                     },
                     {
                         "name": "decimal",
-                        "type": Decimal,
+                        "type": Type["Datafile.Nonstringsection.DecimalType"],
                         "namespace": "",
-                        "total_digits": 38,
-                        "fraction_digits": 10,
                     },
                     {
                         "name": "numeric",
-                        "type": Decimal,
+                        "type": Type["Datafile.Nonstringsection.Numeric"],
                         "namespace": "",
-                        "total_digits": 38,
-                        "fraction_digits": 10,
                     },
                     {
                         "name": "money",
-                        "type": Decimal,
+                        "type": Type["Datafile.Nonstringsection.Money"],
                         "namespace": "",
-                        "min_inclusive": Decimal("-922337203685477.5808"),
-                        "max_inclusive": Decimal("922337203685477.5807"),
-                        "total_digits": 19,
-                        "fraction_digits": 4,
                     },
                     {
                         "name": "smallmoney",
-                        "type": Decimal,
+                        "type": Type["Datafile.Nonstringsection.Smallmoney"],
                         "namespace": "",
-                        "min_inclusive": Decimal("-214748.3648"),
-                        "max_inclusive": Decimal("214748.3647"),
-                        "total_digits": 10,
-                        "fraction_digits": 4,
                     },
                     {
                         "name": "float",
-                        "type": float,
+                        "type": Type["Datafile.Nonstringsection.Float"],
                         "namespace": "",
-                        "min_inclusive": -1.79e308,
-                        "max_inclusive": 1.79e308,
                     },
                     {
                         "name": "real",
-                        "type": float,
+                        "type": Type["Datafile.Nonstringsection.Real"],
                         "namespace": "",
-                        "min_inclusive": -3.4e38,
-                        "max_inclusive": 3.4e38,
                     },
                     {
                         "name": "datetime",
@@ -181,6 +178,112 @@ class Datafile:
                 ),
             },
         )
+
+        @dataclass
+        class Bigint:
+            value: Optional[int] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                },
+            )
+
+        @dataclass
+        class Int:
+            value: Optional[int] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                },
+            )
+
+        @dataclass
+        class Smallint:
+            value: Optional[int] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                },
+            )
+
+        @dataclass
+        class Tinyint:
+            value: Optional[int] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                },
+            )
+
+        @dataclass
+        class DecimalType:
+            value: Optional[Decimal] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                    "total_digits": 38,
+                    "fraction_digits": 10,
+                },
+            )
+
+        @dataclass
+        class Numeric:
+            value: Optional[Decimal] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                    "total_digits": 38,
+                    "fraction_digits": 10,
+                },
+            )
+
+        @dataclass
+        class Money:
+            value: Optional[Decimal] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                    "min_inclusive": Decimal("-922337203685477.5808"),
+                    "max_inclusive": Decimal("922337203685477.5807"),
+                    "total_digits": 19,
+                    "fraction_digits": 4,
+                },
+            )
+
+        @dataclass
+        class Smallmoney:
+            value: Optional[Decimal] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                    "min_inclusive": Decimal("-214748.3648"),
+                    "max_inclusive": Decimal("214748.3647"),
+                    "total_digits": 10,
+                    "fraction_digits": 4,
+                },
+            )
+
+        @dataclass
+        class Float:
+            value: Optional[float] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                    "min_inclusive": -1.79e308,
+                    "max_inclusive": 1.79e308,
+                },
+            )
+
+        @dataclass
+        class Real:
+            value: Optional[float] = field(
+                default=None,
+                metadata={
+                    "required": True,
+                    "min_inclusive": -3.4e38,
+                    "max_inclusive": 3.4e38,
+                },
+            )
 
     @dataclass
     class Stringsection:

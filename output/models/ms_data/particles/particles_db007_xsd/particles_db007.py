@@ -1,29 +1,51 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Type, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class A:
-    a1_or_a2: Optional[object] = field(
+    a1_or_a2: Optional[Union["A.A1", "A.A2"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "a1",
-                    "type": object,
+                    "type": Type["A.A1"],
                     "namespace": "http://xsdtesting",
                 },
                 {
                     "name": "a2",
-                    "type": object,
+                    "type": Type["A.A2"],
                     "namespace": "http://xsdtesting",
                 },
             ),
         },
     )
+
+    @dataclass
+    class A1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class A2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
 
 
 @dataclass

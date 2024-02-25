@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Type, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,24 +9,46 @@ class Base:
     class Meta:
         name = "base"
 
-    g1_or_g2: Optional[object] = field(
+    g1_or_g2: Optional[Union["Base.G1", "Base.G2"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "g1",
-                    "type": object,
+                    "type": Type["Base.G1"],
                     "namespace": "http://xsdtesting",
                 },
                 {
                     "name": "g2",
-                    "type": object,
+                    "type": Type["Base.G2"],
                     "namespace": "http://xsdtesting",
                 },
             ),
         },
     )
+
+    @dataclass
+    class G1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
 
 
 @dataclass

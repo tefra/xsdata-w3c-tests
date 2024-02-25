@@ -9,8 +9,7 @@ obj = Doc(
             text=''
         ),
     ],
-    c1_or_c2=AnyElement(
-        qname='c1',
-        text=''
+    c1_or_c2=Doc.C1(
+
     )
 )

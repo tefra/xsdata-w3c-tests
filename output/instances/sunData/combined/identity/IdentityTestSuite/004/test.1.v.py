@@ -6,12 +6,16 @@ obj = Root(
     scope=[
         Scope(
             key_or_ref=[
-                'abc',
+                Scope.Key(
+                    value='abc'
+                ),
             ]
         ),
         Scope(
             key_or_ref=[
-                'abc',
+                Scope.Key(
+                    value='abc'
+                ),
             ]
         ),
     ]

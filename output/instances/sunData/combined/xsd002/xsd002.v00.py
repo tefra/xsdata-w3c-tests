@@ -1,32 +1,25 @@
 from output.models.sun_data.combined.xsd002.xsd002_xsd.xsd002 import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
     foo_or_bar_or_zot=[
-        AnyElement(
-            qname='foo',
-            text=''
+        Root.Foo(
+
         ),
-        AnyElement(
-            qname='{http://foo.com}bar',
-            text=''
+        Root.Bar(
+
         ),
-        AnyElement(
-            qname='zot',
-            text=''
+        Root.Zot(
+
         ),
-        AnyElement(
-            qname='foo',
-            text=''
+        Root.Foo(
+
         ),
-        AnyElement(
-            qname='{http://foo.com}bar',
-            text=''
+        Root.Bar(
+
         ),
-        AnyElement(
-            qname='zot',
-            text=''
+        Root.Zot(
+
         ),
     ]
 )

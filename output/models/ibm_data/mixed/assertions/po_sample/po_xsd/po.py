@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import (
     Poitems,
 )
@@ -68,35 +68,78 @@ class Buyer:
     class Meta:
         name = "BUYER"
 
-    choice: List[str] = field(
+    choice: List[
+        Union[
+            "Buyer.FName",
+            "Buyer.MiddlName",
+            "Buyer.LName",
+            "Buyer.Establishment",
+        ]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "fName",
-                    "type": str,
+                    "type": Type["Buyer.FName"],
                     "namespace": "",
                 },
                 {
                     "name": "middlName",
-                    "type": str,
+                    "type": Type["Buyer.MiddlName"],
                     "namespace": "",
                 },
                 {
                     "name": "lName",
-                    "type": str,
+                    "type": Type["Buyer.LName"],
                     "namespace": "",
                 },
                 {
                     "name": "Establishment",
-                    "type": str,
+                    "type": Type["Buyer.Establishment"],
                     "namespace": "",
                 },
             ),
             "max_occurs": 3,
         },
     )
+
+    @dataclass
+    class FName:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class MiddlName:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class LName:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class Establishment:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
 
 
 @dataclass

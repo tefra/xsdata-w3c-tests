@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Type, Union
 
 
 @dataclass
@@ -7,73 +7,73 @@ class Foo:
     class Meta:
         name = "foo"
 
-    g1_or_g12: Optional[object] = field(
+    g1_or_g12: Optional[Union["Foo.G1", "Foo.G12"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "g1",
-                    "type": object,
+                    "type": Type["Foo.G1"],
                     "namespace": "",
                 },
                 {
                     "name": "g12",
-                    "type": object,
+                    "type": Type["Foo.G12"],
                     "namespace": "",
                 },
             ),
         },
     )
-    g2_or_g22: Optional[object] = field(
+    g2_or_g22: Optional[Union["Foo.G2", "Foo.G22"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "g2",
-                    "type": object,
+                    "type": Type["Foo.G2"],
                     "namespace": "",
                 },
                 {
                     "name": "g22",
-                    "type": object,
+                    "type": Type["Foo.G22"],
                     "namespace": "",
                 },
             ),
         },
     )
-    g3_or_g32: Optional[object] = field(
+    g3_or_g32: Optional[Union["Foo.G3", "Foo.G32"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "g3",
-                    "type": object,
+                    "type": Type["Foo.G3"],
                     "namespace": "",
                 },
                 {
                     "name": "g32",
-                    "type": object,
+                    "type": Type["Foo.G32"],
                     "namespace": "",
                 },
             ),
         },
     )
-    g4_or_g42: Optional[object] = field(
+    g4_or_g42: Optional[Union["Foo.G4", "Foo.G42"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "g4",
-                    "type": object,
+                    "type": Type["Foo.G4"],
                     "namespace": "",
                 },
                 {
                     "name": "g42",
-                    "type": object,
+                    "type": Type["Foo.G42"],
                     "namespace": "",
                 },
             ),
@@ -107,6 +107,94 @@ class Foo:
             "namespace": "",
         },
     )
+
+    @dataclass
+    class G1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G12:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G22:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G3:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G32:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G4:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class G42:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

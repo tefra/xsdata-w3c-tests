@@ -1,14 +1,12 @@
+from output.models.ms_data.particles.particles_fb001_xsd.particles_fb001 import Base
 from output.models.ms_data.particles.particles_fb001_xsd.particles_fb001 import Doc
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    c1_or_c2=AnyElement(
-        qname='{http://xsdtesting}c1',
-        text=''
+    c1_or_c2=Base.C1(
+
     ),
-    g1_or_g2=AnyElement(
-        qname='{http://xsdtesting}g2',
-        text=''
+    g1_or_g2=Doc.G2(
+
     )
 )

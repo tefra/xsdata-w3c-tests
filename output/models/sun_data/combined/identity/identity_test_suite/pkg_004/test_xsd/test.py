@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "foo"
 
@@ -10,22 +10,40 @@ class Scope:
         name = "scope"
         namespace = "foo"
 
-    key_or_ref: List[str] = field(
+    key_or_ref: List[Union["Scope.Key", "Scope.Ref"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "key",
-                    "type": str,
+                    "type": Type["Scope.Key"],
                 },
                 {
                     "name": "ref",
-                    "type": str,
+                    "type": Type["Scope.Ref"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class Key:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class Ref:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
 
 
 @dataclass

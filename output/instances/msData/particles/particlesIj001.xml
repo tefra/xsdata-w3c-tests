@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <a:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="http://xsdtesting" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <a:elem>
-    <a:c1 xsi:type="xsd:short">1</a:c1>
+    <a:c1 xsi:type="xsd:int">1</a:c1>
   </a:elem>
 </a:doc>

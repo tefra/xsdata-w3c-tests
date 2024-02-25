@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "foo"
 
@@ -38,22 +38,30 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    item1_or_item2: List[B] = field(
+    item1_or_item2: List[Union["Root.Item1", "Root.Item2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "item1",
-                    "type": B,
+                    "type": Type["Root.Item1"],
                 },
                 {
                     "name": "item2",
-                    "type": B,
+                    "type": Type["Root.Item2"],
                 },
             ),
         },
     )
+
+    @dataclass
+    class Item1(B):
+        pass
+
+    @dataclass
+    class Item2(B):
+        pass
 
 
 @dataclass

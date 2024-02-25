@@ -9,6 +9,7 @@ from output.models.common.xsts_xsd.xsts import InstanceTest
 from output.models.common.xsts_xsd.xsts import KnownToken
 from output.models.common.xsts_xsd.xsts import Prior
 from output.models.common.xsts_xsd.xsts import SchemaDocument
+from output.models.common.xsts_xsd.xsts import SchemaDocumentRefRole
 from output.models.common.xsts_xsd.xsts import SchemaTest
 from output.models.common.xsts_xsd.xsts import Status
 from output.models.common.xsts_xsd.xsts import TestGroup
@@ -680,7 +681,8 @@ obj = TestSet(
                         href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xsd'
                     ),
                     SchemaDocument(
-                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08b.xsd'
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08b.xsd',
+                        role=SchemaDocumentRefRole.OVERRIDDEN
                     ),
                 ],
                 expected=[
@@ -804,7 +806,8 @@ obj = TestSet(
                         href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xsd'
                     ),
                     SchemaDocument(
-                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10b.xsd'
+                        href='../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10b.xsd',
+                        role=SchemaDocumentRefRole.OVERRIDDEN
                     ),
                 ],
                 expected=[

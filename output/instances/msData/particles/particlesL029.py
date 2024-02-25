@@ -1,3 +1,4 @@
+from output.models.ms_data.particles.particles_l029_xsd.particles_l029 import B
 from output.models.ms_data.particles.particles_l029_xsd.particles_l029 import Doc
 from output.models.ms_data.particles.particles_l029_xsd.particles_l029 import Foo
 from output.models.ms_data.particles.particles_l029_xsd.particles_l029 import R
@@ -11,9 +12,10 @@ obj = Doc(
                 text='1'
             )
         ),
-        d1_or_d2=AnyElement(
-            qname='d1',
-            text='testing'
+        d1_or_d2=B.D1(
+            content=AnyElement(
+                text='testing'
+            )
         )
     )
 )

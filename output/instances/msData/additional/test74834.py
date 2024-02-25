@@ -2,151 +2,160 @@ from decimal import Decimal
 from output.models.ms_data.additional.test74834_xsd.test74834 import Datafile
 from output.models.ms_data.additional.test74834_xsd.test74834 import MyDateTime
 from output.models.ms_data.additional.test74834_xsd.test74834 import MySmallDateTime
-from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 
 
 obj = Datafile(
     nonstringsection=Datafile.Nonstringsection(
         choice=[
-            -92232036854775808,
-            -1,
-            0,
-            1,
-            92232036854775807,
-            DerivedElement(
-                qname='int',
+            Datafile.Nonstringsection.Bigint(
+                value=-92232036854775808
+            ),
+            Datafile.Nonstringsection.Bigint(
+                value=-1
+            ),
+            Datafile.Nonstringsection.Bigint(
+                value=0
+            ),
+            Datafile.Nonstringsection.Bigint(
+                value=1
+            ),
+            Datafile.Nonstringsection.Bigint(
+                value=92232036854775807
+            ),
+            Datafile.Nonstringsection.Int(
                 value=-2147483648
             ),
-            DerivedElement(
-                qname='int',
+            Datafile.Nonstringsection.Int(
                 value=-1
             ),
-            DerivedElement(
-                qname='int',
+            Datafile.Nonstringsection.Int(
                 value=0
             ),
-            DerivedElement(
-                qname='int',
+            Datafile.Nonstringsection.Int(
                 value=1
             ),
-            DerivedElement(
-                qname='int',
+            Datafile.Nonstringsection.Int(
                 value=2147483647
             ),
-            DerivedElement(
-                qname='smallint',
+            Datafile.Nonstringsection.Smallint(
                 value=-32768
             ),
-            DerivedElement(
-                qname='smallint',
+            Datafile.Nonstringsection.Smallint(
                 value=-1
             ),
-            DerivedElement(
-                qname='smallint',
+            Datafile.Nonstringsection.Smallint(
                 value=0
             ),
-            DerivedElement(
-                qname='smallint',
+            Datafile.Nonstringsection.Smallint(
                 value=1
             ),
-            DerivedElement(
-                qname='smallint',
+            Datafile.Nonstringsection.Smallint(
                 value=32767
             ),
-            DerivedElement(
-                qname='tinyint',
+            Datafile.Nonstringsection.Tinyint(
                 value=0
             ),
-            DerivedElement(
-                qname='tinyint',
+            Datafile.Nonstringsection.Tinyint(
                 value=1
             ),
-            DerivedElement(
-                qname='tinyint',
+            Datafile.Nonstringsection.Tinyint(
                 value=33
             ),
-            DerivedElement(
-                qname='tinyint',
+            Datafile.Nonstringsection.Tinyint(
                 value=254
             ),
-            DerivedElement(
-                qname='tinyint',
+            Datafile.Nonstringsection.Tinyint(
                 value=255
             ),
-            Decimal('-9954645.9999'),
-            Decimal('-99232423454645.999900'),
-            Decimal('0.9999'),
-            Decimal('995464234235.999900'),
-            Decimal('9954645.9999'),
-            Decimal('-9954645.9999'),
-            Decimal('-99232423454645.999900'),
-            Decimal('0.9999'),
-            Decimal('995464234235.999900'),
-            Decimal('9954645.9999'),
-            DerivedElement(
-                qname='money',
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('-9954645.9999')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('-99232423454645.999900')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('0.9999')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('995464234235.999900')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('9954645.9999')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('-9954645.9999')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('-99232423454645.999900')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('0.9999')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('995464234235.999900')
+            ),
+            Datafile.Nonstringsection.DecimalType(
+                value=Decimal('9954645.9999')
+            ),
+            Datafile.Nonstringsection.Money(
                 value=Decimal('-18888888888.5808')
             ),
-            DerivedElement(
-                qname='money',
+            Datafile.Nonstringsection.Money(
                 value=Decimal('-188.5808')
             ),
-            DerivedElement(
-                qname='money',
+            Datafile.Nonstringsection.Money(
                 value=Decimal('0')
             ),
-            DerivedElement(
-                qname='money',
+            Datafile.Nonstringsection.Money(
                 value=Decimal('188.5808')
             ),
-            DerivedElement(
-                qname='money',
+            Datafile.Nonstringsection.Money(
                 value=Decimal('18888888888.5808')
             ),
-            DerivedElement(
-                qname='smallmoney',
+            Datafile.Nonstringsection.Smallmoney(
                 value=Decimal('-121212.1112')
             ),
-            DerivedElement(
-                qname='smallmoney',
+            Datafile.Nonstringsection.Smallmoney(
                 value=Decimal('-1.11')
             ),
-            DerivedElement(
-                qname='smallmoney',
+            Datafile.Nonstringsection.Smallmoney(
                 value=Decimal('0.0')
             ),
-            DerivedElement(
-                qname='smallmoney',
+            Datafile.Nonstringsection.Smallmoney(
                 value=Decimal('1.11')
             ),
-            DerivedElement(
-                qname='smallmoney',
+            Datafile.Nonstringsection.Smallmoney(
                 value=Decimal('121212.1112')
             ),
-            -1.79e+308,
-            -1.79,
-            0.0,
-            1.79,
-            1.79e+308,
-            DerivedElement(
-                qname='real',
-                value=-3.4e+38
+            Datafile.Nonstringsection.Float(
+                value=-1.79e+308
             ),
-            DerivedElement(
-                qname='real',
-                value=2.79e+38
+            Datafile.Nonstringsection.Float(
+                value=-1.79
             ),
-            DerivedElement(
-                qname='real',
+            Datafile.Nonstringsection.Float(
                 value=0.0
             ),
-            DerivedElement(
-                qname='real',
+            Datafile.Nonstringsection.Float(
+                value=1.79
+            ),
+            Datafile.Nonstringsection.Float(
+                value=1.79e+308
+            ),
+            Datafile.Nonstringsection.Real(
+                value=-3.4e+38
+            ),
+            Datafile.Nonstringsection.Real(
                 value=2.79e+38
             ),
-            DerivedElement(
-                qname='real',
+            Datafile.Nonstringsection.Real(
+                value=0.0
+            ),
+            Datafile.Nonstringsection.Real(
+                value=2.79e+38
+            ),
+            Datafile.Nonstringsection.Real(
                 value=3.4e+38
             ),
             MyDateTime(

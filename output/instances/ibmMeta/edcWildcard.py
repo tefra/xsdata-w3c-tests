@@ -85,7 +85,7 @@ obj = TestSet(
                                 appinfo_or_documentation=[
                                     Documentation(
                                         content=[
-                                            '\n                        Changed the status to "invalid" in response to bug #12130\n                    ',
+                                            '\n                        Changed the status to "invalid" in response to bug #12130.\n                        Note: (MHK 2023-07-30) The test has a probably unintended feature:\n                        the xsi:schemaLocation in the instance document pairs a namespace URI\n                        "a" with a schema document whose target namespace is actually "b".\n                        It seems this is not an error according to the spec.\n                    ',
                                         ]
                                     ),
                                 ]

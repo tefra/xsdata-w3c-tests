@@ -5409,7 +5409,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas',
+                                'TEST :schema collection and schema location : \n            comparison of file urls to be case insensitive while adding multiple schemas.\n            Note: (MHK, 2023-07-31) Saxon passes this test not because it does a case\n            insensitive comparison of URIs, which appears to be what the test author\n            intended, but rather because there is no schema document at the location\n            Schz012_b.xsd, but there are other schema components already loaded for the\n            relevant namespace, and in that situation the schemaLocation can be ignored.\n         ',
                             ]
                         ),
                     ]

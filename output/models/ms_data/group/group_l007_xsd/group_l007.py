@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 
 @dataclass
@@ -16,17 +16,35 @@ class Elem:
             "choices": (
                 {
                     "name": "b1",
-                    "type": str,
+                    "type": Type["Elem.B1"],
                     "namespace": "",
                 },
                 {
                     "name": "b2",
-                    "type": str,
+                    "type": Type["Elem.B2"],
                     "namespace": "",
                 },
             ),
         },
     )
+
+    @dataclass
+    class B1:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class B2:
+        value: Optional[str] = field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
 
 
 @dataclass

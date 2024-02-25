@@ -1,37 +1,81 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 
 @dataclass
 class A:
-    choice: List[object] = field(
+    choice: List[Union["A.X1", "A.X2", "A.Y1", "A.Y2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "x1",
-                    "type": object,
+                    "type": Type["A.X1"],
                     "namespace": "",
                 },
                 {
                     "name": "x2",
-                    "type": object,
+                    "type": Type["A.X2"],
                     "namespace": "",
                 },
                 {
                     "name": "y1",
-                    "type": object,
+                    "type": Type["A.Y1"],
                     "namespace": "",
                 },
                 {
                     "name": "y2",
-                    "type": object,
+                    "type": Type["A.Y2"],
                     "namespace": "",
                 },
             ),
         },
     )
+
+    @dataclass
+    class X1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class X2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class Y1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class Y2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

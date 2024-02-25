@@ -1,10 +1,13 @@
 from output.models.ms_data.model_groups.mg_f013_xsd.mg_f013 import Doc
+from output.models.ms_data.model_groups.mg_f013_xsd.mg_f013 import Foo
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
     d='',
-    b_or_b2='I am a stringy string',
+    b_or_b2=Foo.B(
+        value='I am a stringy string'
+    ),
     c=True,
     a=1,
     w3_org_1999_xhtml_element=[

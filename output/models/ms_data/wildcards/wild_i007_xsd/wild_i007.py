@@ -33,12 +33,7 @@ class Foo:
                 {
                     "wildcard": True,
                     "type": object,
-                    "namespace": "##other",
-                },
-                {
-                    "wildcard": True,
-                    "type": object,
-                    "namespace": "##targetNamespace",
+                    "namespace": "##other ##targetNamespace",
                 },
             ),
             "max_occurs": 10,

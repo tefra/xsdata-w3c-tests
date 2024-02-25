@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,25 +9,47 @@ class Foo:
     class Meta:
         name = "foo"
 
-    f1_or_f2: List[object] = field(
+    f1_or_f2: List[Union["Foo.F1", "Foo.F2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "f1",
-                    "type": object,
+                    "type": Type["Foo.F1"],
                     "namespace": "http://xsdtesting",
                 },
                 {
                     "name": "f2",
-                    "type": object,
+                    "type": Type["Foo.F2"],
                     "namespace": "http://xsdtesting",
                 },
             ),
             "max_occurs": 5,
         },
     )
+
+    @dataclass
+    class F1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class F2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "http://xsdtesting",
+                "required": True,
+            },
+        )
 
 
 @dataclass

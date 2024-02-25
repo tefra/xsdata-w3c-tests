@@ -12,12 +12,16 @@ from xsdata.models.datatype import XmlDate
 
 obj = PurchaseOrder(
     ship_to_or_bill_to_or_single_address=[
-        Usaddress(
-            name='Alice Smith',
-            street='123 Maple Street',
-            city='Mill Valley',
-            state=Usstate.CA,
-            zip=90952
+        DerivedElement(
+            qname='{http://www.example.com/IPO}shipTo',
+            value=Usaddress(
+                name='Alice Smith',
+                street='123 Maple Street',
+                city='Mill Valley',
+                state=Usstate.CA,
+                zip=90952
+            ),
+            type='{http://www.example.com/add}USAddress'
         ),
         DerivedElement(
             qname='{http://www.example.com/IPO}billTo',

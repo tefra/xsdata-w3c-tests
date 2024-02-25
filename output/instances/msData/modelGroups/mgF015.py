@@ -1,5 +1,5 @@
 from output.models.ms_data.model_groups.mg_f015_xsd.mg_f015 import Doc
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.model_groups.mg_f015_xsd.mg_f015 import Foo
 
 
 obj = Doc(
@@ -7,20 +7,16 @@ obj = Doc(
     two='',
     three='',
     four='',
-    five_or_five2=AnyElement(
-        qname='five',
-        text=''
+    five_or_five2=Foo.Five(
+
     ),
-    six_or_six2=AnyElement(
-        qname='six',
-        text=''
+    six_or_six2=Foo.Six(
+
     ),
-    seven_or_seven2=AnyElement(
-        qname='seven',
-        text=''
+    seven_or_seven2=Foo.Seven(
+
     ),
-    eight_or_eight2=AnyElement(
-        qname='eight',
-        text=''
+    eight_or_eight2=Foo.Eight(
+
     )
 )

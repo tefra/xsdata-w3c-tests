@@ -1,23 +1,19 @@
 from output.models.ms_data.model_groups.mg_f016_xsd.mg_f016 import Doc
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.model_groups.mg_f016_xsd.mg_f016 import Foo
 
 
 obj = Doc(
-    g1_or_g12=AnyElement(
-        qname='g1',
-        text=''
+    g1_or_g12=Foo.G1(
+
     ),
-    g2_or_g22=AnyElement(
-        qname='g2',
-        text=''
+    g2_or_g22=Foo.G2(
+
     ),
-    g3_or_g32=AnyElement(
-        qname='g3',
-        text=''
+    g3_or_g32=Foo.G3(
+
     ),
-    g4_or_g42=AnyElement(
-        qname='g4',
-        text=''
+    g4_or_g42=Foo.G4(
+
     ),
     c1='',
     c2='',

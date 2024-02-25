@@ -1,35 +1,68 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    e1_or_e2_or_e3: List[object] = field(
+    e1_or_e2_or_e3: List[Union["B.E1", "B.E2", "B.E3"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "e1",
-                    "type": object,
+                    "type": Type["B.E1"],
                     "namespace": "",
                 },
                 {
                     "name": "e2",
-                    "type": object,
+                    "type": Type["B.E2"],
                     "namespace": "",
                 },
                 {
                     "name": "e3",
-                    "type": object,
+                    "type": Type["B.E3"],
                     "namespace": "",
                 },
             ),
             "max_occurs": 3,
         },
     )
+
+    @dataclass
+    class E1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class E3:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

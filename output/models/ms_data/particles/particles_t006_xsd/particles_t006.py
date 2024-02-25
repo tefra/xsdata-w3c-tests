@@ -1,29 +1,29 @@
 from dataclasses import dataclass, field
-from typing import Optional, Any
+from typing import Optional, Type, Union, Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    c1_or_c2_or_c3: Optional[object] = field(
+    c1_or_c2_or_c3: Optional[Union["B.C1", "B.C2", "B.C3"]] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
                 {
                     "name": "c1",
-                    "type": object,
+                    "type": Type["B.C1"],
                     "namespace": "",
                 },
                 {
                     "name": "c2",
-                    "type": object,
+                    "type": Type["B.C2"],
                     "namespace": "",
                 },
                 {
                     "name": "c3",
-                    "type": object,
+                    "type": Type["B.C3"],
                     "namespace": "",
                 },
             ),
@@ -36,6 +36,39 @@ class B:
             "namespace": "",
         },
     )
+
+    @dataclass
+    class C1:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class C2:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
+
+    @dataclass
+    class C3:
+        content: Optional[object] = field(
+            default=None,
+            metadata={
+                "type": "Wildcard",
+                "namespace": "",
+                "required": True,
+            },
+        )
 
 
 @dataclass

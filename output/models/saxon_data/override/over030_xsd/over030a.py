@@ -136,47 +136,6 @@ class Title(InlineType):
 
 
 @dataclass
-class Blockquote:
-    class Meta:
-        name = "blockquote"
-        namespace = "http://example.org/ns/document"
-
-    title: Optional[Title] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        },
-    )
-    p: Optional["P"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "required": True,
-        },
-    )
-    role: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        },
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
-        },
-    )
-    base: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
-        },
-    )
-
-
-@dataclass
 class ParaType:
     class Meta:
         name = "para.type"
@@ -240,7 +199,7 @@ class ParaType:
                 },
                 {
                     "name": "blockquote",
-                    "type": Blockquote,
+                    "type": Type["Blockquote"],
                     "namespace": "http://example.org/ns/document",
                 },
             ),
@@ -253,6 +212,47 @@ class P(ParaType):
     class Meta:
         name = "p"
         namespace = "http://example.org/ns/document"
+
+
+@dataclass
+class Blockquote:
+    class Meta:
+        name = "blockquote"
+        namespace = "http://example.org/ns/document"
+
+    title: Optional[Title] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+        },
+    )
+    p: Optional[P] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "required": True,
+        },
+    )
+    role: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        },
+    )
+    id: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        },
+    )
+    base: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        },
+    )
 
 
 @dataclass

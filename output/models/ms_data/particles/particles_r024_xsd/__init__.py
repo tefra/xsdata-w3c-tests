@@ -1,8 +1,8 @@
 from output.models.ms_data.particles.particles_r024_xsd.particles_r024 import (
-    B,
-    R,
-    Doc,
     E1,
+    B,
+    Doc,
+    R,
 )
 
 __all__ = [

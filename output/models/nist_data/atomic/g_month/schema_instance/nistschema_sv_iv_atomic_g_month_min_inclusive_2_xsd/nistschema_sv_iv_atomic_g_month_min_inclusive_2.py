@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+
 from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonth-minInclusive-2-NS"

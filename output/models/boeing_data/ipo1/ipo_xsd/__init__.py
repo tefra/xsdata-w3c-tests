@@ -1,15 +1,15 @@
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import (
     AddressType,
-    ItemsType,
-    PurchaseOrderType,
-    Ukaddress,
-    Usaddress,
-    Usstate,
     Comment,
     CustomerComment,
     ItemShipBy,
+    ItemsType,
     PurchaseOrder,
+    PurchaseOrderType,
     ShipComment,
+    Ukaddress,
+    Usaddress,
+    Usstate,
 )
 
 __all__ = [

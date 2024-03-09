@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+
 from output.models.ms_data.additional.test93276_xsd.test93276_types import (
     GlobalAddressTypeValues,
 )

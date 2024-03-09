@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.boolean_xsd.boolean import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

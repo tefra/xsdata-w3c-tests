@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import List, Optional, Type, Union
+
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://www.example.com/IPO"

@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.short009_xsd.short009 import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
+
 from output.models.saxon_data.open.open043_xsd.open043x import Alpha
 
 

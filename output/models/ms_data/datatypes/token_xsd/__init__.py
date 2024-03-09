@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.token_xsd.token import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

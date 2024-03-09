@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union, Any
+from typing import Any, List, Optional, Union
 
 
 class A(Enum):

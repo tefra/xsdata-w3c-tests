@@ -5,12 +5,12 @@ from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import (
     BE3,
     CE1,
     CE2,
-    CtA,
-    CtB,
-    CtC,
     E1,
     E2,
     E3,
+    CtA,
+    CtB,
+    CtC,
     Root,
 )
 

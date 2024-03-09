@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import Optional
+
 from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "NISTSchema-SV-IV-union-duration-decimal-enumeration-5-NS"
@@ -23,11 +24,11 @@ class NistschemaSvIvUnionDurationDecimalEnumeration5:
         name = "NISTSchema-SV-IV-union-duration-decimal-enumeration-5"
         namespace = "NISTSchema-SV-IV-union-duration-decimal-enumeration-5-NS"
 
-    value: Optional[
-        NistschemaSvIvUnionDurationDecimalEnumeration5Type
-    ] = field(
-        default=None,
-        metadata={
-            "required": True,
-        },
+    value: Optional[NistschemaSvIvUnionDurationDecimalEnumeration5Type] = (
+        field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
     )

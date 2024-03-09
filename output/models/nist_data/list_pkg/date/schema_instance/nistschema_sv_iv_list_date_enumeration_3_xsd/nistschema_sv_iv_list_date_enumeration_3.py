@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-date-enumeration-3-NS"

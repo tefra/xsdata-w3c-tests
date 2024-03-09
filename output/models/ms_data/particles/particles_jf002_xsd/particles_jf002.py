@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Any
+from typing import Any, List, Optional
+
 from output.models.ms_data.particles.particles_jf002_xsd.particles_jf002_imp import (
     ImpElem1,
 )

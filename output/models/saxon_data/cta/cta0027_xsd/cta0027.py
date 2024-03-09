@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional, Union
+
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlPeriod, XmlTime
 
 __NAMESPACE__ = "http://cta023.com/ns"

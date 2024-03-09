@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional, Union
 from xml.etree.ElementTree import QName
+
 from xsdata.models.datatype import XmlDate, XmlTime
 
 

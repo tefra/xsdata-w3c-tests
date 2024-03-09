@@ -7,40 +7,40 @@ class Foo:
     class Meta:
         name = "foo"
 
-    choice: Optional[
-        Union["Foo.E1", "Foo.E2", "Foo.E3", "Foo.E4", object]
-    ] = field(
-        default=None,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "e1",
-                    "type": Type["Foo.E1"],
-                    "namespace": "",
-                },
-                {
-                    "name": "e2",
-                    "type": Type["Foo.E2"],
-                    "namespace": "",
-                },
-                {
-                    "name": "e3",
-                    "type": Type["Foo.E3"],
-                    "namespace": "",
-                },
-                {
-                    "name": "e4",
-                    "type": Type["Foo.E4"],
-                    "namespace": "",
-                },
-                {
-                    "wildcard": True,
-                    "type": object,
-                    "namespace": "http://n1 http://n2 http://n3 http://n4",
-                },
-            ),
-        },
+    choice: Optional[Union["Foo.E1", "Foo.E2", "Foo.E3", "Foo.E4", object]] = (
+        field(
+            default=None,
+            metadata={
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "e1",
+                        "type": Type["Foo.E1"],
+                        "namespace": "",
+                    },
+                    {
+                        "name": "e2",
+                        "type": Type["Foo.E2"],
+                        "namespace": "",
+                    },
+                    {
+                        "name": "e3",
+                        "type": Type["Foo.E3"],
+                        "namespace": "",
+                    },
+                    {
+                        "name": "e4",
+                        "type": Type["Foo.E4"],
+                        "namespace": "",
+                    },
+                    {
+                        "wildcard": True,
+                        "type": object,
+                        "namespace": "http://n1 http://n2 http://n3 http://n4",
+                    },
+                ),
+            },
+        )
     )
 
     @dataclass

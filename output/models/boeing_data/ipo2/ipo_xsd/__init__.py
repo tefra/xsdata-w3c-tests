@@ -5,12 +5,12 @@ from output.models.boeing_data.ipo2.ipo_xsd.address import (
     Usstate,
 )
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import (
-    ItemsType,
-    PurchaseOrderType,
     Comment,
     CustomerComment,
     ItemShipBy,
+    ItemsType,
     PurchaseOrder,
+    PurchaseOrderType,
     ShipComment,
 )
 

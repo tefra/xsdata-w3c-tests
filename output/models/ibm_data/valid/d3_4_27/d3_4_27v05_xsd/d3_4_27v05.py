@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
+
 from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v05"

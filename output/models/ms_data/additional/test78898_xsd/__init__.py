@@ -1,7 +1,4 @@
 from output.models.ms_data.additional.test78898_xsd.test78898 import (
-    Att1,
-    Att2,
-    Ct1,
     E1,
     E2,
     E3,
@@ -14,6 +11,9 @@ from output.models.ms_data.additional.test78898_xsd.test78898 import (
     M4,
     M5,
     M6,
+    Att1,
+    Att2,
+    Ct1,
     Root,
 )
 

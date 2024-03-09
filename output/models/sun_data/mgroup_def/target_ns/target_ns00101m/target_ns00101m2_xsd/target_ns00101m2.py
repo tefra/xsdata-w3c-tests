@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
+
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "targetNS1"

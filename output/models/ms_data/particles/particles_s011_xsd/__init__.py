@@ -1,10 +1,10 @@
 from output.models.ms_data.particles.particles_s011_xsd.particles_s011 import (
-    B,
-    R,
+    E3,
     Address,
     Address1,
+    B,
     Doc,
-    E3,
+    R,
 )
 
 __all__ = [

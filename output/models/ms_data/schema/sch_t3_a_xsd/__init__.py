@@ -1,12 +1,12 @@
 from output.models.ms_data.schema.sch_t3_a_xsd.sch_t3_a import (
-    ACt,
     E1,
     E2,
+    ACt,
     Root,
 )
 from output.models.ms_data.schema.sch_t3_a_xsd.sch_t3_b import (
-    BCt,
     BE1,
+    BCt,
 )
 
 __all__ = [

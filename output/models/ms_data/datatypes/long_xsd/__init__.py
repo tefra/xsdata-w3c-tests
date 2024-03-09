@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.long_xsd.long import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

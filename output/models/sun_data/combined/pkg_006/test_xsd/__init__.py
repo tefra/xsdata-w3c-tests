@@ -1,4 +1,5 @@
 from output.models.sun_data.combined.pkg_006.test_xsd.test import (
+    EB,
     B,
     De,
     Dee,
@@ -6,7 +7,6 @@ from output.models.sun_data.combined.pkg_006.test_xsd.test import (
     Dr,
     Dre,
     Drr,
-    EB,
     EDe,
     EDee,
     EDer,

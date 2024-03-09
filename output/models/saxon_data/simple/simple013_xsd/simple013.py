@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Union
+
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlTime
 
 __NAMESPACE__ = "http://simple013.ly/"

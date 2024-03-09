@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional, Union
+
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:products"

@@ -1,13 +1,11 @@
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import (
     A1,
     A2,
+    A3,
     B1,
     B2,
-    RA1,
-    UnionA,
-    UnionAb,
-    A3,
     B3,
+    RA1,
     Item,
     La,
     Lab,
@@ -15,6 +13,8 @@ from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import (
     Root,
     Ua,
     Uab,
+    UnionA,
+    UnionAb,
 )
 
 __all__ = [

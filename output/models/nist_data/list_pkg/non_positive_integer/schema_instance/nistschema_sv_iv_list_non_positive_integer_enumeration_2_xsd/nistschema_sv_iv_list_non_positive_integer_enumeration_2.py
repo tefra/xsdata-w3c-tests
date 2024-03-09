@@ -59,11 +59,11 @@ class NistschemaSvIvListNonPositiveIntegerEnumeration2:
         name = "NISTSchema-SV-IV-list-nonPositiveInteger-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-nonPositiveInteger-enumeration-2-NS"
 
-    value: Optional[
-        NistschemaSvIvListNonPositiveIntegerEnumeration2Type
-    ] = field(
-        default=None,
-        metadata={
-            "required": True,
-        },
+    value: Optional[NistschemaSvIvListNonPositiveIntegerEnumeration2Type] = (
+        field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
     )

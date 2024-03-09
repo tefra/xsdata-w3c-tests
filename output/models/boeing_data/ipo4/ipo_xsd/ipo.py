@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional, Type, Union
+
 from xsdata.models.datatype import XmlDate
+
 from output.models.boeing_data.ipo4.ipo_xsd.itematt import ItemShipBy
 
 __NAMESPACE__ = "http://www.example.com/IPO"

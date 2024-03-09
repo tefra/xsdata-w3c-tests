@@ -55,23 +55,23 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    mixed_or_element_only: List[
-        Union["Root.Mixed", "Root.ElementOnly"]
-    ] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "mixed",
-                    "type": Type["Root.Mixed"],
-                },
-                {
-                    "name": "elementOnly",
-                    "type": Type["Root.ElementOnly"],
-                },
-            ),
-        },
+    mixed_or_element_only: List[Union["Root.Mixed", "Root.ElementOnly"]] = (
+        field(
+            default_factory=list,
+            metadata={
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "mixed",
+                        "type": Type["Root.Mixed"],
+                    },
+                    {
+                        "name": "elementOnly",
+                        "type": Type["Root.ElementOnly"],
+                    },
+                ),
+            },
+        )
     )
 
     @dataclass

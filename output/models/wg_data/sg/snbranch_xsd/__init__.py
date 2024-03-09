@@ -1,13 +1,13 @@
 from output.models.wg_data.sg.snbranch_xsd.snbranch import (
-    T,
+    N1,
+    S1,
     A,
     B,
     C,
     E,
     N,
-    N1,
     S,
-    S1,
+    T,
     Test,
 )
 

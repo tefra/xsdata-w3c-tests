@@ -1,8 +1,8 @@
 from output.models.ms_data.additional.ipo_xsd.ipo import (
-    Items,
-    PurchaseOrderType,
     Comment,
+    Items,
     PurchaseOrder,
+    PurchaseOrderType,
 )
 from output.models.ms_data.additional.ipo_xsd.ipo_address import (
     Address,

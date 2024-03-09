@@ -2,7 +2,9 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import List, Optional, Type, Union
+
 from xsdata.models.datatype import XmlDate
+
 from output.models.boeing_data.ipo2.ipo_xsd.address import AddressType
 
 __NAMESPACE__ = "http://www.example.com/IPO"

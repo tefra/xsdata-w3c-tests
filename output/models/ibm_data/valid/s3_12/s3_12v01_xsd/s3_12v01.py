@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union, Any
+from typing import Any, List, Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns"
 

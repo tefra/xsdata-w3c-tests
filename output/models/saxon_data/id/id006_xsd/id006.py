@@ -7,27 +7,27 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idrefs: List[
-        Union["Node", "Node.Id", "Node.Idrefs"]
-    ] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "node",
-                    "type": Type["Node"],
-                },
-                {
-                    "name": "id",
-                    "type": Type["Node.Id"],
-                },
-                {
-                    "name": "idrefs",
-                    "type": Type["Node.Idrefs"],
-                },
-            ),
-        },
+    node_or_id_or_idrefs: List[Union["Node", "Node.Id", "Node.Idrefs"]] = (
+        field(
+            default_factory=list,
+            metadata={
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "node",
+                        "type": Type["Node"],
+                    },
+                    {
+                        "name": "id",
+                        "type": Type["Node.Id"],
+                    },
+                    {
+                        "name": "idrefs",
+                        "type": Type["Node.Idrefs"],
+                    },
+                ),
+            },
+        )
     )
     id_attribute: List[Union[str, int]] = field(
         default_factory=list,

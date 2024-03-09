@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.non_positive_integer_xsd.non_positive_integer import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional
+
 from xsdata.models.datatype import XmlDate
+
 from output.models.ms_data.additional.ipo_s1_xsd.ipo_s1_address import Address
 
 __NAMESPACE__ = "http://www.example.com/IPO"

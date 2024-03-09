@@ -109,11 +109,11 @@ class NistschemaSvIvListNormalizedStringEnumeration1:
         name = "NISTSchema-SV-IV-list-normalizedString-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-normalizedString-enumeration-1-NS"
 
-    value: Optional[
-        NistschemaSvIvListNormalizedStringEnumeration1Type
-    ] = field(
-        default=None,
-        metadata={
-            "required": True,
-        },
+    value: Optional[NistschemaSvIvListNormalizedStringEnumeration1Type] = (
+        field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
     )

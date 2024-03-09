@@ -25,11 +25,11 @@ class NistschemaSvIvAtomicNonPositiveIntegerEnumeration5:
             "NISTSchema-SV-IV-atomic-nonPositiveInteger-enumeration-5-NS"
         )
 
-    value: Optional[
-        NistschemaSvIvAtomicNonPositiveIntegerEnumeration5Type
-    ] = field(
-        default=None,
-        metadata={
-            "required": True,
-        },
+    value: Optional[NistschemaSvIvAtomicNonPositiveIntegerEnumeration5Type] = (
+        field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
     )

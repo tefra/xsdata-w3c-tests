@@ -1,7 +1,7 @@
 from output.models.ms_data.element.elem_t073_xsd.elem_t073 import (
-    UnionAb,
     Root,
     Test,
+    UnionAb,
 )
 
 __all__ = [

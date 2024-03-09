@@ -91,11 +91,11 @@ class NistschemaSvIvListNonNegativeIntegerEnumeration4:
         name = "NISTSchema-SV-IV-list-nonNegativeInteger-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-nonNegativeInteger-enumeration-4-NS"
 
-    value: Optional[
-        NistschemaSvIvListNonNegativeIntegerEnumeration4Type
-    ] = field(
-        default=None,
-        metadata={
-            "required": True,
-        },
+    value: Optional[NistschemaSvIvListNonNegativeIntegerEnumeration4Type] = (
+        field(
+            default=None,
+            metadata={
+                "required": True,
+            },
+        )
     )

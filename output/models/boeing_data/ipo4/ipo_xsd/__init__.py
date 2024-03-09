@@ -5,11 +5,11 @@ from output.models.boeing_data.ipo4.ipo_xsd.address import (
 )
 from output.models.boeing_data.ipo4.ipo_xsd.ipo import (
     AddressType,
-    ItemsType,
-    PurchaseOrderType,
     Comment,
     CustomerComment,
+    ItemsType,
     PurchaseOrder,
+    PurchaseOrderType,
     ShipComment,
 )
 from output.models.boeing_data.ipo4.ipo_xsd.itematt import ItemShipBy

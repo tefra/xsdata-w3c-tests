@@ -1,7 +1,7 @@
 from output.models.ms_data.particles.particles_jb011_xsd.particles_jb011 import (
     B,
-    R,
     Doc,
+    R,
 )
 
 __all__ = [

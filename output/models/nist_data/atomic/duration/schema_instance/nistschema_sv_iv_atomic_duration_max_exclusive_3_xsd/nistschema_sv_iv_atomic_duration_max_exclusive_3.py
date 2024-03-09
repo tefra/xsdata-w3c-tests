@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+
 from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-duration-maxExclusive-3-NS"

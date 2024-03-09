@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+
 from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-enumeration-1-NS"

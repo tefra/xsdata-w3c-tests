@@ -1,6 +1,6 @@
 from output.models.ms_data.element.elem_s002_xsd.elem_s002 import (
-    CInvalid,
     Cc,
+    CInvalid,
     Cs,
     Fr1Valid,
     FrValid,

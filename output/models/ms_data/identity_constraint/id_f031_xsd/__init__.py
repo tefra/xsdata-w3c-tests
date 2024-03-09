@@ -1,6 +1,6 @@
 from output.models.ms_data.identity_constraint.id_f031_xsd.id_f031 import (
-    R,
     R2,
+    R,
     Root,
     Rtype,
     T,

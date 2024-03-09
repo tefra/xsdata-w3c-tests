@@ -1,7 +1,6 @@
 from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import (
     Element0,
     Element1,
-    Element10,
     Element2,
     Element3,
     Element4,
@@ -10,6 +9,7 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.di
     Element7,
     Element8,
     Element9,
+    Element10,
     Head,
     HeadType,
     Root,

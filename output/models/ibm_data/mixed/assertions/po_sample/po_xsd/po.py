@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional, Type, Union
+
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import (
     Poitems,
 )

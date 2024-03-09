@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Union
+
 from xsdata.models.datatype import XmlPeriod
 
 

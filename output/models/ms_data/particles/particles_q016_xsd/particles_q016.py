@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+
 from output.models.ms_data.particles.particles_q016_xsd.particles_q016_imp import (
     Foo,
 )

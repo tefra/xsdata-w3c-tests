@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.g_month_xsd.g_month import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

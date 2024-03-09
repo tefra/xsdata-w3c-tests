@@ -1,6 +1,6 @@
 from output.models.ms_data.regex.re_k56_xsd.re_k56 import (
-    Regex,
     Doc,
+    Regex,
 )
 
 __all__ = [

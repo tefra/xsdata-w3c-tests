@@ -1,10 +1,14 @@
 from output.models.ms_data.particles.particles_jf015_xsd.particles_jf015 import (
     B as B,
-    R,
+)
+from output.models.ms_data.particles.particles_jf015_xsd.particles_jf015 import (
     Doc,
+    R,
 )
 from output.models.ms_data.particles.particles_jf015_xsd.particles_jf015_imp import (
     B as ImpB,
+)
+from output.models.ms_data.particles.particles_jf015_xsd.particles_jf015_imp import (
     ExtRefType,
     ImpElem1,
     ImpElem2,

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Any
+from typing import Any, Optional
 
 __NAMESPACE__ = "urn:foo"
 

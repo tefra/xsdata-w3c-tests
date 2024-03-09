@@ -1,9 +1,9 @@
 from output.models.ms_data.particles.particles_s003_xsd.particles_s003 import (
-    B,
-    R,
-    Address,
-    Doc,
     E3,
+    Address,
+    B,
+    Doc,
+    R,
 )
 
 __all__ = [

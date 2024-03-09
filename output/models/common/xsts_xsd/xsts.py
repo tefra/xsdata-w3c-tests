@@ -2,7 +2,9 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import Dict, List, Optional, Union
+
 from xsdata.models.datatype import XmlDate
+
 from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xml import LangValue
 
@@ -863,14 +865,14 @@ class TestSuiteResults:
             "required": True,
         },
     )
-    publication_permission: Optional[
-        TestSuiteResultsPublicationPermission
-    ] = field(
-        default=None,
-        metadata={
-            "name": "publicationPermission",
-            "type": "Attribute",
-        },
+    publication_permission: Optional[TestSuiteResultsPublicationPermission] = (
+        field(
+            default=None,
+            metadata={
+                "name": "publicationPermission",
+                "type": "Attribute",
+            },
+        )
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,

@@ -1,4 +1,5 @@
 from output.models.ms_data.additional.test78000a_xsd.test78000a import (
+    Doc,
     LaxContainer,
     LaxContainerType,
     RootContainer,
@@ -7,7 +8,6 @@ from output.models.ms_data.additional.test78000a_xsd.test78000a import (
     SkipContainerType,
     StrictContainer,
     StrictContainerType,
-    Doc,
 )
 
 __all__ = [

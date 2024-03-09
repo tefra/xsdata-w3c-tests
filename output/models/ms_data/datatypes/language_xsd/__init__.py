@@ -1,6 +1,6 @@
 from output.models.ms_data.datatypes.language_xsd.language import (
-    ComplexTest,
     ComplexfooType,
+    ComplexTest,
     Root,
     SimpleTest,
 )

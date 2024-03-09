@@ -1,9 +1,9 @@
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import (
+    EA,
+    RA,
     A,
     Ca,
-    EA,
     ECa,
-    RA,
     RCa,
     Root,
     Sa1,

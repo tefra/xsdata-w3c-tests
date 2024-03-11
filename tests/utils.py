@@ -60,11 +60,12 @@ def assert_bindings(
         models_package = ".".join(clazz.__module__.split(".")[: levels + 1])
 
     try:
+        ns_map: Dict[Optional[str], str] = {}
         instance_path = w3c.joinpath(instance)
         schema_path = w3c.joinpath(schema)
         context = XmlContext(class_type=output_format, models_package=models_package)
         parser = XmlParser(context=context)
-        obj = parser.from_path(instance_path, clazz)
+        obj = parser.from_path(instance_path, clazz, ns_map)
     except Exception as e:
         raise e
 
@@ -76,7 +77,7 @@ def assert_bindings(
     assert_xml_bindings(
         context,
         obj,
-        parser.ns_map,
+        ns_map,
         schema_path,
         instance_path,
         save_path,

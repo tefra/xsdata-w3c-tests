@@ -32,7 +32,6 @@ class Root:
         value: List[str] = field(
             default_factory=list,
             metadata={
-                "required": True,
                 "min_length": 5,
                 "tokens": True,
             },

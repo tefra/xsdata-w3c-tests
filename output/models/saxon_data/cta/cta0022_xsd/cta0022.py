@@ -10,7 +10,10 @@ class When:
         name = "when"
 
     value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        },
     )
 
 

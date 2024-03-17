@@ -13,7 +13,10 @@ class When:
         namespace = "http://cta023.com/ns"
 
     value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        },
     )
 
 

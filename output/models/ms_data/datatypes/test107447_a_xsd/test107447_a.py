@@ -62,7 +62,6 @@ class Root:
         ],
         metadata={
             "type": "Element",
-            "required": True,
             "tokens": True,
         },
     )
@@ -81,7 +80,6 @@ class Root:
         ],
         metadata={
             "type": "Element",
-            "required": True,
             "tokens": True,
         },
     )

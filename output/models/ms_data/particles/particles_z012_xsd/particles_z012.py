@@ -43,7 +43,10 @@ class E1:
         namespace = "http://xsdtesting"
 
     value: Optional[Union[bool, float, int, MyType10Value]] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        },
     )
 
 

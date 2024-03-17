@@ -52,7 +52,6 @@ class DTimeStampRoot:
             "name": "eldTimeStampListB",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "tokens": True,
         },
     )

@@ -51,7 +51,6 @@ class Node:
         value: List[str] = field(
             default_factory=list,
             metadata={
-                "required": True,
                 "tokens": True,
             },
         )
@@ -61,7 +60,6 @@ class Node:
         value: List[str] = field(
             default_factory=list,
             metadata={
-                "required": True,
                 "tokens": True,
             },
         )

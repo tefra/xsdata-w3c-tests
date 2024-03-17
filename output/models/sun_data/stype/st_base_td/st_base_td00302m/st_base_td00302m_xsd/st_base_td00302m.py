@@ -12,6 +12,7 @@ class Test:
     value: str = field(
         default="",
         metadata={
+            "required": True,
             "max_length": 3,
             "pattern": r"b+",
         },

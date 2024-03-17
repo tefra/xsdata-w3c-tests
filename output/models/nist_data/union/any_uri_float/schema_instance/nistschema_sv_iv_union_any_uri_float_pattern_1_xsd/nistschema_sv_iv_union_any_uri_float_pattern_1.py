@@ -12,6 +12,7 @@ class NistschemaSvIvUnionAnyUriFloatPattern1:
     value: str = field(
         default="",
         metadata={
+            "required": True,
             "pattern": r"\d{1}\.\d{3}E\d{2}",
         },
     )

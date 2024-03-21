@@ -170,18 +170,16 @@ obj = Datafile(
             ),
         ]
     ),
-    stringsection=Datafile.Stringsection(
-        string=[
-            'aqopkde#^90d',
-            'qpweipqweiaqopkde#^90d',
-            'aqopkde#^90asdaskdl;asd',
-            'aqopkdejgdlepsdf#^90d',
-            'aqopkde#^90kl;345l3;lkldf345d',
-            'alg;ldfqopkde34059-fld;#^90d',
-            'aqodfflkgd;flpkd%$e(*34534)$#%#^90d',
-            'aqopfskdjflknmvkde#^90d',
-            'sdfsdfsdaqopkde#^90d430985dflskjsdf',
-            'aqopdsflsd;lf0495-304kde#^90d',
-        ]
-    )
+    string=[
+        'aqopkde#^90d',
+        'qpweipqweiaqopkde#^90d',
+        'aqopkde#^90asdaskdl;asd',
+        'aqopkdejgdlepsdf#^90d',
+        'aqopkde#^90kl;345l3;lkldf345d',
+        'alg;ldfqopkde34059-fld;#^90d',
+        'aqodfflkgd;flpkd%$e(*34534)$#%#^90d',
+        'aqopfskdjflknmvkde#^90d',
+        'sdfsdfsdaqopkde#^90d430985dflskjsdf',
+        'aqopdsflsd;lf0495-304kde#^90d',
+    ]
 )

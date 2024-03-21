@@ -22,17 +22,19 @@ class Foo:
     class Meta:
         name = "foo"
 
-    e1: Optional[str] = field(
+    e1_element: Optional[str] = field(
         default=None,
         metadata={
+            "name": "e1",
             "type": "Element",
             "namespace": "",
             "required": True,
         },
     )
-    e2: Optional[Bar] = field(
+    e1: Optional[str] = field(
         default=None,
         metadata={
+            "wrapper": "e2",
             "type": "Element",
             "namespace": "",
             "required": True,

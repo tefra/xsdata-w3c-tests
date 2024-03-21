@@ -17,6 +17,21 @@ class Signatures:
 
 
 @dataclass
+class Yyy:
+    class Meta:
+        name = "yyy"
+
+    signatures: Optional[Signatures] = field(
+        default=None,
+        metadata={
+            "wrapper": "zzz",
+            "type": "Element",
+            "required": True,
+        },
+    )
+
+
+@dataclass
 class Zzz:
     class Meta:
         name = "zzz"
@@ -31,13 +46,14 @@ class Zzz:
 
 
 @dataclass
-class Yyy:
+class Www:
     class Meta:
-        name = "yyy"
+        name = "www"
 
-    zzz: Optional[Zzz] = field(
+    yyy: Optional[Yyy] = field(
         default=None,
         metadata={
+            "wrapper": "xxx",
             "type": "Element",
             "required": True,
         },
@@ -49,37 +65,10 @@ class Xxx:
     class Meta:
         name = "xxx"
 
-    yyy: Optional[Yyy] = field(
+    zzz: Optional[Zzz] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "required": True,
-        },
-    )
-
-
-@dataclass
-class Www:
-    class Meta:
-        name = "www"
-
-    xxx: Optional[Xxx] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "required": True,
-        },
-    )
-
-
-@dataclass
-class Uuu:
-    class Meta:
-        name = "uuu"
-
-    www: Optional[Www] = field(
-        default=None,
-        metadata={
+            "wrapper": "yyy",
             "type": "Element",
             "required": True,
         },
@@ -91,9 +80,10 @@ class Ttt:
     class Meta:
         name = "ttt"
 
-    uuu: Optional[Uuu] = field(
+    www: Optional[Www] = field(
         default=None,
         metadata={
+            "wrapper": "uuu",
             "type": "Element",
             "required": True,
         },
@@ -101,13 +91,14 @@ class Ttt:
 
 
 @dataclass
-class Sss:
+class Uuu:
     class Meta:
-        name = "sss"
+        name = "uuu"
 
-    ttt: Optional[Ttt] = field(
+    xxx: Optional[Xxx] = field(
         default=None,
         metadata={
+            "wrapper": "www",
             "type": "Element",
             "required": True,
         },
@@ -119,9 +110,10 @@ class Rrr:
     class Meta:
         name = "rrr"
 
-    sss: Optional[Sss] = field(
+    ttt: Optional[Ttt] = field(
         default=None,
         metadata={
+            "wrapper": "sss",
             "type": "Element",
             "required": True,
         },
@@ -129,13 +121,14 @@ class Rrr:
 
 
 @dataclass
-class Qqq:
+class Sss:
     class Meta:
-        name = "qqq"
+        name = "sss"
 
-    rrr: Optional[Rrr] = field(
+    uuu: Optional[Uuu] = field(
         default=None,
         metadata={
+            "wrapper": "ttt",
             "type": "Element",
             "required": True,
         },
@@ -147,9 +140,10 @@ class Ppp:
     class Meta:
         name = "ppp"
 
-    qqq: Optional[Qqq] = field(
+    rrr: Optional[Rrr] = field(
         default=None,
         metadata={
+            "wrapper": "qqq",
             "type": "Element",
             "required": True,
         },
@@ -157,13 +151,14 @@ class Ppp:
 
 
 @dataclass
-class Ooo:
+class Qqq:
     class Meta:
-        name = "ooo"
+        name = "qqq"
 
-    ppp: Optional[Ppp] = field(
+    sss: Optional[Sss] = field(
         default=None,
         metadata={
+            "wrapper": "rrr",
             "type": "Element",
             "required": True,
         },
@@ -175,9 +170,10 @@ class Nnn:
     class Meta:
         name = "nnn"
 
-    ooo: Optional[Ooo] = field(
+    ppp: Optional[Ppp] = field(
         default=None,
         metadata={
+            "wrapper": "ooo",
             "type": "Element",
             "required": True,
         },
@@ -185,13 +181,14 @@ class Nnn:
 
 
 @dataclass
-class Mmm:
+class Ooo:
     class Meta:
-        name = "mmm"
+        name = "ooo"
 
-    nnn: Optional[Nnn] = field(
+    qqq: Optional[Qqq] = field(
         default=None,
         metadata={
+            "wrapper": "ppp",
             "type": "Element",
             "required": True,
         },
@@ -203,9 +200,10 @@ class Lll:
     class Meta:
         name = "lll"
 
-    mmm: Optional[Mmm] = field(
+    nnn: Optional[Nnn] = field(
         default=None,
         metadata={
+            "wrapper": "mmm",
             "type": "Element",
             "required": True,
         },
@@ -213,13 +211,14 @@ class Lll:
 
 
 @dataclass
-class Kkk:
+class Mmm:
     class Meta:
-        name = "kkk"
+        name = "mmm"
 
-    lll: Optional[Lll] = field(
+    ooo: Optional[Ooo] = field(
         default=None,
         metadata={
+            "wrapper": "nnn",
             "type": "Element",
             "required": True,
         },
@@ -231,9 +230,10 @@ class Jjj:
     class Meta:
         name = "jjj"
 
-    kkk: Optional[Kkk] = field(
+    lll: Optional[Lll] = field(
         default=None,
         metadata={
+            "wrapper": "kkk",
             "type": "Element",
             "required": True,
         },
@@ -241,13 +241,14 @@ class Jjj:
 
 
 @dataclass
-class Iii:
+class Kkk:
     class Meta:
-        name = "iii"
+        name = "kkk"
 
-    jjj: Optional[Jjj] = field(
+    mmm: Optional[Mmm] = field(
         default=None,
         metadata={
+            "wrapper": "lll",
             "type": "Element",
             "required": True,
         },
@@ -259,9 +260,10 @@ class Hhh:
     class Meta:
         name = "hhh"
 
-    iii: Optional[Iii] = field(
+    jjj: Optional[Jjj] = field(
         default=None,
         metadata={
+            "wrapper": "iii",
             "type": "Element",
             "required": True,
         },
@@ -269,13 +271,14 @@ class Hhh:
 
 
 @dataclass
-class Ggg:
+class Iii:
     class Meta:
-        name = "ggg"
+        name = "iii"
 
-    hhh: Optional[Hhh] = field(
+    kkk: Optional[Kkk] = field(
         default=None,
         metadata={
+            "wrapper": "jjj",
             "type": "Element",
             "required": True,
         },
@@ -287,9 +290,10 @@ class Fff:
     class Meta:
         name = "fff"
 
-    ggg: Optional[Ggg] = field(
+    hhh: Optional[Hhh] = field(
         default=None,
         metadata={
+            "wrapper": "ggg",
             "type": "Element",
             "required": True,
         },
@@ -297,13 +301,14 @@ class Fff:
 
 
 @dataclass
-class Eee:
+class Ggg:
     class Meta:
-        name = "eee"
+        name = "ggg"
 
-    fff: Optional[Fff] = field(
+    iii: Optional[Iii] = field(
         default=None,
         metadata={
+            "wrapper": "hhh",
             "type": "Element",
             "required": True,
         },
@@ -315,9 +320,10 @@ class Ddd:
     class Meta:
         name = "ddd"
 
-    eee: Optional[Eee] = field(
+    fff: Optional[Fff] = field(
         default=None,
         metadata={
+            "wrapper": "eee",
             "type": "Element",
             "required": True,
         },
@@ -325,13 +331,14 @@ class Ddd:
 
 
 @dataclass
-class Ccc:
+class Eee:
     class Meta:
-        name = "ccc"
+        name = "eee"
 
-    ddd: Optional[Ddd] = field(
+    ggg: Optional[Ggg] = field(
         default=None,
         metadata={
+            "wrapper": "fff",
             "type": "Element",
             "required": True,
         },
@@ -343,9 +350,25 @@ class Bbb:
     class Meta:
         name = "bbb"
 
-    ccc: Optional[Ccc] = field(
+    ddd: Optional[Ddd] = field(
         default=None,
         metadata={
+            "wrapper": "ccc",
+            "type": "Element",
+            "required": True,
+        },
+    )
+
+
+@dataclass
+class Ccc:
+    class Meta:
+        name = "ccc"
+
+    eee: Optional[Eee] = field(
+        default=None,
+        metadata={
+            "wrapper": "ddd",
             "type": "Element",
             "required": True,
         },
@@ -357,9 +380,10 @@ class Aaa:
     class Meta:
         name = "aaa"
 
-    bbb: Optional[Bbb] = field(
+    ccc: Optional[Ccc] = field(
         default=None,
         metadata={
+            "wrapper": "bbb",
             "type": "Element",
             "required": True,
         },
@@ -371,9 +395,10 @@ class Root:
     class Meta:
         name = "root"
 
-    aaa: Optional[Aaa] = field(
+    bbb: Optional[Bbb] = field(
         default=None,
         metadata={
+            "wrapper": "aaa",
             "type": "Element",
             "required": True,
         },

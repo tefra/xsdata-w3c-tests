@@ -85,12 +85,15 @@ class Datafile:
             "required": True,
         },
     )
-    stringsection: Optional["Datafile.Stringsection"] = field(
-        default=None,
+    string: List[str] = field(
+        default_factory=list,
         metadata={
+            "wrapper": "stringsection",
             "type": "Element",
             "namespace": "",
-            "required": True,
+            "min_occurs": 1,
+            "min_length": 1,
+            "max_length": 4000,
         },
     )
 
@@ -285,16 +288,3 @@ class Datafile:
                     "max_inclusive": 3.4e38,
                 },
             )
-
-    @dataclass
-    class Stringsection:
-        string: List[str] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-                "min_occurs": 1,
-                "min_length": 1,
-                "max_length": 4000,
-            },
-        )

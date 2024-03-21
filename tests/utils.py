@@ -139,6 +139,7 @@ def generate_models(
             "-o",
             output_format,
             "--compound-fields",
+            "--wrapper-fields",
         ],
     )
 

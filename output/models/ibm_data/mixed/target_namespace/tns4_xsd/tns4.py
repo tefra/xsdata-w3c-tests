@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List
 
-from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import Y
+from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import A
 
 __NAMESPACE__ = "http://test1"
 
@@ -12,11 +12,12 @@ class X:
         name = "x"
         namespace = "http://test1"
 
-    y: Optional[Y] = field(
-        default=None,
+    a: List[A] = field(
+        default_factory=list,
         metadata={
+            "wrapper": "y",
             "type": "Element",
             "namespace": "http://test2",
-            "required": True,
+            "min_occurs": 1,
         },
     )

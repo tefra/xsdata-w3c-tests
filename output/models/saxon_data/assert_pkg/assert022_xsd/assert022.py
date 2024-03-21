@@ -23,9 +23,10 @@ class DatedEvent:
     class Meta:
         name = "datedEvent"
 
-    event: Optional[D] = field(
+    d: Optional[XmlDate] = field(
         default=None,
         metadata={
+            "wrapper": "event",
             "type": "Element",
             "required": True,
         },

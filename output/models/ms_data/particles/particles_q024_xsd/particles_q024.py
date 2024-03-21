@@ -42,10 +42,12 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
-        default=None,
+    foo: List[object] = field(
+        default_factory=list,
         metadata={
+            "wrapper": "elem",
             "type": "Element",
-            "required": True,
+            "min_occurs": 1,
+            "max_occurs": 3,
         },
     )

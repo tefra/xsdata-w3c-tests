@@ -3,7 +3,9 @@ from decimal import Decimal
 from typing import List, Optional, Type, Union
 
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import (
-    Poitems,
+    Item,
+    LongItemDefn,
+    ShortItemDefn,
 )
 
 
@@ -189,12 +191,13 @@ class Order1(PoBusinessRules):
             "pattern": r".*@.*\..*",
         },
     )
-    items: Optional[Poitems] = field(
-        default=None,
+    item: List[Union[Item, ShortItemDefn, LongItemDefn]] = field(
+        default_factory=list,
         metadata={
+            "wrapper": "items",
             "type": "Element",
             "namespace": "",
-            "required": True,
+            "min_occurs": 1,
         },
     )
     tax: Optional[Decimal] = field(

@@ -4,7 +4,7 @@ from output.models.sun_data.elem_decl.name.name008.name00805.name00805_xsd.name0
 
 
 obj = Root(
-    value=TypeType(
+    low_line_hyphen_minus_full_stop=TypeType(
         value=0
     ),
     value_0=Type0(

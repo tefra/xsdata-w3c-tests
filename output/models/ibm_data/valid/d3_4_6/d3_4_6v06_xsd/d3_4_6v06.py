@@ -9,13 +9,13 @@ class Nametest:
     choice: List[
         Union[
             "Nametest.Ele",
-            "Nametest.TypeType",
-            "Nametest.Type1",
+            "Nametest.LowLineHyphenMinus",
+            "Nametest.LowLineFullStop",
             "Nametest.Type9",
-            "Nametest.Type2",
+            "Nametest.LowLineLowLineLowLine",
             "Nametest.AA",
-            "Nametest.AA1",
-            "Nametest.Ele1",
+            "Nametest.AAA",
+            "Nametest.AEle",
         ]
     ] = field(
         default_factory=list,
@@ -29,12 +29,12 @@ class Nametest:
                 },
                 {
                     "name": "_-",
-                    "type": Type["Nametest.TypeType"],
+                    "type": Type["Nametest.LowLineHyphenMinus"],
                     "namespace": "a",
                 },
                 {
                     "name": "_.",
-                    "type": Type["Nametest.Type1"],
+                    "type": Type["Nametest.LowLineFullStop"],
                     "namespace": "a",
                 },
                 {
@@ -44,7 +44,7 @@ class Nametest:
                 },
                 {
                     "name": "___",
-                    "type": Type["Nametest.Type2"],
+                    "type": Type["Nametest.LowLineLowLineLowLine"],
                     "namespace": "a",
                 },
                 {
@@ -54,12 +54,12 @@ class Nametest:
                 },
                 {
                     "name": "a.a",
-                    "type": Type["Nametest.AA1"],
+                    "type": Type["Nametest.AAA"],
                     "namespace": "a",
                 },
                 {
                     "name": "ele",
-                    "type": Type["Nametest.Ele1"],
+                    "type": Type["Nametest.AEle"],
                     "namespace": "a",
                 },
             ),
@@ -76,7 +76,7 @@ class Nametest:
         )
 
     @dataclass
-    class TypeType:
+    class LowLineHyphenMinus:
         value: Optional[str] = field(
             default=None,
             metadata={
@@ -85,7 +85,7 @@ class Nametest:
         )
 
     @dataclass
-    class Type1:
+    class LowLineFullStop:
         value: Optional[str] = field(
             default=None,
             metadata={
@@ -103,7 +103,7 @@ class Nametest:
         )
 
     @dataclass
-    class Type2:
+    class LowLineLowLineLowLine:
         value: Optional[str] = field(
             default=None,
             metadata={
@@ -121,7 +121,7 @@ class Nametest:
         )
 
     @dataclass
-    class AA1:
+    class AAA:
         value: Optional[str] = field(
             default=None,
             metadata={
@@ -130,7 +130,7 @@ class Nametest:
         )
 
     @dataclass
-    class Ele1:
+    class AEle:
         value: Optional[str] = field(
             default=None,
             metadata={

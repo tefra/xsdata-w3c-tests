@@ -38,7 +38,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    value: Optional[TypeType] = field(
+    low_line_hyphen_minus_full_stop: Optional[TypeType] = field(
         default=None,
         metadata={
             "name": "_-.",

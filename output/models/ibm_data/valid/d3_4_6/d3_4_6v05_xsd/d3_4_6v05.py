@@ -15,7 +15,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    value: List[str] = field(
+    low_line_hyphen_minus: List[str] = field(
         default_factory=list,
         metadata={
             "name": "_-",
@@ -24,7 +24,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    value_1: List[str] = field(
+    low_line_full_stop: List[str] = field(
         default_factory=list,
         metadata={
             "name": "_.",
@@ -42,7 +42,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    value_2: List[str] = field(
+    low_line_low_line_low_line: List[str] = field(
         default_factory=list,
         metadata={
             "name": "___",

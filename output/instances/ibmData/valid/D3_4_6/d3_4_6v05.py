@@ -5,16 +5,16 @@ obj = Root(
     ele=[
         '_ele',
     ],
-    value=[
+    low_line_hyphen_minus=[
         '_-',
     ],
-    value_1=[
+    low_line_full_stop=[
         '_.',
     ],
     value_9=[
         '_9',
     ],
-    value_2=[
+    low_line_low_line_low_line=[
         '___',
     ],
     a_a=[

@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "AttrDecl/name"
 
-    value: Optional[int] = field(
+    low_line_hyphen_minus_full_stop: Optional[int] = field(
         default=None,
         metadata={
             "name": "_-.",

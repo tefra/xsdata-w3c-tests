@@ -6,25 +6,25 @@ from output.models.ms_data.datatypes.facets.any_uri.any_uri_b004_xsd.any_uri_b00
 obj = Root(
     bar=[
         Bar(
-            value=St.VALUE_18
+            value=St.PLUS_SIGN
         ),
         Bar(
-            value=St.VALUE_19
+            value=St.FULL_STOP_FULL_STOP
         ),
         Bar(
-            value=St.VALUE_17
+            value=St.HYPHEN_MINUS
         ),
         Bar(
-            value=St.VALUE_13
+            value=St.ASTERISK
         ),
         Bar(
-            value=St.VALUE_14
+            value=St.LEFT_PARENTHESIS
         ),
         Bar(
-            value=St.VALUE_16
+            value=St.LOW_LINE
         ),
         Bar(
-            value=St.VALUE_20
+            value=St.FULL_STOP
         ),
     ]
 )

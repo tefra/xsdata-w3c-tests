@@ -7,7 +7,7 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     VALUE_0 = "_-0."
-    VALUE = "_-."
+    LOW_LINE_HYPHEN_MINUS_FULL_STOP = "_-."
 
 
 @dataclass

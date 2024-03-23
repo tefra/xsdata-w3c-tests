@@ -41,11 +41,13 @@ class R:
                     "name": "e1",
                     "type": Type["R.E1"],
                     "namespace": "",
+                    "max_occurs": 4,
                 },
                 {
                     "name": "e2",
                     "type": Type["R.E2"],
                     "namespace": "",
+                    "max_occurs": 4,
                 },
             ),
             "min_occurs": 3,

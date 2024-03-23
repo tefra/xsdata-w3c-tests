@@ -13,11 +13,13 @@ class A:
                     "name": "x1",
                     "type": Type["A.X1"],
                     "namespace": "",
+                    "max_occurs": 3,
                 },
                 {
                     "name": "x2",
                     "type": Type["A.X2"],
                     "namespace": "",
+                    "max_occurs": 3,
                 },
                 {
                     "name": "y1",

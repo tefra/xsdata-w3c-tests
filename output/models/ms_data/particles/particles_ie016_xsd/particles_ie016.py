@@ -18,11 +18,13 @@ class Base:
                     "name": "e1",
                     "type": Type["Base.E1"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "e2",
                     "type": Type["Base.E2"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 2,
                 },
             ),
             "max_occurs": 2,

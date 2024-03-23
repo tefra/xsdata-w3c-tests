@@ -65,11 +65,13 @@ class Testing(Base):
                     "name": "e1",
                     "type": Type["Testing.E1"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 9999999,
                 },
                 {
                     "name": "e2",
                     "type": Type["Testing.E2"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 9999999,
                 },
             ),
             "max_occurs": 9999999,

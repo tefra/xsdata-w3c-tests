@@ -18,6 +18,7 @@ class Foo:
                     "name": "f1",
                     "type": Type["Foo.F1"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 5,
                 },
                 {
                     "name": "f2",

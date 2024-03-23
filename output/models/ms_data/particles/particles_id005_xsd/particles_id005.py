@@ -18,6 +18,7 @@ class Base:
                     "name": "e1",
                     "type": Type["Base.E1"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 3,
                 },
                 {
                     "name": "e2",

@@ -15,11 +15,13 @@ class B:
                     "name": "e1",
                     "type": Type["B.E1"],
                     "namespace": "",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "e2",
                     "type": Type["B.E2"],
                     "namespace": "",
+                    "max_occurs": 2,
                 },
             ),
             "max_occurs": 2,

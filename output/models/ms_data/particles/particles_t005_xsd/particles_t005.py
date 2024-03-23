@@ -15,6 +15,7 @@ class B:
                     "name": "c1",
                     "type": Type["B.C1"],
                     "namespace": "",
+                    "max_occurs": 4,
                 },
                 {
                     "name": "c2",

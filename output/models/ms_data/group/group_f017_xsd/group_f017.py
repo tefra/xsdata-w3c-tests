@@ -27,11 +27,13 @@ class Elem(B):
                     "name": "A1",
                     "type": Type["Elem.A1"],
                     "namespace": "",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "A2",
                     "type": Type["Elem.A2"],
                     "namespace": "",
+                    "max_occurs": 2,
                 },
             ),
             "max_occurs": 2,

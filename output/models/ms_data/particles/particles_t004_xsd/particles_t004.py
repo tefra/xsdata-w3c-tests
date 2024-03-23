@@ -20,6 +20,7 @@ class B:
                     "name": "c2",
                     "type": Type["B.C2"],
                     "namespace": "",
+                    "max_occurs": 5,
                 },
                 {
                     "name": "c3",

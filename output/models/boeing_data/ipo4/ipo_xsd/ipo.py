@@ -137,11 +137,13 @@ class ItemsType:
                         "name": "customerComment",
                         "type": CustomerComment,
                         "namespace": "http://www.example.com/IPO",
+                        "max_occurs": 2,
                     },
                     {
                         "name": "shipComment",
                         "type": ShipComment,
                         "namespace": "http://www.example.com/IPO",
+                        "max_occurs": 2,
                     },
                 ),
                 "max_occurs": 2,

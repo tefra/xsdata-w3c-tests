@@ -37,6 +37,7 @@ class Foo:
                         "wildcard": True,
                         "type": object,
                         "namespace": "http://n1 http://n2 http://n3 http://n4",
+                        "max_occurs": 4,
                     },
                 ),
             },

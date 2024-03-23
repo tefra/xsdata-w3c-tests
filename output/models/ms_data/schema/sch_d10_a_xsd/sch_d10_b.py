@@ -18,11 +18,13 @@ class BCt:
                     "name": "c21",
                     "type": Type["BCt.C21"],
                     "namespace": "",
+                    "max_occurs": 3,
                 },
                 {
                     "name": "c22",
                     "type": Type["BCt.C22"],
                     "namespace": "",
+                    "max_occurs": 3,
                 },
             ),
             "max_occurs": 3,

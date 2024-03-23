@@ -180,18 +180,22 @@ class Root:
                 {
                     "name": "sa3",
                     "type": Sa3,
+                    "max_occurs": 5,
                 },
                 {
                     "name": "sa2",
                     "type": Sa2,
+                    "max_occurs": 5,
                 },
                 {
                     "name": "sa1",
                     "type": Sa1,
+                    "max_occurs": 5,
                 },
                 {
                     "name": "test1",
                     "type": Test1,
+                    "max_occurs": 5,
                 },
             ),
             "max_occurs": 5,

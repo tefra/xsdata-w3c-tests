@@ -16,11 +16,13 @@ class Elem:
                     "name": "e1",
                     "type": Type["Elem.E1"],
                     "namespace": "",
+                    "max_occurs": 3,
                 },
                 {
                     "name": "e2",
                     "type": Type["Elem.E2"],
                     "namespace": "",
+                    "max_occurs": 3,
                 },
             ),
             "min_occurs": 2,

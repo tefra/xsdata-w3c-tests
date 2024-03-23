@@ -55,6 +55,7 @@ class Ct3:
                 {
                     "name": "element1",
                     "type": Type["Ct3.Element1"],
+                    "max_occurs": 2,
                 },
                 {
                     "wildcard": True,
@@ -96,6 +97,7 @@ class Ct4:
                     "wildcard": True,
                     "type": object,
                     "namespace": "##any",
+                    "max_occurs": 2,
                 },
             ),
             "max_occurs": 3,

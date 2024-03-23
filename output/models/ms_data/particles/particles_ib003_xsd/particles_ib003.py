@@ -30,6 +30,7 @@ class Base:
                     "name": "foo",
                     "type": Type["Base.Foo"],
                     "namespace": "",
+                    "max_occurs": 6,
                 },
                 {
                     "name": "bar",
@@ -91,6 +92,7 @@ class Doc(Base):
                 {
                     "name": "foo",
                     "type": Foo,
+                    "max_occurs": 3,
                 },
                 {
                     "name": "bar",

@@ -15,6 +15,7 @@ class B:
                     "name": "c1",
                     "type": Type["B.C1"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "c2",

@@ -60,6 +60,7 @@ class RootType:
                     "name": "elem2",
                     "type": Elem2,
                     "namespace": "http://xstest-tns/ibms3_3_6_v02",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "elem0",

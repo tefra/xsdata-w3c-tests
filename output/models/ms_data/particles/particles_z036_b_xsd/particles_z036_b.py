@@ -21,6 +21,7 @@ class FooType:
                     "name": "b",
                     "type": Type["FooType.B"],
                     "namespace": "",
+                    "max_occurs": 100000,
                 },
             ),
         },

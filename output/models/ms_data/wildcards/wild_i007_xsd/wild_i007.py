@@ -34,6 +34,7 @@ class Foo:
                     "wildcard": True,
                     "type": object,
                     "namespace": "##other ##targetNamespace",
+                    "max_occurs": 20,
                 },
             ),
             "max_occurs": 10,

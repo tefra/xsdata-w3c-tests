@@ -16,6 +16,7 @@ class Doc:
                     "name": "ID",
                     "type": Type["Doc.Id"],
                     "namespace": "",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "elem",

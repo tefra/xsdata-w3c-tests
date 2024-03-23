@@ -63,6 +63,7 @@ class R:
                     "name": "e2",
                     "type": ImpE2,
                     "namespace": "foo",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "e2",

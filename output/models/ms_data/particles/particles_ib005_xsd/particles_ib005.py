@@ -33,6 +33,7 @@ class Base:
                     "name": "foo",
                     "type": Foo,
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 4,
                 },
                 {
                     "name": "bar",

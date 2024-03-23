@@ -127,21 +127,25 @@ class T:
                     "name": "s1",
                     "type": S1,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "s",
                     "type": S,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "n1",
                     "type": N1,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "n",
                     "type": N,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "a",

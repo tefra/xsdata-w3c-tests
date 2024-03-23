@@ -18,10 +18,12 @@ class Doc:
                 {
                     "name": "a",
                     "type": Type["Doc.A"],
+                    "max_occurs": 4,
                 },
                 {
                     "name": "b",
                     "type": Type["Doc.B"],
+                    "max_occurs": 4,
                 },
             ),
             "max_occurs": 4,

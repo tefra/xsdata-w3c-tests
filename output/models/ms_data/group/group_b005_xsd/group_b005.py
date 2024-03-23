@@ -16,11 +16,13 @@ class ComplexType:
                     "name": "r1",
                     "type": Type["ComplexType.R1"],
                     "namespace": "",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "r2",
                     "type": Type["ComplexType.R2"],
                     "namespace": "",
+                    "max_occurs": 100,
                 },
             ),
             "max_occurs": 100,

@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id: List[Union["Node", str]] = field(
+    node_or_id: List[Union["Node", List[str]]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

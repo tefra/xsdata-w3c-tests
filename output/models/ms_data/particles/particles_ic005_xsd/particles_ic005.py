@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List
 
 from output.models.ms_data.particles.particles_ic005_xsd.particles_ic005_imp import (
     Base,
@@ -13,18 +13,20 @@ class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1: Optional[object] = field(
-        default=None,
+    e1: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
+            "max_occurs": 5,
         },
     )
-    e2: Optional[object] = field(
-        default=None,
+    e2: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
+            "max_occurs": 5,
         },
     )
 

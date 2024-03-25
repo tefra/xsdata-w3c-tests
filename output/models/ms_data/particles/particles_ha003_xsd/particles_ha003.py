@@ -83,9 +83,10 @@ class Doc(Base):
             "type": "Ignore",
         },
     )
-    e1: Optional[object] = field(
-        default=None,
+    e1: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
+            "max_occurs": 2,
         },
     )

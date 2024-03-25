@@ -40,25 +40,28 @@ class B:
 
 @dataclass
 class R(B):
-    e1: Optional[object] = field(
-        default=None,
+    e1: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
+            "max_occurs": 9,
         },
     )
-    e2: Optional[object] = field(
-        default=None,
+    e2: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
+            "max_occurs": 9,
         },
     )
-    e3: Optional[object] = field(
-        default=None,
+    e3: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
+            "max_occurs": 9,
         },
     )
 

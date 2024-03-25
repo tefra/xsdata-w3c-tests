@@ -59,8 +59,8 @@ class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1_or_e2: Optional[Union["Testing.E1", "Testing.E2"]] = field(
-        default=None,
+    e1_or_e2: List[Union["Testing.E1", "Testing.E2"]] = field(
+        default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
@@ -68,13 +68,16 @@ class Testing(Base):
                     "name": "e1",
                     "type": Type["Testing.E1"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 2,
                 },
                 {
                     "name": "e2",
                     "type": Type["Testing.E2"],
                     "namespace": "http://xsdtesting",
+                    "max_occurs": 2,
                 },
             ),
+            "max_occurs": 2,
         },
     )
 

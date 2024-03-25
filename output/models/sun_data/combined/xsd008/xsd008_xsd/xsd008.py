@@ -60,14 +60,6 @@ class Int(LongType):
         name = "int"
         namespace = "foo"
 
-    value: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        },
-    )
-
 
 @dataclass
 class Long(LongType):

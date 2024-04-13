@@ -32,9 +32,9 @@ class Chap:
                 "type": "Attribute",
             },
         )
-        ref: str = field(
+        ref: float = field(
             init=False,
-            default="+INF",
+            default=float("inf"),
             metadata={
                 "type": "Attribute",
             },

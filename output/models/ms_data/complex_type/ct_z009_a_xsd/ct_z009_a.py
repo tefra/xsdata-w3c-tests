@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -14,12 +14,12 @@ class Root:
             "choices": (
                 {
                     "name": "foo",
-                    "type": Type["Root.Foo"],
+                    "type": ForwardRef("Root.Foo"),
                     "namespace": "",
                 },
                 {
                     "name": "sg",
-                    "type": Type["Root.Sg"],
+                    "type": ForwardRef("Root.Sg"),
                     "namespace": "",
                 },
             ),

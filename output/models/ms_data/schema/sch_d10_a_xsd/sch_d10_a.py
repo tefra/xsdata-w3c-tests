@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "ns-a"
 
@@ -16,13 +16,13 @@ class ACt:
             "choices": (
                 {
                     "name": "c21",
-                    "type": Type["ACt.C21"],
+                    "type": ForwardRef("ACt.C21"),
                     "namespace": "",
                     "max_occurs": 3,
                 },
                 {
                     "name": "c22",
-                    "type": Type["ACt.C22"],
+                    "type": ForwardRef("ACt.C22"),
                     "namespace": "",
                     "max_occurs": 3,
                 },

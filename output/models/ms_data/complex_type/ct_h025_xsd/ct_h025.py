@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional, Type, Union
+from typing import Dict, ForwardRef, Optional, Union
 
 
 @dataclass
@@ -16,17 +16,17 @@ class MyType:
             "choices": (
                 {
                     "name": "myElement1",
-                    "type": Type["MyType.MyElement1"],
+                    "type": ForwardRef("MyType.MyElement1"),
                     "namespace": "",
                 },
                 {
                     "name": "myElement2",
-                    "type": Type["MyType.MyElement2"],
+                    "type": ForwardRef("MyType.MyElement2"),
                     "namespace": "",
                 },
                 {
                     "name": "myElement3",
-                    "type": Type["MyType.MyElement3"],
+                    "type": ForwardRef("MyType.MyElement3"),
                     "namespace": "",
                 },
             ),

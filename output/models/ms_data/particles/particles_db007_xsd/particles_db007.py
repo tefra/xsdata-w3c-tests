@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Type, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,12 +13,12 @@ class A:
             "choices": (
                 {
                     "name": "a1",
-                    "type": Type["A.A1"],
+                    "type": ForwardRef("A.A1"),
                     "namespace": "http://xsdtesting",
                 },
                 {
                     "name": "a2",
-                    "type": Type["A.A2"],
+                    "type": ForwardRef("A.A2"),
                     "namespace": "http://xsdtesting",
                 },
             ),

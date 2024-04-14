@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Type, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -42,12 +42,12 @@ class Foo:
             "choices": (
                 {
                     "name": "five",
-                    "type": Type["Foo.Five"],
+                    "type": ForwardRef("Foo.Five"),
                     "namespace": "",
                 },
                 {
                     "name": "five2",
-                    "type": Type["Foo.Five2"],
+                    "type": ForwardRef("Foo.Five2"),
                     "namespace": "",
                 },
             ),
@@ -60,12 +60,12 @@ class Foo:
             "choices": (
                 {
                     "name": "six",
-                    "type": Type["Foo.Six"],
+                    "type": ForwardRef("Foo.Six"),
                     "namespace": "",
                 },
                 {
                     "name": "six2",
-                    "type": Type["Foo.Six2"],
+                    "type": ForwardRef("Foo.Six2"),
                     "namespace": "",
                 },
             ),
@@ -78,12 +78,12 @@ class Foo:
             "choices": (
                 {
                     "name": "seven",
-                    "type": Type["Foo.Seven"],
+                    "type": ForwardRef("Foo.Seven"),
                     "namespace": "",
                 },
                 {
                     "name": "seven2",
-                    "type": Type["Foo.Seven2"],
+                    "type": ForwardRef("Foo.Seven2"),
                     "namespace": "",
                 },
             ),
@@ -96,12 +96,12 @@ class Foo:
             "choices": (
                 {
                     "name": "eight",
-                    "type": Type["Foo.Eight"],
+                    "type": ForwardRef("Foo.Eight"),
                     "namespace": "",
                 },
                 {
                     "name": "eight2",
-                    "type": Type["Foo.Eight2"],
+                    "type": ForwardRef("Foo.Eight2"),
                     "namespace": "",
                 },
             ),

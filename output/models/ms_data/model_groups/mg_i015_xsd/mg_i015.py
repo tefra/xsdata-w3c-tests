@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Type, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -29,62 +29,62 @@ class Foo:
             "choices": (
                 {
                     "name": "one",
-                    "type": Type["Foo.One"],
+                    "type": ForwardRef("Foo.One"),
                     "namespace": "",
                 },
                 {
                     "name": "two",
-                    "type": Type["Foo.Two"],
+                    "type": ForwardRef("Foo.Two"),
                     "namespace": "",
                 },
                 {
                     "name": "three",
-                    "type": Type["Foo.Three"],
+                    "type": ForwardRef("Foo.Three"),
                     "namespace": "",
                 },
                 {
                     "name": "four",
-                    "type": Type["Foo.Four"],
+                    "type": ForwardRef("Foo.Four"),
                     "namespace": "",
                 },
                 {
                     "name": "five",
-                    "type": Type["Foo.Five"],
+                    "type": ForwardRef("Foo.Five"),
                     "namespace": "",
                 },
                 {
                     "name": "five2",
-                    "type": Type["Foo.Five2"],
+                    "type": ForwardRef("Foo.Five2"),
                     "namespace": "",
                 },
                 {
                     "name": "six",
-                    "type": Type["Foo.Six"],
+                    "type": ForwardRef("Foo.Six"),
                     "namespace": "",
                 },
                 {
                     "name": "six2",
-                    "type": Type["Foo.Six2"],
+                    "type": ForwardRef("Foo.Six2"),
                     "namespace": "",
                 },
                 {
                     "name": "seven",
-                    "type": Type["Foo.Seven"],
+                    "type": ForwardRef("Foo.Seven"),
                     "namespace": "",
                 },
                 {
                     "name": "seven2",
-                    "type": Type["Foo.Seven2"],
+                    "type": ForwardRef("Foo.Seven2"),
                     "namespace": "",
                 },
                 {
                     "name": "eight",
-                    "type": Type["Foo.Eight"],
+                    "type": ForwardRef("Foo.Eight"),
                     "namespace": "",
                 },
                 {
                     "name": "eight2",
-                    "type": Type["Foo.Eight2"],
+                    "type": ForwardRef("Foo.Eight2"),
                     "namespace": "",
                 },
             ),

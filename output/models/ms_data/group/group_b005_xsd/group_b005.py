@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -14,13 +14,13 @@ class ComplexType:
             "choices": (
                 {
                     "name": "r1",
-                    "type": Type["ComplexType.R1"],
+                    "type": ForwardRef("ComplexType.R1"),
                     "namespace": "",
                     "max_occurs": 2,
                 },
                 {
                     "name": "r2",
-                    "type": Type["ComplexType.R2"],
+                    "type": ForwardRef("ComplexType.R2"),
                     "namespace": "",
                     "max_occurs": 100,
                 },

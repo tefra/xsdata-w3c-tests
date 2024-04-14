@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type
+from typing import ForwardRef, List, Optional
 
 __NAMESPACE__ = "urn:test"
 
@@ -18,27 +18,27 @@ class Root:
             "choices": (
                 {
                     "name": "A",
-                    "type": Type["Root.A"],
+                    "type": ForwardRef("Root.A"),
                 },
                 {
                     "name": "B1",
-                    "type": Type["Root.B1"],
+                    "type": ForwardRef("Root.B1"),
                 },
                 {
                     "name": "B2",
-                    "type": Type["Root.B2"],
+                    "type": ForwardRef("Root.B2"),
                 },
                 {
                     "name": "B3",
-                    "type": Type["Root.B3"],
+                    "type": ForwardRef("Root.B3"),
                 },
                 {
                     "name": "B4",
-                    "type": Type["Root.B4"],
+                    "type": ForwardRef("Root.B4"),
                 },
                 {
                     "name": "B5",
-                    "type": Type["Root.B5"],
+                    "type": ForwardRef("Root.B5"),
                 },
             ),
         },

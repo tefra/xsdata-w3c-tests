@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -35,67 +35,67 @@ class Root:
             "choices": (
                 {
                     "name": "testByte",
-                    "type": Type["Root.TestByte"],
+                    "type": ForwardRef("Root.TestByte"),
                     "namespace": "",
                 },
                 {
                     "name": "testUnsignedByte",
-                    "type": Type["Root.TestUnsignedByte"],
+                    "type": ForwardRef("Root.TestUnsignedByte"),
                     "namespace": "",
                 },
                 {
                     "name": "testInteger",
-                    "type": Type["Root.TestInteger"],
+                    "type": ForwardRef("Root.TestInteger"),
                     "namespace": "",
                 },
                 {
                     "name": "testPositiveInteger",
-                    "type": Type["Root.TestPositiveInteger"],
+                    "type": ForwardRef("Root.TestPositiveInteger"),
                     "namespace": "",
                 },
                 {
                     "name": "testNegativeInteger",
-                    "type": Type["Root.TestNegativeInteger"],
+                    "type": ForwardRef("Root.TestNegativeInteger"),
                     "namespace": "",
                 },
                 {
                     "name": "testNonNegativeInteger",
-                    "type": Type["Root.TestNonNegativeInteger"],
+                    "type": ForwardRef("Root.TestNonNegativeInteger"),
                     "namespace": "",
                 },
                 {
                     "name": "testNonPositiveInteger",
-                    "type": Type["Root.TestNonPositiveInteger"],
+                    "type": ForwardRef("Root.TestNonPositiveInteger"),
                     "namespace": "",
                 },
                 {
                     "name": "testInt",
-                    "type": Type["Root.TestInt"],
+                    "type": ForwardRef("Root.TestInt"),
                     "namespace": "",
                 },
                 {
                     "name": "testUnsignedInt",
-                    "type": Type["Root.TestUnsignedInt"],
+                    "type": ForwardRef("Root.TestUnsignedInt"),
                     "namespace": "",
                 },
                 {
                     "name": "testLong",
-                    "type": Type["Root.TestLong"],
+                    "type": ForwardRef("Root.TestLong"),
                     "namespace": "",
                 },
                 {
                     "name": "testUnsignedLong",
-                    "type": Type["Root.TestUnsignedLong"],
+                    "type": ForwardRef("Root.TestUnsignedLong"),
                     "namespace": "",
                 },
                 {
                     "name": "testShort",
-                    "type": Type["Root.TestShort"],
+                    "type": ForwardRef("Root.TestShort"),
                     "namespace": "",
                 },
                 {
                     "name": "testUnsignedShort",
-                    "type": Type["Root.TestUnsignedShort"],
+                    "type": ForwardRef("Root.TestUnsignedShort"),
                     "namespace": "",
                 },
                 {

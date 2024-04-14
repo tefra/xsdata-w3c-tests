@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -25,12 +25,12 @@ class Elem(B):
             "choices": (
                 {
                     "name": "A1",
-                    "type": Type["Elem.A1"],
+                    "type": ForwardRef("Elem.A1"),
                     "namespace": "",
                 },
                 {
                     "name": "A2",
-                    "type": Type["Elem.A2"],
+                    "type": ForwardRef("Elem.A2"),
                     "namespace": "",
                 },
             ),

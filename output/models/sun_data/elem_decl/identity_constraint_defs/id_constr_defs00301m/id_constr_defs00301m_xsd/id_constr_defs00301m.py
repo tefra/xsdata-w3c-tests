@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
@@ -19,17 +19,17 @@ class Root:
             "choices": (
                 {
                     "name": "Element",
-                    "type": Type["Root.Element"],
+                    "type": ForwardRef("Root.Element"),
                     "namespace": "",
                 },
                 {
                     "name": "ElementRef",
-                    "type": Type["Root.ElementRef"],
+                    "type": ForwardRef("Root.ElementRef"),
                     "namespace": "",
                 },
                 {
                     "name": "ElementRefs",
-                    "type": Type["Root.ElementRefs"],
+                    "type": ForwardRef("Root.ElementRefs"),
                     "namespace": "",
                 },
             ),

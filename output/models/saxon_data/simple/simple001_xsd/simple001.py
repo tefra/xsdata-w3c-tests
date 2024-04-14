@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Type, Union
+from typing import ForwardRef, List, Union
 
 __NAMESPACE__ = "http://simple001.ly/"
 
@@ -54,11 +54,11 @@ class Doc:
             "choices": (
                 {
                     "name": "chap",
-                    "type": Type["Doc.Chap"],
+                    "type": ForwardRef("Doc.Chap"),
                 },
                 {
                     "name": "appx",
-                    "type": Type["Doc.Appx"],
+                    "type": ForwardRef("Doc.Appx"),
                 },
             ),
         },

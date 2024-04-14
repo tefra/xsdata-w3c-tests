@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -17,11 +17,11 @@ class Scope:
             "choices": (
                 {
                     "name": "key",
-                    "type": Type["Scope.Key"],
+                    "type": ForwardRef("Scope.Key"),
                 },
                 {
                     "name": "ref",
-                    "type": Type["Scope.Ref"],
+                    "type": ForwardRef("Scope.Ref"),
                 },
             ),
         },

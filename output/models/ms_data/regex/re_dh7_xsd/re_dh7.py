@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -14,7 +14,7 @@ class Doc:
             "choices": (
                 {
                     "name": "ID",
-                    "type": Type["Doc.Id"],
+                    "type": ForwardRef("Doc.Id"),
                     "namespace": "",
                     "max_occurs": 2,
                 },

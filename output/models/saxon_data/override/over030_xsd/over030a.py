@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "http://example.org/ns/document"
 
@@ -38,32 +38,32 @@ class InlineType:
             "choices": (
                 {
                     "name": "phrase",
-                    "type": Type["Phrase"],
+                    "type": ForwardRef("Phrase"),
                     "namespace": "http://example.org/ns/document",
                 },
                 {
                     "name": "superscript",
-                    "type": Type["Superscript"],
+                    "type": ForwardRef("Superscript"),
                     "namespace": "http://example.org/ns/document",
                 },
                 {
                     "name": "subscript",
-                    "type": Type["Subscript"],
+                    "type": ForwardRef("Subscript"),
                     "namespace": "http://example.org/ns/document",
                 },
                 {
                     "name": "abbrev",
-                    "type": Type["Abbrev"],
+                    "type": ForwardRef("Abbrev"),
                     "namespace": "http://example.org/ns/document",
                 },
                 {
                     "name": "emphasis",
-                    "type": Type["Emphasis"],
+                    "type": ForwardRef("Emphasis"),
                     "namespace": "http://example.org/ns/document",
                 },
                 {
                     "name": "property",
-                    "type": Type["Property"],
+                    "type": ForwardRef("Property"),
                     "namespace": "http://example.org/ns/document",
                 },
             ),
@@ -199,7 +199,7 @@ class ParaType:
                 },
                 {
                     "name": "blockquote",
-                    "type": Type["Blockquote"],
+                    "type": ForwardRef("Blockquote"),
                     "namespace": "http://example.org/ns/document",
                 },
             ),

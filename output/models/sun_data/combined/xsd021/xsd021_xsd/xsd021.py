@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, List, Type, Union
+from typing import Dict, ForwardRef, List, Union
 
 __NAMESPACE__ = "foo"
 
@@ -28,35 +28,35 @@ class Root:
             "choices": (
                 {
                     "name": "skipAny",
-                    "type": Type["Root.SkipAny"],
+                    "type": ForwardRef("Root.SkipAny"),
                 },
                 {
                     "name": "laxAny",
-                    "type": Type["Root.LaxAny"],
+                    "type": ForwardRef("Root.LaxAny"),
                 },
                 {
                     "name": "strictAny",
-                    "type": Type["Root.StrictAny"],
+                    "type": ForwardRef("Root.StrictAny"),
                 },
                 {
                     "name": "skipOther",
-                    "type": Type["Root.SkipOther"],
+                    "type": ForwardRef("Root.SkipOther"),
                 },
                 {
                     "name": "laxLocal",
-                    "type": Type["Root.LaxLocal"],
+                    "type": ForwardRef("Root.LaxLocal"),
                 },
                 {
                     "name": "strictLocal",
-                    "type": Type["Root.StrictLocal"],
+                    "type": ForwardRef("Root.StrictLocal"),
                 },
                 {
                     "name": "strictTarget",
-                    "type": Type["Root.StrictTarget"],
+                    "type": ForwardRef("Root.StrictTarget"),
                 },
                 {
                     "name": "skipBar",
-                    "type": Type["Root.SkipBar"],
+                    "type": ForwardRef("Root.SkipBar"),
                 },
             ),
         },

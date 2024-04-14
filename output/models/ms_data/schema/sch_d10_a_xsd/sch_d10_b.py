@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "ns-a"
 
@@ -16,13 +16,13 @@ class BCt:
             "choices": (
                 {
                     "name": "c21",
-                    "type": Type["BCt.C21"],
+                    "type": ForwardRef("BCt.C21"),
                     "namespace": "",
                     "max_occurs": 3,
                 },
                 {
                     "name": "c22",
-                    "type": Type["BCt.C22"],
+                    "type": ForwardRef("BCt.C22"),
                     "namespace": "",
                     "max_occurs": 3,
                 },

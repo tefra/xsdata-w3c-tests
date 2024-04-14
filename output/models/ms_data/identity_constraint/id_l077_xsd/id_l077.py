@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type
+from typing import ForwardRef, List, Optional
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
@@ -25,12 +25,12 @@ class Ttype:
             "choices": (
                 {
                     "name": "row",
-                    "type": Type["Ttype.Row"],
+                    "type": ForwardRef("Ttype.Row"),
                     "namespace": "myNS.tempuri.org",
                 },
                 {
                     "name": "ref",
-                    "type": Type["Ttype.Ref"],
+                    "type": ForwardRef("Ttype.Ref"),
                     "namespace": "myNS.tempuri.org",
                 },
             ),

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -11,25 +11,25 @@ class A:
             "choices": (
                 {
                     "name": "x1",
-                    "type": Type["A.X1"],
+                    "type": ForwardRef("A.X1"),
                     "namespace": "",
                     "max_occurs": 4,
                 },
                 {
                     "name": "x2",
-                    "type": Type["A.X2"],
+                    "type": ForwardRef("A.X2"),
                     "namespace": "",
                     "max_occurs": 4,
                 },
                 {
                     "name": "y1",
-                    "type": Type["A.Y1"],
+                    "type": ForwardRef("A.Y1"),
                     "namespace": "",
                     "max_occurs": 4,
                 },
                 {
                     "name": "y2",
-                    "type": Type["A.Y2"],
+                    "type": ForwardRef("A.Y2"),
                     "namespace": "",
                     "max_occurs": 4,
                 },
@@ -95,25 +95,25 @@ class Elem(A):
             "choices": (
                 {
                     "name": "x1",
-                    "type": Type["Elem.X1"],
+                    "type": ForwardRef("Elem.X1"),
                     "namespace": "",
                     "max_occurs": 3,
                 },
                 {
                     "name": "x2",
-                    "type": Type["Elem.X2"],
+                    "type": ForwardRef("Elem.X2"),
                     "namespace": "",
                     "max_occurs": 3,
                 },
                 {
                     "name": "y1",
-                    "type": Type["Elem.Y1"],
+                    "type": ForwardRef("Elem.Y1"),
                     "namespace": "",
                     "max_occurs": 3,
                 },
                 {
                     "name": "y2",
-                    "type": Type["Elem.Y2"],
+                    "type": ForwardRef("Elem.Y2"),
                     "namespace": "",
                     "max_occurs": 3,
                 },

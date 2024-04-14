@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -72,7 +72,7 @@ class ItemsType:
             "choices": (
                 {
                     "name": "item",
-                    "type": Type["ItemsType.Item"],
+                    "type": ForwardRef("ItemsType.Item"),
                     "namespace": "http://www.example.com/IPO",
                 },
             ),
@@ -226,17 +226,17 @@ class PurchaseOrderType:
             "choices": (
                 {
                     "name": "shipTo",
-                    "type": Type["PurchaseOrderType.ShipTo"],
+                    "type": ForwardRef("PurchaseOrderType.ShipTo"),
                     "namespace": "http://www.example.com/IPO",
                 },
                 {
                     "name": "billTo",
-                    "type": Type["PurchaseOrderType.BillTo"],
+                    "type": ForwardRef("PurchaseOrderType.BillTo"),
                     "namespace": "http://www.example.com/IPO",
                 },
                 {
                     "name": "singleAddress",
-                    "type": Type["PurchaseOrderType.SingleAddress"],
+                    "type": ForwardRef("PurchaseOrderType.SingleAddress"),
                     "namespace": "http://www.example.com/IPO",
                 },
             ),

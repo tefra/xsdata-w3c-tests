@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Type, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -14,12 +14,12 @@ class Foo:
             "choices": (
                 {
                     "name": "g1",
-                    "type": Type["Foo.G1"],
+                    "type": ForwardRef("Foo.G1"),
                     "namespace": "",
                 },
                 {
                     "name": "g12",
-                    "type": Type["Foo.G12"],
+                    "type": ForwardRef("Foo.G12"),
                     "namespace": "",
                 },
             ),
@@ -32,12 +32,12 @@ class Foo:
             "choices": (
                 {
                     "name": "g2",
-                    "type": Type["Foo.G2"],
+                    "type": ForwardRef("Foo.G2"),
                     "namespace": "",
                 },
                 {
                     "name": "g22",
-                    "type": Type["Foo.G22"],
+                    "type": ForwardRef("Foo.G22"),
                     "namespace": "",
                 },
             ),
@@ -50,12 +50,12 @@ class Foo:
             "choices": (
                 {
                     "name": "g3",
-                    "type": Type["Foo.G3"],
+                    "type": ForwardRef("Foo.G3"),
                     "namespace": "",
                 },
                 {
                     "name": "g32",
-                    "type": Type["Foo.G32"],
+                    "type": ForwardRef("Foo.G32"),
                     "namespace": "",
                 },
             ),
@@ -68,12 +68,12 @@ class Foo:
             "choices": (
                 {
                     "name": "g4",
-                    "type": Type["Foo.G4"],
+                    "type": ForwardRef("Foo.G4"),
                     "namespace": "",
                 },
                 {
                     "name": "g42",
-                    "type": Type["Foo.G42"],
+                    "type": ForwardRef("Foo.G42"),
                     "namespace": "",
                 },
             ),

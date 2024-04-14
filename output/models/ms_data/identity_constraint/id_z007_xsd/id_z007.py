@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -11,12 +11,12 @@ class NewDataSet:
             "choices": (
                 {
                     "name": "t1",
-                    "type": Type["NewDataSet.T1"],
+                    "type": ForwardRef("NewDataSet.T1"),
                     "namespace": "",
                 },
                 {
                     "name": "t2",
-                    "type": Type["NewDataSet.T2"],
+                    "type": ForwardRef("NewDataSet.T2"),
                     "namespace": "",
                 },
             ),

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "foo"
@@ -18,11 +18,11 @@ class Root:
             "choices": (
                 {
                     "name": "key",
-                    "type": Type["Root.Key"],
+                    "type": ForwardRef("Root.Key"),
                 },
                 {
                     "name": "ref",
-                    "type": Type["Root.Ref"],
+                    "type": ForwardRef("Root.Ref"),
                 },
             ),
         },

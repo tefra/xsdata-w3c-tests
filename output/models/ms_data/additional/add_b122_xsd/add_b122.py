@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -173,7 +173,7 @@ class M5:
                 },
                 {
                     "name": "e5",
-                    "type": Type["E5"],
+                    "type": ForwardRef("E5"),
                 },
             ),
         },

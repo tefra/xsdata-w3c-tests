@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -14,15 +14,15 @@ class Node:
             "choices": (
                 {
                     "name": "node",
-                    "type": Type["Node"],
+                    "type": ForwardRef("Node"),
                 },
                 {
                     "name": "id",
-                    "type": Type["Node.Id"],
+                    "type": ForwardRef("Node.Id"),
                 },
                 {
                     "name": "idref",
-                    "type": Type["Node.Idref"],
+                    "type": ForwardRef("Node.Idref"),
                 },
             ),
         },

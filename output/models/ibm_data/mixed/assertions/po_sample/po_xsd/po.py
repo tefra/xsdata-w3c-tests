@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import (
     Item,
@@ -85,22 +85,22 @@ class Buyer:
             "choices": (
                 {
                     "name": "fName",
-                    "type": Type["Buyer.FName"],
+                    "type": ForwardRef("Buyer.FName"),
                     "namespace": "",
                 },
                 {
                     "name": "middlName",
-                    "type": Type["Buyer.MiddlName"],
+                    "type": ForwardRef("Buyer.MiddlName"),
                     "namespace": "",
                 },
                 {
                     "name": "lName",
-                    "type": Type["Buyer.LName"],
+                    "type": ForwardRef("Buyer.LName"),
                     "namespace": "",
                 },
                 {
                     "name": "Establishment",
-                    "type": Type["Buyer.Establishment"],
+                    "type": ForwardRef("Buyer.Establishment"),
                     "namespace": "",
                 },
             ),

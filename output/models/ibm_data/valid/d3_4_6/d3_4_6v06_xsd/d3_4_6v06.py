@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "a"
 
@@ -24,42 +24,42 @@ class Nametest:
             "choices": (
                 {
                     "name": "_ele",
-                    "type": Type["Nametest.Ele"],
+                    "type": ForwardRef("Nametest.Ele"),
                     "namespace": "a",
                 },
                 {
                     "name": "_-",
-                    "type": Type["Nametest.LowLineHyphenMinus"],
+                    "type": ForwardRef("Nametest.LowLineHyphenMinus"),
                     "namespace": "a",
                 },
                 {
                     "name": "_.",
-                    "type": Type["Nametest.LowLineFullStop"],
+                    "type": ForwardRef("Nametest.LowLineFullStop"),
                     "namespace": "a",
                 },
                 {
                     "name": "_9",
-                    "type": Type["Nametest.Type9"],
+                    "type": ForwardRef("Nametest.Type9"),
                     "namespace": "a",
                 },
                 {
                     "name": "___",
-                    "type": Type["Nametest.LowLineLowLineLowLine"],
+                    "type": ForwardRef("Nametest.LowLineLowLineLowLine"),
                     "namespace": "a",
                 },
                 {
                     "name": "a_a",
-                    "type": Type["Nametest.AA"],
+                    "type": ForwardRef("Nametest.AA"),
                     "namespace": "a",
                 },
                 {
                     "name": "a.a",
-                    "type": Type["Nametest.AAA"],
+                    "type": ForwardRef("Nametest.AAA"),
                     "namespace": "a",
                 },
                 {
                     "name": "ele",
-                    "type": Type["Nametest.AEle"],
+                    "type": ForwardRef("Nametest.AEle"),
                     "namespace": "a",
                 },
             ),

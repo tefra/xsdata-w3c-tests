@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -30,12 +30,12 @@ class Root:
                 "choices": (
                     {
                         "name": "Group2_Element1",
-                        "type": Type["Root.Element1.Group2Element1"],
+                        "type": ForwardRef("Root.Element1.Group2Element1"),
                         "namespace": "",
                     },
                     {
                         "name": "Group2_Element2",
-                        "type": Type["Root.Element1.Group2Element2"],
+                        "type": ForwardRef("Root.Element1.Group2Element2"),
                         "namespace": "",
                     },
                 ),

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Type, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "particles"
 
@@ -35,12 +35,12 @@ class A:
             "choices": (
                 {
                     "name": "name",
-                    "type": Type["A.Name"],
+                    "type": ForwardRef("A.Name"),
                     "namespace": "",
                 },
                 {
                     "name": "type",
-                    "type": Type["A.TypeType"],
+                    "type": ForwardRef("A.TypeType"),
                     "namespace": "",
                 },
             ),

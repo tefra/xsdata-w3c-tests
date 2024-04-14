@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -63,11 +63,11 @@ class Root:
                 "choices": (
                     {
                         "name": "mixed",
-                        "type": Type["Root.Mixed"],
+                        "type": ForwardRef("Root.Mixed"),
                     },
                     {
                         "name": "elementOnly",
-                        "type": Type["Root.ElementOnly"],
+                        "type": ForwardRef("Root.ElementOnly"),
                     },
                 ),
             },

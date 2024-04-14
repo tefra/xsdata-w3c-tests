@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Type, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -42,12 +42,12 @@ class Foo:
             "choices": (
                 {
                     "name": "c1",
-                    "type": Type["Foo.C1"],
+                    "type": ForwardRef("Foo.C1"),
                     "namespace": "",
                 },
                 {
                     "name": "c2",
-                    "type": Type["Foo.C2"],
+                    "type": ForwardRef("Foo.C2"),
                     "namespace": "",
                 },
             ),
@@ -60,12 +60,12 @@ class Foo:
             "choices": (
                 {
                     "name": "d1",
-                    "type": Type["Foo.D1"],
+                    "type": ForwardRef("Foo.D1"),
                     "namespace": "",
                 },
                 {
                     "name": "d2",
-                    "type": Type["Foo.D2"],
+                    "type": ForwardRef("Foo.D2"),
                     "namespace": "",
                 },
             ),

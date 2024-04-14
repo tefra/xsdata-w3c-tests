@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 __NAMESPACE__ = "http://id044.ly/"
 
@@ -55,11 +55,11 @@ class Doc:
             "choices": (
                 {
                     "name": "chap",
-                    "type": Type["Doc.Chap"],
+                    "type": ForwardRef("Doc.Chap"),
                 },
                 {
                     "name": "appx",
-                    "type": Type["Doc.Appx"],
+                    "type": ForwardRef("Doc.Appx"),
                 },
             ),
         },

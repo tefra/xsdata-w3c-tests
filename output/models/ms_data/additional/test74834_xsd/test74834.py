@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -121,52 +121,62 @@ class Datafile:
                 "choices": (
                     {
                         "name": "bigint",
-                        "type": Type["Datafile.Nonstringsection.Bigint"],
+                        "type": ForwardRef("Datafile.Nonstringsection.Bigint"),
                         "namespace": "",
                     },
                     {
                         "name": "int",
-                        "type": Type["Datafile.Nonstringsection.Int"],
+                        "type": ForwardRef("Datafile.Nonstringsection.Int"),
                         "namespace": "",
                     },
                     {
                         "name": "smallint",
-                        "type": Type["Datafile.Nonstringsection.Smallint"],
+                        "type": ForwardRef(
+                            "Datafile.Nonstringsection.Smallint"
+                        ),
                         "namespace": "",
                     },
                     {
                         "name": "tinyint",
-                        "type": Type["Datafile.Nonstringsection.Tinyint"],
+                        "type": ForwardRef(
+                            "Datafile.Nonstringsection.Tinyint"
+                        ),
                         "namespace": "",
                     },
                     {
                         "name": "decimal",
-                        "type": Type["Datafile.Nonstringsection.DecimalType"],
+                        "type": ForwardRef(
+                            "Datafile.Nonstringsection.DecimalType"
+                        ),
                         "namespace": "",
                     },
                     {
                         "name": "numeric",
-                        "type": Type["Datafile.Nonstringsection.Numeric"],
+                        "type": ForwardRef(
+                            "Datafile.Nonstringsection.Numeric"
+                        ),
                         "namespace": "",
                     },
                     {
                         "name": "money",
-                        "type": Type["Datafile.Nonstringsection.Money"],
+                        "type": ForwardRef("Datafile.Nonstringsection.Money"),
                         "namespace": "",
                     },
                     {
                         "name": "smallmoney",
-                        "type": Type["Datafile.Nonstringsection.Smallmoney"],
+                        "type": ForwardRef(
+                            "Datafile.Nonstringsection.Smallmoney"
+                        ),
                         "namespace": "",
                     },
                     {
                         "name": "float",
-                        "type": Type["Datafile.Nonstringsection.Float"],
+                        "type": ForwardRef("Datafile.Nonstringsection.Float"),
                         "namespace": "",
                     },
                     {
                         "name": "real",
-                        "type": Type["Datafile.Nonstringsection.Real"],
+                        "type": ForwardRef("Datafile.Nonstringsection.Real"),
                         "namespace": "",
                     },
                     {

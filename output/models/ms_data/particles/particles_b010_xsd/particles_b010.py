@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type, Union
+from typing import ForwardRef, List, Optional, Union
 
 
 @dataclass
@@ -14,25 +14,25 @@ class Elem:
             "choices": (
                 {
                     "name": "e1",
-                    "type": Type["Elem.E1"],
+                    "type": ForwardRef("Elem.E1"),
                     "namespace": "",
                     "max_occurs": 2,
                 },
                 {
                     "name": "e2",
-                    "type": Type["Elem.E2"],
+                    "type": ForwardRef("Elem.E2"),
                     "namespace": "",
                     "max_occurs": 2,
                 },
                 {
                     "name": "e3",
-                    "type": Type["Elem.E3"],
+                    "type": ForwardRef("Elem.E3"),
                     "namespace": "",
                     "max_occurs": 2,
                 },
                 {
                     "name": "e4",
-                    "type": Type["Elem.E4"],
+                    "type": ForwardRef("Elem.E4"),
                     "namespace": "",
                     "max_occurs": 2,
                 },

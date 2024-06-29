@@ -1,5 +1,5 @@
-from output.models.saxon_data.id.id050_xsd.id050 import Doc
-from output.models.saxon_data.id.id050_xsd.id050 import EmpType
+from output.models.saxon_data.id.id052_xsd.id052 import Doc
+from output.models.saxon_data.id.id052_xsd.id052 import EmpType
 
 
 obj = Doc(

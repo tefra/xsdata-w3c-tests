@@ -1,4 +1,4 @@
-from output.models.saxon_data.wild.wild076_xsd.wild076 import Root
+from output.models.saxon_data.wild.wild077_xsd.wild077 import Root
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 

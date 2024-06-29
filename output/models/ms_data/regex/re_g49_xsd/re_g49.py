@@ -13,6 +13,6 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-            "pattern": r"[࿿]",
+            "pattern": r"[\u0fff]",
         },
     )

@@ -1,4 +1,4 @@
-from output.models.saxon_data.open.open011_xsd.open011 import Doc
+from output.models.saxon_data.open.open010_xsd.open010 import Doc
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 

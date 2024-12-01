@@ -33,6 +33,7 @@ class IntegerTitleType(TitleType):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -47,6 +48,7 @@ class MixedTitleType(TitleType):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -61,6 +63,7 @@ class StringTitleType(TitleType):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

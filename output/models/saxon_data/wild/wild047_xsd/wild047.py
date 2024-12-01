@@ -42,6 +42,7 @@ class RestrictedComputer(Computer1):
 
     extra_com_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

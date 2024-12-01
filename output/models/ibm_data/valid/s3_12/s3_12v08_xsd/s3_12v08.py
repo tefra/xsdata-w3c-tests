@@ -38,6 +38,7 @@ class DerivedType1(ChildType):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -52,6 +53,7 @@ class DerivedType2(ChildType):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

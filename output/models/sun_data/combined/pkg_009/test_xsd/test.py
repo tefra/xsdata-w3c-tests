@@ -71,6 +71,7 @@ class Prohibit(Base):
 
     c: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

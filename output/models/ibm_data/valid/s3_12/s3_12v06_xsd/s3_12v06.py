@@ -83,6 +83,7 @@ class CtAlt2(CtBase):
 
     child: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

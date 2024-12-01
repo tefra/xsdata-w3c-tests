@@ -51,6 +51,7 @@ class ATypeF(AType):
 
     t: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -65,6 +66,7 @@ class ATypeF(AType):
     )
     r: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -78,6 +80,7 @@ class ATypeT(AType):
 
     f: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

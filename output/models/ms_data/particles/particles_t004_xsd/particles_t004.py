@@ -77,6 +77,7 @@ class B:
 class R(B):
     c3: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

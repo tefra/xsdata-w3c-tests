@@ -75,6 +75,7 @@ class Rst(Base):
 
     b: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

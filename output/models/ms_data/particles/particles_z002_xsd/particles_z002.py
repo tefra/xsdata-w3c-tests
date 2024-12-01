@@ -50,6 +50,7 @@ class Base3:
 class Derived1(Base1):
     foo: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -60,6 +61,7 @@ class Derived1(Base1):
 class Derived2(Base2):
     local_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -76,6 +78,7 @@ class Derived2(Base2):
 class Derived3(Base3):
     local_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

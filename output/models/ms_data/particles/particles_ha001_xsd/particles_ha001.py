@@ -51,12 +51,14 @@ class Doc(Base):
 
     e: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     f: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -70,12 +72,14 @@ class Test(B):
 
     e: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     f: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

@@ -74,6 +74,7 @@ class Testing(Base):
 
     e0: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

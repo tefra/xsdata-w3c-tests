@@ -92,12 +92,14 @@ class B:
 class R(B):
     c1: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     d2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

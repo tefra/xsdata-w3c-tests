@@ -26,6 +26,7 @@ class Alias(Base):
 
     a_b_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -55,6 +56,7 @@ class Restriction(Base):
 
     a_b_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

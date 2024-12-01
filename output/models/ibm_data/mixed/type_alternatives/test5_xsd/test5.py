@@ -44,12 +44,14 @@ class X:
 class Y(X):
     c: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     d: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

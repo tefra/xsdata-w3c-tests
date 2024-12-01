@@ -1,4 +1,4 @@
-from output.models.saxon_data.zone.zone002_xsd.zone002 import Doc
+from output.models.saxon_data.zone.zone003_xsd.zone003 import Doc
 from xsdata.models.datatype import XmlTime
 
 

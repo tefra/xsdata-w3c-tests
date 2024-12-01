@@ -69,12 +69,14 @@ class B:
 class R(B):
     e2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     e3: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

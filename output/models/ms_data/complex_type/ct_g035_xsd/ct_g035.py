@@ -75,12 +75,14 @@ class FooType(MyType):
 
     my_element2_or_my_element3: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

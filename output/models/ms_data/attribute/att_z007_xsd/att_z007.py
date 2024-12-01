@@ -34,18 +34,21 @@ class One:
 class Two(One):
     elem1: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     elem2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     att1: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

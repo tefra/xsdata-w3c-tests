@@ -30,6 +30,7 @@ class FooType(MyType):
 
     any_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

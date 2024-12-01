@@ -17,6 +17,7 @@ class B:
 class R(B):
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

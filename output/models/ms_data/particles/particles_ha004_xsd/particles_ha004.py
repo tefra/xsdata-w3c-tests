@@ -37,6 +37,7 @@ class Doc(Base):
 
     e2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

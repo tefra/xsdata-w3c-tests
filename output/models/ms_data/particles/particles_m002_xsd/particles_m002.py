@@ -87,6 +87,7 @@ class B:
 class R(B):
     c2_or_d1_or_d2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

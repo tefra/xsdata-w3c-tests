@@ -56,12 +56,14 @@ class MessageTypeBase64(MessageType):
 
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -81,12 +83,14 @@ class MessageTypeDate(MessageType):
 
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -101,12 +105,14 @@ class MessageTypeString(MessageType):
 
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -121,12 +127,14 @@ class MessageTypeTime(MessageType):
 
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -141,12 +149,14 @@ class MessageTypeXml(MessageType):
 
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

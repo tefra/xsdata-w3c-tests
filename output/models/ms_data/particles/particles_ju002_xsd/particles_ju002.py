@@ -26,6 +26,7 @@ class B:
 class R(B):
     local_foo_target_namespace_imported_xsd_bar_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

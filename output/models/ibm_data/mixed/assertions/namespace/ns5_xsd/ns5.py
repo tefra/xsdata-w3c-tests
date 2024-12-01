@@ -29,6 +29,7 @@ class X(TestType):
 
     any_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

@@ -23,6 +23,7 @@ class B:
 class R(B):
     local_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

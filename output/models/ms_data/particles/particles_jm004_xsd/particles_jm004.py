@@ -23,6 +23,7 @@ class B:
 class R(B):
     foo_imported_xsd_bar_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

@@ -55,12 +55,14 @@ class MyType(FooType):
 
     foo_ele3: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     other_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

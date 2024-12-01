@@ -40,6 +40,7 @@ class FooType(Foo):
 
     my_ele3: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

@@ -17,6 +17,7 @@ class B:
 class R(B):
     target003_com_attributes: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

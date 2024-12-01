@@ -33,6 +33,7 @@ class MixedTitleType(TitleType):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -62,6 +63,7 @@ class Root:
     class TypeText(TitleType):
         content: Any = field(
             init=False,
+            default=None,
             metadata={
                 "type": "Ignore",
             },
@@ -72,6 +74,7 @@ class Root:
     class TypeNumber(TitleType):
         content: Any = field(
             init=False,
+            default=None,
             metadata={
                 "type": "Ignore",
             },

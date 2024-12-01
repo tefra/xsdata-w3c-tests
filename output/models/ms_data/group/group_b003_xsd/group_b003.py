@@ -44,12 +44,14 @@ class Elem(ComplexType):
 
     r3: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     r4: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

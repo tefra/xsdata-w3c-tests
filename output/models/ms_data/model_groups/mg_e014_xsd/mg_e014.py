@@ -23,6 +23,7 @@ class SimpleName(PersonName):
 
     title: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

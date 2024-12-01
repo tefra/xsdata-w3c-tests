@@ -72,6 +72,7 @@ class B:
 class R(B):
     e1: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

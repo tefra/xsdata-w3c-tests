@@ -34,6 +34,7 @@ class Foo:
 class R(B):
     local_foo_bar_target_namespace_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

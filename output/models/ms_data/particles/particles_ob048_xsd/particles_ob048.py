@@ -19,6 +19,7 @@ class B:
 class R(B):
     foo_bar_element: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

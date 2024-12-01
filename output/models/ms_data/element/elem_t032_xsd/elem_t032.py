@@ -88,6 +88,7 @@ class RCa(Ca):
 
     y: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

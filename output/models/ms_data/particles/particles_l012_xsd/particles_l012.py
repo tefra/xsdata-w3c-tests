@@ -88,6 +88,7 @@ class NotMixed(Mixed):
 
     content: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
@@ -105,12 +106,14 @@ class NotMixed(Mixed):
 class R(B):
     c2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },
     )
     d2: Any = field(
         init=False,
+        default=None,
         metadata={
             "type": "Ignore",
         },

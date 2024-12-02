@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "foo"
 
 
 @dataclass
 class A:
-    part: List["A.Part"] = field(
+    part: list["A.Part"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
 class A:
-    choice: List[Union["A.X1", "A.X2", "A.Y1", "A.Y2"]] = field(
+    choice: list[Union["A.X1", "A.X2", "A.Y1", "A.Y2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

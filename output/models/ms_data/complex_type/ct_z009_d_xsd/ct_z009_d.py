@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -19,7 +19,7 @@ class Root:
 
     @dataclass
     class Element1:
-        group2_element1_or_group2_element2: List[
+        group2_element1_or_group2_element2: list[
             Union[
                 "Root.Element1.Group2Element1", "Root.Element1.Group2Element2"
             ]

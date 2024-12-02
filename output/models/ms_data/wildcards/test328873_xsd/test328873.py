@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Optional
 
 __NAMESPACE__ = "a"
 
@@ -9,7 +9,7 @@ class Base2:
     class Meta:
         name = "base2"
 
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -23,7 +23,7 @@ class Base3:
     class Meta:
         name = "base3"
 
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -37,7 +37,7 @@ class Base4:
     class Meta:
         name = "base4"
 
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -51,14 +51,14 @@ class Intersection1:
     class Meta:
         name = "intersection1"
 
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
         },
     )
-    local_b_c_attributes: Dict[str, str] = field(
+    local_b_c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -72,7 +72,7 @@ class Intersection2:
     class Meta:
         name = "intersection2"
 
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -86,7 +86,7 @@ class Derived2(Base2):
     class Meta:
         name = "derived2"
 
-    b_c_attributes: Dict[str, str] = field(
+    b_c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -100,7 +100,7 @@ class Derived3(Base3):
     class Meta:
         name = "derived3"
 
-    target_namespace_local_b_c_attributes: Dict[str, str] = field(
+    target_namespace_local_b_c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -114,7 +114,7 @@ class Derived4(Base4):
     class Meta:
         name = "derived4"
 
-    local_b_c_attributes: Dict[str, str] = field(
+    local_b_c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -128,7 +128,7 @@ class Derived5(Base4):
     class Meta:
         name = "derived5"
 
-    b_c_attributes: Dict[str, str] = field(
+    b_c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -198,7 +198,7 @@ class Base:
             "namespace": "a",
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -240,7 +240,7 @@ class Derived(Base):
     class Meta:
         name = "derived"
 
-    target_namespace_b_c_attributes: Dict[str, str] = field(
+    target_namespace_b_c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

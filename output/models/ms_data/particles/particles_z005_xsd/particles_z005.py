@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List
 
 
 class U3(Enum):
@@ -14,7 +13,7 @@ class Root:
     class Meta:
         name = "root"
 
-    c: List[U3] = field(
+    c: list[U3] = field(
         default_factory=list,
         metadata={
             "type": "Element",

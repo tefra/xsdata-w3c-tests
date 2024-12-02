@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 
 @dataclass
@@ -54,7 +54,7 @@ class Shapes:
     class Meta:
         name = "shapes"
 
-    polygon: List[Union[Triangular, Quadrilateral]] = field(
+    polygon: list[Union[Triangular, Quadrilateral]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

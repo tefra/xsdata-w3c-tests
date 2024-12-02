@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Union
+from typing import ForwardRef, Union
 
 __NAMESPACE__ = "foo"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[
+    choice: list[
         Union[
             "Root.SkipAny",
             "Root.LaxAny",
@@ -59,7 +59,7 @@ class Root:
 
     @dataclass
     class SkipAny:
-        any_element: List[object] = field(
+        any_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -70,7 +70,7 @@ class Root:
 
     @dataclass
     class LaxAny:
-        any_element: List[object] = field(
+        any_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -80,7 +80,7 @@ class Root:
 
     @dataclass
     class StrictAny:
-        any_element: List[object] = field(
+        any_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -90,7 +90,7 @@ class Root:
 
     @dataclass
     class SkipOther:
-        other_element: List[object] = field(
+        other_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -101,7 +101,7 @@ class Root:
 
     @dataclass
     class LaxLocal:
-        local_element: List[object] = field(
+        local_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -111,7 +111,7 @@ class Root:
 
     @dataclass
     class StrictTarget:
-        target_namespace_element: List[object] = field(
+        target_namespace_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -121,7 +121,7 @@ class Root:
 
     @dataclass
     class SkipBar:
-        bar_element: List[object] = field(
+        bar_element: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",

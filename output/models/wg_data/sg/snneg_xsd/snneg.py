@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
@@ -102,7 +102,7 @@ class T:
             "required": True,
         },
     )
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

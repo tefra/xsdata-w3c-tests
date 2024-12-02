@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, ForwardRef, List, Optional, Union
+from typing import Any, ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,7 +9,7 @@ class Base:
     class Meta:
         name = "base"
 
-    foo_or_foo1: List[Union["Base.Foo", "Base.Foo1"]] = field(
+    foo_or_foo1: list[Union["Base.Foo", "Base.Foo1"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

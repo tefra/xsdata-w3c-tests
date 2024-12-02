@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v06"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v06"
 
-    el_min_inclusive_min_inclusive: List[str] = field(
+    el_min_inclusive_min_inclusive: list[str] = field(
         default_factory=list,
         metadata={
             "name": "elMinInclusive_MinInclusive",
@@ -21,7 +20,7 @@ class Root:
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         },
     )
-    el_min_inclusive_min_exclusive: List[str] = field(
+    el_min_inclusive_min_exclusive: list[str] = field(
         default_factory=list,
         metadata={
             "name": "elMinInclusive_MinExclusive",
@@ -33,7 +32,7 @@ class Root:
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         },
     )
-    el_min_inclusive_max_inclusive: List[str] = field(
+    el_min_inclusive_max_inclusive: list[str] = field(
         default_factory=list,
         metadata={
             "name": "elMinInclusive_MaxInclusive",
@@ -45,7 +44,7 @@ class Root:
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         },
     )
-    el_min_inclusive_max_exclusive: List[str] = field(
+    el_min_inclusive_max_exclusive: list[str] = field(
         default_factory=list,
         metadata={
             "name": "elMinInclusive_MaxExclusive",

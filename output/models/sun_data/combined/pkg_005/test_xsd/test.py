@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -38,7 +38,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    item1_or_item2: List[Union["Root.Item1", "Root.Item2"]] = field(
+    item1_or_item2: list[Union["Root.Item1", "Root.Item2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

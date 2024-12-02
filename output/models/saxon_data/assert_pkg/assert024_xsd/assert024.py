@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 from xml.etree.ElementTree import QName
 
 
 @dataclass
 class Test:
-    rule: List["Test.Rule"] = field(
+    rule: list["Test.Rule"] = field(
         default_factory=list,
         metadata={
             "name": "Rule",

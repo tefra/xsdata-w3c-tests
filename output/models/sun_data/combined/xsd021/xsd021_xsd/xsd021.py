@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, ForwardRef, List, Union
+from typing import ForwardRef, Union
 
 __NAMESPACE__ = "foo"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[
+    choice: list[
         Union[
             "Root.SkipAny",
             "Root.LaxAny",
@@ -64,7 +64,7 @@ class Root:
 
     @dataclass
     class SkipAny:
-        any_attributes: Dict[str, str] = field(
+        any_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -74,7 +74,7 @@ class Root:
 
     @dataclass
     class LaxAny:
-        any_attributes: Dict[str, str] = field(
+        any_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -84,7 +84,7 @@ class Root:
 
     @dataclass
     class StrictAny:
-        any_attributes: Dict[str, str] = field(
+        any_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -94,7 +94,7 @@ class Root:
 
     @dataclass
     class SkipOther:
-        other_attributes: Dict[str, str] = field(
+        other_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -104,7 +104,7 @@ class Root:
 
     @dataclass
     class LaxLocal:
-        local_attributes: Dict[str, str] = field(
+        local_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -114,7 +114,7 @@ class Root:
 
     @dataclass
     class StrictLocal:
-        local_attributes: Dict[str, str] = field(
+        local_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -124,7 +124,7 @@ class Root:
 
     @dataclass
     class StrictTarget:
-        target_namespace_attributes: Dict[str, str] = field(
+        target_namespace_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -134,7 +134,7 @@ class Root:
 
     @dataclass
     class SkipBar:
-        bar_attributes: Dict[str, str] = field(
+        bar_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",

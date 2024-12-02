@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Union
+from typing import ForwardRef, Union
 
 __NAMESPACE__ = "http://simple001.ly/"
 
@@ -9,7 +9,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    section: List["Chap.Section"] = field(
+    section: list["Chap.Section"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -47,7 +47,7 @@ class Doc:
         name = "doc"
         namespace = "http://simple001.ly/"
 
-    chap_or_appx: List[Union["Doc.Chap", "Doc.Appx"]] = field(
+    chap_or_appx: list[Union["Doc.Chap", "Doc.Appx"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

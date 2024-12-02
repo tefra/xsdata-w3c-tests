@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional, Union
+from typing import Any, Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -45,7 +45,7 @@ class CtBase:
     class Meta:
         name = "ctBase"
 
-    child: List[ChildTypeBase] = field(
+    child: list[ChildTypeBase] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -66,7 +66,7 @@ class CtAlt1(CtBase):
     class Meta:
         name = "ctAlt1"
 
-    child: List[ChildTypeDerived] = field(
+    child: list[ChildTypeDerived] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -96,7 +96,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    person: List[Union[CtBase, CtAlt1, CtAlt2]] = field(
+    person: list[Union[CtBase, CtAlt1, CtAlt2]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

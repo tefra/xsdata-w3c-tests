@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List
 
 __NAMESPACE__ = "SType/ST_facets"
 
@@ -29,7 +28,7 @@ class Root:
         name = "root"
         namespace = "SType/ST_facets"
 
-    value: List[S] = field(
+    value: list[S] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://example.org/ns/document"
 
@@ -29,7 +29,7 @@ class InlineType:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -160,7 +160,7 @@ class ParaType:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -274,7 +274,7 @@ class Doc:
             "type": "Element",
         },
     )
-    p_or_blockquote: List[Union[P, Blockquote]] = field(
+    p_or_blockquote: list[Union[P, Blockquote]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

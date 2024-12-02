@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Optional
 
 __NAMESPACE__ = "a"
 
@@ -28,7 +28,7 @@ class T:
 
     @dataclass
     class E1:
-        any_attributes: Dict[str, str] = field(
+        any_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -38,7 +38,7 @@ class T:
 
     @dataclass
     class E2:
-        any_attributes: Dict[str, str] = field(
+        any_attributes: dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",

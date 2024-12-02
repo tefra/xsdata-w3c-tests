@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 
 class MyUnionValue(Enum):
@@ -13,7 +13,7 @@ class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: List[Union[int, MyUnionValue]] = field(
+    value: list[Union[int, MyUnionValue]] = field(
         default_factory=list,
         metadata={
             "tokens": True,

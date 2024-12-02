@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Union
+from typing import Union
 
 
 @dataclass
@@ -8,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[Union[float, Decimal, int]] = field(
+    value: list[Union[float, Decimal, int]] = field(
         init=False,
         default_factory=lambda: [
             12,

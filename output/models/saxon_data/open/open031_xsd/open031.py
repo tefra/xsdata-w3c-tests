@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -11,7 +11,7 @@ class B:
             "namespace": "http://open.com/",
         },
     )
-    a: List[object] = field(
+    a: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

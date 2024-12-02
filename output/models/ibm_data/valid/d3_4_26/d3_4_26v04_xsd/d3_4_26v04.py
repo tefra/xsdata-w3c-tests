@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDuration
 
@@ -12,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_26_v04"
 
-    ely_mdmin_inclusive_min_inclusive: List[XmlDuration] = field(
+    ely_mdmin_inclusive_min_inclusive: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDMinInclusive_MinInclusive",
@@ -22,7 +21,7 @@ class Root:
             "min_inclusive": XmlDuration("P2M"),
         },
     )
-    ely_mdmin_inclusive_min_exclusive: List[XmlDuration] = field(
+    ely_mdmin_inclusive_min_exclusive: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDMinInclusive_MinExclusive",
@@ -33,7 +32,7 @@ class Root:
             "min_inclusive": XmlDuration("P1M"),
         },
     )
-    ely_mdmin_inclusive_max_inclusive: List[XmlDuration] = field(
+    ely_mdmin_inclusive_max_inclusive: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDMinInclusive_MaxInclusive",
@@ -44,7 +43,7 @@ class Root:
             "max_inclusive": XmlDuration("P3452Y2M"),
         },
     )
-    ely_mdmin_inclusive_max_exclusive: List[XmlDuration] = field(
+    ely_mdmin_inclusive_max_exclusive: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDMinInclusive_MaxExclusive",

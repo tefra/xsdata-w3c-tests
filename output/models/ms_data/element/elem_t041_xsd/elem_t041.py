@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any, List, Optional, Union
+from typing import Any, Optional, Union
 
 
 class A(Enum):
@@ -15,7 +15,7 @@ class Ca:
     class Meta:
         name = "CA"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

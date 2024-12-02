@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, Dict, ForwardRef, Optional, Union
+from typing import Any, ForwardRef, Optional, Union
 
 
 @dataclass
@@ -32,7 +32,7 @@ class MyType:
             ),
         },
     )
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

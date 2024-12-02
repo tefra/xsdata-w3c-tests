@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://xstest-tns/IBMd3_16v03"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/IBMd3_16v03"
 
-    union_element: List[str] = field(
+    union_element: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

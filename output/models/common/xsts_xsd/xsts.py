@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import Dict, List, Optional, Union
+from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -23,14 +23,14 @@ class Appinfo:
             "type": "Attribute",
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -303,14 +303,14 @@ class Documentation:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -416,14 +416,14 @@ class Expected:
             "required": True,
         },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -446,7 +446,7 @@ class Annotation:
         name = "annotation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    appinfo_or_documentation: List[Union[Appinfo, Documentation]] = field(
+    appinfo_or_documentation: list[Union[Appinfo, Documentation]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -462,7 +462,7 @@ class Annotation:
             ),
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -476,7 +476,7 @@ class Ref:
     class Meta:
         name = "ref"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -498,7 +498,7 @@ class Ref:
             "namespace": "http://www.w3.org/1999/xlink",
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -512,7 +512,7 @@ class StatusEntry:
     class Meta:
         name = "statusEntry"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -540,7 +540,7 @@ class StatusEntry:
             "pattern": r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*",
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -616,7 +616,7 @@ class TestResult:
         name = "testResult"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -657,7 +657,7 @@ class TestResult:
             "type": "Attribute",
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -830,13 +830,13 @@ class TestSuiteResults:
         name = "testSuiteResults"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    test_result: List[TestResult] = field(
+    test_result: list[TestResult] = field(
         default_factory=list,
         metadata={
             "name": "testResult",
@@ -874,7 +874,7 @@ class TestSuiteResults:
             },
         )
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1004,7 +1004,7 @@ class InstanceTest:
         name = "instanceTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1018,7 +1018,7 @@ class InstanceTest:
             "required": True,
         },
     )
-    expected: List[Expected] = field(
+    expected: list[Expected] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1030,7 +1030,7 @@ class InstanceTest:
             "type": "Element",
         },
     )
-    prior: List[Prior] = field(
+    prior: list[Prior] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1043,14 +1043,14 @@ class InstanceTest:
             "required": True,
         },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1141,13 +1141,13 @@ class TestSuite:
         name = "testSuite"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    test_set_ref: List[TestSetRef] = field(
+    test_set_ref: list[TestSetRef] = field(
         default_factory=list,
         metadata={
             "name": "testSetRef",
@@ -1177,14 +1177,14 @@ class TestSuite:
             "required": True,
         },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1314,13 +1314,13 @@ class SchemaTest:
         name = "schemaTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    schema_document: List[SchemaDocument] = field(
+    schema_document: list[SchemaDocument] = field(
         default_factory=list,
         metadata={
             "name": "schemaDocument",
@@ -1328,7 +1328,7 @@ class SchemaTest:
             "min_occurs": 1,
         },
     )
-    expected: List[Expected] = field(
+    expected: list[Expected] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1340,7 +1340,7 @@ class SchemaTest:
             "type": "Element",
         },
     )
-    prior: List[Prior] = field(
+    prior: list[Prior] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1353,14 +1353,14 @@ class SchemaTest:
             "required": True,
         },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1499,13 +1499,13 @@ class TestGroup:
         name = "testGroup"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    documentation_reference: List[DocumentationReference] = field(
+    documentation_reference: list[DocumentationReference] = field(
         default_factory=list,
         metadata={
             "name": "documentationReference",
@@ -1519,7 +1519,7 @@ class TestGroup:
             "type": "Element",
         },
     )
-    instance_test: List[InstanceTest] = field(
+    instance_test: list[InstanceTest] = field(
         default_factory=list,
         metadata={
             "name": "instanceTest",
@@ -1533,14 +1533,14 @@ class TestGroup:
             "required": True,
         },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1630,13 +1630,13 @@ class TestSet:
         name = "testSet"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    test_group: List[TestGroup] = field(
+    test_group: list[TestGroup] = field(
         default_factory=list,
         metadata={
             "name": "testGroup",
@@ -1657,14 +1657,14 @@ class TestSet:
             "required": True,
         },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

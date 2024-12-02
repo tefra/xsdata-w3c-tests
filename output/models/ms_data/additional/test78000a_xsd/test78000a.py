@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "a"
 
@@ -96,7 +96,7 @@ class Doc:
         name = "doc"
         namespace = "a"
 
-    root_container: List[RootContainer] = field(
+    root_container: list[RootContainer] = field(
         default_factory=list,
         metadata={
             "name": "RootContainer",

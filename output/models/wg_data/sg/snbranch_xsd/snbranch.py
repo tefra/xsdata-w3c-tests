@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
@@ -118,7 +118,7 @@ class S1:
 
 @dataclass
 class T:
-    choice: List[Union[S1, S, N1, N, A, B, object]] = field(
+    choice: list[Union[S1, S, N1, N, A, B, object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

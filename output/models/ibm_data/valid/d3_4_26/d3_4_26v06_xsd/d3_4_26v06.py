@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDuration
 
@@ -12,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_26_v06"
 
-    el_duration: List[XmlDuration] = field(
+    el_duration: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elDuration",

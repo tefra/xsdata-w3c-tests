@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,7 +9,7 @@ class AnyType:
     class Meta:
         name = "any"
 
-    target_namespace_local_element: List[object] = field(
+    target_namespace_local_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -40,7 +40,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: List[AnyType] = field(
+    elem: list[AnyType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

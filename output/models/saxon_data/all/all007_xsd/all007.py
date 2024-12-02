@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,14 +7,14 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: List[object] = field(
+    a: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "max_occurs": 5,
         },
     )
-    b: List[object] = field(
+    b: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -22,7 +22,7 @@ class Doc:
             "max_occurs": 5,
         },
     )
-    c: List[object] = field(
+    c: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

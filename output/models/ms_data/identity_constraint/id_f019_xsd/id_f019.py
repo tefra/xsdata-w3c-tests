@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
@@ -7,14 +6,14 @@ class T:
     class Meta:
         name = "t"
 
-    col: List[str] = field(
+    col: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    row: List[str] = field(
+    row: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -28,7 +27,7 @@ class Root:
     class Meta:
         name = "root"
 
-    t: List[T] = field(
+    t: list[T] = field(
         default_factory=list,
         metadata={
             "type": "Element",

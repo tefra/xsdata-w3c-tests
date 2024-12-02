@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 
 class MyEnum(Enum):
@@ -25,7 +25,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    elem: List[Regex] = field(
+    elem: list[Regex] = field(
         default_factory=list,
         metadata={
             "type": "Element",

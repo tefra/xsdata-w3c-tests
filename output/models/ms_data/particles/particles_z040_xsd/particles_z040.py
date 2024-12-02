@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
@@ -49,7 +48,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: List[A] = field(
+    a: list[A] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -57,7 +56,7 @@ class Doc:
             "sequence": 1,
         },
     )
-    other_element: List[object] = field(
+    other_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -65,7 +64,7 @@ class Doc:
             "sequence": 1,
         },
     )
-    b: List[str] = field(
+    b: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Root:
     class Meta:
         name = "root"
 
-    union_of_ids: List[Union[int, bool, str]] = field(
+    union_of_ids: list[Union[int, bool, str]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -15,7 +15,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    idref: List[str] = field(
+    idref: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

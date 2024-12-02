@@ -1,10 +1,10 @@
-from output.models.saxon_data.assert_pkg.assert_simple005_xsd.assert_simple005 import ListType
+from output.models.saxon_data.assert_pkg.assert_simple005_xsd.assert_simple005 import List
 from output.models.saxon_data.assert_pkg.assert_simple005_xsd.assert_simple005 import Outer
 
 
 obj = Outer(
     list_value=[
-        ListType(
+        List(
             value=[
                 1,
                 3,
@@ -13,7 +13,7 @@ obj = Outer(
                 9,
             ]
         ),
-        ListType(
+        List(
             value=[
                 2,
                 4,
@@ -22,12 +22,12 @@ obj = Outer(
                 10,
             ]
         ),
-        ListType(
+        List(
             value=[
                 1,
             ]
         ),
-        ListType(
+        List(
 
         ),
     ]

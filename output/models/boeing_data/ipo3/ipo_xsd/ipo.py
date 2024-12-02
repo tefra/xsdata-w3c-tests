@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -54,7 +54,7 @@ class ShipComment:
 
 @dataclass
 class ItemsType:
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -99,7 +99,7 @@ class ItemsType:
                 "required": True,
             },
         )
-        customer_comment_or_ship_comment: List[
+        customer_comment_or_ship_comment: list[
             Union[CustomerComment, ShipComment]
         ] = field(
             default_factory=list,
@@ -157,7 +157,7 @@ class ItemsType:
 
 @dataclass
 class PurchaseOrderType:
-    ship_to_or_bill_to_or_single_address: List[
+    ship_to_or_bill_to_or_single_address: list[
         Union[
             "PurchaseOrderType.ShipTo",
             "PurchaseOrderType.BillTo",

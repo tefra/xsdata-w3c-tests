@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 
 @dataclass
@@ -65,7 +65,7 @@ class XString:
 
 @dataclass
 class Example:
-    x: List[Union[XInt, XDecimal, XString]] = field(
+    x: list[Union[XInt, XDecimal, XString]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

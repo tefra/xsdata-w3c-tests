@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from output.models.ms_data.particles.particles_ic005_xsd.particles_ic005_imp import (
     Base,
@@ -13,7 +12,7 @@ class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1: List[object] = field(
+    e1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -21,7 +20,7 @@ class Testing(Base):
             "max_occurs": 5,
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

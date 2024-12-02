@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"
 
@@ -12,7 +12,7 @@ class MapInfoTypeHideInactiveListBorder(Enum):
 
 @dataclass
 class SchemaType:
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -55,7 +55,7 @@ class TruefalseType(Enum):
 
 @dataclass
 class MapInfoType:
-    schema: List[SchemaType] = field(
+    schema: list[SchemaType] = field(
         default_factory=list,
         metadata={
             "name": "Schema",

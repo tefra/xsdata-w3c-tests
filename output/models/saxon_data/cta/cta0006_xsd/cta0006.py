@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Union
+from typing import Optional, Union
 from xml.etree.ElementTree import QName
 
 from xsdata.models.datatype import XmlDate, XmlTime
@@ -72,7 +72,7 @@ class Messages:
     class Meta:
         name = "messages"
 
-    message: List[Message] = field(
+    message: list[Message] = field(
         default_factory=list,
         metadata={
             "type": "Element",

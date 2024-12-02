@@ -1,10 +1,9 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 
 @dataclass
 class B:
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -15,7 +14,7 @@ class B:
 
 @dataclass
 class E(B):
-    abel_com_adam_com_attributes: Dict[str, str] = field(
+    abel_com_adam_com_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

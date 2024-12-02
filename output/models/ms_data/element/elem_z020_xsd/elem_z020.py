@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -34,7 +34,7 @@ class Foo:
 
 @dataclass
 class B:
-    foo_or_e1: List[Union[Foo, E1, int]] = field(
+    foo_or_e1: list[Union[Foo, E1, int]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDate
 
@@ -12,7 +11,7 @@ class NistschemaSvIvListDateWhiteSpace1:
         name = "NISTSchema-SV-IV-list-date-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-list-date-whiteSpace-1-NS"
 
-    value: List[XmlDate] = field(
+    value: list[XmlDate] = field(
         default_factory=list,
         metadata={
             "white_space": "collapse",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -30,7 +30,7 @@ class Base:
     class Meta:
         name = "base"
 
-    e1: List[T1] = field(
+    e1: list[T1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -40,7 +40,7 @@ class Base:
             "nillable": True,
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

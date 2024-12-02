@@ -1,10 +1,9 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
 class Root:
-    a: List[object] = field(
+    a: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -14,7 +13,7 @@ class Root:
             "sequence": 1,
         },
     )
-    b: List[object] = field(
+    b: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

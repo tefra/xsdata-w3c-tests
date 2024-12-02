@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 from xml.etree.ElementTree import QName
 
 
@@ -8,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[Union[float, bytes, int, QName]] = field(
+    value: list[Union[float, bytes, int, QName]] = field(
         init=False,
         default_factory=lambda: [
             12,

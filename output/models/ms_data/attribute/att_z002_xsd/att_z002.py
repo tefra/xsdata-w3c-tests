@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 
 @dataclass
@@ -7,7 +6,7 @@ class Root:
     class Meta:
         name = "root"
 
-    local_attributes: Dict[str, str] = field(
+    local_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

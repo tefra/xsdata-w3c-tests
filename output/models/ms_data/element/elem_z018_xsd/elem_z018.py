@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Signatures:
     class Meta:
         name = "signatures"
 
-    w3_org_2000_09_xmldsig_element: List[object] = field(
+    w3_org_2000_09_xmldsig_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -403,7 +403,7 @@ class Root:
             "required": True,
         },
     )
-    w3_org_xml_1998_namespace_attributes: Dict[str, str] = field(
+    w3_org_xml_1998_namespace_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

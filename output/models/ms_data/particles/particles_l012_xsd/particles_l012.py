@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, ForwardRef, List, Optional, Union
+from typing import Any, ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,7 +9,7 @@ class Mixed:
     class Meta:
         name = "mixed"
 
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

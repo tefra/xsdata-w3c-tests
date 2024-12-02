@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: List[float] = field(
+    comp_foo: list[float] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -22,7 +22,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: List[float] = field(
+    value: list[float] = field(
         default_factory=list,
         metadata={
             "tokens": True,

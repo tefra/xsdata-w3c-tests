@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDuration
 
@@ -12,7 +11,7 @@ class NistschemaSvIvListDurationMaxLength2:
         name = "NISTSchema-SV-IV-list-duration-maxLength-2"
         namespace = "NISTSchema-SV-IV-list-duration-maxLength-2-NS"
 
-    value: List[XmlDuration] = field(
+    value: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "max_length": 6,

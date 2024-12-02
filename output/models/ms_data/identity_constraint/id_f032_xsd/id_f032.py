@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
@@ -10,7 +10,7 @@ class T:
         name = "t"
         namespace = "myNS.tempuri.org"
 
-    row: List[str] = field(
+    row: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -31,7 +31,7 @@ class Root:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t: List[T] = field(
+    t: list[T] = field(
         default_factory=list,
         metadata={
             "type": "Element",

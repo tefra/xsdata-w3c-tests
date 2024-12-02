@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 
 class ScopeType(Enum):
@@ -66,7 +66,7 @@ class PropertyType:
 
 @dataclass
 class EventsType:
-    event: List[EventType] = field(
+    event: list[EventType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -83,7 +83,7 @@ class ClassType:
             "type": "Element",
         },
     )
-    property: List[PropertyType] = field(
+    property: list[PropertyType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -106,7 +106,7 @@ class ClassType:
 
 @dataclass
 class JsmlDocumentType:
-    class_value: List[ClassType] = field(
+    class_value: list[ClassType] = field(
         default_factory=list,
         metadata={
             "name": "class",

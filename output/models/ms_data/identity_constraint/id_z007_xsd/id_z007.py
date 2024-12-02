@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
 class NewDataSet:
-    t1_or_t2: List[Union["NewDataSet.T1", "NewDataSet.T2"]] = field(
+    t1_or_t2: list[Union["NewDataSet.T1", "NewDataSet.T2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

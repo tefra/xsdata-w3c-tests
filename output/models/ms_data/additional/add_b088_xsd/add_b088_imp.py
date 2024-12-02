@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://importedXSD"
 
@@ -84,14 +84,14 @@ class Doc1:
         name = "doc1"
         namespace = "http://importedXSD"
 
-    elem1: List[Any1] = field(
+    elem1: list[Any1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "max_occurs": 100,
         },
     )
-    elem2: List[Any1] = field(
+    elem2: list[Any1] = field(
         default_factory=list,
         metadata={
             "type": "Element",

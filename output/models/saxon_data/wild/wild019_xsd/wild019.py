@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import Any, Dict
+from typing import Any
 
 
 @dataclass
 class B:
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -22,7 +22,7 @@ class R(B):
             "type": "Ignore",
         },
     )
-    eve_com_attributes: Dict[str, str] = field(
+    eve_com_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

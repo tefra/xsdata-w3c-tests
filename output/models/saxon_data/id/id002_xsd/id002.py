@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -20,7 +20,7 @@ class Para:
             "type": "Attribute",
         },
     )
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -34,7 +34,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para: List[Para] = field(
+    para: list[Para] = field(
         default_factory=list,
         metadata={
             "type": "Element",

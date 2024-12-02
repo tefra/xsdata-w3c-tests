@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -27,7 +27,7 @@ class Article(PublicationType):
 
 @dataclass
 class BookType(PublicationType):
-    author: List[str] = field(
+    author: list[str] = field(
         default_factory=list,
         metadata={
             "name": "Author",
@@ -73,7 +73,7 @@ class BookStore:
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
-    magazine_or_book: List[Union[Magazine, Book]] = field(
+    magazine_or_book: list[Union[Magazine, Book]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

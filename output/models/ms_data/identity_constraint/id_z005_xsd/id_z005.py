@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -40,7 +40,7 @@ class AType:
             "type": "Element",
         },
     )
-    c: List[object] = field(
+    c: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -60,7 +60,7 @@ class RType:
     class Meta:
         name = "rType"
 
-    a: List[AType] = field(
+    a: list[AType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

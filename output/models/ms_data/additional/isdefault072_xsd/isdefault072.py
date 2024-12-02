@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "http://schemas.microsoft.com/2003/10/Serialization/"
@@ -10,7 +9,7 @@ class Array:
     class Meta:
         namespace = "http://schemas.microsoft.com/2003/10/Serialization/"
 
-    item: List[object] = field(
+    item: list[object] = field(
         default_factory=list,
         metadata={
             "name": "Item",
@@ -27,7 +26,7 @@ class Array:
             "namespace": "http://schemas.microsoft.com/2003/10/Serialization/",
         },
     )
-    dimensions: List[int] = field(
+    dimensions: list[int] = field(
         default_factory=lambda: [
             1,
         ],
@@ -37,7 +36,7 @@ class Array:
             "tokens": True,
         },
     )
-    lower_bounds: List[int] = field(
+    lower_bounds: list[int] = field(
         default_factory=lambda: [
             0,
         ],

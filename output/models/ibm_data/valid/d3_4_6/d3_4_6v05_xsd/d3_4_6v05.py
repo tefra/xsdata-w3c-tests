@@ -1,12 +1,11 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "a"
 
 
 @dataclass
 class Nametest:
-    ele: List[str] = field(
+    ele: list[str] = field(
         default_factory=list,
         metadata={
             "name": "_ele",
@@ -15,7 +14,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    low_line_hyphen_minus: List[str] = field(
+    low_line_hyphen_minus: list[str] = field(
         default_factory=list,
         metadata={
             "name": "_-",
@@ -24,7 +23,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    low_line_full_stop: List[str] = field(
+    low_line_full_stop: list[str] = field(
         default_factory=list,
         metadata={
             "name": "_.",
@@ -33,7 +32,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    value_9: List[str] = field(
+    value_9: list[str] = field(
         default_factory=list,
         metadata={
             "name": "_9",
@@ -42,7 +41,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    low_line_low_line_low_line: List[str] = field(
+    low_line_low_line_low_line: list[str] = field(
         default_factory=list,
         metadata={
             "name": "___",
@@ -51,7 +50,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    a_a: List[str] = field(
+    a_a: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -59,7 +58,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    a_a_a: List[str] = field(
+    a_a_a: list[str] = field(
         default_factory=list,
         metadata={
             "name": "a.a",
@@ -68,7 +67,7 @@ class Nametest:
             "min_occurs": 1,
         },
     )
-    a_ele: List[str] = field(
+    a_ele: list[str] = field(
         default_factory=list,
         metadata={
             "name": "ele",

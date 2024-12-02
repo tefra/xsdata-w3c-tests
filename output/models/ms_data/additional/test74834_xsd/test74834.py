@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -85,7 +85,7 @@ class Datafile:
             "required": True,
         },
     )
-    string: List[str] = field(
+    string: list[str] = field(
         default_factory=list,
         metadata={
             "wrapper": "stringsection",
@@ -99,7 +99,7 @@ class Datafile:
 
     @dataclass
     class Nonstringsection:
-        choice: List[
+        choice: list[
             Union[
                 "Datafile.Nonstringsection.Bigint",
                 "Datafile.Nonstringsection.Int",

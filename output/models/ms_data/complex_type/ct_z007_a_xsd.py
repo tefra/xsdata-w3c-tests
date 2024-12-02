@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -195,7 +195,7 @@ class Customers:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    my_customer: List[MyCustomer] = field(
+    my_customer: list[MyCustomer] = field(
         default_factory=list,
         metadata={
             "name": "MyCustomer",

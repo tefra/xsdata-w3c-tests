@@ -1,10 +1,9 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
 class C1:
-    e1: List["C1"] = field(
+    e1: list["C1"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

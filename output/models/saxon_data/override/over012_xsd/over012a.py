@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from output.models.saxon_data.override.over012_xsd.over012 import (
     StructuredDate,
@@ -11,7 +10,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para: List[StructuredDate] = field(
+    para: list[StructuredDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",

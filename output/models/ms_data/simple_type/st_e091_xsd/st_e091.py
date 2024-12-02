@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[Union[bool, int, str]] = field(
+    value: list[Union[bool, int, str]] = field(
         init=False,
         default_factory=lambda: [
             1,

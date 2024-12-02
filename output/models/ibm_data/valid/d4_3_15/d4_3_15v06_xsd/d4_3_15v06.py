@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class BaseType:
     class Meta:
         name = "baseType"
 
-    base_ely: List[object] = field(
+    base_ely: list[object] = field(
         default_factory=list,
         metadata={
             "name": "baseEly",

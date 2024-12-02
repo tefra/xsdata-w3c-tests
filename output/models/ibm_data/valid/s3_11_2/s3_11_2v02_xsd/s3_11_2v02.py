@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "a"
 
@@ -35,7 +35,7 @@ class Root:
         name = "root"
         namespace = "a"
 
-    number: List[Numtype] = field(
+    number: list[Numtype] = field(
         default_factory=list,
         metadata={
             "name": "Number",

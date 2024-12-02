@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -24,7 +24,7 @@ class Item0To2:
         name = "item0to2"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -39,7 +39,7 @@ class Item0ToX:
         name = "item0toX"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -53,7 +53,7 @@ class Item1To2:
         name = "item1to2"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -69,7 +69,7 @@ class Item1ToX:
         name = "item1toX"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -84,7 +84,7 @@ class Item2To2:
         name = "item2to2"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -100,7 +100,7 @@ class Item2ToX:
         name = "item2toX"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -115,7 +115,7 @@ class Item3To7:
         name = "item3to7"
         namespace = "foo"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -131,7 +131,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[
+    choice: list[
         Union[
             Item0To1,
             Item0To2,

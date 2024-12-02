@@ -28,7 +28,7 @@ class A:
             ),
         },
     )
-    name_or_type: Optional[Union["A.Name", "A.TypeType"]] = field(
+    name_or_type: Optional[Union["A.Name", "A.Type"]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -40,7 +40,7 @@ class A:
                 },
                 {
                     "name": "type",
-                    "type": ForwardRef("A.TypeType"),
+                    "type": ForwardRef("A.Type"),
                     "namespace": "",
                 },
             ),
@@ -57,7 +57,7 @@ class A:
         )
 
     @dataclass
-    class TypeType:
+    class Type:
         value: Optional[str] = field(
             default=None,
             metadata={

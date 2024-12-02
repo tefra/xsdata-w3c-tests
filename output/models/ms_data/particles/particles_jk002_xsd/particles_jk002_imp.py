@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://importedXSD"
 
@@ -13,7 +13,7 @@ class B:
             "namespace": "##any",
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

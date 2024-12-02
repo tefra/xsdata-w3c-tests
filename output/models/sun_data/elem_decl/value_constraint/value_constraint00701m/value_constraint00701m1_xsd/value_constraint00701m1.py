@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/valueConstraint"
 
@@ -16,7 +16,7 @@ class Root:
             "type": "Attribute",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

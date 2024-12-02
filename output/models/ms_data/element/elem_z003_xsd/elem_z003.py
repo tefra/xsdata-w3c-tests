@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 __NAMESPACE__ = "http://www.microsoft.com/schema/1"
 
@@ -100,7 +100,7 @@ class Container1:
     class Meta:
         name = "CONTAINER"
 
-    choice: List[Union[G, F, E, D, C, B, A]] = field(
+    choice: list[Union[G, F, E, D, C, B, A]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

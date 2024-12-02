@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional
+from typing import Any, Optional
 
 from output.models.ms_data.particles.particles_jm005_xsd.particles_jm005_imp import (
     ImpElem1,
@@ -10,7 +10,7 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    foo_imported_xsd_bar_element: List[object] = field(
+    foo_imported_xsd_bar_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -29,7 +29,7 @@ class R(B):
             "type": "Ignore",
         },
     )
-    imp_elem1: List[ImpElem1] = field(
+    imp_elem1: list[ImpElem1] = field(
         default_factory=list,
         metadata={
             "name": "impElem1",

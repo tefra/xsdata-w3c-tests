@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    choice: List[
+    choice: list[
         Union[
             "Root.TestByte",
             "Root.TestUnsignedByte",

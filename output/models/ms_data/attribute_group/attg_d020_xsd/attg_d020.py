@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -24,14 +24,14 @@ class Doc:
             "namespace": "http://xsdtesting",
         },
     )
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

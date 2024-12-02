@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from xsdata.models.datatype import (
     XmlDate,
@@ -246,7 +246,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[
+    choice: list[
         Union[
             Entity,
             Anyuri,

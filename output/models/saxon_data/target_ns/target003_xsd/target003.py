@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import Any, Dict, Optional
+from typing import Any, Optional
 
 
 @dataclass
 class B:
-    target003_com_attributes: Dict[str, str] = field(
+    target003_com_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: List[float] = field(
+    comp_foo: list[float] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -41,7 +41,7 @@ class Root:
     class Meta:
         name = "root"
 
-    complex_test: List[ComplexTest] = field(
+    complex_test: list[ComplexTest] = field(
         default_factory=list,
         metadata={
             "name": "complexTest",
@@ -49,7 +49,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    simple_test: List[SimpleTest] = field(
+    simple_test: list[SimpleTest] = field(
         default_factory=list,
         metadata={
             "name": "simpleTest",

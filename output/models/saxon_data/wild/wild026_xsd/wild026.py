@@ -1,17 +1,16 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 
 @dataclass
 class T:
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
         },
     )
-    adam_com_eve_com_attributes: Dict[str, str] = field(
+    adam_com_eve_com_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

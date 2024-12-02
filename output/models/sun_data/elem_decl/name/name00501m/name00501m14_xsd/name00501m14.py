@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/name"
 
@@ -37,7 +37,7 @@ class Global:
     class Meta:
         namespace = "ElemDecl/name"
 
-    main: List[Main] = field(
+    main: list[Main] = field(
         default_factory=list,
         metadata={
             "name": "Main",

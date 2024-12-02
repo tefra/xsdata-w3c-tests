@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -68,7 +68,7 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    e2_or_e1_or_e3: List[Union[E2, E1, E3]] = field(
+    e2_or_e1_or_e3: list[Union[E2, E1, E3]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

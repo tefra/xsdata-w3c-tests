@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, Dict
+from typing import Any
 
 __NAMESPACE__ = "urn:foo"
 
@@ -9,7 +9,7 @@ class Base:
     class Meta:
         name = "base"
 
-    a_b_attributes: Dict[str, str] = field(
+    a_b_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -39,7 +39,7 @@ class Extension(Base):
         name = "extension"
         namespace = "urn:foo"
 
-    c_attributes: Dict[str, str] = field(
+    c_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -61,7 +61,7 @@ class Restriction(Base):
             "type": "Ignore",
         },
     )
-    a_attributes: Dict[str, str] = field(
+    a_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

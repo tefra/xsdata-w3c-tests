@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
 class Example:
-    x: List[int] = field(
+    x: list[int] = field(
         default_factory=list,
         metadata={
             "type": "Element",

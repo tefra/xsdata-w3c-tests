@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
@@ -12,7 +12,7 @@ class A:
         name = "a"
         namespace = "nsConstraint"
 
-    ns_test1_ns_test2_element: List[object] = field(
+    ns_test1_ns_test2_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

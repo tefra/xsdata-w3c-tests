@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-gDay-pattern-5-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListGDayPattern5:
         name = "NISTSchema-SV-IV-list-gDay-pattern-5"
         namespace = "NISTSchema-SV-IV-list-gDay-pattern-5-NS"
 
-    value: List[str] = field(
+    value: list[str] = field(
         default_factory=list,
         metadata={
             "pattern": r"---\d5 ---1\d ---1\d ---0\d ---1\d ---\d9 ---\d3 ---1\d ---\d1 ---1\d",

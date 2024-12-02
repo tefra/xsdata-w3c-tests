@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "ST_final"
 
@@ -10,7 +9,7 @@ class Test:
         name = "test"
         namespace = "ST_final"
 
-    value: List[str] = field(
+    value: list[str] = field(
         default_factory=list,
         metadata={
             "tokens": True,

@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional
+from typing import Any, Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    local_target_namespace_foo_imported_xsd_bar_element: List[object] = field(
+    local_target_namespace_foo_imported_xsd_bar_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -27,7 +27,7 @@ class R(B):
             "type": "Ignore",
         },
     )
-    e1: List[object] = field(
+    e1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

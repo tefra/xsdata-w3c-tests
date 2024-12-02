@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
 class B:
-    e: List[object] = field(
+    e: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -12,7 +12,7 @@ class B:
             "max_occurs": 5,
         },
     )
-    f: List[object] = field(
+    f: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

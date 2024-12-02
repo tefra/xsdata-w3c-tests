@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://chess/ns/"
 
@@ -9,7 +9,7 @@ class T1:
     class Meta:
         name = "t1"
 
-    white: List[str] = field(
+    white: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -18,7 +18,7 @@ class T1:
             "sequence": 1,
         },
     )
-    black: List[str] = field(
+    black: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

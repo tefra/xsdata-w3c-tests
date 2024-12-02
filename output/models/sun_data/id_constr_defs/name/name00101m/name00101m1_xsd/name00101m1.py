@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "IdConstrDefs/name"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "IdConstrDefs/name"
 
-    person: List["Root.Person"] = field(
+    person: list["Root.Person"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

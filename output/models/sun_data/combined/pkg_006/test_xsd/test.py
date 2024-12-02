@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -107,7 +107,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[Union[EDee, EDer, EDe, EDre, EDrr, EDr, EB]] = field(
+    choice: list[Union[EDee, EDer, EDe, EDre, EDrr, EDr, EB]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

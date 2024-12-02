@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -9,7 +9,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[Union[XmlPeriod, str, int]] = field(
+    value: list[Union[XmlPeriod, str, int]] = field(
         init=False,
         default_factory=lambda: [
             "a",

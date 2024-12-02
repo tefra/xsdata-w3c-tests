@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Base:
     class Meta:
         name = "base"
 
-    foo_element: List[object] = field(
+    foo_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

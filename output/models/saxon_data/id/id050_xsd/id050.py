@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://id050.ly/"
 
@@ -40,7 +40,7 @@ class Doc:
         name = "doc"
         namespace = "http://id050.ly/"
 
-    emp: List[EmpType] = field(
+    emp: list[EmpType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

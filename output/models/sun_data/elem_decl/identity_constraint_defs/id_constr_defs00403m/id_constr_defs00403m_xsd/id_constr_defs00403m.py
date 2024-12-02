@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
-    person: List["Root.Person"] = field(
+    person: list["Root.Person"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -34,7 +34,7 @@ class Root:
                 "required": True,
             },
         )
-        parents: List[str] = field(
+        parents: list[str] = field(
             default_factory=list,
             metadata={
                 "type": "Attribute",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-base64Binary-maxLength-4-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListBase64BinaryMaxLength4:
         name = "NISTSchema-SV-IV-list-base64Binary-maxLength-4"
         namespace = "NISTSchema-SV-IV-list-base64Binary-maxLength-4-NS"
 
-    value: List[bytes] = field(
+    value: list[bytes] = field(
         default_factory=list,
         metadata={
             "max_length": 8,

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-boolean-maxLength-1-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListBooleanMaxLength1:
         name = "NISTSchema-SV-IV-list-boolean-maxLength-1"
         namespace = "NISTSchema-SV-IV-list-boolean-maxLength-1-NS"
 
-    value: List[bool] = field(
+    value: list[bool] = field(
         default_factory=list,
         metadata={
             "max_length": 5,

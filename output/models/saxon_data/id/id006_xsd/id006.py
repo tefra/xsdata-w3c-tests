@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Union
+from typing import ForwardRef, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idrefs: List[Union["Node", "Node.Id", "Node.Idrefs"]] = (
+    node_or_id_or_idrefs: list[Union["Node", "Node.Id", "Node.Idrefs"]] = (
         field(
             default_factory=list,
             metadata={
@@ -29,7 +29,7 @@ class Node:
             },
         )
     )
-    id_attribute: List[Union[str, int]] = field(
+    id_attribute: list[Union[str, int]] = field(
         default_factory=list,
         metadata={
             "name": "id",
@@ -37,7 +37,7 @@ class Node:
             "tokens": True,
         },
     )
-    idrefs_attribute: List[Union[str, int]] = field(
+    idrefs_attribute: list[Union[str, int]] = field(
         default_factory=list,
         metadata={
             "name": "idrefs",
@@ -48,7 +48,7 @@ class Node:
 
     @dataclass
     class Id:
-        value: List[Union[str, int]] = field(
+        value: list[Union[str, int]] = field(
             default_factory=list,
             metadata={
                 "tokens": True,
@@ -57,7 +57,7 @@ class Node:
 
     @dataclass
     class Idrefs:
-        value: List[Union[str, int]] = field(
+        value: list[Union[str, int]] = field(
             default_factory=list,
             metadata={
                 "tokens": True,
@@ -70,7 +70,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    node: List[Node] = field(
+    node: list[Node] = field(
         default_factory=list,
         metadata={
             "type": "Element",

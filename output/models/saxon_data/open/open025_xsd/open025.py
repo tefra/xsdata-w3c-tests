@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
@@ -14,7 +14,7 @@ class T:
             "process_contents": "skip",
         },
     )
-    i: List[int] = field(
+    i: list[int] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -22,7 +22,7 @@ class T:
             "min_occurs": 1,
         },
     )
-    d: List[XmlDate] = field(
+    d: list[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",

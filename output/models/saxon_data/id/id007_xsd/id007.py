@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Union
+from typing import ForwardRef, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_mixed_a_or_mixed_b: List[
+    node_or_mixed_a_or_mixed_b: list[
         Union["Node", "Node.MixedA", "Node.MixedB"]
     ] = field(
         default_factory=list,
@@ -29,7 +29,7 @@ class Node:
             ),
         },
     )
-    mixed_a_attribute: List[str] = field(
+    mixed_a_attribute: list[str] = field(
         default_factory=list,
         metadata={
             "name": "mixedA",
@@ -37,7 +37,7 @@ class Node:
             "tokens": True,
         },
     )
-    mixed_b_attribute: List[str] = field(
+    mixed_b_attribute: list[str] = field(
         default_factory=list,
         metadata={
             "name": "mixedB",
@@ -48,7 +48,7 @@ class Node:
 
     @dataclass
     class MixedA:
-        value: List[str] = field(
+        value: list[str] = field(
             default_factory=list,
             metadata={
                 "tokens": True,
@@ -57,7 +57,7 @@ class Node:
 
     @dataclass
     class MixedB:
-        value: List[str] = field(
+        value: list[str] = field(
             default_factory=list,
             metadata={
                 "tokens": True,
@@ -70,7 +70,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    node: List[Node] = field(
+    node: list[Node] = field(
         default_factory=list,
         metadata={
             "type": "Element",

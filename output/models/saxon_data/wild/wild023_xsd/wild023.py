@@ -1,10 +1,9 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 
 @dataclass
 class T:
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

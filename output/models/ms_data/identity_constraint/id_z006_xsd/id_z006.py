@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -34,7 +34,7 @@ class BType:
     class Meta:
         name = "bType"
 
-    cs: List[CsType] = field(
+    cs: list[CsType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -55,7 +55,7 @@ class BsType:
     class Meta:
         name = "bsType"
 
-    b: List[BType] = field(
+    b: list[BType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -69,7 +69,7 @@ class AType:
     class Meta:
         name = "aType"
 
-    bs: List[BsType] = field(
+    bs: list[BsType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -96,7 +96,7 @@ class RType:
     class Meta:
         name = "rType"
 
-    a: List[AType] = field(
+    a: list[AType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

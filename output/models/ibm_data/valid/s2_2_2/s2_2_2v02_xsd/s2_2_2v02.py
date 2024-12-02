@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns/ibms3_3_6_v02"
 
@@ -51,7 +51,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem2_or_elem0: List[Union[Elem2, Elem0]] = field(
+    elem2_or_elem0: list[Union[Elem2, Elem0]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

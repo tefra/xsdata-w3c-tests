@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -57,7 +57,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v05"
 
-    el_enumeration_a: List[ElEnumerationA] = field(
+    el_enumeration_a: list[ElEnumerationA] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationA",
@@ -66,7 +66,7 @@ class Root:
             "max_occurs": 4,
         },
     )
-    el_enumeration_b: List[ElEnumerationB] = field(
+    el_enumeration_b: list[ElEnumerationB] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationB",
@@ -75,7 +75,7 @@ class Root:
             "max_occurs": 3,
         },
     )
-    el_enumeration_c: List[ElEnumerationC] = field(
+    el_enumeration_c: list[ElEnumerationC] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationC",

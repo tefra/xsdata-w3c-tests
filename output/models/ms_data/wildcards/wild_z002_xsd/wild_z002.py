@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "main"
 
@@ -10,7 +9,7 @@ class A:
         name = "a"
         namespace = "main"
 
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -26,7 +25,7 @@ class B:
         name = "b"
         namespace = "main"
 
-    target_namespace_element: List[object] = field(
+    target_namespace_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -42,7 +41,7 @@ class C:
         name = "c"
         namespace = "main"
 
-    foo_bar_element: List[object] = field(
+    foo_bar_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -58,7 +57,7 @@ class D:
         name = "d"
         namespace = "main"
 
-    target_namespace_foo_element: List[object] = field(
+    target_namespace_foo_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -74,28 +73,28 @@ class Root:
         name = "root"
         namespace = "main"
 
-    a: List[A] = field(
+    a: list[A] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "sequence": 1,
         },
     )
-    b: List[B] = field(
+    b: list[B] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "sequence": 1,
         },
     )
-    c: List[C] = field(
+    c: list[C] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "sequence": 1,
         },
     )
-    d: List[D] = field(
+    d: list[D] = field(
         default_factory=list,
         metadata={
             "type": "Element",

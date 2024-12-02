@@ -1,23 +1,22 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
 
 @dataclass
-class TypeType:
-    class Meta:
-        name = "Type"
+class Type:
+    pass
 
 
 @dataclass
-class Head(TypeType):
+class Head(Type):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
 
 @dataclass
-class DerivedFromType(TypeType):
+class DerivedFromType(Type):
     class Meta:
         name = "derivedFromType"
 
@@ -41,7 +40,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member1_or_head: List[Union[Member1, Head]] = field(
+    member1_or_head: list[Union[Member1, Head]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

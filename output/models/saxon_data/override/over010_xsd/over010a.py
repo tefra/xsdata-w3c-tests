@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDate
 
@@ -9,7 +8,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para: List[XmlDate] = field(
+    para: list[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",

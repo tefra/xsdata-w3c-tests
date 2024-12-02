@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDate, XmlPeriod
 
@@ -96,7 +96,7 @@ class Root:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    test_date: List[TestDate] = field(
+    test_date: list[TestDate] = field(
         default_factory=list,
         metadata={
             "name": "testDate",
@@ -105,7 +105,7 @@ class Root:
             "max_occurs": 2,
         },
     )
-    test_gyear_month: List[TestGyearMonth] = field(
+    test_gyear_month: list[TestGyearMonth] = field(
         default_factory=list,
         metadata={
             "name": "testGYearMonth",
@@ -114,7 +114,7 @@ class Root:
             "max_occurs": 2,
         },
     )
-    test_gmonth_day: List[TestGmonthDay] = field(
+    test_gmonth_day: list[TestGmonthDay] = field(
         default_factory=list,
         metadata={
             "name": "testGMonthDay",
@@ -123,7 +123,7 @@ class Root:
             "max_occurs": 2,
         },
     )
-    test_gday: List[TestGday] = field(
+    test_gday: list[TestGday] = field(
         default_factory=list,
         metadata={
             "name": "testGDay",
@@ -132,7 +132,7 @@ class Root:
             "max_occurs": 2,
         },
     )
-    test_gmonth: List[TestGmonth] = field(
+    test_gmonth: list[TestGmonth] = field(
         default_factory=list,
         metadata={
             "name": "testGMonth",
@@ -141,7 +141,7 @@ class Root:
             "max_occurs": 2,
         },
     )
-    test_gyear: List[TestGyear] = field(
+    test_gyear: list[TestGyear] = field(
         default_factory=list,
         metadata={
             "name": "testGYear",

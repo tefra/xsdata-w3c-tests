@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_or_sg: List[Union["Root.Foo", "Root.Sg"]] = field(
+    foo_or_sg: list[Union["Root.Foo", "Root.Sg"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

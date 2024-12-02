@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-decimal-whiteSpace-1-NS"
 
@@ -11,7 +10,7 @@ class NistschemaSvIvListDecimalWhiteSpace1:
         name = "NISTSchema-SV-IV-list-decimal-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-list-decimal-whiteSpace-1-NS"
 
-    value: List[Decimal] = field(
+    value: list[Decimal] = field(
         default_factory=list,
         metadata={
             "white_space": "collapse",

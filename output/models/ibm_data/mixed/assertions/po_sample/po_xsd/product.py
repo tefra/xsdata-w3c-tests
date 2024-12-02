@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 
 @dataclass
@@ -56,7 +56,7 @@ class Poitems:
     class Meta:
         name = "POITEMS"
 
-    item: List[Union[Item, ShortItemDefn, LongItemDefn]] = field(
+    item: list[Union[Item, ShortItemDefn, LongItemDefn]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

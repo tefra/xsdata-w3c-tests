@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -12,7 +12,7 @@ class ElDtimeListOptional:
         name = "elDTimeListOptional"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
 
-    value: List[XmlDateTime] = field(
+    value: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "explicit_timezone": "optional",
@@ -27,7 +27,7 @@ class ElDtimeListProhibited:
         name = "elDTimeListProhibited"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
 
-    value: List[XmlDateTime] = field(
+    value: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "explicit_timezone": "prohibited",
@@ -42,7 +42,7 @@ class ElDtimeListRequired:
         name = "elDTimeListRequired"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
 
-    value: List[XmlDateTime] = field(
+    value: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "explicit_timezone": "required",

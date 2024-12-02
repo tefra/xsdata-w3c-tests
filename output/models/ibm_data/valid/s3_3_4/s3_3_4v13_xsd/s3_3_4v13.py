@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Root:
     class Meta:
         name = "root"
 
-    list_of_ids_attr: List[str] = field(
+    list_of_ids_attr: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",

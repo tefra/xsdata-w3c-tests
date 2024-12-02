@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "a"
 
@@ -9,7 +8,7 @@ class C:
     class Meta:
         name = "c"
 
-    a: List[int] = field(
+    a: list[int] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -18,7 +17,7 @@ class C:
             "max_occurs": 2,
         },
     )
-    b: List[int] = field(
+    b: list[int] = field(
         default_factory=list,
         metadata={
             "type": "Element",

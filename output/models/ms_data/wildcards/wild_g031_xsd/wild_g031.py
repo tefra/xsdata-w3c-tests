@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://foobar"
 
@@ -24,7 +23,7 @@ class Foo:
         name = "foo"
         namespace = "http://foobar"
 
-    a_b_c_d_e_target_namespace_local_element: List[object] = field(
+    a_b_c_d_e_target_namespace_local_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

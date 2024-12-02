@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "ns-a"
 
@@ -24,7 +24,7 @@ class NsAAft:
     class Meta:
         name = "ns-a-aft"
 
-    x: List[str] = field(
+    x: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

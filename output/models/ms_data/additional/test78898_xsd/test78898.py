@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -53,7 +53,7 @@ class M3:
     class Meta:
         name = "m3"
 
-    e31: List[object] = field(
+    e31: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -76,7 +76,7 @@ class M6:
     class Meta:
         name = "m6"
 
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -127,7 +127,7 @@ class M4:
     class Meta:
         name = "m4"
 
-    e41: List[Att2] = field(
+    e41: list[Att2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -136,7 +136,7 @@ class M4:
             "sequence": 1,
         },
     )
-    e3: List[E3] = field(
+    e3: list[E3] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -164,7 +164,7 @@ class M5:
     class Meta:
         name = "m5"
 
-    e3_or_e4_or_e5: List[Union[E3, E4, "E5"]] = field(
+    e3_or_e4_or_e5: list[Union[E3, E4, "E5"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -215,37 +215,37 @@ class Ct1:
             "type": "Element",
         },
     )
-    e3: List[E3] = field(
+    e3: list[E3] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    e4: List[E4] = field(
+    e4: list[E4] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    e5: List[E5] = field(
+    e5: list[E5] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    e6: List[E6] = field(
+    e6: list[E6] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    e7: List[E7] = field(
+    e7: list[E7] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    e8: List[E8] = field(
+    e8: list[E8] = field(
         default_factory=list,
         metadata={
             "type": "Element",

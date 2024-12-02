@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -39,7 +39,7 @@ class Bar(Foo):
 
 @dataclass
 class B:
-    c1_or_c2_or_c3: List[Union["B.C1", "B.C2", Bar]] = field(
+    c1_or_c2_or_c3: list[Union["B.C1", "B.C2", Bar]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -95,7 +95,7 @@ class B:
 
 @dataclass
 class R(B):
-    c1_or_c2: List[Union["R.C1", "R.C2"]] = field(
+    c1_or_c2: list[Union["R.C1", "R.C2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

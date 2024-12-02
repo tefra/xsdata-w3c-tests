@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -12,7 +12,7 @@ class EldTimeStampListC:
         name = "eldTimeStampListC"
         namespace = "http://xstest-tns/schema11_D3_4_28_v03"
 
-    value: List[str] = field(
+    value: list[str] = field(
         default_factory=list,
         metadata={
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
@@ -36,7 +36,7 @@ class DTimeStampRoot:
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         },
     )
-    eld_time_stamp_list_a: List[List[XmlDateTime]] = field(
+    eld_time_stamp_list_a: list[list[XmlDateTime]] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeStampListA",
@@ -46,7 +46,7 @@ class DTimeStampRoot:
             "tokens": True,
         },
     )
-    eld_time_stamp_list_b: List[str] = field(
+    eld_time_stamp_list_b: list[str] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeStampListB",

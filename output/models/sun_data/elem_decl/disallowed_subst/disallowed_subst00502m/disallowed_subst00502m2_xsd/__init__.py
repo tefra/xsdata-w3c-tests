@@ -3,13 +3,13 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00502m.di
     Head,
     Member1,
     Root,
-    TypeType,
+    Type,
 )
 
 __all__ = [
     "Head",
     "Member1",
-    "TypeType",
+    "Type",
     "DerivedFromType",
     "Root",
 ]

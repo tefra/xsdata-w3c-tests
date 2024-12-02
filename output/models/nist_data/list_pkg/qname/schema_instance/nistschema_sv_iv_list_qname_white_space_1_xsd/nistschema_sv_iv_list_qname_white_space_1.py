@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-whiteSpace-1-NS"
@@ -11,7 +10,7 @@ class NistschemaSvIvListQnameWhiteSpace1:
         name = "NISTSchema-SV-IV-list-QName-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-list-QName-whiteSpace-1-NS"
 
-    value: List[QName] = field(
+    value: list[QName] = field(
         default_factory=list,
         metadata={
             "white_space": "collapse",

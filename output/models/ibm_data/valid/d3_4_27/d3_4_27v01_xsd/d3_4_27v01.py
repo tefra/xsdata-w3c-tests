@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List
 
 from xsdata.models.datatype import XmlDuration
 
@@ -20,7 +19,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_27_v01"
 
-    ely_mdtype: List[XmlDuration] = field(
+    ely_mdtype: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDType",
@@ -29,7 +28,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    ely_mdenumeration: List[YMdenumeration] = field(
+    ely_mdenumeration: list[YMdenumeration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDEnumeration",
@@ -38,7 +37,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    ely_mdmin_max_inclusive: List[XmlDuration] = field(
+    ely_mdmin_max_inclusive: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDMinMaxInclusive",
@@ -49,7 +48,7 @@ class Root:
             "max_inclusive": XmlDuration("P2D"),
         },
     )
-    ely_mdmin_max_exclusive: List[XmlDuration] = field(
+    ely_mdmin_max_exclusive: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "name": "elyMDMinMaxExclusive",

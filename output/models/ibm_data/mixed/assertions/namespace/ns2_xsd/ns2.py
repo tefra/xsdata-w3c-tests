@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://www.example.org"
 
@@ -9,7 +8,7 @@ class Mod2Sequence:
     class Meta:
         name = "MOD2_SEQUENCE"
 
-    y: List[int] = field(
+    y: list[int] = field(
         default_factory=list,
         metadata={
             "type": "Element",

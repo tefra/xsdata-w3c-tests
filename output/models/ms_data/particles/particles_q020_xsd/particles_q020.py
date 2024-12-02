@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from output.models.ms_data.particles.particles_q020_xsd.particles_q020_imp import (
     Bar,
@@ -17,7 +17,7 @@ class B:
             "namespace": "http://xsdtesting",
         },
     )
-    other_element: List[object] = field(
+    other_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -36,7 +36,7 @@ class R:
             "namespace": "http://xsdtesting",
         },
     )
-    bar: List[Bar] = field(
+    bar: list[Bar] = field(
         default_factory=list,
         metadata={
             "type": "Element",

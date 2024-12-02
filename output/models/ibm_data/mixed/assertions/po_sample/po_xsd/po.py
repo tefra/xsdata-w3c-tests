@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import (
     Item,
@@ -71,7 +71,7 @@ class Buyer:
     class Meta:
         name = "BUYER"
 
-    choice: List[
+    choice: list[
         Union[
             "Buyer.FName",
             "Buyer.MiddlName",
@@ -191,7 +191,7 @@ class Order1(PoBusinessRules):
             "pattern": r".*@.*\..*",
         },
     )
-    item: List[Union[Item, ShortItemDefn, LongItemDefn]] = field(
+    item: list[Union[Item, ShortItemDefn, LongItemDefn]] = field(
         default_factory=list,
         metadata={
             "wrapper": "items",

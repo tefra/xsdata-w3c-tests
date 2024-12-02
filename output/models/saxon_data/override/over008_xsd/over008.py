@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Dict, List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -15,7 +15,7 @@ class Section:
             "required": True,
         },
     )
-    section: List["Section"] = field(
+    section: list["Section"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -28,7 +28,7 @@ class Section:
             "required": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-base64Binary-whiteSpace-1-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListBase64BinaryWhiteSpace1:
         name = "NISTSchema-SV-IV-list-base64Binary-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-list-base64Binary-whiteSpace-1-NS"
 
-    value: List[bytes] = field(
+    value: list[bytes] = field(
         default_factory=list,
         metadata={
             "white_space": "collapse",

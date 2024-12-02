@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://cta0002/"
 
@@ -16,7 +16,7 @@ class T:
     class Meta:
         name = "t"
 
-    e: List[Decimal] = field(
+    e: list[Decimal] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -44,7 +44,7 @@ class Treq(T):
     class Meta:
         name = "treq"
 
-    e: List[Decimal] = field(
+    e: list[Decimal] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -60,7 +60,7 @@ class Messages:
         name = "messages"
         namespace = "http://cta0002/"
 
-    message: List[Message] = field(
+    message: list[Message] = field(
         default_factory=list,
         metadata={
             "type": "Element",

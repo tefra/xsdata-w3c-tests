@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://www.books.org"
 
@@ -9,7 +9,7 @@ class BookStore:
     class Meta:
         namespace = "http://www.books.org"
 
-    book: List["BookStore.Book"] = field(
+    book: list["BookStore.Book"] = field(
         default_factory=list,
         metadata={
             "name": "Book",

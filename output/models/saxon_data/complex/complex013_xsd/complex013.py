@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
@@ -8,7 +7,7 @@ class Root:
         name = "root"
         nillable = True
 
-    e: List[object] = field(
+    e: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

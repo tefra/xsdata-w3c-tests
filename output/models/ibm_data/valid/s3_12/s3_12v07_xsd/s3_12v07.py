@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "tns"
 
@@ -63,7 +63,7 @@ class Shape:
         name = "shape"
         namespace = "tns"
 
-    dimension: List[Union[DimType, RectType, SquareType]] = field(
+    dimension: list[Union[DimType, RectType, SquareType]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

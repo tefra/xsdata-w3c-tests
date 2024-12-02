@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List
+from typing import Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,7 +9,7 @@ class Base:
     class Meta:
         name = "base"
 
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -18,7 +18,7 @@ class Base:
             "sequence": 1,
         },
     )
-    e3: List[object] = field(
+    e3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -43,7 +43,7 @@ class Doc(Base):
             "type": "Ignore",
         },
     )
-    e3: List[object] = field(
+    e3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

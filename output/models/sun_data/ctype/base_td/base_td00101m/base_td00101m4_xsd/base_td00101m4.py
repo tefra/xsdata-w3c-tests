@@ -1,12 +1,11 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "baseTD"
 
 
 @dataclass
 class Test1:
-    abc: List[str] = field(
+    abc: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

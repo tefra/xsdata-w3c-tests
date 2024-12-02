@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional, Union
+from typing import Any, Optional, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Ca:
     class Meta:
         name = "CA"
 
-    x: List[object] = field(
+    x: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

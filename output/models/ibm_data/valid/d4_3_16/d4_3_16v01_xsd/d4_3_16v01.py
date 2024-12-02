@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -12,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v01"
 
-    el_dtime_type: List[XmlDateTime] = field(
+    el_dtime_type: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeType",
@@ -20,7 +19,7 @@ class Root:
             "namespace": "",
         },
     )
-    el_dtime_etprohibited: List[XmlDateTime] = field(
+    el_dtime_etprohibited: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeETProhibited",
@@ -30,7 +29,7 @@ class Root:
             "explicit_timezone": "prohibited",
         },
     )
-    el_dtime_etrequired: List[XmlDateTime] = field(
+    el_dtime_etrequired: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeETRequired",
@@ -40,7 +39,7 @@ class Root:
             "explicit_timezone": "required",
         },
     )
-    el_dtime_etoptional: List[XmlDateTime] = field(
+    el_dtime_etoptional: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeETOptional",

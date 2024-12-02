@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class ComplexType:
     class Meta:
         name = "complexType"
 
-    r1_or_r2: List[Union["ComplexType.R1", "ComplexType.R2"]] = field(
+    r1_or_r2: list[Union["ComplexType.R1", "ComplexType.R2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional
+from typing import Any, Optional
 
 
 @dataclass
@@ -15,7 +15,7 @@ class Computer1:
             "required": True,
         },
     )
-    local_element: List[object] = field(
+    local_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -24,7 +24,7 @@ class Computer1:
             "process_contents": "skip",
         },
     )
-    extra_com_element: List[object] = field(
+    extra_com_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

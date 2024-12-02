@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "a"
 
@@ -28,7 +28,7 @@ class T0:
     class Meta:
         name = "t0"
 
-    e1: List[T1] = field(
+    e1: list[T1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -36,7 +36,7 @@ class T0:
             "min_occurs": 1,
         },
     )
-    e2: List[T1] = field(
+    e2: list[T1] = field(
         default_factory=list,
         metadata={
             "type": "Element",

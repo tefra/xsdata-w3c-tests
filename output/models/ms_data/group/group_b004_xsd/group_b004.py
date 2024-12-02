@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class ComplexType:
     class Meta:
         name = "complexType"
 
-    r1: List[object] = field(
+    r1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -16,7 +16,7 @@ class ComplexType:
             "sequence": 1,
         },
     )
-    r2: List[object] = field(
+    r2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -25,7 +25,7 @@ class ComplexType:
             "sequence": 1,
         },
     )
-    r3: List[object] = field(
+    r3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

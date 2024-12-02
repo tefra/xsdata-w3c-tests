@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "ns-a"
 
@@ -9,7 +9,7 @@ class ACt:
     class Meta:
         name = "a-ct"
 
-    c21_or_c22: List[Union["ACt.C21", "ACt.C22"]] = field(
+    c21_or_c22: list[Union["ACt.C21", "ACt.C22"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -56,7 +56,7 @@ class Root:
         name = "root"
         namespace = "ns-a"
 
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

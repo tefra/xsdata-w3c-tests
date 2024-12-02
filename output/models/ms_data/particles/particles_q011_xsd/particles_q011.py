@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,7 +13,7 @@ class B:
             "namespace": "",
         },
     )
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -32,7 +32,7 @@ class R:
             "namespace": "",
         },
     )
-    e1: List[object] = field(
+    e1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -40,7 +40,7 @@ class R:
             "max_occurs": 2,
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

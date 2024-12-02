@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://id044.ly/"
 
@@ -10,7 +10,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    section: List["Chap.Section"] = field(
+    section: list["Chap.Section"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -48,7 +48,7 @@ class Doc:
         name = "doc"
         namespace = "http://id044.ly/"
 
-    chap_or_appx: List[Union["Doc.Chap", "Doc.Appx"]] = field(
+    chap_or_appx: list[Union["Doc.Chap", "Doc.Appx"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

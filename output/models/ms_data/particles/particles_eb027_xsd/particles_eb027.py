@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -10,7 +9,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    a1: List[object] = field(
+    a1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -19,7 +18,7 @@ class Doc:
             "sequence": 1,
         },
     )
-    a2: List[object] = field(
+    a2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 
 @dataclass
 class Example:
-    x: List[
+    x: list[
         Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]
     ] = field(
         default_factory=list,

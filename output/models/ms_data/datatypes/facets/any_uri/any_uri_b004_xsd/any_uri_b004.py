@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 
 class St(Enum):
@@ -73,7 +73,7 @@ class Root:
     class Meta:
         name = "root"
 
-    bar: List[Bar] = field(
+    bar: list[Bar] = field(
         default_factory=list,
         metadata={
             "type": "Element",

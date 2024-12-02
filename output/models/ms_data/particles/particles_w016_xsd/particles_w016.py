@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -9,7 +9,7 @@ class Ct1:
     class Meta:
         name = "ct1"
 
-    foo: List[object] = field(
+    foo: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -50,7 +50,7 @@ class Ct2:
 
 @dataclass
 class B:
-    e1: List[Ct1] = field(
+    e1: list[Ct1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -60,7 +60,7 @@ class B:
             "sequence": 1,
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -70,7 +70,7 @@ class B:
             "sequence": 1,
         },
     )
-    e3: List[object] = field(
+    e3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -90,7 +90,7 @@ class Ct3(Ct1):
 
 @dataclass
 class R(B):
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -98,7 +98,7 @@ class R(B):
             "max_occurs": 9,
         },
     )
-    e3: List[object] = field(
+    e3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

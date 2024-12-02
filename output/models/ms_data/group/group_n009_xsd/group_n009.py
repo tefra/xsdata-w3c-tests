@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Elem:
     class Meta:
         name = "elem"
 
-    a1: List[object] = field(
+    a1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -16,7 +16,7 @@ class Elem:
             "sequence": 1,
         },
     )
-    a2: List[object] = field(
+    a2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -25,7 +25,7 @@ class Elem:
             "sequence": 1,
         },
     )
-    a3: List[object] = field(
+    a3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -34,7 +34,7 @@ class Elem:
             "sequence": 1,
         },
     )
-    a4: List[object] = field(
+    a4: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -43,7 +43,7 @@ class Elem:
             "sequence": 1,
         },
     )
-    a5: List[object] = field(
+    a5: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

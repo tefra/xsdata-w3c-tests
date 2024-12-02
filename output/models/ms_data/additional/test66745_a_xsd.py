@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -37,7 +37,7 @@ class Bar:
         name = "bar"
         namespace = "foo"
 
-    foo1_or_foo_or_bar: List[Union[Foo1, Foo, "Bar"]] = field(
+    foo1_or_foo_or_bar: list[Union[Foo1, Foo, "Bar"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

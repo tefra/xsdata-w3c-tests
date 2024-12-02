@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 
 class UnionAb(Enum):
@@ -31,7 +31,7 @@ class Root:
     class Meta:
         name = "root"
 
-    test: List[Test] = field(
+    test: list[Test] = field(
         default_factory=list,
         metadata={
             "type": "Element",

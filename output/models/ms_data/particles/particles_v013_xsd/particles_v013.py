@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import Any, ForwardRef, List, Optional, Union
+from typing import Any, ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    e1_or_e2_or_e3: List[Union["B.E1", "B.E2", "B.E3"]] = field(
+    e1_or_e2_or_e3: list[Union["B.E1", "B.E2", "B.E3"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

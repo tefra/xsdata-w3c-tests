@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-pattern-5-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListQnamePattern5:
         name = "NISTSchema-SV-IV-list-QName-pattern-5"
         namespace = "NISTSchema-SV-IV-list-QName-pattern-5-NS"
 
-    value: List[str] = field(
+    value: list[str] = field(
         default_factory=list,
         metadata={
             "pattern": r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{29} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{34} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{49} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{37} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{21} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{14}",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -21,21 +21,21 @@ class Foo:
     class Meta:
         name = "foo"
 
-    foo_element: List[object] = field(
+    foo_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "foo",
         },
     )
-    a_element: List[object] = field(
+    a_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "a",
         },
     )
-    b_element: List[object] = field(
+    b_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -26,7 +26,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    chap: List[Chap] = field(
+    chap: list[Chap] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Dict, Optional
+from typing import Optional
 
 __NAMESPACE__ = "1"
 
@@ -11,7 +11,7 @@ class Foo:
         name = "foo"
         namespace = "1"
 
-    value_2_attributes: Dict[str, str] = field(
+    value_2_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

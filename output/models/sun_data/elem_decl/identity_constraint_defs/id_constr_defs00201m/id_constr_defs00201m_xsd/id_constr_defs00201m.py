@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
-    account: List[str] = field(
+    account: list[str] = field(
         default_factory=list,
         metadata={
             "name": "Account",
@@ -20,7 +19,7 @@ class Root:
             "sequence": 1,
         },
     )
-    name: List[str] = field(
+    name: list[str] = field(
         default_factory=list,
         metadata={
             "name": "Name",
@@ -30,7 +29,7 @@ class Root:
             "sequence": 1,
         },
     )
-    manager: List[str] = field(
+    manager: list[str] = field(
         default_factory=list,
         metadata={
             "name": "Manager",

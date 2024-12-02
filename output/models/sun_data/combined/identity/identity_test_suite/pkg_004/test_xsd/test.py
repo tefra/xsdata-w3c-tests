@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -10,7 +10,7 @@ class Scope:
         name = "scope"
         namespace = "foo"
 
-    key_or_ref: List[Union["Scope.Key", "Scope.Ref"]] = field(
+    key_or_ref: list[Union["Scope.Key", "Scope.Ref"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -52,7 +52,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    scope: List[Scope] = field(
+    scope: list[Scope] = field(
         default_factory=list,
         metadata={
             "type": "Element",

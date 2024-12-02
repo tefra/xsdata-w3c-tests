@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from output.models.common.xsts_xsd.xml import LangValue
 
@@ -235,7 +235,7 @@ class ResourceType:
             "namespace": "http://www.w3.org/1999/xlink",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -308,7 +308,7 @@ class Simple:
             "namespace": "http://www.w3.org/1999/xlink",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -348,7 +348,7 @@ class TitleEltType:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

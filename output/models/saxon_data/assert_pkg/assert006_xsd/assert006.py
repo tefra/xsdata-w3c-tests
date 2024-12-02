@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -26,7 +26,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    inner: List[Derived] = field(
+    inner: list[Derived] = field(
         default_factory=list,
         metadata={
             "type": "Element",

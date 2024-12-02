@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v10"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v10"
 
-    d_time_stamp_pattern: List[str] = field(
+    d_time_stamp_pattern: list[str] = field(
         default_factory=list,
         metadata={
             "name": "dTimeStampPattern",

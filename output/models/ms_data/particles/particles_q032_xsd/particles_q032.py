@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import (
     E2 as ImpE2,
@@ -20,7 +20,7 @@ class B:
             "namespace": "",
         },
     )
-    target_namespace_foo_bar_element: List[object] = field(
+    target_namespace_foo_bar_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -54,7 +54,7 @@ class R:
             "namespace": "",
         },
     )
-    e2: List[Union[ImpE2, E2]] = field(
+    e2: list[Union[ImpE2, E2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -1,13 +1,12 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
-class ListType:
+class List:
     class Meta:
         name = "list"
 
-    value: List[int] = field(
+    value: list[int] = field(
         default_factory=list,
         metadata={
             "tokens": True,
@@ -20,7 +19,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    list_value: List[ListType] = field(
+    list_value: list[List] = field(
         default_factory=list,
         metadata={
             "name": "list",

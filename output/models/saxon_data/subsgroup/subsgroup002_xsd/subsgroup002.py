@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -60,7 +60,7 @@ class Back:
     class Meta:
         name = "back"
 
-    para: List[Para] = field(
+    para: list[Para] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -73,7 +73,7 @@ class Body:
     class Meta:
         name = "body"
 
-    para: List[Para] = field(
+    para: list[Para] = field(
         default_factory=list,
         metadata={
             "type": "Element",

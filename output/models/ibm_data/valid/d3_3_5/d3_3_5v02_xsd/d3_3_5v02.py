@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List
 
 __NAMESPACE__ = "a"
 
@@ -16,7 +15,7 @@ class Root:
         name = "root"
         namespace = "a"
 
-    number1: List[Num1] = field(
+    number1: list[Num1] = field(
         default_factory=list,
         metadata={
             "name": "Number1",
@@ -24,7 +23,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    number2: List[float] = field(
+    number2: list[float] = field(
         default_factory=list,
         metadata={
             "name": "Number2",

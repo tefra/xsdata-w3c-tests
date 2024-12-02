@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -26,7 +26,7 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: List[Union[No, Char, int]] = field(
+    att1: list[Union[No, Char, int]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 __NAMESPACE__ = "nsConstraint"
 
@@ -10,7 +9,7 @@ class A:
         name = "a"
         namespace = "nsConstraint"
 
-    ns_test1_ns_test2_attributes: Dict[str, str] = field(
+    ns_test1_ns_test2_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional, Union
+from typing import Any, Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns"
 
@@ -16,7 +16,7 @@ class TitleType:
             "type": "Attribute",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -77,7 +77,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    title: List[
+    title: list[
         Union[TitleType, StringTitleType, IntegerTitleType, MixedTitleType]
     ] = field(
         default_factory=list,

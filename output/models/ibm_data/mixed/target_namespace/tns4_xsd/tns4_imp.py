@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://test2"
 
@@ -19,7 +19,7 @@ class Y:
         name = "y"
         namespace = "http://test2"
 
-    a: List[A] = field(
+    a: list[A] = field(
         default_factory=list,
         metadata={
             "type": "Element",

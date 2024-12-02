@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -14,7 +14,7 @@ class PublicationType:
             "required": True,
         },
     )
-    author: List[str] = field(
+    author: list[str] = field(
         default_factory=list,
         metadata={
             "name": "Author",
@@ -39,7 +39,7 @@ class PublicationType:
 
 @dataclass
 class Example:
-    publication: List[Union[PublicationType, "Example.KindBook"]] = field(
+    publication: list[Union[PublicationType, "Example.KindBook"]] = field(
         default_factory=list,
         metadata={
             "name": "Publication",

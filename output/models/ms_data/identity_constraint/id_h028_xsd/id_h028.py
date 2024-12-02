@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -42,7 +42,7 @@ class Root:
     class Meta:
         name = "root"
 
-    uid: List[Uidtype] = field(
+    uid: list[Uidtype] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -50,7 +50,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    kid: List[Kid] = field(
+    kid: list[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",

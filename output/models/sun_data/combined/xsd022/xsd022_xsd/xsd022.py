@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://foo.com"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "http://foo.com"
 
-    child1_or_child2: List[Union["Root.Child1", "Root.Child2"]] = field(
+    child1_or_child2: list[Union["Root.Child1", "Root.Child2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -29,7 +29,7 @@ class Root:
 
     @dataclass
     class Child1:
-        value: List[str] = field(
+        value: list[str] = field(
             default_factory=list,
             metadata={
                 "min_length": 5,

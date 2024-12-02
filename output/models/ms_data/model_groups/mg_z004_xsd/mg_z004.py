@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional
+from typing import ForwardRef, Optional
 
 __NAMESPACE__ = "urn:test"
 
@@ -9,7 +9,7 @@ class Root:
     class Meta:
         namespace = "urn:test"
 
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

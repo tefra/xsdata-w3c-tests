@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from output.models.ms_data.identity_constraint.id_h022_xsd.id_h022_imp import (
     Iid,
@@ -37,20 +37,20 @@ class Root:
     class Meta:
         name = "root"
 
-    uid: List[Uid] = field(
+    uid: list[Uid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    iid: List[Iid] = field(
+    iid: list[Iid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "importNS",
         },
     )
-    kid: List[Kid] = field(
+    kid: list[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",

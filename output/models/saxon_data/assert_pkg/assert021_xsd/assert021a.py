@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://assert021.ns/"
 
@@ -10,7 +9,7 @@ class Temp:
         name = "temp"
         namespace = "http://assert021.ns/"
 
-    temp: List["Temp"] = field(
+    temp: list["Temp"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

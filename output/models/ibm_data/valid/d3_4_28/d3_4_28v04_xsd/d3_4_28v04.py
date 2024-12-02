@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -19,7 +19,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v04"
 
-    eld_time_stamp_union_a: List[Union[XmlDateTime, str]] = field(
+    eld_time_stamp_union_a: list[Union[XmlDateTime, str]] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeStampUnionA",
@@ -28,7 +28,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    eld_time_stamp_union_b: List[Union[XmlDateTime, int]] = field(
+    eld_time_stamp_union_b: list[Union[XmlDateTime, int]] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeStampUnionB",
@@ -37,7 +37,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    eld_time_stamp_union_c: List[str] = field(
+    eld_time_stamp_union_c: list[str] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeStampUnionC",

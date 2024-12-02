@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import A
 
@@ -12,7 +11,7 @@ class X:
         name = "x"
         namespace = "http://test1"
 
-    a: List[A] = field(
+    a: list[A] = field(
         default_factory=list,
         metadata={
             "wrapper": "y",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "foo"
 
@@ -9,7 +9,7 @@ class ComplexType:
     class Meta:
         name = "complexType"
 
-    root: List["Root"] = field(
+    root: list["Root"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

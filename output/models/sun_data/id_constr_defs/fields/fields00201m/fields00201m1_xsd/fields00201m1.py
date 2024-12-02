@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List
 
 __NAMESPACE__ = "IdConstrDefs/fields"
 
@@ -11,7 +10,7 @@ class Root:
         name = "root"
         namespace = "IdConstrDefs/fields"
 
-    number: List[Decimal] = field(
+    number: list[Decimal] = field(
         default_factory=list,
         metadata={
             "type": "Element",

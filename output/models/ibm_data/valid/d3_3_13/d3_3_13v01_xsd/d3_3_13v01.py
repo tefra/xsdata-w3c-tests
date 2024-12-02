@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -12,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_3_13_v01"
 
-    el_date: List[XmlPeriod] = field(
+    el_date: list[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "name": "elDate",

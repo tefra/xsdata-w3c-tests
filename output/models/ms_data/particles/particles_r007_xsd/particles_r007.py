@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,7 +13,7 @@ class B:
             "namespace": "",
         },
     )
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -32,7 +32,7 @@ class R:
             "namespace": "",
         },
     )
-    e1_or_e2: List[Union["R.E1", "R.E2"]] = field(
+    e1_or_e2: list[Union["R.E1", "R.E2"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

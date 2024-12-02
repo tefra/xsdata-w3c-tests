@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 from xsdata.models.datatype import XmlDate
 
@@ -12,7 +12,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/IBMd3_16v06"
 
-    union_element: List[Union[XmlDate, int, str]] = field(
+    union_element: list[Union[XmlDate, int, str]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
-    element_or_element_ref_or_element_refs: List[
+    element_or_element_ref_or_element_refs: list[
         Union["Root.Element", "Root.ElementRef", "Root.ElementRefs"]
     ] = field(
         default_factory=list,
@@ -56,7 +56,7 @@ class Root:
 
     @dataclass
     class ElementRefs:
-        value: List[str] = field(
+        value: list[str] = field(
             default_factory=list,
             metadata={
                 "tokens": True,

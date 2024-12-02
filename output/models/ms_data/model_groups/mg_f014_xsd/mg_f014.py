@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    w3_org_1999_xhtml_element: List[object] = field(
+    w3_org_1999_xhtml_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

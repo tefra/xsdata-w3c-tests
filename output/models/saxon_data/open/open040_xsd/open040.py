@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from output.models.saxon_data.open.open040_xsd.open040x import Beta
 
@@ -23,7 +23,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

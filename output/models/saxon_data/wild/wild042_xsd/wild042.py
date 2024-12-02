@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 
 @dataclass
@@ -7,7 +6,7 @@ class Computer:
     class Meta:
         name = "computer"
 
-    w3_org_2001_xmlschema_instance_attributes: Dict[str, str] = field(
+    w3_org_2001_xmlschema_instance_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

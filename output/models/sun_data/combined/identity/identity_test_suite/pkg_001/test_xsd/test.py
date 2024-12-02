@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    key_or_ref: List[Union["Root.Key", "Root.Ref"]] = field(
+    key_or_ref: list[Union["Root.Key", "Root.Ref"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

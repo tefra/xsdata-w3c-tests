@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -55,7 +55,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    mixed_or_element_only: List[Union["Root.Mixed", "Root.ElementOnly"]] = (
+    mixed_or_element_only: list[Union["Root.Mixed", "Root.ElementOnly"]] = (
         field(
             default_factory=list,
             metadata={
@@ -76,7 +76,7 @@ class Root:
 
     @dataclass
     class Mixed:
-        content: List[object] = field(
+        content: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
@@ -101,7 +101,7 @@ class Root:
 
     @dataclass
     class ElementOnly:
-        a_or_b_or_c: List[Union[A, B, C]] = field(
+        a_or_b_or_c: list[Union[A, B, C]] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",

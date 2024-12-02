@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 
 @dataclass
@@ -28,7 +28,7 @@ class C:
     class Meta:
         name = "c"
 
-    value: List[float] = field(
+    value: list[float] = field(
         default_factory=list,
         metadata={
             "tokens": True,
@@ -41,7 +41,7 @@ class D:
     class Meta:
         name = "d"
 
-    value: List[Union[float, int, bool]] = field(
+    value: list[Union[float, int, bool]] = field(
         default_factory=list,
         metadata={
             "tokens": True,
@@ -62,7 +62,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[Union[D, C, B, A, Item]] = field(
+    choice: list[Union[D, C, B, A, Item]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

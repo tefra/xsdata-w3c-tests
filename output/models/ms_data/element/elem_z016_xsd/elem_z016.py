@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
@@ -33,7 +32,7 @@ class Idrefs:
     class Meta:
         name = "IDREFS"
 
-    value: List[str] = field(
+    value: list[str] = field(
         default_factory=list,
         metadata={
             "tokens": True,
@@ -43,7 +42,7 @@ class Idrefs:
 
 @dataclass
 class DataTypes:
-    id: List[Id] = field(
+    id: list[Id] = field(
         default_factory=list,
         metadata={
             "name": "ID",
@@ -53,7 +52,7 @@ class DataTypes:
             "sequence": 1,
         },
     )
-    idref: List[Idref] = field(
+    idref: list[Idref] = field(
         default_factory=list,
         metadata={
             "name": "IDREF",
@@ -63,7 +62,7 @@ class DataTypes:
             "sequence": 1,
         },
     )
-    idrefs: List[Idrefs] = field(
+    idrefs: list[Idrefs] = field(
         default_factory=list,
         metadata={
             "name": "IDREFS",
@@ -77,7 +76,7 @@ class DataTypes:
 
 @dataclass
 class Root:
-    data_types: List[DataTypes] = field(
+    data_types: list[DataTypes] = field(
         default_factory=list,
         metadata={
             "name": "DataTypes",

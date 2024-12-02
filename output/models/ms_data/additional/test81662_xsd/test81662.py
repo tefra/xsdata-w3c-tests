@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -47,7 +47,7 @@ class Ct3:
     class Meta:
         name = "ct3"
 
-    element1_or_any_element: List[Union["Ct3.Element1", object]] = field(
+    element1_or_any_element: list[Union["Ct3.Element1", object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -84,7 +84,7 @@ class Ct4:
     class Meta:
         name = "ct4"
 
-    any_element_or_element1: List[Union["Ct4.Element1", object]] = field(
+    any_element_or_element1: list[Union["Ct4.Element1", object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -126,7 +126,7 @@ class Ct5:
             "type": "Element",
         },
     )
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -147,7 +147,7 @@ class Ct6:
             "type": "Element",
         },
     )
-    any_element: List[object] = field(
+    any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -204,42 +204,42 @@ class Test:
     class Meta:
         name = "test"
 
-    e1: List[Ct1] = field(
+    e1: list[Ct1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    e2: List[Ct2] = field(
+    e2: list[Ct2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    e3: List[Ct3] = field(
+    e3: list[Ct3] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    e4: List[Ct4] = field(
+    e4: list[Ct4] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    e5: List[Ct5] = field(
+    e5: list[Ct5] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    e6: List[Ct6] = field(
+    e6: list[Ct6] = field(
         default_factory=list,
         metadata={
             "type": "Element",

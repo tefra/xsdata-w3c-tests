@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_2_4"
 
@@ -25,7 +25,7 @@ class C1:
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
         },
     )
-    element2: List[object] = field(
+    element2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

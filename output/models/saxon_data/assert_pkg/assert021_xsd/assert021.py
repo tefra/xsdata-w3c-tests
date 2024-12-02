@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from output.models.saxon_data.assert_pkg.assert021_xsd.assert021a import Temp
 
@@ -12,7 +11,7 @@ class Doc:
         name = "doc"
         namespace = "http://assert021.ns/"
 
-    temp: List[Temp] = field(
+    temp: list[Temp] = field(
         default_factory=list,
         metadata={
             "type": "Element",

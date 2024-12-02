@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 
 class UidValue(Enum):
@@ -14,7 +14,7 @@ class Uid:
     class Meta:
         name = "uid"
 
-    pid: List[UidValue] = field(
+    pid: list[UidValue] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -41,7 +41,7 @@ class Root:
     class Meta:
         name = "root"
 
-    uid: List[Uid] = field(
+    uid: list[Uid] = field(
         default_factory=list,
         metadata={
             "type": "Element",

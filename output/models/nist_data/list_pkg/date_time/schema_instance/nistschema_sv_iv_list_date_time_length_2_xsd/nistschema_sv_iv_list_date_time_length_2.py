@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -12,7 +11,7 @@ class NistschemaSvIvListDateTimeLength2:
         name = "NISTSchema-SV-IV-list-dateTime-length-2"
         namespace = "NISTSchema-SV-IV-list-dateTime-length-2-NS"
 
-    value: List[XmlDateTime] = field(
+    value: list[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "length": 6,

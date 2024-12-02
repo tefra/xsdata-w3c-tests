@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 __NAMESPACE__ = "http://foobar"
 
@@ -10,7 +9,7 @@ class Foo:
         name = "foo"
         namespace = "http://foobar"
 
-    target_namespace_attributes: Dict[str, str] = field(
+    target_namespace_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

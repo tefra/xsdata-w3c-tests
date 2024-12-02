@@ -5,7 +5,7 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class TypeType:
+class Type:
     class Meta:
         name = "_-."
         namespace = "ElemDecl/name"
@@ -38,7 +38,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    low_line_hyphen_minus_full_stop: Optional[TypeType] = field(
+    low_line_hyphen_minus_full_stop: Optional[Type] = field(
         default=None,
         metadata={
             "name": "_-.",

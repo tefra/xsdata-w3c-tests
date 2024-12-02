@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v07"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v07"
 
-    eld_time_etzone_optional_fderived_optional: List[str] = field(
+    eld_time_etzone_optional_fderived_optional: list[str] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeETzoneOptionalFDerivedOptional",
@@ -21,7 +20,7 @@ class Root:
             "explicit_timezone": "optional",
         },
     )
-    eld_time_etzone_optional_fderived_required: List[str] = field(
+    eld_time_etzone_optional_fderived_required: list[str] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeETzoneOptionalFDerivedRequired",
@@ -32,7 +31,7 @@ class Root:
             "explicit_timezone": "required",
         },
     )
-    eld_time_etzone_optional_fderived_prohibited: List[str] = field(
+    eld_time_etzone_optional_fderived_prohibited: list[str] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeETzoneOptionalFDerivedProhibited",
@@ -43,7 +42,7 @@ class Root:
             "explicit_timezone": "prohibited",
         },
     )
-    eld_time_etzone_optional_tderived_optional: List[str] = field(
+    eld_time_etzone_optional_tderived_optional: list[str] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeETzoneOptionalTDerivedOptional",

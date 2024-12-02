@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "tns"
 
@@ -33,7 +33,7 @@ class AddressType:
             "type": "Attribute",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -60,7 +60,7 @@ class ItemType:
     class Meta:
         name = "itemType"
 
-    address: List[Union[AddressType, UsaddressType, CanaddressType]] = field(
+    address: list[Union[AddressType, UsaddressType, CanaddressType]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -76,7 +76,7 @@ class Invoice:
         name = "invoice"
         namespace = "tns"
 
-    item: List[ItemType] = field(
+    item: list[ItemType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

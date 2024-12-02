@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from output.models.ms_data.particles.particles_r020_xsd.particles_r020_imp import (
     ImpElem1,
@@ -18,7 +18,7 @@ class B:
             "namespace": "",
         },
     )
-    other_element: List[object] = field(
+    other_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

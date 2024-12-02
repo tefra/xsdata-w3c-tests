@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Inner:
     class Meta:
         name = "inner"
 
-    a: List["Inner.A"] = field(
+    a: list["Inner.A"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -30,7 +30,7 @@ class Inner:
 
     @dataclass
     class A:
-        b: List[object] = field(
+        b: list[object] = field(
             default_factory=list,
             metadata={
                 "type": "Element",
@@ -44,7 +44,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    inner: List[Inner] = field(
+    inner: list[Inner] = field(
         default_factory=list,
         metadata={
             "type": "Element",

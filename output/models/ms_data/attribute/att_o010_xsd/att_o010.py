@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -20,7 +20,7 @@ class Doc:
 
     @dataclass
     class Elem:
-        att: List[str] = field(
+        att: list[str] = field(
             init=False,
             default_factory=lambda: [
                 "A",

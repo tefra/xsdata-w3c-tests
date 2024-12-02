@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional, Union
+from typing import Any, Optional, Union
 
 __NAMESPACE__ = "tns"
 
@@ -21,7 +21,7 @@ class ChildType:
             "type": "Attribute",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -67,7 +67,7 @@ class Root:
         name = "root"
         namespace = "tns"
 
-    child: List[Union[ChildType, DerivedType1, DerivedType2]] = field(
+    child: list[Union[ChildType, DerivedType1, DerivedType2]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

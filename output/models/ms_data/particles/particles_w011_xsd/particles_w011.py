@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    e1: List[object] = field(
+    e1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -16,7 +16,7 @@ class B:
             "sequence": 1,
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -26,7 +26,7 @@ class B:
             "sequence": 1,
         },
     )
-    e3: List[object] = field(
+    e3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -40,7 +40,7 @@ class B:
 
 @dataclass
 class R(B):
-    e1: List[object] = field(
+    e1: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -48,7 +48,7 @@ class R(B):
             "max_occurs": 9,
         },
     )
-    e2: List[object] = field(
+    e2: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -56,7 +56,7 @@ class R(B):
             "max_occurs": 9,
         },
     )
-    e3: List[object] = field(
+    e3: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

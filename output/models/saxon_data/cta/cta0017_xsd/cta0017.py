@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlPeriod, XmlTime
 
@@ -43,7 +43,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    event: List[Event] = field(
+    event: list[Event] = field(
         default_factory=list,
         metadata={
             "type": "Element",

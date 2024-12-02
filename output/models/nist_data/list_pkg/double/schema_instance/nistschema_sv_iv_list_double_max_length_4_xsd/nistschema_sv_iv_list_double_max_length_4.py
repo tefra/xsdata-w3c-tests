@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-double-maxLength-4-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListDoubleMaxLength4:
         name = "NISTSchema-SV-IV-list-double-maxLength-4"
         namespace = "NISTSchema-SV-IV-list-double-maxLength-4-NS"
 
-    value: List[float] = field(
+    value: list[float] = field(
         default_factory=list,
         metadata={
             "max_length": 8,

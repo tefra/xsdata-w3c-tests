@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -9,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[XmlPeriod] = field(
+    value: list[XmlPeriod] = field(
         init=False,
         default_factory=lambda: [
             XmlPeriod("2004"),

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-float-length-5-NS"
 
@@ -10,7 +9,7 @@ class NistschemaSvIvListFloatLength5:
         name = "NISTSchema-SV-IV-list-float-length-5"
         namespace = "NISTSchema-SV-IV-list-float-length-5-NS"
 
-    value: List[float] = field(
+    value: list[float] = field(
         default_factory=list,
         metadata={
             "length": 10,

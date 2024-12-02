@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Optional
 
 
 @dataclass
@@ -23,7 +23,7 @@ class FooType:
             "required": True,
         },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

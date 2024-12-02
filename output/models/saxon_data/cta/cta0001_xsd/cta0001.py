@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any, Dict, List, Optional
+from typing import Any, Optional
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
@@ -26,14 +26,14 @@ class MessageType:
             "type": "Attribute",
         },
     )
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -175,7 +175,7 @@ class Messages:
     class Meta:
         name = "messages"
 
-    message: List[Message] = field(
+    message: list[Message] = field(
         default_factory=list,
         metadata={
             "type": "Element",

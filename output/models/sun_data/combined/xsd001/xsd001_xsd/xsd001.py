@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://foo.com"
 
@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "http://foo.com"
 
-    child: List["Root.Child"] = field(
+    child: list["Root.Child"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

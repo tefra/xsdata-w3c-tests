@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Dict
 
 
 @dataclass
@@ -7,7 +6,7 @@ class Zing1:
     class Meta:
         name = "zing"
 
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -21,7 +20,7 @@ class ExtendedZing(Zing1):
     class Meta:
         name = "extendedZing"
 
-    local_attributes: Dict[str, str] = field(
+    local_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

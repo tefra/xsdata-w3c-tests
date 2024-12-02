@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -35,7 +35,7 @@ class X:
 
     @dataclass
     class A:
-        a1: List[str] = field(
+        a1: list[str] = field(
             default_factory=list,
             metadata={
                 "type": "Element",
@@ -85,7 +85,7 @@ class Y:
 
     @dataclass
     class A:
-        a1: List[str] = field(
+        a1: list[str] = field(
             default_factory=list,
             metadata={
                 "type": "Element",

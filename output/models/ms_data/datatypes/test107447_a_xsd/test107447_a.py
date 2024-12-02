@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
@@ -55,7 +54,7 @@ class Root:
             "required": True,
         },
     )
-    idrefs: List[str] = field(
+    idrefs: list[str] = field(
         init=False,
         default_factory=lambda: [
             "John",
@@ -73,7 +72,7 @@ class Root:
             "required": True,
         },
     )
-    nmtokens: List[str] = field(
+    nmtokens: list[str] = field(
         init=False,
         default_factory=lambda: [
             "John",

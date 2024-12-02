@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from output.models.ms_data.wildcards.wild_z003_a_xsd.wild_z003_b import Elem
 
@@ -26,7 +26,7 @@ class Elt1:
             "required": True,
         },
     )
-    other_element: List[object] = field(
+    other_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",

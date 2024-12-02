@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-maxLength-5-NS"
@@ -11,7 +10,7 @@ class NistschemaSvIvListQnameMaxLength5:
         name = "NISTSchema-SV-IV-list-QName-maxLength-5"
         namespace = "NISTSchema-SV-IV-list-QName-maxLength-5-NS"
 
-    value: List[QName] = field(
+    value: list[QName] = field(
         default_factory=list,
         metadata={
             "max_length": 10,

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlTime
 
@@ -49,7 +49,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    appendix_or_chap: List[Union[Appendix, Chap]] = field(
+    appendix_or_chap: list[Union[Appendix, Chap]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

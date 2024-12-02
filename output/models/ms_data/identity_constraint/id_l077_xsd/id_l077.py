@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional
+from typing import ForwardRef, Optional
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
@@ -16,7 +16,7 @@ class Ttype:
             "namespace": "myNS.tempuri.org",
         },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -83,7 +83,7 @@ class Root:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t: List[T] = field(
+    t: list[T] = field(
         default_factory=list,
         metadata={
             "type": "Element",

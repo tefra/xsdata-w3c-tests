@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "http://xstest-tns/schema11"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11"
 
-    ele: List[bytes] = field(
+    ele: list[bytes] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 __NAMESPACE__ = "ns-a"
 
@@ -9,7 +9,7 @@ class BCt:
     class Meta:
         name = "b-ct"
 
-    c21_or_c22: List[Union["BCt.C21", "BCt.C22"]] = field(
+    c21_or_c22: list[Union["BCt.C21", "BCt.C22"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Idrefs:
     class Meta:
         name = "idrefs"
 
-    idref_subelement: List[str] = field(
+    idref_subelement: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -34,7 +34,7 @@ class Ids:
     class Meta:
         name = "ids"
 
-    idref_element: List[Idrefs] = field(
+    idref_element: list[Idrefs] = field(
         default_factory=list,
         metadata={
             "type": "Element",

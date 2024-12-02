@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 
 @dataclass
@@ -20,7 +19,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: List[FooTest] = field(
+    foo_test: list[FooTest] = field(
         default_factory=list,
         metadata={
             "name": "fooTest",

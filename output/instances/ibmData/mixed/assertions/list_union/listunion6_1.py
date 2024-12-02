@@ -1,7 +1,7 @@
-from output.models.ibm_data.mixed.assertions.list_union.listunion6_xsd.listunion6 import ListType
+from output.models.ibm_data.mixed.assertions.list_union.listunion6_xsd.listunion6 import List
 
 
-obj = ListType(
+obj = List(
     value=[
         2,
         4,

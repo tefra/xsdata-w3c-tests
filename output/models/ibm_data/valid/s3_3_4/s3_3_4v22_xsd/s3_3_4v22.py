@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -37,7 +37,7 @@ class Root:
 
     @dataclass
     class MultipleIds(Ids):
-        idref_element: List[str] = field(
+        idref_element: list[str] = field(
             default_factory=list,
             metadata={
                 "type": "Element",

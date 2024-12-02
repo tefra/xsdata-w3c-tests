@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDuration
 
@@ -9,7 +9,7 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: List[XmlDuration] = field(
+    comp_foo: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -24,7 +24,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: List[XmlDuration] = field(
+    value: list[XmlDuration] = field(
         default_factory=list,
         metadata={
             "tokens": True,

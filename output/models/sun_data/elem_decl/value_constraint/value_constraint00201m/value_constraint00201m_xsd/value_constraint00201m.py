@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List
 
 __NAMESPACE__ = "ElemDecl/valueConstraint"
 
@@ -10,7 +9,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    twelve: List[str] = field(
+    twelve: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

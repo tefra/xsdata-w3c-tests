@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -24,7 +24,7 @@ class FooType:
                 "required": True,
             },
         )
-        attr_test: List[str] = field(
+        attr_test: list[str] = field(
             default_factory=list,
             metadata={
                 "name": "attrTest",

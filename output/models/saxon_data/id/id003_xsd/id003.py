@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, ForwardRef, List, Optional, Union
+from typing import ForwardRef, Optional, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id: List[Union["Node", str]] = field(
+    node_or_id: list[Union["Node", str]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -30,7 +30,7 @@ class Node:
             "type": "Attribute",
         },
     )
-    any_attributes: Dict[str, str] = field(
+    any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -44,7 +44,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    node: List[Node] = field(
+    node: list[Node] = field(
         default_factory=list,
         metadata={
             "type": "Element",

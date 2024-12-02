@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
+from typing import Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlTime
 
@@ -11,7 +11,7 @@ class DocType:
     class Meta:
         name = "doc-type"
 
-    chap: List[Union[XmlDate, XmlDateTime, XmlTime]] = field(
+    chap: list[Union[XmlDate, XmlDateTime, XmlTime]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -47,7 +47,7 @@ class Book:
         name = "book"
         namespace = "http://simple010.ly/"
 
-    subdoc_or_doc: List[Union[Subdoc, Doc]] = field(
+    subdoc_or_doc: list[Union[Subdoc, Doc]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

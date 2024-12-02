@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "foo"
 
@@ -24,7 +24,7 @@ class ComplexType:
             "namespace": "foo",
         },
     )
-    root: List["Root"] = field(
+    root: list["Root"] = field(
         default_factory=list,
         metadata={
             "type": "Element",

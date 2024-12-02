@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
@@ -73,7 +73,7 @@ class Data:
     class Meta:
         name = "data"
 
-    timer: List[TimerType] = field(
+    timer: list[TimerType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -82,7 +82,7 @@ class Data:
             "max_occurs": 3,
         },
     )
-    parent: List[ParentType] = field(
+    parent: list[ParentType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
@@ -40,14 +40,14 @@ class Root:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    uid: List[Uidtype] = field(
+    uid: list[Uidtype] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    kid: List[Kid] = field(
+    kid: list[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",

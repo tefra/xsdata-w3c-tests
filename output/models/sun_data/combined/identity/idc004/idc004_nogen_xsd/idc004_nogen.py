@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://www.vehicle.org"
 
@@ -10,7 +10,7 @@ class Person:
         name = "person"
         namespace = "http://www.vehicle.org"
 
-    car: List["Person.Car"] = field(
+    car: list["Person.Car"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -63,20 +63,20 @@ class State:
         name = "state"
         namespace = "http://www.vehicle.org"
 
-    code: List[str] = field(
+    code: list[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         },
     )
-    vehicle: List[Vehicle] = field(
+    vehicle: list[Vehicle] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    person: List[Person] = field(
+    person: list[Person] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -90,7 +90,7 @@ class Root:
         name = "root"
         namespace = "http://www.vehicle.org"
 
-    state: List[State] = field(
+    state: list[State] = field(
         default_factory=list,
         metadata={
             "type": "Element",

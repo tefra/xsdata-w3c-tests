@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp import (
     E2 as ImpE2,
@@ -20,7 +20,7 @@ class B:
             "namespace": "",
         },
     )
-    foo_bar_element: List[object] = field(
+    foo_bar_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -39,7 +39,7 @@ class R:
             "namespace": "",
         },
     )
-    e2: List[ImpE2] = field(
+    e2: list[ImpE2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -48,7 +48,7 @@ class R:
             "sequence": 1,
         },
     )
-    bar_e2: List[Imp2E2] = field(
+    bar_e2: list[Imp2E2] = field(
         default_factory=list,
         metadata={
             "name": "e2",

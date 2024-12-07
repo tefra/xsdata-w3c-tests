@@ -105,7 +105,7 @@ def test_assert_035_assert_035_2(mode, save_output, output_format):
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion6.xsd",
         instance="ibmData/mixed/assertions/list_union/listunion6_1.xml",
-        class_name="ListType",
+        class_name="List",
         version="1.1",
         mode=mode,
         save_output=save_output,

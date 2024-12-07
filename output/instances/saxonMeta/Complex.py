@@ -2956,6 +2956,190 @@ obj = TestSet(
             ],
             name='unique003'
         ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Derivation by extension; locally element-only'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the extension is locally element-only then if one type\n                has variety=mixed, then both must have variety=mixed'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
+                ),
+                DocumentationReference(
+                    href='https://stackoverflow.com/questions/78940667'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Complex/complex023.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2024, 9, 3)
+                ),
+                name='complex001.xsd'
+            ),
+            name='complex023'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Derivation by extension; locally element-only'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the extension is locally element-only then if one type\n                has variety=mixed, then both must have variety=mixed'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
+                ),
+                DocumentationReference(
+                    href='https://stackoverflow.com/questions/78940667'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Complex/complex024.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2024, 9, 3)
+                ),
+                name='complex001.xsd'
+            ),
+            name='complex024'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Derivation by extension; locally empty'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the extension is locally empty then the {content type}\n                    of the base type is inherited, including the mixed="true" setting,\n                    even if the derived type says mixed="false".'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
+                ),
+                DocumentationReference(
+                    href='https://stackoverflow.com/questions/78940667'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Complex/complex025.bad.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2024, 9, 3)
+                ),
+                name='complex001.xsd'
+            ),
+            name='complex025'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Derivation by extension; locally empty'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the extension is locally empty then the {content type}\n                    of the base type is inherited, including the mixed="true" setting,\n                    even if the derived type says mixed="false".'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema-1/#d0e13819'
+                ),
+                DocumentationReference(
+                    href='https://stackoverflow.com/questions/78940667'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Complex/complex026.bad.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2024, 9, 3)
+                ),
+                name='complex001.xsd'
+            ),
+            name='complex026'
+        ),
     ],
     contributor='Saxonica',
     name='Complex',

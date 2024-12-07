@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
@@ -1901,7 +1899,6 @@ def test_attg_d004_attg_d004_v(mode, save_output, output_format):
     )
 
 
-@pytest.mark.skip(reason="Stack abuse")
 def test_attg_d003_attg_d003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup

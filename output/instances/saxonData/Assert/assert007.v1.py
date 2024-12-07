@@ -1,4 +1,4 @@
-from output.models.saxon_data.assert_pkg.assert007_xsd.assert007 import Game
+from output.models.saxon_data.assert_pkg.assert008_xsd.assert008 import Game
 
 
 obj = Game(

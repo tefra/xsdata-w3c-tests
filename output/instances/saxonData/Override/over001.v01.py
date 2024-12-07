@@ -1,4 +1,4 @@
-from output.models.saxon_data.override.over023_xsd.over023 import Doc
+from output.models.saxon_data.override.over001_xsd.over001 import Doc
 from xsdata.models.datatype import XmlDate
 
 

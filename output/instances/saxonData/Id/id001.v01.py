@@ -1,20 +1,26 @@
-from output.models.saxon_data.id.id001_xsd.id001 import Doc
-from output.models.saxon_data.id.id001_xsd.id001 import Para
+from output.models.saxon_data.id.id002_xsd.id002 import Doc
+from output.models.saxon_data.id.id002_xsd.id002 import Para
 
 
 obj = Doc(
     para=[
         Para(
             id_one='aaa',
-            id_two='bbb'
+            any_attributes={
+                'id-two': 'bbb',
+            }
         ),
         Para(
             id_one='ccc',
-            id_two='ddd'
+            any_attributes={
+                'id-two': 'ddd',
+            }
         ),
         Para(
             id_one='eee',
-            id_two='eee'
+            any_attributes={
+                'id-two': 'eee',
+            }
         ),
     ]
 )

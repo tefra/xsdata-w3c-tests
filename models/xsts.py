@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import Dict, List, Optional, Union
+from typing import Optional, Union
+
 from xsdata.models.datatype import XmlDate
+
 from models.xlink import TypeType
 from models.xml import LangValue
 
@@ -19,31 +21,30 @@ class Appinfo:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
 class ExpectedOutcome(Enum):
-    """<div>
+    """<div> <p> Enumerates the possible values for the prescribed outcome of a
+    test.
 
-    <p>
-    Enumerates the possible values for the prescribed outcome
-    of a test.  Values include both (a) the possible values of
+    Values include both (a) the possible values of
     type <a href="#type_test-outcome">ts:test-outcome</a> and
     the following additional values:
     </p>
@@ -96,12 +97,16 @@ class ExpectedOutcome(Enum):
     <tt>indeterminate</tt>
     </dt>
     <dd>The intended result is indeterminate for one of the
-    following reasons, or for other reasons:<ul><li>The result is under-determined (the spec is vague
+    following reasons, or for other reasons:<ul>
+    <li>The result is under-determined (the spec is vague
     or underspecified), but not described explicitly as
     varying among conforming implementations.
-    </li><li>The spec imposed contradictory requirements on the
+    </li>
+    <li>The spec imposed contradictory requirements on the
     result. (I.e. the result is
-    <em>over-determined.)</em></li><li>
+    <em>over-determined.)</em>
+    </li>
+    <li>
     There is an unresolved dispute within the working
     group as to what the spec requires the result to be.
     (This includes cases where the working group cannot
@@ -110,7 +115,9 @@ class ExpectedOutcome(Enum):
     implementation-defined or not, as well as cases
     where the group cannot agree on how to apply the
     spec to the case in hand.)
-    </li></ul></dd>
+    </li>
+    </ul>
+    </dd>
     </dl>
     <p>N.B. the values <tt>implementation-dependent</tt> and
     <tt>implementation-defined</tt> should be used only when
@@ -138,6 +145,7 @@ class ExpectedOutcome(Enum):
     </p>
     </div>
     """
+
     VALID = "valid"
     INVALID = "invalid"
     NOT_KNOWN = "notKnown"
@@ -149,17 +157,17 @@ class ExpectedOutcome(Enum):
 
 
 class KnownToken(Enum):
-    """<div>
+    """<div> <p>Tokens to denote well-known (i.e. documented) versions, features,
+    or implementation-defined behaviors, of XSD.</p> <p>The <tt>known-token</tt>
+    type is a union of several other types, each with an enumeration of values.
 
-    <p>Tokens to denote well-known (i.e. documented) versions, features,
-    or implementation-defined behaviors, of XSD.</p> <p>The <tt>known-
-    token</tt> type is a union of several other types, each with an
-    enumeration of values.  Each sub-type defines keywords for a set of
-    mutually exclusive versions, features, or behaviors, such that in
-    any given schema validation episode, at most one keyword in any
-    subtype will apply.  For examples, see the various subtypes defined
-    immediately below. </p> </div>
+    Each sub-type defines keywords for a set of mutually exclusive
+    versions, features, or behaviors, such that in any given schema
+    validation episode, at most one keyword in any subtype will apply.
+    For examples, see the various subtypes defined immediately below.
+    </p> </div>
     """
+
     VALUE_1_0 = "1.0"
     VALUE_1_1 = "1.1"
     VALUE_1_0_1E = "1.0-1e"
@@ -179,7 +187,16 @@ class KnownToken(Enum):
     COMMENTS_AND_PIS_INCLUDED = "comments-and-PIs-included"
 
 
+class SchemaDocumentRefRole(Enum):
+    PRINCIPAL = "principal"
+    IMPORTED = "imported"
+    INCLUDED = "included"
+    REDEFINED = "redefined"
+    OVERRIDDEN = "overridden"
+
+
 class Status(Enum):
+    SUBMITTED = "submitted"
     ACCEPTED = "accepted"
     STABLE = "stable"
     QUERIED = "queried"
@@ -188,10 +205,8 @@ class Status(Enum):
 
 
 class TestOutcome(Enum):
-    """<div>
+    """<div> <p> Enumerates the possible outcomes of running a test.
 
-    <p>
-    Enumerates the possible outcomes of running a test.
     Usually, these are values of the <tt>[validity]</tt>
     property on the validation root.
     </p>
@@ -257,6 +272,7 @@ class TestOutcome(Enum):
     </dl>
     </div>
     """
+
     VALID = "valid"
     INVALID = "invalid"
     NOT_KNOWN = "notKnown"
@@ -278,47 +294,46 @@ class Documentation:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     lang: Optional[Union[str, LangValue]] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
-    content: List[object] = field(
+    content: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
 @dataclass
 class Expected:
-    """<div>
+    """<div> <p>The validation outcome prescribed by the spec for a test in the
+    XSTS.</p> <p>This element has one optional attribute:</p> <ul> <li>
 
-    <p>The validation outcome prescribed by the spec
-    for a test in the XSTS.</p>
-    <p>This element has one optional attribute:</p>
-    <ul>
-    <li>
-    <p><tt>version</tt> - a list of version tokens.
+    <p>
+    <tt>version</tt> - a list of version tokens.
     The result specified is applicable to processor
     configurations supporting <em>all</em> of the
     indicated versions or features of XSD.
     See the definition of the
-    <a href="#type_version-info"><tt>version-info</tt></a>
+    <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.
     </p>
     <p>It is an error for more than one <tt>expected</tt>
@@ -330,18 +345,24 @@ class Expected:
     </p>
     </li>
     </ul>
-    <p class="note">Note: The meaning of the <tt>version</tt></p>
+    <p class="note">Note: The meaning of the <tt>version</tt>
+    attribute on this element differs from its meaning
+    elsewhere.</p>
     <p>
     On tests and elements for groups of
     tests (<tt>testGroup</tt> etc.), a <tt>version</tt>
-    attribute of the form <code>version="<i>x</i><i>y</i><i>z</i>"</code> means "If <strong>any</strong> of
+    attribute of the form <code>version="<i>x</i>
+    <i>y</i>
+    <i>z</i>"</code> means "If <strong>any</strong> of
     <tt>x</tt>, <tt>y</tt>, or <tt>z</tt> are supported, tests
     in this group are applicable."
     </p>
     <p>On the <tt>expected</tt> element, the
     meaning changes in a crucial way: the tokens are connected
     with an implicit <tt>and</tt>, not an <tt>or</tt>. So
-    <code>version="<i>x</i><i>y</i><i>z</i>"</code> means
+    <code>version="<i>x</i>
+    <i>y</i>
+    <i>z</i>"</code> means
     "If <strong>all</strong> of <tt>x</tt>, <tt>y</tt>, or
     <tt>z</tt> are supported, the prescribed outcome is as
     described.  So on a test group, <code>version="1.0
@@ -361,7 +382,8 @@ class Expected:
     <p>And one required attribute:</p>
     <ul>
     <li>
-    <p><tt>validity</tt> - indicates the expected outcome
+    <p>
+    <tt>validity</tt> - indicates the expected outcome
     of the test, using a value of type
     <a href="#type_expected-outcome">ts:expected-outcome</a>.</p>
     <p>
@@ -382,6 +404,7 @@ class Expected:
     </ul>
     </div>
     """
+
     class Meta:
         name = "expected"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -391,55 +414,56 @@ class Expected:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
 @dataclass
 class Annotation:
-    """<div>
+    """<div> <p> This is an exact copy of the <tt>annotation</tt> element defined
+    in the Schema Recommendation.
 
-    <p> This is an exact copy of the <tt>annotation</tt> element defined
-    in the Schema Recommendation. It is duplicated here in order to
-    replicate the functionality of the <tt>xsd:annotation</tt> element
-    and because the Schema for Schemas cannot be imported. </p> </div>
+    It is duplicated here in order to replicate the functionality of the
+    <tt>xsd:annotation</tt> element and because the Schema for Schemas
+    cannot be imported. </p> </div>
     """
+
     class Meta:
         name = "annotation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    appinfo: List[Appinfo] = field(
+    appinfo: list[Appinfo] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    documentation: List[Documentation] = field(
+    documentation: list[Documentation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -448,33 +472,34 @@ class Ref:
     class Meta:
         name = "ref"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-        }
+        },
     )
-    type: TypeType = field(
+    type_value: TypeType = field(
         default=TypeType.LOCATOR,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     href: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -483,47 +508,46 @@ class StatusEntry:
     class Meta:
         name = "statusEntry"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-        }
+        },
     )
     status: Optional[Status] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     bugzilla: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "pattern": r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*",
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
 @dataclass
 class TestResult:
     """<div>
-
     <p>
     The result of an individual instance test or a schema test.
     </p>
@@ -531,19 +555,23 @@ class TestResult:
     This element has four required attributes:
     </p>
     <ul>
-    <li><tt>validity</tt> - the validition outcome of the test.
+    <li>
+    <tt>validity</tt> - the validition outcome of the test.
     A value of type <a href="#type_expected-outcome">ts:expected-outcome</a>,
     i.e.
     one of "<tt>valid</tt>", "<tt>invalid</tt>",
     "<tt>notKnown</tt>", or "<tt>runtime-schema-error</tt>".
     </li>
-    <li><tt>set</tt> - the value of the "<tt>name</tt>"
+    <li>
+    <tt>set</tt> - the value of the "<tt>name</tt>"
     attribute of the test set to which the test belongs.
     </li>
-    <li><tt>group</tt> - the value of the "<tt>name</tt>"
+    <li>
+    <tt>group</tt> - the value of the "<tt>name</tt>"
     attribute of the test group to which the test belongs.
     </li>
-    <li><tt>test</tt> - the value of the "<tt>name</tt>"
+    <li>
+    <tt>test</tt> - the value of the "<tt>name</tt>"
     attribute of the schema test or instance test, the
     validation outcome of which this result reports.
     </li>
@@ -559,7 +587,8 @@ class TestResult:
     This element has one optional attribute:
     </p>
     <ul>
-    <li><tt>normalizedLoad</tt> - a relative load value, intended as an indicator
+    <li>
+    <tt>normalizedLoad</tt> - a relative load value, intended as an indicator
     of the resource requirements of an individual
     test. Values may be based on processing time,
     memory usage or a combination of the two.
@@ -568,7 +597,8 @@ class TestResult:
     </ul>
     <p>The element has one optional element:</p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of more detailed
+    <li>
+    <tt>annotation</tt> - zero or more instances of more detailed
     (<tt>ts:documentation</tt>) or structured (<tt>ts:appinfo</tt>)
     information or commentary regarding the individual
     test result. Reporters are encouraged to use
@@ -576,76 +606,75 @@ class TestResult:
     information, such as error and warning messages.
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
+
     class Meta:
         name = "testResult"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     validity: Optional[TestOutcome] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     set: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     group: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     test: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     normalized_load: Optional[Decimal] = field(
         default=None,
         metadata={
             "name": "normalizedLoad",
             "type": "Attribute",
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
 @dataclass
 class Current(StatusEntry):
-    """<div>
+    """<div> <p>The current status of a test in the XSTS.</p> <p>This element has
+    two attributes, both of which are required:</p> <ul>
 
-    <p>The current status of a test in the XSTS.</p>
-    <p>This element has two attributes, both of which are
-    required:</p>
-    <ul>
-    <li><tt>status</tt> - the status of the test. One of
+    <li>
+    <tt>status</tt> - the status of the test. One of
     "<tt>accepted</tt>", "<tt>stable</tt>",
     "<tt>disputed-test</tt>" or "<tt>disputed-spec</tt>"
     (see the XSTS website for an explanation of these values).
     </li>
-    <li><tt>date</tt> - the date on which the test or the
+    <li>
+    <tt>date</tt> - the date on which the test or the
     metadata (including the value in the
     <tt>status</tt> attribute, but also anything else
     of importance) was last changed.
@@ -653,6 +682,7 @@ class Current(StatusEntry):
     </ul>
     </div>
     """
+
     class Meta:
         name = "current"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -660,12 +690,12 @@ class Current(StatusEntry):
 
 @dataclass
 class DocumentationReference(Ref):
-    """<div>
+    """<div> <p> A link to documentation relevant to a test, such as a link to the
+    Recommendation, an erratum, an archived email discussion, etc.
 
-    <p> A link to documentation relevant to a test, such as a link to
-    the Recommendation, an erratum, an archived email discussion, etc.
     </p> </div>
     """
+
     class Meta:
         name = "documentationReference"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -680,18 +710,17 @@ class InstanceDocument(Ref):
 
 @dataclass
 class Prior(StatusEntry):
-    """<div>
+    """<div> <p>A former status of a test in the XSTS.</p> <p>This element has two
+    attributes, both of which are required:</p> <ul>
 
-    <p>A former status of a test in the XSTS.</p>
-    <p>This element has two attributes, both of which are
-    required:</p>
-    <ul>
-    <li><tt>status</tt> - the former status of the test. One of
+    <li>
+    <tt>status</tt> - the former status of the test. One of
     "<tt>accepted</tt>", "<tt>stable</tt>",
     "<tt>disputed-test</tt>" or "<tt>disputed-spec</tt>"
     (see the XSTS website for an explanation of these values).
     </li>
-    <li><tt>date</tt> - the date on which the test or the
+    <li>
+    <tt>date</tt> - the date on which the test or the
     metadata (including the value in the
     <tt>status</tt> attribute, but also anything else
     of importance) was last changed.
@@ -699,16 +728,32 @@ class Prior(StatusEntry):
     </ul>
     </div>
     """
+
     class Meta:
         name = "prior"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
 @dataclass
-class SchemaDocument(Ref):
+class SchemaDocumentRef(Ref):
+    """
+    :ivar role: <div> <p> Describes how the schema document is used. A
+        "principal" schema document is not referenced from any other;
+        the other roles indicate that a schema document is referenced
+        from others using xs:import, xs:include, xs:redefines, or
+        xs:override. </p> <p>This attribute is a late introduction and
+        is not widely used.</p> </div>
+    """
+
     class Meta:
-        name = "schemaDocument"
-        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+        name = "schemaDocumentRef"
+
+    role: Optional[SchemaDocumentRefRole] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        },
+    )
 
 
 @dataclass
@@ -721,7 +766,6 @@ class TestSetRef(Ref):
 @dataclass
 class TestSuiteResults:
     """<div>
-
     <p>
     This is the root element of a document containing a test
     result report. The report takes the form of a set of test
@@ -732,24 +776,28 @@ class TestSuiteResults:
     It has three required attributes:
     </p>
     <ul>
-    <li><tt>suite</tt> - the name of the test suite to which
+    <li>
+    <tt>suite</tt> - the name of the test suite to which
     these results correspond.  This should be the value of
     the <tt>name</tt> attribute of the <tt>testSuite</tt>
     element at the root of the test suite document
     describing the tests to which these results correspond.
     </li>
-    <li><tt>processor</tt> - some identifying information for
+    <li>
+    <tt>processor</tt> - some identifying information for
     the processor/ validator which produced the reported
     results. The value of this attribute is left to the
     discretion of the reporter.
     </li>
-    <li><tt>submitDate</tt> - the date on which these results
+    <li>
+    <tt>submitDate</tt> - the date on which these results
     were submitted to the XSTS Task Force.
     </li>
     </ul>
     <p>The element also has one optional attribute:</p>
     <ul>
-    <li><tt>publicationPermission</tt> - the degree to which the
+    <li>
+    <tt>publicationPermission</tt> - the degree to which the
     result reporter authorizes the W3C to disseminate the
     reported results. One of "<tt>W3C members</tt>" or
     "<tt>public</tt>" (see the XSTS website for an explanation
@@ -759,49 +807,51 @@ class TestSuiteResults:
     </ul>
     <p>This element has two optional elements:</p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of more
+    <li>
+    <tt>annotation</tt> - zero or more instances of more
     detailed (<tt>ts:documentation</tt>) or structured
     (<tt>ts:appinfo</tt>) information or commentary
     regarding the enclosed test results.
     </li>
-    <li><tt>testResult</tt> - any number of reports of the
+    <li>
+    <tt>testResult</tt> - any number of reports of the
     results of individual tests. Any results may be omitted,
     particularly those for tests of features for which the
     processor claims no support.
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
+
     class Meta:
         name = "testSuiteResults"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    test_result: List[TestResult] = field(
+    test_result: list[TestResult] = field(
         default_factory=list,
         metadata={
             "name": "testResult",
             "type": "Element",
-        }
+        },
     )
     suite: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     processor: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     submit_date: Optional[XmlDate] = field(
         default=None,
@@ -809,28 +859,29 @@ class TestSuiteResults:
             "name": "submitDate",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    publication_permission: Optional[TestSuiteResultsPublicationPermission] = field(
-        default=None,
-        metadata={
-            "name": "publicationPermission",
-            "type": "Attribute",
-        }
+    publication_permission: Optional[TestSuiteResultsPublicationPermission] = (
+        field(
+            default=None,
+            metadata={
+                "name": "publicationPermission",
+                "type": "Attribute",
+            },
+        )
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
 @dataclass
 class InstanceTest:
     """<div>
-
     <p>
     This element groups together information about an instance
     document which should be validated against the schema
@@ -856,10 +907,12 @@ class InstanceTest:
     attribute:
     </p>
     <ul>
-    <li><tt>name</tt> - the name of the instance document, which
+    <li>
+    <tt>name</tt> - the name of the instance document, which
     must differ from the name of any other
     <tt>schemaTest</tt> or <tt>instanceTest</tt> element
-    within the enclosing <tt>testGroup</tt></li>
+    within the enclosing <tt>testGroup</tt>
+    </li>
     </ul>
     <p>
     and one attribute which is optional, for signaling
@@ -868,7 +921,8 @@ class InstanceTest:
     </p>
     <ul>
     <li>
-    <p><tt>version</tt> - Tests which only apply to certain
+    <p>
+    <tt>version</tt> - Tests which only apply to certain
     versions of XML Schema list those versions in the
     <tt>version</tt> attribute.
     </p>
@@ -883,7 +937,9 @@ class InstanceTest:
     </p>
     <p>
     The value is a list of version tokens.  See the
-    definition of the <a href="#type_version-info"><tt>version-info</tt></a>
+    definition of the <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.</p>
     <p class="note">Note: running instance tests with a
     processor for an inapplicable version may produce an
@@ -898,7 +954,8 @@ class InstanceTest:
     One child element is required:
     </p>
     <ul>
-    <li><tt>instanceDocument</tt> - a link to a file containing
+    <li>
+    <tt>instanceDocument</tt> - a link to a file containing
     the instance document.
     </li>
     </ul>
@@ -906,19 +963,23 @@ class InstanceTest:
     Four child elements may optionally be present:
     </p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of general
+    <li>
+    <tt>annotation</tt> - zero or more instances of general
     documentation</li>
-    <li><tt>expected</tt> - the prescribed validation outcome for
+    <li>
+    <tt>expected</tt> - the prescribed validation outcome for
     the instance document.  Optional, and repeatable.
     Each <tt>expected</tt> element indicates the result
     on this test for a particular set of versions of the
     language.
     </li>
-    <li><tt>current</tt> - the current status of this test in
+    <li>
+    <tt>current</tt> - the current status of this test in
     the XSTS (an indication of the test's accuracy in testing
     the feature it is intended to test).
     </li>
-    <li><tt>prior</tt> - the history of any changes in the
+    <li>
+    <tt>prior</tt> - the history of any changes in the
     status of this test.
     </li>
     </ul>
@@ -929,19 +990,21 @@ class InstanceTest:
     </p>
     <p>The <tt>current</tt> and <tt>prior</tt> elements should
     be used to keep a change history of the test; see
-    discussion under the <a href="#elem_schemaTest"><tt>schemaTest</tt></a> element.
+    discussion under the <a href="#elem_schemaTest">
+    <tt>schemaTest</tt>
+    </a> element.
     </p>
-    </div>
-    """
+    </div>"""
+
     class Meta:
         name = "instanceTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     instance_document: Optional[InstanceDocument] = field(
         default=None,
@@ -949,241 +1012,76 @@ class InstanceTest:
             "name": "instanceDocument",
             "type": "Element",
             "required": True,
-        }
+        },
     )
-    expected: List[Expected] = field(
+    expected: list[Expected] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     current: Optional[Current] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    prior: List[Prior] = field(
+    prior: list[Prior] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
 @dataclass
-class SchemaTest:
-    """<div>
-
-    <p>
-    This element groups together information about the schema
-    for a particular test group.
-    </p>
-    <p>
-    It has one attribute which is required:
-    </p>
-    <ul>
-    <li><tt>name</tt> - the name of the schema test, which must be
-    unique within the enclosing <tt>testGroup</tt> (i.e. it must
-    differ from the name(s) of any associated <tt>instanceTest</tt>
-    elements).
-    </li>
-    </ul>
-    <p>
-    and one attribute which is optional, for identifying a subset
-    of versions and/or editions for which the test is valid:
-    </p>
-    <ul>
-    <li>
-    <p><tt>version</tt> - Tests which only apply to certain
-    versions of XML Schema list those versions in the
-    <tt>version</tt> attribute.  Processors supporting
-    <em>any</em> version or feature indicated by a keyword
-    in the attribute should run the test.  (Or, phrased
-    more declaratively: the test is meaningful to any
-    processor which supports any of the features or
-    versions listed.)
-    </p>
-    <p>If no value is specified, all processors which
-    haven't already skipped the enclosing test group,
-    test set, or test suite should run the test.
-    </p>
-    <p>
-    The value is a list of version tokens.  See the
-    definition of the <a href="#type_version-info"><tt>version-info</tt></a>
-    type.</p>
-    <p>Note that the omission of a version token on a schema
-    test is in some sense strictly advisory: any schema
-    test is meaningful for any processor in any
-    configuration.  For processor configurations not
-    supporting any of the features or versions named, the
-    expected result is that the schema is not a conforming
-    schema.  This will <em>not</em> be indicated with an
-    explicit <tt>expected</tt> element.
-    </p>
-    </li>
-    </ul>
-    <p>
-    One child element is required:
-    </p>
-    <ul>
-    <li><tt>schemaDocument</tt> - at least one link to a file
-    containing a schema document. The schema for the test is
-    constructed from the set (or from other schemas via
-    import).
-    </li>
-    </ul>
-    <p>Four child elements may optionally be present:</p>
-    <ul>
-    <li><tt>annotation</tt> - zero or more instances of general
-    documentation</li>
-    <li><tt>expected</tt> - indicates the conformance or
-    non-conformance of the schema described by the schema
-    document(s)
-    (<tt>valid</tt> = conformant, <tt>invalid</tt> =
-    non-conformant).
-    </li>
-    <li><tt>current</tt> - the current status of this test in
-    the XSTS (an indication of the test's accuracy in testing
-    the feature it is intended to test).
-    </li>
-    <li><tt>prior</tt> - the history of any changes in the
-    status of this test.
-    </li>
-    </ul>
-    <p>
-    The elements "<tt>expected</tt>" and "<tt>current</tt>"
-    may be absent when tests are contributed, but will always
-    be present for tests included in the XSTS.
-    </p>
-    <p>
-    The <tt>current</tt> and <tt>prior</tt> elements were originally
-    designed for tracking changes of status in tests; they can and
-    should be used to keep a general change history of the test.
-    Whenever anything changes that may be of importance for users
-    of the test suite, it is appropriate to clone the existing
-    <tt>current</tt> element into a pair of similar elements, then
-    rename the second one <tt>prior</tt>.  In the new <tt>current</tt>
-    element, the change made should be described in the
-    <tt>annotation</tt> children, and the date of the change
-    should be recorded.
-    </p>
-    <p>
-    Examples:  The status of the test changes.  The expected
-    result is questions and reaffirmed.  The expected result is
-    changed, or multiple expected results are given for different
-    processor configurations.
-    </p>
-    <p>
-    For status changes involving bug reports, the relevant status
-    entries should have a Bugzilla cross-reference.
-    </p>
-    </div>
-    """
+class SchemaDocument(SchemaDocumentRef):
     class Meta:
-        name = "schemaTest"
+        name = "schemaDocument"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
-    annotation: List[Annotation] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    schema_document: List[SchemaDocument] = field(
-        default_factory=list,
-        metadata={
-            "name": "schemaDocument",
-            "type": "Element",
-            "min_occurs": 1,
-        }
-    )
-    expected: List[Expected] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    current: Optional[Current] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        }
-    )
-    prior: List[Prior] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    name: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        }
-    )
-    version: List[Union[KnownToken, Decimal, str]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Attribute",
-            "tokens": True,
-        }
-    )
-    other_attributes: Dict[str, str] = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##other",
-        }
-    )
 
 
 @dataclass
 class TestSuite:
-    """<div>
+    """<div> <p> The root element of a document describing a set of tests for one
+    or more versions of W3C XML Schema. </p> <p> The element has three attributes,
+    each of which is required: </p> <ul> <li>
 
     <p>
-    The root element of a document describing a set of tests for one
-    or more versions of W3C XML Schema.
-    </p>
-    <p>
-    The element has three attributes, each of which is required:
-    </p>
-    <ul>
-    <li>
-    <p><tt>name</tt> - the name of this test suite.
+    <tt>name</tt> - the name of this test suite.
     </p>
     </li>
     <li>
-    <p><tt>releaseDate</tt> - the date on which this test
+    <p>
+    <tt>releaseDate</tt> - the date on which this test
     suite was released. This value serves to identify the
     version of the test suite.
     </p>
     </li>
     <li>
-    <p><tt>schemaVersion</tt> - the versions of XSD for which
+    <p>
+    <tt>schemaVersion</tt> - the versions of XSD for which
     the tests are designed.  This has documentary function
     only, and is intended for human readers.  The
     machine-processable version information is handled by
@@ -1191,7 +1089,8 @@ class TestSuite:
     </p>
     </li>
     <li>
-    <p><tt>version</tt> - a list of version tokens indicating
+    <p>
+    <tt>version</tt> - a list of version tokens indicating
     versions and features for which at least some tests in the
     test suite are applicable.
     </p>
@@ -1223,37 +1122,40 @@ class TestSuite:
     Two child elements may optionally be present:
     </p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of
+    <li>
+    <tt>annotation</tt> - zero or more instances of
     general documentation.</li>
-    <li><tt>testSetRef</tt> - a set of references to the sets
+    <li>
+    <tt>testSetRef</tt> - a set of references to the sets
     of tests which make up this test suite. No two test sets
     referenced may have the same name.</li>
     </ul>
     </div>
     """
+
     class Meta:
         name = "testSuite"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    test_set_ref: List[TestSetRef] = field(
+    test_set_ref: list[TestSetRef] = field(
         default_factory=list,
         metadata={
             "name": "testSetRef",
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     release_date: Optional[XmlDate] = field(
         default=None,
@@ -1261,7 +1163,7 @@ class TestSuite:
             "name": "releaseDate",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     schema_version: Optional[str] = field(
         default=None,
@@ -1269,28 +1171,203 @@ class TestSuite:
             "name": "schemaVersion",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
+    )
+
+
+@dataclass
+class SchemaTest:
+    """<div>
+    <p>
+    This element groups together information about the schema
+    for a particular test group.
+    </p>
+    <p>
+    It has one attribute which is required:
+    </p>
+    <ul>
+    <li>
+    <tt>name</tt> - the name of the schema test, which must be
+    unique within the enclosing <tt>testGroup</tt> (i.e. it must
+    differ from the name(s) of any associated <tt>instanceTest</tt>
+    elements).
+    </li>
+    </ul>
+    <p>
+    and one attribute which is optional, for identifying a subset
+    of versions and/or editions for which the test is valid:
+    </p>
+    <ul>
+    <li>
+    <p>
+    <tt>version</tt> - Tests which only apply to certain
+    versions of XML Schema list those versions in the
+    <tt>version</tt> attribute.  Processors supporting
+    <em>any</em> version or feature indicated by a keyword
+    in the attribute should run the test.  (Or, phrased
+    more declaratively: the test is meaningful to any
+    processor which supports any of the features or
+    versions listed.)
+    </p>
+    <p>If no value is specified, all processors which
+    haven't already skipped the enclosing test group,
+    test set, or test suite should run the test.
+    </p>
+    <p>
+    The value is a list of version tokens.  See the
+    definition of the <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
+    type.</p>
+    <p>Note that the omission of a version token on a schema
+    test is in some sense strictly advisory: any schema
+    test is meaningful for any processor in any
+    configuration.  For processor configurations not
+    supporting any of the features or versions named, the
+    expected result is that the schema is not a conforming
+    schema.  This will <em>not</em> be indicated with an
+    explicit <tt>expected</tt> element.
+    </p>
+    </li>
+    </ul>
+    <p>
+    One child element is required:
+    </p>
+    <ul>
+    <li>
+    <tt>schemaDocument</tt> - at least one link to a file
+    containing a schema document. The schema for the test is
+    constructed from the set (or from other schemas via
+    import).
+    </li>
+    </ul>
+    <p>Four child elements may optionally be present:</p>
+    <ul>
+    <li>
+    <tt>annotation</tt> - zero or more instances of general
+    documentation</li>
+    <li>
+    <tt>expected</tt> - indicates the conformance or
+    non-conformance of the schema described by the schema
+    document(s)
+    (<tt>valid</tt> = conformant, <tt>invalid</tt> =
+    non-conformant).
+    </li>
+    <li>
+    <tt>current</tt> - the current status of this test in
+    the XSTS (an indication of the test's accuracy in testing
+    the feature it is intended to test).
+    </li>
+    <li>
+    <tt>prior</tt> - the history of any changes in the
+    status of this test.
+    </li>
+    </ul>
+    <p>
+    The elements "<tt>expected</tt>" and "<tt>current</tt>"
+    may be absent when tests are contributed, but will always
+    be present for tests included in the XSTS.
+    </p>
+    <p>
+    The <tt>current</tt> and <tt>prior</tt> elements were originally
+    designed for tracking changes of status in tests; they can and
+    should be used to keep a general change history of the test.
+    Whenever anything changes that may be of importance for users
+    of the test suite, it is appropriate to clone the existing
+    <tt>current</tt> element into a pair of similar elements, then
+    rename the second one <tt>prior</tt>.  In the new <tt>current</tt>
+    element, the change made should be described in the
+    <tt>annotation</tt> children, and the date of the change
+    should be recorded.
+    </p>
+    <p>
+    Examples:  The status of the test changes.  The expected
+    result is questions and reaffirmed.  The expected result is
+    changed, or multiple expected results are given for different
+    processor configurations.
+    </p>
+    <p>
+    For status changes involving bug reports, the relevant status
+    entries should have a Bugzilla cross-reference.
+    </p>
+    </div>"""
+
+    class Meta:
+        name = "schemaTest"
+        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+
+    annotation: list[Annotation] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        },
+    )
+    schema_document: list[SchemaDocument] = field(
+        default_factory=list,
+        metadata={
+            "name": "schemaDocument",
+            "type": "Element",
+            "min_occurs": 1,
+        },
+    )
+    expected: list[Expected] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        },
+    )
+    current: Optional[Current] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+        },
+    )
+    prior: list[Prior] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        },
+    )
+    name: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        },
+    )
+    version: list[Union[KnownToken, Decimal, str]] = field(
+        default_factory=list,
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        },
+    )
+    other_attributes: dict[str, str] = field(
+        default_factory=dict,
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        },
     )
 
 
 @dataclass
 class TestGroup:
     """<div>
-
     <p>
     This element groups a collection of closely related
     tests. All instance tests in the group are to be
@@ -1306,7 +1383,8 @@ class TestGroup:
     required:
     </p>
     <ul>
-    <li><tt>name</tt> - an identifier for the <tt>testGroup</tt>
+    <li>
+    <tt>name</tt> - an identifier for the <tt>testGroup</tt>
     which differs from the name of any other
     <tt>testGroup</tt> in the enclosing <tt>testSet</tt>.
     </li>
@@ -1316,7 +1394,8 @@ class TestGroup:
     </p>
     <ul>
     <li>
-    <p><tt>version</tt> - a list of version tokens, indicating
+    <p>
+    <tt>version</tt> - a list of version tokens, indicating
     that the tests in the group are applicable to implementations
     supporting <em>any</em> of the versions or features
     or behaviors indicated.  Any processor or processor
@@ -1324,7 +1403,9 @@ class TestGroup:
     indicated should run the tests.  Processors which support
     <em>none</em> of them can skip the entire test set.
     See the definition of the
-    <a href="#type_version-info"><tt>version-info</tt></a>
+    <a href="#type_version-info">
+    <tt>version-info</tt>
+    </a>
     type.
     </p>
     <p>
@@ -1339,17 +1420,20 @@ class TestGroup:
     </p>
     <ul>
     <li>
-    <p><tt>annotation</tt> - zero or more instances of
+    <p>
+    <tt>annotation</tt> - zero or more instances of
     general documentation.</p>
     </li>
     <li>
-    <p><tt>documentationReference</tt> - any number of
+    <p>
+    <tt>documentationReference</tt> - any number of
     references to external documentation upon which the
     test is based, e.g. links to relevant sections of the
     Recommendation, to the Errata, etc.</p>
     </li>
     <li>
-    <p><tt>schemaTest</tt> - at most on <tt>schemaTest</tt>
+    <p>
+    <tt>schemaTest</tt> - at most on <tt>schemaTest</tt>
     element, containing any number of
     <tt>schemaDocument</tt> elements, each of which holds
     information on a single schema document.
@@ -1398,72 +1482,72 @@ class TestGroup:
     </p>
     </li>
     <li>
-    <p><tt>instanceTest</tt> - any number of elements, each
+    <p>
+    <tt>instanceTest</tt> - any number of elements, each
     of which holds information on a single instance
     document to be validated against the included
     schema.</p>
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
+
     class Meta:
         name = "testGroup"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    documentation_reference: List[DocumentationReference] = field(
+    documentation_reference: list[DocumentationReference] = field(
         default_factory=list,
         metadata={
             "name": "documentationReference",
             "type": "Element",
-        }
+        },
     )
     schema_test: Optional[SchemaTest] = field(
         default=None,
         metadata={
             "name": "schemaTest",
             "type": "Element",
-        }
+        },
     )
-    instance_test: List[InstanceTest] = field(
+    instance_test: list[InstanceTest] = field(
         default_factory=list,
         metadata={
             "name": "instanceTest",
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
 
 
 @dataclass
 class TestSet:
     """<div>
-
     <p>
     The root element of a document describing a set of tests,
     normally from a single contributor.  A contributor may
@@ -1482,18 +1566,21 @@ class TestSet:
     </p>
     <ul>
     <li>
-    <p><tt>contributor (required)</tt> - the name of the contributor of
+    <p>
+    <tt>contributor (required)</tt> - the name of the contributor of
     this <tt>testSet</tt>.  May contain any string of characters;
     intended for human readers.</p>
     </li>
     <li>
-    <p><tt>name (required)</tt> - the name of this <tt>testSet</tt>,
+    <p>
+    <tt>name (required)</tt> - the name of this <tt>testSet</tt>,
     which must be a name unique among the names of
     <tt>testSet</tt> elements within the enclosing
     <tt>testSuite</tt>.</p>
     </li>
     <li>
-    <p><tt>version (optional)</tt> - a list of version tokens indicating
+    <p>
+    <tt>version (optional)</tt> - a list of version tokens indicating
     versions and features for which at least some tests in the
     test set are applicable.</p>
     <p>Any processor or processor configuration which
@@ -1521,60 +1608,62 @@ class TestSet:
     Two child elements may optionally be present:
     </p>
     <ul>
-    <li><tt>annotation</tt> - zero or more instances of general
+    <li>
+    <tt>annotation</tt> - zero or more instances of general
     documentation.
     </li>
-    <li><tt>testGroup</tt> - a set of <tt>testGroup</tt>
+    <li>
+    <tt>testGroup</tt> - a set of <tt>testGroup</tt>
     elements, each of which defines a group of closely
     related tests.
     No two <tt>testGroup</tt> elements in the same
     <tt>testSet</tt> may have the same name.
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
+
     class Meta:
         name = "testSet"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    annotation: List[Annotation] = field(
+    annotation: list[Annotation] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
-    test_group: List[TestGroup] = field(
+    test_group: list[TestGroup] = field(
         default_factory=list,
         metadata={
             "name": "testGroup",
             "type": "Element",
-        }
+        },
     )
     contributor: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
-    version: List[Union[KnownToken, Decimal, str]] = field(
+    version: list[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
-    other_attributes: Dict[str, str] = field(
+    other_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )

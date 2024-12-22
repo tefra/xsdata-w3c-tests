@@ -131,6 +131,7 @@ def generate_models(
     result = runner.invoke(
         cli,
         [
+            "generate",
             xsd,
             "-ss",
             structure_style,

@@ -1,4 +1,4 @@
-from output.models.saxon_data.wild.wild006_xsd.wild006 import Eden
+from output.models.saxon_data.wild.wild004_xsd.wild004 import Eden
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 

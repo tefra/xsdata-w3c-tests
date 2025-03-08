@@ -1,4 +1,4 @@
-from output.models.saxon_data.wild.wild005_xsd.wild005 import Eden
+from output.models.saxon_data.wild.wild003_xsd.wild003 import Eden
 
 
 obj = Eden(

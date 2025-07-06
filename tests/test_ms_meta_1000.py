@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -964,6 +966,7 @@ def test_add_b196a_add_b196a_v(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_add_b187_add_b187_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for

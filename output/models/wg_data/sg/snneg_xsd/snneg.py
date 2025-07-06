@@ -11,11 +11,13 @@ class E:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: str = field(
-        default='',
+        default="",
         metadata={
             "required": True,
-        }
+        },
     )
+
+
 @dataclass
 class N:
     class Meta:
@@ -23,11 +25,13 @@ class N:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: str = field(
-        default='',
+        default="",
         metadata={
             "required": True,
-        }
+        },
     )
+
+
 @dataclass
 class N1:
     class Meta:
@@ -35,11 +39,13 @@ class N1:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: str = field(
-        default='',
+        default="",
         metadata={
             "required": True,
-        }
+        },
     )
+
+
 @dataclass
 class S:
     class Meta:
@@ -47,11 +53,13 @@ class S:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: str = field(
-        default='',
+        default="",
         metadata={
             "required": True,
-        }
+        },
     )
+
+
 @dataclass
 class S1:
     class Meta:
@@ -59,11 +67,13 @@ class S1:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: str = field(
-        default='',
+        default="",
         metadata={
             "required": True,
-        }
+        },
     )
+
+
 @dataclass
 class T:
     s1_or_s: Optional[Union[S1, S]] = field(
@@ -82,7 +92,7 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
             ),
-        }
+        },
     )
     n: Optional[N] = field(
         default=None,
@@ -90,15 +100,17 @@ class T:
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
             "required": True,
-        }
+        },
     )
     any_element: list[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
+
+
 @dataclass
 class Test(T):
     class Meta:

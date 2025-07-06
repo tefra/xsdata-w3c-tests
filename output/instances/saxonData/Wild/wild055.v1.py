@@ -1,4 +1,4 @@
-from output.models.saxon_data.wild.wild056_xsd.wild056 import Doc
+from output.models.saxon_data.wild.wild055_xsd.wild055 import Doc
 
 
 obj = Doc(

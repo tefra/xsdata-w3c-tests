@@ -694,10 +694,9 @@ class Current(StatusEntry):
 
 @dataclass
 class DocumentationReference(Ref):
-    """<div> <p> A link to documentation relevant to a test, such as a link to the
-    Recommendation, an erratum, an archived email discussion, etc.
-
-    </p> </div>
+    """
+    <div> <p> A link to documentation relevant to a test, such as a link to the
+    Recommendation, an erratum, an archived email discussion, etc. </p> </div>
     """
 
     class Meta:

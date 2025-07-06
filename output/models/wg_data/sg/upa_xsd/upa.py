@@ -11,11 +11,13 @@ class E:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: str = field(
-        default='',
+        default="",
         metadata={
             "required": True,
-        }
+        },
     )
+
+
 @dataclass
 class E1:
     class Meta:
@@ -27,8 +29,10 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
+
+
 @dataclass
 class T:
     e_or_e1: Optional[Union[E, str]] = field(
@@ -47,8 +51,10 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
             ),
-        }
+        },
     )
+
+
 @dataclass
 class Test(T):
     class Meta:

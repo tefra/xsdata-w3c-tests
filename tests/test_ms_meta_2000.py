@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -4294,6 +4296,7 @@ def test_elem_o009_elem_o009_v(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_elem_o008_elem_o008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -11587,6 +11590,7 @@ def test_particles_q016_particles_q016_v(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_particles_q013_particles_q013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

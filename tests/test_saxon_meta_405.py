@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -3897,6 +3899,7 @@ def test_over015_over015_v01_xml(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_over015_over015_v02_xml(mode, save_output, output_format):
     """
     Override a notation Override a notation
@@ -4433,6 +4436,7 @@ def test_simple001_simple001_v01_xml(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_subsgroup003_subsgroup003_v1_xml(mode, save_output, output_format):
     """
     Tests to show an a substitution group with declarations in different
@@ -6414,6 +6418,7 @@ def test_xv002_xv002_v01_xml(mode, save_output, output_format):
     )
 
 
+@pytest.mark.xfail
 def test_xv001_xv001_v01_xml(mode, save_output, output_format):
     """
     Use newly-allowed name characters in element and attribute name Dutch

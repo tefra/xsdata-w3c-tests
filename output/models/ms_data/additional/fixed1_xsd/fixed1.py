@@ -8,9 +8,8 @@ class Doc:
     class Meta:
         name = "doc"
 
-    foo: str = field(
-        init=False,
-        default="Ѐfixed",
+    foo: None | str = field(
+        default=None,
         metadata={
             "type": "Element",
             "namespace": "",

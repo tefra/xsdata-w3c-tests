@@ -41,17 +41,19 @@ class Root:
     @dataclass(kw_only=True)
     class Element:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class ElementRef:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)

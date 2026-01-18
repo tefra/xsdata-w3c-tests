@@ -69,65 +69,73 @@ class Nametest:
     @dataclass(kw_only=True)
     class Ele:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class LowLineHyphenMinus:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class LowLineFullStop:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class Type9:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class LowLineLowLineLowLine:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class AA:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class AAA:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class AEle:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 

@@ -108,33 +108,37 @@ class Buyer:
     @dataclass(kw_only=True)
     class FName:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class MiddlName:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class LName:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class Establishment:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 

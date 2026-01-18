@@ -42,8 +42,9 @@ class Root:
     @dataclass(kw_only=True)
     class Child2:
         value: bool | str = field(
+            default="",
             metadata={
                 "required": True,
                 "min_length": 5,
-            }
+            },
         )

@@ -40,17 +40,19 @@ class MyType:
     @dataclass(kw_only=True)
     class MyElement:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class MyElement2:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 

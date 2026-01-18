@@ -37,9 +37,10 @@ class Node:
             nillable = True
 
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
@@ -49,9 +50,10 @@ class Node:
             nillable = True
 
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 

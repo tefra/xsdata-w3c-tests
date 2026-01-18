@@ -1,7 +1,7 @@
-from output.models.saxon_data.wild.wild102_xsd.wild102 import Doc
-from output.models.saxon_data.wild.wild102_xsd.wild102 import Note
-from output.models.saxon_data.wild.wild102_xsd.wild102 import P
-from output.models.saxon_data.wild.wild102_xsd.wild102 import Wrapper
+from output.models.saxon_data.wild.wild101_xsd.wild101 import Doc
+from output.models.saxon_data.wild.wild101_xsd.wild101 import Note
+from output.models.saxon_data.wild.wild101_xsd.wild101 import P
+from output.models.saxon_data.wild.wild101_xsd.wild101 import Wrapper
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 

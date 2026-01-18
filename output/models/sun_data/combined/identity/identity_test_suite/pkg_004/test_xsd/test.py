@@ -32,17 +32,19 @@ class Scope:
     @dataclass(kw_only=True)
     class Key:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class Ref:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 

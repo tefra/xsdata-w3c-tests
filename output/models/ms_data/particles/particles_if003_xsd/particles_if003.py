@@ -33,17 +33,19 @@ class Base:
     @dataclass(kw_only=True)
     class E1:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class E2:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 
@@ -74,17 +76,19 @@ class Testing(Base):
     @dataclass(kw_only=True)
     class E1:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
     @dataclass(kw_only=True)
     class E2:
         value: str = field(
+            default="",
             metadata={
                 "required": True,
-            }
+            },
         )
 
 

@@ -33,19 +33,17 @@ class Elem:
     @dataclass(kw_only=True)
     class B1:
         value: str = field(
-            default="",
             metadata={
                 "required": True,
-            },
+            }
         )
 
     @dataclass(kw_only=True)
     class B2:
         value: str = field(
-            default="",
             metadata={
                 "required": True,
-            },
+            }
         )
 
 

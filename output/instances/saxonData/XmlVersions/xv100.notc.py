@@ -1,4 +1,4 @@
-from output.models.saxon_data.xml_versions.xv100_notc_xsd.xv100_notc import Doc
+from output.models.saxon_data.xml_versions.xv100_noti_xsd.xv100_noti import Doc
 
 
 obj = Doc(

@@ -1,5 +1,5 @@
-from output.models.saxon_data.assert_pkg.assert019_xsd.assert019 import Doc
-from output.models.saxon_data.assert_pkg.assert019_xsd.assert019 import Temp
+from output.models.saxon_data.assert_pkg.assert016_xsd.assert016 import Doc
+from output.models.saxon_data.assert_pkg.assert016_xsd.assert016 import Temp
 from xsdata.models.datatype import XmlDate
 
 

@@ -1,7 +1,6 @@
-from output.models.saxon_data.vc.vc007_xsd.vc007 import Temp
-from xsdata.models.datatype import XmlDate
+from output.models.saxon_data.vc.vc002_xsd.vc002 import Temp
 
 
 obj = Temp(
-    value=XmlDate(2008, 7, 28)
+    value='2008-07-28'
 )

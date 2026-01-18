@@ -44,17 +44,15 @@ class Root:
         @dataclass(kw_only=True)
         class Group2Element1:
             value: str = field(
-                default="a",
                 metadata={
                     "required": True,
-                },
+                }
             )
 
         @dataclass(kw_only=True)
         class Group2Element2:
             value: str = field(
-                default="b",
                 metadata={
                     "required": True,
-                },
+                }
             )

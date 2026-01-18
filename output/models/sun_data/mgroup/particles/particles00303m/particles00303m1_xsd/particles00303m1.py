@@ -52,17 +52,15 @@ class A:
     @dataclass(kw_only=True)
     class Name:
         value: str = field(
-            default="",
             metadata={
                 "required": True,
-            },
+            }
         )
 
     @dataclass(kw_only=True)
     class Type:
         value: str = field(
-            default="",
             metadata={
                 "required": True,
-            },
+            }
         )

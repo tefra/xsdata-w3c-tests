@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
@@ -11,7 +13,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
         },
@@ -21,14 +22,13 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

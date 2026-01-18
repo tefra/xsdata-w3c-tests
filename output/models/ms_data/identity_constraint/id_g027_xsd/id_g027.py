@@ -1,23 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.ms_data.identity_constraint.id_g027_xsd.id_g027a import R
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
     class Meta:
         name = "t"
 
-    r: Optional[R] = field(
-        default=None,
+    r: R = field(
         metadata={
             "type": "Element",
             "namespace": "importNS",
             "required": True,
-        },
+        }
     )
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -25,7 +25,7 @@ class T:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

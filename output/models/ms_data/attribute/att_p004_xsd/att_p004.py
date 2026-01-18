@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -11,21 +12,20 @@ class MySimpleType(Enum):
     VALUE_3 = 3
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional["Doc.Elem"] = field(
+    elem: None | Doc.Elem = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Elem:
         att: MySimpleType = field(
             init=False,

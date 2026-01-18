@@ -1,25 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "baseTD"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test2:
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(Test2):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Test):
     class Meta:
         name = "root"

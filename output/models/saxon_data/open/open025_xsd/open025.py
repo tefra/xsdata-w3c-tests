@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
-    local_element: Optional[object] = field(
+    local_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -31,7 +32,7 @@ class T:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(T):
     class Meta:
         name = "doc"

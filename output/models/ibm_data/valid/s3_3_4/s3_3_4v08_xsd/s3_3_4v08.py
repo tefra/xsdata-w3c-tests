@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ids:
     class Meta:
         name = "ids"
 
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -20,7 +21,7 @@ class ValueConstraint(Enum):
     ASD = "asd"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Idrefs:
     class Meta:
         name = "idrefs"
@@ -33,24 +34,22 @@ class Idrefs:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    a: Optional[Ids] = field(
-        default=None,
+    a: Ids = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    b: Optional[Idrefs] = field(
-        default=None,
+    b: Idrefs = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

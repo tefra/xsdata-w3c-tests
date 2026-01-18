@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/maxOccurs"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/maxOccurs"
 
-    local: Optional[object] = field(
+    local: None | object = field(
         default=None,
         metadata={
             "name": "Local",

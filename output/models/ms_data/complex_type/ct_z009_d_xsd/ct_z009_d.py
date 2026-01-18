@@ -1,28 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    element1: Optional["Root.Element1"] = field(
-        default=None,
+    element1: Root.Element1 = field(
         metadata={
             "name": "Element1",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Element1:
         group2_element1_or_group2_element2: list[
-            Union[
-                "Root.Element1.Group2Element1", "Root.Element1.Group2Element2"
-            ]
+            Root.Element1.Group2Element1 | Root.Element1.Group2Element2
         ] = field(
             default_factory=list,
             metadata={
@@ -42,19 +41,19 @@ class Root:
             },
         )
 
-        @dataclass
+        @dataclass(kw_only=True)
         class Group2Element1:
-            value: Optional[str] = field(
-                default=None,
+            value: str = field(
+                default="a",
                 metadata={
                     "required": True,
                 },
             )
 
-        @dataclass
+        @dataclass(kw_only=True)
         class Group2Element2:
-            value: Optional[str] = field(
-                default=None,
+            value: str = field(
+                default="b",
                 metadata={
                     "required": True,
                 },

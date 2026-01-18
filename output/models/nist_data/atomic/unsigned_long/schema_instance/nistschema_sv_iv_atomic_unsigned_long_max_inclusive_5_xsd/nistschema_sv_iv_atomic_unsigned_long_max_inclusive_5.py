@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedLong-maxInclusive-5-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicUnsignedLongMaxInclusive5:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-unsignedLong-maxInclusive-5"
         namespace = "NISTSchema-SV-IV-atomic-unsignedLong-maxInclusive-5-NS"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "max_inclusive": 999999999999999999,
-        },
+        }
     )

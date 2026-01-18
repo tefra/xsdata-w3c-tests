@@ -1,113 +1,113 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Empty:
     class Meta:
         name = "empty"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[Empty] = field(
-        default=None,
+    foo: Empty = field(
         metadata={
             "type": "Element",
             "namespace": "foo",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class De(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dr(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EB(B):
     class Meta:
         name = "eB"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dee(De):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Der(De):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dre(Dr):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Drr(Dr):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EDe(De):
     class Meta:
         name = "eDe"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EDr(Dr):
     class Meta:
         name = "eDr"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EDee(Dee):
     class Meta:
         name = "eDee"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EDer(Der):
     class Meta:
         name = "eDer"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EDre(Dre):
     class Meta:
         name = "eDre"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EDrr(Drr):
     class Meta:
         name = "eDrr"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    choice: list[Union[EDee, EDer, EDe, EDre, EDrr, EDr, EB]] = field(
+    choice: list[EDee | EDer | EDe | EDre | EDrr | EDr | EB] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

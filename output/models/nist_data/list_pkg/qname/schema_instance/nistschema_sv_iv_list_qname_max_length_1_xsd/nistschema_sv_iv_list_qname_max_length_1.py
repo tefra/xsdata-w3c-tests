@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-maxLength-1-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListQnameMaxLength1:
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-maxLength-1"

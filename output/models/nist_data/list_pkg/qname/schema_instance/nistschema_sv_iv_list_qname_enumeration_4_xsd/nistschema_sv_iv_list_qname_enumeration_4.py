@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -97,7 +98,7 @@ class NistschemaSvIvListQnameEnumeration4Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AllThemSemanticsAndToolReferenceAndTheIncludeImprove:
     class Meta:
         name = "_all-them-semantics.and_tool-reference.and.the_include-improve"
@@ -111,7 +112,7 @@ class AllThemSemanticsAndToolReferenceAndTheIncludeImprove:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AndAddressingPartnershipsAAndDataTool:
     class Meta:
         name = "_and-addressing_partnerships.a_and_data_tool"
@@ -125,7 +126,7 @@ class AndAddressingPartnershipsAAndDataTool:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ContainingUsedVisiblyTestConsortiumsThisSecurityProf:
     class Meta:
         name = "_containing_used-visibly_test.consortiums_this-security.prof"
@@ -139,7 +140,7 @@ class ContainingUsedVisiblyTestConsortiumsThisSecurityProf:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class HamperedOnHasBackMeasureAndBrowsersInvestigatio:
     class Meta:
         name = "_hampered_on_has-back_measure_and_browsers-investigatio"
@@ -153,7 +154,7 @@ class HamperedOnHasBackMeasureAndBrowsersInvestigatio:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OfMustInLiesTheRequestingStructureSyst:
     class Meta:
         name = "_of_must_in.lies.the.requesting-structure-syst"
@@ -167,7 +168,7 @@ class OfMustInLiesTheRequestingStructureSyst:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SpecificationCalledCorrectio:
     class Meta:
         name = "_specification_called.correctio"
@@ -181,7 +182,7 @@ class SpecificationCalledCorrectio:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestFrameworksTechnicalWirel:
     class Meta:
         name = "_test-frameworks.technical_wirel"
@@ -195,7 +196,7 @@ class TestFrameworksTechnicalWirel:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AcareFileSecurityFile:
     class Meta:
         name = "acare-file.security.file_"
@@ -209,7 +210,7 @@ class AcareFileSecurityFile:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Area:
     class Meta:
         name = "area"
@@ -223,7 +224,7 @@ class Area:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DbasisAndContainsThatAnd2000ParadigmRevolutionDes:
     class Meta:
         name = "dbasis_and_contains_that_and_2000.paradigm.revolution.des"
@@ -237,7 +238,7 @@ class DbasisAndContainsThatAnd2000ParadigmRevolutionDes:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IisDesktopInformationIn:
     class Meta:
         name = "iis_desktop_information_in"
@@ -251,7 +252,7 @@ class IisDesktopInformationIn:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class KsupplyOfferSUsingYea:
     class Meta:
         name = "ksupply-offer.s-using.yea"
@@ -265,7 +266,7 @@ class KsupplyOfferSUsingYea:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MenvironmentForSupplyOfDevel:
     class Meta:
         name = "menvironment.for-supply-of.devel"
@@ -279,7 +280,7 @@ class MenvironmentForSupplyOfDevel:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QalsoCorrectionInContextRichAndIsD:
     class Meta:
         name = "qalso.correction_in.context-rich_and.is_d"
@@ -293,7 +294,7 @@ class QalsoCorrectionInContextRichAndIsD:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SofAsAndTheIndustrySoftwareAndTheNetworksCompetence:
     class Meta:
         name = "sof.as_and-the_industry.software.and_the_networks.competence"
@@ -307,7 +308,7 @@ class SofAsAndTheIndustrySoftwareAndTheNetworksCompetence:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class VandConsor:
     class Meta:
         name = "vand-consor"
@@ -321,7 +322,7 @@ class VandConsor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XcompetenceBusinessAndIsDyn:
     class Meta:
         name = "xcompetence.business_and.is_dyn"
@@ -335,15 +336,14 @@ class XcompetenceBusinessAndIsDyn:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListQnameEnumeration4:
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
-    value: Optional[NistschemaSvIvListQnameEnumeration4Type] = field(
-        default=None,
+    value: NistschemaSvIvListQnameEnumeration4Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

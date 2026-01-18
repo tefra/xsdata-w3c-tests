@@ -1,26 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RootType:
     class Meta:
         name = "rootType"
 
-    date_ele: Optional[XmlDate] = field(
-        default=None,
+    date_ele: XmlDate = field(
         metadata={
             "name": "dateEle",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(RootType):
     class Meta:
         name = "root"

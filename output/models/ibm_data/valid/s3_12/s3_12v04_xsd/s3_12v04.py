@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AnySimpleType:
     class Meta:
         name = "anySimpleType"
 
-    value: Optional[object] = field(default=None)
-    type_value: Optional[str] = field(
+    value: None | object = field(default=None)
+    type_value: None | str = field(
         default=None,
         metadata={
             "name": "type",
@@ -19,29 +20,29 @@ class AnySimpleType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DoubleType(AnySimpleType):
     class Meta:
         name = "doubleType"
 
-    value: Optional[float] = field(default=None)
+    value: float = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FloatType(AnySimpleType):
     class Meta:
         name = "floatType"
 
-    value: Optional[float] = field(default=None)
+    value: float = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
 
-    elem1: list[Union[AnySimpleType, FloatType, DoubleType]] = field(
+    elem1: list[AnySimpleType | FloatType | DoubleType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

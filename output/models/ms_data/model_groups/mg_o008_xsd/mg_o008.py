@@ -1,20 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
 
-    e1: Optional[object] = field(
+    e1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e2: Optional[object] = field(
+    e2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -23,13 +24,13 @@ class Bar:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo(Bar):
     class Meta:
         name = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

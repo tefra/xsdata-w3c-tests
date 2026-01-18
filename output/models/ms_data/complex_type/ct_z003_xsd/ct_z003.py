@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C1:
-    e1: list["C1"] = field(
+    e1: list[C1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -13,7 +15,7 @@ class C1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo(C1):
     class Meta:
         name = "foo"

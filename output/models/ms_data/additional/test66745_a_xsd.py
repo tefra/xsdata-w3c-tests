@@ -1,14 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "foo"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -17,13 +19,13 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo1(Foo):
     class Meta:
         name = "foo1"
         namespace = "foo1"
 
-    x: Optional[int] = field(
+    x: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -31,13 +33,13 @@ class Foo1(Foo):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
         namespace = "foo"
 
-    foo1_or_foo_or_bar: list[Union[Foo1, Foo, "Bar"]] = field(
+    foo1_or_foo_or_bar: list[Foo1 | Foo | Bar] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

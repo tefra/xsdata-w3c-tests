@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Chap:
     class Meta:
         name = "chap"
@@ -13,19 +14,19 @@ class Chap:
             "required": True,
         },
     )
-    de: Optional[object] = field(
+    de: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    lang: Optional[object] = field(
+    lang: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    fr: Optional[object] = field(
+    fr: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -33,7 +34,7 @@ class Chap:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Part:
     class Meta:
         name = "part"
@@ -45,7 +46,7 @@ class Part:
             "min_occurs": 1,
         },
     )
-    lang: Optional[object] = field(
+    lang: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -53,7 +54,7 @@ class Part:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
@@ -65,7 +66,7 @@ class Doc:
             "min_occurs": 1,
         },
     )
-    lang: Optional[object] = field(
+    lang: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",

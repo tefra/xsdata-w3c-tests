@@ -1,17 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    key_or_ref: list[Union["Root.Key", "Root.Ref"]] = field(
+    key_or_ref: list[Root.Key | Root.Ref] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -28,20 +30,18 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Key:
-        value: Optional[QName] = field(
-            default=None,
+        value: QName = field(
             metadata={
                 "required": True,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Ref:
-        value: Optional[QName] = field(
-            default=None,
+        value: QName = field(
             metadata={
                 "required": True,
-            },
+            }
         )

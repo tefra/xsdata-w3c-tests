@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "importNS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
     class Meta:
         name = "r"

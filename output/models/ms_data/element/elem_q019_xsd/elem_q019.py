@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest:
     class Meta:
         name = "fooTest"
@@ -10,12 +11,12 @@ class FooTest:
     value: str = field(init=False, default="Hello")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
+    foo_test: None | FooTest = field(
         default=None,
         metadata={
             "name": "fooTest",

@@ -1,6 +1,8 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any, Optional, Union
+from typing import Any
 
 
 class A(Enum):
@@ -10,7 +12,7 @@ class A(Enum):
     VALUE_4 = 4
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ca:
     class Meta:
         name = "CA"
@@ -23,7 +25,7 @@ class Ca:
             "max_occurs": 2,
         },
     )
-    y: Optional[object] = field(
+    y: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -32,12 +34,12 @@ class Ca:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sa:
     class Meta:
         name = "sa"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -46,12 +48,12 @@ class Sa:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test4:
     class Meta:
         name = "test4"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -60,12 +62,12 @@ class Test4:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ECa(Ca):
     class Meta:
         name = "E-CA"
 
-    z: Optional[object] = field(
+    z: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -74,7 +76,7 @@ class ECa(Ca):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RCa(Ca):
     class Meta:
         name = "R-CA"
@@ -86,53 +88,59 @@ class RCa(Ca):
             "type": "Ignore",
         },
     )
+    x: list[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        },
+    )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    value: Optional[A] = field(
-        default=None,
+    value: A = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test2:
     class Meta:
         name = "test2"
 
-    value: Optional[A] = field(
-        default=None,
+    value: A = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test3:
     class Meta:
         name = "test3"
 
-    value: Optional[A] = field(
-        default=None,
+    value: A = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    sa_or_test: Optional[Union[Sa, Test]] = field(
+    sa_or_test: None | Sa | Test = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -148,19 +156,19 @@ class Root:
             ),
         },
     )
-    test2: Optional[Test2] = field(
+    test2: None | Test2 = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    test3: Optional[Test3] = field(
+    test3: None | Test3 = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    test4: Optional[Test4] = field(
+    test4: None | Test4 = field(
         default=None,
         metadata={
             "type": "Element",

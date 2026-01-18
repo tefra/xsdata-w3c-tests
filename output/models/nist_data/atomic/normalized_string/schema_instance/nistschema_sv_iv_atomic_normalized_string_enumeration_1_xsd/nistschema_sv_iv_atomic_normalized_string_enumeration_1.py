@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1-NS"
 
@@ -15,17 +16,14 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration1Type(Enum):
     AND = "and"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicNormalizedStringEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvAtomicNormalizedStringEnumeration1Type] = (
-        field(
-            default=None,
-            metadata={
-                "required": True,
-            },
-        )
+    value: NistschemaSvIvAtomicNormalizedStringEnumeration1Type = field(
+        metadata={
+            "required": True,
+        }
     )

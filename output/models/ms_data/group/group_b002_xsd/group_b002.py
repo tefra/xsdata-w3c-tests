@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexType:
     class Meta:
         name = "complexType"
 
-    x: Optional[object] = field(
+    x: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -16,12 +17,12 @@ class ComplexType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(ComplexType):
     class Meta:
         name = "elem"
 
-    group_elem: Optional[object] = field(
+    group_elem: None | object = field(
         default=None,
         metadata={
             "name": "groupElem",
@@ -29,13 +30,13 @@ class Elem(ComplexType):
             "namespace": "",
         },
     )
-    att2: Optional[object] = field(
+    att2: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att3: Optional[object] = field(
+    att3: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -43,15 +44,14 @@ class Elem(ComplexType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

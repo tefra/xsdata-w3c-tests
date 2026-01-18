@@ -1,15 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    my_element_or_my_ele2: Optional[
-        Union["FooType.MyElement", "FooType.MyEle2"]
-    ] = field(
+    my_element_or_my_ele2: None | FooType.MyElement | FooType.MyEle2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -27,35 +27,34 @@ class FooType:
             ),
         },
     )
-    attr_test: Optional[object] = field(
-        default=None,
+    attr_test: object = field(
         metadata={
             "name": "attrTest",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MyElement:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MyEle2:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(FooType):
     class Meta:
         name = "root"

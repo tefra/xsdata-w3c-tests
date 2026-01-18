@@ -1,30 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.ms_data.wildcards.wild_z003_a_xsd.wild_z003_b import Elem
 
 __NAMESPACE__ = "urn:foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elt1:
     class Meta:
         name = "elt1"
         namespace = "urn:foo"
 
-    elt2: Optional[object] = field(
+    elt2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "namespace": "urn:bar",
             "required": True,
-        },
+        }
     )
     other_element: list[object] = field(
         default_factory=list,

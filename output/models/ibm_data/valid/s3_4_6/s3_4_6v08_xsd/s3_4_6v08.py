@@ -1,87 +1,81 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_6"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CmplxBase:
     class Meta:
         name = "cmplxBase"
 
-    element1: Optional[int] = field(
-        default=None,
+    element1: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    element2: Optional[int] = field(
+    element2: None | int = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    element3: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        },
-    )
-    element4: Optional[int] = field(
-        default=None,
+    element3: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
+    )
+    element4: int = field(
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived:
     class Meta:
         name = "derived"
 
-    element4: Optional[int] = field(
-        default=None,
+    element4: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    element3: Optional[int] = field(
-        default=None,
+    element3: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    element2: Optional[int] = field(
-        default=None,
+    element2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    element1: Optional[int] = field(
-        default=None,
+    element1: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Derived):
     class Meta:
         name = "root"

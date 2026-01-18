@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "baseTD"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test1:
     abc: list[str] = field(
         default_factory=list,
@@ -16,12 +18,12 @@ class Test1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(Test1):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Test):
     class Meta:
         name = "root"

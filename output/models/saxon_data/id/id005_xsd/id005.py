@@ -1,33 +1,33 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idrefs: list[Union["Node", "Node.Id", "Node.Idrefs"]] = (
-        field(
-            default_factory=list,
-            metadata={
-                "type": "Elements",
-                "choices": (
-                    {
-                        "name": "node",
-                        "type": ForwardRef("Node"),
-                    },
-                    {
-                        "name": "id",
-                        "type": ForwardRef("Node.Id"),
-                    },
-                    {
-                        "name": "idrefs",
-                        "type": ForwardRef("Node.Idrefs"),
-                    },
-                ),
-            },
-        )
+    node_or_id_or_idrefs: list[Node | Node.Id | Node.Idrefs] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "node",
+                    "type": ForwardRef("Node"),
+                },
+                {
+                    "name": "id",
+                    "type": ForwardRef("Node.Id"),
+                },
+                {
+                    "name": "idrefs",
+                    "type": ForwardRef("Node.Idrefs"),
+                },
+            ),
+        },
     )
     id_attribute: list[str] = field(
         default_factory=list,
@@ -46,7 +46,7 @@ class Node:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Id:
         value: list[str] = field(
             default_factory=list,
@@ -55,7 +55,7 @@ class Node:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Idrefs:
         value: list[str] = field(
             default_factory=list,
@@ -65,7 +65,7 @@ class Node:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "IdConstrDefs/fields"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class People:
     class Meta:
         name = "people"
         namespace = "IdConstrDefs/fields"
 
-    person: list["People.Person"] = field(
+    person: list[People.Person] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -21,7 +22,7 @@ class People:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Person:
         value: str = field(
             default="",
@@ -29,13 +30,13 @@ class People:
                 "required": True,
             },
         )
-        parent: Optional[str] = field(
+        parent: None | str = field(
             default=None,
             metadata={
                 "type": "Attribute",
             },
         )
-        birthday: Optional[XmlDate] = field(
+        birthday: None | XmlDate = field(
             default=None,
             metadata={
                 "type": "Attribute",

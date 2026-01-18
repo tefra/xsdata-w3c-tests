@@ -1,56 +1,53 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A1234561:
     class Meta:
         name = "a-1.2_3·4·5۝6۞"
         namespace = "ElemDecl/name"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A1234562:
     class Meta:
         name = "a123456"
         namespace = "ElemDecl/name"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"
 
-    a_1_2_3_4_5_6: Optional[A1234561] = field(
-        default=None,
+    a_1_2_3_4_5_6: A1234561 = field(
         metadata={
             "name": "a-1.2_3·4·5۝6۞",
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    elem_decl_name_a123456: Optional[A1234562] = field(
-        default=None,
+    elem_decl_name_a123456: A1234562 = field(
         metadata={
             "name": "a123456",
             "type": "Element",
             "required": True,
-        },
+        }
     )

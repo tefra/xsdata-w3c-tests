@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 
@@ -10,21 +11,20 @@ class BuildNotation(Enum):
     G = QName("g")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional["FooType.Foo"] = field(
-        default=None,
+    foo: FooType.Foo = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Foo:
         value: str = field(
             default="",
@@ -32,7 +32,7 @@ class FooType:
                 "required": True,
             },
         )
-        attr_test: Optional[BuildNotation] = field(
+        attr_test: None | BuildNotation = field(
             default=None,
             metadata={
                 "name": "attrTest",
@@ -41,7 +41,7 @@ class FooType:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(FooType):
     class Meta:
         name = "test"

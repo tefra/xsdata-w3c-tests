@@ -1,34 +1,34 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Inner:
     class Meta:
         name = "inner"
 
-    a: list["Inner.A"] = field(
+    a: list[Inner.A] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "max_occurs": 4,
         },
     )
-    x: Optional[object] = field(
-        default=None,
+    x: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    y: Optional[object] = field(
+    y: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class A:
         b: list[object] = field(
             default_factory=list,
@@ -39,7 +39,7 @@ class Inner:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Outer:
     class Meta:
         name = "outer"

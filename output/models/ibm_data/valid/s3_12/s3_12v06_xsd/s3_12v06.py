@@ -1,23 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional, Union
+from typing import Any
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://xstest-tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ChildTypeBase:
     class Meta:
         name = "childTypeBase"
 
-    name: Optional[str] = field(
+    name: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    dob: Optional[object] = field(
+    dob: None | object = field(
         default=None,
         metadata={
             "name": "DOB",
@@ -26,12 +28,12 @@ class ChildTypeBase:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ChildTypeDerived(ChildTypeBase):
     class Meta:
         name = "childTypeDerived"
 
-    dob: Optional[XmlDate] = field(
+    dob: None | XmlDate = field(
         default=None,
         metadata={
             "name": "DOB",
@@ -40,7 +42,7 @@ class ChildTypeDerived(ChildTypeBase):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CtBase:
     class Meta:
         name = "ctBase"
@@ -52,7 +54,7 @@ class CtBase:
             "namespace": "",
         },
     )
-    number_of_children: Optional[int] = field(
+    number_of_children: None | int = field(
         default=None,
         metadata={
             "name": "numberOfChildren",
@@ -61,7 +63,7 @@ class CtBase:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CtAlt1(CtBase):
     class Meta:
         name = "ctAlt1"
@@ -76,7 +78,7 @@ class CtAlt1(CtBase):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CtAlt2(CtBase):
     class Meta:
         name = "ctAlt2"
@@ -90,13 +92,13 @@ class CtAlt2(CtBase):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
 
-    person: list[Union[CtBase, CtAlt1, CtAlt2]] = field(
+    person: list[CtBase | CtAlt1 | CtAlt2] = field(
         default_factory=list,
         metadata={
             "type": "Element",

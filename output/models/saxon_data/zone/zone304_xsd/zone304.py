@@ -1,18 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDuration
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[XmlDuration] = field(
-        default=None,
+    value: XmlDuration = field(
         metadata={
             "min_inclusive": XmlDuration("-P3Y"),
             "max_inclusive": XmlDuration("P3Y"),
-        },
+        }
     )

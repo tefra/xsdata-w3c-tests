@@ -1,16 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    a_or_b: Optional[Union["Doc.A", "Doc.B"]] = field(
+    a_or_b: None | Doc.A | Doc.B = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -27,22 +29,20 @@ class Doc:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class A:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class B:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )

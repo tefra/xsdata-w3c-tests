@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://simple022.ly/"
 
@@ -10,10 +11,10 @@ class PriceValue(Enum):
     NA_N = float("nan")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Price:
     class Meta:
         name = "price"
         namespace = "http://simple022.ly/"
 
-    value: Optional[PriceValue] = field(default=None)
+    value: PriceValue = field()

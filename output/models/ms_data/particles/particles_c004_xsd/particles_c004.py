@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem:
     class Meta:
         name = "elem"
@@ -18,7 +20,7 @@ class Elem:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

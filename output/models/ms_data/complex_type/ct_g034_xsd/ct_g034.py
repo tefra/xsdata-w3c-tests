@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, ForwardRef, Optional, Union
+from typing import Any, ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyType:
     class Meta:
         name = "myType"
 
-    my_element1_or_my_element2_or_my_element3: Optional[
-        Union["MyType.MyElement1", "MyType.MyElement2", "MyType.MyElement3"]
-    ] = field(
+    my_element1_or_my_element2_or_my_element3: (
+        None | MyType.MyElement1 | MyType.MyElement2 | MyType.MyElement3
+    ) = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -40,35 +42,35 @@ class MyType:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MyElement1:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MyElement2:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MyElement3:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType(MyType):
     class Meta:
         name = "fooType"
@@ -87,23 +89,14 @@ class FooType(MyType):
             "type": "Ignore",
         },
     )
-    my_element1: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "myElement1",
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        },
-    )
-    my_attr: Optional[object] = field(
+    my_attr: None | object = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
         },
     )
-    my_attr2: Optional[object] = field(
+    my_attr2: None | object = field(
         default=None,
         metadata={
             "name": "myAttr2",
@@ -112,7 +105,7 @@ class FooType(MyType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(FooType):
     class Meta:
         name = "root"

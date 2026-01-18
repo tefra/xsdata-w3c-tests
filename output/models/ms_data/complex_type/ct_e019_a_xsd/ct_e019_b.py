@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Mytype1:
     class Meta:
         name = "mytype1"
@@ -15,7 +16,7 @@ class Mytype1:
             "required": True,
         },
     )
-    attr_test1: Optional[int] = field(
+    attr_test1: None | int = field(
         default=None,
         metadata={
             "name": "attrTest1",
@@ -23,7 +24,7 @@ class Mytype1:
             "namespace": "a",
         },
     )
-    attr_test2: Optional[str] = field(
+    attr_test2: None | str = field(
         default=None,
         metadata={
             "name": "attrTest2",
@@ -33,7 +34,7 @@ class Mytype1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType(Mytype1):
     class Meta:
         name = "fooType"

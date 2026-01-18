@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
 
@@ -9,7 +11,7 @@ class S(Enum):
     A1_2_3_4_5_6_1 = "a1_2_3_4_5_6"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

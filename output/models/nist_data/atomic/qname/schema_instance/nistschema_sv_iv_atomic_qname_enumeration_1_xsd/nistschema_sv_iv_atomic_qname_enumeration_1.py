@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
@@ -25,7 +26,7 @@ class NistschemaSvIvAtomicQnameEnumeration1Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ForBeProvideRelat:
     class Meta:
         name = "_for.be_provide_relat"
@@ -39,7 +40,7 @@ class ForBeProvideRelat:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ThoseToBusinessAndIssuesDataFor:
     class Meta:
         name = "_those-to_business_and.issues-data.for"
@@ -53,7 +54,7 @@ class ThoseToBusinessAndIssuesDataFor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RinfluenceCreateInformationReviewedAsRe:
     class Meta:
         name = "rinfluence-create_information_reviewed_as.re"
@@ -67,7 +68,7 @@ class RinfluenceCreateInformationReviewedAsRe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WspecificationsEmergingThatAndIs:
     class Meta:
         name = "wspecifications.emerging.that_and.is_"
@@ -81,15 +82,14 @@ class WspecificationsEmergingThatAndIs:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicQnameEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvAtomicQnameEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicQnameEnumeration1Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

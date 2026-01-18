@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -16,15 +17,14 @@ class Root:
             "tokens": True,
         },
     )
-    idref_element: Optional[str] = field(
-        default=None,
+    idref_element: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    idref_attr: Optional[str] = field(
+    idref_attr: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

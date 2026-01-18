@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-ID-length-1-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListIdLength1:
     class Meta:
         name = "NISTSchema-SV-IV-list-ID-length-1"
@@ -19,13 +20,13 @@ class NistschemaSvIvListIdLength1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Out:
     class Meta:
         name = "out"
         namespace = "NISTSchema-SV-IV-list-ID-length-1-NS"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

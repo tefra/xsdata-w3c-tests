@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class HeadType:
-    ear: Optional[object] = field(
+    ear: None | object = field(
         default=None,
         metadata={
             "name": "Ear",
@@ -14,7 +15,7 @@ class HeadType:
             "namespace": "ElemDecl/substGroupExclusions",
         },
     )
-    eye: Optional[object] = field(
+    eye: None | object = field(
         default=None,
         metadata={
             "name": "Eye",
@@ -24,24 +25,24 @@ class HeadType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Head(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Member1(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Member3(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
-    nose: Optional[object] = field(
+    nose: None | object = field(
         default=None,
         metadata={
             "name": "Nose",
@@ -50,13 +51,13 @@ class Member3(HeadType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/substGroupExclusions"
 
-    member3_or_member1_or_head: list[Union[Member3, Member1, Head]] = field(
+    member3_or_member1_or_head: list[Member3 | Member1 | Head] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

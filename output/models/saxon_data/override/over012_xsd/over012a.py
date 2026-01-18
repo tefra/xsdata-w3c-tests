@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from output.models.saxon_data.override.over012_xsd.over012 import (
@@ -5,7 +7,7 @@ from output.models.saxon_data.override.over012_xsd.over012 import (
 )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

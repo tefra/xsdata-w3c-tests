@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DimType:
     class Meta:
         name = "dimType"
@@ -15,13 +16,13 @@ class DimType:
             "required": True,
         },
     )
-    length: Optional[object] = field(
+    length: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    width: Optional[object] = field(
+    width: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,7 +30,7 @@ class DimType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RectType(DimType):
     class Meta:
         name = "rectType"
@@ -43,7 +44,7 @@ class RectType(DimType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SquareType(DimType):
     class Meta:
         name = "squareType"
@@ -57,13 +58,13 @@ class SquareType(DimType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Shape:
     class Meta:
         name = "shape"
         namespace = "tns"
 
-    dimension: list[Union[DimType, RectType, SquareType]] = field(
+    dimension: list[DimType | RectType | SquareType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     open_com_element: list[object] = field(
         default_factory=list,
@@ -12,12 +14,12 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(R):
     class Meta:
         name = "doc"

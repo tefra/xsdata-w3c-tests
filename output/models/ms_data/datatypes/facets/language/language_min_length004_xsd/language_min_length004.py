@@ -1,25 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[str] = field(
-        default=None,
+    foo: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
             "min_length": 4,
             "max_length": 6,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(FooType):
     class Meta:
         name = "test"

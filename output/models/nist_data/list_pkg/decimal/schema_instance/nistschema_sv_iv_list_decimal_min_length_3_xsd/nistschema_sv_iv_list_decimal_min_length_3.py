@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-decimal-minLength-3-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListDecimalMinLength3:
     class Meta:
         name = "NISTSchema-SV-IV-list-decimal-minLength-3"

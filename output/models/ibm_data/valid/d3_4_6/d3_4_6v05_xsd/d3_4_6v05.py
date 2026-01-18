@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nametest:
     ele: list[str] = field(
         default_factory=list,
@@ -78,7 +80,7 @@ class Nametest:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Nametest):
     class Meta:
         name = "root"

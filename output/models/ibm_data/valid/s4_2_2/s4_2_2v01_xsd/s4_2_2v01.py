@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "a"
 
-    ele11: Optional[object] = field(
+    ele11: None | object = field(
         default=None,
         metadata={
             "type": "Element",

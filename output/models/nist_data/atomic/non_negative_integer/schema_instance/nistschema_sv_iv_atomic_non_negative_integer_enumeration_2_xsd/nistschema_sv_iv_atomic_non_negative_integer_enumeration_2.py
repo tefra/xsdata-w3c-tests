@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-nonNegativeInteger-enumeration-2-NS"
 
@@ -14,7 +15,7 @@ class NistschemaSvIvAtomicNonNegativeIntegerEnumeration2Type(Enum):
     VALUE_50094 = 50094
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicNonNegativeIntegerEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonNegativeInteger-enumeration-2"
@@ -22,11 +23,8 @@ class NistschemaSvIvAtomicNonNegativeIntegerEnumeration2:
             "NISTSchema-SV-IV-atomic-nonNegativeInteger-enumeration-2-NS"
         )
 
-    value: Optional[NistschemaSvIvAtomicNonNegativeIntegerEnumeration2Type] = (
-        field(
-            default=None,
-            metadata={
-                "required": True,
-            },
-        )
+    value: NistschemaSvIvAtomicNonNegativeIntegerEnumeration2Type = field(
+        metadata={
+            "required": True,
+        }
     )

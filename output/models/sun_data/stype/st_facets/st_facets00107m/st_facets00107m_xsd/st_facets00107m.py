@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ST_facets"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
         namespace = "ST_facets"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "max_inclusive": 100,
-        },
+        }
     )

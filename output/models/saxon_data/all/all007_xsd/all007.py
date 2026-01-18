@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
@@ -29,7 +30,7 @@ class Doc:
             "min_occurs": 2,
         },
     )
-    d: Optional[object] = field(
+    d: None | object = field(
         default=None,
         metadata={
             "type": "Element",

@@ -1,23 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
 from xml.etree.ElementTree import QName
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageType:
     class Meta:
         name = "messageType"
 
-    kind: Optional[QName] = field(
+    kind: None | QName = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    value: Optional[Union[Decimal, int, XmlDate, XmlTime, QName, str]] = field(
+    value: None | Decimal | int | XmlDate | XmlTime | QName | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -25,49 +26,49 @@ class MessageType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DateMessageType(MessageType):
     class Meta:
         name = "dateMessageType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DecimalMessageType(MessageType):
     class Meta:
         name = "decimalMessageType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IntMessageType(MessageType):
     class Meta:
         name = "intMessageType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Message(MessageType):
     class Meta:
         name = "message"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QNameMessageType(MessageType):
     class Meta:
         name = "qNameMessageType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class StringMessageType(MessageType):
     class Meta:
         name = "stringMessageType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TimeMessageType(MessageType):
     class Meta:
         name = "timeMessageType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Messages:
     class Meta:
         name = "messages"

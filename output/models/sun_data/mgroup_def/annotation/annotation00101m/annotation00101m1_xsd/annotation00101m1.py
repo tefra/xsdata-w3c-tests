@@ -1,38 +1,37 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "MGroupDef/annotation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
-    c: Optional[int] = field(
-        default=None,
+    c: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    date: Optional[XmlDate] = field(
-        default=None,
+    date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "MGroupDef/annotation"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

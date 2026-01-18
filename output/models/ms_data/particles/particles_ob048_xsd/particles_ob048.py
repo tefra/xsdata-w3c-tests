@@ -1,12 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo_bar_element: Optional[object] = field(
+    foo_bar_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -15,7 +17,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     foo_bar_element: Any = field(
         init=False,
@@ -24,7 +26,7 @@ class R(B):
             "type": "Ignore",
         },
     )
-    bar_element: Optional[object] = field(
+    bar_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -33,17 +35,16 @@ class R(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

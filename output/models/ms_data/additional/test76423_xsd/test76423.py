@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class ScopeType(Enum):
@@ -8,63 +9,58 @@ class ScopeType(Enum):
     INSTANCE = "instance"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EventType:
-    desc: Optional[str] = field(
+    desc: None | str = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    scope: Optional[ScopeType] = field(
-        default=None,
+    scope: ScopeType = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PropertyType:
-    desc: Optional[str] = field(
+    desc: None | str = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    scope: Optional[ScopeType] = field(
-        default=None,
+    scope: ScopeType = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    type_value: Optional[str] = field(
-        default=None,
+    type_value: str = field(
         metadata={
             "name": "type",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EventsType:
     event: list[EventType] = field(
         default_factory=list,
@@ -75,9 +71,9 @@ class EventsType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ClassType:
-    events: Optional[EventsType] = field(
+    events: None | EventsType = field(
         default=None,
         metadata={
             "type": "Element",
@@ -89,14 +85,13 @@ class ClassType:
             "type": "Element",
         },
     )
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    inherits: Optional[str] = field(
+    inherits: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -104,7 +99,7 @@ class ClassType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JsmlDocumentType:
     class_value: list[ClassType] = field(
         default_factory=list,
@@ -116,7 +111,7 @@ class JsmlDocumentType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Jsml(JsmlDocumentType):
     class Meta:
         name = "jsml"

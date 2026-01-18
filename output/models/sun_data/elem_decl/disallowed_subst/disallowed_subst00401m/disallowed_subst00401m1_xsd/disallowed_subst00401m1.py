@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Head:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,12 +19,12 @@ class Head:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Member1:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -32,12 +33,12 @@ class Member1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Member2:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -46,13 +47,13 @@ class Member2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member2_or_member1_or_head: list[Union[Member2, Member1, Head]] = field(
+    member2_or_member1_or_head: list[Member2 | Member1 | Head] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

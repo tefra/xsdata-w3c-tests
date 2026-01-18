@@ -1,56 +1,53 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class G:
     class Meta:
         name = "g"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing:
     class Meta:
         name = "zing"
 
-    e: Optional[int] = field(
-        default=None,
+    e: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    f: Optional[int] = field(
-        default=None,
+    f: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    local_element: Optional[object] = field(
+    local_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -59,7 +56,7 @@ class Zing:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Zing):
     class Meta:
         name = "doc"

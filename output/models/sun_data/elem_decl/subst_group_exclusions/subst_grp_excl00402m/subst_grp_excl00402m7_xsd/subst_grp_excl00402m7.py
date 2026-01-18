@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class HeadType:
-    ear: Optional[object] = field(
+    ear: None | object = field(
         default=None,
         metadata={
             "name": "Ear",
@@ -14,7 +15,7 @@ class HeadType:
             "namespace": "ElemDecl/substGroupExclusions",
         },
     )
-    eye: Optional[object] = field(
+    eye: None | object = field(
         default=None,
         metadata={
             "name": "Eye",
@@ -24,49 +25,49 @@ class HeadType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element0(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element1(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element2(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element3(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element4(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element5(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Head(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

@@ -1,35 +1,33 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address:
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    street: Optional[str] = field(
-        default=None,
+    street: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    city: Optional[str] = field(
-        default=None,
+    city: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
@@ -40,20 +38,19 @@ class Usstate(Enum):
     PA = "PA"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ukaddress(Address):
     class Meta:
         name = "UKAddress"
 
-    postcode: Optional[str] = field(
-        default=None,
+    postcode: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
             "length": 7,
             "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
-        },
+        }
     )
     export_code: int = field(
         init=False,
@@ -65,24 +62,22 @@ class Ukaddress(Address):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Usaddress(Address):
     class Meta:
         name = "USAddress"
 
-    state: Optional[Usstate] = field(
-        default=None,
+    state: Usstate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    zip: Optional[int] = field(
-        default=None,
+    zip: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

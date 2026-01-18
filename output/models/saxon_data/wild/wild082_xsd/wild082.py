@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zz:
     class Meta:
         name = "zz"
@@ -13,7 +14,7 @@ class Zz:
             "required": True,
         },
     )
-    type_value: Optional[int] = field(
+    type_value: None | int = field(
         default=None,
         metadata={
             "name": "type",
@@ -22,38 +23,37 @@ class Zz:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A(Zz):
     class Meta:
         name = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ZzDouble(Zz):
     class Meta:
         name = "zz-double"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ZzInteger(Zz):
     class Meta:
         name = "zz-integer"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing:
     class Meta:
         name = "zing"
 
-    a: Optional[Union[Zz, ZzInteger, ZzDouble]] = field(
-        default=None,
+    a: Zz | ZzInteger | ZzDouble = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    local_element: Optional[object] = field(
+    local_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -62,7 +62,7 @@ class Zing:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Zing):
     class Meta:
         name = "root"

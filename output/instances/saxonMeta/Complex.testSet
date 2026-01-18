@@ -1132,4 +1132,18 @@
       <current status="accepted" date="2024-09-03"/>
     </schemaTest>
   </testGroup>
+  <testGroup name="complex027" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Content model of base type depends on Derived type</Title>
+        <Description>Saxon bug 6671</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1"/>
+    <schemaTest name="complex027.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex027.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2025-02-17"/>
+    </schemaTest>
+  </testGroup>
 </testSet>

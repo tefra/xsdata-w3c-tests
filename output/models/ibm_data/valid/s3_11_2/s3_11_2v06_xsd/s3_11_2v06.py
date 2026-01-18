@@ -1,39 +1,37 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DeptType:
-    deptno: Optional[int] = field(
-        default=None,
+    deptno: int = field(
         metadata={
             "name": "Deptno",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    dname: Optional[str] = field(
-        default=None,
+    dname: str = field(
         metadata={
             "name": "Dname",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    loc: Optional[str] = field(
-        default=None,
+    loc: str = field(
         metadata={
             "name": "Loc",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    id: Optional[int] = field(
+    id: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -41,56 +39,51 @@ class DeptType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EmployeeType:
-    empno: Optional[int] = field(
-        default=None,
+    empno: int = field(
         metadata={
             "name": "Empno",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    ename: Optional[str] = field(
-        default=None,
+    ename: str = field(
         metadata={
             "name": "Ename",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    sal: Optional[float] = field(
-        default=None,
+    sal: float = field(
         metadata={
             "name": "Sal",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    deptno: Optional[int] = field(
-        default=None,
+    deptno: int = field(
         metadata={
             "name": "Deptno",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    id: Optional[int] = field(
-        default=None,
+    id: int = field(
         metadata={
             "name": "ID",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

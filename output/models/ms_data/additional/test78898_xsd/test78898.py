@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Att1:
     class Meta:
         name = "att1"
 
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -15,18 +17,18 @@ class Att1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Att2:
     class Meta:
         name = "att2"
 
-    att1: Optional[int] = field(
+    att1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[bool] = field(
+    att2: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -34,7 +36,7 @@ class Att2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         name = "e1"
@@ -48,7 +50,7 @@ class E1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class M3:
     class Meta:
         name = "m3"
@@ -58,20 +60,18 @@ class M3:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "max_occurs": 2,
         },
     )
-    att: Optional[int] = field(
-        default=None,
+    att: int = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class M6:
     class Meta:
         name = "m6"
@@ -84,7 +84,7 @@ class M6:
             "process_contents": "skip",
         },
     )
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -92,37 +92,37 @@ class M6:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E2(Att1):
     class Meta:
         name = "e2"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E3(M3):
     class Meta:
         name = "e3"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E6(M6):
     class Meta:
         name = "e6"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E7(Att1):
     class Meta:
         name = "e7"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E8(Att1):
     class Meta:
         name = "e8"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class M4:
     class Meta:
         name = "m4"
@@ -145,7 +145,7 @@ class M4:
             "sequence": 1,
         },
     )
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -153,18 +153,18 @@ class M4:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E4(M4):
     class Meta:
         name = "e4"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class M5:
     class Meta:
         name = "m5"
 
-    e3_or_e4_or_e5: list[Union[E3, E4, "E5"]] = field(
+    e3_or_e4_or_e5: list[E3 | E4 | E5] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -184,7 +184,7 @@ class M5:
             ),
         },
     )
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -192,24 +192,24 @@ class M5:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E5(M5):
     class Meta:
         name = "e5"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct1:
     class Meta:
         name = "ct1"
 
-    e1: Optional[E1] = field(
+    e1: None | E1 = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    e2: Optional[E2] = field(
+    e2: None | E2 = field(
         default=None,
         metadata={
             "type": "Element",
@@ -253,7 +253,7 @@ class Ct1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Ct1):
     class Meta:
         name = "root"

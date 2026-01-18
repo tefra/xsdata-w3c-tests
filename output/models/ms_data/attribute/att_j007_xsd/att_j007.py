@@ -1,27 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: Optional[object] = field(
-        default=None,
+    att1: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    att2: Optional[object] = field(
-        default=None,
+    att2: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    bar: Optional[str] = field(
+    bar: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,34 +28,31 @@ class AttRef:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[AttRef] = field(
+    elem: None | AttRef = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
-    x1: Optional[object] = field(
-        default=None,
+    x1: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    x2: Optional[object] = field(
-        default=None,
+    x2: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    foo: Optional[str] = field(
+    foo: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

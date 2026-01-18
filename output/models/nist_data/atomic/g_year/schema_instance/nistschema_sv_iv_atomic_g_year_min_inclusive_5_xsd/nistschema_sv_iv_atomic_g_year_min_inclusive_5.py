@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gYear-minInclusive-5-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicGYearMinInclusive5:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gYear-minInclusive-5"
         namespace = "NISTSchema-SV-IV-atomic-gYear-minInclusive-5-NS"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
             "min_inclusive": XmlPeriod("2030"),
-        },
+        }
     )

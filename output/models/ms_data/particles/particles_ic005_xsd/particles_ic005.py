@@ -1,4 +1,6 @@
-from dataclasses import dataclass, field
+from __future__ import annotations
+
+from dataclasses import dataclass
 
 from output.models.ms_data.particles.particles_ic005_xsd.particles_ic005_imp import (
     Base,
@@ -7,30 +9,13 @@ from output.models.ms_data.particles.particles_ic005_xsd.particles_ic005_imp imp
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1: list[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 5,
-        },
-    )
-    e2: list[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 5,
-        },
-    )
 
-
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Testing):
     class Meta:
         name = "doc"

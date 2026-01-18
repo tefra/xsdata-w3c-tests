@@ -1,25 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    a: Optional[str] = field(
+    a: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NsAAft:
     class Meta:
         name = "ns-a-aft"
@@ -33,7 +33,7 @@ class NsAAft:
             "max_occurs": 10,
         },
     )
-    y: Optional[object] = field(
+    y: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -42,13 +42,13 @@ class NsAAft:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ns-a"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -57,7 +57,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Aft(NsAAft):
     class Meta:
         name = "aft"

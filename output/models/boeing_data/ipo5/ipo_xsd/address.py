@@ -1,32 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.example.com/add"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AddressType:
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
             "required": True,
-        },
+        }
     )
-    street: Optional[str] = field(
-        default=None,
+    street: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
             "required": True,
-        },
+        }
     )
-    city: Optional[str] = field(
-        default=None,
+    city: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
             "required": True,
-        },
+        }
     )

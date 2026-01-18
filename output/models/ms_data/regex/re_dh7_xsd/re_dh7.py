@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    id_or_elem: list[Union["Doc.Id", str]] = field(
+    id_or_elem: list[Doc.Id | str] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -28,9 +30,9 @@ class Doc:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Id:
-        att: Optional[str] = field(
+        att: None | str = field(
             default=None,
             metadata={
                 "type": "Attribute",

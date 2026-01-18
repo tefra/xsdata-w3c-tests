@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    my_ele1: Optional[str] = field(
+    my_ele1: None | str = field(
         default=None,
         metadata={
             "name": "myEle1",
@@ -15,7 +17,7 @@ class Foo:
             "namespace": "",
         },
     )
-    my_ele2: Optional[int] = field(
+    my_ele2: None | int = field(
         default=None,
         metadata={
             "name": "myEle2",
@@ -23,7 +25,7 @@ class Foo:
             "namespace": "",
         },
     )
-    my_ele3: Optional[int] = field(
+    my_ele3: None | int = field(
         default=None,
         metadata={
             "name": "myEle3",
@@ -33,7 +35,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType(Foo):
     class Meta:
         name = "fooType"
@@ -45,27 +47,25 @@ class FooType(Foo):
             "type": "Ignore",
         },
     )
-    my_ele1: Optional[str] = field(
-        default=None,
+    my_ele1: str = field(
         metadata={
             "name": "myEle1",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    my_ele2: Optional[int] = field(
-        default=None,
+    my_ele2: int = field(
         metadata={
             "name": "myEle2",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(FooType):
     class Meta:
         name = "root"

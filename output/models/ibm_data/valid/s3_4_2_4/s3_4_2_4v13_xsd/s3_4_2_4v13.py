@@ -1,35 +1,34 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_2_4"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AttrGoupType:
     class Meta:
         name = "attrGoupType"
 
-    default_attr1: Optional[bool] = field(
-        default=None,
+    default_attr1: bool = field(
         metadata={
             "name": "defaultAttr1",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
             "required": True,
-        },
+        }
     )
-    default_attr2: Optional[bool] = field(
-        default=None,
+    default_attr2: bool = field(
         metadata={
             "name": "defaultAttr2",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(AttrGoupType):
     class Meta:
         name = "root"

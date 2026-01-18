@@ -1,53 +1,48 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    token: Optional[str] = field(
-        default=None,
+    token: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    language: Optional[str] = field(
-        default=None,
+    language: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    ncname: Optional[str] = field(
-        default=None,
+    ncname: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    id: Optional[str] = field(
-        default=None,
+    id: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    idref: Optional[str] = field(
-        default=None,
+    idref: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
     idrefs: list[str] = field(
         default_factory=list,
@@ -56,12 +51,11 @@ class Root:
             "tokens": True,
         },
     )
-    nmtoken: Optional[str] = field(
-        default=None,
+    nmtoken: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
     nmtokens: list[str] = field(
         default_factory=list,

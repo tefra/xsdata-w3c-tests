@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct1:
     class Meta:
         name = "ct1"
@@ -18,7 +19,7 @@ class Ct1:
             "max_occurs": 5,
         },
     )
-    bar: Optional[object] = field(
+    bar: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -27,19 +28,19 @@ class Ct1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct2:
     class Meta:
         name = "ct2"
 
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    bar: Optional[object] = field(
+    bar: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -48,7 +49,7 @@ class Ct2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     e1: list[Ct1] = field(
         default_factory=list,
@@ -82,43 +83,27 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct3(Ct1):
     class Meta:
         name = "ct3"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
-    e2: list[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 9,
-        },
-    )
-    e3: list[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 9,
-        },
-    )
+    pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

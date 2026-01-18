@@ -1,17 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    key_or_ref: list[Union["Root.Key", Decimal]] = field(
+    key_or_ref: list[Root.Key | Decimal] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -28,9 +30,9 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Key:
-        id: Optional[Decimal] = field(
+        id: None | Decimal = field(
             default=None,
             metadata={
                 "type": "Attribute",

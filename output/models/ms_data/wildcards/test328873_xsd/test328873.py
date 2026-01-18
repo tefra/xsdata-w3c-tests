@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base2:
     class Meta:
         name = "base2"
@@ -18,7 +19,7 @@ class Base2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base3:
     class Meta:
         name = "base3"
@@ -32,7 +33,7 @@ class Base3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base4:
     class Meta:
         name = "base4"
@@ -46,7 +47,7 @@ class Base4:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Intersection1:
     class Meta:
         name = "intersection1"
@@ -67,7 +68,7 @@ class Intersection1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Intersection2:
     class Meta:
         name = "intersection2"
@@ -81,7 +82,7 @@ class Intersection2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived2(Base2):
     class Meta:
         name = "derived2"
@@ -95,7 +96,7 @@ class Derived2(Base2):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived3(Base3):
     class Meta:
         name = "derived3"
@@ -109,7 +110,7 @@ class Derived3(Base3):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived4(Base4):
     class Meta:
         name = "derived4"
@@ -123,7 +124,7 @@ class Derived4(Base4):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived5(Base4):
     class Meta:
         name = "derived5"
@@ -137,61 +138,61 @@ class Derived5(Base4):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sub5(Intersection1):
     class Meta:
         name = "sub5"
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sub6(Intersection2):
     class Meta:
         name = "sub6"
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    sub: Optional[Derived2] = field(
+    sub: None | Derived2 = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "a",
         },
     )
-    sub2: Optional[Derived3] = field(
+    sub2: None | Derived3 = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "a",
         },
     )
-    sub3: Optional[Derived4] = field(
+    sub3: None | Derived4 = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "a",
         },
     )
-    sub4: Optional[Derived5] = field(
+    sub4: None | Derived5 = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "a",
         },
     )
-    sub5: Optional[Intersection1] = field(
+    sub5: None | Intersection1 = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "a",
         },
     )
-    sub6: Optional[Intersection2] = field(
+    sub6: None | Intersection2 = field(
         default=None,
         metadata={
             "type": "Element",
@@ -207,35 +208,35 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sub(Derived2):
     class Meta:
         name = "sub"
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sub2(Derived3):
     class Meta:
         name = "sub2"
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sub3(Derived4):
     class Meta:
         name = "sub3"
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sub4(Derived5):
     class Meta:
         name = "sub4"
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived(Base):
     class Meta:
         name = "derived"
@@ -249,7 +250,7 @@ class Derived(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Derived):
     class Meta:
         name = "doc"

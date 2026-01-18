@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RegistryValueModOpSetType:
     regvalueop: list[str] = field(
         default_factory=list,
@@ -14,7 +16,7 @@ class RegistryValueModOpSetType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Regvaluemodopset(RegistryValueModOpSetType):
     class Meta:
         name = "regvaluemodopset"

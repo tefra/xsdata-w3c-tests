@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
@@ -15,14 +16,14 @@ class FooType:
             "required": True,
         },
     )
-    attr_test1: Optional[int] = field(
+    attr_test1: None | int = field(
         default=None,
         metadata={
             "name": "attrTest1",
             "type": "Attribute",
         },
     )
-    attr_test2: Optional[str] = field(
+    attr_test2: None | str = field(
         default=None,
         metadata={
             "name": "attrTest2",

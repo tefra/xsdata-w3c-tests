@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    c1_or_c2: Optional[Union["Base.C1", "Base.C2"]] = field(
+    c1_or_c2: None | Base.C1 | Base.C2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -28,36 +30,34 @@ class Base:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    g1_or_g2: Optional[Union["Doc.G1", "Doc.G2"]] = field(
+    g1_or_g2: None | Doc.G1 | Doc.G2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -74,22 +74,20 @@ class Doc(Base):
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )

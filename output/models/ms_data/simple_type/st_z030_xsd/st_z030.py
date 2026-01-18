@@ -1,34 +1,33 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct:
     class Meta:
         name = "ct"
 
-    e1: Optional[int] = field(
-        default=None,
+    e1: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
             "min_exclusive": 2,
             "min_inclusive": 2,
-        },
+        }
     )
-    e2: Optional[int] = field(
-        default=None,
+    e2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
             "min_exclusive": 2,
             "min_inclusive": 3,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Ct):
     pass

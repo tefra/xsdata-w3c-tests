@@ -1,27 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Numtype:
     class Meta:
         name = "numtype"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    id_1: Optional[int] = field(
+    id_1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id_2: Optional[str] = field(
+    id_2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,7 +29,7 @@ class Numtype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

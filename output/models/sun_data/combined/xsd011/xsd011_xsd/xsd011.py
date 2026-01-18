@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nillable1:
     class Meta:
         name = "nillable1"
         nillable = True
         namespace = "foo"
 
-    x: Optional[object] = field(
+    x: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -19,7 +20,7 @@ class Nillable1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nillable2:
     class Meta:
         name = "nillable2"
@@ -36,13 +37,13 @@ class Nillable2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NonNillable:
     class Meta:
         name = "non-nillable"
         namespace = "foo"
 
-    x: Optional[object] = field(
+    x: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -50,14 +51,14 @@ class NonNillable:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
     non_nillable_or_nillable1_or_nillable2: list[
-        Union[NonNillable, Nillable1, Nillable2]
+        NonNillable | Nillable1 | Nillable2
     ] = field(
         default_factory=list,
         metadata={

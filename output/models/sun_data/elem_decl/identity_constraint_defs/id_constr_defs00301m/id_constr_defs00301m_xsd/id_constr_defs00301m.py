@@ -1,17 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
     element_or_element_ref_or_element_refs: list[
-        Union["Root.Element", "Root.ElementRef", "Root.ElementRefs"]
+        Root.Element | Root.ElementRef | Root.ElementRefs
     ] = field(
         default_factory=list,
         metadata={
@@ -36,25 +38,25 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Element:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class ElementRef:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class ElementRefs:
         value: list[str] = field(
             default_factory=list,

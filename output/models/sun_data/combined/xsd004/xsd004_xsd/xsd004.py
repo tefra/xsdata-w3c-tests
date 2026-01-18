@@ -1,25 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
     choice: list[
-        Union[
-            "Root.SkipAny",
-            "Root.LaxAny",
-            "Root.StrictAny",
-            "Root.SkipOther",
-            "Root.LaxLocal",
-            "Root.StrictTarget",
-            "Root.SkipBar",
-        ]
+        Root.SkipAny
+        | Root.LaxAny
+        | Root.StrictAny
+        | Root.SkipOther
+        | Root.LaxLocal
+        | Root.StrictTarget
+        | Root.SkipBar
     ] = field(
         default_factory=list,
         metadata={
@@ -57,7 +57,7 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SkipAny:
         any_element: list[object] = field(
             default_factory=list,
@@ -68,7 +68,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LaxAny:
         any_element: list[object] = field(
             default_factory=list,
@@ -78,7 +78,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class StrictAny:
         any_element: list[object] = field(
             default_factory=list,
@@ -88,7 +88,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SkipOther:
         other_element: list[object] = field(
             default_factory=list,
@@ -99,7 +99,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LaxLocal:
         local_element: list[object] = field(
             default_factory=list,
@@ -109,7 +109,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class StrictTarget:
         target_namespace_element: list[object] = field(
             default_factory=list,
@@ -119,7 +119,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SkipBar:
         bar_element: list[object] = field(
             default_factory=list,

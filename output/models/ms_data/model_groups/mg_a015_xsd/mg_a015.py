@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -16,7 +17,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

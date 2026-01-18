@@ -1,44 +1,42 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
 
-    value: Optional[XmlTime] = field(
-        default=None,
+    value: XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing:
     class Meta:
         name = "zing"
 
-    e: Optional[XmlDate] = field(
-        default=None,
+    e: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    f: Optional[str] = field(
-        default=None,
+    f: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    local_element: Optional[object] = field(
+    local_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -47,7 +45,7 @@ class Zing:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Zing):
     class Meta:
         name = "doc"

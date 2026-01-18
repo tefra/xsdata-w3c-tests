@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexfooType:
     class Meta:
         name = "complexfooType"
@@ -17,7 +18,7 @@ class ComplexfooType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SimpleTest:
     class Meta:
         name = "simpleTest"
@@ -30,24 +31,23 @@ class SimpleTest:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexTest(ComplexfooType):
     class Meta:
         name = "complexTest"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    complex_test: Optional[ComplexTest] = field(
-        default=None,
+    complex_test: ComplexTest = field(
         metadata={
             "name": "complexTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )
     simple_test: list[SimpleTest] = field(
         default_factory=list,

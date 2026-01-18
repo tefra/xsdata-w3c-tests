@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlTime
 
@@ -9,22 +10,21 @@ class FooTypeFoo(Enum):
     VALUE_13_20_00_05_00 = XmlTime(13, 20, 0, 0, -300)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[FooTypeFoo] = field(
-        default=None,
+    foo: FooTypeFoo = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(FooType):
     class Meta:
         name = "test"

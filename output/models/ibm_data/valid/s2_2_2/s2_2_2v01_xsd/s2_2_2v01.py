@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns/ibms3_3_6_v04"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem0:
     class Meta:
         name = "elem0"
@@ -18,7 +19,7 @@ class Elem0:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem1:
     class Meta:
         name = "elem1"
@@ -32,7 +33,7 @@ class Elem1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem2:
     class Meta:
         name = "elem2"
@@ -46,7 +47,7 @@ class Elem2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem3:
     class Meta:
         name = "elem3"
@@ -60,12 +61,12 @@ class Elem3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RootType:
     class Meta:
         name = "rootType"
 
-    elem3_or_elem0: list[Union[Elem3, Elem0]] = field(
+    elem3_or_elem0: list[Elem3 | Elem0] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -85,7 +86,7 @@ class RootType:
             "max_occurs": 2,
         },
     )
-    elem1: Optional[Elem1] = field(
+    elem1: None | Elem1 = field(
         default=None,
         metadata={
             "type": "Element",
@@ -94,7 +95,7 @@ class RootType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(RootType):
     class Meta:
         name = "root"

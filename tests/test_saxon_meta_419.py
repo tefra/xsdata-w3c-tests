@@ -4804,6 +4804,234 @@ def test_vc001_vc001_n1_xml(mode, save_output, output_format):
     )
 
 
+def test_wild104_wild104_v1_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild104.xsd",
+        instance="saxonData/Wild/wild103.v1.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild104_wild104_v2_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild104.xsd",
+        instance="saxonData/Wild/wild103.v2.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild104_wild104_v3_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild104.xsd",
+        instance="saxonData/Wild/wild103.v3.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild104_wild104_n2_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild104.xsd",
+        instance="saxonData/Wild/wild103.n2.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild103_wild103_v1_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:key with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild103.xsd",
+        instance="saxonData/Wild/wild103.v1.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild103_wild103_v2_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:key with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild103.xsd",
+        instance="saxonData/Wild/wild103.v2.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild103_wild103_v3_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:key with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild103.xsd",
+        instance="saxonData/Wild/wild103.v3.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild102_wild102_v1_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Same test cases,
+    different outcome as wild101
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild102.xsd",
+        instance="saxonData/Wild/wild101.v1.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild102_wild102_v2_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Same test cases,
+    different outcome as wild101
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild102.xsd",
+        instance="saxonData/Wild/wild101.v2.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild102_wild102_v3_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Same test cases,
+    different outcome as wild101
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild102.xsd",
+        instance="saxonData/Wild/wild101.v3.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild102_wild102_n2_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:unique with skip validation Same test cases,
+    different outcome as wild101
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild102.xsd",
+        instance="saxonData/Wild/wild101.n2.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild101_wild101_v1_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:key with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild101.xsd",
+        instance="saxonData/Wild/wild101.v1.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild101_wild101_v2_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:key with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild101.xsd",
+        instance="saxonData/Wild/wild101.v2.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
+def test_wild101_wild101_v3_xml(mode, save_output, output_format):
+    """
+    Interaction of xs:key with skip validation Saxon bug 6682
+    """
+    assert_bindings(
+        schema="saxonData/Wild/wild101.xsd",
+        instance="saxonData/Wild/wild101.v3.xml",
+        class_name="Doc",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        output_format=output_format,
+        structure_style="filenames",
+    )
+
+
 def test_wild083_wild083_v1_xml(mode, save_output, output_format):
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:

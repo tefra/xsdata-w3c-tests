@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "IdConstrDefs/targetNSa"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Roota:
     class Meta:
         name = "roota"
         namespace = "IdConstrDefs/targetNSa"
 
-    person: list["Roota.Person"] = field(
+    person: list[Roota.Person] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -19,7 +20,7 @@ class Roota:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Person:
         value: str = field(
             default="",
@@ -27,7 +28,7 @@ class Roota:
                 "required": True,
             },
         )
-        parent: Optional[str] = field(
+        parent: None | str = field(
             default=None,
             metadata={
                 "type": "Attribute",

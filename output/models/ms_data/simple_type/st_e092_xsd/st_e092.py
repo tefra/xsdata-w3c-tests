@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: list[Union[float, Decimal, int]] = field(
+    value: list[float | Decimal | int] = field(
         init=False,
         default_factory=lambda: [
             12,

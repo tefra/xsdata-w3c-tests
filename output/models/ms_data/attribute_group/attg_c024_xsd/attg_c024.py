@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    e: Optional[object] = field(
+    e: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -13,24 +14,24 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Abc(B):
     class Meta:
         name = "abc"
 
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att1: Optional[str] = field(
+    att1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[str] = field(
+    att2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -38,7 +39,7 @@ class Abc(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Abc):
     class Meta:
         name = "doc"

@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-unsignedByte-maxLength-1-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListUnsignedByteMaxLength1:
     class Meta:
         name = "NISTSchema-SV-IV-list-unsignedByte-maxLength-1"

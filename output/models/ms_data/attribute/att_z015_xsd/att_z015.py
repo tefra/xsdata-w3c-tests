@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -15,7 +17,7 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived(Base):
     class Meta:
         name = "derived"
@@ -29,7 +31,7 @@ class Derived(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Derived):
     class Meta:
         name = "doc"

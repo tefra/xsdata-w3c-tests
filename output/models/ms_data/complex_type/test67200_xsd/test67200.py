@@ -1,25 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TypeAbstract:
     class Meta:
         name = "typeAbstract"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elt1(TypeAbstract):
     class Meta:
         name = "elt1"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TypeA(TypeAbstract):
     class Meta:
         name = "typeA"
 
-    elt2: Optional[object] = field(
+    elt2: None | object = field(
         default=None,
         metadata={
             "type": "Element",

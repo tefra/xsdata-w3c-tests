@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "ST_facets"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
         namespace = "ST_facets"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
             "max_inclusive": XmlPeriod("2002-02"),
-        },
+        }
     )

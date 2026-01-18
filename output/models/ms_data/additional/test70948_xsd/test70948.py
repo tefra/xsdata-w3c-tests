@@ -1,30 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Confuse:
     class Meta:
         name = "confuse"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyType(Confuse):
     class Meta:
         name = "myType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(MyType):
     class Meta:
         name = "root"

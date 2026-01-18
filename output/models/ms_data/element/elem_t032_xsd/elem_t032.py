@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional, Union
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ca:
     class Meta:
         name = "CA"
@@ -15,7 +17,7 @@ class Ca:
             "max_occurs": 2,
         },
     )
-    y: Optional[object] = field(
+    y: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -24,12 +26,12 @@ class Ca:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SA:
     class Meta:
         name = "s-a"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -38,27 +40,26 @@ class SA:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test2:
     class Meta:
         name = "test2"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -67,12 +68,12 @@ class Test2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ECa(Ca):
     class Meta:
         name = "E-CA"
 
-    z: Optional[object] = field(
+    z: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -81,7 +82,7 @@ class ECa(Ca):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RCa(Ca):
     class Meta:
         name = "R-CA"
@@ -93,20 +94,29 @@ class RCa(Ca):
             "type": "Ignore",
         },
     )
+    x: list[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        },
+    )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test3(Ca):
     class Meta:
         name = "test3"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    s_a_or_test: Optional[Union[SA, Test]] = field(
+    s_a_or_test: None | SA | Test = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -122,13 +132,13 @@ class Root:
             ),
         },
     )
-    test2: Optional[Test2] = field(
+    test2: None | Test2 = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    test3: Optional[Test3] = field(
+    test3: None | Test3 = field(
         default=None,
         metadata={
             "type": "Element",

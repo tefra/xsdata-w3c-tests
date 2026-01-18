@@ -1,24 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class FooIdrefsAttr(Enum):
     FOO = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    idrefs_attr: Optional[FooIdrefsAttr] = field(
+    idrefs_attr: None | FooIdrefsAttr = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id_attr: Optional[str] = field(
+    id_attr: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -26,21 +27,20 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[Foo] = field(
-        default=None,
+    foo: Foo = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(FooType):
     class Meta:
         name = "test"

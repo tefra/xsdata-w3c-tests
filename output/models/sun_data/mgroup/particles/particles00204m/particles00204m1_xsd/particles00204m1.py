@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "particles"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
         namespace = "particles"
 
-    date_or_marked_or_num: list[Union[XmlDate, bool, int]] = field(
+    date_or_marked_or_num: list[XmlDate | bool | int] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

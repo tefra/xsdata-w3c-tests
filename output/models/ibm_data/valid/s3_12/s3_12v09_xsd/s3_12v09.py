@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 __NAMESPACE__ = "tns"
 
@@ -15,19 +16,19 @@ class CountryType(Enum):
     CAN = "can"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AddressType:
     class Meta:
         name = "addressType"
 
-    type_value: Optional[AddressTypeType] = field(
+    type_value: None | AddressTypeType = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
         },
     )
-    country: Optional[CountryType] = field(
+    country: None | CountryType = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -43,24 +44,24 @@ class AddressType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CanaddressType(AddressType):
     class Meta:
         name = "canaddressType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UsaddressType(AddressType):
     class Meta:
         name = "usaddressType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ItemType:
     class Meta:
         name = "itemType"
 
-    address: list[Union[AddressType, UsaddressType, CanaddressType]] = field(
+    address: list[AddressType | UsaddressType | CanaddressType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -70,7 +71,7 @@ class ItemType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Invoice:
     class Meta:
         name = "invoice"

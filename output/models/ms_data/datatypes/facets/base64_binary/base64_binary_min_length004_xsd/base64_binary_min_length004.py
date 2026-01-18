@@ -1,14 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[bytes] = field(
-        default=None,
+    foo: bytes = field(
         metadata={
             "type": "Element",
             "namespace": "",
@@ -16,11 +16,11 @@ class FooType:
             "min_length": 4,
             "max_length": 6,
             "format": "base64",
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(FooType):
     class Meta:
         name = "test"

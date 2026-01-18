@@ -1,29 +1,31 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any, Optional
+from typing import Any
 
 __NAMESPACE__ = "urn:foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
         namespace = "urn:foo"
 
-    a: Optional[str] = field(
+    a: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    b: Optional[str] = field(
+    b: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    c: Optional[str] = field(
+    c: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -35,13 +37,13 @@ class OverrideA(Enum):
     FIXED = "fixed"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Add(Base):
     class Meta:
         name = "add"
         namespace = "urn:foo"
 
-    d: Optional[str] = field(
+    d: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -49,21 +51,21 @@ class Add(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Default(Base):
     class Meta:
         name = "default"
         namespace = "urn:foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Override(Base):
     class Meta:
         name = "override"
         namespace = "urn:foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Prohibit(Base):
     class Meta:
         name = "prohibit"

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlDuration
 
@@ -14,7 +15,7 @@ class YMdenumeration(Enum):
     P5_DT0_H0_3_S = XmlDuration("P5DT0H0.3S")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -26,21 +27,21 @@ class Root:
             "required": True,
         },
     )
-    ay_mdtype: Optional[XmlDuration] = field(
+    ay_mdtype: None | XmlDuration = field(
         default=None,
         metadata={
             "name": "ayMDType",
             "type": "Attribute",
         },
     )
-    ay_mdenumeration: Optional[YMdenumeration] = field(
+    ay_mdenumeration: None | YMdenumeration = field(
         default=None,
         metadata={
             "name": "ayMDEnumeration",
             "type": "Attribute",
         },
     )
-    ay_mdmin_max_inclusive: Optional[XmlDuration] = field(
+    ay_mdmin_max_inclusive: None | XmlDuration = field(
         default=None,
         metadata={
             "name": "ayMDMinMaxInclusive",
@@ -49,7 +50,7 @@ class Root:
             "max_inclusive": XmlDuration("P30DT400H"),
         },
     )
-    ay_mdmin_max_exclusive: Optional[XmlDuration] = field(
+    ay_mdmin_max_exclusive: None | XmlDuration = field(
         default=None,
         metadata={
             "name": "ayMDMinMaxExclusive",

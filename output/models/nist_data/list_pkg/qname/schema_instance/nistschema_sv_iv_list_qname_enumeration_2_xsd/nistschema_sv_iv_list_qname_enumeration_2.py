@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -175,7 +176,7 @@ class NistschemaSvIvListQnameEnumeration2Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FourAn:
     class Meta:
         name = "_four_an"
@@ -189,7 +190,7 @@ class FourAn:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ThatRegist:
     class Meta:
         name = "_that.regist"
@@ -203,7 +204,7 @@ class ThatRegist:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UponOfCalledEnableOf:
     class Meta:
         name = "_upon.of-called-enable-of"
@@ -217,7 +218,7 @@ class UponOfCalledEnableOf:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
     class Meta:
         name = (
@@ -233,7 +234,7 @@ class UsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WithFedWi:
     class Meta:
         name = "_with.fed_wi"
@@ -247,7 +248,7 @@ class WithFedWi:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BcreationPervasiveComplexAndWir:
     class Meta:
         name = "bcreation.pervasive_complex-and-wir"
@@ -261,7 +262,7 @@ class BcreationPervasiveComplexAndWir:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BexchangeMustCor:
     class Meta:
         name = "bexchange.must_cor"
@@ -275,7 +276,7 @@ class BexchangeMustCor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CandAmongDiscoverL:
     class Meta:
         name = "cand-among.discover.l"
@@ -289,7 +290,7 @@ class CandAmongDiscoverL:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EwasTheToNecessaryT:
     class Meta:
         name = "ewas-the-to-necessary_t"
@@ -303,7 +304,7 @@ class EwasTheToNecessaryT:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FeliminateGenerationAndTh:
     class Meta:
         name = "feliminate.generation-and_th"
@@ -317,7 +318,7 @@ class FeliminateGenerationAndTh:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class GcertainTheRe:
     class Meta:
         name = "gcertain.the_re"
@@ -331,7 +332,7 @@ class GcertainTheRe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class GparticipatingRetrievesToComputer:
     class Meta:
         name = "gparticipating_retrieves_to-computer"
@@ -345,7 +346,7 @@ class GparticipatingRetrievesToComputer:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IpartnersToIn:
     class Meta:
         name = "ipartners.to_in"
@@ -359,7 +360,7 @@ class IpartnersToIn:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JapplicationA:
     class Meta:
         name = "japplication.a"
@@ -373,7 +374,7 @@ class JapplicationA:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class KandPervasiveAndHasRelatedToAT:
     class Meta:
         name = "kand-pervasive.and.has-related.to-a-t"
@@ -387,7 +388,7 @@ class KandPervasiveAndHasRelatedToAT:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class KgenerationRetrievesSimulationUsedAndOfApproachOfMade:
     class Meta:
         name = "kgeneration.retrieves.simulation.used.and.of.approach-of_made"
@@ -401,7 +402,7 @@ class KgenerationRetrievesSimulationUsedAndOfApproachOfMade:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LbothIndustryGPopularByAAndTheAndContainingMatch:
     class Meta:
         name = "lboth-industry.g.popular_by_a_and.the_and.containing_match-"
@@ -415,7 +416,7 @@ class LbothIndustryGPopularByAAndTheAndContainingMatch:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LtoAndAmbiguitiesShiftInternationalTestItsFirst:
     class Meta:
         name = "lto-and_ambiguities.shift_international-test_its-first-"
@@ -429,7 +430,7 @@ class LtoAndAmbiguitiesShiftInternationalTestItsFirst:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MincludingGainTheAOr:
     class Meta:
         name = "mincluding_gain_the.a-or"
@@ -443,7 +444,7 @@ class MincludingGainTheAOr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OandComputingOfInformationComputi:
     class Meta:
         name = "oand.computing_of-information-computi"
@@ -457,7 +458,7 @@ class OandComputingOfInformationComputi:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QofHelpAsAsFocusingExer:
     class Meta:
         name = "qof.help_as.as_focusing-exer"
@@ -471,7 +472,7 @@ class QofHelpAsAsFocusingExer:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QtheMaintainedTheseForDevelopmentToOfVocabu:
     class Meta:
         name = "qthe.maintained-these.for-development.to.of-vocabu"
@@ -485,7 +486,7 @@ class QtheMaintainedTheseForDevelopmentToOfVocabu:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QtheOfConformanceAOfABusinessDependabilityAdoptio:
     class Meta:
         name = "qthe_of-conformance.a_of-a.business.dependability.adoptio"
@@ -499,7 +500,7 @@ class QtheOfConformanceAOfABusinessDependabilityAdoptio:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Rele:
     class Meta:
         name = "rele"
@@ -513,7 +514,7 @@ class Rele:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RprovidesFileThroughByAndFor:
     class Meta:
         name = "rprovides.file-through_by-and_for"
@@ -527,7 +528,7 @@ class RprovidesFileThroughByAndFor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SaddressingCreatingTheOrganizationsComputingStandardsFo:
     class Meta:
         name = "saddressing-creating.the-organizations.computing_standards_fo"
@@ -541,7 +542,7 @@ class SaddressingCreatingTheOrganizationsComputingStandardsFo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SprocessObtainedA:
     class Meta:
         name = "sprocess_obtained-a"
@@ -555,7 +556,7 @@ class SprocessObtainedA:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SsAndAndBrowsersFromInd:
     class Meta:
         name = "ss.and-and.browsers_from_ind"
@@ -569,7 +570,7 @@ class SsAndAndBrowsersFromInd:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class StoOfKnownAEnterpr:
     class Meta:
         name = "sto-of_known.a-enterpr"
@@ -583,7 +584,7 @@ class StoOfKnownAEnterpr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UbetterDesignedInformationHeterogeneousForAllowBac:
     class Meta:
         name = "ubetter_designed-information-heterogeneous_for-allow-bac"
@@ -597,7 +598,7 @@ class UbetterDesignedInformationHeterogeneousForAllowBac:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class VspecificationsRequestingDesktop:
     class Meta:
         name = "vspecifications.requesting.desktop-"
@@ -611,7 +612,7 @@ class VspecificationsRequestingDesktop:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WfileSi:
     class Meta:
         name = "wfile-si"
@@ -625,7 +626,7 @@ class WfileSi:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WsIsTheNetworksComputing5TheHete:
     class Meta:
         name = "ws_is_the-networks.computing.5.the_hete"
@@ -639,7 +640,7 @@ class WsIsTheNetworksComputing5TheHete:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XdefineToolsCanMustIndustriesCreateB:
     class Meta:
         name = "xdefine-tools_can-must-industries_create_b"
@@ -653,7 +654,7 @@ class XdefineToolsCanMustIndustriesCreateB:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XparticularlyIsLanguageProfilesBeOffe:
     class Meta:
         name = "xparticularly.is_language.profiles-be-offe"
@@ -667,15 +668,14 @@ class XparticularlyIsLanguageProfilesBeOffe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListQnameEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: Optional[NistschemaSvIvListQnameEnumeration2Type] = field(
-        default=None,
+    value: NistschemaSvIvListQnameEnumeration2Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

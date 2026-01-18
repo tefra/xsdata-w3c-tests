@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "targetNS0"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A1:
     class Meta:
         name = "A"
 
-    c_or_date: Optional[Union[int, XmlDate]] = field(
+    c_or_date: None | int | XmlDate = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -31,7 +32,7 @@ class A1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A(A1):
     class Meta:
         name = "a"

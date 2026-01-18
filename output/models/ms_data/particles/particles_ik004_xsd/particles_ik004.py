@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    c1_or_c2: Optional[Union[str, object]] = field(
+    c1_or_c2: None | str | object = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -26,21 +27,20 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )

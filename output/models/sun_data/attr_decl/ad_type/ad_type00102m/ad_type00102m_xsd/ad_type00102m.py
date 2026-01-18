@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "AttrDecl/type"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementWithAttr:
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrDecl/type"
 
-    number: Optional[int] = field(
+    number: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -20,7 +21,7 @@ class ElementWithAttr:
             "max_exclusive": 13,
         },
     )
-    price: Optional[Decimal] = field(
+    price: None | Decimal = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -30,17 +31,16 @@ class ElementWithAttr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrDecl/type"
 
-    element_with_attr: Optional[ElementWithAttr] = field(
-        default=None,
+    element_with_attr: ElementWithAttr = field(
         metadata={
             "name": "elementWithAttr",
             "type": "Element",
             "required": True,
-        },
+        }
     )

@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "b"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B1:
     class Meta:
         name = "b1"
@@ -17,7 +19,7 @@ class B1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B2:
     class Meta:
         name = "b2"

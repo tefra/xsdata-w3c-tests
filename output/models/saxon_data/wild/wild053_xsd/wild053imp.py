@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://wild053.org/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zang:
     class Meta:
         name = "zang"
         namespace = "http://wild053.org/"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,13 +20,13 @@ class Zang:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zeng:
     class Meta:
         name = "zeng"
         namespace = "http://wild053.org/"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -34,20 +35,19 @@ class Zeng:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing:
     class Meta:
         name = "zing"
 
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    local_target_namespace_element: Optional[object] = field(
+    local_target_namespace_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -57,13 +57,13 @@ class Zing:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zong:
     class Meta:
         name = "zong"
         namespace = "http://wild053.org/"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlDuration
 
@@ -20,15 +21,14 @@ class NistschemaSvIvAtomicDurationEnumeration3Type(Enum):
     P1973_Y07_M23_DT17_H25_M15_S = XmlDuration("P1973Y07M23DT17H25M15S")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicDurationEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-duration-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-duration-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvAtomicDurationEnumeration3Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicDurationEnumeration3Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

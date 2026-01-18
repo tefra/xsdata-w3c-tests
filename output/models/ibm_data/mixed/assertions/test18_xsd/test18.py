@@ -1,31 +1,32 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
-    a: Optional["X.A"] = field(
+    a: None | X.A = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    b: Optional[str] = field(
+    b: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[str] = field(
+    c: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[str] = field(
+    d: None | str = field(
         default=None,
         metadata={
             "type": "Element",
@@ -33,7 +34,7 @@ class X:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class A:
         a1: list[str] = field(
             default_factory=list,
@@ -43,7 +44,7 @@ class X:
                 "min_occurs": 1,
             },
         )
-        a_count: Optional[int] = field(
+        a_count: None | int = field(
             default=None,
             metadata={
                 "name": "aCount",
@@ -52,30 +53,30 @@ class X:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Y:
-    a: Optional["Y.A"] = field(
+    a: None | Y.A = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    b: Optional[str] = field(
+    b: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[str] = field(
+    c: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[str] = field(
+    d: None | str = field(
         default=None,
         metadata={
             "type": "Element",
@@ -83,7 +84,7 @@ class Y:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class A:
         a1: list[str] = field(
             default_factory=list,
@@ -93,7 +94,7 @@ class Y:
                 "min_occurs": 1,
             },
         )
-        a_count: Optional[int] = field(
+        a_count: None | int = field(
             default=None,
             metadata={
                 "name": "aCount",
@@ -102,24 +103,22 @@ class Y:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    x: Optional[X] = field(
-        default=None,
+    x: X = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    y: Optional[Y] = field(
-        default=None,
+    y: Y = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

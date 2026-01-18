@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
@@ -18,7 +19,7 @@ class A:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
@@ -32,7 +33,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C:
     class Meta:
         name = "c"
@@ -46,7 +47,7 @@ class C:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
@@ -60,7 +61,7 @@ class E:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class N:
     class Meta:
         name = "n"
@@ -74,7 +75,7 @@ class N:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class N1:
     class Meta:
         name = "n1"
@@ -88,7 +89,7 @@ class N1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class S:
     class Meta:
         name = "s"
@@ -102,7 +103,7 @@ class S:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class S1:
     class Meta:
         name = "s1"
@@ -116,9 +117,9 @@ class S1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
-    choice: list[Union[S1, S, N1, N, A, B, object]] = field(
+    choice: list[S1 | S | N1 | N | A | B | object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -166,17 +167,16 @@ class T:
             "max_occurs": 10,
         },
     )
-    c: Optional[C] = field(
+    c: None | C = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "required": True,
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(T):
     class Meta:
         name = "test"

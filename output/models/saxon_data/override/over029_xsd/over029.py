@@ -1,37 +1,36 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.saxon_data.override.over029_xsd.over029a import GiftWrap
 
 __NAMESPACE__ = "http://datypic.com/ord"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ProductType:
-    number: Optional[int] = field(
-        default=None,
+    number: int = field(
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
             "required": True,
-        },
+        }
     )
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
             "required": True,
-        },
+        }
     )
-    size: Optional[int] = field(
+    size: None | int = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
         },
     )
-    gift_wrap: Optional[GiftWrap] = field(
+    gift_wrap: None | GiftWrap = field(
         default=None,
         metadata={
             "name": "giftWrap",
@@ -39,7 +38,7 @@ class ProductType:
             "namespace": "http://datypic.com/spc",
         },
     )
-    points: Optional[int] = field(
+    points: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -48,19 +47,18 @@ class ProductType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OrderType:
-    product: Optional[ProductType] = field(
-        default=None,
+    product: ProductType = field(
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Order(OrderType):
     class Meta:
         name = "order"

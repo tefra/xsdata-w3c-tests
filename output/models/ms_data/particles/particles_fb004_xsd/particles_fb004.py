@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    g1_or_g2: Optional[Union["Base.G1", "Base.G2"]] = field(
+    g1_or_g2: None | Base.G1 | Base.G2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -28,36 +30,34 @@ class Base:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "http://xsdtesting"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -66,19 +66,19 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    s1: Optional[object] = field(
+    s1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    s2: Optional[object] = field(
+    s2: None | object = field(
         default=None,
         metadata={
             "type": "Element",

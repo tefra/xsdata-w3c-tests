@@ -17,9 +17,9 @@ obj = Doc(
                 Emphasis(
                     content=[
                         'text',
-                        '.',
                     ]
                 ),
+                '.',
             ]
         ),
     ]

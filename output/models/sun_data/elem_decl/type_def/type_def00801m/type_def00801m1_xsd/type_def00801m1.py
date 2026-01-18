@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Type:
-    value: Optional[bool] = field(
+    value: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -14,12 +15,12 @@ class Type:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DerivedType(Type):
     class Meta:
         name = "derivedType"
 
-    value1: Optional[bool] = field(
+    value1: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -27,18 +28,17 @@ class DerivedType(Type):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    element: Optional[Type] = field(
-        default=None,
+    element: Type = field(
         metadata={
             "name": "Element",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

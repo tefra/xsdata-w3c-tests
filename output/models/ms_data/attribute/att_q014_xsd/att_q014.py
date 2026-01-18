@@ -1,23 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class InternationalPrice:
     class Meta:
         name = "internationalPrice"
         namespace = "http://xsdtesting"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    currency: Optional[str] = field(
+    currency: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -26,17 +26,16 @@ class InternationalPrice:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    international_price: Optional[InternationalPrice] = field(
-        default=None,
+    international_price: InternationalPrice = field(
         metadata={
             "name": "internationalPrice",
             "type": "Element",
             "required": True,
-        },
+        }
     )

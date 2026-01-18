@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
 __NAMESPACE__ = "compositor"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
         namespace = "compositor"
 
-    date_or_time: Optional[Union[XmlDate, XmlTime]] = field(
+    date_or_time: None | XmlDate | XmlTime = field(
         default=None,
         metadata={
             "type": "Elements",

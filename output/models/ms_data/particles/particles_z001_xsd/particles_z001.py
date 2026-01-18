@@ -1,19 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, ForwardRef, Optional, Union
+from typing import Any, ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
-    annotation: Optional[object] = field(
+    annotation: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    element_or_any: list[Union["Base.Element", "Base.AnyType"]] = field(
+    element_or_any: list[Base.Element | Base.AnyType] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -32,30 +34,28 @@ class Base:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Element:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class AnyType:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived(Base):
     any: Any = field(
         init=False,
@@ -66,17 +66,16 @@ class Derived(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[Derived] = field(
+    elem: None | Derived = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

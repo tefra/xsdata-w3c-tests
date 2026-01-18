@@ -1,31 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C:
     class Meta:
         name = "c"
 
-    x: Optional[int] = field(
-        default=None,
+    x: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    y: Optional[int] = field(
-        default=None,
+    y: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -34,36 +33,33 @@ class C:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class D:
     class Meta:
         name = "d"
 
-    x: Optional[int] = field(
-        default=None,
+    x: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    y: Optional[int] = field(
-        default=None,
+    y: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    z: Optional[int] = field(
-        default=None,
+    z: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -72,17 +68,16 @@ class D:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "a"
 
-    p: Optional[D] = field(
-        default=None,
+    p: D = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
@@ -17,28 +18,28 @@ class Foo:
             "process_contents": "skip",
         },
     )
-    e1: Optional[object] = field(
+    e1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e2: Optional[object] = field(
+    e2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e3: Optional[object] = field(
+    e3: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e4: Optional[object] = field(
+    e4: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -47,7 +48,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

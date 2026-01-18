@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "IdConstrDefs/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Name:
     class Meta:
         name = "name"
         namespace = "IdConstrDefs/name"
 
-    name: list["Name.NameInner"] = field(
+    name: list[Name.NameInner] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -19,7 +20,7 @@ class Name:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class NameInner:
         value: str = field(
             default="",
@@ -27,7 +28,7 @@ class Name:
                 "required": True,
             },
         )
-        name: Optional[object] = field(
+        name: None | object = field(
             default=None,
             metadata={
                 "type": "Attribute",

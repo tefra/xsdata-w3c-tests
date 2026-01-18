@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "Wildcard/annotation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "Wildcard/annotation"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,7 +20,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TheType:
     """
     :ivar any_attributes: This is a wildcard schema component

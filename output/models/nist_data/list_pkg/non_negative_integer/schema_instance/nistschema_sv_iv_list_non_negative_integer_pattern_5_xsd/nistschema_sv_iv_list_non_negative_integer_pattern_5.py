@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-nonNegativeInteger-pattern-5-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListNonNegativeIntegerPattern5:
     class Meta:
         name = "NISTSchema-SV-IV-list-nonNegativeInteger-pattern-5"

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 
 class ListOfStatesValue(Enum):
@@ -9,12 +10,12 @@ class ListOfStatesValue(Enum):
     CA = "CA"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: list[Union[ListOfStatesValue, str]] = field(
+    value: list[ListOfStatesValue | str] = field(
         default_factory=list,
         metadata={
             "tokens": True,
@@ -22,16 +23,15 @@ class FooTest:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: FooTest = field(
         metadata={
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )

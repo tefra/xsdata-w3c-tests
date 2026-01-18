@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional, Union
+from typing import Any
 
 __NAMESPACE__ = "http://xstest-tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TitleType:
     class Meta:
         name = "titleType"
 
-    type_value: Optional[object] = field(
+    type_value: None | object = field(
         default=None,
         metadata={
             "name": "type",
@@ -26,7 +28,7 @@ class TitleType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IntegerTitleType(TitleType):
     class Meta:
         name = "integerTitleType"
@@ -38,10 +40,10 @@ class IntegerTitleType(TitleType):
             "type": "Ignore",
         },
     )
-    value: Optional[int] = field(default=None)
+    value: int = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MixedTitleType(TitleType):
     class Meta:
         name = "mixedTitleType"
@@ -53,10 +55,10 @@ class MixedTitleType(TitleType):
             "type": "Ignore",
         },
     )
-    value: Union[int, str] = field(default="")
+    value: int | str = field(default="")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class StringTitleType(TitleType):
     class Meta:
         name = "stringTitleType"
@@ -71,14 +73,14 @@ class StringTitleType(TitleType):
     value: str = field(default="")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
 
     title: list[
-        Union[TitleType, StringTitleType, IntegerTitleType, MixedTitleType]
+        TitleType | StringTitleType | IntegerTitleType | MixedTitleType
     ] = field(
         default_factory=list,
         metadata={

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from xsdata.models.datatype import XmlDate
@@ -5,7 +7,7 @@ from xsdata.models.datatype import XmlDate
 __NAMESPACE__ = "contentType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A1:
     class Meta:
         name = "A"
@@ -27,7 +29,7 @@ class A1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A(A1):
     class Meta:
         name = "a"

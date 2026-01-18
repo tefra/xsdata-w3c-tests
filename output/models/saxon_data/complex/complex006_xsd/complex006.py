@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         nillable = True
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: None | Decimal = field(
         metadata={
             "nillable": True,
-        },
+        }
     )
     nil: str = field(
         default="true",

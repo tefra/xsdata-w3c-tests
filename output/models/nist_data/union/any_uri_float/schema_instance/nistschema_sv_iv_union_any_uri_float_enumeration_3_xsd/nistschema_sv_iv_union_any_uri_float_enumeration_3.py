@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-union-anyURI-float-enumeration-3-NS"
 
@@ -25,15 +26,14 @@ class NistschemaSvIvUnionAnyUriFloatEnumeration3Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvUnionAnyUriFloatEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-union-anyURI-float-enumeration-3"
         namespace = "NISTSchema-SV-IV-union-anyURI-float-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvUnionAnyUriFloatEnumeration3Type] = field(
-        default=None,
+    value: NistschemaSvIvUnionAnyUriFloatEnumeration3Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

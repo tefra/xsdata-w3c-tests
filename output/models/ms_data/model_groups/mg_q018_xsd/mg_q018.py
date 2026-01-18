@@ -1,28 +1,28 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
 
-    e1: Optional[str] = field(
+    e1: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    e1_or_e2: Optional[Union[str, Bar]] = field(
+    e1_or_e2: None | str | Bar = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -42,7 +42,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

@@ -1,5 +1,6 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from output.models.ms_data.particles.particles_r017_xsd.particles_r017_imp import (
     ImpElem1,
@@ -9,9 +10,9 @@ from output.models.ms_data.particles.particles_r017_xsd.particles_r017_imp impor
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -28,16 +29,16 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    imp_elem1_or_imp_elem2: Optional[Union[ImpElem1, ImpElem2]] = field(
+    imp_elem1_or_imp_elem2: None | ImpElem1 | ImpElem2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -57,17 +58,16 @@ class R:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

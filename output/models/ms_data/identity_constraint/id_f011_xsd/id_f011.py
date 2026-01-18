@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uid:
     class Meta:
         name = "uid"
         nillable = True
 
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -16,7 +17,7 @@ class Uid:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

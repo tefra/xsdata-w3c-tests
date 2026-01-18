@@ -1,42 +1,41 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestElement:
     class Meta:
         name = "testElement"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RootType:
     class Meta:
         name = "rootType"
 
-    test_element: Optional[TestElement] = field(
-        default=None,
+    test_element: TestElement = field(
         metadata={
             "name": "testElement",
             "type": "Element",
             "namespace": "http://www.tempuri.org",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(RootType):
     class Meta:
         name = "root"

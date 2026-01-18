@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
 
@@ -13,7 +15,7 @@ class YMdenumeration(Enum):
     PT43_M4_2_S = XmlDuration("-PT43M4.2S")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

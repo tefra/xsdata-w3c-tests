@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    a: Optional[int] = field(
-        default=None,
+    a: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
     w3_org_1999_xhtml_element: list[object] = field(
         default_factory=list,
@@ -23,22 +24,21 @@ class Foo:
             "process_contents": "skip",
         },
     )
-    d: Optional[object] = field(
+    d: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[bool] = field(
+    c: None | bool = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
-    b_or_b2: Optional[Union["Foo.B", "Foo.B2"]] = field(
+    b_or_b2: None | Foo.B | Foo.B2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -57,26 +57,26 @@ class Foo:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class B:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class B2:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import A
@@ -5,7 +7,7 @@ from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import A
 __NAMESPACE__ = "http://test1"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
     class Meta:
         name = "x"

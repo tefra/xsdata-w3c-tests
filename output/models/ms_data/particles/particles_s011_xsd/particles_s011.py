@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address:
     class Meta:
         name = "address"
@@ -18,7 +19,7 @@ class Address:
             "max_occurs": 3,
         },
     )
-    zip: Optional[object] = field(
+    zip: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -27,13 +28,13 @@ class Address:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E3:
     class Meta:
         name = "e3"
         namespace = "http://xsdtesting"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -42,47 +43,45 @@ class E3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    e1: Optional[object] = field(
+    e1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e2: Optional[Address] = field(
-        default=None,
+    e2: Address = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address1(Address):
     class Meta:
         name = "address1"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
@@ -19,16 +21,8 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
-
-    e3: list[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "max_occurs": 2,
-        },
-    )

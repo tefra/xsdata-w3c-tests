@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Id:
     class Meta:
         name = "ID"
@@ -14,7 +16,7 @@ class Id:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Idref:
     class Meta:
         name = "IDREF"
@@ -27,7 +29,7 @@ class Idref:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Idrefs:
     class Meta:
         name = "IDREFS"
@@ -40,7 +42,7 @@ class Idrefs:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DataTypes:
     id: list[Id] = field(
         default_factory=list,
@@ -74,7 +76,7 @@ class DataTypes:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     data_types: list[DataTypes] = field(
         default_factory=list,

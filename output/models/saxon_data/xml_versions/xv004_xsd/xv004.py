@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class A(Enum):
     B = "B𠀀"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DKstra:
     class Meta:
         name = "Dĳkstra"
 
-    a: Optional[A] = field(
+    a: None | A = field(
         default=None,
         metadata={
             "name": "A𰀀",

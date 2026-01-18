@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Kid:
     class Meta:
         name = "kid"
         namespace = "myNS.tempuri.org"
 
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -18,12 +19,12 @@ class Kid:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uidtype:
     class Meta:
         name = "uidtype"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -32,7 +33,7 @@ class Uidtype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

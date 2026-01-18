@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "http://example.com/over019"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Para:
     class Meta:
         name = "para"

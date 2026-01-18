@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Beta:
     class Meta:
         name = "beta"
 
-    open_com_element: Optional[object] = field(
+    open_com_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

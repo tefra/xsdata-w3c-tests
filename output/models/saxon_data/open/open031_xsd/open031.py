@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    open_com_element: Optional[object] = field(
+    open_com_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,21 +20,21 @@ class B:
             "min_occurs": 1,
         },
     )
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[object] = field(
+    c: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[object] = field(
+    d: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -42,12 +43,12 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(R):
     class Meta:
         name = "doc"

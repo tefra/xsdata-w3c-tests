@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -14,7 +15,7 @@ class DTimeStampEnumeration(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -26,21 +27,21 @@ class Root:
             "required": True,
         },
     )
-    attrd_time_stamp_type: Optional[XmlDateTime] = field(
+    attrd_time_stamp_type: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrdTimeStampType",
             "type": "Attribute",
         },
     )
-    attrd_time_stamp_enumeration: Optional[DTimeStampEnumeration] = field(
+    attrd_time_stamp_enumeration: None | DTimeStampEnumeration = field(
         default=None,
         metadata={
             "name": "attrdTimeStampEnumeration",
             "type": "Attribute",
         },
     )
-    attrd_time_stamp_pattern: Optional[str] = field(
+    attrd_time_stamp_pattern: None | str = field(
         default=None,
         metadata={
             "name": "attrdTimeStampPattern",
@@ -48,7 +49,7 @@ class Root:
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T][0]*.*",
         },
     )
-    attrd_time_stamp_min_max_inclusive: Optional[XmlDateTime] = field(
+    attrd_time_stamp_min_max_inclusive: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrdTimeStampMinMaxInclusive",
@@ -61,7 +62,7 @@ class Root:
             ),
         },
     )
-    attrd_time_stamp_min_max_exclusive: Optional[XmlDateTime] = field(
+    attrd_time_stamp_min_max_exclusive: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrdTimeStampMinMaxExclusive",

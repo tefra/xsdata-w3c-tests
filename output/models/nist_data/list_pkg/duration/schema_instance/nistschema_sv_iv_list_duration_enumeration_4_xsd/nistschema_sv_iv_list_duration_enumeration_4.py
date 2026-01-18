@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlDuration
 
@@ -102,15 +103,14 @@ class NistschemaSvIvListDurationEnumeration4Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListDurationEnumeration4:
     class Meta:
         name = "NISTSchema-SV-IV-list-duration-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-duration-enumeration-4-NS"
 
-    value: Optional[NistschemaSvIvListDurationEnumeration4Type] = field(
-        default=None,
+    value: NistschemaSvIvListDurationEnumeration4Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

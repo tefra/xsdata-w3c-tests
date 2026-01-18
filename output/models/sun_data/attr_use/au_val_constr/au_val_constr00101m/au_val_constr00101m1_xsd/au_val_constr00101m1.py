@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "AttrUse/valConstr"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementWithAttr:
     class Meta:
         name = "elementWithAttr"
@@ -20,17 +21,16 @@ class ElementWithAttr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrUse/valConstr"
 
-    element_with_attr: Optional[ElementWithAttr] = field(
-        default=None,
+    element_with_attr: ElementWithAttr = field(
         metadata={
             "name": "elementWithAttr",
             "type": "Element",
             "required": True,
-        },
+        }
     )

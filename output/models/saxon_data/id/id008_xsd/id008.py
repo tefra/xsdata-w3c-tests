@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PseudoId:
     class Meta:
         name = "pseudoID"
@@ -13,7 +15,7 @@ class PseudoId:
             "required": True,
         },
     )
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -21,7 +23,7 @@ class PseudoId:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PseudoIdref:
     class Meta:
         name = "pseudoIDREF"
@@ -32,7 +34,7 @@ class PseudoIdref:
             "required": True,
         },
     )
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -40,12 +42,12 @@ class PseudoIdref:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idref: list[Union["Node", PseudoId, PseudoIdref]] = field(
+    node_or_id_or_idref: list[Node | PseudoId | PseudoIdref] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -67,7 +69,7 @@ class Node:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

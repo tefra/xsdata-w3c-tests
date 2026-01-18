@@ -1,17 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[XmlTime] = field(
-        default=None,
+    value: XmlTime = field(
         metadata={
             "explicit_timezone": "prohibited",
-        },
+        }
     )

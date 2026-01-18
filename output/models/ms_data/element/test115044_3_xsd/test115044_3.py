@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
         namespace = "foo"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,16 +20,15 @@ class E:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    e: Optional[str] = field(
-        default=None,
+    e: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

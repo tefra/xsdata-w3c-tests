@@ -1,32 +1,31 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
     class Meta:
         name = "t"
 
-    e1: Optional["T.E1"] = field(
-        default=None,
+    e1: T.E1 = field(
         metadata={
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    e2: Optional["T.E2"] = field(
-        default=None,
+    e2: T.E2 = field(
         metadata={
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E1:
         any_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -36,7 +35,7 @@ class T:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E2:
         any_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -47,7 +46,7 @@ class T:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(T):
     class Meta:
         name = "root"

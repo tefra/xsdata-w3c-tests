@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/nillable"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         nillable = True
         namespace = "ElemDecl/nillable"
 
-    local: Optional[object] = field(
+    local: None | object = field(
         default=None,
         metadata={
             "name": "Local",

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
@@ -32,7 +33,7 @@ class NistschemaSvIvAtomicQnameEnumeration4Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
     class Meta:
         name = (
@@ -48,7 +49,7 @@ class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EtransformingSpecificEmergingIsDevelopedActRela:
     class Meta:
         name = "etransforming-specific.emerging_is-developed.act_rela"
@@ -62,7 +63,7 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
     class Meta:
         name = "tmany-retrieval-with_language.both-be.results-is-of-b"
@@ -76,7 +77,7 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
     class Meta:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
@@ -90,7 +91,7 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
     class Meta:
         name = "yof_automatic-partnerships.and.set-series_is.key.e"
@@ -104,15 +105,14 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicQnameEnumeration4:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: Optional[NistschemaSvIvAtomicQnameEnumeration4Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicQnameEnumeration4Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

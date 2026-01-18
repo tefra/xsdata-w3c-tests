@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComType:
     class Meta:
         name = "comType"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    attr: Optional[str] = field(
+    attr: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -21,7 +21,7 @@ class ComType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(ComType):
     class Meta:
         name = "root"

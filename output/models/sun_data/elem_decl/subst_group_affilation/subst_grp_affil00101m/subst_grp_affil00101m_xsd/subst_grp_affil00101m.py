@@ -1,31 +1,31 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "ElemDecl/substGroupAffilation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PublicationType:
-    title: Optional[str] = field(
-        default=None,
+    title: str = field(
         metadata={
             "name": "Title",
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Article(PublicationType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BookType(PublicationType):
     author: list[str] = field(
         default_factory=list,
@@ -37,43 +37,42 @@ class BookType(PublicationType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MagazineType(PublicationType):
-    date: Optional[XmlPeriod] = field(
-        default=None,
+    date: XmlPeriod = field(
         metadata={
             "name": "Date",
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Publication(PublicationType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Book(BookType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Magazine(MagazineType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BookStore:
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
-    magazine_or_book: list[Union[Magazine, Book]] = field(
+    magazine_or_book: list[Magazine | Book] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -1,44 +1,45 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Empty:
     class Meta:
         name = "empty"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[Empty] = field(
-        default=None,
+    foo: Empty = field(
         metadata={
             "type": "Element",
             "namespace": "foo",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class De(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dr(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    item1_or_item2: list[Union["Root.Item1", "Root.Item2"]] = field(
+    item1_or_item2: list[Root.Item1 | Root.Item2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -55,30 +56,30 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Item1(B):
         pass
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Item2(B):
         pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dee(De):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Der(De):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dre(Dr):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Drr(Dr):
     pass

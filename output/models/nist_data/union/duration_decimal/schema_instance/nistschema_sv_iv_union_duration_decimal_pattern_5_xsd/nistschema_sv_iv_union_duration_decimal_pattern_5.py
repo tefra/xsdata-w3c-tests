@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "NISTSchema-SV-IV-union-duration-decimal-pattern-5-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvUnionDurationDecimalPattern5:
     class Meta:
         name = "NISTSchema-SV-IV-union-duration-decimal-pattern-5"

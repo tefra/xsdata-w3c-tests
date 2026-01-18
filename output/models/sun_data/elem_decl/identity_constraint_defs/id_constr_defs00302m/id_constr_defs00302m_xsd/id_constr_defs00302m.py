@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
-    element: list["Root.Element"] = field(
+    element: list[Root.Element] = field(
         default_factory=list,
         metadata={
             "name": "Element",
@@ -19,16 +20,16 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Element:
-        id: Optional[str] = field(
+        id: None | str = field(
             default=None,
             metadata={
                 "name": "ID",
                 "type": "Attribute",
             },
         )
-        idref: Optional[str] = field(
+        idref: None | str = field(
             default=None,
             metadata={
                 "name": "IDREF",

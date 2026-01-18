@@ -1,35 +1,34 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MinimalA:
     class Meta:
         name = "MINIMAL_A"
 
-    b: Optional[int] = field(
-        default=None,
+    b: int = field(
         metadata={
             "name": "B",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
-    a: Optional[MinimalA] = field(
-        default=None,
+    a: MinimalA = field(
         metadata={
             "name": "A",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    a_attribute: Optional[bool] = field(
+    a_attribute: None | bool = field(
         default=None,
         metadata={
             "name": "a",

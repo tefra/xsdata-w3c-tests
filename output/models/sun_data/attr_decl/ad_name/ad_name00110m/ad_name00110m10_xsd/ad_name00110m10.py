@@ -1,72 +1,73 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "AttrDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrDecl/name"
 
-    str00_a: Optional[str] = field(
+    str00_a: None | str = field(
         default=None,
         metadata={
             "name": "str00A⃐",
             "type": "Attribute",
         },
     )
-    str10: Optional[str] = field(
+    str10: None | str = field(
         default=None,
         metadata={
             "name": "str10-⃖",
             "type": "Attribute",
         },
     )
-    str20: Optional[str] = field(
+    str20: None | str = field(
         default=None,
         metadata={
             "name": "str20⃜",
             "type": "Attribute",
         },
     )
-    str01_a: Optional[str] = field(
+    str01_a: None | str = field(
         default=None,
         metadata={
             "name": "str01A⃡",
             "type": "Attribute",
         },
     )
-    str02_a: Optional[str] = field(
+    str02_a: None | str = field(
         default=None,
         metadata={
             "name": "str02A〪",
             "type": "Attribute",
         },
     )
-    str12: Optional[str] = field(
+    str12: None | str = field(
         default=None,
         metadata={
             "name": "str12-〬",
             "type": "Attribute",
         },
     )
-    str22: Optional[str] = field(
+    str22: None | str = field(
         default=None,
         metadata={
             "name": "str22〯",
             "type": "Attribute",
         },
     )
-    str03_a: Optional[str] = field(
+    str03_a: None | str = field(
         default=None,
         metadata={
             "name": "str03A゙",
             "type": "Attribute",
         },
     )
-    str04_a: Optional[str] = field(
+    str04_a: None | str = field(
         default=None,
         metadata={
             "name": "str04A゚",

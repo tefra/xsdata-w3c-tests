@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Union
 
 from xsdata.models.datatype import XmlPeriod
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, str, Decimal] = field(init=False, default="name")
+    value: XmlPeriod | str | Decimal = field(init=False, default="name")

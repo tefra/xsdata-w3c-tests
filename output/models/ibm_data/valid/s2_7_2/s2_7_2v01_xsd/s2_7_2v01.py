@@ -1,40 +1,39 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
         nillable = True
         namespace = "a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: None | int = field(
         metadata={
             "nillable": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
     class Meta:
         name = "t"
 
-    b: Optional[B] = field(
-        default=None,
+    b: None | B = field(
         metadata={
             "type": "Element",
             "namespace": "a",
             "nillable": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(T):
     class Meta:
         name = "root"

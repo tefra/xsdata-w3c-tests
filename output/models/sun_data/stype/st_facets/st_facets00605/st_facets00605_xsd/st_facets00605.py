@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
 
@@ -9,7 +11,7 @@ class S(Enum):
     LOW_LINE_HYPHEN_MINUS_FULL_STOP = "_-."
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest:
     class Meta:
         name = "fooTest"
         nillable = True
 
-    value: Optional[str] = field(
+    value: None | str = field(
         default="",
         metadata={
             "min_length": 3,
@@ -17,16 +18,15 @@ class FooTest:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: None | FooTest = field(
         metadata={
             "name": "fooTest",
             "type": "Element",
             "nillable": True,
-        },
+        }
     )

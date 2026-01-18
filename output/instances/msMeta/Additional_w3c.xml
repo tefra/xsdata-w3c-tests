@@ -2165,7 +2165,8 @@ invalid, schema restored to validity, instance made invalid</documentation>
     <instanceTest name="addB161.i">
       <instanceDocument xlink:type="locator" xlink:href="../msData/additional/test93490_7.xml"/>
       <expected validity="invalid"/>
-      <current status="accepted" date="2006-07-16"/>
+      <current status="queried" date="2025-12-01" bugzilla="https://github.com/w3c/xsdtests/issues/10"/>
+      <prior status="accepted" date="2006-07-16"/>
     </instanceTest>
   </testGroup>
   <testGroup name="addB162">
@@ -2199,7 +2200,8 @@ invalid, schema restored to validity, instance made invalid</documentation>
     <instanceTest name="addB164.i">
       <instanceDocument xlink:type="locator" xlink:href="../msData/additional/test93490_10.xml"/>
       <expected validity="invalid"/>
-      <current status="accepted" date="2006-07-16"/>
+      <current status="queried" date="2025-12-01" bugzilla="https://github.com/w3c/xsdtests/issues/10"/>
+      <prior status="accepted" date="2006-07-16"/>
     </instanceTest>
   </testGroup>
   <testGroup name="addB165">
@@ -2479,12 +2481,14 @@ invalid, schema restored to validity, instance made invalid</documentation>
     <schemaTest name="addB187">
       <schemaDocument xlink:type="locator" xlink:href="../msData/additional/test264908_1.xsd"/>
       <expected validity="valid"/>
-      <current status="accepted" date="2006-07-16"/>
+      <current status="queried" date="2025-12-01" bugzilla="https://github.com/w3c/xsdtests/issues/11"/>
+      <prior status="accepted" date="2006-07-16"/>
     </schemaTest>
     <instanceTest name="addB187.v">
       <instanceDocument xlink:type="locator" xlink:href="../msData/additional/test264908_1.xml"/>
       <expected validity="valid"/>
-      <current status="accepted" date="2006-07-16"/>
+      <current status="queried" date="2025-12-01" bugzilla="https://github.com/w3c/xsdtests/issues/11"/>
+      <prior status="accepted" date="2006-07-16"/>
     </instanceTest>
   </testGroup>
   <testGroup name="addB188">
@@ -2495,12 +2499,14 @@ invalid, schema restored to validity, instance made invalid</documentation>
     <schemaTest name="addB188">
       <schemaDocument xlink:type="locator" xlink:href="../msData/additional/test264908_1.xsd"/>
       <expected validity="valid"/>
-      <current status="accepted" date="2006-07-16"/>
+      <current status="queried" date="2025-12-01" bugzilla="https://github.com/w3c/xsdtests/issues/11"/>
+      <prior status="accepted" date="2006-07-16"/>
     </schemaTest>
     <instanceTest name="addB188.i">
       <instanceDocument xlink:type="locator" xlink:href="../msData/additional/test264908_1i.xml"/>
       <expected validity="invalid"/>
-      <current status="accepted" date="2006-07-16"/>
+      <current status="queried" date="2025-12-01" bugzilla="https://github.com/w3c/xsdtests/issues/11"/>
+      <prior status="accepted" date="2006-07-16"/>
     </instanceTest>
   </testGroup>
   <testGroup name="addB191">

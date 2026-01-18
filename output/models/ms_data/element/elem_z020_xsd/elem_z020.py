@@ -1,40 +1,39 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         name = "e1"
         namespace = "foo"
 
-    value: Optional[bool] = field(
-        default=None,
+    value: bool = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "foo"
 
-    value: Optional[bool] = field(
-        default=None,
+    value: bool = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo_or_e1: list[Union[Foo, E1, int]] = field(
+    foo_or_e1: list[Foo | E1 | int] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -63,7 +62,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(B):
     class Meta:
         name = "root"

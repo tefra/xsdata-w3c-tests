@@ -1,12 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -23,16 +25,16 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e1_or_e2: list[Union["R.E1", "R.E2"]] = field(
+    e1_or_e2: list[R.E1 | R.E2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -55,40 +57,37 @@ class R:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

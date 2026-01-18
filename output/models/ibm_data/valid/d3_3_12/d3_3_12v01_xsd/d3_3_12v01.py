@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from xsdata.models.datatype import XmlPeriod
@@ -5,7 +7,7 @@ from xsdata.models.datatype import XmlPeriod
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_3_12_v01"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

@@ -1,78 +1,73 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Aa111A2Aa:
     class Meta:
         name = "aa111a2Aa"
         namespace = "ElemDecl/name"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Aa22B3C:
     class Meta:
         name = "aa22B3c"
         namespace = "ElemDecl/name"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Aa34:
     class Meta:
         name = "aa3-4_"
         namespace = "ElemDecl/name"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"
 
-    aa111a2_aa: Optional[Aa111A2Aa] = field(
-        default=None,
+    aa111a2_aa: Aa111A2Aa = field(
         metadata={
             "name": "aa111a2Aa",
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    aa22_b3c: Optional[Aa22B3C] = field(
-        default=None,
+    aa22_b3c: Aa22B3C = field(
         metadata={
             "name": "aa22B3c",
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    aa3_4: Optional[Aa34] = field(
-        default=None,
+    aa3_4: Aa34 = field(
         metadata={
             "name": "aa3-4_",
             "type": "Element",
             "required": True,
-        },
+        }
     )

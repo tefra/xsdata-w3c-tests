@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class N:
     class Meta:
         name = "n"
@@ -9,7 +11,7 @@ class N:
     value: str = field(default="")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Outer:
     class Meta:
         name = "outer"

@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
@@ -16,13 +18,13 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ext(B):
     class Meta:
         name = "ext"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Ext):
     class Meta:
         name = "doc"

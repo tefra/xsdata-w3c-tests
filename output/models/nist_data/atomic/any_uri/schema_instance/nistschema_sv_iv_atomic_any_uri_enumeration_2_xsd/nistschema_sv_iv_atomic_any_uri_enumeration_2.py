@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"
 
@@ -20,15 +21,14 @@ class NistschemaSvIvAtomicAnyUriEnumeration2Type(Enum):
     HTTP_WWW_SIGNATURESR_ACHT_ORG = "http://www.signaturesr.acht.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicAnyUriEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"
 
-    value: Optional[NistschemaSvIvAtomicAnyUriEnumeration2Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicAnyUriEnumeration2Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

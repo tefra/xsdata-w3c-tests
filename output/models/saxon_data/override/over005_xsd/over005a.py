@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
@@ -16,10 +17,9 @@ class Doc:
             "min_occurs": 1,
         },
     )
-    code: Optional[XmlDate] = field(
-        default=None,
+    code: XmlDate = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )

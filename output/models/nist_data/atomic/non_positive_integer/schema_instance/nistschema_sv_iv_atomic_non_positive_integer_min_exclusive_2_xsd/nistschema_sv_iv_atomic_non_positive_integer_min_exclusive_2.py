@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-nonPositiveInteger-minExclusive-2-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicNonPositiveIntegerMinExclusive2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonPositiveInteger-minExclusive-2"
@@ -12,10 +13,9 @@ class NistschemaSvIvAtomicNonPositiveIntegerMinExclusive2:
             "NISTSchema-SV-IV-atomic-nonPositiveInteger-minExclusive-2-NS"
         )
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "min_exclusive": -482054947069493477,
-        },
+        }
     )

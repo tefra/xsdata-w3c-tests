@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
@@ -24,34 +25,34 @@ class ElEnumerationCValue(Enum):
     VALUE_2006_01_01_T01_01_00_01_00 = XmlDateTime(2006, 1, 1, 1, 1, 0, 0, 60)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElEnumerationA:
     class Meta:
         name = "elEnumerationA"
         namespace = "http://xstest-tns/schema11_F4_3_16_v05"
 
-    value: Optional[ElEnumerationAValue] = field(default=None)
+    value: ElEnumerationAValue = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElEnumerationB:
     class Meta:
         name = "elEnumerationB"
         namespace = "http://xstest-tns/schema11_F4_3_16_v05"
 
-    value: Optional[ElEnumerationBValue] = field(default=None)
+    value: ElEnumerationBValue = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElEnumerationC:
     class Meta:
         name = "elEnumerationC"
         namespace = "http://xstest-tns/schema11_F4_3_16_v05"
 
-    value: Optional[ElEnumerationCValue] = field(default=None)
+    value: ElEnumerationCValue = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

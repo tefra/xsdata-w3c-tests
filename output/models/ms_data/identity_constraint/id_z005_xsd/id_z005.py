@@ -1,27 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BType:
     class Meta:
         name = "bType"
 
-    att_b: Optional[str] = field(
-        default=None,
+    att_b: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BsType:
     class Meta:
         name = "bsType"
 
-    b: Optional[BType] = field(
+    b: None | BType = field(
         default=None,
         metadata={
             "type": "Element",
@@ -29,12 +29,12 @@ class BsType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AType:
     class Meta:
         name = "aType"
 
-    bs: Optional[BsType] = field(
+    bs: None | BsType = field(
         default=None,
         metadata={
             "type": "Element",
@@ -46,16 +46,15 @@ class AType:
             "type": "Element",
         },
     )
-    att_a: Optional[str] = field(
-        default=None,
+    att_a: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RType:
     class Meta:
         name = "rType"
@@ -69,7 +68,7 @@ class RType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(RType):
     class Meta:
         name = "root"

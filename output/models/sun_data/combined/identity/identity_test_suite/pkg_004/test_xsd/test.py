@@ -1,16 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Scope:
     class Meta:
         name = "scope"
         namespace = "foo"
 
-    key_or_ref: list[Union["Scope.Key", "Scope.Ref"]] = field(
+    key_or_ref: list[Scope.Key | Scope.Ref] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -27,26 +29,26 @@ class Scope:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Key:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Ref:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-hexBinary-maxLength-5-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicHexBinaryMaxLength5:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-hexBinary-maxLength-5"
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-maxLength-5-NS"
 
-    value: Optional[bytes] = field(
-        default=None,
+    value: bytes = field(
+        default=b"",
         metadata={
             "required": True,
             "max_length": 74,

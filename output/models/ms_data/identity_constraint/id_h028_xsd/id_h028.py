@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Kid:
     class Meta:
         name = "kid"
 
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -15,29 +16,28 @@ class Kid:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uidtype:
     class Meta:
         name = "uidtype"
 
-    hid: Optional[str] = field(
+    hid: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    iid: Optional[str] = field(
-        default=None,
+    iid: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

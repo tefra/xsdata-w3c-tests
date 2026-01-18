@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 from output.models.ms_data.particles.particles_ju002_xsd.particles_ju002_imp import (
     ImpElem1,
@@ -8,7 +10,7 @@ from output.models.ms_data.particles.particles_ju002_xsd.particles_ju002_imp imp
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     local_foo_target_namespace_imported_xsd_bar_element: list[object] = field(
         default_factory=list,
@@ -22,7 +24,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     local_foo_target_namespace_imported_xsd_bar_element: Any = field(
         init=False,
@@ -43,17 +45,16 @@ class R(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

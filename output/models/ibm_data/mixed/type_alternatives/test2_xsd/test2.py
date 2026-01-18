@@ -1,49 +1,46 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XDecimal:
     class Meta:
         name = "X_Decimal"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    kind: Optional[str] = field(
-        default=None,
+    kind: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XInt:
     class Meta:
         name = "X_Int"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    kind: Optional[str] = field(
-        default=None,
+    kind: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XString:
     class Meta:
         name = "X_String"
@@ -54,18 +51,17 @@ class XString:
             "required": True,
         },
     )
-    kind: Optional[str] = field(
-        default=None,
+    kind: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Example:
-    x: list[Union[XInt, XDecimal, XString]] = field(
+    x: list[XInt | XDecimal | XString] = field(
         default_factory=list,
         metadata={
             "type": "Element",

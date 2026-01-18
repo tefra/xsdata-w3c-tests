@@ -1,40 +1,39 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class G:
     class Meta:
         name = "g"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing:
     class Meta:
         name = "zing"
 
-    g_or_e: Optional[Union[G, E]] = field(
+    g_or_e: None | G | E = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -50,15 +49,14 @@ class Zing:
             ),
         },
     )
-    f: Optional[int] = field(
-        default=None,
+    f: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    local_element: Optional[object] = field(
+    local_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -67,7 +65,7 @@ class Zing:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Zing):
     class Meta:
         name = "doc"

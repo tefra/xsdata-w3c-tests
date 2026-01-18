@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "contentType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A1:
     class Meta:
         name = "A"
 
-    attr1: Optional[int] = field(
+    attr1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -17,7 +18,7 @@ class A1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A(A1):
     class Meta:
         name = "a"

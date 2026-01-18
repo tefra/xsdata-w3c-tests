@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bad:
     class Meta:
         name = "bad"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Good:
     class Meta:
         name = "good"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )

@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Type:
-    local: Optional[object] = field(
+    local: None | object = field(
         default=None,
         metadata={
             "name": "Local",
@@ -16,13 +17,13 @@ class Type:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    local: Optional[object] = field(
+    local: None | object = field(
         default=None,
         metadata={
             "name": "Local",
@@ -32,7 +33,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Global(Type):
     class Meta:
         namespace = "ElemDecl/typeDef"

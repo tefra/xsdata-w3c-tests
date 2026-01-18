@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-ID-enumeration-1-NS"
 
@@ -90,13 +91,13 @@ class NistschemaSvIvListIdEnumeration1Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Out:
     class Meta:
         name = "out"
         namespace = "NISTSchema-SV-IV-list-ID-enumeration-1-NS"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -105,15 +106,14 @@ class Out:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListIdEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-list-ID-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-ID-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvListIdEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvListIdEnumeration1Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

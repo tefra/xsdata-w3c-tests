@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "pSubstitutions"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     c: list[int] = field(
         default_factory=list,
@@ -19,24 +20,23 @@ class A:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B(A):
-    d: Optional[XmlDate] = field(
-        default=None,
+    d: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C(A):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E(A):
     class Meta:
         name = "e"

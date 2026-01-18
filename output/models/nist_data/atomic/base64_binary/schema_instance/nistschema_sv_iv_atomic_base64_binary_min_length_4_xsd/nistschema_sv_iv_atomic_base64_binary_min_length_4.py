@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-base64Binary-minLength-4-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicBase64BinaryMinLength4:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-base64Binary-minLength-4"
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-minLength-4-NS"
 
-    value: Optional[bytes] = field(
-        default=None,
+    value: bytes = field(
+        default=b"",
         metadata={
             "required": True,
             "min_length": 11,

@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
     class Meta:
         name = "r"
@@ -15,7 +16,7 @@ class R:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R2:
     class Meta:
         name = "r2"
@@ -28,7 +29,7 @@ class R2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Rtype:
     class Meta:
         name = "rtype"
@@ -39,7 +40,7 @@ class Rtype:
             "required": True,
         },
     )
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -47,12 +48,12 @@ class Rtype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
     class Meta:
         name = "t"
 
-    r2_or_r: Optional[Union[R2, R]] = field(
+    r2_or_r: None | R2 | R = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -70,7 +71,7 @@ class T:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

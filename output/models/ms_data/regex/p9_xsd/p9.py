@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class MyEnum(Enum):
@@ -9,9 +10,9 @@ class MyEnum(Enum):
     VALUE_3 = "3"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Regex:
-    att: Optional[MyEnum] = field(
+    att: None | MyEnum = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -20,7 +21,7 @@ class Regex:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
@@ -30,6 +31,5 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
         },
     )

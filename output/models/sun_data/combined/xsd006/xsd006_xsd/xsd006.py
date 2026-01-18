@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item0To1:
     class Meta:
         name = "item0to1"
         namespace = "foo"
 
-    x: Optional[object] = field(
+    x: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -18,7 +19,7 @@ class Item0To1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item0To2:
     class Meta:
         name = "item0to2"
@@ -33,7 +34,7 @@ class Item0To2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item0ToX:
     class Meta:
         name = "item0toX"
@@ -47,7 +48,7 @@ class Item0ToX:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item1To2:
     class Meta:
         name = "item1to2"
@@ -63,7 +64,7 @@ class Item1To2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item1ToX:
     class Meta:
         name = "item1toX"
@@ -78,7 +79,7 @@ class Item1ToX:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item2To2:
     class Meta:
         name = "item2to2"
@@ -94,7 +95,7 @@ class Item2To2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item2ToX:
     class Meta:
         name = "item2toX"
@@ -109,7 +110,7 @@ class Item2ToX:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item3To7:
     class Meta:
         name = "item3to7"
@@ -125,23 +126,21 @@ class Item3To7:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
     choice: list[
-        Union[
-            Item0To1,
-            Item0To2,
-            Item0ToX,
-            Item1To2,
-            Item1ToX,
-            Item2To2,
-            Item2ToX,
-            Item3To7,
-        ]
+        Item0To1
+        | Item0To2
+        | Item0ToX
+        | Item1To2
+        | Item1ToX
+        | Item2To2
+        | Item2ToX
+        | Item3To7
     ] = field(
         default_factory=list,
         metadata={

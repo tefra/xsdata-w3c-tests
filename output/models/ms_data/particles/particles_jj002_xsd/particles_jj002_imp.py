@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://importedXSD"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -24,12 +25,12 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ExtRefType:
     class Meta:
         name = "extRefType"
 
-    imp_e1: Optional[object] = field(
+    imp_e1: None | object = field(
         default=None,
         metadata={
             "name": "impE1",
@@ -37,7 +38,7 @@ class ExtRefType:
             "namespace": "http://importedXSD",
         },
     )
-    imp_e2: Optional[object] = field(
+    imp_e2: None | object = field(
         default=None,
         metadata={
             "name": "impE2",
@@ -45,7 +46,7 @@ class ExtRefType:
             "namespace": "http://importedXSD",
         },
     )
-    imp_a1: Optional[object] = field(
+    imp_a1: None | object = field(
         default=None,
         metadata={
             "name": "impA1",
@@ -54,13 +55,13 @@ class ExtRefType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ImpElem1:
     class Meta:
         name = "impElem1"
         namespace = "http://importedXSD"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -69,7 +70,7 @@ class ImpElem1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ImpElem2(ExtRefType):
     class Meta:
         name = "impElem2"

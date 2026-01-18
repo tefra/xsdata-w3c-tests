@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Computer1:
     class Meta:
         name = "computer"
@@ -15,7 +17,7 @@ class Computer1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ExtendedComputer(Computer1):
     class Meta:
         name = "extendedComputer"
@@ -29,7 +31,7 @@ class ExtendedComputer(Computer1):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Computer(ExtendedComputer):
     class Meta:
         name = "computer"

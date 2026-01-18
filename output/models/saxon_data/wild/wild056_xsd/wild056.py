@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing:
     class Meta:
         name = "zing"
@@ -16,7 +18,7 @@ class Zing:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RestrictedZing(Zing):
     class Meta:
         name = "restrictedZing"
@@ -37,7 +39,7 @@ class RestrictedZing(Zing):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(RestrictedZing):
     class Meta:
         name = "doc"

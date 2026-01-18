@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: Union[bool, int, str] = field(init=False, default=1)
+    value: bool | int | str = field(init=False, default=1)

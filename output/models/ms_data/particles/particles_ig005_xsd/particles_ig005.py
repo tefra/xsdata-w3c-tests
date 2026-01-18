@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    e2_or_e3_or_e4: Optional[Union["Base.E2", "Base.E3", "Base.E4"]] = field(
+    e2_or_e3_or_e4: None | Base.E2 | Base.E3 | Base.E4 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -33,47 +35,44 @@ class Base:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E3:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E4:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Testing(Base):
     class Meta:
         name = "testing"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Testing):
     class Meta:
         name = "doc"

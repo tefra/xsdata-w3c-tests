@@ -1,22 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address:
     class Meta:
         name = "address"
 
-    street: Optional[object] = field(
+    street: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    zip: Optional[object] = field(
+    zip: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -25,13 +26,13 @@ class Address:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E3:
     class Meta:
         name = "e3"
         namespace = "http://xsdtesting"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -40,49 +41,46 @@ class E3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    e1: Optional[object] = field(
+    e1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e2: Optional[Address] = field(
-        default=None,
+    e2: Address = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    e3: Optional[E3] = field(
-        default=None,
+    e3: E3 = field(
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

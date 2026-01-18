@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 from xsdata.models.datatype import XmlPeriod
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, str, int] = field(init=False, default="anyuri")
+    value: XmlPeriod | str | int = field(init=False, default="anyuri")

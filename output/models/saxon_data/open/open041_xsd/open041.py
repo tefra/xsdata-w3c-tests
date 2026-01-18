@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from output.models.saxon_data.open.open041_xsd.open041x import Beta
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Alpha:
     class Meta:
         name = "alpha"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

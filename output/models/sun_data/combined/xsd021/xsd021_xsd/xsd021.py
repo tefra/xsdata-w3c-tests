@@ -1,26 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
     choice: list[
-        Union[
-            "Root.SkipAny",
-            "Root.LaxAny",
-            "Root.StrictAny",
-            "Root.SkipOther",
-            "Root.LaxLocal",
-            "Root.StrictLocal",
-            "Root.StrictTarget",
-            "Root.SkipBar",
-        ]
+        Root.SkipAny
+        | Root.LaxAny
+        | Root.StrictAny
+        | Root.SkipOther
+        | Root.LaxLocal
+        | Root.StrictLocal
+        | Root.StrictTarget
+        | Root.SkipBar
     ] = field(
         default_factory=list,
         metadata={
@@ -62,7 +62,7 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SkipAny:
         any_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -72,7 +72,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LaxAny:
         any_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -82,7 +82,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class StrictAny:
         any_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -92,7 +92,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SkipOther:
         other_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -102,7 +102,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LaxLocal:
         local_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -112,7 +112,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class StrictLocal:
         local_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -122,7 +122,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class StrictTarget:
         target_namespace_attributes: dict[str, str] = field(
             default_factory=dict,
@@ -132,7 +132,7 @@ class Root:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SkipBar:
         bar_attributes: dict[str, str] = field(
             default_factory=dict,

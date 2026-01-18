@@ -1,54 +1,51 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    child_1: Optional[str] = field(
-        default=None,
+    child_1: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    child_2: Optional[int] = field(
-        default=None,
+    child_2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    my_attr: Optional[int] = field(
-        default=None,
+    my_attr: int = field(
         metadata={
             "name": "myAttr",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest(FooType):
     class Meta:
         name = "fooTest"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: FooTest = field(
         metadata={
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )

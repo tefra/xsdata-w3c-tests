@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
@@ -18,13 +19,13 @@ class E:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         name = "e1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -33,9 +34,9 @@ class E1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
-    e_or_e1: Optional[Union[E, int]] = field(
+    e_or_e1: None | E | int = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -55,7 +56,7 @@ class T:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(T):
     class Meta:
         name = "test"

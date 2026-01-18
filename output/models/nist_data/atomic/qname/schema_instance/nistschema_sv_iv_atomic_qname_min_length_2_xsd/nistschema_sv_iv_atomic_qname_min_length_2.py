@@ -1,20 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-minLength-2-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicQnameMinLength2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-minLength-2"
         namespace = "NISTSchema-SV-IV-atomic-QName-minLength-2-NS"
 
-    value: Optional[QName] = field(
-        default=None,
+    value: QName = field(
         metadata={
             "required": True,
             "min_length": 8,
-        },
+        }
     )

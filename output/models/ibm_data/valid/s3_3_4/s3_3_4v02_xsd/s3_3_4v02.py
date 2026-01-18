@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AnyAttr:
     class Meta:
         name = "anyAttr"
 
-    id1: Optional[str] = field(
+    id1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -22,16 +23,15 @@ class AnyAttr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    a: Optional[AnyAttr] = field(
-        default=None,
+    a: AnyAttr = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

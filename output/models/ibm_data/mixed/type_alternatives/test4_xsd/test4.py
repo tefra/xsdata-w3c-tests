@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Example:
     x: list[int] = field(
         default_factory=list,
@@ -12,7 +13,7 @@ class Example:
             "min_occurs": 1,
         },
     )
-    kind: Optional[str] = field(
+    kind: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -1,18 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xyz"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
     class Meta:
         namespace = "http://xyz"
 
-    message: Optional[str] = field(
-        default=None,
+    message: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

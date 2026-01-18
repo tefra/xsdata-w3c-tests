@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Computer1:
     class Meta:
         name = "computer"
 
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
     local_element: list[object] = field(
         default_factory=list,
@@ -35,7 +36,7 @@ class Computer1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RestrictedComputer(Computer1):
     class Meta:
         name = "restrictedComputer"
@@ -49,7 +50,7 @@ class RestrictedComputer(Computer1):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Computer(RestrictedComputer):
     class Meta:
         name = "computer"

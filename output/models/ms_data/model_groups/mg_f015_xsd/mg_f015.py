@@ -1,41 +1,43 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    one: Optional[object] = field(
+    one: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    two: Optional[object] = field(
+    two: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    three: Optional[object] = field(
+    three: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    four: Optional[object] = field(
+    four: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    five_or_five2: Optional[Union["Foo.Five", "Foo.Five2"]] = field(
+    five_or_five2: None | Foo.Five | Foo.Five2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -53,7 +55,7 @@ class Foo:
             ),
         },
     )
-    six_or_six2: Optional[Union["Foo.Six", "Foo.Six2"]] = field(
+    six_or_six2: None | Foo.Six | Foo.Six2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -71,7 +73,7 @@ class Foo:
             ),
         },
     )
-    seven_or_seven2: Optional[Union["Foo.Seven", "Foo.Seven2"]] = field(
+    seven_or_seven2: None | Foo.Seven | Foo.Seven2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -89,7 +91,7 @@ class Foo:
             ),
         },
     )
-    eight_or_eight2: Optional[Union["Foo.Eight", "Foo.Eight2"]] = field(
+    eight_or_eight2: None | Foo.Eight | Foo.Eight2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -108,96 +110,88 @@ class Foo:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Five:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Five2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Six:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Six2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Seven:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Seven2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Eight:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Eight2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

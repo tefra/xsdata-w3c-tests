@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ExternFirstElement:
     class Meta:
         namespace = "http://www.example.com/IPO"

@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-length-4-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListHexBinaryLength4:
     class Meta:
         name = "NISTSchema-SV-IV-list-hexBinary-length-4"

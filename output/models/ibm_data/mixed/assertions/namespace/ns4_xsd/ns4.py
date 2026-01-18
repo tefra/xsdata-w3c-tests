@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.example.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
     class Meta:
         name = "x"
         namespace = "http://www.example.org"
 
-    y: Optional[object] = field(
+    y: None | object = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )

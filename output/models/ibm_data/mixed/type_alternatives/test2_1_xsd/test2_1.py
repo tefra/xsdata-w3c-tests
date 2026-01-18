@@ -1,53 +1,50 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Example:
-    x: list[
-        Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]
-    ] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-        },
+    x: list[Example.KindQuantity | Example.KindPrice | Example.KindMesg] = (
+        field(
+            default_factory=list,
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_occurs": 1,
+            },
+        )
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class KindQuantity:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
-            },
+            }
         )
-        kind: Optional[str] = field(
-            default=None,
+        kind: str = field(
             metadata={
                 "type": "Attribute",
                 "required": True,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class KindPrice:
-        value: Optional[float] = field(
-            default=None,
+        value: float = field(
             metadata={
                 "required": True,
-            },
+            }
         )
-        kind: Optional[str] = field(
-            default=None,
+        kind: str = field(
             metadata={
                 "type": "Attribute",
                 "required": True,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class KindMesg:
         value: str = field(
             default="",
@@ -55,10 +52,9 @@ class Example:
                 "required": True,
             },
         )
-        kind: Optional[str] = field(
-            default=None,
+        kind: str = field(
             metadata={
                 "type": "Attribute",
                 "required": True,
-            },
+            }
         )

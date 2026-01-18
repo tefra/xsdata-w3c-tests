@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional, Union
+from typing import Any
 
 __NAMESPACE__ = "http://xstest-tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TitleType:
     class Meta:
         name = "titleType"
 
-    type_value: Optional[object] = field(
+    type_value: None | object = field(
         default=None,
         metadata={
             "name": "type",
@@ -26,7 +28,7 @@ class TitleType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MixedTitleType(TitleType):
     class Meta:
         name = "mixedTitleType"
@@ -38,17 +40,17 @@ class MixedTitleType(TitleType):
             "type": "Ignore",
         },
     )
-    value: Union[int, str] = field(default="")
+    value: int | str = field(default="")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
 
     title: list[
-        Union[TitleType, MixedTitleType, "Root.TypeText", "Root.TypeNumber"]
+        TitleType | MixedTitleType | Root.TypeText | Root.TypeNumber
     ] = field(
         default_factory=list,
         metadata={
@@ -59,7 +61,7 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TypeText(TitleType):
         content: Any = field(
             init=False,
@@ -70,7 +72,7 @@ class Root:
         )
         value: str = field(default="")
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TypeNumber(TitleType):
         content: Any = field(
             init=False,
@@ -79,4 +81,4 @@ class Root:
                 "type": "Ignore",
             },
         )
-        value: Optional[int] = field(default=None)
+        value: int = field()

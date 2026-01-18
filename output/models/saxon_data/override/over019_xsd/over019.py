@@ -1,20 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://example.com/over019"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://example.com/over019"
 
-    value: Optional[XmlDate] = field(
-        default=None,
+    value: XmlDate = field(
         metadata={
             "required": True,
-        },
+        }
     )

@@ -1,38 +1,37 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Computer:
     class Meta:
         name = "computer"
 
-    cpu: Optional[str] = field(
-        default=None,
+    cpu: str = field(
         metadata={
             "name": "CPU",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    memory: Optional[str] = field(
-        default=None,
+    memory: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    monitor: Optional[str] = field(
-        default=None,
+    monitor: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    speaker: Optional[str] = field(
+    speaker: None | str = field(
         default=None,
         metadata={
             "type": "Element",
@@ -48,7 +47,7 @@ class Computer:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QuietComputer(Computer):
     class Meta:
         name = "quietComputer"

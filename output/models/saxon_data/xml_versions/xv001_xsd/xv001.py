@@ -1,17 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DKstra:
     class Meta:
         name = "Dĳkstra"
 
-    vr_tag: Optional[bool] = field(
-        default=None,
+    vr_tag: bool = field(
         metadata={
             "name": "vrĳtag",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )

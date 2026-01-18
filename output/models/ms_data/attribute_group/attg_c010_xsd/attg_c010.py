@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    foo: Optional[int] = field(
+    foo: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    bar: Optional[object] = field(
+    bar: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -21,6 +22,6 @@ class Test:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T(Test):
     pass

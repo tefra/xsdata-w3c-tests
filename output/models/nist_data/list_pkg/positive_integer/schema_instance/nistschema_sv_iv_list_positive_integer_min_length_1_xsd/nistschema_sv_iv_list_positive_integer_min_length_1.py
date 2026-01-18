@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-positiveInteger-minLength-1-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListPositiveIntegerMinLength1:
     class Meta:
         name = "NISTSchema-SV-IV-list-positiveInteger-minLength-1"

@@ -1,33 +1,32 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CtA:
     class Meta:
         name = "ct-A"
 
-    a1: Optional[str] = field(
-        default=None,
+    a1: str = field(
         metadata={
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        },
+        }
     )
-    a2: Optional[str] = field(
-        default=None,
+    a2: str = field(
         metadata={
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -42,7 +41,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1(CtA):
     class Meta:
         name = "e1"

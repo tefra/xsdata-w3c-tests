@@ -1,29 +1,31 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
         },
     )
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
         },
     )
-    c: Optional[object] = field(
+    c: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -32,19 +34,19 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ext(Base):
     class Meta:
         name = "ext"
 
-    d: Optional[object] = field(
+    d: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
         },
     )
-    e: Optional[object] = field(
+    e: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -53,7 +55,7 @@ class Ext(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -68,7 +70,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Rst(Base):
     class Meta:
         name = "rst"

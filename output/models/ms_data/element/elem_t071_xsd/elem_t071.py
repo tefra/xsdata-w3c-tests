@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class UnionA(Enum):
@@ -10,20 +11,19 @@ class UnionA(Enum):
     VALUE_4 = 4
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    value: Optional[UnionA] = field(
-        default=None,
+    value: UnionA = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

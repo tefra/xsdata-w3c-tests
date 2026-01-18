@@ -1,20 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RootType:
     class Meta:
         name = "rootType"
 
-    ele1: list["ElementType1"] = field(
+    ele1: list[ElementType1] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    ele2: list["ElementType2"] = field(
+    ele2: list[ElementType2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -23,7 +24,7 @@ class RootType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementType1:
     class Meta:
         name = "elementType1"
@@ -36,7 +37,7 @@ class ElementType1:
             "namespace": "",
         },
     )
-    attr1: Optional[str] = field(
+    attr1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -44,7 +45,7 @@ class ElementType1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementType2:
     class Meta:
         name = "elementType2"
@@ -57,7 +58,7 @@ class ElementType2:
             "namespace": "",
         },
     )
-    attr2: Optional[str] = field(
+    attr2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -65,7 +66,7 @@ class ElementType2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(RootType):
     class Meta:
         name = "root"

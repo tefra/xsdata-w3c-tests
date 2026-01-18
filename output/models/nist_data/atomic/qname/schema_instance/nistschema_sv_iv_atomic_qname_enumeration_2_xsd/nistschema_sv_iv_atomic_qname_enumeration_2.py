@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
@@ -26,7 +27,7 @@ class NistschemaSvIvAtomicQnameEnumeration2Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class KdomainsAsAutomaticAcademiaWorkEnsureTes:
     class Meta:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
@@ -40,7 +41,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ncreate:
     class Meta:
         name = "ncreate"
@@ -54,15 +55,14 @@ class Ncreate:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicQnameEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: Optional[NistschemaSvIvAtomicQnameEnumeration2Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicQnameEnumeration2Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

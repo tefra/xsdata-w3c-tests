@@ -1,84 +1,85 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    complex_att1: Optional[int] = field(
+    complex_att1: None | int = field(
         default=None,
         metadata={
             "name": "complexAtt1",
             "type": "Attribute",
         },
     )
-    complex_att2: Optional[int] = field(
+    complex_att2: None | int = field(
         default=None,
         metadata={
             "name": "complexAtt2",
             "type": "Attribute",
         },
     )
-    global_att1: Optional[int] = field(
+    global_att1: None | int = field(
         default=None,
         metadata={
             "name": "globalAtt1",
             "type": "Attribute",
         },
     )
-    item1: Optional[int] = field(
+    item1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    item2: Optional[int] = field(
+    item2: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    global_att2: Optional[int] = field(
+    global_att2: None | int = field(
         default=None,
         metadata={
             "name": "globalAtt2",
             "type": "Attribute",
         },
     )
-    foo1: Optional[int] = field(
+    foo1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    foo2: Optional[int] = field(
+    foo2: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    global_att3: Optional[int] = field(
+    global_att3: None | int = field(
         default=None,
         metadata={
             "name": "globalAtt3",
             "type": "Attribute",
         },
     )
-    foo3: Optional[int] = field(
+    foo3: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    item3: Optional[int] = field(
+    item3: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    complex_att3: Optional[int] = field(
+    complex_att3: None | int = field(
         default=None,
         metadata={
             "name": "complexAtt3",
@@ -87,15 +88,14 @@ class Test:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    test: Optional[Test] = field(
-        default=None,
+    test: Test = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

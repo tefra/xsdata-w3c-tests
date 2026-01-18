@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -186,7 +187,7 @@ class NistschemaSvIvListQnameEnumeration5Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AndThe:
     class Meta:
         name = "_and.the"
@@ -200,7 +201,7 @@ class AndThe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BackParticipatingFactFactTheUsedRecentOfferOnlyI:
     class Meta:
         name = "_back.participating.fact_fact_the_used-recent.offer-only_i"
@@ -214,7 +215,7 @@ class BackParticipatingFactFactTheUsedRecentOfferOnlyI:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OrganizationsAndWebAndWillDocumentsManipulateFineCanU:
     class Meta:
         name = (
@@ -230,7 +231,7 @@ class OrganizationsAndWebAndWillDocumentsManipulateFineCanU:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Revolution:
     class Meta:
         name = "_revolution"
@@ -244,7 +245,7 @@ class Revolution:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Simulat:
     class Meta:
         name = "_simulat"
@@ -258,7 +259,7 @@ class Simulat:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestAnyAndTheToComputingThoseDocumentsTheMe:
     class Meta:
         name = "_test_any-and-the_to_computing_those.documents_the.me"
@@ -272,7 +273,7 @@ class TestAnyAndTheToComputingThoseDocumentsTheMe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WillIncludedOfNewConsortiumTheResourcesHelpAreFor:
     class Meta:
         name = "_will.included_of_new.consortium.the-resources-help.are.for_"
@@ -286,7 +287,7 @@ class WillIncludedOfNewConsortiumTheResourcesHelpAreFor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Cparticipate:
     class Meta:
         name = "cparticipate_"
@@ -300,7 +301,7 @@ class Cparticipate:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DofInvestigationPervasiveHardwareTheObjects:
     class Meta:
         name = "dof_investigation_pervasive_hardware.the_objects"
@@ -314,7 +315,7 @@ class DofInvestigationPervasiveHardwareTheObjects:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DwithInNewToOfAndIsAreasHasPagesDocumentsFromDepl:
     class Meta:
         name = "dwith-in.new_to-of_and_is.areas-has.pages-documents-from_depl"
@@ -328,7 +329,7 @@ class DwithInNewToOfAndIsAreasHasPagesDocumentsFromDepl:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EexchangeWhichComputerAndBusinessFurthe:
     class Meta:
         name = "eexchange_which_computer-and.business_furthe"
@@ -342,7 +343,7 @@ class EexchangeWhichComputerAndBusinessFurthe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EofImagesAndSignaturesWasWhichFo:
     class Meta:
         name = "eof.images.and-signatures_was-which.fo"
@@ -356,7 +357,7 @@ class EofImagesAndSignaturesWasWhichFo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FleadershipComputingWhoCrossReference:
     class Meta:
         name = "fleadership.computing_who-cross-reference"
@@ -370,7 +371,7 @@ class FleadershipComputingWhoCrossReference:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class GtheseUsing2000IndustryManufacturers:
     class Meta:
         name = "gthese_using-2000-industry.manufacturers."
@@ -384,7 +385,7 @@ class GtheseUsing2000IndustryManufacturers:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Hlocalized:
     class Meta:
         name = "hlocalized"
@@ -398,7 +399,7 @@ class Hlocalized:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IsetSoftwareStakeholdersCo:
     class Meta:
         name = "iset.software_stakeholders_co"
@@ -412,7 +413,7 @@ class IsetSoftwareStakeholdersCo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JdivisionsItsInForSuchAndTools:
     class Meta:
         name = "jdivisions_its_in.for_such-and-tools-"
@@ -426,7 +427,7 @@ class JdivisionsItsInForSuchAndTools:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JfiveByIsViaAreConsortiumAndDevelopersPrototype:
     class Meta:
         name = "jfive_by.is.via_are_consortium_and_developers_prototype-"
@@ -440,7 +441,7 @@ class JfiveByIsViaAreConsortiumAndDevelopersPrototype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class KandEmergingThisFileOfW:
     class Meta:
         name = "kand-emerging-this_file_of.w"
@@ -454,7 +455,7 @@ class KandEmergingThisFileOfW:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LapplicationsRecognitionTe:
     class Meta:
         name = "lapplications.recognition.te"
@@ -468,7 +469,7 @@ class LapplicationsRecognitionTe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LtoAndEachDefiningAboutOfT:
     class Meta:
         name = "lto.and_each.defining_about.of_t"
@@ -482,7 +483,7 @@ class LtoAndEachDefiningAboutOfT:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class N20IncludingF:
     class Meta:
         name = "n20-including_f"
@@ -496,7 +497,7 @@ class N20IncludingF:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nli:
     class Meta:
         name = "nli"
@@ -510,7 +511,7 @@ class Nli:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Oand:
     class Meta:
         name = "oand"
@@ -524,7 +525,7 @@ class Oand:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OasLacki:
     class Meta:
         name = "oas-lacki"
@@ -538,7 +539,7 @@ class OasLacki:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OdonateManageFineTheDefiningStandar:
     class Meta:
         name = "odonate-manage_fine_the_defining_standar"
@@ -552,7 +553,7 @@ class OdonateManageFineTheDefiningStandar:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PwasProfilesDev:
     class Meta:
         name = "pwas-profiles-dev"
@@ -566,7 +567,7 @@ class PwasProfilesDev:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QbothTheAndParticipatingAreasFilesPartnersh:
     class Meta:
         name = "qboth.the-and-participating_areas_files.partnersh"
@@ -580,7 +581,7 @@ class QbothTheAndParticipatingAreasFilesPartnersh:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QthatInWirelessTransactAndAsSetLackingHardwareB:
     class Meta:
         name = "qthat_in-wireless-transact-and-as-set-lacking.hardware-b"
@@ -594,7 +595,7 @@ class QthatInWirelessTransactAndAsSetLackingHardwareB:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SwithBetweenIndustriesSignificantLanguageCostObtain:
     class Meta:
         name = "swith.between-industries.significant-language_cost-obtain"
@@ -608,7 +609,7 @@ class SwithBetweenIndustriesSignificantLanguageCostObtain:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TlibraryFilterIncludeForCanTechnologyAlsoRef:
     class Meta:
         name = "tlibrary.filter_include-for_can.technology_also_ref"
@@ -622,7 +623,7 @@ class TlibraryFilterIncludeForCanTechnologyAlsoRef:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TregistryC:
     class Meta:
         name = "tregistry_c"
@@ -636,7 +637,7 @@ class TregistryC:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Tthe:
     class Meta:
         name = "tthe"
@@ -650,7 +651,7 @@ class Tthe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UreviewedTheBackResourceAPerformanceUseResou:
     class Meta:
         name = "ureviewed-the.back-resource.a.performance.use_resou"
@@ -664,7 +665,7 @@ class UreviewedTheBackResourceAPerformanceUseResou:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WdevelopmentAndWithManipulationTheseTh:
     class Meta:
         name = "wdevelopment_and-with_manipulation.these.th"
@@ -678,7 +679,7 @@ class WdevelopmentAndWithManipulationTheseTh:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WtheAreTheseKnownToAbility:
     class Meta:
         name = "wthe_are_these.known-to-ability_"
@@ -692,7 +693,7 @@ class WtheAreTheseKnownToAbility:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xboth:
     class Meta:
         name = "xboth"
@@ -706,7 +707,7 @@ class Xboth:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XhighlyAmongCommerceDesignedTechnolog:
     class Meta:
         name = "xhighly-among.commerce-designed-technolog"
@@ -720,7 +721,7 @@ class XhighlyAmongCommerceDesignedTechnolog:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class YmethodsLocationToLedUserNumberThisAsRe:
     class Meta:
         name = "ymethods-location-to.led-user-number.this-as_re"
@@ -734,15 +735,14 @@ class YmethodsLocationToLedUserNumberThisAsRe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListQnameEnumeration5:
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
-    value: Optional[NistschemaSvIvListQnameEnumeration5Type] = field(
-        default=None,
+    value: NistschemaSvIvListQnameEnumeration5Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

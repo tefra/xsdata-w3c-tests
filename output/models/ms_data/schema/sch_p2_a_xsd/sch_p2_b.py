@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BE1:
     class Meta:
         name = "b-e1"

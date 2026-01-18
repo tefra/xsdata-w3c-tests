@@ -1,22 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import Any, ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    att: Optional[object] = field(
+    att: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -24,12 +26,12 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar(Foo):
     class Meta:
         name = "bar"
 
-    att1: Optional[object] = field(
+    att1: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -37,9 +39,9 @@ class Bar(Foo):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    c1_or_c2_or_c3: list[Union["B.C1", "B.C2", Bar]] = field(
+    c1_or_c2_or_c3: list[B.C1 | B.C2 | Bar] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -62,7 +64,7 @@ class B:
             ),
         },
     )
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -70,84 +72,48 @@ class B:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
-    c1_or_c2: list[Union["R.C1", "R.C2"]] = field(
-        default_factory=list,
+    c1: Any = field(
+        init=False,
+        default=None,
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "c1",
-                    "type": ForwardRef("R.C1"),
-                    "namespace": "",
-                },
-                {
-                    "name": "c2",
-                    "type": ForwardRef("R.C2"),
-                    "namespace": "",
-                },
-            ),
+            "type": "Ignore",
         },
     )
 
-    @dataclass
-    class C1:
-        content: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "",
-                "required": True,
-            },
-        )
 
-    @dataclass
-    class C2:
-        content: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "",
-                "required": True,
-            },
-        )
-
-
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

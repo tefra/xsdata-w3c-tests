@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestType:
     class Meta:
         name = "TEST_TYPE"
@@ -22,7 +24,7 @@ class TestType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X(TestType):
     class Meta:
         name = "x"
@@ -34,7 +36,7 @@ class X(TestType):
             "type": "Ignore",
         },
     )
-    a: Optional[int] = field(
+    a: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",

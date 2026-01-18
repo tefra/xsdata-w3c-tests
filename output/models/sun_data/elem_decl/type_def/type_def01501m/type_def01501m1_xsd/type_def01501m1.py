@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Text:
     class Meta:
         name = "text"
 
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "name": "ID",
@@ -26,7 +27,7 @@ class Text:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Text):
     class Meta:
         name = "root"

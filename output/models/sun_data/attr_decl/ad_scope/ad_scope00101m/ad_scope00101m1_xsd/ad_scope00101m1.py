@@ -1,25 +1,25 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "AttrDecl/scope"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementWithAttr:
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrDecl/scope"
 
-    number: Optional[int] = field(
-        default=None,
+    number: int = field(
         metadata={
             "type": "Attribute",
             "namespace": "AttrDecl/scope",
             "required": True,
-        },
+        }
     )
-    price: Optional[Decimal] = field(
+    price: None | Decimal = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -27,13 +27,13 @@ class ElementWithAttr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrDecl/scope"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

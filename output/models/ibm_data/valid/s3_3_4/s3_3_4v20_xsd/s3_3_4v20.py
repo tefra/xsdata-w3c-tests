@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -15,19 +16,19 @@ class Root:
             "min_occurs": 1,
         },
     )
-    union_of_ids_attr1: Optional[Union[int, bool, str]] = field(
+    union_of_ids_attr1: None | int | bool | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    union_of_ids_attr2: Optional[Union[int, bool, str]] = field(
+    union_of_ids_attr2: None | int | bool | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    union_of_ids_attr3: Optional[Union[int, bool, str]] = field(
+    union_of_ids_attr3: None | int | bool | str = field(
         default=None,
         metadata={
             "type": "Attribute",

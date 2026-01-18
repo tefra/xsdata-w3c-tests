@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
-    choice: list[Union["A.X1", "A.X2", "A.Y1", "A.Y2"]] = field(
+    choice: list[A.X1 | A.X2 | A.Y1 | A.Y2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -38,144 +40,61 @@ class A:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class X1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class X2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Y1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Y2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(A):
     class Meta:
         name = "elem"
 
-    choice: list[Union["Elem.X1", "Elem.X2", "Elem.Y1", "Elem.Y2"]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "x1",
-                    "type": ForwardRef("Elem.X1"),
-                    "namespace": "",
-                    "max_occurs": 3,
-                },
-                {
-                    "name": "x2",
-                    "type": ForwardRef("Elem.X2"),
-                    "namespace": "",
-                    "max_occurs": 3,
-                },
-                {
-                    "name": "y1",
-                    "type": ForwardRef("Elem.Y1"),
-                    "namespace": "",
-                    "max_occurs": 3,
-                },
-                {
-                    "name": "y2",
-                    "type": ForwardRef("Elem.Y2"),
-                    "namespace": "",
-                    "max_occurs": 3,
-                },
-            ),
-            "max_occurs": 6,
-        },
-    )
 
-    @dataclass
-    class X1:
-        content: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "",
-                "required": True,
-            },
-        )
-
-    @dataclass
-    class X2:
-        content: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "",
-                "required": True,
-            },
-        )
-
-    @dataclass
-    class Y1:
-        content: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "",
-                "required": True,
-            },
-        )
-
-    @dataclass
-    class Y2:
-        content: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "",
-                "required": True,
-            },
-        )
-
-
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

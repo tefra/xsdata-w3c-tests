@@ -1,20 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "derivationMethod"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B1(A):
     class Meta:
         name = "B"
 
-    q: Optional[int] = field(
+    q: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -22,7 +23,7 @@ class B1(A):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B(B1):
     class Meta:
         name = "b"

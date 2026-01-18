@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest:
     class Meta:
         name = "fooTest"
@@ -14,7 +15,7 @@ class FooTest:
             "white_space": "collapse",
         },
     )
-    my_attr: Optional[str] = field(
+    my_attr: None | str = field(
         default=None,
         metadata={
             "name": "myAttr",
@@ -23,16 +24,15 @@ class FooTest:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: FooTest = field(
         metadata={
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )

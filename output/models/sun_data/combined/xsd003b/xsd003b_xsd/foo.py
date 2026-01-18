@@ -1,7 +1,8 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "foo"
 
@@ -11,12 +12,12 @@ class SimpleType(Enum):
     NO = "no"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexType:
     class Meta:
         name = "complexType"
 
-    in_value: Optional[object] = field(
+    in_value: None | object = field(
         default=None,
         metadata={
             "name": "in",
@@ -24,21 +25,21 @@ class ComplexType:
             "namespace": "foo",
         },
     )
-    root: list["Root"] = field(
+    root: list[Root] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "foo",
         },
     )
-    out: Optional[object] = field(
+    out: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
         },
     )
-    g_att: Optional[SimpleType] = field(
+    g_att: None | SimpleType = field(
         default=None,
         metadata={
             "name": "gAtt",
@@ -46,13 +47,13 @@ class ComplexType:
             "namespace": "foo",
         },
     )
-    add: Optional[Decimal] = field(
+    add: None | Decimal = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    tail: Optional[object] = field(
+    tail: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -61,7 +62,7 @@ class ComplexType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(ComplexType):
     class Meta:
         name = "root"

@@ -1,22 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address:
     class Meta:
         name = "address"
 
-    street: Optional[object] = field(
+    street: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    zip: Optional[object] = field(
+    zip: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -25,13 +27,13 @@ class Address:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E3:
     class Meta:
         name = "e3"
         namespace = "http://xsdtesting"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -40,24 +42,23 @@ class E3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    e1: Optional[object] = field(
+    e1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    e2: Optional[Address] = field(
-        default=None,
+    e2: Address = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    e3: Optional[E3] = field(
+    e3: None | E3 = field(
         default=None,
         metadata={
             "type": "Element",
@@ -66,7 +67,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     e3: Any = field(
         init=False,
@@ -77,17 +78,16 @@ class R(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

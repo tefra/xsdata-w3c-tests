@@ -1,149 +1,150 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "AttrDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrDecl/name"
 
-    str00_a: Optional[str] = field(
+    str00_a: None | str = field(
         default=None,
         metadata={
             "name": "str00AẠ",
             "type": "Attribute",
         },
     )
-    str10: Optional[str] = field(
+    str10: None | str = field(
         default=None,
         metadata={
             "name": "str10-Ọ",
             "type": "Attribute",
         },
     )
-    str20: Optional[str] = field(
+    str20: None | str = field(
         default=None,
         metadata={
             "name": "str20ỹ",
             "type": "Attribute",
         },
     )
-    str01_a: Optional[str] = field(
+    str01_a: None | str = field(
         default=None,
         metadata={
             "name": "str01Aἀ",
             "type": "Attribute",
         },
     )
-    str11: Optional[str] = field(
+    str11: None | str = field(
         default=None,
         metadata={
             "name": "str11-Ἂ",
             "type": "Attribute",
         },
     )
-    str21: Optional[str] = field(
+    str21: None | str = field(
         default=None,
         metadata={
             "name": "str21ἕ",
             "type": "Attribute",
         },
     )
-    str02_a: Optional[str] = field(
+    str02_a: None | str = field(
         default=None,
         metadata={
             "name": "str02AἘ",
             "type": "Attribute",
         },
     )
-    str12: Optional[str] = field(
+    str12: None | str = field(
         default=None,
         metadata={
             "name": "str12-Ἒ",
             "type": "Attribute",
         },
     )
-    str22: Optional[str] = field(
+    str22: None | str = field(
         default=None,
         metadata={
             "name": "str22Ἕ",
             "type": "Attribute",
         },
     )
-    str03_a: Optional[str] = field(
+    str03_a: None | str = field(
         default=None,
         metadata={
             "name": "str03Aἠ",
             "type": "Attribute",
         },
     )
-    str13: Optional[str] = field(
+    str13: None | str = field(
         default=None,
         metadata={
             "name": "str13-ἲ",
             "type": "Attribute",
         },
     )
-    str23: Optional[str] = field(
+    str23: None | str = field(
         default=None,
         metadata={
             "name": "str23ὅ",
             "type": "Attribute",
         },
     )
-    str04_a: Optional[str] = field(
+    str04_a: None | str = field(
         default=None,
         metadata={
             "name": "str04AὈ",
             "type": "Attribute",
         },
     )
-    str14: Optional[str] = field(
+    str14: None | str = field(
         default=None,
         metadata={
             "name": "str14-Ὂ",
             "type": "Attribute",
         },
     )
-    str24: Optional[str] = field(
+    str24: None | str = field(
         default=None,
         metadata={
             "name": "str24Ὅ",
             "type": "Attribute",
         },
     )
-    str05_a: Optional[str] = field(
+    str05_a: None | str = field(
         default=None,
         metadata={
             "name": "str05Aὑ",
             "type": "Attribute",
         },
     )
-    str06_a: Optional[str] = field(
+    str06_a: None | str = field(
         default=None,
         metadata={
             "name": "str06Aὓ",
             "type": "Attribute",
         },
     )
-    str07_a: Optional[str] = field(
+    str07_a: None | str = field(
         default=None,
         metadata={
             "name": "str07Aὕ",
             "type": "Attribute",
         },
     )
-    str08_a: Optional[str] = field(
+    str08_a: None | str = field(
         default=None,
         metadata={
             "name": "str08Aὗ",
             "type": "Attribute",
         },
     )
-    str09_a: Optional[str] = field(
+    str09_a: None | str = field(
         default=None,
         metadata={
             "name": "str09AὙ",

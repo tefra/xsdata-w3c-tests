@@ -1,22 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexType:
     class Meta:
         name = "complexType"
 
-    root: list["Root"] = field(
+    root: list[Root] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "foo",
         },
     )
-    g_att: Optional[str] = field(
+    g_att: None | str = field(
         default=None,
         metadata={
             "name": "gAtt",
@@ -26,7 +27,7 @@ class ComplexType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(ComplexType):
     class Meta:
         name = "root"

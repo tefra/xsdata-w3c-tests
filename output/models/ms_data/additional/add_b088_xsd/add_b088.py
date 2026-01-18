@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AnyType:
     class Meta:
         name = "any"
 
-    target_namespace_imported_xsd_element: Optional[object] = field(
+    target_namespace_imported_xsd_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,13 +19,13 @@ class AnyType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "http://xsdtesting"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -33,7 +34,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-short-enumeration-3-NS"
 
@@ -13,15 +14,14 @@ class NistschemaSvIvAtomicShortEnumeration3Type(Enum):
     VALUE_MINUS_570 = -570
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicShortEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-short-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-short-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvAtomicShortEnumeration3Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicShortEnumeration3Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

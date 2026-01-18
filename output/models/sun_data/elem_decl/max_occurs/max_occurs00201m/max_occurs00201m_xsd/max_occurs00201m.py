@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/maxOccurs"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Local:
     class Meta:
         namespace = "ElemDecl/maxOccurs"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,17 +19,16 @@ class Local:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/maxOccurs"
 
-    local: Optional[Local] = field(
-        default=None,
+    local: Local = field(
         metadata={
             "name": "Local",
             "type": "Element",
             "required": True,
-        },
+        }
     )

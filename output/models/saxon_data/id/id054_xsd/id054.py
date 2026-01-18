@@ -1,31 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://id054.ly/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EmpType:
     class Meta:
         name = "empType"
 
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    nr: Optional[int] = field(
-        default=None,
+    nr: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    manager: Optional[int] = field(
+    manager: None | int = field(
         default=None,
         metadata={
             "type": "Element",
@@ -34,7 +33,7 @@ class EmpType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

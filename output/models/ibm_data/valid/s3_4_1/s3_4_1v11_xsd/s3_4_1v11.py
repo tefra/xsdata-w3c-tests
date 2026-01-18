@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "a"
 
-    version: Optional[Decimal] = field(
+    version: None | Decimal = field(
         default=None,
         metadata={
             "type": "Attribute",

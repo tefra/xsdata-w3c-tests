@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    currency: Optional[str] = field(
+    currency: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -15,18 +16,18 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestElem(Foo):
     class Meta:
         name = "testElem"
 
-    model: Optional[object] = field(
+    model: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    age: Optional[int] = field(
+    age: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -42,22 +43,21 @@ class TestElem(Foo):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DocElem:
     class Meta:
         name = "docElem"
 
-    test: Optional[TestElem] = field(
-        default=None,
+    test: TestElem = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(DocElem):
     class Meta:
         name = "doc"

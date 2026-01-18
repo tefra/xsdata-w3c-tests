@@ -1,24 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_2_4"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C1:
     class Meta:
         name = "c1"
 
-    default_attr: Optional[bool] = field(
-        default=None,
+    default_attr: bool = field(
         metadata={
             "name": "defaultAttr",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
             "required": True,
-        },
+        }
     )
-    element1: Optional[object] = field(
+    element1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -33,7 +33,7 @@ class C1:
             "min_occurs": 1,
         },
     )
-    element_added: Optional[object] = field(
+    element_added: None | object = field(
         default=None,
         metadata={
             "type": "Element",

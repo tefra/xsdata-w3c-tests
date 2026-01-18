@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Signatures:
     class Meta:
         name = "signatures"
@@ -16,392 +17,366 @@ class Signatures:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Yyy:
     class Meta:
         name = "yyy"
 
-    signatures: Optional[Signatures] = field(
-        default=None,
+    signatures: Signatures = field(
         metadata={
             "wrapper": "zzz",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zzz:
     class Meta:
         name = "zzz"
 
-    signatures: Optional[Signatures] = field(
-        default=None,
+    signatures: Signatures = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Www:
     class Meta:
         name = "www"
 
-    yyy: Optional[Yyy] = field(
-        default=None,
+    yyy: Yyy = field(
         metadata={
             "wrapper": "xxx",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xxx:
     class Meta:
         name = "xxx"
 
-    zzz: Optional[Zzz] = field(
-        default=None,
+    zzz: Zzz = field(
         metadata={
             "wrapper": "yyy",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ttt:
     class Meta:
         name = "ttt"
 
-    www: Optional[Www] = field(
-        default=None,
+    www: Www = field(
         metadata={
             "wrapper": "uuu",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uuu:
     class Meta:
         name = "uuu"
 
-    xxx: Optional[Xxx] = field(
-        default=None,
+    xxx: Xxx = field(
         metadata={
             "wrapper": "www",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Rrr:
     class Meta:
         name = "rrr"
 
-    ttt: Optional[Ttt] = field(
-        default=None,
+    ttt: Ttt = field(
         metadata={
             "wrapper": "sss",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Sss:
     class Meta:
         name = "sss"
 
-    uuu: Optional[Uuu] = field(
-        default=None,
+    uuu: Uuu = field(
         metadata={
             "wrapper": "ttt",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ppp:
     class Meta:
         name = "ppp"
 
-    rrr: Optional[Rrr] = field(
-        default=None,
+    rrr: Rrr = field(
         metadata={
             "wrapper": "qqq",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Qqq:
     class Meta:
         name = "qqq"
 
-    sss: Optional[Sss] = field(
-        default=None,
+    sss: Sss = field(
         metadata={
             "wrapper": "rrr",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nnn:
     class Meta:
         name = "nnn"
 
-    ppp: Optional[Ppp] = field(
-        default=None,
+    ppp: Ppp = field(
         metadata={
             "wrapper": "ooo",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ooo:
     class Meta:
         name = "ooo"
 
-    qqq: Optional[Qqq] = field(
-        default=None,
+    qqq: Qqq = field(
         metadata={
             "wrapper": "ppp",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Lll:
     class Meta:
         name = "lll"
 
-    nnn: Optional[Nnn] = field(
-        default=None,
+    nnn: Nnn = field(
         metadata={
             "wrapper": "mmm",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Mmm:
     class Meta:
         name = "mmm"
 
-    ooo: Optional[Ooo] = field(
-        default=None,
+    ooo: Ooo = field(
         metadata={
             "wrapper": "nnn",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Jjj:
     class Meta:
         name = "jjj"
 
-    lll: Optional[Lll] = field(
-        default=None,
+    lll: Lll = field(
         metadata={
             "wrapper": "kkk",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Kkk:
     class Meta:
         name = "kkk"
 
-    mmm: Optional[Mmm] = field(
-        default=None,
+    mmm: Mmm = field(
         metadata={
             "wrapper": "lll",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Hhh:
     class Meta:
         name = "hhh"
 
-    jjj: Optional[Jjj] = field(
-        default=None,
+    jjj: Jjj = field(
         metadata={
             "wrapper": "iii",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Iii:
     class Meta:
         name = "iii"
 
-    kkk: Optional[Kkk] = field(
-        default=None,
+    kkk: Kkk = field(
         metadata={
             "wrapper": "jjj",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Fff:
     class Meta:
         name = "fff"
 
-    hhh: Optional[Hhh] = field(
-        default=None,
+    hhh: Hhh = field(
         metadata={
             "wrapper": "ggg",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ggg:
     class Meta:
         name = "ggg"
 
-    iii: Optional[Iii] = field(
-        default=None,
+    iii: Iii = field(
         metadata={
             "wrapper": "hhh",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ddd:
     class Meta:
         name = "ddd"
 
-    fff: Optional[Fff] = field(
-        default=None,
+    fff: Fff = field(
         metadata={
             "wrapper": "eee",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Eee:
     class Meta:
         name = "eee"
 
-    ggg: Optional[Ggg] = field(
-        default=None,
+    ggg: Ggg = field(
         metadata={
             "wrapper": "fff",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bbb:
     class Meta:
         name = "bbb"
 
-    ddd: Optional[Ddd] = field(
-        default=None,
+    ddd: Ddd = field(
         metadata={
             "wrapper": "ccc",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ccc:
     class Meta:
         name = "ccc"
 
-    eee: Optional[Eee] = field(
-        default=None,
+    eee: Eee = field(
         metadata={
             "wrapper": "ddd",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Aaa:
     class Meta:
         name = "aaa"
 
-    ccc: Optional[Ccc] = field(
-        default=None,
+    ccc: Ccc = field(
         metadata={
             "wrapper": "bbb",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    bbb: Optional[Bbb] = field(
-        default=None,
+    bbb: Bbb = field(
         metadata={
             "wrapper": "aaa",
             "type": "Element",
             "required": True,
-        },
+        }
     )
     w3_org_xml_1998_namespace_attributes: dict[str, str] = field(
         default_factory=dict,

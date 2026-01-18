@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C1:
     class Meta:
         name = "C"
@@ -17,72 +18,67 @@ class C1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
 
-    value: Optional[XmlTime] = field(
-        default=None,
+    value: XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
 
-    value: Optional[XmlTime] = field(
-        default=None,
+    value: XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C2:
     class Meta:
         name = "c"
 
-    value: Optional[XmlTime] = field(
-        default=None,
+    value: XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    a: Optional[XmlDate] = field(
-        default=None,
+    a: XmlDate = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    b: Optional[B] = field(
-        default=None,
+    b: B = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    target_namespace_element: Optional[object] = field(
+    target_namespace_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
         },
     )
-    other_ns_element: Optional[object] = field(
+    other_ns_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

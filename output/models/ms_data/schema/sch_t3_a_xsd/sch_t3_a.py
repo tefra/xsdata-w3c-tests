@@ -1,60 +1,58 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ACt:
     class Meta:
         name = "A-ct"
 
-    att1: Optional[object] = field(
+    att1: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[object] = field(
+    att2: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        },
-    )
-    att5: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        },
-    )
-    att6: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        },
-    )
-    att7: Optional[object] = field(
-        default=None,
+    att3: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    att9: Optional[object] = field(
+    att5: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
-            "required": True,
         },
     )
-    att11: Optional[int] = field(
+    att6: None | object = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        },
+    )
+    att7: object = field(
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
+    )
+    att9: object = field(
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
+    )
+    att11: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -96,22 +94,21 @@ class ACt:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E2:
     class Meta:
         name = "e2"
         namespace = "ns-a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "total_digits": 2,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -126,7 +123,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1(ACt):
     class Meta:
         name = "e1"

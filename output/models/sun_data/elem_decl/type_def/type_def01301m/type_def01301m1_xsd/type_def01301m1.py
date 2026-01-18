@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Inline:
     class Meta:
         name = "inline"
         namespace = "ElemDecl/typeDef"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,10 +20,10 @@ class Inline:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)

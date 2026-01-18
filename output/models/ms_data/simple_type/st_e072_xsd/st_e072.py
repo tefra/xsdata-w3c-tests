@@ -1,26 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlPeriod
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, str, int] = field(init=False, default="a")
+    value: XmlPeriod | str | int = field(init=False, default="a")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    root: Optional[Root] = field(
-        default=None,
+    root: Root = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    local_element1: Optional[object] = field(
+    local_element1: None | object = field(
         default=None,
         metadata={
             "name": "localElement1",
@@ -18,7 +19,7 @@ class Root:
             "namespace": "",
         },
     )
-    local_element2: Optional[object] = field(
+    local_element2: None | object = field(
         default=None,
         metadata={
             "name": "localElement2",
@@ -28,15 +29,14 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestContent:
     class Meta:
         name = "testContent"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )

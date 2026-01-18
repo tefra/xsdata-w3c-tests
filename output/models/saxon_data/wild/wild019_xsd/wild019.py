@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     any_attributes: dict[str, str] = field(
         default_factory=dict,
@@ -13,7 +15,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     any_attributes: Any = field(
         init=False,
@@ -31,7 +33,7 @@ class R(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Eden(R):
     class Meta:
         name = "eden"

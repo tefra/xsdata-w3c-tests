@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "nsConstraint"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
         namespace = "nsConstraint"
 
-    other_element: Optional[object] = field(
+    other_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -22,15 +23,14 @@ class A:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Date:
     class Meta:
         name = "date"
         namespace = "nsConstraint"
 
-    value: Optional[XmlDate] = field(
-        default=None,
+    value: XmlDate = field(
         metadata={
             "required": True,
-        },
+        }
     )

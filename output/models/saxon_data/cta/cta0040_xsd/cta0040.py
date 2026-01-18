@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Appendix:
     class Meta:
         name = "appendix"
 
-    value: Optional[Union[XmlDate, XmlDateTime, XmlTime]] = field(
-        default=None,
+    value: XmlDate | XmlDateTime | XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    type_value: Optional[str] = field(
+    type_value: None | str = field(
         default=None,
         metadata={
             "name": "type",
@@ -24,18 +24,17 @@ class Appendix:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[Union[XmlDate, XmlDateTime, XmlTime]] = field(
-        default=None,
+    value: XmlDate | XmlDateTime | XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    type_value: Optional[str] = field(
+    type_value: None | str = field(
         default=None,
         metadata={
             "name": "type",
@@ -44,12 +43,12 @@ class Chap:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    appendix_or_chap: list[Union[Appendix, Chap]] = field(
+    appendix_or_chap: list[Appendix | Chap] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

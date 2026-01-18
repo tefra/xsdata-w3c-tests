@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AnyTypeElement:
     class Meta:
         namespace = "ElemDecl/typeDef"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,12 +19,12 @@ class AnyTypeElement:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DefaultTypeElement:
     class Meta:
         namespace = "ElemDecl/typeDef"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -32,15 +33,15 @@ class DefaultTypeElement:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    any_type_element_or_default_type_element: Optional[
-        Union[AnyTypeElement, DefaultTypeElement]
-    ] = field(
+    any_type_element_or_default_type_element: (
+        None | AnyTypeElement | DefaultTypeElement
+    ) = field(
         default=None,
         metadata={
             "type": "Elements",

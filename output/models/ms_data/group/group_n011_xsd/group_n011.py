@@ -1,41 +1,42 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem:
     class Meta:
         name = "elem"
 
-    a1: Optional[object] = field(
+    a1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    a2: Optional[object] = field(
+    a2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    a3: Optional[object] = field(
+    a3: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    a4: Optional[object] = field(
+    a4: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    a5: Optional[object] = field(
+    a5: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -44,15 +45,14 @@ class Elem:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -18,10 +19,9 @@ class Root:
             "tokens": True,
         },
     )
-    idref_element: Optional[str] = field(
-        default=None,
+    idref_element: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

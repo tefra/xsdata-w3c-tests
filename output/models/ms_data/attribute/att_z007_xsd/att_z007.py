@@ -1,28 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class One:
-    elem1: Optional[object] = field(
+    elem1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    elem2: Optional[object] = field(
+    elem2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    att1: Optional[object] = field(
+    att1: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[object] = field(
+    att2: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -30,7 +32,7 @@ class One:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Two(One):
     elem1: Any = field(
         init=False,
@@ -55,40 +57,36 @@ class Two(One):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Three(Two):
-    att1: Optional[object] = field(
-        default=None,
+    att1: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    e1: Optional[One] = field(
-        default=None,
+    e1: One = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    e2: Optional[Two] = field(
-        default=None,
+    e2: Two = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    e3: Optional[Three] = field(
-        default=None,
+    e3: Three = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

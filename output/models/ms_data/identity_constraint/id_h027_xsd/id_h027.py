@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.ms_data.identity_constraint.id_h027_xsd.id_h027_imp import (
     Iid,
 )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Kid:
     class Meta:
         name = "kid"
 
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -19,22 +20,21 @@ class Kid:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uidtype:
     class Meta:
         name = "uidtype"
 
-    iid: Optional[Iid] = field(
-        default=None,
+    iid: Iid = field(
         metadata={
             "type": "Element",
             "namespace": "importNS",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

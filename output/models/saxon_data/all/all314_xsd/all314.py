@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ProductType:
-    child1: Optional[object] = field(
+    child1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -13,9 +14,9 @@ class ProductType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ExtendedProductType(ProductType):
-    child2: Optional[object] = field(
+    child2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -24,7 +25,7 @@ class ExtendedProductType(ProductType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Product(ExtendedProductType):
     class Meta:
         name = "product"

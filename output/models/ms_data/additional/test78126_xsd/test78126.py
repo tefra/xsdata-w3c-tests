@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
@@ -13,13 +14,13 @@ class A:
             "required": True,
         },
     )
-    att1: Optional[int] = field(
+    att1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[bool] = field(
+    att2: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -27,7 +28,7 @@ class A:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AnyType:
     class Meta:
         name = "any"
@@ -42,12 +43,12 @@ class AnyType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    any_or_a: list[Union[AnyType, A]] = field(
+    any_or_a: list[AnyType | A] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

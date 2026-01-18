@@ -1,22 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T1:
     class Meta:
         name = "t1"
 
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
         },
     )
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -25,7 +26,7 @@ class T1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
@@ -51,7 +52,7 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"

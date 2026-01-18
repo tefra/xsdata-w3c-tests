@@ -1,27 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xtype:
     class Meta:
         name = "XType"
 
-    message: Optional[str] = field(
-        default=None,
+    message: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    min: Optional[int] = field(
+    min: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    max: Optional[int] = field(
+    max: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,6 +29,6 @@ class Xtype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X(Xtype):
     pass

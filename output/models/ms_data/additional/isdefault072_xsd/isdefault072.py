@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "http://schemas.microsoft.com/2003/10/Serialization/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Array:
     class Meta:
         namespace = "http://schemas.microsoft.com/2003/10/Serialization/"

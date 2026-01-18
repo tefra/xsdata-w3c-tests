@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     abel_com_adam_com_attributes: dict[str, str] = field(
         default_factory=dict,
@@ -12,7 +14,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E(B):
     any_attributes: dict[str, str] = field(
         default_factory=dict,
@@ -23,7 +25,7 @@ class E(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Eden(E):
     class Meta:
         name = "eden"

@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    foo: Optional[str] = field(
+    foo: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -15,43 +16,43 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att1: Optional[str] = field(
+    att1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[str] = field(
+    att2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att3: Optional[int] = field(
+    att3: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att4: Optional[int] = field(
+    att4: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://importedXSD",
         },
     )
-    att5: Optional[bool] = field(
+    att5: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -59,7 +60,7 @@ class Test:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Test):
     class Meta:
         name = "doc"

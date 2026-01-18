@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 
 class FooTypeValue(Enum):
@@ -9,31 +10,29 @@ class FooTypeValue(Enum):
     CA = "CA"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: Optional[Union[int, FooTypeValue]] = field(
-        default=None,
+    value: int | FooTypeValue = field(
         metadata={
             "required": True,
             "min_inclusive": 100,
             "max_inclusive": 200,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: FooTest = field(
         metadata={
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )

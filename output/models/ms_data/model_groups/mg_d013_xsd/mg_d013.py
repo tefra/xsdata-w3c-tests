@@ -1,27 +1,28 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elt1:
     class Meta:
         name = "elt1"
 
-    elt2: Optional[object] = field(
+    elt2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    elt3: Optional[object] = field(
+    elt3: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    elt4: Optional[object] = field(
+    elt4: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -30,7 +31,7 @@ class Elt1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -39,6 +40,5 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         },
     )

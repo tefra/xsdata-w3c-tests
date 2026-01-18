@@ -1,37 +1,36 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Tabletype:
     class Meta:
         name = "tabletype"
 
-    r: Optional[str] = field(
-        default=None,
+    r: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    c: Optional[str] = field(
-        default=None,
+    c: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T(Tabletype):
     class Meta:
         name = "t"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11"
 
@@ -9,18 +10,17 @@ class DurWhiteSpace(Enum):
     VALUE = ""
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11"
 
-    el_white_space: Optional[DurWhiteSpace] = field(
-        default=None,
+    el_white_space: DurWhiteSpace = field(
         metadata={
             "name": "elWhiteSpace",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

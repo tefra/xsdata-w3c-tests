@@ -1,71 +1,68 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
         namespace = "a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
         namespace = "a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C:
     class Meta:
         name = "c"
         namespace = "a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class D:
     class Meta:
         name = "d"
         namespace = "a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
     class Meta:
         name = "t"
 
-    d_or_b: Optional[Union[D, B]] = field(
+    d_or_b: None | D | B = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -90,17 +87,16 @@ class T:
             "namespace": "##any",
         },
     )
-    c: Optional[C] = field(
-        default=None,
+    c: C = field(
         metadata={
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(T):
     class Meta:
         name = "root"

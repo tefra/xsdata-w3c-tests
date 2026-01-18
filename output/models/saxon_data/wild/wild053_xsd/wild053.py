@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.saxon_data.wild.wild053_xsd.wild053imp import Zing
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zang:
     class Meta:
         name = "zang"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,7 +19,7 @@ class Zang:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Zing):
     class Meta:
         name = "root"

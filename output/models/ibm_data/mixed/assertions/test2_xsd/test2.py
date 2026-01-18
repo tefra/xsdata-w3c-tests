@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ArrayType:
     entry: list[str] = field(
         default_factory=list,
@@ -11,7 +12,7 @@ class ArrayType:
             "namespace": "",
         },
     )
-    length: Optional[int] = field(
+    length: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -19,7 +20,7 @@ class ArrayType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xlist(ArrayType):
     class Meta:
         name = "XList"

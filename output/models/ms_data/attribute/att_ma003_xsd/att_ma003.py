@@ -1,23 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional["Doc.Elem"] = field(
+    elem: None | Doc.Elem = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )
-    ga1: Optional[int] = field(
+    ga1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -25,16 +25,16 @@ class Doc:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Elem:
-        ga1: Optional[int] = field(
+        ga1: None | int = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "namespace": "http://xsdtesting",
             },
         )
-        ga2: Optional[int] = field(
+        ga2: None | int = field(
             default=None,
             metadata={
                 "type": "Attribute",

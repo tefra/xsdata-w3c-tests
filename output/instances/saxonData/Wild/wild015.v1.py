@@ -1,10 +1,12 @@
-from output.models.saxon_data.wild.wild016_xsd.wild016 import Eden
+from output.models.saxon_data.wild.wild015_xsd.wild015 import Eden
 
 
 obj = Eden(
-    any_attributes={
+    abel_com_adam_com_attributes={
         '{http://abel.com/}abel': 'abel',
         '{http://adam.com/}adam': 'adam',
+    },
+    any_attributes={
         '{http://eve.com/}eve': 'eve',
     }
 )

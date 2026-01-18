@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[str] = field(
+    value: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

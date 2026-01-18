@@ -1,27 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived(Base):
     class Meta:
         name = "derived"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Outer:
     class Meta:
         name = "outer"

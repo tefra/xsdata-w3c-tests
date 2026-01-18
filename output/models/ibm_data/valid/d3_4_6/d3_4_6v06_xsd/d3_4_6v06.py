@@ -1,22 +1,22 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nametest:
     choice: list[
-        Union[
-            "Nametest.Ele",
-            "Nametest.LowLineHyphenMinus",
-            "Nametest.LowLineFullStop",
-            "Nametest.Type9",
-            "Nametest.LowLineLowLineLowLine",
-            "Nametest.AA",
-            "Nametest.AAA",
-            "Nametest.AEle",
-        ]
+        Nametest.Ele
+        | Nametest.LowLineHyphenMinus
+        | Nametest.LowLineFullStop
+        | Nametest.Type9
+        | Nametest.LowLineLowLineLowLine
+        | Nametest.AA
+        | Nametest.AAA
+        | Nametest.AEle
     ] = field(
         default_factory=list,
         metadata={
@@ -66,80 +66,80 @@ class Nametest:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Ele:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LowLineHyphenMinus:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LowLineFullStop:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Type9:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class LowLineLowLineLowLine:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class AA:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class AAA:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class AEle:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Nametest):
     class Meta:
         name = "root"

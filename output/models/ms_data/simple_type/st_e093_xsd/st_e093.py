@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 from xml.etree.ElementTree import QName
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: list[Union[float, bytes, int, QName]] = field(
+    value: list[float | bytes | int | QName] = field(
         init=False,
         default_factory=lambda: [
             12,

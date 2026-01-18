@@ -1,60 +1,56 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Triangular:
-    a: Optional[int] = field(
-        default=None,
+    a: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    b: Optional[int] = field(
-        default=None,
+    b: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    c: Optional[int] = field(
-        default=None,
+    c: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    kind: Optional[str] = field(
-        default=None,
+    kind: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Quadrilateral(Triangular):
-    d: Optional[int] = field(
-        default=None,
+    d: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Shapes:
     class Meta:
         name = "shapes"
 
-    polygon: list[Union[Triangular, Quadrilateral]] = field(
+    polygon: list[Triangular | Quadrilateral] = field(
         default_factory=list,
         metadata={
             "type": "Element",

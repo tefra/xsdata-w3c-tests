@@ -1,35 +1,34 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Keyname:
     class Meta:
         name = "keyname"
 
-    numid: Optional[int] = field(
-        default=None,
+    numid: int = field(
         metadata={
             "name": "Numid",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
-    numname: Optional[str] = field(
-        default=None,
+    numname: str = field(
         metadata={
             "name": "Numname",
             "type": "Element",
             "namespace": "a",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

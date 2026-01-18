@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AppendixContent:
     class Meta:
         name = "appendixContent"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -16,12 +17,12 @@ class AppendixContent:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ChapContent:
     class Meta:
         name = "chapContent"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -30,7 +31,7 @@ class ChapContent:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Para:
     class Meta:
         name = "para"
@@ -43,7 +44,7 @@ class Para:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Back:
     class Meta:
         name = "back"
@@ -56,7 +57,7 @@ class Back:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Body:
     class Meta:
         name = "body"
@@ -69,22 +70,20 @@ class Body:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    body: Optional[Body] = field(
-        default=None,
+    body: Body = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    back: Optional[Back] = field(
-        default=None,
+    back: Back = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

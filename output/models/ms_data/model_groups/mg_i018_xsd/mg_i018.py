@@ -1,95 +1,91 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    choice: Optional[Union["Foo.S1", "Foo.S2", "Foo.S3", "Foo.S4", object]] = (
-        field(
-            default=None,
-            metadata={
-                "type": "Elements",
-                "choices": (
-                    {
-                        "name": "s1",
-                        "type": ForwardRef("Foo.S1"),
-                        "namespace": "",
-                    },
-                    {
-                        "name": "s2",
-                        "type": ForwardRef("Foo.S2"),
-                        "namespace": "",
-                    },
-                    {
-                        "name": "s3",
-                        "type": ForwardRef("Foo.S3"),
-                        "namespace": "",
-                    },
-                    {
-                        "name": "s4",
-                        "type": ForwardRef("Foo.S4"),
-                        "namespace": "",
-                    },
-                    {
-                        "wildcard": True,
-                        "type": object,
-                        "namespace": "http://n1 http://n2 http://n3 http://n4",
-                        "max_occurs": 4,
-                    },
-                ),
-            },
-        )
+    choice: None | Foo.S1 | Foo.S2 | Foo.S3 | Foo.S4 | object = field(
+        default=None,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s1",
+                    "type": ForwardRef("Foo.S1"),
+                    "namespace": "",
+                },
+                {
+                    "name": "s2",
+                    "type": ForwardRef("Foo.S2"),
+                    "namespace": "",
+                },
+                {
+                    "name": "s3",
+                    "type": ForwardRef("Foo.S3"),
+                    "namespace": "",
+                },
+                {
+                    "name": "s4",
+                    "type": ForwardRef("Foo.S4"),
+                    "namespace": "",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "http://n1 http://n2 http://n3 http://n4",
+                    "max_occurs": 4,
+                },
+            ),
+        },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class S1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class S2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class S3:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class S4:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

@@ -1,38 +1,39 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    att1: Optional[str] = field(
+    att1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    foo: Optional[int] = field(
+    foo: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[str] = field(
+    att2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    bar: Optional[int] = field(
+    bar: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
             "max_exclusive": 100,
         },
     )
-    att3: Optional[int] = field(
+    att3: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",

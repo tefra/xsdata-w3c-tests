@@ -1,6 +1,8 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any, Optional
+from typing import Any
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
@@ -15,12 +17,12 @@ class MessageTypeValue(Enum):
     XML_1 = "XML"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageType:
     class Meta:
         name = "messageType"
 
-    kind: Optional[MessageTypeValue] = field(
+    kind: None | MessageTypeValue = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -43,13 +45,13 @@ class MessageType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Message(MessageType):
     class Meta:
         name = "message"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageTypeBase64(MessageType):
     class Meta:
         name = "messageTypeBase64"
@@ -68,15 +70,15 @@ class MessageTypeBase64(MessageType):
             "type": "Ignore",
         },
     )
-    value: Optional[bytes] = field(
-        default=None,
+    value: bytes = field(
+        default=b"",
         metadata={
             "format": "base64",
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageTypeDate(MessageType):
     class Meta:
         name = "messageTypeDate"
@@ -95,10 +97,10 @@ class MessageTypeDate(MessageType):
             "type": "Ignore",
         },
     )
-    value: Optional[XmlDate] = field(default=None)
+    value: XmlDate = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageTypeString(MessageType):
     class Meta:
         name = "messageTypeString"
@@ -120,7 +122,7 @@ class MessageTypeString(MessageType):
     value: str = field(default="")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageTypeTime(MessageType):
     class Meta:
         name = "messageTypeTime"
@@ -139,10 +141,10 @@ class MessageTypeTime(MessageType):
             "type": "Ignore",
         },
     )
-    value: Optional[XmlTime] = field(default=None)
+    value: XmlTime = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MessageTypeXml(MessageType):
     class Meta:
         name = "messageTypeXML"
@@ -161,7 +163,7 @@ class MessageTypeXml(MessageType):
             "type": "Ignore",
         },
     )
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -170,7 +172,7 @@ class MessageTypeXml(MessageType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Messages:
     class Meta:
         name = "messages"

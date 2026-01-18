@@ -1,17 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://importedXSD"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Any1:
     class Meta:
         name = "any1"
 
-    local_element_or_bbb_or_ccc: Optional[
-        Union["Any1.Bbb", "Any1.Ccc", object]
-    ] = field(
+    local_element_or_bbb_or_ccc: None | Any1.Bbb | Any1.Ccc | object = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -35,42 +35,40 @@ class Any1:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Bbb:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://importedXSD",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Ccc:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://importedXSD",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Imp:
     class Meta:
         name = "imp"
         namespace = "http://importedXSD"
 
-    att1: Optional[str] = field(
+    att1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[int] = field(
+    att2: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -78,7 +76,7 @@ class Imp:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc1:
     class Meta:
         name = "doc1"

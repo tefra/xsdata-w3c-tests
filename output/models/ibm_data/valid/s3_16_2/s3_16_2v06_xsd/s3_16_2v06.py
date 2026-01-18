@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://xstest-tns/IBMd3_16v06"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/IBMd3_16v06"
 
-    union_element: list[Union[XmlDate, int, str]] = field(
+    union_element: list[XmlDate | int | str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

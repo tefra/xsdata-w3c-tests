@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, ForwardRef, Optional, Union
+from typing import Any, ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    foo_or_foo1: list[Union["Base.Foo", "Base.Foo1"]] = field(
+    foo_or_foo1: list[Base.Foo | Base.Foo1] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -31,26 +33,24 @@ class Base:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Foo:
-        value: Optional[bool] = field(
-            default=None,
+        value: bool = field(
             metadata={
                 "required": True,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Foo1:
-        value: Optional[bool] = field(
-            default=None,
+        value: bool = field(
             metadata={
                 "required": True,
-            },
+            }
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"

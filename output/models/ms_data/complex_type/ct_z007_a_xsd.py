@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
@@ -15,7 +16,7 @@ class Address:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class City:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
@@ -28,7 +29,7 @@ class City:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class State:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
@@ -42,7 +43,7 @@ class State:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zip:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
@@ -55,7 +56,7 @@ class Zip:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FirstName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
@@ -68,7 +69,7 @@ class FirstName:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LastName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
@@ -81,7 +82,7 @@ class LastName:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PhoneNumber:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
@@ -94,30 +95,28 @@ class PhoneNumber:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CustomerType:
     class Meta:
         target_namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    first_name: Optional[FirstName] = field(
-        default=None,
+    first_name: FirstName = field(
         metadata={
             "name": "FirstName",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
             "required": True,
-        },
+        }
     )
-    last_name: Optional[LastName] = field(
-        default=None,
+    last_name: LastName = field(
         metadata={
             "name": "LastName",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
             "required": True,
-        },
+        }
     )
-    customer_id: Optional[int] = field(
+    customer_id: None | int = field(
         default=None,
         metadata={
             "name": "customerID",
@@ -126,71 +125,66 @@ class CustomerType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyCustomerType(CustomerType):
     class Meta:
         target_namespace = "urn:xmlns:25hoursaday-com:address"
 
-    phone_number: Optional[PhoneNumber] = field(
-        default=None,
+    phone_number: PhoneNumber = field(
         metadata={
             "name": "PhoneNumber",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
             "required": True,
-        },
+        }
     )
-    address: Optional[Address] = field(
-        default=None,
+    address: Address = field(
         metadata={
             "name": "Address",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
             "required": True,
-        },
+        }
     )
-    city: Optional[City] = field(
-        default=None,
+    city: City = field(
         metadata={
             "name": "City",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
             "required": True,
-        },
+        }
     )
-    state: Optional[State] = field(
-        default=None,
+    state: State = field(
         metadata={
             "name": "State",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
             "required": True,
-        },
+        }
     )
-    zip: Optional[Zip] = field(
-        default=None,
+    zip: Zip = field(
         metadata={
             "name": "Zip",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Customer(CustomerType):
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyCustomer(MyCustomerType):
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Customers:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"

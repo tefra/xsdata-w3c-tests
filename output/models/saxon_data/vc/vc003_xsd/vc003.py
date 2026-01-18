@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Temp:
     class Meta:
         name = "temp"
 
-    value: Optional[XmlDate] = field(default=None)
+    value: XmlDate = field()

@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-duration-maxInclusive-4-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicDurationMaxInclusive4:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-duration-maxInclusive-4"
         namespace = "NISTSchema-SV-IV-atomic-duration-maxInclusive-4-NS"
 
-    value: Optional[XmlDuration] = field(
-        default=None,
+    value: XmlDuration = field(
         metadata={
             "required": True,
             "max_inclusive": XmlDuration("P1989Y04M21DT11H28M41S"),
-        },
+        }
     )

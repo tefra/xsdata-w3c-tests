@@ -1,31 +1,32 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
-    a: Optional[str] = field(
+    a: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    b: Optional[str] = field(
+    b: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[str] = field(
+    c: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[str] = field(
+    d: None | str = field(
         default=None,
         metadata={
             "type": "Element",
@@ -34,30 +35,30 @@ class X:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Y:
-    a: Optional[str] = field(
+    a: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    b: Optional[str] = field(
+    b: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[str] = field(
+    c: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[str] = field(
+    d: None | str = field(
         default=None,
         metadata={
             "type": "Element",
@@ -66,24 +67,22 @@ class Y:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"
 
-    x: Optional[X] = field(
-        default=None,
+    x: X = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    y: Optional[Y] = field(
-        default=None,
+    y: Y = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

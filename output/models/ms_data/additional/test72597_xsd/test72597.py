@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
-    part: list["A.Part"] = field(
+    part: list[A.Part] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -15,7 +16,7 @@ class A:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Part:
         value: str = field(
             default="",
@@ -23,13 +24,13 @@ class A:
                 "required": True,
             },
         )
-        number: Optional[int] = field(
+        number: None | int = field(
             default=None,
             metadata={
                 "type": "Attribute",
             },
         )
-        number2: Optional[int] = field(
+        number2: None | int = field(
             default=None,
             metadata={
                 "type": "Attribute",
@@ -37,17 +38,16 @@ class A:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    a: Optional[A] = field(
-        default=None,
+    a: A = field(
         metadata={
             "name": "A",
             "type": "Element",
             "required": True,
-        },
+        }
     )

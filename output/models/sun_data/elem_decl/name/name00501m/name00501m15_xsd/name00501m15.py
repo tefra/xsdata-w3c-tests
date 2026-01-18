@@ -1,29 +1,29 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Main:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: Optional[bool] = field(
-        default=None,
+    value: bool = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -32,16 +32,15 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Global:
     class Meta:
         namespace = "ElemDecl/name"
 
-    main: Optional[Main] = field(
-        default=None,
+    main: Main = field(
         metadata={
             "name": "Main",
             "type": "Element",
             "required": True,
-        },
+        }
     )

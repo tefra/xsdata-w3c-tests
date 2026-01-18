@@ -1,16 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "particles"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
         namespace = "particles"
 
-    id_or_id_str: Optional[Union[int, str]] = field(
+    id_or_id_str: None | int | str = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -28,7 +30,7 @@ class A:
             ),
         },
     )
-    name_or_type: Optional[Union["A.Name", "A.Type"]] = field(
+    name_or_type: None | A.Name | A.Type = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -47,19 +49,19 @@ class A:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Name:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Type:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             },

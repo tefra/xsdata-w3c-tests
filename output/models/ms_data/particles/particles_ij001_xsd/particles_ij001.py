@@ -1,12 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    c1_or_c2: list[Union["B.C1", "B.C2"]] = field(
+    c1_or_c2: list[B.C1 | B.C2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -27,51 +29,48 @@ class B:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(R):
     class Meta:
         name = "elem"
         namespace = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[Elem] = field(
+    elem: None | Elem = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )

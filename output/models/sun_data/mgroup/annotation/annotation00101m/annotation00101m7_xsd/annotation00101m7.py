@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "MGroup/annotation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "MGroup/annotation"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -21,12 +22,12 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TheType:
     class Meta:
         name = "theType"
 
-    c_or_date: Optional[Union[int, XmlDate]] = field(
+    c_or_date: None | int | XmlDate = field(
         default=None,
         metadata={
             "type": "Elements",

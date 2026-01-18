@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
@@ -31,7 +32,7 @@ class NistschemaSvIvAtomicQnameEnumeration3Type(Enum):
     Q_TTHE_WITH = QName("{http://www.nist.gov/xsdNS}tthe.with-")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LanguagesAndTransformingTechnologiesIsImpa:
     class Meta:
         name = "_languages-and-transforming.technologies.is_impa"
@@ -45,7 +46,7 @@ class LanguagesAndTransformingTechnologiesIsImpa:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class KdomainsAsAutomaticAcademiaWorkEnsureTes:
     class Meta:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
@@ -59,7 +60,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TonAndItsT:
     class Meta:
         name = "ton.and_its.t"
@@ -73,7 +74,7 @@ class TonAndItsT:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XstandardFileUseEa:
     class Meta:
         name = "xstandard-file_use-ea"
@@ -87,7 +88,7 @@ class XstandardFileUseEa:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class YinvolvedEEffor:
     class Meta:
         name = "yinvolved.e-effor"
@@ -101,15 +102,14 @@ class YinvolvedEEffor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicQnameEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvAtomicQnameEnumeration3Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicQnameEnumeration3Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

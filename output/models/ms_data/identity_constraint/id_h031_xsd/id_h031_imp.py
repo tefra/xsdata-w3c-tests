@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "importNS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Iid:
     class Meta:
         name = "iid"
@@ -16,7 +17,7 @@ class Iid:
             "required": True,
         },
     )
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

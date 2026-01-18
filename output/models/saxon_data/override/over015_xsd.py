@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 from xml.etree.ElementTree import QName
 
 
@@ -10,30 +11,30 @@ class NotaFooBar(Enum):
     BEZ = QName("bez")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class StructuredDate:
     class Meta:
         name = "structuredDate"
 
-    year: Optional[object] = field(
+    year: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    month: Optional[object] = field(
+    month: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    day: Optional[object] = field(
+    day: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    nota: Optional[NotaFooBar] = field(
+    nota: None | NotaFooBar = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -41,12 +42,12 @@ class StructuredDate:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    para_or_bezzle: list[Union[StructuredDate, QName]] = field(
+    para_or_bezzle: list[StructuredDate | QName] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

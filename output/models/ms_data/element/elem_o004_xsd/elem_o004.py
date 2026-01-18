@@ -1,31 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType:
     class Meta:
         name = "fooType"
 
-    my_elem_1: Optional[str] = field(
-        default=None,
+    my_elem_1: str = field(
         metadata={
             "name": "myElem_1",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    my_elem_2: Optional[int] = field(
-        default=None,
+    my_elem_2: int = field(
         metadata={
             "name": "myElem_2",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    my_attr: Optional[str] = field(
+    my_attr: None | str = field(
         default=None,
         metadata={
             "name": "myAttr",
@@ -34,22 +33,21 @@ class FooType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooTest(FooType):
     class Meta:
         name = "fooTest"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: FooTest = field(
         metadata={
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )

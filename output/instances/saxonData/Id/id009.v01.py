@@ -37,10 +37,10 @@ obj = Doc(
         Node(
             node_or_id_or_idref=[
                 Node.Id(
-
+                    value=None
                 ),
                 Node.Idref(
-
+                    value=None
                 ),
             ]
         ),

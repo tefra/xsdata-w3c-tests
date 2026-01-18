@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
 
 from xsdata.models.datatype import (
     XmlDate,
@@ -11,7 +12,7 @@ from xsdata.models.datatype import (
 )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Anyuri:
     class Meta:
         name = "anyuri"
@@ -24,98 +25,91 @@ class Anyuri:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bool:
     class Meta:
         name = "bool"
 
-    value: Optional[bool] = field(
-        default=None,
+    value: bool = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Date:
     class Meta:
         name = "date"
 
-    value: Optional[XmlDate] = field(
-        default=None,
+    value: XmlDate = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Datetime:
     class Meta:
         name = "datetime"
 
-    value: Optional[XmlDateTime] = field(
-        default=None,
+    value: XmlDateTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Day:
     class Meta:
         name = "day"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DecimalType:
     class Meta:
         name = "decimal"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Double:
     class Meta:
         name = "double"
 
-    value: Optional[float] = field(
-        default=None,
+    value: float = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Duration:
     class Meta:
         name = "duration"
 
-    value: Optional[XmlDuration] = field(
-        default=None,
+    value: XmlDuration = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Entity:
     class Meta:
         name = "entity"
@@ -128,26 +122,25 @@ class Entity:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Float:
     class Meta:
         name = "float"
 
-    value: Optional[float] = field(
-        default=None,
+    value: float = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Hexbinary:
     class Meta:
         name = "hexbinary"
 
-    value: Optional[bytes] = field(
-        default=None,
+    value: bytes = field(
+        default=b"",
         metadata={
             "required": True,
             "format": "base16",
@@ -155,25 +148,24 @@ class Hexbinary:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Int:
     class Meta:
         name = "int"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item:
     class Meta:
         name = "item"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -182,33 +174,31 @@ class Item:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Month:
     class Meta:
         name = "month"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Monthday:
     class Meta:
         name = "monthday"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class String:
     class Meta:
         name = "string"
@@ -221,58 +211,54 @@ class String:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Time:
     class Meta:
         name = "time"
 
-    value: Optional[XmlTime] = field(
-        default=None,
+    value: XmlTime = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Year:
     class Meta:
         name = "year"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
     choice: list[
-        Union[
-            Entity,
-            Anyuri,
-            Hexbinary,
-            Month,
-            Day,
-            Monthday,
-            Year,
-            Date,
-            Time,
-            Datetime,
-            Duration,
-            DecimalType,
-            Double,
-            Float,
-            Bool,
-            Int,
-            String,
-            Item,
-        ]
+        Entity
+        | Anyuri
+        | Hexbinary
+        | Month
+        | Day
+        | Monthday
+        | Year
+        | Date
+        | Time
+        | Datetime
+        | Duration
+        | DecimalType
+        | Double
+        | Float
+        | Bool
+        | Int
+        | String
+        | Item
     ] = field(
         default_factory=list,
         metadata={

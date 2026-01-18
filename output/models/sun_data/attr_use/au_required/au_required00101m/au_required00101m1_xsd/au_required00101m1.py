@@ -1,32 +1,32 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "AttrUse/required"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementWithAttr:
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrUse/required"
 
-    number: Optional[int] = field(
-        default=None,
+    number: int = field(
         metadata={
             "type": "Attribute",
             "namespace": "AttrUse/required",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrUse/required"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

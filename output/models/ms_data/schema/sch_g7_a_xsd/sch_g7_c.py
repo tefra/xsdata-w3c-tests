@@ -1,39 +1,38 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns-c"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CtA:
     class Meta:
         name = "ct-A"
 
-    a1: Optional[int] = field(
-        default=None,
+    a1: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    a2: Optional[int] = field(
-        default=None,
+    a2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "ns-c"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -42,7 +41,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1(CtA):
     class Meta:
         name = "e1"

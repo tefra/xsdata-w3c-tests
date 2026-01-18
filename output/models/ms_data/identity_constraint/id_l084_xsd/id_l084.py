@@ -1,23 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ttype:
     class Meta:
         name = "ttype"
 
-    row: Optional[str] = field(
-        default=None,
+    row: str = field(
         metadata={
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "required": True,
-        },
+        }
     )
-    col: Optional[str] = field(
+    col: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -25,14 +25,14 @@ class Ttype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T(Ttype):
     class Meta:
         name = "t"
         namespace = "myNS.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

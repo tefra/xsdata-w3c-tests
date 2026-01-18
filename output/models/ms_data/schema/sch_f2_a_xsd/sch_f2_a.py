@@ -1,29 +1,28 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CtA:
     class Meta:
         name = "ct-A"
 
-    a1: Optional[int] = field(
-        default=None,
+    a1: int = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    a2: Optional[bool] = field(
-        default=None,
+    a2: bool = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -37,7 +36,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1(CtA):
     class Meta:
         name = "e1"

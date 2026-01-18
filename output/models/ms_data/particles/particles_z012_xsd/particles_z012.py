@@ -1,20 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E2:
     class Meta:
         namespace = "http://xsdtesting"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
@@ -23,12 +23,12 @@ class MyType10Value(Enum):
     Y = "y"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct1:
     class Meta:
         name = "CT1"
 
-    att1: Optional[Union[bool, float, int, MyType10Value]] = field(
+    att1: None | bool | float | int | MyType10Value = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -37,38 +37,37 @@ class Ct1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         namespace = "http://xsdtesting"
 
-    value: Optional[Union[bool, float, int, MyType10Value]] = field(
-        default=None,
+    value: bool | float | int | MyType10Value = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct2(Ct1):
     class Meta:
         name = "CT2"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E3(Ct2):
     class Meta:
         namespace = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xsdtesting"
 
-    e2_or_e1_or_e3: list[Union[E2, E1, E3]] = field(
+    e2_or_e1_or_e3: list[E2 | E1 | E3] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

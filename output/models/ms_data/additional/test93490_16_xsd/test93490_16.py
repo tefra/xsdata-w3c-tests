@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"
 
@@ -10,7 +11,7 @@ class MapInfoTypeHideInactiveListBorder(Enum):
     FALSE = "false"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SchemaType:
     any_element: list[object] = field(
         default_factory=list,
@@ -20,25 +21,23 @@ class SchemaType:
             "process_contents": "skip",
         },
     )
-    id: Optional[str] = field(
-        default=None,
+    id: str = field(
         metadata={
             "name": "ID",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
             "required": True,
-        },
+        }
     )
-    namespace: Optional[str] = field(
-        default=None,
+    namespace: str = field(
         metadata={
             "name": "Namespace",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
             "required": True,
-        },
+        }
     )
-    schema_ref: Optional[str] = field(
+    schema_ref: None | str = field(
         default=None,
         metadata={
             "name": "SchemaRef",
@@ -53,7 +52,7 @@ class TruefalseType(Enum):
     FALSE = "false"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MapInfoType:
     schema: list[SchemaType] = field(
         default_factory=list,
@@ -72,7 +71,7 @@ class MapInfoType:
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
         },
     )
-    selection_namespaces: Optional[str] = field(
+    selection_namespaces: None | str = field(
         default=None,
         metadata={
             "name": "SelectionNamespaces",
@@ -90,7 +89,7 @@ class MapInfoType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MapInfo(MapInfoType):
     class Meta:
         namespace = "http://schemas.microsoft.com/office/excel/2003/xml"

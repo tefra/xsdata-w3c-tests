@@ -1,11 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
-    rule: list["Test.Rule"] = field(
+    rule: list[Test.Rule] = field(
         default_factory=list,
         metadata={
             "name": "Rule",
@@ -15,12 +16,11 @@ class Test:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Rule:
-        name: Optional[QName] = field(
-            default=None,
+        name: QName = field(
             metadata={
                 "type": "Attribute",
                 "required": True,
-            },
+            }
         )

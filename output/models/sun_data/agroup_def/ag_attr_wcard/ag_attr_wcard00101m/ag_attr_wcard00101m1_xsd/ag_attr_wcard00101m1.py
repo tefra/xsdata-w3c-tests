@@ -1,29 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "AttrGroup/attrWCard"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElementWithAttr:
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrGroup/attrWCard"
 
-    good: Optional[str] = field(
+    good: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    number: Optional[int] = field(
+    number: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    height: Optional[Decimal] = field(
+    height: None | Decimal = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -38,13 +39,13 @@ class ElementWithAttr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrGroup/attrWCard"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

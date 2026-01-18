@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: Union[int, bool, str] = field(default="")
-    idref_attr: Optional[str] = field(
+    value: int | bool | str = field(default="")
+    idref_attr: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -16,15 +17,14 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Wrapper:
     class Meta:
         name = "wrapper"
 
-    root: Optional[Root] = field(
-        default=None,
+    root: Root = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

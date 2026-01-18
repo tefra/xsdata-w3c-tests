@@ -1,21 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
-    total1: Optional[int] = field(
-        default=None,
+    total1: int = field(
         metadata={
             "name": "Total1",
             "type": "Element",
             "namespace": "",
             "required": True,
             "total_digits": 3,
-        },
+        }
     )
-    total2: Optional[int] = field(
-        default=None,
+    total2: int = field(
         metadata={
             "name": "Total2",
             "type": "Element",
@@ -23,5 +22,5 @@ class Root:
             "required": True,
             "min_exclusive": 100,
             "total_digits": 3,
-        },
+        }
     )

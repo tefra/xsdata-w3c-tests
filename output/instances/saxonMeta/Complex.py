@@ -3140,6 +3140,52 @@ obj = TestSet(
             ),
             name='complex026'
         ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Content model of base type depends on Derived type'
+                                ),
+                                AnyElement(
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Saxon bug 6671'
+                                ),
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/xmlschema-1'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../saxonData/Complex/complex027.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2025, 2, 17)
+                ),
+                name='complex027.xsd'
+            ),
+            name='complex027',
+            version=[
+                KnownToken.VALUE_1_1,
+            ]
+        ),
     ],
     contributor='Saxonica',
     name='Complex',

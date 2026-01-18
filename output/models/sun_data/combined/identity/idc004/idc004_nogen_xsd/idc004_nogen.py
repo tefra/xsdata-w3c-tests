@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.vehicle.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Person:
     class Meta:
         name = "person"
         namespace = "http://www.vehicle.org"
 
-    car: list["Person.Car"] = field(
+    car: list[Person.Car] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -18,16 +19,16 @@ class Person:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Car:
-        reg_state: Optional[str] = field(
+        reg_state: None | str = field(
             default=None,
             metadata={
                 "name": "regState",
                 "type": "Attribute",
             },
         )
-        reg_plate: Optional[int] = field(
+        reg_plate: None | int = field(
             default=None,
             metadata={
                 "name": "regPlate",
@@ -36,20 +37,20 @@ class Person:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Vehicle:
     class Meta:
         name = "vehicle"
         namespace = "http://www.vehicle.org"
 
-    plate_number: Optional[int] = field(
+    plate_number: None | int = field(
         default=None,
         metadata={
             "name": "plateNumber",
             "type": "Attribute",
         },
     )
-    state: Optional[str] = field(
+    state: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -57,7 +58,7 @@ class Vehicle:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class State:
     class Meta:
         name = "state"
@@ -84,7 +85,7 @@ class State:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

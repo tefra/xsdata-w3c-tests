@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 
 class A1(Enum):
@@ -10,18 +11,17 @@ class A1(Enum):
     VALUE_4 = 4
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A2:
     class Meta:
         name = "A"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
-        },
+        }
     )
 
 
@@ -31,7 +31,7 @@ class B1(Enum):
     C123456789 = "c123456789"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B2:
     class Meta:
         name = "B"
@@ -68,41 +68,39 @@ class UnionAb(Enum):
     C123456789 = "c123456789"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item:
     class Meta:
         name = "item"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A3:
     class Meta:
         name = "a"
 
-    value: Optional[A1] = field(
-        default=None,
+    value: A1 = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B3:
     class Meta:
         name = "b"
 
-    value: Optional[B1] = field(
-        default=None,
+    value: B1 = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class La:
     class Meta:
         name = "la"
@@ -115,7 +113,7 @@ class La:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Lab:
     class Meta:
         name = "lab"
@@ -128,51 +126,48 @@ class Lab:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ra:
     class Meta:
         name = "ra"
 
-    value: Optional[RA1] = field(
-        default=None,
+    value: RA1 = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ua:
     class Meta:
         name = "ua"
 
-    value: Optional[UnionA] = field(
-        default=None,
+    value: UnionA = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uab:
     class Meta:
         name = "uab"
 
-    value: Optional[UnionAb] = field(
-        default=None,
+    value: UnionAb = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    choice: list[Union[Ra, Lab, La, Uab, Ua, B3, A3, B2, A2, Item]] = field(
+    choice: list[Ra | Lab | La | Uab | Ua | B3 | A3 | B2 | A2 | Item] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

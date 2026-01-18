@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element1:
     class Meta:
         name = "element1"
 
-    attribute1: Optional[str] = field(
+    attribute1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -16,7 +17,7 @@ class Element1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -25,6 +26,5 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         },
     )

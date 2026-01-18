@@ -8,9 +8,9 @@ obj = Doc(
         B(
             content=[
                 None,
-                'text',
             ]
         ),
+        'text',
         AnyElement(
             qname='a',
             text='',

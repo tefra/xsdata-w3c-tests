@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ArrayType:
     class Meta:
         name = "arrayType"
@@ -14,7 +15,7 @@ class ArrayType:
             "namespace": "",
         },
     )
-    length: Optional[int] = field(
+    length: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -22,7 +23,7 @@ class ArrayType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(ArrayType):
     class Meta:
         name = "root"

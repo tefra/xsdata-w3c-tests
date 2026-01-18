@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 from output.models.ms_data.particles.particles_jf011_xsd.particles_jf011_imp import (
     ImpElem1,
@@ -8,9 +10,9 @@ from output.models.ms_data.particles.particles_jf011_xsd.particles_jf011_imp imp
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,7 +21,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     any_element: Any = field(
         init=False,
@@ -28,28 +30,26 @@ class R(B):
             "type": "Ignore",
         },
     )
-    imp_elem1: Optional[ImpElem1] = field(
-        default=None,
+    imp_elem1: ImpElem1 = field(
         metadata={
             "name": "impElem1",
             "type": "Element",
             "namespace": "http://importedXSD",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

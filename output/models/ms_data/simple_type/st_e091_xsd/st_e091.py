@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: list[Union[bool, int, str]] = field(
+    value: list[bool | int | str] = field(
         init=False,
         default_factory=lambda: [
             1,

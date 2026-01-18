@@ -1,45 +1,44 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class D:
     class Meta:
         name = "d"
 
-    d: Optional[XmlDate] = field(
-        default=None,
+    d: XmlDate = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DatedEvent:
     class Meta:
         name = "datedEvent"
 
-    d: Optional[XmlDate] = field(
-        default=None,
+    d: XmlDate = field(
         metadata={
             "wrapper": "event",
             "type": "Element",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Temp(DatedEvent):
     class Meta:
         name = "temp"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

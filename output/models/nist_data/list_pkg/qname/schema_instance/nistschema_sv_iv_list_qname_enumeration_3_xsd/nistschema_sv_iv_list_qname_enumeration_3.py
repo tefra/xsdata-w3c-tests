@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
@@ -134,7 +135,7 @@ class NistschemaSvIvListQnameEnumeration3Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CompetenceCommerceSeriesOfC:
     class Meta:
         name = "_competence-commerce.series_of.c"
@@ -148,7 +149,7 @@ class CompetenceCommerceSeriesOfC:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
     class Meta:
         name = "_correctness_of-interoperability-browsers_of_networks_as_a"
@@ -162,7 +163,7 @@ class CorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FileFilterAReviewedThoseCreationWellFor:
     class Meta:
         name = "_file-filter-a_reviewed.those.creation_well-for"
@@ -176,7 +177,7 @@ class FileFilterAReviewedThoseCreationWellFor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ThemSemanticsProblemsVirtuallyWideTheToolsTesti:
     class Meta:
         name = "_them.semantics_problems.virtually.wide_the.tools_testi"
@@ -190,7 +191,7 @@ class ThemSemanticsProblemsVirtuallyWideTheToolsTesti:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ToInTheVirtuall:
     class Meta:
         name = "_to_in_the-virtuall"
@@ -204,7 +205,7 @@ class ToInTheVirtuall:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WillRepositoryEffectivelyObjectBuildWirelessMetrol:
     class Meta:
         name = "_will.repository_effectively-object-build-wireless-metrol"
@@ -218,7 +219,7 @@ class WillRepositoryEffectivelyObjectBuildWirelessMetrol:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AandPrototypesWebWorkContributeHasTh:
     class Meta:
         name = "aand-prototypes-web.work.contribute.has.th"
@@ -232,7 +233,7 @@ class AandPrototypesWebWorkContributeHasTh:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AtoBenefits:
     class Meta:
         name = "ato.benefits"
@@ -246,7 +247,7 @@ class AtoBenefits:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BbyTheTheseTestByAndH:
     class Meta:
         name = "bby.the_these_test.by-and-h"
@@ -260,7 +261,7 @@ class BbyTheTheseTestByAndH:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class HlandscapeOfIncludedIssuesVoice:
     class Meta:
         name = "hlandscape_of-included_issues-voice"
@@ -274,7 +275,7 @@ class HlandscapeOfIncludedIssuesVoice:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IaMakeOfProcessWouldInLaunchingOfTheObjectTransac:
     class Meta:
         name = "ia-make_of.process-would-in-launching-of-the_object.transac"
@@ -288,7 +289,7 @@ class IaMakeOfProcessWouldInLaunchingOfTheObjectTransac:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IforPartnersForIsAndUnbia:
     class Meta:
         name = "ifor-partners-for.is_and.unbia"
@@ -302,7 +303,7 @@ class IforPartnersForIsAndUnbia:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class J:
     class Meta:
         name = "j"
@@ -316,7 +317,7 @@ class J:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JbeRecommendingAbilityStandardizationToTheToUsedAnd:
     class Meta:
         name = "jbe_recommending-ability.standardization-to_the_to-used_and"
@@ -330,7 +331,7 @@ class JbeRecommendingAbilityStandardizationToTheToUsedAnd:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MfromInteract:
     class Meta:
         name = "mfrom.interact"
@@ -344,7 +345,7 @@ class MfromInteract:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Nan:
     class Meta:
         name = "nan"
@@ -358,7 +359,7 @@ class Nan:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class OvocabularyDifferent:
     class Meta:
         name = "ovocabulary.different_"
@@ -372,7 +373,7 @@ class OvocabularyDifferent:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class QdesignAndSoftwareAndAndTheWas:
     class Meta:
         name = "qdesign.and.software-and_and.the_was_"
@@ -386,7 +387,7 @@ class QdesignAndSoftwareAndAndTheWas:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RalsoToLibrariesPr:
     class Meta:
         name = "ralso_to.libraries-pr"
@@ -400,7 +401,7 @@ class RalsoToLibrariesPr:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RdependsA:
     class Meta:
         name = "rdepends_a"
@@ -414,7 +415,7 @@ class RdependsA:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TdesktopToRepositoryAsOfThatTheAreKnownProblemsOfG:
     class Meta:
         name = "tdesktop.to-repository_as-of_that-the-are.known.problems-of.g"
@@ -428,7 +429,7 @@ class TdesktopToRepositoryAsOfThatTheAreKnownProblemsOfG:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TparticularToolsEntireReviewTechnologiesToToToAlre:
     class Meta:
         name = "tparticular-tools.entire.review-technologies_to_to_to-alre"
@@ -442,7 +443,7 @@ class TparticularToolsEntireReviewTechnologiesToToToAlre:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WisN:
     class Meta:
         name = "wis.n"
@@ -456,7 +457,7 @@ class WisN:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XanWithBu:
     class Meta:
         name = "xan_with-bu"
@@ -470,7 +471,7 @@ class XanWithBu:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XandRetrieveStan:
     class Meta:
         name = "xand.retrieve-stan"
@@ -484,7 +485,7 @@ class XandRetrieveStan:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XwellChallenge:
     class Meta:
         name = "xwell-challenge"
@@ -498,7 +499,7 @@ class XwellChallenge:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class YspecificationsAsPervasiveWeb:
     class Meta:
         name = "yspecifications-as.pervasive-web-"
@@ -512,15 +513,14 @@ class YspecificationsAsPervasiveWeb:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListQnameEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvListQnameEnumeration3Type] = field(
-        default=None,
+    value: NistschemaSvIvListQnameEnumeration3Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

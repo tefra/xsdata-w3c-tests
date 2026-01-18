@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-whiteSpace-1-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicDateTimeWhiteSpace1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-dateTime-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-atomic-dateTime-whiteSpace-1-NS"
 
-    value: Optional[XmlDateTime] = field(
-        default=None,
+    value: XmlDateTime = field(
         metadata={
             "required": True,
             "white_space": "collapse",
-        },
+        }
     )

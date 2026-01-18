@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ctype:
     class Meta:
         name = "ctype"
 
-    val: Optional[str] = field(
+    val: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -23,12 +24,12 @@ class Ctype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ctype2(Ctype):
     class Meta:
         name = "ctype2"
 
-    val2: Optional[str] = field(
+    val2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -36,28 +37,27 @@ class Ctype2(Ctype):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Tabletype:
     class Meta:
         name = "tabletype"
 
-    c: Optional[Ctype] = field(
-        default=None,
+    c: Ctype = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T(Tabletype):
     class Meta:
         name = "t"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

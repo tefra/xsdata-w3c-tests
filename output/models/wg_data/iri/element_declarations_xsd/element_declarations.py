@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Iri3987:
     class Meta:
         name = "IRI-3987"
@@ -15,7 +17,7 @@ class Iri3987:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IriReference3987:
     class Meta:
         name = "IRI-reference-3987"
@@ -29,7 +31,7 @@ class IriReference3987:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uri3986:
     class Meta:
         name = "URI-3986"
@@ -43,7 +45,7 @@ class Uri3986:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UriReference3986:
     class Meta:
         name = "URI-reference-3986"
@@ -57,7 +59,7 @@ class UriReference3986:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AbsoluteIri3987:
     class Meta:
         name = "absolute-IRI-3987"
@@ -71,7 +73,7 @@ class AbsoluteIri3987:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AbsoluteUri3986:
     class Meta:
         name = "absolute-URI-3986"
@@ -85,7 +87,7 @@ class AbsoluteUri3986:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RelativeReference3986:
     class Meta:
         name = "relative-reference-3986"
@@ -99,7 +101,7 @@ class RelativeReference3986:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RelativeReference3987:
     class Meta:
         name = "relative-reference-3987"

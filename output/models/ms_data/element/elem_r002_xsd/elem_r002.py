@@ -1,29 +1,28 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "testNS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Usaddress:
     class Meta:
         name = "USAddress"
 
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    street: Optional[str] = field(
-        default=None,
+    street: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
     country: str = field(
         default="US",
@@ -33,7 +32,7 @@ class Usaddress:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Comment:
     class Meta:
         name = "comment"
@@ -47,27 +46,25 @@ class Comment:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PurchaseOrderType:
-    ship_to: Optional[Usaddress] = field(
-        default=None,
+    ship_to: Usaddress = field(
         metadata={
             "name": "shipTo",
             "type": "Element",
             "namespace": "testNS",
             "required": True,
-        },
+        }
     )
-    bill_to: Optional[Usaddress] = field(
-        default=None,
+    bill_to: Usaddress = field(
         metadata={
             "name": "billTo",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    comment: Optional[Comment] = field(
+    comment: None | Comment = field(
         default=None,
         metadata={
             "type": "Element",
@@ -76,7 +73,7 @@ class PurchaseOrderType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PurchaseOrder(PurchaseOrderType):
     class Meta:
         name = "purchaseOrder"

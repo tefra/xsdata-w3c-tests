@@ -1,22 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct1:
     class Meta:
         name = "ct1"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct3:
     class Meta:
         name = "ct3"
 
-    elem: Optional[object] = field(
+    elem: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -30,27 +31,27 @@ class Ct4State(Enum):
     VALUE_2 = 2
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item:
     class Meta:
         name = "item"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A(Ct1):
     class Meta:
         name = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct2(Ct1):
     class Meta:
         name = "ct2"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct4:
     class Meta:
         name = "ct4"
@@ -61,48 +62,45 @@ class Ct4:
             "required": True,
         },
     )
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    type_value: Optional[int] = field(
-        default=None,
+    type_value: int = field(
         metadata={
             "name": "type",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    state: Optional[Ct4State] = field(
-        default=None,
+    state: Ct4State = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B(Ct2):
     class Meta:
         name = "b"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C(Ct4):
     class Meta:
         name = "c"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    choice: list[Union[C, B, A, Item]] = field(
+    choice: list[C | B | A | Item] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

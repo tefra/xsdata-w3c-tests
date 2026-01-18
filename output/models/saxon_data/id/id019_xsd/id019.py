@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Para:
     class Meta:
         name = "para"
@@ -13,7 +14,7 @@ class Para:
             "required": True,
         },
     )
-    entity: Union[str, int] = field(
+    entity: str | int = field(
         default="entity1",
         metadata={
             "type": "Attribute",
@@ -21,7 +22,7 @@ class Para:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

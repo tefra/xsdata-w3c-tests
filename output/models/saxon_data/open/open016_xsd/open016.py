@@ -1,27 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[XmlDate] = field(
-        default=None,
+    value: XmlDate = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    evidence: Optional[object] = field(
+    evidence: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    open_com_element: Optional[object] = field(
+    open_com_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -16,7 +17,7 @@ class Bar:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
@@ -42,21 +43,21 @@ class Foo:
             "namespace": "b",
         },
     )
-    target_namespace_element: Optional[object] = field(
+    target_namespace_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
         },
     )
-    local_element: Optional[object] = field(
+    local_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
         },
     )
-    other_element: Optional[object] = field(
+    other_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

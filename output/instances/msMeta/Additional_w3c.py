@@ -7278,9 +7278,16 @@ obj = TestSet(
                         ),
                     ],
                     current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16)
+                        status=Status.QUERIED,
+                        date=XmlDate(2025, 12, 1),
+                        bugzilla='https://github.com/w3c/xsdtests/issues/10'
                     ),
+                    prior=[
+                        Prior(
+                            status=Status.ACCEPTED,
+                            date=XmlDate(2006, 7, 16)
+                        ),
+                    ],
                     name='addB161.i'
                 ),
             ],
@@ -7393,9 +7400,16 @@ obj = TestSet(
                         ),
                     ],
                     current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16)
+                        status=Status.QUERIED,
+                        date=XmlDate(2025, 12, 1),
+                        bugzilla='https://github.com/w3c/xsdtests/issues/10'
                     ),
+                    prior=[
+                        Prior(
+                            status=Status.ACCEPTED,
+                            date=XmlDate(2006, 7, 16)
+                        ),
+                    ],
                     name='addB164.i'
                 ),
             ],
@@ -8327,9 +8341,16 @@ obj = TestSet(
                     ),
                 ],
                 current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
+                    status=Status.QUERIED,
+                    date=XmlDate(2025, 12, 1),
+                    bugzilla='https://github.com/w3c/xsdtests/issues/11'
                 ),
+                prior=[
+                    Prior(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2006, 7, 16)
+                    ),
+                ],
                 name='addB187'
             ),
             instance_test=[
@@ -8343,9 +8364,16 @@ obj = TestSet(
                         ),
                     ],
                     current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16)
+                        status=Status.QUERIED,
+                        date=XmlDate(2025, 12, 1),
+                        bugzilla='https://github.com/w3c/xsdtests/issues/11'
                     ),
+                    prior=[
+                        Prior(
+                            status=Status.ACCEPTED,
+                            date=XmlDate(2006, 7, 16)
+                        ),
+                    ],
                     name='addB187.v'
                 ),
             ],
@@ -8380,9 +8408,16 @@ obj = TestSet(
                     ),
                 ],
                 current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
+                    status=Status.QUERIED,
+                    date=XmlDate(2025, 12, 1),
+                    bugzilla='https://github.com/w3c/xsdtests/issues/11'
                 ),
+                prior=[
+                    Prior(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2006, 7, 16)
+                    ),
+                ],
                 name='addB188'
             ),
             instance_test=[
@@ -8396,9 +8431,16 @@ obj = TestSet(
                         ),
                     ],
                     current=Current(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16)
+                        status=Status.QUERIED,
+                        date=XmlDate(2025, 12, 1),
+                        bugzilla='https://github.com/w3c/xsdtests/issues/11'
                     ),
+                    prior=[
+                        Prior(
+                            status=Status.ACCEPTED,
+                            date=XmlDate(2006, 7, 16)
+                        ),
+                    ],
                     name='addB188.i'
                 ),
             ],

@@ -1,22 +1,22 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    test: Optional["Doc.Test"] = field(
-        default=None,
+    test: Doc.Test = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Test:
         att_fix: int = field(
             init=False,
@@ -26,7 +26,7 @@ class Doc:
                 "type": "Attribute",
             },
         )
-        foo: Optional[object] = field(
+        foo: None | object = field(
             default=None,
             metadata={
                 "type": "Attribute",

@@ -1,5 +1,6 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 from output.models.ms_data.simple_type.test298668_a_xsd.test298668_b import (
     TPredefinedLnclassEnum,
@@ -8,13 +9,13 @@ from output.models.ms_data.simple_type.test298668_a_xsd.test298668_b import (
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "a"
 
-    value: Union[str, TPredefinedLnclassEnum] = field(
+    value: str | TPredefinedLnclassEnum = field(
         default="",
         metadata={
             "required": True,

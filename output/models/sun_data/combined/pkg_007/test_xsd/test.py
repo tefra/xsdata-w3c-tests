@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "urn:foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Emptywc:
     class Meta:
         name = "emptywc"
@@ -25,7 +27,7 @@ class Emptywc:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JustA:
     class Meta:
         name = "justA"

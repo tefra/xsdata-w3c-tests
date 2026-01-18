@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v03"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     """
     :ivar ely_mdunion_a:
@@ -19,7 +20,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_27_v03"
 
-    ely_mdunion_a: list[Union[XmlDuration, str]] = field(
+    ely_mdunion_a: list[XmlDuration | str] = field(
         default_factory=list,
         metadata={
             "name": "elyMDUnionA",
@@ -28,7 +29,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    ely_mdunion_b: list[Union[XmlDuration, int]] = field(
+    ely_mdunion_b: list[XmlDuration | int] = field(
         default_factory=list,
         metadata={
             "name": "elyMDUnionB",
@@ -37,7 +38,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    ely_mdunion_c: list[Union[XmlDuration, str, int]] = field(
+    ely_mdunion_c: list[XmlDuration | str | int] = field(
         default_factory=list,
         metadata={
             "name": "elyMDUnionC",

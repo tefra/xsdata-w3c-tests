@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_6"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C:
     class Meta:
         name = "c"
@@ -28,7 +30,7 @@ class C:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(C):
     class Meta:
         name = "root"

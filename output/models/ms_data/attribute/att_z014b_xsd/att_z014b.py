@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    att1: Optional[str] = field(
+    att1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Optional[str] = field(
+    att2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -28,7 +29,7 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"

@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -20,33 +21,31 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Type1:
     class Meta:
         name = "type1"
 
-    local: Optional[bool] = field(
-        default=None,
+    local: bool = field(
         metadata={
             "name": "Local",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Type2:
     class Meta:
         name = "type2"
 
-    local: Optional[Decimal] = field(
-        default=None,
+    local: Decimal = field(
         metadata={
             "name": "Local",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

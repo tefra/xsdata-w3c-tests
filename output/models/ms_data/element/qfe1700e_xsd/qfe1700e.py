@@ -1,30 +1,29 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         name = "e1"
         nillable = True
 
-    value: Optional[int] = field(
-        default=None,
+    value: None | int = field(
         metadata={
             "nillable": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    e1: Optional[E1] = field(
-        default=None,
+    e1: None | E1 = field(
         metadata={
             "type": "Element",
             "nillable": True,
-        },
+        }
     )

@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ttype:
     class Meta:
         name = "ttype"
 
-    value: Optional[bool] = field(
-        default=None,
+    value: bool = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    row: Optional[str] = field(
+    row: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -24,18 +24,17 @@ class Ttype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Utype:
     class Meta:
         name = "utype"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    row: Optional[str] = field(
+    row: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -44,7 +43,7 @@ class Utype:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T(Ttype):
     class Meta:
         name = "t"
@@ -52,7 +51,7 @@ class T(Ttype):
         namespace = "myNS.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class U(Utype):
     class Meta:
         name = "u"
@@ -60,13 +59,13 @@ class U(Utype):
         namespace = "myNS.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t_or_u: list[Union[T, U]] = field(
+    t_or_u: list[T | U] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

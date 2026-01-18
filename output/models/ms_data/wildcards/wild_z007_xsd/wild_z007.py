@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.w3.org/1999/XSL/Transform"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Stylesheet:
     class Meta:
         name = "stylesheet"
         namespace = "http://www.w3.org/1999/XSL/Transform"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

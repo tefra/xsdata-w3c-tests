@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    sub: list["Root.Sub"] = field(
+    sub: list[Root.Sub] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -15,26 +16,24 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Sub:
-        idelt: Optional["Root.Sub.Idelt"] = field(
-            default=None,
+        idelt: Root.Sub.Idelt = field(
             metadata={
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            },
+            }
         )
 
-        @dataclass
+        @dataclass(kw_only=True)
         class Idelt:
-            value: Optional[int] = field(
-                default=None,
+            value: int = field(
                 metadata={
                     "required": True,
-                },
+                }
             )
-            attr: Optional[object] = field(
+            attr: None | object = field(
                 default=None,
                 metadata={
                     "type": "Attribute",

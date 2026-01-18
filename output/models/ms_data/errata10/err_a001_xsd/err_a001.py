@@ -1,33 +1,33 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://www.tempuri.org"
 
     choice: list[
-        Union[
-            "Root.TestByte",
-            "Root.TestUnsignedByte",
-            "Root.TestInteger",
-            "Root.TestPositiveInteger",
-            "Root.TestNegativeInteger",
-            "Root.TestNonNegativeInteger",
-            "Root.TestNonPositiveInteger",
-            "Root.TestInt",
-            "Root.TestUnsignedInt",
-            "Root.TestLong",
-            "Root.TestUnsignedLong",
-            "Root.TestShort",
-            "Root.TestUnsignedShort",
-            Decimal,
-        ]
+        Root.TestByte
+        | Root.TestUnsignedByte
+        | Root.TestInteger
+        | Root.TestPositiveInteger
+        | Root.TestNegativeInteger
+        | Root.TestNonNegativeInteger
+        | Root.TestNonPositiveInteger
+        | Root.TestInt
+        | Root.TestUnsignedInt
+        | Root.TestLong
+        | Root.TestUnsignedLong
+        | Root.TestShort
+        | Root.TestUnsignedShort
+        | Decimal
     ] = field(
         default_factory=list,
         metadata={
@@ -108,132 +108,119 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestByte:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestUnsignedByte:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestInteger:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestPositiveInteger:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestNegativeInteger:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestNonNegativeInteger:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestNonPositiveInteger:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestInt:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestUnsignedInt:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestLong:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestUnsignedLong:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestShort:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class TestUnsignedShort:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
                 "fraction_digits": 0,
-            },
+            }
         )

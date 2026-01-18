@@ -1,35 +1,37 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 __NAMESPACE__ = "abc"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AType:
     class Meta:
         name = "aType"
 
-    t: Optional[str] = field(
+    t: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "abc",
         },
     )
-    f: Optional[str] = field(
+    f: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "abc",
         },
     )
-    switch: Optional[str] = field(
+    switch: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    r: Optional[str] = field(
+    r: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -37,14 +39,14 @@ class AType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A(AType):
     class Meta:
         name = "a"
         namespace = "abc"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ATypeF(AType):
     class Meta:
         name = "aType_f"
@@ -56,13 +58,12 @@ class ATypeF(AType):
             "type": "Ignore",
         },
     )
-    f: Optional[str] = field(
-        default=None,
+    f: str = field(
         metadata={
             "type": "Element",
             "namespace": "abc",
             "required": True,
-        },
+        }
     )
     r: Any = field(
         init=False,
@@ -73,7 +74,7 @@ class ATypeF(AType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ATypeT(AType):
     class Meta:
         name = "aType_t"
@@ -85,26 +86,24 @@ class ATypeT(AType):
             "type": "Ignore",
         },
     )
-    t: Optional[str] = field(
-        default=None,
+    t: str = field(
         metadata={
             "type": "Element",
             "namespace": "abc",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Top:
     class Meta:
         name = "top"
         namespace = "abc"
 
-    a: Optional[A] = field(
-        default=None,
+    a: A = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

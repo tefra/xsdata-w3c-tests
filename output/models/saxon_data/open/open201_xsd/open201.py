@@ -1,23 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AType:
     class Meta:
         name = "aType"
 
-    extra_number: Optional[Decimal] = field(
+    extra_number: None | Decimal = field(
         default=None,
         metadata={
             "name": "extra-number",
             "type": "Attribute",
         },
     )
-    extra_date: Optional[XmlDate] = field(
+    extra_date: None | XmlDate = field(
         default=None,
         metadata={
             "name": "extra-date",
@@ -26,41 +27,40 @@ class AType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    extra_number: Optional[Decimal] = field(
+    extra_number: None | Decimal = field(
         default=None,
         metadata={
             "name": "extra-number",
             "type": "Attribute",
         },
     )
-    extra_date: Optional[XmlDate] = field(
+    extra_date: None | XmlDate = field(
         default=None,
         metadata={
             "name": "extra-date",
             "type": "Attribute",
         },
     )
-    a: Optional[AType] = field(
-        default=None,
+    a: AType = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[object] = field(
+    c: None | object = field(
         default=None,
         metadata={
             "type": "Element",

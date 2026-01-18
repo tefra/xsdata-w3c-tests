@@ -1,80 +1,78 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Facet:
     class Meta:
         name = "facet"
         namespace = "foo"
 
-    annotation: Optional[object] = field(
+    annotation: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    value: Optional[object] = field(
-        default=None,
+    value: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LongType(Facet):
     class Meta:
         name = "longType"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class YesNo(Facet):
     class Meta:
         name = "yesNo"
         namespace = "foo"
 
-    value: Optional[bool] = field(
-        default=None,
+    value: bool = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Int(LongType):
     class Meta:
         name = "int"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Long(LongType):
     class Meta:
         name = "long"
         namespace = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Generic:
     class Meta:
         name = "generic"
         namespace = "foo"
 
-    choice: list[Union[Int, Long, YesNo, Facet]] = field(
+    choice: list[Int | Long | YesNo | Facet] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -100,28 +98,28 @@ class Generic:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "foo"
 
-    generic: Optional[Generic] = field(
+    generic: None | Generic = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    restricted: Optional["Root.Restricted"] = field(
+    restricted: None | Root.Restricted = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Restricted:
-        int_or_long: list[Union[Int, Long]] = field(
+        int_or_long: list[Int | Long] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",

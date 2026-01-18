@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -15,9 +16,9 @@ class A:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -26,7 +27,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     """
     documentation documentation bar.
@@ -35,7 +36,7 @@ class Base:
     class Meta:
         name = "base"
 
-    e1_or_e2: Optional[Union[A, object]] = field(
+    e1_or_e2: None | A | object = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -55,7 +56,7 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Base):
     class Meta:
         name = "doc"

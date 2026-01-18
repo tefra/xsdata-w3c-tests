@@ -1,96 +1,91 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate, XmlPeriod
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestDate:
     class Meta:
         name = "testDate"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlDate] = field(
-        default=None,
+    value: XmlDate = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestGday:
     class Meta:
         name = "testGDay"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestGmonth:
     class Meta:
         name = "testGMonth"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestGmonthDay:
     class Meta:
         name = "testGMonthDay"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestGyear:
     class Meta:
         name = "testGYear"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestGyearMonth:
     class Meta:
         name = "testGYearMonth"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[XmlPeriod] = field(
-        default=None,
+    value: XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

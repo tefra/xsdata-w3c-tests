@@ -1,205 +1,206 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "AttrDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrDecl/name"
 
-    str00_a: Optional[str] = field(
+    str00_a: None | str = field(
         default=None,
         metadata={
             "name": "str00Aవ",
             "type": "Attribute",
         },
     )
-    str10: Optional[str] = field(
+    str10: None | str = field(
         default=None,
         metadata={
             "name": "str10-ష",
             "type": "Attribute",
         },
     )
-    str20: Optional[str] = field(
+    str20: None | str = field(
         default=None,
         metadata={
             "name": "str20హ",
             "type": "Attribute",
         },
     )
-    str01_a: Optional[str] = field(
+    str01_a: None | str = field(
         default=None,
         metadata={
             "name": "str01Aౠ",
             "type": "Attribute",
         },
     )
-    str11: Optional[str] = field(
+    str11: None | str = field(
         default=None,
         metadata={
             "name": "str11-ౠ",
             "type": "Attribute",
         },
     )
-    str21: Optional[str] = field(
+    str21: None | str = field(
         default=None,
         metadata={
             "name": "str21ౡ",
             "type": "Attribute",
         },
     )
-    str02_a: Optional[str] = field(
+    str02_a: None | str = field(
         default=None,
         metadata={
             "name": "str02Aಅ",
             "type": "Attribute",
         },
     )
-    str12: Optional[str] = field(
+    str12: None | str = field(
         default=None,
         metadata={
             "name": "str12-ಈ",
             "type": "Attribute",
         },
     )
-    str22: Optional[str] = field(
+    str22: None | str = field(
         default=None,
         metadata={
             "name": "str22ಌ",
             "type": "Attribute",
         },
     )
-    str03_a: Optional[str] = field(
+    str03_a: None | str = field(
         default=None,
         metadata={
             "name": "str03Aಎ",
             "type": "Attribute",
         },
     )
-    str13: Optional[str] = field(
+    str13: None | str = field(
         default=None,
         metadata={
             "name": "str13-ಏ",
             "type": "Attribute",
         },
     )
-    str23: Optional[str] = field(
+    str23: None | str = field(
         default=None,
         metadata={
             "name": "str23ಐ",
             "type": "Attribute",
         },
     )
-    str04_a: Optional[str] = field(
+    str04_a: None | str = field(
         default=None,
         metadata={
             "name": "str04Aಒ",
             "type": "Attribute",
         },
     )
-    str14: Optional[str] = field(
+    str14: None | str = field(
         default=None,
         metadata={
             "name": "str14-ಝ",
             "type": "Attribute",
         },
     )
-    str24: Optional[str] = field(
+    str24: None | str = field(
         default=None,
         metadata={
             "name": "str24ನ",
             "type": "Attribute",
         },
     )
-    str05_a: Optional[str] = field(
+    str05_a: None | str = field(
         default=None,
         metadata={
             "name": "str05Aಪ",
             "type": "Attribute",
         },
     )
-    str15: Optional[str] = field(
+    str15: None | str = field(
         default=None,
         metadata={
             "name": "str15-ಮ",
             "type": "Attribute",
         },
     )
-    str25: Optional[str] = field(
+    str25: None | str = field(
         default=None,
         metadata={
             "name": "str25ಳ",
             "type": "Attribute",
         },
     )
-    str06_a: Optional[str] = field(
+    str06_a: None | str = field(
         default=None,
         metadata={
             "name": "str06Aವ",
             "type": "Attribute",
         },
     )
-    str16: Optional[str] = field(
+    str16: None | str = field(
         default=None,
         metadata={
             "name": "str16-ಷ",
             "type": "Attribute",
         },
     )
-    str26: Optional[str] = field(
+    str26: None | str = field(
         default=None,
         metadata={
             "name": "str26ಹ",
             "type": "Attribute",
         },
     )
-    str07_a: Optional[str] = field(
+    str07_a: None | str = field(
         default=None,
         metadata={
             "name": "str07Aೞ",
             "type": "Attribute",
         },
     )
-    str08_a: Optional[str] = field(
+    str08_a: None | str = field(
         default=None,
         metadata={
             "name": "str08Aೠ",
             "type": "Attribute",
         },
     )
-    str18: Optional[str] = field(
+    str18: None | str = field(
         default=None,
         metadata={
             "name": "str18-ೠ",
             "type": "Attribute",
         },
     )
-    str28: Optional[str] = field(
+    str28: None | str = field(
         default=None,
         metadata={
             "name": "str28ೡ",
             "type": "Attribute",
         },
     )
-    str09_a: Optional[str] = field(
+    str09_a: None | str = field(
         default=None,
         metadata={
             "name": "str09Aഅ",
             "type": "Attribute",
         },
     )
-    str19: Optional[str] = field(
+    str19: None | str = field(
         default=None,
         metadata={
             "name": "str19-ഈ",
             "type": "Attribute",
         },
     )
-    str29: Optional[str] = field(
+    str29: None | str = field(
         default=None,
         metadata={
             "name": "str29ഌ",

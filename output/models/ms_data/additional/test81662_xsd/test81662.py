@@ -1,20 +1,22 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct1:
     class Meta:
         name = "ct1"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
         },
     )
-    element1: Optional[object] = field(
+    element1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -22,18 +24,18 @@ class Ct1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct2:
     class Meta:
         name = "ct2"
 
-    element1: Optional[object] = field(
+    element1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -42,12 +44,12 @@ class Ct2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct3:
     class Meta:
         name = "ct3"
 
-    element1_or_any_element: list[Union["Ct3.Element1", object]] = field(
+    element1_or_any_element: list[Ct3.Element1 | object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -68,23 +70,22 @@ class Ct3:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Element1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct4:
     class Meta:
         name = "ct4"
 
-    any_element_or_element1: list[Union["Ct4.Element1", object]] = field(
+    any_element_or_element1: list[Ct4.Element1 | object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -100,27 +101,27 @@ class Ct4:
                     "max_occurs": 2,
                 },
             ),
+            "min_occurs": 1,
             "max_occurs": 3,
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Element1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct5:
     class Meta:
         name = "ct5"
 
-    element1: Optional[object] = field(
+    element1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -136,12 +137,12 @@ class Ct5:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct6:
     class Meta:
         name = "ct6"
 
-    element1: Optional[object] = field(
+    element1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -157,12 +158,12 @@ class Ct6:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element1:
     class Meta:
         name = "element1"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -171,12 +172,12 @@ class Element1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element2:
     class Meta:
         name = "element2"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -185,12 +186,12 @@ class Element2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element3:
     class Meta:
         name = "element3"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -199,7 +200,7 @@ class Element3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
     class Meta:
         name = "test"

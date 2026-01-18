@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass
 
 from output.models.ms_data.particles.particles_ic006_xsd.particles_ic006_imp import (
@@ -5,13 +7,13 @@ from output.models.ms_data.particles.particles_ic006_xsd.particles_ic006_imp imp
 )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Testing(Base):
     class Meta:
         name = "testing"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Testing):
     class Meta:
         name = "doc"

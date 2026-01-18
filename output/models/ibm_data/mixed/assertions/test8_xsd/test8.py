@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ShoeType:
     class Meta:
         name = "shoeType"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    country: Optional[str] = field(
+    country: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -21,7 +21,7 @@ class ShoeType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Shoesize(ShoeType):
     class Meta:
         name = "shoesize"

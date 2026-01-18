@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class St(Enum):
@@ -9,18 +10,17 @@ class St(Enum):
     ANY_URI_C = "anyURI:c"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct:
     class Meta:
         name = "ct"
 
-    value: Optional[St] = field(
-        default=None,
+    value: St = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    att: Optional[St] = field(
+    att: None | St = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -28,13 +28,13 @@ class Ct:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar(Ct):
     class Meta:
         name = "bar"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

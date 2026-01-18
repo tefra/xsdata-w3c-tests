@@ -1,21 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    element: Optional[bool] = field(
-        default=None,
+    element: bool = field(
         metadata={
             "name": "Element",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

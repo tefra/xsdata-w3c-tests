@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
@@ -133,7 +134,7 @@ class NistschemaSvIvListQnameEnumeration1Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FromAnRe:
     class Meta:
         name = "_from-an.re"
@@ -147,7 +148,7 @@ class FromAnRe:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class IsAllowFourAsToImp:
     class Meta:
         name = "_is-allow.four-as_to-imp"
@@ -161,7 +162,7 @@ class IsAllowFourAsToImp:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class UsedF:
     class Meta:
         name = "_used.f"
@@ -175,7 +176,7 @@ class UsedF:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AapproachInformationForMetrologyJointFileTheseI:
     class Meta:
         name = "aapproach_information_for-metrology-joint.file-these_i"
@@ -189,7 +190,7 @@ class AapproachInformationForMetrologyJointFileTheseI:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AasTheInformationRetrievalOnlyImplementationTech:
     class Meta:
         name = "aas.the.information.retrieval_only-implementation-tech"
@@ -203,7 +204,7 @@ class AasTheInformationRetrievalOnlyImplementationTech:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Asolutions:
     class Meta:
         name = "asolutions_"
@@ -217,7 +218,7 @@ class Asolutions:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BandAndYears20AndAndHavi:
     class Meta:
         name = "band-and-years-20_and.and.havi"
@@ -231,7 +232,7 @@ class BandAndYears20AndAndHavi:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DtheOfMethodsA:
     class Meta:
         name = "dthe.of_methods.a"
@@ -245,7 +246,7 @@ class DtheOfMethodsA:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DwillIfOfToTheUsedWithLookingT:
     class Meta:
         name = "dwill.if_of.to.the-used.with.looking_t"
@@ -259,7 +260,7 @@ class DwillIfOfToTheUsedWithLookingT:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EbothManual:
     class Meta:
         name = "eboth.manual"
@@ -273,7 +274,7 @@ class EbothManual:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EcanInteroperabilit:
     class Meta:
         name = "ecan_interoperabilit"
@@ -287,7 +288,7 @@ class EcanInteroperabilit:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EprocessTheNewcomer:
     class Meta:
         name = "eprocess_the-newcomer"
@@ -301,7 +302,7 @@ class EprocessTheNewcomer:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class GconstituentHasHasAutomatingSoftwareTechnologiesWillAn:
     class Meta:
         name = "gconstituent.has_has.automating.software-technologies-will-an"
@@ -315,7 +316,7 @@ class GconstituentHasHasAutomatingSoftwareTechnologiesWillAn:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ItoTheseBeenUtilitiesModelsDataBottlenecksToInfor:
     class Meta:
         name = "ito.these-been.utilities.models-data-bottlenecks_to_infor"
@@ -329,7 +330,7 @@ class ItoTheseBeenUtilitiesModelsDataBottlenecksToInfor:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class JinternationalInformationT:
     class Meta:
         name = "jinternational.information-t"
@@ -343,7 +344,7 @@ class JinternationalInformationT:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LenforcementServicesLackin:
     class Meta:
         name = "lenforcement_services-lackin"
@@ -357,7 +358,7 @@ class LenforcementServicesLackin:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MissuesEIndustryFromDef:
     class Meta:
         name = "missues_e_industry-from_def"
@@ -371,7 +372,7 @@ class MissuesEIndustryFromDef:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Q:
     class Meta:
         name = "q"
@@ -385,7 +386,7 @@ class Q:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ScommerceThroughDefineManipulationGroupsOfD:
     class Meta:
         name = "scommerce_through.define.manipulation.groups.of.d"
@@ -399,7 +400,7 @@ class ScommerceThroughDefineManipulationGroupsOfD:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Uregi:
     class Meta:
         name = "uregi"
@@ -413,7 +414,7 @@ class Uregi:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class VbusinessAndForCreationAndInformationAi:
     class Meta:
         name = "vbusiness.and_for.creation_and_information-ai"
@@ -427,7 +428,7 @@ class VbusinessAndForCreationAndInformationAi:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class WvirtuallyDevicesContributeForPartnershipsEnsureEnsu:
     class Meta:
         name = "wvirtually_devices-contribute_for_partnerships-ensure.ensu"
@@ -441,7 +442,7 @@ class WvirtuallyDevicesContributeForPartnershipsEnsureEnsu:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xconformance:
     class Meta:
         name = "xconformance"
@@ -455,7 +456,7 @@ class Xconformance:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XregistryToComputerTheSubjectBackAndThese:
     class Meta:
         name = "xregistry-to.computer.the_subject-back_and-these_"
@@ -469,7 +470,7 @@ class XregistryToComputerTheSubjectBackAndThese:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XwhichIsDocum:
     class Meta:
         name = "xwhich-is-docum"
@@ -483,15 +484,14 @@ class XwhichIsDocum:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListQnameEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvListQnameEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvListQnameEnumeration1Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

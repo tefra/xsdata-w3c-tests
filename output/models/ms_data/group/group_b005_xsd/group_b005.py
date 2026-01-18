@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexType:
     class Meta:
         name = "complexType"
 
-    r1_or_r2: list[Union["ComplexType.R1", "ComplexType.R2"]] = field(
+    r1_or_r2: list[ComplexType.R1 | ComplexType.R2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -29,44 +31,41 @@ class ComplexType:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class R1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class R2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(ComplexType):
     class Meta:
         name = "elem"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

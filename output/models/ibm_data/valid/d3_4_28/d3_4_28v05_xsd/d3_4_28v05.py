@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v05"
 
@@ -15,25 +16,25 @@ class ElEnumerationBValue(Enum):
     VALUE_2006_02_02_T01_00_00_123_09_00 = "2006-02-02T01:00:00.123-09:00"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElEnumerationA:
     class Meta:
         name = "elEnumerationA"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    value: Optional[ElEnumerationAValue] = field(default=None)
+    value: ElEnumerationAValue = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ElEnumerationB:
     class Meta:
         name = "elEnumerationB"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    value: Optional[ElEnumerationBValue] = field(default=None)
+    value: ElEnumerationBValue = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

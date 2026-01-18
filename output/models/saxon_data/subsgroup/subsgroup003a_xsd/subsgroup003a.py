@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.myexample.com/command"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ActionType:
-    result: Optional[str] = field(
+    result: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -14,13 +15,13 @@ class ActionType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Command:
     class Meta:
         namespace = "http://www.myexample.com/command"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Action(ActionType):
     class Meta:
         namespace = "http://www.myexample.com/command"

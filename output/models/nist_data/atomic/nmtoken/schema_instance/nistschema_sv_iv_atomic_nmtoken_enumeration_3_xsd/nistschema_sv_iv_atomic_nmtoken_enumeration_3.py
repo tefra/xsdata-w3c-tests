@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-3-NS"
 
@@ -32,15 +33,14 @@ class NistschemaSvIvAtomicNmtokenEnumeration3Type(Enum):
     CRITERIA_MUST_TAR = "criteria:-must-tar"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicNmtokenEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvAtomicNmtokenEnumeration3Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicNmtokenEnumeration3Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

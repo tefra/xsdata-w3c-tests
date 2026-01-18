@@ -1,28 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class InlineType:
     class Meta:
         name = "inline.type"
 
-    role: Optional[object] = field(
+    role: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    base: Optional[str] = field(
+    base: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -71,13 +73,13 @@ class InlineType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xsdextra:
     class Meta:
         name = "xsdextra"
         namespace = "http://example.org/ns/document"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -86,74 +88,74 @@ class Xsdextra:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Abbrev(InlineType):
     class Meta:
         name = "abbrev"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Emphasis(InlineType):
     class Meta:
         name = "emphasis"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Phrase(InlineType):
     class Meta:
         name = "phrase"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Property(InlineType):
     class Meta:
         name = "property"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Subscript(InlineType):
     class Meta:
         name = "subscript"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Superscript(InlineType):
     class Meta:
         name = "superscript"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Title(InlineType):
     class Meta:
         name = "title"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ParaType:
     class Meta:
         name = "para.type"
 
-    role: Optional[object] = field(
+    role: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    base: Optional[str] = field(
+    base: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -207,46 +209,45 @@ class ParaType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class P(ParaType):
     class Meta:
         name = "p"
         namespace = "http://example.org/ns/document"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Blockquote:
     class Meta:
         name = "blockquote"
         namespace = "http://example.org/ns/document"
 
-    title: Optional[Title] = field(
+    title: None | Title = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    p: Optional[P] = field(
-        default=None,
+    p: P = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    role: Optional[object] = field(
+    role: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    base: Optional[str] = field(
+    base: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -255,26 +256,25 @@ class Blockquote:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://example.org/ns/document"
 
-    title: Optional[Title] = field(
-        default=None,
+    title: Title = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    xsdextra: Optional[Xsdextra] = field(
+    xsdextra: None | Xsdextra = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    p_or_blockquote: list[Union[P, Blockquote]] = field(
+    p_or_blockquote: list[P | Blockquote] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -290,20 +290,20 @@ class Doc:
             ),
         },
     )
-    role: Optional[object] = field(
+    role: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
         },
     )
-    base: Optional[str] = field(
+    base: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

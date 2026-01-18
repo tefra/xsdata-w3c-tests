@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
 
-    meeting: list["Root.Meeting"] = field(
+    meeting: list[Root.Meeting] = field(
         default_factory=list,
         metadata={
             "name": "Meeting",
@@ -20,17 +21,16 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Meeting:
-        beverage: Optional[Union[str, int]] = field(
-            default=None,
+        beverage: str | int = field(
             metadata={
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            },
+            }
         )
-        end_time: Optional[int] = field(
+        end_time: None | int = field(
             default=None,
             metadata={
                 "name": "end-time",

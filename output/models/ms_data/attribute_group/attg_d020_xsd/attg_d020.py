@@ -1,23 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    att1: Optional[str] = field(
+    att1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         },
     )
-    abc: Optional[object] = field(
+    abc: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",

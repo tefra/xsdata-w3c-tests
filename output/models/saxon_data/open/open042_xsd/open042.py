@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.saxon_data.open.open042_xsd.open042x import Alpha
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Beta:
     class Meta:
         name = "beta"
 
-    other_element: Optional[object] = field(
+    other_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,7 +19,7 @@ class Beta:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

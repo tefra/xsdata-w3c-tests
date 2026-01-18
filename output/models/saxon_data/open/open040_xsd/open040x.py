@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Beta:
     class Meta:
         name = "beta"

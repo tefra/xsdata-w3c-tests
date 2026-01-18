@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from xsdata.models.datatype import XmlTime
@@ -5,7 +7,7 @@ from xsdata.models.datatype import XmlTime
 __NAMESPACE__ = "NISTSchema-SV-IV-list-time-minLength-5-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListTimeMinLength5:
     class Meta:
         name = "NISTSchema-SV-IV-list-time-minLength-5"

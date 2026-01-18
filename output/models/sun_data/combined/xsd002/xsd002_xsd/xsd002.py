@@ -1,16 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://foo.com"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://foo.com"
 
-    foo_or_bar_or_zot: list[Union["Root.Foo", "Root.Bar", "Root.Zot"]] = field(
+    foo_or_bar_or_zot: list[Root.Foo | Root.Bar | Root.Zot] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -33,34 +35,31 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Foo:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Bar:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Zot:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )

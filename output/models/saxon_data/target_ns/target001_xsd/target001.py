@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    target001_com_element: Optional[object] = field(
+    target001_com_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -13,7 +15,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     target001_com_element: Any = field(
         init=False,
@@ -22,17 +24,16 @@ class R(B):
             "type": "Ignore",
         },
     )
-    child: Optional[int] = field(
-        default=None,
+    child: int = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.target001.com/",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Parent(R):
     class Meta:
         name = "parent"

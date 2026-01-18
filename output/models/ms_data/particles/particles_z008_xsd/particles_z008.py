@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "urn:my-namespace"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Head2:
     class Meta:
         namespace = "urn:my-namespace"
@@ -17,7 +18,7 @@ class Head2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Member2:
     class Meta:
         namespace = "urn:my-namespace"
@@ -30,9 +31,9 @@ class Member2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ContainHead2Type:
-    member2: Optional[Member2] = field(
+    member2: None | Member2 = field(
         default=None,
         metadata={
             "name": "Member2",
@@ -42,20 +43,19 @@ class ContainHead2Type:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ContainMember2Type(ContainHead2Type):
-    member2: Optional[Member2] = field(
-        default=None,
+    member2: Member2 = field(
         metadata={
             "name": "Member2",
             "type": "Element",
             "namespace": "urn:my-namespace",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(ContainMember2Type):
     class Meta:
         name = "root"

@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.ms_data.additional.isdefault078_xsd.xml import SpaceValue
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    space: Optional[SpaceValue] = field(
+    space: None | SpaceValue = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexType:
     class Meta:
         name = "complexType"
@@ -36,21 +37,20 @@ class ComplexType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(ComplexType):
     class Meta:
         name = "elem"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

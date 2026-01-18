@@ -1,20 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item:
     class Meta:
         name = "ITEM"
 
-    quantity: Optional[int] = field(
+    quantity: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    price: Optional[Decimal] = field(
+    price: None | Decimal = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -23,27 +24,26 @@ class Item:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LongItemDefn(Item):
     class Meta:
         name = "LONG_ITEM_DEFN"
 
-    description: Optional[str] = field(
-        default=None,
+    description: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ShortItemDefn(Item):
     class Meta:
         name = "SHORT_ITEM_DEFN"
 
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -51,12 +51,12 @@ class ShortItemDefn(Item):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Poitems:
     class Meta:
         name = "POITEMS"
 
-    item: list[Union[Item, ShortItemDefn, LongItemDefn]] = field(
+    item: list[Item | ShortItemDefn | LongItemDefn] = field(
         default_factory=list,
         metadata={
             "type": "Element",

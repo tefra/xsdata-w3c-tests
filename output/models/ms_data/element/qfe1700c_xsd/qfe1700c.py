@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E2:
     class Meta:
         name = "e2"
@@ -25,20 +26,19 @@ class E2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    e1: Optional[str] = field(
-        default=None,
+    e1: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -46,10 +46,9 @@ class Root:
             "process_contents": "skip",
         },
     )
-    e2: Optional[E2] = field(
-        default=None,
+    e2: None | E2 = field(
         metadata={
             "type": "Element",
             "nillable": True,
-        },
+        }
     )

@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     target003_com_attributes: dict[str, str] = field(
         default_factory=dict,
@@ -13,7 +15,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     target003_com_attributes: Any = field(
         init=False,
@@ -22,7 +24,7 @@ class R(B):
             "type": "Ignore",
         },
     )
-    att: Optional[int] = field(
+    att: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -31,7 +33,7 @@ class R(B):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Parent(R):
     class Meta:
         name = "parent"

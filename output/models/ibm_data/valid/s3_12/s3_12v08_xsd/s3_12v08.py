@@ -1,21 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional, Union
+from typing import Any
 
 __NAMESPACE__ = "tns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ChildType:
     class Meta:
         name = "childType"
 
-    type1: Optional[bool] = field(
+    type1: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    type2: Optional[bool] = field(
+    type2: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -31,7 +33,7 @@ class ChildType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DerivedType1(ChildType):
     class Meta:
         name = "derivedType1"
@@ -43,10 +45,10 @@ class DerivedType1(ChildType):
             "type": "Ignore",
         },
     )
-    value: Optional[bool] = field(default=None)
+    value: bool = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DerivedType2(ChildType):
     class Meta:
         name = "derivedType2"
@@ -58,16 +60,16 @@ class DerivedType2(ChildType):
             "type": "Ignore",
         },
     )
-    value: Optional[int] = field(default=None)
+    value: int = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "tns"
 
-    child: list[Union[ChildType, DerivedType1, DerivedType2]] = field(
+    child: list[ChildType | DerivedType1 | DerivedType2] = field(
         default_factory=list,
         metadata={
             "type": "Element",

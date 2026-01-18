@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BaseType:
     class Meta:
         name = "baseType"
@@ -15,7 +16,7 @@ class BaseType:
             "namespace": "",
         },
     )
-    attr: Optional[str] = field(
+    attr: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -23,13 +24,13 @@ class BaseType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DerivedType(BaseType):
     class Meta:
         name = "derivedType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(DerivedType):
     class Meta:
         name = "root"

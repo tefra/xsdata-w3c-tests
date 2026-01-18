@@ -1,27 +1,27 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CType:
     class Meta:
         name = "cType"
 
-    att_c: Optional[str] = field(
-        default=None,
+    att_c: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CsType:
     class Meta:
         name = "csType"
 
-    c: Optional[CType] = field(
+    c: None | CType = field(
         default=None,
         metadata={
             "type": "Element",
@@ -29,7 +29,7 @@ class CsType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BType:
     class Meta:
         name = "bType"
@@ -41,16 +41,15 @@ class BType:
             "max_occurs": 11,
         },
     )
-    att_b: Optional[str] = field(
-        default=None,
+    att_b: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BsType:
     class Meta:
         name = "bsType"
@@ -64,7 +63,7 @@ class BsType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AType:
     class Meta:
         name = "aType"
@@ -76,22 +75,21 @@ class AType:
             "max_occurs": 11,
         },
     )
-    cs: Optional[CsType] = field(
+    cs: None | CsType = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    att_a: Optional[str] = field(
-        default=None,
+    att_a: str = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RType:
     class Meta:
         name = "rType"
@@ -105,7 +103,7 @@ class RType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(RType):
     class Meta:
         name = "root"

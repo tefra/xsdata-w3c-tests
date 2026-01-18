@@ -1,22 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.schemaTest.org/schema11_S3_2_3"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Type1:
     class Meta:
         name = "type1"
 
-    attr1: Optional[int] = field(
+    attr1: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.schemaTest.org/schema11_S3_2_3",
         },
     )
-    attr2: Optional[int] = field(
+    attr2: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -24,16 +25,15 @@ class Type1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://www.schemaTest.org/schema11_S3_2_3"
 
-    element1: Optional[Type1] = field(
-        default=None,
+    element1: Type1 = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

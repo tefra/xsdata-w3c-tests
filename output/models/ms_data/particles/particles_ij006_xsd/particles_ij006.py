@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    f1_or_f2: list[Union["Foo.F1", "Foo.F2"]] = field(
+    f1_or_f2: list[Foo.F1 | Foo.F2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -30,38 +32,36 @@ class Foo:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class F1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class F2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar(Foo):
     class Meta:
         name = "bar"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    c1_or_c2: Optional[Union[Bar, object]] = field(
+    c1_or_c2: None | Bar | object = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -81,28 +81,27 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(R):
     class Meta:
         name = "elem"
         namespace = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[Elem] = field(
+    elem: None | Elem = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )

@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from typing import Any
 
 __NAMESPACE__ = "urn:foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
@@ -18,7 +20,7 @@ class Base:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Alias(Base):
     class Meta:
         name = "alias"
@@ -33,7 +35,7 @@ class Alias(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Extension(Base):
     class Meta:
         name = "extension"
@@ -48,7 +50,7 @@ class Extension(Base):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Restriction(Base):
     class Meta:
         name = "restriction"

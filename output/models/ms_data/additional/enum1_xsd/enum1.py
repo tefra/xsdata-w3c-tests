@@ -1,25 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class EnumType(Enum):
     VALUE = "Ѐvalue"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    foo: Optional[EnumType] = field(
+    foo: None | EnumType = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    att: Optional[EnumType] = field(
+    att: None | EnumType = field(
         default=None,
         metadata={
             "type": "Attribute",

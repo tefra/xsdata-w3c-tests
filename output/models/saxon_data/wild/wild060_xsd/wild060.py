@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing1:
     class Meta:
         name = "zing"
@@ -15,7 +17,7 @@ class Zing1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ExtendedZing(Zing1):
     class Meta:
         name = "extendedZing"
@@ -29,7 +31,7 @@ class ExtendedZing(Zing1):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Zing(ExtendedZing):
     class Meta:
         name = "zing"

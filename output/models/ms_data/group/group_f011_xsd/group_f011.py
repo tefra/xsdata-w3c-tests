@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    x: Optional[object] = field(
+    x: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -13,12 +15,12 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elem(B):
     class Meta:
         name = "elem"
 
-    a1_or_a2: Optional[Union["Elem.A1", "Elem.A2"]] = field(
+    a1_or_a2: None | Elem.A1 | Elem.A2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -37,38 +39,35 @@ class Elem(B):
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class A1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class A2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
-        default=None,
+    elem: Elem = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )

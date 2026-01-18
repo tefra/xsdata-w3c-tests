@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedInt-enumeration-1-NS"
 
@@ -15,15 +16,14 @@ class NistschemaSvIvAtomicUnsignedIntEnumeration1Type(Enum):
     VALUE_844 = 844
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicUnsignedIntEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-unsignedInt-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-unsignedInt-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvAtomicUnsignedIntEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicUnsignedIntEnumeration1Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

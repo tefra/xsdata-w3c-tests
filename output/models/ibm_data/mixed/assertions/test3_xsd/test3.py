@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ParentType:
-    child: Optional["ParentType.Child"] = field(
+    child: None | ParentType.Child = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    grandchild: Optional["ParentType.Grandchild"] = field(
+    grandchild: None | ParentType.Grandchild = field(
         default=None,
         metadata={
             "type": "Element",
@@ -21,30 +22,30 @@ class ParentType:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Child:
-        name: Optional[str] = field(
+        name: None | str = field(
             default=None,
             metadata={
                 "type": "Attribute",
             },
         )
-        dob: Optional[XmlDate] = field(
+        dob: None | XmlDate = field(
             default=None,
             metadata={
                 "type": "Attribute",
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Grandchild:
-        name: Optional[str] = field(
+        name: None | str = field(
             default=None,
             metadata={
                 "type": "Attribute",
             },
         )
-        dob: Optional[XmlDate] = field(
+        dob: None | XmlDate = field(
             default=None,
             metadata={
                 "type": "Attribute",
@@ -52,15 +53,15 @@ class ParentType:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TimerType:
-    time: Optional[int] = field(
+    time: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    iterations: Optional[int] = field(
+    iterations: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -68,24 +69,22 @@ class TimerType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Data:
     class Meta:
         name = "data"
 
-    timer: Optional[TimerType] = field(
-        default=None,
+    timer: TimerType = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    parent: Optional[ParentType] = field(
-        default=None,
+    parent: ParentType = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

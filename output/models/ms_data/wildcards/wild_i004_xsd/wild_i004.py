@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elt1:
     class Meta:
         name = "elt1"
@@ -15,7 +17,7 @@ class Elt1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Elt2:
     class Meta:
         name = "elt2"
@@ -28,7 +30,7 @@ class Elt2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -37,6 +39,5 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         },
     )

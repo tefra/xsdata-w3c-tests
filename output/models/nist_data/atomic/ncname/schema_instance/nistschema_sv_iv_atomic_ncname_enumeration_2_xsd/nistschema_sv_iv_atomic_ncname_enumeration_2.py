@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-2-NS"
 
@@ -22,15 +23,14 @@ class NistschemaSvIvAtomicNcnameEnumeration2Type(Enum):
     EWHO_VOCABULARIES_IT_ADOPTION_M = "ewho-vocabularies-it-adoption_m"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicNcnameEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-NCName-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-NCName-enumeration-2-NS"
 
-    value: Optional[NistschemaSvIvAtomicNcnameEnumeration2Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicNcnameEnumeration2Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

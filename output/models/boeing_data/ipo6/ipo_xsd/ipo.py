@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 from xsdata.models.datatype import XmlDate
 
@@ -12,31 +14,28 @@ from output.models.boeing_data.ipo6.ipo_xsd.itematt import ItemShipBy
 __NAMESPACE__ = "http://www.example.com/IPO"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AddressType:
-    name: Optional[str] = field(
-        default=None,
+    name: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        },
+        }
     )
-    street: Optional[str] = field(
-        default=None,
+    street: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        },
+        }
     )
-    city: Optional[str] = field(
-        default=None,
+    city: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        },
+        }
     )
 
 
@@ -48,7 +47,7 @@ class Usstate(Enum):
     PA = "PA"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Comment:
     class Meta:
         name = "comment"
@@ -62,7 +61,7 @@ class Comment:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CustomerComment:
     class Meta:
         name = "customerComment"
@@ -76,7 +75,7 @@ class CustomerComment:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ShipComment:
     class Meta:
         name = "shipComment"
@@ -90,7 +89,7 @@ class ShipComment:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ItemsType:
     content: list[object] = field(
         default_factory=list,
@@ -108,37 +107,34 @@ class ItemsType:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Item:
-        product_name: Optional[str] = field(
-            default=None,
+        product_name: str = field(
             metadata={
                 "name": "productName",
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
                 "required": True,
-            },
+            }
         )
-        quantity: Optional[int] = field(
-            default=None,
+        quantity: int = field(
             metadata={
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
                 "required": True,
                 "max_exclusive": 100,
-            },
+            }
         )
-        usprice: Optional[Decimal] = field(
-            default=None,
+        usprice: Decimal = field(
             metadata={
                 "name": "USPrice",
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
                 "required": True,
-            },
+            }
         )
         customer_comment_or_ship_comment: list[
-            Union[CustomerComment, ShipComment]
+            CustomerComment | ShipComment
         ] = field(
             default_factory=list,
             metadata={
@@ -160,7 +156,7 @@ class ItemsType:
                 "max_occurs": 2,
             },
         )
-        ship_date: Optional[XmlDate] = field(
+        ship_date: None | XmlDate = field(
             default=None,
             metadata={
                 "name": "shipDate",
@@ -168,23 +164,22 @@ class ItemsType:
                 "namespace": "http://www.example.com/IPO",
             },
         )
-        part_num: Optional[str] = field(
-            default=None,
+        part_num: str = field(
             metadata={
                 "name": "partNum",
                 "type": "Attribute",
                 "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
-            },
+            }
         )
-        weight_kg: Optional[Decimal] = field(
+        weight_kg: None | Decimal = field(
             default=None,
             metadata={
                 "name": "weightKg",
                 "type": "Attribute",
             },
         )
-        ship_by: Optional[ItemShipBy] = field(
+        ship_by: None | ItemShipBy = field(
             default=None,
             metadata={
                 "name": "shipBy",
@@ -193,19 +188,18 @@ class ItemsType:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ukaddress(AddressType):
     class Meta:
         name = "UKAddress"
 
-    postcode: Optional[str] = field(
-        default=None,
+    postcode: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
             "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
-        },
+        }
     )
     export_code: int = field(
         init=False,
@@ -217,41 +211,39 @@ class Ukaddress(AddressType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Usaddress(AddressType):
     class Meta:
         name = "USAddress"
 
-    state: Optional[Usstate] = field(
-        default=None,
+    state: Usstate = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        },
+        }
     )
-    zip: Optional[int] = field(
-        default=None,
+    zip: int = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Address(AddressType):
     class Meta:
         name = "address"
         namespace = "http://www.example.com/IPO"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PurchaseOrderType:
-    salutation_or_extern_first_element: Optional[
-        Union[Salutation, ExternFirstElement]
-    ] = field(
+    salutation_or_extern_first_element: (
+        None | Salutation | ExternFirstElement
+    ) = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -270,11 +262,9 @@ class PurchaseOrderType:
         },
     )
     ship_to_or_bill_to_or_single_address: list[
-        Union[
-            "PurchaseOrderType.ShipTo",
-            "PurchaseOrderType.BillTo",
-            "PurchaseOrderType.SingleAddress",
-        ]
+        PurchaseOrderType.ShipTo
+        | PurchaseOrderType.BillTo
+        | PurchaseOrderType.SingleAddress
     ] = field(
         default_factory=list,
         metadata={
@@ -299,35 +289,34 @@ class PurchaseOrderType:
             "max_occurs": 2,
         },
     )
-    customer_comment_or_ship_comment: Optional[
-        Union[CustomerComment, ShipComment]
-    ] = field(
-        default=None,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "customerComment",
-                    "type": CustomerComment,
-                    "namespace": "http://www.example.com/IPO",
-                },
-                {
-                    "name": "shipComment",
-                    "type": ShipComment,
-                    "namespace": "http://www.example.com/IPO",
-                },
-            ),
-        },
+    customer_comment_or_ship_comment: None | CustomerComment | ShipComment = (
+        field(
+            default=None,
+            metadata={
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "customerComment",
+                        "type": CustomerComment,
+                        "namespace": "http://www.example.com/IPO",
+                    },
+                    {
+                        "name": "shipComment",
+                        "type": ShipComment,
+                        "namespace": "http://www.example.com/IPO",
+                    },
+                ),
+            },
+        )
     )
-    items: Optional[ItemsType] = field(
-        default=None,
+    items: ItemsType = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        },
+        }
     )
-    order_date: Optional[XmlDate] = field(
+    order_date: None | XmlDate = field(
         default=None,
         metadata={
             "name": "orderDate",
@@ -335,20 +324,20 @@ class PurchaseOrderType:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class ShipTo(AddressType):
         pass
 
-    @dataclass
+    @dataclass(kw_only=True)
     class BillTo(AddressType):
         pass
 
-    @dataclass
+    @dataclass(kw_only=True)
     class SingleAddress(AddressType):
         pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PurchaseOrder(PurchaseOrderType):
     class Meta:
         name = "purchaseOrder"

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-3-NS"
 
@@ -17,17 +18,14 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration3Type(Enum):
     EB_XML = "ebXML"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicNormalizedStringEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-3-NS"
 
-    value: Optional[NistschemaSvIvAtomicNormalizedStringEnumeration3Type] = (
-        field(
-            default=None,
-            metadata={
-                "required": True,
-            },
-        )
+    value: NistschemaSvIvAtomicNormalizedStringEnumeration3Type = field(
+        metadata={
+            "required": True,
+        }
     )

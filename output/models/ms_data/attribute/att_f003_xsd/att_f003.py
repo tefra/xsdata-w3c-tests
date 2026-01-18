@@ -1,42 +1,40 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: Optional[object] = field(
-        default=None,
+    att1: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    att2: Optional[object] = field(
-        default=None,
+    att2: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[AttRef] = field(
+    elem: None | AttRef = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
-    foo: Optional[str] = field(
+    foo: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

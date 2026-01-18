@@ -1,7 +1,8 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "http://cta0002/"
 
@@ -11,7 +12,7 @@ class TMin(Enum):
     VALUE_1 = 1
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
     class Meta:
         name = "t"
@@ -23,7 +24,7 @@ class T:
             "namespace": "http://cta0002/",
         },
     )
-    min: Optional[TMin] = field(
+    min: None | TMin = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -32,14 +33,14 @@ class T:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Message(T):
     class Meta:
         name = "message"
         namespace = "http://cta0002/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Treq(T):
     class Meta:
         name = "treq"
@@ -54,7 +55,7 @@ class Treq(T):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Messages:
     class Meta:
         name = "messages"

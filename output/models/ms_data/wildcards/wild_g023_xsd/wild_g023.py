@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://foobar"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
@@ -18,13 +19,13 @@ class Bar:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "http://foobar"
 
-    foobar_element: Optional[object] = field(
+    foobar_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

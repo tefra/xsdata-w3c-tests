@@ -1,30 +1,29 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Section:
     class Meta:
         name = "section"
 
-    head: Optional[str] = field(
-        default=None,
+    head: str = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    section: list["Section"] = field(
+    section: list[Section] = field(
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    nr: Optional[Decimal] = field(
-        default=None,
+    nr: Decimal = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )

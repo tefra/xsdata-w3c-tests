@@ -1,30 +1,31 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "AttrDecl/name"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AttrDecl/name"
 
-    str00_a: Optional[str] = field(
+    str00_a: None | str = field(
         default=None,
         metadata={
             "name": "str00Aー",
             "type": "Attribute",
         },
     )
-    str10: Optional[str] = field(
+    str10: None | str = field(
         default=None,
         metadata={
             "name": "str10-ヽ",
             "type": "Attribute",
         },
     )
-    str20: Optional[str] = field(
+    str20: None | str = field(
         default=None,
         metadata={
             "name": "str20ヾ",

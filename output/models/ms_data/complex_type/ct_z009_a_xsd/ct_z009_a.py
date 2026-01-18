@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    foo_or_sg: list[Union["Root.Foo", "Root.Sg"]] = field(
+    foo_or_sg: list[Root.Foo | Root.Sg] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -26,24 +28,22 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Foo:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Sg:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )

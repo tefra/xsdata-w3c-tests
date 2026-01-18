@@ -1,29 +1,29 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
 
-    value: Optional[float] = field(
-        default=None,
+    value: float = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class C:
     class Meta:
         name = "c"
@@ -36,12 +36,12 @@ class C:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class D:
     class Meta:
         name = "d"
 
-    value: list[Union[float, int, bool]] = field(
+    value: list[float | int | bool] = field(
         default_factory=list,
         metadata={
             "tokens": True,
@@ -49,20 +49,20 @@ class D:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item:
     class Meta:
         name = "item"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    choice: list[Union[D, C, B, A, Item]] = field(
+    choice: list[D | C | B | A | Item] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

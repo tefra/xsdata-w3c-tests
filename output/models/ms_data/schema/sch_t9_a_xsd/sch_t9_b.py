@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BCt:
     class Meta:
         name = "b-ct"
 
-    att1: Optional[object] = field(
+    att1: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -23,7 +24,7 @@ class BCt:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BE1(BCt):
     class Meta:
         name = "b-e1"

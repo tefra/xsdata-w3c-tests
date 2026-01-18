@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional, Union
+from typing import Any
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NsAAft:
     class Meta:
         name = "ns-a-aft"
@@ -18,7 +20,7 @@ class NsAAft:
             "max_occurs": 10,
         },
     )
-    y: Optional[object] = field(
+    y: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -27,14 +29,14 @@ class NsAAft:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Aft(NsAAft):
     class Meta:
         name = "aft"
         namespace = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyType(NsAAft):
     class Meta:
         name = "myType"
@@ -48,19 +50,19 @@ class MyType(NsAAft):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Abc(MyType):
     class Meta:
         name = "abc"
         namespace = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    a_or_abc: Optional[Union[str, Abc]] = field(
+    a_or_abc: None | str | Abc = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -80,7 +82,7 @@ class Foo:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Foo):
     class Meta:
         name = "root"

@@ -1,12 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    target_namespace_element: Optional[object] = field(
+    target_namespace_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -15,13 +17,13 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         name = "e1"
         namespace = "http://xsdtesting"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -30,7 +32,7 @@ class E1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     target_namespace_element: Any = field(
         init=False,
@@ -39,27 +41,25 @@ class R(B):
             "type": "Ignore",
         },
     )
-    e1: Optional[E1] = field(
-        default=None,
+    e1: E1 = field(
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

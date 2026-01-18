@@ -1,22 +1,23 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.publishing.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
         namespace = "http://www.publishing.org"
 
-    b: Optional["B"] = field(
+    b: None | B = field(
         default=None,
         metadata={
             "type": "Element",
         },
     )
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -24,18 +25,17 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://www.publishing.org"
 
-    keys: Optional["Root.Keys"] = field(
-        default=None,
+    keys: Root.Keys = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
     keyref: list[str] = field(
         default_factory=list,
@@ -44,7 +44,7 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Keys:
         any_element: list[object] = field(
             default_factory=list,

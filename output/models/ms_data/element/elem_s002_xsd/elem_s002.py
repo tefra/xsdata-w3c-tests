@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class CInvalid:
     class Meta:
         name = "c_invalid"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -18,7 +19,7 @@ class CInvalid:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Cs:
     class Meta:
         name = "cs"
@@ -31,7 +32,7 @@ class Cs:
             "max_length": 4,
         },
     )
-    a: Optional[object] = field(
+    a: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -39,12 +40,12 @@ class Cs:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Cc(Cs):
     class Meta:
         name = "cc"
 
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -52,27 +53,27 @@ class Cc(Cs):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FrValid(Cs):
     class Meta:
         name = "fr_valid"
         namespace = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Fr1Valid(Cc):
     class Meta:
         name = "fr1_valid"
         namespace = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xsdtesting"
 
-    fr1_valid_or_fr_valid: Optional[Union[Fr1Valid, FrValid]] = field(
+    fr1_valid_or_fr_valid: None | Fr1Valid | FrValid = field(
         default=None,
         metadata={
             "type": "Elements",

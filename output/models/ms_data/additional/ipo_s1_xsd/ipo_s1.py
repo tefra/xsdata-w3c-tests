@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
@@ -9,7 +10,7 @@ from output.models.ms_data.additional.ipo_s1_xsd.ipo_s1_address import Address
 __NAMESPACE__ = "http://www.example.com/IPO"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Comment:
     class Meta:
         name = "comment"
@@ -23,9 +24,9 @@ class Comment:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Items:
-    item: list["Items.Item"] = field(
+    item: list[Items.Item] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -33,43 +34,40 @@ class Items:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Item:
-        product_name: Optional[str] = field(
-            default=None,
+        product_name: str = field(
             metadata={
                 "name": "productName",
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            },
+            }
         )
-        quantity: Optional[int] = field(
-            default=None,
+        quantity: int = field(
             metadata={
                 "type": "Element",
                 "namespace": "",
                 "required": True,
                 "max_exclusive": 100,
-            },
+            }
         )
-        usprice: Optional[Decimal] = field(
-            default=None,
+        usprice: Decimal = field(
             metadata={
                 "name": "USPrice",
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            },
+            }
         )
-        comment: Optional[Comment] = field(
+        comment: None | Comment = field(
             default=None,
             metadata={
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
             },
         )
-        ship_date: Optional[XmlDate] = field(
+        ship_date: None | XmlDate = field(
             default=None,
             metadata={
                 "name": "shipDate",
@@ -77,29 +75,27 @@ class Items:
                 "namespace": "",
             },
         )
-        part_num: Optional[str] = field(
-            default=None,
+        part_num: str = field(
             metadata={
                 "name": "partNum",
                 "type": "Attribute",
                 "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
-            },
+            }
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PurchaseOrderType:
-    ship_to: Optional[Address] = field(
-        default=None,
+    ship_to: Address = field(
         metadata={
             "name": "shipTo",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    bill_to: Optional[Address] = field(
+    bill_to: None | Address = field(
         default=None,
         metadata={
             "name": "billTo",
@@ -107,21 +103,21 @@ class PurchaseOrderType:
             "namespace": "",
         },
     )
-    comment: Optional[Comment] = field(
+    comment: None | Comment = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
         },
     )
-    items: Optional[Items] = field(
+    items: None | Items = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    order_date: Optional[XmlDate] = field(
+    order_date: None | XmlDate = field(
         default=None,
         metadata={
             "name": "orderDate",
@@ -130,7 +126,7 @@ class PurchaseOrderType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PurchaseOrder(PurchaseOrderType):
     class Meta:
         name = "purchaseOrder"

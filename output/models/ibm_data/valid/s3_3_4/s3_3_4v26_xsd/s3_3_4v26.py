@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ids:
     class Meta:
         name = "ids"
 
-    idref_element: Optional[str] = field(
-        default=None,
+    idref_element: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
     id_attr: str = field(
         default="zxc",
@@ -23,7 +23,7 @@ class Ids:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Ids):
     class Meta:
         name = "root"

@@ -1,35 +1,34 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlPeriod, XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class When:
     class Meta:
         name = "when"
 
-    value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
-        default=None,
+    value: XmlDate | XmlTime | XmlDateTime | XmlPeriod = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Event:
     class Meta:
         name = "event"
 
-    when: Optional[When] = field(
-        default=None,
+    when: When = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    type_value: Optional[str] = field(
+    type_value: None | str = field(
         default=None,
         metadata={
             "name": "type",
@@ -38,7 +37,7 @@ class Event:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
@@ -50,7 +49,7 @@ class Doc:
             "min_occurs": 1,
         },
     )
-    type_value: Optional[str] = field(
+    type_value: None | str = field(
         default=None,
         metadata={
             "name": "type",

@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base1:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -12,9 +14,9 @@ class Base1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base2:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,9 +31,9 @@ class Base2:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base3:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -46,7 +48,7 @@ class Base3:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived1(Base1):
     foo: Any = field(
         init=False,
@@ -57,7 +59,7 @@ class Derived1(Base1):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived2(Base2):
     local_attributes: Any = field(
         init=False,
@@ -66,7 +68,7 @@ class Derived2(Base2):
             "type": "Ignore",
         },
     )
-    bar: Optional[object] = field(
+    bar: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -74,7 +76,7 @@ class Derived2(Base2):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Derived3(Base3):
     local_attributes: Any = field(
         init=False,
@@ -85,32 +87,29 @@ class Derived3(Base3):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    elem1: Optional[Derived1] = field(
-        default=None,
+    elem1: Derived1 = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    elem2: Optional[Derived2] = field(
-        default=None,
+    elem2: Derived2 = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    elem3: Optional[Derived3] = field(
-        default=None,
+    elem3: Derived3 = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

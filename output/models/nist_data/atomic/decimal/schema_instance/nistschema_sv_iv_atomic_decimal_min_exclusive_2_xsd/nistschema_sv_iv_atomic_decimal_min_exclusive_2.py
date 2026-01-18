@@ -1,20 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-decimal-minExclusive-2-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicDecimalMinExclusive2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-decimal-minExclusive-2"
         namespace = "NISTSchema-SV-IV-atomic-decimal-minExclusive-2-NS"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
             "min_exclusive": Decimal("631308414640570968"),
-        },
+        }
     )

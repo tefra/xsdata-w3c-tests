@@ -1,38 +1,36 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyType:
     class Meta:
         name = "myType"
 
-    my_element1: Optional[str] = field(
-        default=None,
+    my_element1: str = field(
         metadata={
             "name": "myElement1",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    my_element2: Optional[str] = field(
-        default=None,
+    my_element2: str = field(
         metadata={
             "name": "myElement2",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    my_element3: Optional[str] = field(
-        default=None,
+    my_element3: str = field(
         metadata={
             "name": "myElement3",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
     local_attributes: dict[str, str] = field(
         default_factory=dict,
@@ -43,19 +41,18 @@ class MyType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType(MyType):
     class Meta:
         name = "fooType"
 
-    my_element: Optional[str] = field(
-        default=None,
+    my_element: str = field(
         metadata={
             "name": "myElement",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
     other_attributes: dict[str, str] = field(
         default_factory=dict,
@@ -66,7 +63,7 @@ class FooType(MyType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(FooType):
     class Meta:
         name = "root"

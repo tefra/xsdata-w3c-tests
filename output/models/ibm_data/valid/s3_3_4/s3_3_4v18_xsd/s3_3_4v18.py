@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    union_of_ids: Optional[Union[int, bool, str]] = field(
+    union_of_ids: None | int | bool | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    idref: Optional[str] = field(
+    idref: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

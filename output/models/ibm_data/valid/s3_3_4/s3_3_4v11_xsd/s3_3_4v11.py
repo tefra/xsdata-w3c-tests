@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    union_of_ids: list[Union[int, str]] = field(
+    union_of_ids: list[int | str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -15,11 +16,10 @@ class Root:
             "min_occurs": 1,
         },
     )
-    idref: Optional[str] = field(
-        default=None,
+    idref: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

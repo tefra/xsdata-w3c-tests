@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BCt:
     class Meta:
         name = "b-ct"
 
-    b1_or_b2: Optional[Union["BCt.B1", "BCt.B2"]] = field(
+    b1_or_b2: None | BCt.B1 | BCt.B2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -28,30 +30,28 @@ class BCt:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class B1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "ns-a",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class B2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "ns-a",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -66,7 +66,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1(BCt):
     class Meta:
         name = "e1"

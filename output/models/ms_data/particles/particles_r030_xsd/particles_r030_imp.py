@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "bar"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ImpElem1:
     class Meta:
         name = "impElem1"
         namespace = "bar"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -19,13 +20,13 @@ class ImpElem1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ImpElem2:
     class Meta:
         name = "impElem2"
         namespace = "bar"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

@@ -1,14 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 from xml.etree.ElementTree import QName
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyType:
     class Meta:
         name = "myType"
 
-    att: Optional[QName] = field(
+    att: None | QName = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -16,7 +17,7 @@ class MyType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(MyType):
     class Meta:
         name = "root"

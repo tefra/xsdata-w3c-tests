@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class TestToken:
     class Meta:
         name = "testToken"
@@ -18,17 +19,16 @@ class TestToken:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    test_token: Optional[TestToken] = field(
-        default=None,
+    test_token: TestToken = field(
         metadata={
             "name": "testToken",
             "type": "Element",
             "required": True,
-        },
+        }
     )

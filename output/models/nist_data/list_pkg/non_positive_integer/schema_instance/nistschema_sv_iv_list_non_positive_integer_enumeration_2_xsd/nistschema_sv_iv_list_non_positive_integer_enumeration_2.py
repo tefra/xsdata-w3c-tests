@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-nonPositiveInteger-enumeration-2-NS"
 
@@ -53,17 +54,14 @@ class NistschemaSvIvListNonPositiveIntegerEnumeration2Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListNonPositiveIntegerEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-list-nonPositiveInteger-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-nonPositiveInteger-enumeration-2-NS"
 
-    value: Optional[NistschemaSvIvListNonPositiveIntegerEnumeration2Type] = (
-        field(
-            default=None,
-            metadata={
-                "required": True,
-            },
-        )
+    value: NistschemaSvIvListNonPositiveIntegerEnumeration2Type = field(
+        metadata={
+            "required": True,
+        }
     )

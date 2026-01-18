@@ -1,17 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlTime
 
 __NAMESPACE__ = "http://simple012.ly/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DocType:
     class Meta:
         name = "doc-type"
 
-    chap: list[Union[XmlDate, XmlDateTime, XmlTime]] = field(
+    chap: list[XmlDate | XmlDateTime | XmlTime] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -21,33 +22,33 @@ class DocType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(DocType):
     class Meta:
         name = "doc"
         namespace = "http://simple012.ly/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SubDocType(DocType):
     class Meta:
         name = "sub-doc-type"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Subdoc(SubDocType):
     class Meta:
         name = "subdoc"
         namespace = "http://simple012.ly/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Book:
     class Meta:
         name = "book"
         namespace = "http://simple012.ly/"
 
-    subdoc_or_doc: list[Union[Subdoc, Doc]] = field(
+    subdoc_or_doc: list[Subdoc | Doc] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

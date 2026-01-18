@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v02"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -18,14 +19,14 @@ class Root:
             "required": True,
         },
     )
-    attr_dtime_type: Optional[XmlDateTime] = field(
+    attr_dtime_type: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrDTimeType",
             "type": "Attribute",
         },
     )
-    attr_dtime_type_et: Optional[XmlDateTime] = field(
+    attr_dtime_type_et: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrDTimeTypeET",
@@ -33,7 +34,7 @@ class Root:
             "explicit_timezone": "optional",
         },
     )
-    attr_dtetprohibited: Optional[XmlDateTime] = field(
+    attr_dtetprohibited: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrDTETProhibited",
@@ -41,7 +42,7 @@ class Root:
             "explicit_timezone": "prohibited",
         },
     )
-    attr_dtetrequired: Optional[XmlDateTime] = field(
+    attr_dtetrequired: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrDTETRequired",
@@ -49,7 +50,7 @@ class Root:
             "explicit_timezone": "required",
         },
     )
-    attr_dtetoptional: Optional[XmlDateTime] = field(
+    attr_dtetoptional: None | XmlDateTime = field(
         default=None,
         metadata={
             "name": "attrDTETOptional",

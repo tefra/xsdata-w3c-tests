@@ -1,18 +1,18 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlPeriod
 
 
-@dataclass
+@dataclass(kw_only=True)
 class PublicationType:
-    title: Optional[str] = field(
-        default=None,
+    title: str = field(
         metadata={
             "name": "Title",
             "type": "Element",
             "required": True,
-        },
+        }
     )
     author: list[str] = field(
         default_factory=list,
@@ -21,15 +21,14 @@ class PublicationType:
             "type": "Element",
         },
     )
-    date: Optional[XmlPeriod] = field(
-        default=None,
+    date: XmlPeriod = field(
         metadata={
             "name": "Date",
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    kind: Optional[str] = field(
+    kind: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -37,9 +36,9 @@ class PublicationType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Example:
-    publication: list[Union[PublicationType, "Example.KindBook"]] = field(
+    publication: list[PublicationType | Example.KindBook] = field(
         default_factory=list,
         metadata={
             "name": "Publication",
@@ -48,21 +47,19 @@ class Example:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class KindBook(PublicationType):
-        isbn: Optional[str] = field(
-            default=None,
+        isbn: str = field(
             metadata={
                 "name": "ISBN",
                 "type": "Element",
                 "required": True,
-            },
+            }
         )
-        publisher: Optional[str] = field(
-            default=None,
+        publisher: str = field(
             metadata={
                 "name": "Publisher",
                 "type": "Element",
                 "required": True,
-            },
+            }
         )

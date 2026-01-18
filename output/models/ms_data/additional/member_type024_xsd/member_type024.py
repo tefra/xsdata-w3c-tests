@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 __NAMESPACE__ = "foo"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ct:
     class Meta:
         name = "ct"
@@ -15,19 +16,19 @@ class Ct:
             "required": True,
         },
     )
-    att1: Union[bool, int, str] = field(
+    att1: bool | int | str = field(
         default=False,
         metadata={
             "type": "Attribute",
         },
     )
-    att2: Union[bool, int, str] = field(
+    att2: bool | int | str = field(
         default=5,
         metadata={
             "type": "Attribute",
         },
     )
-    att3: Union[bool, int, str] = field(
+    att3: bool | int | str = field(
         default="abc",
         metadata={
             "type": "Attribute",
@@ -35,7 +36,7 @@ class Ct:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"

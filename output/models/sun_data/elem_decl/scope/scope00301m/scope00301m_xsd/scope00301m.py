@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/scope"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/scope"
 
-    local_element1: Optional[object] = field(
+    local_element1: None | object = field(
         default=None,
         metadata={
             "name": "LocalElement1",
@@ -18,7 +19,7 @@ class Root:
             "namespace": "",
         },
     )
-    local_element2: Optional[object] = field(
+    local_element2: None | object = field(
         default=None,
         metadata={
             "name": "LocalElement2",

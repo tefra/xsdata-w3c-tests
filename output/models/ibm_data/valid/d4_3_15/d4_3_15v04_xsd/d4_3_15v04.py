@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -23,7 +24,7 @@ class Root:
             "min_occurs": 1,
         },
     )
-    attr: Optional[str] = field(
+    attr: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

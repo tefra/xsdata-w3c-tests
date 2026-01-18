@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -20,14 +21,13 @@ class DocValue(Enum):
     VALUE_0000_12 = XmlPeriod("-0000-12")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[DocValue] = field(
-        default=None,
+    value: DocValue = field(
         metadata={
             "explicit_timezone": "optional",
-        },
+        }
     )

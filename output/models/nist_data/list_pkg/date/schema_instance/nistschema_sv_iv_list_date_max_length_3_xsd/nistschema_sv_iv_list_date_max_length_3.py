@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from xsdata.models.datatype import XmlDate
@@ -5,7 +7,7 @@ from xsdata.models.datatype import XmlDate
 __NAMESPACE__ = "NISTSchema-SV-IV-list-date-maxLength-3-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListDateMaxLength3:
     class Meta:
         name = "NISTSchema-SV-IV-list-date-maxLength-3"

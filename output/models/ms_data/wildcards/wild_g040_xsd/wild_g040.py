@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.w3.org/1999/xhtml"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     class Meta:
         name = "b"
@@ -18,13 +19,13 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
         namespace = "http://www.w3.org/1999/xhtml"
 
-    target_namespace_element: Optional[object] = field(
+    target_namespace_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 from xsdata.models.datatype import XmlPeriod
 
@@ -15,15 +16,14 @@ class NistschemaSvIvAtomicGMonthEnumeration1Type(Enum):
     VALUE_04 = XmlPeriod("--04")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicGMonthEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gMonth-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-gMonth-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvAtomicGMonthEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicGMonthEnumeration1Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

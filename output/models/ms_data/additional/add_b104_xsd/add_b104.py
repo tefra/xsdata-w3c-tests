@@ -1,24 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "ns"
 
-    elem: Optional["Doc.Elem"] = field(
+    elem: None | Doc.Elem = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Elem:
         att: int = field(
             init=False,

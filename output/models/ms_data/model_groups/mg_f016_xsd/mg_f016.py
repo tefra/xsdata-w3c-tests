@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    g1_or_g12: Optional[Union["Foo.G1", "Foo.G12"]] = field(
+    g1_or_g12: None | Foo.G1 | Foo.G12 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -25,7 +27,7 @@ class Foo:
             ),
         },
     )
-    g2_or_g22: Optional[Union["Foo.G2", "Foo.G22"]] = field(
+    g2_or_g22: None | Foo.G2 | Foo.G22 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -43,7 +45,7 @@ class Foo:
             ),
         },
     )
-    g3_or_g32: Optional[Union["Foo.G3", "Foo.G32"]] = field(
+    g3_or_g32: None | Foo.G3 | Foo.G32 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -61,7 +63,7 @@ class Foo:
             ),
         },
     )
-    g4_or_g42: Optional[Union["Foo.G4", "Foo.G42"]] = field(
+    g4_or_g42: None | Foo.G4 | Foo.G42 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -79,28 +81,28 @@ class Foo:
             ),
         },
     )
-    c1: Optional[object] = field(
+    c1: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c2: Optional[object] = field(
+    c2: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c3: Optional[object] = field(
+    c3: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c4: Optional[object] = field(
+    c4: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -108,96 +110,88 @@ class Foo:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G12:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G22:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G3:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G32:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G4:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class G42:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

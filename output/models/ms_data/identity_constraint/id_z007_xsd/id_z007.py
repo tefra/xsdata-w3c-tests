@@ -1,10 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NewDataSet:
-    t1_or_t2: list[Union["NewDataSet.T1", "NewDataSet.T2"]] = field(
+    t1_or_t2: list[NewDataSet.T1 | NewDataSet.T2] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -23,9 +25,9 @@ class NewDataSet:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class T1:
-        id: Optional[str] = field(
+        id: None | str = field(
             default=None,
             metadata={
                 "name": "Id",
@@ -35,9 +37,9 @@ class NewDataSet:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class T2:
-        id: Optional[str] = field(
+        id: None | str = field(
             default=None,
             metadata={
                 "name": "Id",

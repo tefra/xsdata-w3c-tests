@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 from xsdata.models.datatype import XmlPeriod
@@ -5,7 +7,7 @@ from xsdata.models.datatype import XmlPeriod
 __NAMESPACE__ = "NISTSchema-SV-IV-list-gMonthDay-whiteSpace-1-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListGMonthDayWhiteSpace1:
     class Meta:
         name = "NISTSchema-SV-IV-list-gMonthDay-whiteSpace-1"

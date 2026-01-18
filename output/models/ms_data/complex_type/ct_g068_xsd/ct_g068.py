@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MyType:
     class Meta:
         name = "myType"
 
-    my_element1: Optional[str] = field(
+    my_element1: None | str = field(
         default=None,
         metadata={
             "name": "myElement1",
@@ -15,7 +17,7 @@ class MyType:
             "namespace": "",
         },
     )
-    my_element2: Optional[str] = field(
+    my_element2: None | str = field(
         default=None,
         metadata={
             "name": "myElement2",
@@ -23,7 +25,7 @@ class MyType:
             "namespace": "",
         },
     )
-    my_element3: Optional[str] = field(
+    my_element3: None | str = field(
         default=None,
         metadata={
             "name": "myElement3",
@@ -40,7 +42,7 @@ class MyType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class FooType(MyType):
     class Meta:
         name = "fooType"
@@ -73,14 +75,14 @@ class FooType(MyType):
             "type": "Ignore",
         },
     )
-    my_attr1: Optional[object] = field(
+    my_attr1: None | object = field(
         default=None,
         metadata={
             "name": "myAttr1",
             "type": "Attribute",
         },
     )
-    my_attr3: Optional[object] = field(
+    my_attr3: None | object = field(
         default=None,
         metadata={
             "name": "myAttr3",
@@ -89,7 +91,7 @@ class FooType(MyType):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(FooType):
     class Meta:
         name = "root"

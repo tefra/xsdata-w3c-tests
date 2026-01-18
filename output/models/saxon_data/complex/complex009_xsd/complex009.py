@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     e: list[object] = field(
         default_factory=list,
@@ -20,23 +21,22 @@ class B:
             "max_occurs": 5,
         },
     )
-    type_value: Optional[str] = field(
-        default=None,
+    type_value: str = field(
         metadata={
             "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R(B):
     pass
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(B):
     class Meta:
         name = "root"

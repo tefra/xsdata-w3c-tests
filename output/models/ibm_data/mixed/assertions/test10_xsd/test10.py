@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BaseType:
     class Meta:
         name = "baseType"
@@ -14,7 +15,7 @@ class BaseType:
             "namespace": "",
         },
     )
-    must_understand: Optional[str] = field(
+    must_understand: None | str = field(
         default=None,
         metadata={
             "name": "mustUnderstand",
@@ -23,13 +24,13 @@ class BaseType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DerivedType(BaseType):
     class Meta:
         name = "derivedType"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Message(DerivedType):
     class Meta:
         name = "message"

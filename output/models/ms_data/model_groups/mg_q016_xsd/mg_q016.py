@@ -1,48 +1,44 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
 
-    e1: Optional[str] = field(
+    e1: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
 
-    e1_element: Optional[str] = field(
-        default=None,
+    e1: str = field(
         metadata={
-            "name": "e1",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    e1: Optional[str] = field(
-        default=None,
+    e2: Bar = field(
         metadata={
-            "wrapper": "e2",
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Foo):
     class Meta:
         name = "doc"

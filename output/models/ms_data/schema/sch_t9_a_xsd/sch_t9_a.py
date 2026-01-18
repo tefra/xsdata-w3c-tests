@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ACt:
     class Meta:
         name = "A-ct"
 
-    att1: Optional[object] = field(
+    att1: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -23,22 +24,21 @@ class ACt:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E2:
     class Meta:
         name = "e2"
         namespace = "ns-a"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
             "total_digits": 2,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
@@ -53,7 +53,7 @@ class Root:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1(ACt):
     class Meta:
         name = "e1"

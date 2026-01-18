@@ -1,16 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "targetNS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test:
-    abc: Optional[str] = field(
-        default=None,
+    abc: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )

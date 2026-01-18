@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E:
     class Meta:
         name = "e"
@@ -18,13 +19,13 @@ class E:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class E1:
     class Meta:
         name = "e1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -33,26 +34,25 @@ class E1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T:
-    e: Optional[E] = field(
+    e: None | E = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
         },
     )
-    e1: Optional[int] = field(
-        default=None,
+    e1: int = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(T):
     class Meta:
         name = "test"

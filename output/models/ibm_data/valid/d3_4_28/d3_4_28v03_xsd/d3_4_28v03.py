@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v03"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class EldTimeStampListC:
     class Meta:
         name = "eldTimeStampListC"
@@ -21,20 +22,19 @@ class EldTimeStampListC:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class DTimeStampRoot:
     class Meta:
         name = "dTimeStampRoot"
 
-    eld_time_stamp_pattern: Optional[str] = field(
-        default=None,
+    eld_time_stamp_pattern: str = field(
         metadata={
             "name": "eldTimeStampPattern",
             "type": "Element",
             "namespace": "",
             "required": True,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
-        },
+        }
     )
     eld_time_stamp_list_a: list[list[XmlDateTime]] = field(
         default_factory=list,
@@ -55,18 +55,17 @@ class DTimeStampRoot:
             "tokens": True,
         },
     )
-    eld_time_stamp_list_c: Optional[EldTimeStampListC] = field(
-        default=None,
+    eld_time_stamp_list_c: EldTimeStampListC = field(
         metadata={
             "name": "eldTimeStampListC",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_D3_4_28_v03",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(DTimeStampRoot):
     class Meta:
         name = "root"

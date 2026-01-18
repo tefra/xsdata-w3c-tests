@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
     a: list[object] = field(
         default_factory=list,
@@ -12,21 +13,21 @@ class B:
             "min_occurs": 1,
         },
     )
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[object] = field(
+    c: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    open_com_element: Optional[object] = field(
+    open_com_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -35,7 +36,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
     a: list[object] = field(
         default_factory=list,
@@ -45,28 +46,28 @@ class R:
             "min_occurs": 1,
         },
     )
-    b: Optional[object] = field(
+    b: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[object] = field(
+    c: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[object] = field(
+    d: None | object = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    open_com_element: Optional[object] = field(
+    open_com_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -75,7 +76,7 @@ class R:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(R):
     class Meta:
         name = "doc"

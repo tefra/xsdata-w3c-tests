@@ -1,25 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Temp:
     class Meta:
         name = "temp"
 
-    value: Optional[XmlDate] = field(
-        default=None,
+    value: XmlDate = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    start_date: Optional[XmlDate] = field(
-        default=None,
+    start_date: XmlDate = field(
         metadata={
             "name": "startDate",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )

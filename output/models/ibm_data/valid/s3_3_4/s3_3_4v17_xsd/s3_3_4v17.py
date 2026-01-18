@@ -1,13 +1,14 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    union_of_ids: list[Union[int, bool, str]] = field(
+    union_of_ids: list[int | bool | str] = field(
         default_factory=list,
         metadata={
             "type": "Element",

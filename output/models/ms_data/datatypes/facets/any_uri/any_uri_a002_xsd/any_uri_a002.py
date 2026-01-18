@@ -1,11 +1,12 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "あ"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
@@ -26,15 +27,14 @@ class St(Enum):
     VALUE_3 = "い3"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Bar:
     class Meta:
         name = "bar"
         namespace = "あ"
 
-    value: Optional[St] = field(
-        default=None,
+    value: St = field(
         metadata={
             "required": True,
-        },
+        }
     )

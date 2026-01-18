@@ -1,15 +1,16 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.publishing.org"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BookCatalogue:
     class Meta:
         namespace = "http://www.publishing.org"
 
-    book: list["BookCatalogue.Book"] = field(
+    book: list[BookCatalogue.Book] = field(
         default_factory=list,
         metadata={
             "name": "Book",
@@ -18,44 +19,40 @@ class BookCatalogue:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Book:
-        title: Optional[str] = field(
-            default=None,
+        title: str = field(
             metadata={
                 "name": "Title",
                 "type": "Element",
                 "required": True,
-            },
+            }
         )
-        author: Optional[str] = field(
-            default=None,
+        author: str = field(
             metadata={
                 "name": "Author",
                 "type": "Element",
                 "required": True,
-            },
+            }
         )
-        date: Optional[str] = field(
-            default=None,
+        date: str = field(
             metadata={
                 "name": "Date",
                 "type": "Element",
                 "required": True,
-            },
+            }
         )
-        isbn: Optional[str] = field(
+        isbn: None | str = field(
             default=None,
             metadata={
                 "name": "ISBN",
                 "type": "Element",
             },
         )
-        publisher: Optional[str] = field(
-            default=None,
+        publisher: str = field(
             metadata={
                 "name": "Publisher",
                 "type": "Element",
                 "required": True,
-            },
+            }
         )

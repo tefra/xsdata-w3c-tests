@@ -1,38 +1,40 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 
-@dataclass
+@dataclass(kw_only=True)
 class X:
-    a: Optional[str] = field(
+    a: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    b: Optional[str] = field(
+    b: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    c: Optional[str] = field(
+    c: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    d: Optional[str] = field(
+    d: None | str = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    minimal: Optional[bool] = field(
+    minimal: None | bool = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -40,7 +42,7 @@ class X:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Y(X):
     c: Any = field(
         init=False,
@@ -56,25 +58,23 @@ class Y(X):
             "type": "Ignore",
         },
     )
-    a: Optional[str] = field(
-        default=None,
+    a: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    b: Optional[str] = field(
-        default=None,
+    b: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Test(X):
     class Meta:
         name = "test"

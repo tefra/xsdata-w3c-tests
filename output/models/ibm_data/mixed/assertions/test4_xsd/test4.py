@@ -1,29 +1,28 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Phonebill:
     class Meta:
         name = "phonebill"
 
-    plan: Optional[str] = field(
-        default=None,
+    plan: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    rent: Optional[int] = field(
-        default=None,
+    rent: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    cust_id: Optional[str] = field(
+    cust_id: None | str = field(
         default=None,
         metadata={
             "name": "custId",

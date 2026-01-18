@@ -1,19 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Ids:
     class Meta:
         name = "ids"
 
-    id1: Optional[str] = field(
+    id1: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    id2: Optional[str] = field(
+    id2: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -21,21 +22,20 @@ class Ids:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    multiple_ids: Optional["Root.MultipleIds"] = field(
-        default=None,
+    multiple_ids: Root.MultipleIds = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MultipleIds(Ids):
         idref_element: list[str] = field(
             default_factory=list,

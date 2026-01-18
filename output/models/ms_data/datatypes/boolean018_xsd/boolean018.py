@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class ComplexfooTypeCompFoo(Enum):
@@ -13,58 +14,54 @@ class SimplefooType(Enum):
     FALSE = False
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: Optional[ComplexfooTypeCompFoo] = field(
-        default=None,
+    comp_foo: ComplexfooTypeCompFoo = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: Optional[SimplefooType] = field(
-        default=None,
+    value: SimplefooType = field(
         metadata={
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ComplexTest(ComplexfooType):
     class Meta:
         name = "complexTest"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    complex_test: Optional[ComplexTest] = field(
-        default=None,
+    complex_test: ComplexTest = field(
         metadata={
             "name": "complexTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )
-    simple_test: Optional[SimpleTest] = field(
-        default=None,
+    simple_test: SimpleTest = field(
         metadata={
             "name": "simpleTest",
             "type": "Element",
             "required": True,
-        },
+        }
     )

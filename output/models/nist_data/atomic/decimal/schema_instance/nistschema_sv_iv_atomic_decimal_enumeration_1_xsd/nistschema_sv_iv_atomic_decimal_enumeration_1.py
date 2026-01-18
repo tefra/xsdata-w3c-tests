@@ -1,7 +1,8 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-decimal-enumeration-1-NS"
 
@@ -15,15 +16,14 @@ class NistschemaSvIvAtomicDecimalEnumeration1Type(Enum):
     VALUE_MINUS_1914_0 = Decimal("-1914.0")
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicDecimalEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-decimal-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-decimal-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvAtomicDecimalEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicDecimalEnumeration1Type = field(
         metadata={
             "required": True,
-        },
+        }
     )

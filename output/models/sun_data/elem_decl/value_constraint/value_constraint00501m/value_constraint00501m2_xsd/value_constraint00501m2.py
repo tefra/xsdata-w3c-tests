@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/valueConstraint"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Element:
     class Meta:
         namespace = "ElemDecl/valueConstraint"
@@ -19,17 +20,16 @@ class Element:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    element: Optional[Element] = field(
-        default=None,
+    element: Element = field(
         metadata={
             "name": "Element",
             "type": "Element",
             "required": True,
-        },
+        }
     )

@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Foo:
     class Meta:
         name = "foo"
@@ -11,12 +13,11 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
         },
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Foo):
     class Meta:
         name = "root"

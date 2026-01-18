@@ -1,20 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Temp:
     class Meta:
         name = "temp"
 
-    x: Optional[object] = field(
-        default=None,
+    x: object = field(
         metadata={
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
-    y: Optional[str] = field(
+    y: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",

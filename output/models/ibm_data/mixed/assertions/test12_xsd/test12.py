@@ -1,54 +1,51 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Shape1:
     class Meta:
         name = "Shape"
 
-    a: Optional[int] = field(
-        default=None,
+    a: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    b: Optional[int] = field(
-        default=None,
+    b: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    c: Optional[int] = field(
-        default=None,
+    c: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    d: Optional[int] = field(
+    d: None | int = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
         },
     )
-    type_value: Optional[str] = field(
-        default=None,
+    type_value: str = field(
         metadata={
             "name": "type",
             "type": "Attribute",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Shape(Shape1):
     class Meta:
         name = "shape"

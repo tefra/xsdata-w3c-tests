@@ -1,22 +1,22 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/IBMd3_16v02"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/IBMd3_16v02"
 
-    elflt_union_c: Optional[str] = field(
-        default=None,
+    elflt_union_c: str = field(
         metadata={
             "name": "elfltUnionC",
             "type": "Element",
             "namespace": "",
             "required": True,
             "pattern": r"[0-9][0-9]",
-        },
+        }
     )

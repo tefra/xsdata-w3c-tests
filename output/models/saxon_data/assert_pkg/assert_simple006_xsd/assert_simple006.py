@@ -1,18 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Value:
     class Meta:
         name = "value"
 
-    value: Optional[Union[XmlDate, XmlDateTime]] = field(default=None)
+    value: XmlDate | XmlDateTime = field()
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Outer:
     class Meta:
         name = "outer"

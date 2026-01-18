@@ -1,8 +1,9 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Xmlns:
     class Meta:
         name = "xmlns"
@@ -13,7 +14,7 @@ class Xmlns:
             "required": True,
         },
     )
-    attr_test: Optional[str] = field(
+    attr_test: None | str = field(
         default=None,
         metadata={
             "name": "attrTest",
@@ -22,7 +23,7 @@ class Xmlns:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root(Xmlns):
     class Meta:
         name = "root"

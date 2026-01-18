@@ -1,5 +1,6 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.ms_data.particles.particles_q017_xsd.particles_q017_imp import (
     Foo,
@@ -8,9 +9,9 @@ from output.models.ms_data.particles.particles_q017_xsd.particles_q017_imp impor
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -27,9 +28,9 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -47,16 +48,15 @@ class R:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[R] = field(
+    elem: None | R = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )

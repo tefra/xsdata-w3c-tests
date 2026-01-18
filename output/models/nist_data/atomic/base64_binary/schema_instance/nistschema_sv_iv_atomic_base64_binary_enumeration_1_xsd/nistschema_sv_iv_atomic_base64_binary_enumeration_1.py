@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-base64Binary-enumeration-1-NS"
 
@@ -15,16 +16,15 @@ class NistschemaSvIvAtomicBase64BinaryEnumeration1Type(Enum):
     C3_RJB2XYCND2B_WPZA29WDMDJBNK = b"stcolrrwvmjskopvgcny"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicBase64BinaryEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-base64Binary-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvAtomicBase64BinaryEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvAtomicBase64BinaryEnumeration1Type = field(
         metadata={
             "required": True,
             "format": "base64",
-        },
+        }
     )

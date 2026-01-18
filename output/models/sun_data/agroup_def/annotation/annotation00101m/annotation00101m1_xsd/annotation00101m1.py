@@ -1,20 +1,21 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "AGroupDef/annotation"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
-    c: Optional[int] = field(
+    c: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
         },
     )
-    date: Optional[XmlDate] = field(
+    date: None | XmlDate = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -22,13 +23,13 @@ class A:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "AGroupDef/annotation"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",

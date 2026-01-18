@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LaxContainerType:
-    other_element: Optional[object] = field(
+    other_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -15,9 +16,9 @@ class LaxContainerType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SkipContainerType:
-    other_element: Optional[object] = field(
+    other_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -27,9 +28,9 @@ class SkipContainerType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class StrictContainerType:
-    other_element: Optional[object] = field(
+    other_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -38,27 +39,27 @@ class StrictContainerType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class LaxContainer(LaxContainerType):
     class Meta:
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class SkipContainer(SkipContainerType):
     class Meta:
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class StrictContainer(StrictContainerType):
     class Meta:
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RootContainerType:
-    strict_container: Optional[StrictContainer] = field(
+    strict_container: None | StrictContainer = field(
         default=None,
         metadata={
             "name": "StrictContainer",
@@ -66,7 +67,7 @@ class RootContainerType:
             "namespace": "a",
         },
     )
-    lax_container: Optional[LaxContainer] = field(
+    lax_container: None | LaxContainer = field(
         default=None,
         metadata={
             "name": "LaxContainer",
@@ -74,7 +75,7 @@ class RootContainerType:
             "namespace": "a",
         },
     )
-    skip_container: Optional[SkipContainer] = field(
+    skip_container: None | SkipContainer = field(
         default=None,
         metadata={
             "name": "SkipContainer",
@@ -84,13 +85,13 @@ class RootContainerType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class RootContainer(RootContainerType):
     class Meta:
         namespace = "a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
@@ -101,7 +102,6 @@ class Doc:
         metadata={
             "name": "RootContainer",
             "type": "Element",
-            "min_occurs": 1,
             "max_occurs": 100,
         },
     )

@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://simple001.ly/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Chap:
     class Meta:
         name = "chap"
 
-    section: list["Chap.Section"] = field(
+    section: list[Chap.Section] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -18,7 +20,7 @@ class Chap:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Section:
         value: str = field(
             default="",
@@ -41,13 +43,13 @@ class Chap:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://simple001.ly/"
 
-    chap_or_appx: list[Union["Doc.Chap", "Doc.Appx"]] = field(
+    chap_or_appx: list[Doc.Chap | Doc.Appx] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -64,10 +66,10 @@ class Doc:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Chap(Chap):
         pass
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Appx(Chap):
         pass

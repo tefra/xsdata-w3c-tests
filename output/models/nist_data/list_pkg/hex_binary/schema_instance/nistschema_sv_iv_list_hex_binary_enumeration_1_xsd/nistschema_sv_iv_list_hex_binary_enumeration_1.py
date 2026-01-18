@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-enumeration-1-NS"
 
@@ -87,16 +88,15 @@ class NistschemaSvIvListHexBinaryEnumeration1Type(Enum):
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvListHexBinaryEnumeration1:
     class Meta:
         name = "NISTSchema-SV-IV-list-hexBinary-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-hexBinary-enumeration-1-NS"
 
-    value: Optional[NistschemaSvIvListHexBinaryEnumeration1Type] = field(
-        default=None,
+    value: NistschemaSvIvListHexBinaryEnumeration1Type = field(
         metadata={
             "required": True,
             "format": "base16",
-        },
+        }
     )

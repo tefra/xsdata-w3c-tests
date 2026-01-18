@@ -1,20 +1,20 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from xsdata.models.datatype import XmlTime
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
 
-    target: Optional[XmlTime] = field(
-        default=None,
+    target: XmlTime = field(
         metadata={
             "type": "Element",
             "required": True,
-        },
+        }
     )
     equiv: list[XmlTime] = field(
         default_factory=list,

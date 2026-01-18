@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -21,12 +22,12 @@ class No(Enum):
     VALUE_5 = 5
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: list[Union[No, Char, int]] = field(
+    att1: list[No | Char | int] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
@@ -36,17 +37,16 @@ class AttRef:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[AttRef] = field(
+    elem: None | AttRef = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

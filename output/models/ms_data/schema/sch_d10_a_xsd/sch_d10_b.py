@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "ns-a"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BCt:
     class Meta:
         name = "b-ct"
 
-    c21_or_c22: list[Union["BCt.C21", "BCt.C22"]] = field(
+    c21_or_c22: list[BCt.C21 | BCt.C22] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -31,26 +33,24 @@ class BCt:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C21:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
-            },
+            }
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class C22:
-        value: Optional[int] = field(
-            default=None,
+        value: int = field(
             metadata={
                 "required": True,
-            },
+            }
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class BE1(BCt):
     class Meta:
         name = "b-e1"

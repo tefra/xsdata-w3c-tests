@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-maxLength-3-NS"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NistschemaSvIvAtomicAnyUriMaxLength3:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-maxLength-3"

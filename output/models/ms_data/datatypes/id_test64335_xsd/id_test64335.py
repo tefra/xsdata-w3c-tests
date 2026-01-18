@@ -1,31 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:products"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Product:
-    price: Optional[Decimal] = field(
-        default=None,
+    price: Decimal = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    description: Optional[str] = field(
-        default=None,
+    description: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    id: Optional[str] = field(
+    id: None | str = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -33,115 +32,105 @@ class Product:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Apparel(Product):
-    size: Optional[str] = field(
-        default=None,
+    size: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    style: Optional[str] = field(
-        default=None,
+    style: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class MediaItem(Product):
-    title: Optional[str] = field(
-        default=None,
+    title: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    category: Optional[str] = field(
-        default=None,
+    category: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Book(MediaItem):
-    author: Optional[str] = field(
-        default=None,
+    author: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    publish_date: Optional[XmlDate] = field(
-        default=None,
+    publish_date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Cd(MediaItem):
     class Meta:
         name = "CD"
 
-    artist: Optional[str] = field(
-        default=None,
+    artist: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    release_date: Optional[XmlDate] = field(
-        default=None,
+    release_date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Dvd(MediaItem):
     class Meta:
         name = "DVD"
 
-    director: Optional[str] = field(
-        default=None,
+    director: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
-    release_date: Optional[XmlDate] = field(
-        default=None,
+    release_date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class ProductList:
-    choice: list[Union[Book, Dvd, Apparel, Cd]] = field(
+    choice: list[Book | Dvd | Apparel | Cd] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -171,7 +160,7 @@ class ProductList:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Products(ProductList):
     class Meta:
         name = "products"

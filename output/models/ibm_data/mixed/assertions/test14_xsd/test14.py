@@ -1,19 +1,19 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class XType:
     class Meta:
         name = "X_Type"
 
-    value: Optional[int] = field(
-        default=None,
+    value: int = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    a: Optional[int] = field(
+    a: None | int = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -21,7 +21,7 @@ class XType:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Example:
     x: list[XType] = field(
         default_factory=list,

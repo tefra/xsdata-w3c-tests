@@ -1,29 +1,30 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class AttRef:
     class Meta:
         name = "attRef"
 
-    aga1: Optional[object] = field(
+    aga1: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         },
     )
-    aga2: Optional[object] = field(
+    aga2: None | object = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         },
     )
-    imported_xsd_aga1: Optional[str] = field(
+    imported_xsd_aga1: None | str = field(
         default=None,
         metadata={
             "name": "aga1",
@@ -31,7 +32,7 @@ class AttRef:
             "namespace": "http://importedXSD",
         },
     )
-    imported_xsd_aga2: Optional[str] = field(
+    imported_xsd_aga2: None | str = field(
         default=None,
         metadata={
             "name": "aga2",
@@ -41,16 +42,15 @@ class AttRef:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[AttRef] = field(
+    elem: None | AttRef = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         },
     )

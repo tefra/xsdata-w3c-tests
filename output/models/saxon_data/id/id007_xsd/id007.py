@@ -1,15 +1,15 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Union
+from typing import ForwardRef
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Node:
     class Meta:
         name = "node"
 
-    node_or_mixed_a_or_mixed_b: list[
-        Union["Node", "Node.MixedA", "Node.MixedB"]
-    ] = field(
+    node_or_mixed_a_or_mixed_b: list[Node | Node.MixedA | Node.MixedB] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -46,7 +46,7 @@ class Node:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MixedA:
         value: list[str] = field(
             default_factory=list,
@@ -55,7 +55,7 @@ class Node:
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class MixedB:
         value: list[str] = field(
             default_factory=list,
@@ -65,7 +65,7 @@ class Node:
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"

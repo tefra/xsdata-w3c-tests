@@ -1,5 +1,6 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 from output.models.ms_data.particles.particles_z003_xsd.particles_z003_imp import (
     Foo,
@@ -8,19 +9,18 @@ from output.models.ms_data.particles.particles_z003_xsd.particles_z003_imp impor
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[Foo] = field(
-        default=None,
+    foo: Foo = field(
         metadata={
             "type": "Element",
             "namespace": "importedXSD",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(B):
     class Meta:
         name = "doc"

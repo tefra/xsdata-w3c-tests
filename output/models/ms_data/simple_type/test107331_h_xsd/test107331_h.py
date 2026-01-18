@@ -1,21 +1,22 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional, Union
 
 
-@dataclass
+@dataclass(kw_only=True)
 class A:
     class Meta:
         name = "a"
 
-    value: Optional[object] = field(default=None)
+    value: None | object = field(default=None)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Item:
     class Meta:
         name = "item"
 
-    any_element: Optional[object] = field(
+    any_element: None | object = field(
         default=None,
         metadata={
             "type": "Wildcard",
@@ -24,12 +25,12 @@ class Item:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    a_or_item: list[Union[A, Item]] = field(
+    a_or_item: list[A | Item] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

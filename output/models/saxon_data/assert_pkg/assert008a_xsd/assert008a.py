@@ -1,10 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://chess/ns/"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T1:
     class Meta:
         name = "t1"
@@ -28,28 +29,27 @@ class T1:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T2(T1):
     class Meta:
         name = "t2"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class T3(T2):
     class Meta:
         name = "t3"
 
-    result: Optional[str] = field(
-        default=None,
+    result: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://chess/ns/",
             "required": True,
-        },
+        }
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Game(T3):
     class Meta:
         name = "game"

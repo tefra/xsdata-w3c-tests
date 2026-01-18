@@ -1,15 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import ForwardRef, Optional, Union
+from typing import ForwardRef
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Base:
     class Meta:
         name = "base"
 
-    e1_or_e2: Optional[Union["Base.E1", "Base.E2"]] = field(
+    e1_or_e2: None | Base.E1 | Base.E2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -28,35 +30,33 @@ class Base:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E1:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E2:
-        content: Optional[object] = field(
+        content: None | object = field(
             default=None,
             metadata={
                 "type": "Wildcard",
                 "namespace": "http://xsdtesting",
-                "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1_or_e2: Optional[Union["Testing.E1", "Testing.E2"]] = field(
+    e1_or_e2: None | Testing.E1 | Testing.E2 = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -75,26 +75,26 @@ class Testing(Base):
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E1:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="foo",
             metadata={
                 "required": True,
             },
         )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class E2:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="foo",
             metadata={
                 "required": True,
             },
         )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc(Testing):
     class Meta:
         name = "doc"

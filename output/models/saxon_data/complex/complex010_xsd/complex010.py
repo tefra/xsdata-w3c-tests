@@ -1,25 +1,24 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Decimal] = field(
-        default=None,
+    value: Decimal = field(
         metadata={
             "required": True,
-        },
+        }
     )
-    no_namespace_schema_location: Optional[str] = field(
-        default=None,
+    no_namespace_schema_location: str = field(
         metadata={
             "name": "noNamespaceSchemaLocation",
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
             "required": True,
-        },
+        }
     )

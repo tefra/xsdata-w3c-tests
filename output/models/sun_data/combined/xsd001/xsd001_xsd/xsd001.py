@@ -1,16 +1,17 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://foo.com"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Root:
     class Meta:
         name = "root"
         namespace = "http://foo.com"
 
-    child: list["Root.Child"] = field(
+    child: list[Root.Child] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -20,7 +21,7 @@ class Root:
         },
     )
 
-    @dataclass
+    @dataclass(kw_only=True)
     class Child:
         value: str = field(
             default="",
@@ -30,7 +31,7 @@ class Root:
                 "max_length": 10,
             },
         )
-        attr: Optional[str] = field(
+        attr: None | str = field(
             default=None,
             metadata={
                 "type": "Attribute",

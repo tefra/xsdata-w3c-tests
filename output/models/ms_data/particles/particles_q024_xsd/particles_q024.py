@@ -1,12 +1,13 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-@dataclass
+@dataclass(kw_only=True)
 class B:
-    foo: Optional[object] = field(
+    foo: None | object = field(
         default=None,
         metadata={
             "type": "Element",
@@ -23,7 +24,7 @@ class B:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class R:
     foo: list[object] = field(
         default_factory=list,
@@ -36,18 +37,15 @@ class R:
     )
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Doc:
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    foo: list[object] = field(
-        default_factory=list,
+    elem: None | R = field(
+        default=None,
         metadata={
-            "wrapper": "elem",
             "type": "Element",
-            "min_occurs": 1,
-            "max_occurs": 3,
         },
     )

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myNS:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNS.tempuri.org">
+  <myNS:t myNS:col="a">a1</myNS:t>
+  <myNS:t myNS:col="b">a1</myNS:t>
+  <myNS:t myNS:col="a">a2</myNS:t>
+</myNS:root>

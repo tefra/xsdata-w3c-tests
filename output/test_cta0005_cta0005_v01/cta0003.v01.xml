@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:messages xmlns:c="http://cta0002/">
+  <c:message c:min="0">
+    <c:e>1</c:e>
+    <c:e>2</c:e>
+    <c:e>3</c:e>
+  </c:message>
+  <c:message c:min="1">
+    <c:e>1</c:e>
+    <c:e>2</c:e>
+    <c:e>3</c:e>
+  </c:message>
+</c:messages>

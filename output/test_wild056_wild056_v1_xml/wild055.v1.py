@@ -1,0 +1,10 @@
+from output.models.saxon_data.wild.wild056_xsd.wild056 import Doc
+
+
+obj = Doc(
+    local_attributes={
+        'ping': 'pong',
+        'peng': 'pyng',
+        'ok': 'true',
+    }
+)

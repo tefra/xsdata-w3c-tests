@@ -1,4 +1,5 @@
 import functools
+import inspect
 import logging
 import os
 from pathlib import Path
@@ -23,7 +24,7 @@ log = logging.getLogger()
 
 root = Path(__file__).absolute().parent.parent
 w3c = root.joinpath("w3c")
-output = root.joinpath("output/instances")
+output = root.joinpath("output")
 os.chdir(w3c.parent)
 config = SerializerConfig(indent="  ")
 
@@ -71,7 +72,8 @@ def assert_bindings(
 
     save_path = None
     if save_output:
-        save_path = output.joinpath(instance)
+        caller = inspect.stack()[1].function
+        save_path = output.joinpath(caller).joinpath(instance_path.name)
         save_path.parent.mkdir(parents=True, exist_ok=True)
 
     assert_xml_bindings(
@@ -125,7 +127,11 @@ def assert_valid(validator, tree):
 
 @functools.lru_cache(maxsize=5)
 def generate_models(
-    xsd: str, package: str, class_name: str, output_format: str, structure_style: str
+    xsd: str,
+    package: str,
+    class_name: str,
+    output_format: str,
+    structure_style: str,
 ):
     runner = CliRunner()
     result = runner.invoke(

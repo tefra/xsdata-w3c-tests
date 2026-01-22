@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc xmlns="">
+  <ns1:extra xmlns:ns1="http://open.com/">42</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">43</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">44</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">45</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">46</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">47</ns1:extra>
+  <a/>
+  <b/>
+  <c/>
+</doc>

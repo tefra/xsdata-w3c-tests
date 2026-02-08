@@ -4,8 +4,6 @@ import logging
 import os
 from pathlib import Path
 from typing import Any
-from typing import Dict
-from typing import Optional
 
 import pytest
 import xmlschema
@@ -61,7 +59,7 @@ def assert_bindings(
         models_package = ".".join(clazz.__module__.split(".")[: levels + 1])
 
     try:
-        ns_map: Dict[Optional[str], str] = {}
+        ns_map: dict[str | None, str] = {}
         instance_path = w3c.joinpath(instance)
         schema_path = w3c.joinpath(schema)
         context = XmlContext(class_type=output_format, models_package=models_package)
@@ -90,10 +88,10 @@ def assert_bindings(
 def assert_xml_bindings(
     context: XmlContext,
     obj: Any,
-    ns_map: Dict,
+    ns_map: dict[str | None, str],
     schema_path: Path,
     instance_path: Path,
-    save_path: Optional[Path],
+    save_path: Path | None,
     version: str,
 ):
     __tracebackhide__ = True

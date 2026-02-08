@@ -308,7 +308,6 @@ class Expected:
     validity: ExpectedOutcome = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     version: list[KnownToken | Decimal | str] = field(
@@ -414,13 +413,11 @@ class StatusEntry:
     status: Status = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     date: XmlDate = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     bugzilla: None | str = field(
@@ -486,25 +483,21 @@ class TestResult:
     validity: TestOutcome = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     set: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     group: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     test: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     normalized_load: None | Decimal = field(
@@ -662,20 +655,17 @@ class TestSuiteResults:
     suite: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     processor: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     submit_date: XmlDate = field(
         metadata={
             "name": "submitDate",
             "type": "Attribute",
-            "required": True,
         }
     )
     publication_permission: None | TestSuiteResultsPublicationPermission = (
@@ -763,7 +753,6 @@ class InstanceTest:
         metadata={
             "name": "instanceDocument",
             "type": "Element",
-            "required": True,
         }
     )
     expected: list[Expected] = field(
@@ -787,7 +776,6 @@ class InstanceTest:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     version: list[KnownToken | Decimal | str] = field(
@@ -871,21 +859,18 @@ class TestSuite:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     release_date: XmlDate = field(
         metadata={
             "name": "releaseDate",
             "type": "Attribute",
-            "required": True,
         }
     )
     schema_version: str = field(
         metadata={
             "name": "schemaVersion",
             "type": "Attribute",
-            "required": True,
         }
     )
     version: list[KnownToken | Decimal | str] = field(
@@ -1001,7 +986,6 @@ class SchemaTest:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     version: list[KnownToken | Decimal | str] = field(
@@ -1116,7 +1100,6 @@ class TestGroup:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     version: list[KnownToken | Decimal | str] = field(
@@ -1196,13 +1179,11 @@ class TestSet:
     contributor: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     version: list[KnownToken | Decimal | str] = field(

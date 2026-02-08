@@ -1,11 +1,10 @@
 import json
 import textwrap
 from collections import defaultdict
+from decimal import Decimal
 from enum import Enum
 from pathlib import Path
-from typing import Dict
 from typing import Iterator
-from typing import List
 from typing import NamedTuple
 
 from lxml import etree
@@ -14,7 +13,7 @@ from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.utils import text
 from xsdata.utils.namespaces import local_name
 
-from models.xsts import Expected
+from models.xsts import Expected, KnownToken
 from models.xsts import ExpectedOutcome
 from models.xsts import TestGroup
 from models.xsts import TestSet
@@ -83,7 +82,7 @@ def generate():
         write_test_file(group, test_cases)
 
 
-def write_test_file(group: str, cases: List[TestCase]):
+def write_test_file(group: str, cases: list[TestCase]):
     num = 0
     for chunk_cases in chunks(cases, 1000):
         num += len(chunk_cases)
@@ -104,9 +103,9 @@ def chunks(lst, n):
         yield lst[i:end]
 
 
-def render_test_cases(test_file, cases: List[TestCase]) -> str:
+def render_test_cases(test_file, cases: list[TestCase]) -> str:
     output = []
-    names: Dict[str, int] = defaultdict(int)
+    names: dict[str, int] = defaultdict(int)
     for case in cases:
         name = f"{case.schema_name}_{case.instance_name}"
         if name in names:
@@ -197,7 +196,7 @@ def make_test_cases(path: Path, group: TestGroup):
             )
 
 
-def validity(expects: List[Expected]) -> Expected:
+def validity(expects: list[Expected]) -> Expected:
     expect = None
     if len(expects) > 1:
         expect = next(
@@ -207,7 +206,7 @@ def validity(expects: List[Expected]) -> Expected:
     return expect if expect else expects[0]
 
 
-def pick_version(versions: List):
+def pick_version(versions: list[KnownToken | Decimal | str]):
     choices = set(v.value if isinstance(v, Enum) else str(v) for v in versions)
     if "1.1" in choices:
         return "1.1"

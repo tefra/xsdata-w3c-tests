@@ -55,7 +55,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e3: None | E3 = field(

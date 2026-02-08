@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicAnyUriLength1:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "length": 11,
         },
     )

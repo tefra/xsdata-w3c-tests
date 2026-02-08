@@ -28,7 +28,6 @@ class R(B):
         metadata={
             "type": "Element",
             "namespace": "http://www.target001.com/",
-            "required": True,
         }
     )
 

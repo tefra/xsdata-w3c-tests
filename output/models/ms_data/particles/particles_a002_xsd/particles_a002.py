@@ -33,7 +33,6 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     elem1: None | object = field(

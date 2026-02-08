@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicIntegerMinExclusive3:
 
     value: int = field(
         metadata={
-            "required": True,
             "min_exclusive": 389578809107570477,
         }
     )

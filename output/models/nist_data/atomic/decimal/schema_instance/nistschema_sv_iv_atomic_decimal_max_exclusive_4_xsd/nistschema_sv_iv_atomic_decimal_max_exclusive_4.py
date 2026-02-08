@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalMaxExclusive4:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "max_exclusive": Decimal("-214771926190724381"),
         }
     )

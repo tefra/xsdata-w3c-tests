@@ -21,7 +21,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     idref_attr: None | str = field(

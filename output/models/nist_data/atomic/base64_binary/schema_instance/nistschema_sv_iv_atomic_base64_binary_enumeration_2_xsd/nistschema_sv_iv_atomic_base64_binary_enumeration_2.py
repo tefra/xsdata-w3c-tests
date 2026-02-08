@@ -30,7 +30,6 @@ class NistschemaSvIvAtomicBase64BinaryEnumeration2:
 
     value: NistschemaSvIvAtomicBase64BinaryEnumeration2Type = field(
         metadata={
-            "required": True,
             "format": "base64",
         }
     )

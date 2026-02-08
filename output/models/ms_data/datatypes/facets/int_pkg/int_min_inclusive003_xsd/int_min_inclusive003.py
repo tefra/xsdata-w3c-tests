@@ -12,7 +12,6 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_inclusive": 1,
         }
     )

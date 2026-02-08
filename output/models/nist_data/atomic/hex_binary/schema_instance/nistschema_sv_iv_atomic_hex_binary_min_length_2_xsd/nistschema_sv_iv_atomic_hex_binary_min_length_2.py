@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicHexBinaryMinLength2:
     value: bytes = field(
         default=b"",
         metadata={
-            "required": True,
             "min_length": 28,
             "format": "base16",
         },

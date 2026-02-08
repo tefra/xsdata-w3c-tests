@@ -106,8 +106,4 @@ class NistschemaSvIvListFloatEnumeration2:
         name = "NISTSchema-SV-IV-list-float-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-float-enumeration-2-NS"
 
-    value: NistschemaSvIvListFloatEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListFloatEnumeration2Type = field()

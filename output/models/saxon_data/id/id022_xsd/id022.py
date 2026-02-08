@@ -8,16 +8,10 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     key: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     ref: list[str] = field(

@@ -29,7 +29,6 @@ class MyType:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 

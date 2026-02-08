@@ -32,7 +32,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_attributes: dict[str, str] = field(

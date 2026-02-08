@@ -10,13 +10,7 @@ class E:
     class Meta:
         namespace = "ElemDecl/valueConstraint"
 
-    value: object = field(
-        init=False,
-        default="alpha",
-        metadata={
-            "required": True,
-        },
-    )
+    value: object = field(init=False, default="alpha")
 
 
 @dataclass(kw_only=True)

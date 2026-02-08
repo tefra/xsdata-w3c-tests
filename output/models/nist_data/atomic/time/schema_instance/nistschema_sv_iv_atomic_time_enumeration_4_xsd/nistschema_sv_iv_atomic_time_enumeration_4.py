@@ -26,8 +26,4 @@ class NistschemaSvIvAtomicTimeEnumeration4:
         name = "NISTSchema-SV-IV-atomic-time-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-time-enumeration-4-NS"
 
-    value: NistschemaSvIvAtomicTimeEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicTimeEnumeration4Type = field()

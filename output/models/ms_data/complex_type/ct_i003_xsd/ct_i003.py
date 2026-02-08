@@ -13,7 +13,6 @@ class FooType:
             "name": "myEle3",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_ele4: int = field(
@@ -21,7 +20,6 @@ class FooType:
             "name": "myEle4",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     foo_type: None | str = field(

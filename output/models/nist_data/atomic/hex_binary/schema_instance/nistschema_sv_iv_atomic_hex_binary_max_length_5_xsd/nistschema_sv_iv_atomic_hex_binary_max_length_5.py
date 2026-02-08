@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicHexBinaryMaxLength5:
     value: bytes = field(
         default=b"",
         metadata={
-            "required": True,
             "max_length": 74,
             "format": "base16",
         },

@@ -102,8 +102,4 @@ class NistschemaSvIvListNormalizedStringEnumeration5:
         name = "NISTSchema-SV-IV-list-normalizedString-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-normalizedString-enumeration-5-NS"
 
-    value: NistschemaSvIvListNormalizedStringEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListNormalizedStringEnumeration5Type = field()

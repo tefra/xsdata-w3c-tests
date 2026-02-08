@@ -54,14 +54,12 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e3: E3 = field(
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
 

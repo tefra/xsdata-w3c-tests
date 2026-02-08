@@ -12,11 +12,7 @@ class A1:
     class Meta:
         name = "A"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()
 
 
 @dataclass(kw_only=True)

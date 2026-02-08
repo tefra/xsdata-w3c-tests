@@ -23,11 +23,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: float = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: float = field()
 
 
 @dataclass(kw_only=True)

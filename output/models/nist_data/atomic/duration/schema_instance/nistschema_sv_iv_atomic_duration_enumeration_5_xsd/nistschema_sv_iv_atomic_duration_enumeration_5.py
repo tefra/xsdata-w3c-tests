@@ -26,8 +26,4 @@ class NistschemaSvIvAtomicDurationEnumeration5:
         name = "NISTSchema-SV-IV-atomic-duration-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-duration-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicDurationEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicDurationEnumeration5Type = field()

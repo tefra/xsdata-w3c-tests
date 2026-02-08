@@ -15,7 +15,6 @@ class RootType:
             "name": "dateEle",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

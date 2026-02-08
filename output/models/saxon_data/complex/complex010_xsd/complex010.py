@@ -9,16 +9,11 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
     no_namespace_schema_location: str = field(
         metadata={
             "name": "noNamespaceSchemaLocation",
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
-            "required": True,
         }
     )

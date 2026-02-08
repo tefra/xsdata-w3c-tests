@@ -16,14 +16,12 @@ class A1:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

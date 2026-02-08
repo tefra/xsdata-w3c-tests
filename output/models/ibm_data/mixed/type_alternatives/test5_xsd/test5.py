@@ -62,14 +62,12 @@ class Y(X):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

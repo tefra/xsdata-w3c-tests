@@ -14,7 +14,6 @@ class C:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_element: list[object] = field(
@@ -33,11 +32,7 @@ class Root:
         name = "root"
         namespace = "a"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)

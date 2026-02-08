@@ -13,7 +13,6 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "max_exclusive": Decimal("7.7"),
         }
     )

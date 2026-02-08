@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicStringLength3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "length": 713,
         },
     )

@@ -15,13 +15,11 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     name: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

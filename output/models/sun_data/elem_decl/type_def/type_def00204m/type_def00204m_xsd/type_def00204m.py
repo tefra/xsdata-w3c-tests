@@ -10,11 +10,7 @@ class Head:
     class Meta:
         namespace = "ElemDecl/typeDef"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)

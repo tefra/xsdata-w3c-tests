@@ -14,7 +14,6 @@ class Root:
             "name": "str",
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
     number: int = field(
@@ -22,7 +21,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )
     bool_value: bool = field(
@@ -31,6 +29,5 @@ class Root:
             "name": "bool",
             "type": "Element",
             "namespace": "",
-            "required": True,
         },
     )

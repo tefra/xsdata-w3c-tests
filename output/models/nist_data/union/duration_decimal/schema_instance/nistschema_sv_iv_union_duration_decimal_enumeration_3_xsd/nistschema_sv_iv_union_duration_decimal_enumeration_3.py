@@ -24,8 +24,4 @@ class NistschemaSvIvUnionDurationDecimalEnumeration3:
         name = "NISTSchema-SV-IV-union-duration-decimal-enumeration-3"
         namespace = "NISTSchema-SV-IV-union-duration-decimal-enumeration-3-NS"
 
-    value: NistschemaSvIvUnionDurationDecimalEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvUnionDurationDecimalEnumeration3Type = field()

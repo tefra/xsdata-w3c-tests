@@ -12,7 +12,6 @@ class Ct:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

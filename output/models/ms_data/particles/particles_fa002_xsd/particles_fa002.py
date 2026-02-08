@@ -40,7 +40,6 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     e2: None | object = field(

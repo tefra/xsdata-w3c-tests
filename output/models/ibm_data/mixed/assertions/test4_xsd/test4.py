@@ -12,14 +12,12 @@ class Phonebill:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     rent: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     cust_id: None | str = field(

@@ -12,12 +12,7 @@ class T:
         name = "t"
         namespace = "myNS.tempuri.org"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -26,11 +21,7 @@ class U:
         name = "u"
         namespace = "myNS.tempuri.org"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
 
 
 @dataclass(kw_only=True)

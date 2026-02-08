@@ -14,21 +14,18 @@ class Computer:
             "name": "CPU",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     memory: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     monitor: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     speaker: None | str = field(

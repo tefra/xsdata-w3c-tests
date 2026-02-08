@@ -12,6 +12,5 @@ class DKstra:
         metadata={
             "name": "vrĳtag",
             "type": "Attribute",
-            "required": True,
         }
     )

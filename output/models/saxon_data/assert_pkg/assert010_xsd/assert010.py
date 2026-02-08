@@ -10,15 +10,10 @@ class Temp:
     class Meta:
         name = "temp"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()
     start_date: XmlDate = field(
         metadata={
             "name": "startDate",
             "type": "Attribute",
-            "required": True,
         }
     )

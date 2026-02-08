@@ -11,7 +11,6 @@ class Doc:
     att: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     content: list[object] = field(

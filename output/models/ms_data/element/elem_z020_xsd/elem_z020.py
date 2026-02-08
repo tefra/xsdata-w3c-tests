@@ -11,11 +11,7 @@ class E1:
         name = "e1"
         namespace = "foo"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)
@@ -24,11 +20,7 @@ class Foo:
         name = "foo"
         namespace = "foo"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)

@@ -33,12 +33,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -47,12 +42,7 @@ class Ncreate:
         name = "ncreate"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -61,8 +51,4 @@ class NistschemaSvIvAtomicQnameEnumeration2:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: NistschemaSvIvAtomicQnameEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicQnameEnumeration2Type = field()

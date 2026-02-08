@@ -46,7 +46,6 @@ class Root:
         metadata={
             "name": "complexTest",
             "type": "Element",
-            "required": True,
         }
     )
     simple_test: list[SimpleTest] = field(

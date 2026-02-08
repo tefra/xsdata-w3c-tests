@@ -89,8 +89,4 @@ class NistschemaSvIvListDateTimeEnumeration2:
         name = "NISTSchema-SV-IV-list-dateTime-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-dateTime-enumeration-2-NS"
 
-    value: NistschemaSvIvListDateTimeEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListDateTimeEnumeration2Type = field()

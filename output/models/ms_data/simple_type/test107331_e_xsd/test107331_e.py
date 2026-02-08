@@ -56,29 +56,21 @@ class Ct4:
     class Meta:
         name = "ct4"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     type_value: int = field(
         metadata={
             "name": "type",
             "type": "Attribute",
-            "required": True,
         }
     )
     state: Ct4State = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

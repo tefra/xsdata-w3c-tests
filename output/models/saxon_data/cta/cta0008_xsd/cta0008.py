@@ -11,7 +11,6 @@ class PublicationType:
         metadata={
             "name": "Title",
             "type": "Element",
-            "required": True,
         }
     )
     author: list[str] = field(
@@ -25,7 +24,6 @@ class PublicationType:
         metadata={
             "name": "Date",
             "type": "Element",
-            "required": True,
         }
     )
     kind: None | str = field(
@@ -53,13 +51,11 @@ class Example:
             metadata={
                 "name": "ISBN",
                 "type": "Element",
-                "required": True,
             }
         )
         publisher: str = field(
             metadata={
                 "name": "Publisher",
                 "type": "Element",
-                "required": True,
             }
         )

@@ -112,7 +112,6 @@ class Root:
     class TestByte:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -121,7 +120,6 @@ class Root:
     class TestUnsignedByte:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -130,7 +128,6 @@ class Root:
     class TestInteger:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -139,7 +136,6 @@ class Root:
     class TestPositiveInteger:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -148,7 +144,6 @@ class Root:
     class TestNegativeInteger:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -157,7 +152,6 @@ class Root:
     class TestNonNegativeInteger:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -166,7 +160,6 @@ class Root:
     class TestNonPositiveInteger:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -175,7 +168,6 @@ class Root:
     class TestInt:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -184,7 +176,6 @@ class Root:
     class TestUnsignedInt:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -193,7 +184,6 @@ class Root:
     class TestLong:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -202,7 +192,6 @@ class Root:
     class TestUnsignedLong:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -211,7 +200,6 @@ class Root:
     class TestShort:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )
@@ -220,7 +208,6 @@ class Root:
     class TestUnsignedShort:
         value: int = field(
             metadata={
-                "required": True,
                 "fraction_digits": 0,
             }
         )

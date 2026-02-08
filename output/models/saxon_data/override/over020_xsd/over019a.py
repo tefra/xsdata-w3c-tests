@@ -11,9 +11,4 @@ class Para:
         name = "para"
         namespace = "http://example.com/over019"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

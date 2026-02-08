@@ -14,14 +14,12 @@ class CtB:
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
     b2: int = field(
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
 

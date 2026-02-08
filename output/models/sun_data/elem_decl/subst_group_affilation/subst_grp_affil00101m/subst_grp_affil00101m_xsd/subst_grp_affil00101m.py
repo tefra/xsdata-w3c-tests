@@ -14,7 +14,6 @@ class PublicationType:
             "name": "Title",
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
-            "required": True,
         }
     )
 
@@ -44,7 +43,6 @@ class MagazineType(PublicationType):
             "name": "Date",
             "type": "Element",
             "namespace": "ElemDecl/substGroupAffilation",
-            "required": True,
         }
     )
 

@@ -21,14 +21,12 @@ class C:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     y: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -42,14 +40,12 @@ class D:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     y: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_element: None | object = field(
@@ -71,7 +67,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_element: None | object = field(

@@ -61,11 +61,7 @@ class Bar:
     class Meta:
         name = "bar"
 
-    value: St = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: St = field()
 
 
 @dataclass(kw_only=True)

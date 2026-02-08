@@ -51,7 +51,6 @@ class FooType(Foo):
             "name": "myEle4",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_attributes: dict[str, str] = field(

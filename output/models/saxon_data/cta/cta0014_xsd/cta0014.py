@@ -10,11 +10,7 @@ class When:
     class Meta:
         name = "when"
 
-    value: XmlDate | XmlTime | XmlDateTime | XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate | XmlTime | XmlDateTime | XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -25,7 +21,6 @@ class Event:
     when: When = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     type_value: None | object = field(

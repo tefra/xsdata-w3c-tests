@@ -10,11 +10,7 @@ class Numtype:
     class Meta:
         name = "numtype"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     id_1: None | int = field(
         default=None,
         metadata={

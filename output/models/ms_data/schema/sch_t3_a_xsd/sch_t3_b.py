@@ -25,7 +25,6 @@ class BCt:
     att3: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att5: None | object = field(
@@ -43,13 +42,11 @@ class BCt:
     att7: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att9: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att11: None | int = field(

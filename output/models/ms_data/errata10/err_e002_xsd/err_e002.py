@@ -11,11 +11,7 @@ class TestElement:
         name = "testElement"
         namespace = "http://www.tempuri.org"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -28,6 +24,5 @@ class Root:
         metadata={
             "name": "testElement",
             "type": "Element",
-            "required": True,
         }
     )

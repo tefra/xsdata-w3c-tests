@@ -14,7 +14,6 @@ class CmplxBase:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     element2: None | int = field(
@@ -28,14 +27,12 @@ class CmplxBase:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     element4: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -49,28 +46,24 @@ class Derived:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     element3: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     element2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     element1: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

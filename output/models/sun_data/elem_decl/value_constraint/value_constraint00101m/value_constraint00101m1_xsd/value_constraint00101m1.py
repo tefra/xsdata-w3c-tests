@@ -12,9 +12,4 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    value: Decimal = field(
-        default=Decimal("12"),
-        metadata={
-            "required": True,
-        },
-    )
+    value: Decimal = field(default=Decimal("12"))

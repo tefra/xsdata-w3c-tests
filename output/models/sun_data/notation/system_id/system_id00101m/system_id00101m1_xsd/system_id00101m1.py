@@ -11,9 +11,4 @@ class A:
         name = "a"
         namespace = "systemId"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

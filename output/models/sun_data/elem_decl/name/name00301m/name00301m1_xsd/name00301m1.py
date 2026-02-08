@@ -31,7 +31,6 @@ class Type1:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -46,6 +45,5 @@ class Type2:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

@@ -11,12 +11,7 @@ class B:
         name = "b"
         namespace = "http://www.w3.org/1999/xhtml"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)

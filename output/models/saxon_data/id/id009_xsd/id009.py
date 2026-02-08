@@ -36,12 +36,7 @@ class Node:
             global_type = False
             nillable = True
 
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class Idref:
@@ -49,12 +44,7 @@ class Node:
             global_type = False
             nillable = True
 
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
 
 @dataclass(kw_only=True)

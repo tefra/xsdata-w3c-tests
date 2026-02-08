@@ -8,11 +8,7 @@ class ShoeType:
     class Meta:
         name = "shoeType"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     country: None | str = field(
         default=None,
         metadata={

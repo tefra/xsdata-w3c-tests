@@ -8,12 +8,7 @@ class MyType:
     class Meta:
         name = "myType"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -21,13 +16,7 @@ class FooType(MyType):
     class Meta:
         name = "fooType"
 
-    value: str = field(
-        init=False,
-        default="CA",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="CA")
 
 
 @dataclass(kw_only=True)

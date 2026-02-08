@@ -14,7 +14,6 @@ class Root:
             "name": "Element1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -43,18 +42,8 @@ class Root:
 
         @dataclass(kw_only=True)
         class Group2Element1:
-            value: str = field(
-                default="",
-                metadata={
-                    "required": True,
-                },
-            )
+            value: str = field(default="")
 
         @dataclass(kw_only=True)
         class Group2Element2:
-            value: str = field(
-                default="",
-                metadata={
-                    "required": True,
-                },
-            )
+            value: str = field(default="")

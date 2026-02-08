@@ -11,7 +11,6 @@ class FooTest:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"[A-E]{1,2}",
         },
     )
@@ -26,6 +25,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

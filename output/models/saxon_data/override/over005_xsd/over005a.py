@@ -20,6 +20,5 @@ class Doc:
     code: XmlDate = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )

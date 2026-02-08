@@ -11,7 +11,6 @@ class Message:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "max_length": 25,
         },
     )

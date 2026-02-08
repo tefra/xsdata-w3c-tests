@@ -26,7 +26,6 @@ class Yyy:
         metadata={
             "wrapper": "zzz",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -39,7 +38,6 @@ class Zzz:
     signatures: Signatures = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -53,7 +51,6 @@ class Www:
         metadata={
             "wrapper": "xxx",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -67,7 +64,6 @@ class Xxx:
         metadata={
             "wrapper": "yyy",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -81,7 +77,6 @@ class Ttt:
         metadata={
             "wrapper": "uuu",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -95,7 +90,6 @@ class Uuu:
         metadata={
             "wrapper": "www",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -109,7 +103,6 @@ class Rrr:
         metadata={
             "wrapper": "sss",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -123,7 +116,6 @@ class Sss:
         metadata={
             "wrapper": "ttt",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -137,7 +129,6 @@ class Ppp:
         metadata={
             "wrapper": "qqq",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -151,7 +142,6 @@ class Qqq:
         metadata={
             "wrapper": "rrr",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -165,7 +155,6 @@ class Nnn:
         metadata={
             "wrapper": "ooo",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -179,7 +168,6 @@ class Ooo:
         metadata={
             "wrapper": "ppp",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -193,7 +181,6 @@ class Lll:
         metadata={
             "wrapper": "mmm",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -207,7 +194,6 @@ class Mmm:
         metadata={
             "wrapper": "nnn",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -221,7 +207,6 @@ class Jjj:
         metadata={
             "wrapper": "kkk",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -235,7 +220,6 @@ class Kkk:
         metadata={
             "wrapper": "lll",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -249,7 +233,6 @@ class Hhh:
         metadata={
             "wrapper": "iii",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -263,7 +246,6 @@ class Iii:
         metadata={
             "wrapper": "jjj",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -277,7 +259,6 @@ class Fff:
         metadata={
             "wrapper": "ggg",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -291,7 +272,6 @@ class Ggg:
         metadata={
             "wrapper": "hhh",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -305,7 +285,6 @@ class Ddd:
         metadata={
             "wrapper": "eee",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -319,7 +298,6 @@ class Eee:
         metadata={
             "wrapper": "fff",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -333,7 +311,6 @@ class Bbb:
         metadata={
             "wrapper": "ccc",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -347,7 +324,6 @@ class Ccc:
         metadata={
             "wrapper": "ddd",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -361,7 +337,6 @@ class Aaa:
         metadata={
             "wrapper": "bbb",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -375,7 +350,6 @@ class Root:
         metadata={
             "wrapper": "aaa",
             "type": "Element",
-            "required": True,
         }
     )
     w3_org_xml_1998_namespace_attributes: dict[str, str] = field(

@@ -35,19 +35,11 @@ class Base:
 
     @dataclass(kw_only=True)
     class Foo:
-        value: bool = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: bool = field()
 
     @dataclass(kw_only=True)
     class Foo1:
-        value: bool = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: bool = field()
 
 
 @dataclass(kw_only=True)

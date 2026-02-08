@@ -18,7 +18,6 @@ class Root:
     value: str | TPredefinedLnclassEnum = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\p{Lu}+",
         },
     )

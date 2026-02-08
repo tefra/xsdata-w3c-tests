@@ -14,7 +14,6 @@ class Ttype:
         metadata={
             "type": "Element",
             "namespace": "myNS.tempuri.org",
-            "required": True,
         }
     )
 

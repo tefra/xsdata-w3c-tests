@@ -15,11 +15,7 @@ class Ct:
     class Meta:
         name = "ct"
 
-    value: St = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: St = field()
     att: None | St = field(
         default=None,
         metadata={

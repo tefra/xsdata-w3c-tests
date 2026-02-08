@@ -11,7 +11,6 @@ class FooTest:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "white_space": "collapse",
         },
     )
@@ -33,6 +32,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

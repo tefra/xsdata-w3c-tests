@@ -61,8 +61,4 @@ class NistschemaSvIvListNmtokenEnumeration5:
         name = "NISTSchema-SV-IV-list-NMTOKEN-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-NMTOKEN-enumeration-5-NS"
 
-    value: NistschemaSvIvListNmtokenEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListNmtokenEnumeration5Type = field()

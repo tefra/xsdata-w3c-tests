@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicBooleanWhiteSpace2:
 
     value: bool = field(
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

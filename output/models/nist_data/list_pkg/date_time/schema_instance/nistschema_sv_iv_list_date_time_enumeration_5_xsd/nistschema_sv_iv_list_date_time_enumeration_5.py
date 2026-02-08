@@ -110,8 +110,4 @@ class NistschemaSvIvListDateTimeEnumeration5:
         name = "NISTSchema-SV-IV-list-dateTime-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-dateTime-enumeration-5-NS"
 
-    value: NistschemaSvIvListDateTimeEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListDateTimeEnumeration5Type = field()

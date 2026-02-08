@@ -25,21 +25,18 @@ class BookCatalogue:
             metadata={
                 "name": "Title",
                 "type": "Element",
-                "required": True,
             }
         )
         author: str = field(
             metadata={
                 "name": "Author",
                 "type": "Element",
-                "required": True,
             }
         )
         date: str = field(
             metadata={
                 "name": "Date",
                 "type": "Element",
-                "required": True,
             }
         )
         isbn: None | str = field(
@@ -53,6 +50,5 @@ class BookCatalogue:
             metadata={
                 "name": "Publisher",
                 "type": "Element",
-                "required": True,
             }
         )

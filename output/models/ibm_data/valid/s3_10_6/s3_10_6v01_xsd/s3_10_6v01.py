@@ -14,14 +14,12 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     e2: T.E2 = field(
         metadata={
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
 

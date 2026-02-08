@@ -86,8 +86,4 @@ class NistschemaSvIvListPositiveIntegerEnumeration5:
         name = "NISTSchema-SV-IV-list-positiveInteger-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-positiveInteger-enumeration-5-NS"
 
-    value: NistschemaSvIvListPositiveIntegerEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListPositiveIntegerEnumeration5Type = field()

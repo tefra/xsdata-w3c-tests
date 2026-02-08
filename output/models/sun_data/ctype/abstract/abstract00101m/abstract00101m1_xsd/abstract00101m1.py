@@ -11,7 +11,6 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -25,7 +24,6 @@ class B1(A):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

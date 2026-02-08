@@ -21,6 +21,5 @@ class Root:
             "name": "elWhiteSpace",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

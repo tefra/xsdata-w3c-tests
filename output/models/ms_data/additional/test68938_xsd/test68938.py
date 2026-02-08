@@ -11,7 +11,6 @@ class Foo:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "total_digits": 5,
             "fraction_digits": 2,
         }

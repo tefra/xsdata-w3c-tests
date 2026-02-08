@@ -12,21 +12,18 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     child_2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_attr: int = field(
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -46,6 +43,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

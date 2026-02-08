@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicNonNegativeIntegerWhiteSpace1:
 
     value: int = field(
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

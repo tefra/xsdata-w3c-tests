@@ -41,7 +41,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 

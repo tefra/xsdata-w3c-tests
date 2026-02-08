@@ -52,7 +52,6 @@ class DocElem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

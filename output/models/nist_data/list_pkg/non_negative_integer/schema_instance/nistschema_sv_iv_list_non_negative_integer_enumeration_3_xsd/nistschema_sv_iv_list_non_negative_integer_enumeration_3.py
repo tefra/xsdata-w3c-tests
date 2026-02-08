@@ -90,8 +90,4 @@ class NistschemaSvIvListNonNegativeIntegerEnumeration3:
         name = "NISTSchema-SV-IV-list-nonNegativeInteger-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-nonNegativeInteger-enumeration-3-NS"
 
-    value: NistschemaSvIvListNonNegativeIntegerEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListNonNegativeIntegerEnumeration3Type = field()

@@ -23,8 +23,4 @@ class NistschemaSvIvAtomicPositiveIntegerEnumeration1:
         name = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-1-NS"
 
-    value: NistschemaSvIvAtomicPositiveIntegerEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicPositiveIntegerEnumeration1Type = field()

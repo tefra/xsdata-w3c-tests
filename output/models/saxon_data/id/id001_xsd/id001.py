@@ -8,12 +8,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     id_one: None | str = field(
         default=None,
         metadata={

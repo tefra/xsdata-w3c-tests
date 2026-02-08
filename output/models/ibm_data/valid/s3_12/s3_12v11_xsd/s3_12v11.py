@@ -27,7 +27,6 @@ class Root:
             metadata={
                 "type": "Element",
                 "namespace": "",
-                "required": True,
             }
         )
         end_time: None | int = field(

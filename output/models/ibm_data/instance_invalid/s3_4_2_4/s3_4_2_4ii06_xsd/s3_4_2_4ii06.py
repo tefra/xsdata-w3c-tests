@@ -15,7 +15,6 @@ class C1:
             "name": "defaultAttr",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-            "required": True,
         }
     )
     element1: None | object = field(

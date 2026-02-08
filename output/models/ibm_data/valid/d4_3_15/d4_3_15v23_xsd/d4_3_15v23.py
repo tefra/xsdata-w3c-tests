@@ -14,6 +14,5 @@ class Root:
     e1: str = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

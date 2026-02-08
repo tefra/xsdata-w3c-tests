@@ -11,9 +11,4 @@ class R:
         name = "r"
         namespace = "importNS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

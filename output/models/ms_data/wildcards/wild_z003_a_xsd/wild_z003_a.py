@@ -23,7 +23,6 @@ class Elt1:
         metadata={
             "type": "Element",
             "namespace": "urn:bar",
-            "required": True,
         }
     )
     other_element: list[object] = field(

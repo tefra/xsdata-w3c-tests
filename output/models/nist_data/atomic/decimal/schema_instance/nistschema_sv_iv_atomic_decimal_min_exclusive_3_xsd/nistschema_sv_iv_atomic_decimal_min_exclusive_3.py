@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalMinExclusive3:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "min_exclusive": Decimal("-67428259604688900"),
         }
     )

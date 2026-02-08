@@ -14,7 +14,6 @@ class Test:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "max_exclusive": Decimal("11"),
         }
     )

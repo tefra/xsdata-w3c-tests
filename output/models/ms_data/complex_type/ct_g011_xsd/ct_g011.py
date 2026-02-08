@@ -49,7 +49,6 @@ class FooType(MyType):
             "name": "myElement",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_attributes: dict[str, str] = field(

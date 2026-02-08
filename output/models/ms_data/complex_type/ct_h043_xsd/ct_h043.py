@@ -51,7 +51,6 @@ class FooType(MyType):
             "name": "myElement4",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_attr: None | object = field(

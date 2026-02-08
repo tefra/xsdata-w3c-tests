@@ -14,7 +14,6 @@ class A:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"[b|c]+",
         },
     )

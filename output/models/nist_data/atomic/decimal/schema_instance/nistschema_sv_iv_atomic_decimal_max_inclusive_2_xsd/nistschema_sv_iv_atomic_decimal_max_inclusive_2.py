@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalMaxInclusive2:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "max_inclusive": Decimal("625897845365533055"),
         }
     )

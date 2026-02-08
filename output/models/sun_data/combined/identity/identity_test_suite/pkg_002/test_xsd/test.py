@@ -32,16 +32,8 @@ class Root:
 
     @dataclass(kw_only=True)
     class Key:
-        value: QName = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: QName = field()
 
     @dataclass(kw_only=True)
     class Ref:
-        value: QName = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: QName = field()

@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicFloatPattern2:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\d{2}E\-\d{1}",
         },
     )

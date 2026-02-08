@@ -44,7 +44,6 @@ class Zing:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_target_namespace_element: None | object = field(

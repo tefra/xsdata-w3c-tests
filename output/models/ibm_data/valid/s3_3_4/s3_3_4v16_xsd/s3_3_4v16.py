@@ -12,7 +12,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     list_of_ids_attr: list[str] = field(

@@ -21,7 +21,6 @@ class ElementWithAttr:
     number: int = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     height: None | Decimal = field(

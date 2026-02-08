@@ -14,14 +14,12 @@ class EmpType:
         metadata={
             "type": "Element",
             "namespace": "http://id050.ly/",
-            "required": True,
         }
     )
     nr: int = field(
         metadata={
             "type": "Element",
             "namespace": "http://id050.ly/",
-            "required": True,
         }
     )
     manager: None | int = field(

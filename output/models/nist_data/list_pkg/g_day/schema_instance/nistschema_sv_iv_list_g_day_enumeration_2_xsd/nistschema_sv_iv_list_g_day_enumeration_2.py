@@ -66,8 +66,4 @@ class NistschemaSvIvListGDayEnumeration2:
         name = "NISTSchema-SV-IV-list-gDay-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-gDay-enumeration-2-NS"
 
-    value: NistschemaSvIvListGDayEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListGDayEnumeration2Type = field()

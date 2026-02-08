@@ -8,11 +8,7 @@ class XType:
     class Meta:
         name = "X_Type"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     a: None | int = field(
         default=None,
         metadata={

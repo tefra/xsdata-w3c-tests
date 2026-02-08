@@ -11,11 +11,7 @@ class Confuse:
     class Meta:
         name = "confuse"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
 
 
 @dataclass(kw_only=True)

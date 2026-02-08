@@ -14,7 +14,6 @@ class C:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_element: None | object = field(
@@ -32,11 +31,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_S3_4_6"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)

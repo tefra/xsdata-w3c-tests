@@ -33,8 +33,4 @@ class NistschemaSvIvAtomicAnyUriEnumeration5:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicAnyUriEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicAnyUriEnumeration5Type = field()

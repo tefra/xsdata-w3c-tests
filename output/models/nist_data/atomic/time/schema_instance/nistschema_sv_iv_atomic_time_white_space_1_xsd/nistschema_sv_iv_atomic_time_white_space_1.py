@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicTimeWhiteSpace1:
 
     value: XmlTime = field(
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

@@ -13,7 +13,6 @@ class MyType:
             "name": "myElement1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_element2: str = field(
@@ -21,7 +20,6 @@ class MyType:
             "name": "myElement2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_element3: str = field(
@@ -29,7 +27,6 @@ class MyType:
             "name": "myElement3",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_attributes: dict[str, str] = field(
@@ -51,7 +48,6 @@ class FooType(MyType):
             "name": "myElement",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_target_namespace_attributes: dict[str, str] = field(

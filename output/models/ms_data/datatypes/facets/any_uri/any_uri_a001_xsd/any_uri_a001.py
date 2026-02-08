@@ -33,8 +33,4 @@ class Bar:
         name = "bar"
         namespace = "1"
 
-    value: St = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: St = field()

@@ -11,11 +11,7 @@ class Global:
     class Meta:
         namespace = "ElemDecl/typeDef"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)
@@ -26,7 +22,6 @@ class GlobalPreDefinedType:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"1|true",
         },
     )
@@ -39,7 +34,6 @@ class ComplexType:
             "name": "Global",
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
-            "required": True,
         }
     )
     global_pre_defined_type: GlobalPreDefinedType = field(
@@ -47,7 +41,6 @@ class ComplexType:
             "name": "GlobalPreDefinedType",
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
-            "required": True,
         }
     )
     local: Decimal = field(
@@ -55,7 +48,6 @@ class ComplexType:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_pre_defined_type: str = field(
@@ -63,7 +55,6 @@ class ComplexType:
             "name": "LocalPreDefinedType",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r"1|true",
         }
     )
@@ -72,7 +63,6 @@ class ComplexType:
             "name": "LocalInline",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r"0|false",
         }
     )

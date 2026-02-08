@@ -62,7 +62,6 @@ class DTimeRoot:
             "name": "elDTimeET",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "explicit_timezone": "required",
         }
     )
@@ -71,7 +70,6 @@ class DTimeRoot:
             "name": "elDTimeListRequired",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
-            "required": True,
         }
     )
     el_dtime_list_prohibited: ElDtimeListProhibited = field(
@@ -79,7 +77,6 @@ class DTimeRoot:
             "name": "elDTimeListProhibited",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
-            "required": True,
         }
     )
     el_dtime_list_optional: ElDtimeListOptional = field(
@@ -87,7 +84,6 @@ class DTimeRoot:
             "name": "elDTimeListOptional",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
-            "required": True,
         }
     )
 

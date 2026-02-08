@@ -10,8 +10,4 @@ class Para:
     class Meta:
         name = "para"
 
-    value: XmlDateTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDateTime = field()

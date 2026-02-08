@@ -16,11 +16,7 @@ class Test:
     class Meta:
         name = "test"
 
-    value: UnionA = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: UnionA = field()
 
 
 @dataclass(kw_only=True)

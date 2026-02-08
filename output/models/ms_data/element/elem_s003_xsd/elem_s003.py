@@ -27,7 +27,6 @@ class Cs:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "min_length": 1,
             "max_length": 2,
         },
@@ -49,7 +48,6 @@ class Fe1Valid:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "min_length": 1,
             "max_length": 2,
         },
@@ -65,7 +63,6 @@ class FeValid:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "max_length": 4,
         },
     )

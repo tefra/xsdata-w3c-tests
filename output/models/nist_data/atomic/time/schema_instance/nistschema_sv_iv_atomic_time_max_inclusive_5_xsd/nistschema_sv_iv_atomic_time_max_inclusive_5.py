@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicTimeMaxInclusive5:
 
     value: XmlTime = field(
         metadata={
-            "required": True,
             "max_inclusive": XmlTime(23, 59, 59, 0),
         }
     )

@@ -9,27 +9,23 @@ class Triangular:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     c: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     kind: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -40,7 +36,6 @@ class Quadrilateral(Triangular):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

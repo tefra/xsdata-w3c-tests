@@ -25,8 +25,4 @@ class NistschemaSvIvAtomicUnsignedByteEnumeration1:
         name = "NISTSchema-SV-IV-atomic-unsignedByte-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-unsignedByte-enumeration-1-NS"
 
-    value: NistschemaSvIvAtomicUnsignedByteEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicUnsignedByteEnumeration1Type = field()

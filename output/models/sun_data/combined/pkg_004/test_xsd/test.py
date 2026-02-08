@@ -18,7 +18,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 

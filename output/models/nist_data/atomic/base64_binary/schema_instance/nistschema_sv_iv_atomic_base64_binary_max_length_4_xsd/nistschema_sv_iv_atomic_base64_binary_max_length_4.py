@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicBase64BinaryMaxLength4:
     value: bytes = field(
         default=b"",
         metadata={
-            "required": True,
             "max_length": 61,
             "format": "base64",
         },

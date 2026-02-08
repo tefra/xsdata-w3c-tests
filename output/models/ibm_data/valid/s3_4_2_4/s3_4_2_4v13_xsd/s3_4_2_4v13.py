@@ -15,7 +15,6 @@ class AttrGoupType:
             "name": "defaultAttr1",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-            "required": True,
         }
     )
     default_attr2: bool = field(
@@ -23,7 +22,6 @@ class AttrGoupType:
             "name": "defaultAttr2",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-            "required": True,
         }
     )
 

@@ -8,12 +8,7 @@ class Address:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -21,12 +16,7 @@ class City:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -34,13 +24,7 @@ class State:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: str = field(
-        init=False,
-        default="WA",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="WA")
 
 
 @dataclass(kw_only=True)
@@ -61,12 +45,7 @@ class FirstName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -74,12 +53,7 @@ class LastName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -87,12 +61,7 @@ class PhoneNumber:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -105,7 +74,6 @@ class CustomerType:
             "name": "FirstName",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
-            "required": True,
         }
     )
     last_name: LastName = field(
@@ -113,7 +81,6 @@ class CustomerType:
             "name": "LastName",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
-            "required": True,
         }
     )
     customer_id: None | int = field(
@@ -135,7 +102,6 @@ class MyCustomerType(CustomerType):
             "name": "PhoneNumber",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
-            "required": True,
         }
     )
     address: Address = field(
@@ -143,7 +109,6 @@ class MyCustomerType(CustomerType):
             "name": "Address",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
-            "required": True,
         }
     )
     city: City = field(
@@ -151,7 +116,6 @@ class MyCustomerType(CustomerType):
             "name": "City",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
-            "required": True,
         }
     )
     state: State = field(
@@ -159,7 +123,6 @@ class MyCustomerType(CustomerType):
             "name": "State",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
-            "required": True,
         }
     )
     zip: Zip = field(
@@ -167,7 +130,6 @@ class MyCustomerType(CustomerType):
             "name": "Zip",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
-            "required": True,
         }
     )
 

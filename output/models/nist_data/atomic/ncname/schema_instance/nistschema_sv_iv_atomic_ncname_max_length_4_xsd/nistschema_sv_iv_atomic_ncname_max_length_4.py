@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicNcnameMaxLength4:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "max_length": 37,
         },
     )

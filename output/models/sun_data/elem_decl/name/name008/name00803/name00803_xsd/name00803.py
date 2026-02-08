@@ -11,11 +11,7 @@ class Aa111A2Aa:
         name = "aa111a2Aa"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -24,11 +20,7 @@ class Aa22B3C:
         name = "aa22B3c"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -37,11 +29,7 @@ class Aa34:
         name = "aa3-4_"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -54,20 +42,17 @@ class Root:
         metadata={
             "name": "aa111a2Aa",
             "type": "Element",
-            "required": True,
         }
     )
     aa22_b3c: Aa22B3C = field(
         metadata={
             "name": "aa22B3c",
             "type": "Element",
-            "required": True,
         }
     )
     aa3_4: Aa34 = field(
         metadata={
             "name": "aa3-4_",
             "type": "Element",
-            "required": True,
         }
     )

@@ -8,12 +8,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     att1: None | int = field(
         default=None,
         metadata={

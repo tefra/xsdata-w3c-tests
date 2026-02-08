@@ -101,7 +101,6 @@ class R(B):
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     d1: None | object = field(

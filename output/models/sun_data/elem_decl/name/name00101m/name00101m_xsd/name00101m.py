@@ -11,11 +11,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)
@@ -24,10 +20,4 @@ class Root2:
         name = "root2"
         namespace = "ElemDecl/name"
 
-    value: str = field(
-        init=False,
-        default="No",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="No")

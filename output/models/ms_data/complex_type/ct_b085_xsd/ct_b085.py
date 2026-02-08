@@ -13,7 +13,6 @@ class FooType:
             "name": "myElement",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_attributes: dict[str, str] = field(

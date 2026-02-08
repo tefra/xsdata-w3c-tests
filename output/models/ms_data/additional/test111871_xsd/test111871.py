@@ -11,9 +11,4 @@ class Title:
         name = "title"
         namespace = "http://www.w3.org/2001/XMLSchema"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

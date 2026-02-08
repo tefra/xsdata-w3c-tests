@@ -10,11 +10,7 @@ class Local:
     class Meta:
         namespace = "ElemDecl/term"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)
@@ -27,6 +23,5 @@ class Root:
         metadata={
             "name": "Local",
             "type": "Element",
-            "required": True,
         }
     )

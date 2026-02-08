@@ -18,14 +18,12 @@ class MyDateTime:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     time: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9].[0-9][0-9][0-9]",
         }
     )
@@ -33,7 +31,6 @@ class MyDateTime:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -47,14 +44,12 @@ class MySmallDateTime:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     time: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9]",
         }
     )
@@ -62,7 +57,6 @@ class MySmallDateTime:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -77,14 +71,12 @@ class Datafile:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     stringsection: Datafile.Stringsection = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -184,41 +176,24 @@ class Datafile:
 
         @dataclass(kw_only=True)
         class Bigint:
-            value: int = field(
-                metadata={
-                    "required": True,
-                }
-            )
+            value: int = field()
 
         @dataclass(kw_only=True)
         class Int:
-            value: int = field(
-                metadata={
-                    "required": True,
-                }
-            )
+            value: int = field()
 
         @dataclass(kw_only=True)
         class Smallint:
-            value: int = field(
-                metadata={
-                    "required": True,
-                }
-            )
+            value: int = field()
 
         @dataclass(kw_only=True)
         class Tinyint:
-            value: int = field(
-                metadata={
-                    "required": True,
-                }
-            )
+            value: int = field()
 
         @dataclass(kw_only=True)
         class DecimalType:
             value: Decimal = field(
                 metadata={
-                    "required": True,
                     "total_digits": 38,
                     "fraction_digits": 10,
                 }
@@ -228,7 +203,6 @@ class Datafile:
         class Numeric:
             value: Decimal = field(
                 metadata={
-                    "required": True,
                     "total_digits": 38,
                     "fraction_digits": 10,
                 }
@@ -238,7 +212,6 @@ class Datafile:
         class Money:
             value: Decimal = field(
                 metadata={
-                    "required": True,
                     "min_inclusive": Decimal("-922337203685477.5808"),
                     "max_inclusive": Decimal("922337203685477.5807"),
                     "total_digits": 19,
@@ -250,7 +223,6 @@ class Datafile:
         class Smallmoney:
             value: Decimal = field(
                 metadata={
-                    "required": True,
                     "min_inclusive": Decimal("-214748.3648"),
                     "max_inclusive": Decimal("214748.3647"),
                     "total_digits": 10,
@@ -262,7 +234,6 @@ class Datafile:
         class Float:
             value: float = field(
                 metadata={
-                    "required": True,
                     "min_inclusive": -1.79e308,
                     "max_inclusive": 1.79e308,
                 }
@@ -272,7 +243,6 @@ class Datafile:
         class Real:
             value: float = field(
                 metadata={
-                    "required": True,
                     "min_inclusive": -3.4e38,
                     "max_inclusive": 3.4e38,
                 }

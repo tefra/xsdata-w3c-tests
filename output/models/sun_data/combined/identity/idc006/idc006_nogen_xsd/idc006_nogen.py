@@ -34,7 +34,6 @@ class Root:
     keys: Root.Keys = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     keyref: list[str] = field(

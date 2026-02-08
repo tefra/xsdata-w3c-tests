@@ -25,7 +25,6 @@ class ACt:
     att3: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att5: None | object = field(
@@ -43,13 +42,11 @@ class ACt:
     att7: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att9: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att11: None | int = field(
@@ -102,7 +99,6 @@ class E2:
 
     value: int = field(
         metadata={
-            "required": True,
             "total_digits": 2,
         }
     )

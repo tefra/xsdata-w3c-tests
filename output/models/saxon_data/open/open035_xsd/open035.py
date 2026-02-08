@@ -24,41 +24,35 @@ class BookStore:
         id: str = field(
             metadata={
                 "type": "Attribute",
-                "required": True,
             }
         )
         title: str = field(
             metadata={
                 "name": "Title",
                 "type": "Element",
-                "required": True,
             }
         )
         author: str = field(
             metadata={
                 "name": "Author",
                 "type": "Element",
-                "required": True,
             }
         )
         date: str = field(
             metadata={
                 "name": "Date",
                 "type": "Element",
-                "required": True,
             }
         )
         isbn: str = field(
             metadata={
                 "name": "ISBN",
                 "type": "Element",
-                "required": True,
             }
         )
         publisher: str = field(
             metadata={
                 "name": "Publisher",
                 "type": "Element",
-                "required": True,
             }
         )

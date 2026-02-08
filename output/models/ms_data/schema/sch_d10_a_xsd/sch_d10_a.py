@@ -35,19 +35,11 @@ class ACt:
 
     @dataclass(kw_only=True)
     class C21:
-        value: int = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: int = field()
 
     @dataclass(kw_only=True)
     class C22:
-        value: int = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: int = field()
 
 
 @dataclass(kw_only=True)

@@ -10,15 +10,10 @@ class DatedEvent:
     class Meta:
         name = "datedEvent"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()
     event: XmlDateTime = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

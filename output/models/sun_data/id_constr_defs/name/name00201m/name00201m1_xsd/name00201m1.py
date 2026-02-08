@@ -22,12 +22,7 @@ class Name:
 
     @dataclass(kw_only=True)
     class NameInner:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
         name: None | object = field(
             default=None,
             metadata={

@@ -39,21 +39,11 @@ class MyType:
 
     @dataclass(kw_only=True)
     class MyElement:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class MyElement2:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -66,7 +56,6 @@ class FooType(MyType):
             "name": "myElement3",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_element4: str = field(
@@ -74,7 +63,6 @@ class FooType(MyType):
             "name": "myElement4",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

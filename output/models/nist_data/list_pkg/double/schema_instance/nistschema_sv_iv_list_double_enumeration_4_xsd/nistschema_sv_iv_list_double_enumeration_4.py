@@ -102,8 +102,4 @@ class NistschemaSvIvListDoubleEnumeration4:
         name = "NISTSchema-SV-IV-list-double-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-double-enumeration-4-NS"
 
-    value: NistschemaSvIvListDoubleEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListDoubleEnumeration4Type = field()

@@ -96,6 +96,5 @@ class Doc:
     test: Test = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

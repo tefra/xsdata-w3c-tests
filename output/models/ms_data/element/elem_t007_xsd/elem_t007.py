@@ -14,7 +14,6 @@ class FooType:
             "name": "fooEle1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     foo_ele2: int = field(
@@ -22,7 +21,6 @@ class FooType:
             "name": "fooEle2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     foo_ele3: None | bool = field(
@@ -78,6 +76,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

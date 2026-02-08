@@ -16,19 +16,16 @@ class Root:
             "name": "defaultAttr",
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-            "required": True,
         }
     )
     e1: Root.E1 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     e2: Root.E2 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -39,7 +36,6 @@ class Root:
                 "name": "defaultAttr",
                 "type": "Attribute",
                 "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-                "required": True,
             }
         )
 
@@ -50,6 +46,5 @@ class Root:
                 "name": "defaultAttr",
                 "type": "Attribute",
                 "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-                "required": True,
             }
         )

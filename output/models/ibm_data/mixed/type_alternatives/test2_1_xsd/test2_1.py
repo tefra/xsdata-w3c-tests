@@ -18,43 +18,27 @@ class Example:
 
     @dataclass(kw_only=True)
     class KindQuantity:
-        value: int = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: int = field()
         kind: str = field(
             metadata={
                 "type": "Attribute",
-                "required": True,
             }
         )
 
     @dataclass(kw_only=True)
     class KindPrice:
-        value: float = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: float = field()
         kind: str = field(
             metadata={
                 "type": "Attribute",
-                "required": True,
             }
         )
 
     @dataclass(kw_only=True)
     class KindMesg:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
         kind: str = field(
             metadata={
                 "type": "Attribute",
-                "required": True,
             }
         )

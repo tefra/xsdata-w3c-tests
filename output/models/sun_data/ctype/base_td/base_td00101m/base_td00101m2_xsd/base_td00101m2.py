@@ -7,11 +7,7 @@ __NAMESPACE__ = "baseTD"
 
 @dataclass(kw_only=True)
 class Test2:
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)

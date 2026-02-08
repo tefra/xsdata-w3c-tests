@@ -46,7 +46,6 @@ class Tabletype:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

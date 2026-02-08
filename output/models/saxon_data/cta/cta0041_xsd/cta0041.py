@@ -10,11 +10,7 @@ class Appendix:
     class Meta:
         name = "appendix"
 
-    value: XmlDate | XmlDateTime | XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate | XmlDateTime | XmlTime = field()
     type_value: None | str = field(
         default=None,
         metadata={
@@ -29,11 +25,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: XmlDate | XmlDateTime | XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate | XmlDateTime | XmlTime = field()
     type_value: None | str = field(
         default=None,
         metadata={

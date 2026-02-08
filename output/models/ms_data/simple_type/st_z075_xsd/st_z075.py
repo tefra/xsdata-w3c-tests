@@ -17,8 +17,4 @@ class Doc:
         name = "doc"
         namespace = "a"
 
-    value: Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Type = field()

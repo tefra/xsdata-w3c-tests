@@ -13,12 +13,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v02"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     attr_dtime_type: None | XmlDateTime = field(
         default=None,
         metadata={

@@ -32,7 +32,6 @@ class Uidtype:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

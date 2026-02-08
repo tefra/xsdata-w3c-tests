@@ -29,7 +29,6 @@ class Uidtype:
         metadata={
             "type": "Element",
             "namespace": "importNS",
-            "required": True,
         }
     )
 

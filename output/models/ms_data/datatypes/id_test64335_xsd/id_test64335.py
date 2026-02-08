@@ -14,14 +14,12 @@ class Product:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     description: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     id: None | str = field(
@@ -38,14 +36,12 @@ class Apparel(Product):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     style: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -56,14 +52,12 @@ class MediaItem(Product):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     category: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -74,14 +68,12 @@ class Book(MediaItem):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     publish_date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -95,14 +87,12 @@ class Cd(MediaItem):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     release_date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -116,14 +106,12 @@ class Dvd(MediaItem):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     release_date: XmlDate = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

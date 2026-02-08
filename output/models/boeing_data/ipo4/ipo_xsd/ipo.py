@@ -17,28 +17,24 @@ class AddressType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     street: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     city: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     country: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
-            "required": True,
         }
     )
 
@@ -49,12 +45,7 @@ class Comment:
         name = "comment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -63,12 +54,7 @@ class CustomerComment:
         name = "customerComment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -77,12 +63,7 @@ class ShipComment:
         name = "shipComment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -102,14 +83,12 @@ class ItemsType:
                 "name": "productName",
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
-                "required": True,
             }
         )
         quantity: int = field(
             metadata={
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
-                "required": True,
                 "max_exclusive": 100,
             }
         )
@@ -118,7 +97,6 @@ class ItemsType:
                 "name": "USPrice",
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
-                "required": True,
             }
         )
         customer_comment_or_ship_comment: list[
@@ -157,7 +135,6 @@ class ItemsType:
                 "name": "partNum",
                 "type": "Attribute",
                 "namespace": "http://www.example.com/att",
-                "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
             }
         )
@@ -233,7 +210,6 @@ class PurchaseOrderType:
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
-            "required": True,
         }
     )
     order_date: None | XmlDate = field(

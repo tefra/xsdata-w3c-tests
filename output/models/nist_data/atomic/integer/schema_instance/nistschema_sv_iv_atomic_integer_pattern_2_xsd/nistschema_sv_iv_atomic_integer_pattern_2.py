@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicIntegerPattern2:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\-\d{9}",
         },
     )

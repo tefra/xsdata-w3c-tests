@@ -16,7 +16,6 @@ class ElementWithAttr:
         metadata={
             "type": "Attribute",
             "namespace": "AttrDecl/scope",
-            "required": True,
         }
     )
     price: None | Decimal = field(

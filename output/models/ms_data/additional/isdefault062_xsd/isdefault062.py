@@ -14,7 +14,6 @@ class Root:
     elem: Root.Elem = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

@@ -14,11 +14,7 @@ class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: FooType = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: FooType = field()
 
 
 @dataclass(kw_only=True)
@@ -30,6 +26,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

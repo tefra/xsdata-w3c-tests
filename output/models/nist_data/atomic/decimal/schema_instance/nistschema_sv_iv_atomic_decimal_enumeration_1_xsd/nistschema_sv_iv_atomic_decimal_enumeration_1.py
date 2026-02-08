@@ -22,8 +22,4 @@ class NistschemaSvIvAtomicDecimalEnumeration1:
         name = "NISTSchema-SV-IV-atomic-decimal-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-decimal-enumeration-1-NS"
 
-    value: NistschemaSvIvAtomicDecimalEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicDecimalEnumeration1Type = field()

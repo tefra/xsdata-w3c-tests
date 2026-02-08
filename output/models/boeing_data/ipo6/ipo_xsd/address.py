@@ -11,9 +11,4 @@ class Salutation:
         name = "salutation"
         namespace = "http://www.example.com/add"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

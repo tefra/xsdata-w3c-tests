@@ -18,12 +18,7 @@ class Comment:
         name = "comment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -32,12 +27,7 @@ class CustomerComment:
         name = "customerComment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 class ItemShipBy(Enum):
@@ -52,12 +42,7 @@ class ShipComment:
         name = "shipComment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -85,14 +70,12 @@ class ItemsType:
                 "name": "productName",
                 "type": "Element",
                 "namespace": "",
-                "required": True,
             }
         )
         quantity: int = field(
             metadata={
                 "type": "Element",
                 "namespace": "",
-                "required": True,
                 "max_exclusive": 100,
             }
         )
@@ -101,7 +84,6 @@ class ItemsType:
                 "name": "USPrice",
                 "type": "Element",
                 "namespace": "",
-                "required": True,
             }
         )
         customer_comment_or_ship_comment_or_comment: list[
@@ -145,7 +127,6 @@ class ItemsType:
             metadata={
                 "name": "partNum",
                 "type": "Attribute",
-                "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
             }
         )
@@ -224,7 +205,6 @@ class PurchaseOrderType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     order_date: None | XmlDate = field(

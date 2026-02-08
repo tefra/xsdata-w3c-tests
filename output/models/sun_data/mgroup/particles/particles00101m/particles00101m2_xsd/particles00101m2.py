@@ -17,13 +17,11 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     marked: bool = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

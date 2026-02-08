@@ -8,11 +8,7 @@ class E:
     class Meta:
         name = "e"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -24,14 +20,12 @@ class Zing:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     f: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_element: None | object = field(

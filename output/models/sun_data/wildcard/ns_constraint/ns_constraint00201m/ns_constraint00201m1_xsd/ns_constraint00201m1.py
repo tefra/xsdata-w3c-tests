@@ -29,8 +29,4 @@ class Date:
         name = "date"
         namespace = "nsConstraint"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()

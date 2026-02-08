@@ -8,10 +8,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: str = field(
-        init=False,
-        default="abc",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="abc")

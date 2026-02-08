@@ -11,9 +11,4 @@ class Bar:
         name = "bar"
         namespace = "http://foo"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

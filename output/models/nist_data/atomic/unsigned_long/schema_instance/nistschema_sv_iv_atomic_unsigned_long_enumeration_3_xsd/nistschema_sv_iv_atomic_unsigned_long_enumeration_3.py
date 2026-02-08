@@ -23,8 +23,4 @@ class NistschemaSvIvAtomicUnsignedLongEnumeration3:
         name = "NISTSchema-SV-IV-atomic-unsignedLong-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-unsignedLong-enumeration-3-NS"
 
-    value: NistschemaSvIvAtomicUnsignedLongEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicUnsignedLongEnumeration3Type = field()

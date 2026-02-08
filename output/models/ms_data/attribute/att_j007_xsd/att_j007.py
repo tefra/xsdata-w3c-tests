@@ -11,13 +11,11 @@ class AttRef:
     att1: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     att2: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     bar: None | str = field(
@@ -43,13 +41,11 @@ class Doc:
     x1: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     x2: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     foo: None | str = field(

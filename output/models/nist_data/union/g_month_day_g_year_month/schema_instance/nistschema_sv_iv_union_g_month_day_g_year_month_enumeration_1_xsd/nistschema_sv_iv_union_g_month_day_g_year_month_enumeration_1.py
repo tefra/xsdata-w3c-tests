@@ -27,8 +27,4 @@ class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration1:
             "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-1-NS"
         )
 
-    value: NistschemaSvIvUnionGMonthDayGYearMonthEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvUnionGMonthDayGYearMonthEnumeration1Type = field()

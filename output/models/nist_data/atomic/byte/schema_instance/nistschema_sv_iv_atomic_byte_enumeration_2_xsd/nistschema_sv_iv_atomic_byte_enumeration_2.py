@@ -23,8 +23,4 @@ class NistschemaSvIvAtomicByteEnumeration2:
         name = "NISTSchema-SV-IV-atomic-byte-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-byte-enumeration-2-NS"
 
-    value: NistschemaSvIvAtomicByteEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicByteEnumeration2Type = field()

@@ -33,7 +33,6 @@ class LongItemDefn(Item):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

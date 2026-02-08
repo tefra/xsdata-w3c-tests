@@ -15,7 +15,6 @@ class ElementWithAttr:
         metadata={
             "type": "Attribute",
             "namespace": "AttrUse/attrDecl",
-            "required": True,
         }
     )
 

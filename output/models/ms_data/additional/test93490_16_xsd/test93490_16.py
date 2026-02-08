@@ -26,7 +26,6 @@ class SchemaType:
             "name": "ID",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-            "required": True,
         }
     )
     namespace: str = field(
@@ -34,7 +33,6 @@ class SchemaType:
             "name": "Namespace",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-            "required": True,
         }
     )
     schema_ref: None | str = field(

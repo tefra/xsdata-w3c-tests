@@ -9,8 +9,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()

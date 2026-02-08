@@ -86,8 +86,4 @@ class NistschemaSvIvListDurationEnumeration3:
         name = "NISTSchema-SV-IV-list-duration-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-duration-enumeration-3-NS"
 
-    value: NistschemaSvIvListDurationEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListDurationEnumeration3Type = field()

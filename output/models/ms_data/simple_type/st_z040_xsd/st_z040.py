@@ -18,8 +18,4 @@ class Info2:
         name = "info2"
         namespace = "urn:test"
 
-    value: Decimal | Myunion2Value = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal | Myunion2Value = field()

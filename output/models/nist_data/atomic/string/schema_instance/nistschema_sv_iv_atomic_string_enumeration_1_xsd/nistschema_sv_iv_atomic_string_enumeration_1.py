@@ -24,8 +24,4 @@ class NistschemaSvIvAtomicStringEnumeration1:
         name = "NISTSchema-SV-IV-atomic-string-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-string-enumeration-1-NS"
 
-    value: NistschemaSvIvAtomicStringEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicStringEnumeration1Type = field()

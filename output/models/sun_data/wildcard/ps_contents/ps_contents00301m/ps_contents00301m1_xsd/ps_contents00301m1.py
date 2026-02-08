@@ -28,8 +28,4 @@ class Date:
         name = "date"
         namespace = "psContents"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()

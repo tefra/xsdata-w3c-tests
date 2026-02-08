@@ -18,12 +18,7 @@ class A:
 
     @dataclass(kw_only=True)
     class Part:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
         number: None | int = field(
             default=None,
             metadata={
@@ -48,6 +43,5 @@ class Root:
         metadata={
             "name": "A",
             "type": "Element",
-            "required": True,
         }
     )

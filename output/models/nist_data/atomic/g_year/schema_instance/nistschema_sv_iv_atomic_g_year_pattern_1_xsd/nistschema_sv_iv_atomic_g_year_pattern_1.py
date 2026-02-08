@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicGYearPattern1:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\d\d47",
         },
     )

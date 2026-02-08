@@ -14,7 +14,6 @@ class CtypeFoo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

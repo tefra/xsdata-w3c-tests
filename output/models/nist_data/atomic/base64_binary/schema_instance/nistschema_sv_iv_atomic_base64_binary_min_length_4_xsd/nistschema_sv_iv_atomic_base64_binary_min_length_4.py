@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicBase64BinaryMinLength4:
     value: bytes = field(
         default=b"",
         metadata={
-            "required": True,
             "min_length": 11,
             "format": "base64",
         },

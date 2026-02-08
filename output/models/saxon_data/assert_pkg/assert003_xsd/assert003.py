@@ -11,13 +11,11 @@ class Temp:
     a: Temp.A = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     x: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     y: None | object = field(

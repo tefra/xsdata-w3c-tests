@@ -11,11 +11,7 @@ class Type:
         name = "_-."
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -24,11 +20,7 @@ class Type0:
         name = "_-0."
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -41,13 +33,11 @@ class Root:
         metadata={
             "name": "_-.",
             "type": "Element",
-            "required": True,
         }
     )
     value_0: Type0 = field(
         metadata={
             "name": "_-0.",
             "type": "Element",
-            "required": True,
         }
     )

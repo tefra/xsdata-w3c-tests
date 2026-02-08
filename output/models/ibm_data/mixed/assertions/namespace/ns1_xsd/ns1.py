@@ -14,6 +14,5 @@ class X:
     y: str = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

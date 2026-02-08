@@ -13,11 +13,7 @@ class When:
         name = "when"
         namespace = "http://cta023.com/ns"
 
-    value: XmlDate | XmlTime | XmlDateTime | XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate | XmlTime | XmlDateTime | XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -29,7 +25,6 @@ class Event:
     when: When = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     type_value: None | str = field(

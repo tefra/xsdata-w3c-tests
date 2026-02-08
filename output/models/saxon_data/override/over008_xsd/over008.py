@@ -12,7 +12,6 @@ class Section:
     head: str = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     section: list[Section] = field(
@@ -24,7 +23,6 @@ class Section:
     id: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     other_attributes: dict[str, str] = field(
@@ -37,6 +35,5 @@ class Section:
     nr: Decimal = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )

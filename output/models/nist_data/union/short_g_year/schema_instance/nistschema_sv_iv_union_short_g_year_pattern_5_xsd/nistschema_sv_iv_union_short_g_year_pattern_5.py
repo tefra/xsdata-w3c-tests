@@ -14,7 +14,6 @@ class NistschemaSvIvUnionShortGYearPattern5:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\d{5}",
         },
     )

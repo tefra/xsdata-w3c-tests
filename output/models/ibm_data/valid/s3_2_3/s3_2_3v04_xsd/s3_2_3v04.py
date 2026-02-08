@@ -14,14 +14,12 @@ class Type1:
         metadata={
             "type": "Element",
             "namespace": "http://www.schemaTest.org/schema11_S3_2_3",
-            "required": True,
         }
     )
     element2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

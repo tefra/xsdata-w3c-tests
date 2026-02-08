@@ -24,8 +24,4 @@ class NistschemaSvIvAtomicNonPositiveIntegerEnumeration4:
             "NISTSchema-SV-IV-atomic-nonPositiveInteger-enumeration-4-NS"
         )
 
-    value: NistschemaSvIvAtomicNonPositiveIntegerEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicNonPositiveIntegerEnumeration4Type = field()

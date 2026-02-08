@@ -35,7 +35,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_element: None | object = field(

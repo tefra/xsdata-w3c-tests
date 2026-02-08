@@ -16,11 +16,7 @@ class B:
     class Meta:
         name = "b"
 
-    value: float = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: float = field()
 
 
 @dataclass(kw_only=True)

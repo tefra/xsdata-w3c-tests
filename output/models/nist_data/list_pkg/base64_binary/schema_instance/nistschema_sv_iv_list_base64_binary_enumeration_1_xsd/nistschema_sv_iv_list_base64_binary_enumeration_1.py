@@ -61,7 +61,6 @@ class NistschemaSvIvListBase64BinaryEnumeration1:
 
     value: NistschemaSvIvListBase64BinaryEnumeration1Type = field(
         metadata={
-            "required": True,
             "format": "base64",
         }
     )

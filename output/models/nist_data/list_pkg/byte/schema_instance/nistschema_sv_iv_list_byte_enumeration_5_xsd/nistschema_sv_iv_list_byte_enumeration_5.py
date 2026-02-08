@@ -90,8 +90,4 @@ class NistschemaSvIvListByteEnumeration5:
         name = "NISTSchema-SV-IV-list-byte-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-byte-enumeration-5-NS"
 
-    value: NistschemaSvIvListByteEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListByteEnumeration5Type = field()

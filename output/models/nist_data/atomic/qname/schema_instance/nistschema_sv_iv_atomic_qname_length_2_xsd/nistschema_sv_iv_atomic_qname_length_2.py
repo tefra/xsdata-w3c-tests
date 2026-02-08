@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicQnameLength2:
 
     value: QName = field(
         metadata={
-            "required": True,
             "length": 7,
         }
     )

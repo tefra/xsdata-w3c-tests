@@ -17,35 +17,30 @@ class Usaddress:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     street: str = field(
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     city: str = field(
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     state: str = field(
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     zip: Decimal = field(
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     country: str = field(
@@ -63,12 +58,7 @@ class Comment:
         name = "comment"
         namespace = "foo"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -88,14 +78,12 @@ class Items:
                 "name": "productName",
                 "type": "Element",
                 "namespace": "foo",
-                "required": True,
             }
         )
         quantity: int = field(
             metadata={
                 "type": "Element",
                 "namespace": "foo",
-                "required": True,
                 "max_exclusive": 100,
             }
         )
@@ -104,7 +92,6 @@ class Items:
                 "name": "USPrice",
                 "type": "Element",
                 "namespace": "foo",
-                "required": True,
             }
         )
         comment: None | Comment = field(
@@ -126,7 +113,6 @@ class Items:
             metadata={
                 "name": "partNum",
                 "type": "Attribute",
-                "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
             }
         )
@@ -139,7 +125,6 @@ class PurchaseOrderType:
             "name": "shipTo",
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     bill_to: Usaddress = field(
@@ -147,7 +132,6 @@ class PurchaseOrderType:
             "name": "billTo",
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     comment: None | Comment = field(
@@ -161,7 +145,6 @@ class PurchaseOrderType:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     order_date: None | XmlDate = field(

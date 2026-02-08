@@ -26,7 +26,6 @@ class Root:
         value: str = field(
             default="",
             metadata={
-                "required": True,
                 "min_length": 3,
                 "max_length": 10,
             },

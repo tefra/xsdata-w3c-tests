@@ -11,8 +11,4 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()

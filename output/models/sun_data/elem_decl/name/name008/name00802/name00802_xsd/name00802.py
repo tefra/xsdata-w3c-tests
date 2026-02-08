@@ -11,11 +11,7 @@ class A1234561:
         name = "a-1.2_3·4·5۝6۞"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -24,11 +20,7 @@ class A1234562:
         name = "a123456"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -41,13 +33,11 @@ class Root:
         metadata={
             "name": "a-1.2_3·4·5۝6۞",
             "type": "Element",
-            "required": True,
         }
     )
     elem_decl_name_a123456: A1234562 = field(
         metadata={
             "name": "a123456",
             "type": "Element",
-            "required": True,
         }
     )

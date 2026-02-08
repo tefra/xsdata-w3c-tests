@@ -21,8 +21,4 @@ class NistschemaSvIvUnionShortGYearEnumeration2:
         name = "NISTSchema-SV-IV-union-short-gYear-enumeration-2"
         namespace = "NISTSchema-SV-IV-union-short-gYear-enumeration-2-NS"
 
-    value: NistschemaSvIvUnionShortGYearEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvUnionShortGYearEnumeration2Type = field()

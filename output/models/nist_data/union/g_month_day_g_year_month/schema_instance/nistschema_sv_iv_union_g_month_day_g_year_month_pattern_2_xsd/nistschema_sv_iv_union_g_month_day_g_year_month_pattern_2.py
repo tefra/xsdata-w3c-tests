@@ -14,7 +14,6 @@ class NistschemaSvIvUnionGMonthDayGYearMonthPattern2:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\d\d65-\d1",
         },
     )

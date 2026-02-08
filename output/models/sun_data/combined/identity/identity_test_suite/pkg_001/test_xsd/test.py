@@ -32,16 +32,8 @@ class Root:
 
     @dataclass(kw_only=True)
     class Key:
-        value: Decimal = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: Decimal = field()
 
     @dataclass(kw_only=True)
     class Ref:
-        value: Decimal = field(
-            metadata={
-                "required": True,
-            }
-        )
+        value: Decimal = field()

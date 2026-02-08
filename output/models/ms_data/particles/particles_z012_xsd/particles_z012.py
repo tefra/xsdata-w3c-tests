@@ -11,11 +11,7 @@ class E2:
     class Meta:
         namespace = "http://xsdtesting"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 class MyType10Value(Enum):
@@ -42,11 +38,7 @@ class E1:
     class Meta:
         namespace = "http://xsdtesting"
 
-    value: bool | float | int | MyType10Value = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool | float | int | MyType10Value = field()
 
 
 @dataclass(kw_only=True)

@@ -38,12 +38,7 @@ class LanguagesAndTransformingTechnologiesIsImpa:
         name = "_languages-and-transforming.technologies.is_impa"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -52,12 +47,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -66,12 +56,7 @@ class TonAndItsT:
         name = "ton.and_its.t"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -80,12 +65,7 @@ class XstandardFileUseEa:
         name = "xstandard-file_use-ea"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -94,12 +74,7 @@ class YinvolvedEEffor:
         name = "yinvolved.e-effor"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -108,8 +83,4 @@ class NistschemaSvIvAtomicQnameEnumeration3:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: NistschemaSvIvAtomicQnameEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicQnameEnumeration3Type = field()

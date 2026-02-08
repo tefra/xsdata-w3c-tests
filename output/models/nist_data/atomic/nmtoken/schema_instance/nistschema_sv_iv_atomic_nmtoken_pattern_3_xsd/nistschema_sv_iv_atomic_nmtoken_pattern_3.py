@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicNmtokenPattern3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\c{6}",
         },
     )

@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicDoubleWhiteSpace1:
 
     value: float = field(
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

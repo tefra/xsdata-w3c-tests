@@ -22,6 +22,5 @@ class Root:
     idref_element: str = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

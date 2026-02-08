@@ -56,14 +56,12 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b: BType = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     c: None | object = field(

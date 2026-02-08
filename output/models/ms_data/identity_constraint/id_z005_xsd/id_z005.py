@@ -11,7 +11,6 @@ class BType:
     att_b: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -49,7 +48,6 @@ class AType:
     att_a: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

@@ -11,11 +11,7 @@ class AA:
         name = "a--a"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -24,11 +20,7 @@ class BB:
         name = "b..b"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -37,11 +29,7 @@ class CC:
         name = "c__c"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -50,11 +38,7 @@ class DD:
         name = "d··d"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -63,11 +47,7 @@ class EE:
         name = "e··e"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -76,11 +56,7 @@ class FF:
         name = "f۝۝f"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -89,11 +65,7 @@ class GG:
         name = "g۞۞g"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -106,48 +78,41 @@ class Root:
         metadata={
             "name": "a--a",
             "type": "Element",
-            "required": True,
         }
     )
     b_b: BB = field(
         metadata={
             "name": "b..b",
             "type": "Element",
-            "required": True,
         }
     )
     c_c: CC = field(
         metadata={
             "name": "c__c",
             "type": "Element",
-            "required": True,
         }
     )
     d_d: DD = field(
         metadata={
             "name": "d··d",
             "type": "Element",
-            "required": True,
         }
     )
     e_e: EE = field(
         metadata={
             "name": "e··e",
             "type": "Element",
-            "required": True,
         }
     )
     f_f: FF = field(
         metadata={
             "name": "f۝۝f",
             "type": "Element",
-            "required": True,
         }
     )
     g_g: GG = field(
         metadata={
             "name": "g۞۞g",
             "type": "Element",
-            "required": True,
         }
     )

@@ -90,11 +90,7 @@ class Test:
     class Meta:
         name = "test"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)

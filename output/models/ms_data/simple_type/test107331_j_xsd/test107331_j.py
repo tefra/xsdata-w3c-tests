@@ -17,12 +17,7 @@ class Anyuri:
     class Meta:
         name = "anyuri"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -30,11 +25,7 @@ class Bool:
     class Meta:
         name = "bool"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)
@@ -42,11 +33,7 @@ class Date:
     class Meta:
         name = "date"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()
 
 
 @dataclass(kw_only=True)
@@ -54,11 +41,7 @@ class Datetime:
     class Meta:
         name = "datetime"
 
-    value: XmlDateTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDateTime = field()
 
 
 @dataclass(kw_only=True)
@@ -66,11 +49,7 @@ class Day:
     class Meta:
         name = "day"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -78,11 +57,7 @@ class DecimalType:
     class Meta:
         name = "decimal"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
 
 
 @dataclass(kw_only=True)
@@ -90,11 +65,7 @@ class Double:
     class Meta:
         name = "double"
 
-    value: float = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: float = field()
 
 
 @dataclass(kw_only=True)
@@ -102,11 +73,7 @@ class Duration:
     class Meta:
         name = "duration"
 
-    value: XmlDuration = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDuration = field()
 
 
 @dataclass(kw_only=True)
@@ -114,12 +81,7 @@ class Entity:
     class Meta:
         name = "entity"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -127,11 +89,7 @@ class Float:
     class Meta:
         name = "float"
 
-    value: float = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: float = field()
 
 
 @dataclass(kw_only=True)
@@ -142,7 +100,6 @@ class Hexbinary:
     value: bytes = field(
         default=b"",
         metadata={
-            "required": True,
             "format": "base16",
         },
     )
@@ -153,11 +110,7 @@ class Int:
     class Meta:
         name = "int"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -179,11 +132,7 @@ class Month:
     class Meta:
         name = "month"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -191,11 +140,7 @@ class Monthday:
     class Meta:
         name = "monthday"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -203,12 +148,7 @@ class String:
     class Meta:
         name = "string"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -216,11 +156,7 @@ class Time:
     class Meta:
         name = "time"
 
-    value: XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlTime = field()
 
 
 @dataclass(kw_only=True)
@@ -228,11 +164,7 @@ class Year:
     class Meta:
         name = "year"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)

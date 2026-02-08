@@ -62,7 +62,6 @@ class ATypeF(AType):
         metadata={
             "type": "Element",
             "namespace": "abc",
-            "required": True,
         }
     )
     r: Any = field(
@@ -90,7 +89,6 @@ class ATypeT(AType):
         metadata={
             "type": "Element",
             "namespace": "abc",
-            "required": True,
         }
     )
 
@@ -104,6 +102,5 @@ class Top:
     a: A = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

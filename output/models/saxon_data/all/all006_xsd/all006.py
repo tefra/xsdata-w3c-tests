@@ -23,11 +23,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlTime = field()
 
 
 @dataclass(kw_only=True)
@@ -35,11 +31,7 @@ class B:
     class Meta:
         name = "b"
 
-    value: XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlTime = field()
 
 
 @dataclass(kw_only=True)
@@ -47,11 +39,7 @@ class C2:
     class Meta:
         name = "c"
 
-    value: XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlTime = field()
 
 
 @dataclass(kw_only=True)
@@ -62,13 +50,11 @@ class Doc:
     a: XmlDate = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     b: B = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     target_namespace_element: None | object = field(

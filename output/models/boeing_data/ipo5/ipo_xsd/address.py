@@ -11,20 +11,17 @@ class AddressType:
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
-            "required": True,
         }
     )
     street: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
-            "required": True,
         }
     )
     city: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
-            "required": True,
         }
     )

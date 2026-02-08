@@ -53,11 +53,7 @@ class EA:
     class Meta:
         name = "E-A"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
     att: None | int = field(
         default=None,
         metadata={
@@ -108,11 +104,7 @@ class Test1:
     class Meta:
         name = "test1"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)
@@ -120,11 +112,7 @@ class Test2:
     class Meta:
         name = "test2"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)
@@ -132,11 +120,7 @@ class Test3:
     class Meta:
         name = "test3"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)

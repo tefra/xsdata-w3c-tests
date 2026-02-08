@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicStringWhiteSpace3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "white_space": "replace",
         },
     )

@@ -112,13 +112,11 @@ class Test:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     y: Y = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

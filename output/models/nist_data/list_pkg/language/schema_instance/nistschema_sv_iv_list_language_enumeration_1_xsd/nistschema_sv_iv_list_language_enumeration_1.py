@@ -104,8 +104,4 @@ class NistschemaSvIvListLanguageEnumeration1:
         name = "NISTSchema-SV-IV-list-language-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-language-enumeration-1-NS"
 
-    value: NistschemaSvIvListLanguageEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListLanguageEnumeration1Type = field()

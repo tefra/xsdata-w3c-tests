@@ -45,7 +45,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     w3_org_1999_xhtml_element: list[object] = field(
@@ -59,21 +58,11 @@ class Foo:
 
     @dataclass(kw_only=True)
     class B:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class B2:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
 
 @dataclass(kw_only=True)

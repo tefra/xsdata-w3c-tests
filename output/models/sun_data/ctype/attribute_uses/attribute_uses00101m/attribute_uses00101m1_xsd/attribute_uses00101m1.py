@@ -12,11 +12,7 @@ class A1:
     class Meta:
         name = "A"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     attr1: None | str = field(
         default=None,
         metadata={
@@ -26,7 +22,6 @@ class A1:
     attr2: XmlDate = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

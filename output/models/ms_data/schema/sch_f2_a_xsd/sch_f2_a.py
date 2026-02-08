@@ -11,13 +11,11 @@ class CtA:
     a1: int = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     a2: bool = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

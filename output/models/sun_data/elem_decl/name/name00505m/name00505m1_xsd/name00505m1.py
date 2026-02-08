@@ -10,12 +10,7 @@ class Global1:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -23,12 +18,7 @@ class Global2:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -37,9 +27,4 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

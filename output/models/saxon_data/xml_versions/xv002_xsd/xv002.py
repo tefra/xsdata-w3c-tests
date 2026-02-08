@@ -11,6 +11,5 @@ class Doc:
     att: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )

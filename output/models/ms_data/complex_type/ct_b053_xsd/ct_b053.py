@@ -13,7 +13,6 @@ class FooType:
             "name": "myElement",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     attr_test: None | object = field(

@@ -11,12 +11,7 @@ class Id:
         name = "ID"
         namespace = "ElemDecl/valueConstraint"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)

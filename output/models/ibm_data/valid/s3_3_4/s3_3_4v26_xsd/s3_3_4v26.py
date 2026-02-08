@@ -12,7 +12,6 @@ class Ids:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     id_attr: str = field(

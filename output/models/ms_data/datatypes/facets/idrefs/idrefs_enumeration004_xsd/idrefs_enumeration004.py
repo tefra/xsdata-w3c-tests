@@ -37,7 +37,6 @@ class FooType:
     foo: Foo = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

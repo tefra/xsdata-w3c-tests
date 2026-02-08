@@ -14,7 +14,6 @@ class Ttype:
         metadata={
             "type": "Element",
             "namespace": "myNS.tempuri.org",
-            "required": True,
         }
     )
     col: None | str = field(
@@ -34,7 +33,6 @@ class Utype:
         metadata={
             "type": "Element",
             "namespace": "myNS.tempuri.org",
-            "required": True,
         }
     )
     width: None | str = field(

@@ -46,13 +46,11 @@ class Root:
         metadata={
             "name": "complexTest",
             "type": "Element",
-            "required": True,
         }
     )
     simple_test: SimpleTest = field(
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
         }
     )

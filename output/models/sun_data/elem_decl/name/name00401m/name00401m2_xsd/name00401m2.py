@@ -28,6 +28,5 @@ class Global:
     root: Root = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

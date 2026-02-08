@@ -52,7 +52,6 @@ class FooType(Foo):
             "name": "myEle1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_ele2: int = field(
@@ -60,7 +59,6 @@ class FooType(Foo):
             "name": "myEle2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

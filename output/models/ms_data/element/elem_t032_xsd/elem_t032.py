@@ -47,7 +47,6 @@ class Test:
 
     value: int = field(
         metadata={
-            "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
         }

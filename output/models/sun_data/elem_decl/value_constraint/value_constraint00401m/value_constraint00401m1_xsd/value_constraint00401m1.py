@@ -10,12 +10,7 @@ class E:
     class Meta:
         namespace = "ElemDecl/valueConstraint"
 
-    value: bool = field(
-        default=True,
-        metadata={
-            "required": True,
-        },
-    )
+    value: bool = field(default=True)
 
 
 @dataclass(kw_only=True)

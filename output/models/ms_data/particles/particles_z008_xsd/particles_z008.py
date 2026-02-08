@@ -10,12 +10,7 @@ class Head2:
     class Meta:
         namespace = "urn:my-namespace"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -23,12 +18,7 @@ class Member2:
     class Meta:
         namespace = "urn:my-namespace"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -50,7 +40,6 @@ class ContainMember2Type(ContainHead2Type):
             "name": "Member2",
             "type": "Element",
             "namespace": "urn:my-namespace",
-            "required": True,
         }
     )
 

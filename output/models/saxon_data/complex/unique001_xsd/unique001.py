@@ -22,17 +22,12 @@ class Root:
             metadata={
                 "type": "Element",
                 "namespace": "",
-                "required": True,
             }
         )
 
         @dataclass(kw_only=True)
         class Idelt:
-            value: int = field(
-                metadata={
-                    "required": True,
-                }
-            )
+            value: int = field()
             attr: None | object = field(
                 default=None,
                 metadata={

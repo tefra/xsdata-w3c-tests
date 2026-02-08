@@ -31,21 +31,11 @@ class Scope:
 
     @dataclass(kw_only=True)
     class Key:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class Ref:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
 
 @dataclass(kw_only=True)

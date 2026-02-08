@@ -21,6 +21,5 @@ class Test:
         name: QName = field(
             metadata={
                 "type": "Attribute",
-                "required": True,
             }
         )

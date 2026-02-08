@@ -8,12 +8,7 @@ class Zz:
     class Meta:
         name = "zz"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     type_value: None | int = field(
         default=None,
         metadata={
@@ -50,7 +45,6 @@ class Zing:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_element: None | object = field(

@@ -13,7 +13,6 @@ class Doc:
     target: XmlDuration = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     equiv: list[XmlDuration] = field(

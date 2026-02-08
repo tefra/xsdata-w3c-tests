@@ -104,11 +104,7 @@ class Test:
     class Meta:
         name = "test"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)
@@ -116,11 +112,7 @@ class Test2:
     class Meta:
         name = "test2"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)
@@ -128,11 +120,7 @@ class Test3:
     class Meta:
         name = "test3"
 
-    value: A = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A = field()
 
 
 @dataclass(kw_only=True)

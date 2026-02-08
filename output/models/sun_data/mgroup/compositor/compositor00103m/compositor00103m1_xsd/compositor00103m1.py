@@ -17,13 +17,11 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     time: XmlTime = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

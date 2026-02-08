@@ -8,15 +8,10 @@ class XType:
     class Meta:
         name = "x_Type"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     a: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
             "max_length": 20,
             "pattern": r"val[1-9][0-9]*",
         }
@@ -36,6 +31,5 @@ class Example:
     x_count: int = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )

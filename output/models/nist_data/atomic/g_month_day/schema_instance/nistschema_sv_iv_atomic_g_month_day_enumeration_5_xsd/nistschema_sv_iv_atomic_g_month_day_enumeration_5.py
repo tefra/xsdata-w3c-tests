@@ -26,8 +26,4 @@ class NistschemaSvIvAtomicGMonthDayEnumeration5:
         name = "NISTSchema-SV-IV-atomic-gMonthDay-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-gMonthDay-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicGMonthDayEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicGMonthDayEnumeration5Type = field()

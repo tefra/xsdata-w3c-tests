@@ -108,8 +108,4 @@ class NistschemaSvIvListAnyUriEnumeration1:
         name = "NISTSchema-SV-IV-list-anyURI-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-anyURI-enumeration-1-NS"
 
-    value: NistschemaSvIvListAnyUriEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListAnyUriEnumeration1Type = field()

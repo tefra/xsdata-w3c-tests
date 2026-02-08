@@ -13,7 +13,6 @@ class MyType:
             "name": "myEle1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_ele2: str = field(
@@ -21,7 +20,6 @@ class MyType:
             "name": "myEle2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -36,7 +34,6 @@ class FooType(MyType):
             "name": "myElement",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

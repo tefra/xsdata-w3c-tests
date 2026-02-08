@@ -13,7 +13,6 @@ class MinimalA:
             "name": "B",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -25,7 +24,6 @@ class X:
             "name": "A",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     a_attribute: None | bool = field(

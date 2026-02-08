@@ -8,12 +8,7 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     my_attr: None | object = field(
         default=None,
         metadata={

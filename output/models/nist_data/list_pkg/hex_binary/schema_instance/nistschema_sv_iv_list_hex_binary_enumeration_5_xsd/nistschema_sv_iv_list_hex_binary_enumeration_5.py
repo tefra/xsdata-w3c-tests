@@ -95,7 +95,6 @@ class NistschemaSvIvListHexBinaryEnumeration5:
 
     value: NistschemaSvIvListHexBinaryEnumeration5Type = field(
         metadata={
-            "required": True,
             "format": "base16",
         }
     )

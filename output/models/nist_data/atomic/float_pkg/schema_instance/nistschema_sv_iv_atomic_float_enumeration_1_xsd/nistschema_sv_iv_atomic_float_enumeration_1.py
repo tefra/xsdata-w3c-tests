@@ -22,8 +22,4 @@ class NistschemaSvIvAtomicFloatEnumeration1:
         name = "NISTSchema-SV-IV-atomic-float-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-float-enumeration-1-NS"
 
-    value: NistschemaSvIvAtomicFloatEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicFloatEnumeration1Type = field()

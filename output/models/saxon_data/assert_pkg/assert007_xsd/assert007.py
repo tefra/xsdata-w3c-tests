@@ -44,7 +44,6 @@ class T3(T2):
         metadata={
             "type": "Element",
             "namespace": "http://chess/ns/",
-            "required": True,
         }
     )
 

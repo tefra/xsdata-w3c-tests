@@ -8,11 +8,7 @@ class Base:
     class Meta:
         name = "base"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)

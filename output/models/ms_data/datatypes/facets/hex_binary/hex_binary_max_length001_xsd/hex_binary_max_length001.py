@@ -12,7 +12,6 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "max_length": 4,
             "format": "base16",
         }

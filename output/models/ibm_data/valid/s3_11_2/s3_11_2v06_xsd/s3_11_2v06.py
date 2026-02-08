@@ -12,7 +12,6 @@ class DeptType:
             "name": "Deptno",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     dname: str = field(
@@ -20,7 +19,6 @@ class DeptType:
             "name": "Dname",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     loc: str = field(
@@ -28,7 +26,6 @@ class DeptType:
             "name": "Loc",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     id: None | int = field(
@@ -46,7 +43,6 @@ class EmployeeType:
             "name": "Empno",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     ename: str = field(
@@ -54,7 +50,6 @@ class EmployeeType:
             "name": "Ename",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     sal: float = field(
@@ -62,7 +57,6 @@ class EmployeeType:
             "name": "Sal",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     deptno: int = field(
@@ -70,7 +64,6 @@ class EmployeeType:
             "name": "Deptno",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     id: int = field(
@@ -78,7 +71,6 @@ class EmployeeType:
             "name": "ID",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
 

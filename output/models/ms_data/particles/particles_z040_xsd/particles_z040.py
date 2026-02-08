@@ -8,13 +8,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: str = field(
-        init=False,
-        default="e1",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="e1")
 
 
 @dataclass(kw_only=True)
@@ -22,13 +16,7 @@ class B:
     class Meta:
         name = "b"
 
-    value: str = field(
-        init=False,
-        default="e1",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="e1")
 
 
 @dataclass(kw_only=True)
@@ -36,13 +24,7 @@ class E:
     class Meta:
         name = "e"
 
-    value: str = field(
-        init=False,
-        default="e1",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="e1")
 
 
 @dataclass(kw_only=True)

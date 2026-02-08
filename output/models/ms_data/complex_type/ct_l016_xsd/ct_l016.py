@@ -12,14 +12,12 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     child_2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     other_attributes: dict[str, str] = field(
@@ -46,6 +44,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

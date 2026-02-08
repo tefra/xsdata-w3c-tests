@@ -15,7 +15,6 @@ class Test:
 
     value: XmlDate = field(
         metadata={
-            "required": True,
             "max_inclusive": XmlDate(2002, 2, 28),
         }
     )

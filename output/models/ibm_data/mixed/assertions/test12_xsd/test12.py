@@ -12,21 +12,18 @@ class Shape1:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     c: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     d: None | int = field(
@@ -40,7 +37,6 @@ class Shape1:
         metadata={
             "name": "type",
             "type": "Attribute",
-            "required": True,
         }
     )
 

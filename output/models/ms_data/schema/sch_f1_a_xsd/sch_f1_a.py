@@ -14,14 +14,12 @@ class CtA:
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
     a2: bool = field(
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
 

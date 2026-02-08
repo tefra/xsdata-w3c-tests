@@ -8,12 +8,7 @@ class Xmlns:
     class Meta:
         name = "xmlns"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     attr_test: None | str = field(
         default=None,
         metadata={

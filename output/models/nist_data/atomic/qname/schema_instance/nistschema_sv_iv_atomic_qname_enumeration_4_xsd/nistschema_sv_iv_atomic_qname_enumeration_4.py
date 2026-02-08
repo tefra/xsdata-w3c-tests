@@ -41,12 +41,7 @@ class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
         )
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -55,12 +50,7 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
         name = "etransforming-specific.emerging_is-developed.act_rela"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -69,12 +59,7 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
         name = "tmany-retrieval-with_language.both-be.results-is-of-b"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -83,12 +68,7 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -97,12 +77,7 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
         name = "yof_automatic-partnerships.and.set-series_is.key.e"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -111,8 +86,4 @@ class NistschemaSvIvAtomicQnameEnumeration4:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: NistschemaSvIvAtomicQnameEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicQnameEnumeration4Type = field()

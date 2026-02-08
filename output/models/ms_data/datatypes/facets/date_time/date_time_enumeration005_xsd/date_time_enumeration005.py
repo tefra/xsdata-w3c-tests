@@ -15,8 +15,4 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: Dttype = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Dttype = field()

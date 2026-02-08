@@ -13,11 +13,7 @@ class TestElement:
         name = "testElement"
         namespace = "http://www.tempuri.org"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -30,7 +26,6 @@ class RootType:
             "name": "testElement",
             "type": "Element",
             "namespace": "http://www.tempuri.org",
-            "required": True,
         }
     )
 

@@ -66,8 +66,4 @@ class NistschemaSvIvListGMonthEnumeration4:
         name = "NISTSchema-SV-IV-list-gMonth-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-gMonth-enumeration-4-NS"
 
-    value: NistschemaSvIvListGMonthEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListGMonthEnumeration4Type = field()

@@ -13,6 +13,5 @@ class X:
     message: str = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

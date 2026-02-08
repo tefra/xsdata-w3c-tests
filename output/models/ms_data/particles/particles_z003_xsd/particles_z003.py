@@ -15,7 +15,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "importedXSD",
-            "required": True,
         }
     )
 

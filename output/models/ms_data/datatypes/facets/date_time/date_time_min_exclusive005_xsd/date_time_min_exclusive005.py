@@ -14,7 +14,6 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_exclusive": XmlDateTime(1981, 3, 12, 10, 30, 0),
             "max_exclusive": XmlDateTime(1999, 5, 12, 10, 31, 0),
         }

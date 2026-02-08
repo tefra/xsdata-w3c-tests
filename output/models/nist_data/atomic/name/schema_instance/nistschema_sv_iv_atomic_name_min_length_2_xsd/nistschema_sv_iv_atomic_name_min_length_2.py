@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicNameMinLength2:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "min_length": 63,
         },
     )

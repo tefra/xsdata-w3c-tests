@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicHexBinaryPattern5:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"[0-9A-F]{60}",
         },
     )

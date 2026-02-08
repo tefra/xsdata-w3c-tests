@@ -12,14 +12,12 @@ class Ids:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     idref_element2: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     id1: str = field(
@@ -45,6 +43,5 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

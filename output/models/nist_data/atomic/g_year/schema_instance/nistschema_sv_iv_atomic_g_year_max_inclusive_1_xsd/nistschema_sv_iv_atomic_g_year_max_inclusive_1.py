@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicGYearMaxInclusive1:
 
     value: XmlPeriod = field(
         metadata={
-            "required": True,
             "max_inclusive": XmlPeriod("1970"),
         }
     )

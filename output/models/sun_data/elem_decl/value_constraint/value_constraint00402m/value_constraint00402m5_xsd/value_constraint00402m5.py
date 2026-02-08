@@ -10,11 +10,7 @@ class Answer:
     class Meta:
         name = "answer"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
     certainty: None | object = field(
         default=None,
         metadata={

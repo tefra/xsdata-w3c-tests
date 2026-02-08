@@ -12,21 +12,18 @@ class Address:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     street: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     city: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -46,7 +43,6 @@ class Ukaddress(Address):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "length": 7,
             "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
         }
@@ -71,13 +67,11 @@ class Usaddress(Address):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     zip: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

@@ -15,7 +15,6 @@ class Global:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -25,11 +24,7 @@ class Main:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)

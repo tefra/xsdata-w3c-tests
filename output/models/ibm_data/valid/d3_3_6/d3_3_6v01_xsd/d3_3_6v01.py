@@ -13,7 +13,6 @@ class Root:
 
     value: float = field(
         metadata={
-            "required": True,
             "min_inclusive": 0.0,
             "max_inclusive": 5.0,
         }

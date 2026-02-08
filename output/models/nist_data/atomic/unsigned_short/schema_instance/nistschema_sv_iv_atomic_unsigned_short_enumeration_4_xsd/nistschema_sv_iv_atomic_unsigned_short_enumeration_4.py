@@ -24,8 +24,4 @@ class NistschemaSvIvAtomicUnsignedShortEnumeration4:
         name = "NISTSchema-SV-IV-atomic-unsignedShort-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-unsignedShort-enumeration-4-NS"
 
-    value: NistschemaSvIvAtomicUnsignedShortEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicUnsignedShortEnumeration4Type = field()

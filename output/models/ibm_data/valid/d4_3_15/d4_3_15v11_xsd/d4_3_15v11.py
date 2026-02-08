@@ -14,7 +14,6 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     date: None | XmlDate = field(

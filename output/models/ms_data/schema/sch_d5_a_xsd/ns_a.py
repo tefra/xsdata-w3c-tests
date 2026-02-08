@@ -14,14 +14,12 @@ class CtA:
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
     a2: bool = field(
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
 
@@ -35,14 +33,12 @@ class CtB:
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
     b2: int = field(
         metadata={
             "type": "Element",
             "namespace": "ns-a",
-            "required": True,
         }
     )
 
@@ -56,14 +52,12 @@ class CtC:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     c2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

@@ -8,11 +8,7 @@ class TestV2:
     class Meta:
         name = "TEST_V2"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     v2: None | bool = field(
         default=None,
         metadata={

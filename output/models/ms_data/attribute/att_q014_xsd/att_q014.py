@@ -12,11 +12,7 @@ class InternationalPrice:
         name = "internationalPrice"
         namespace = "http://xsdtesting"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
     currency: None | str = field(
         default=None,
         metadata={
@@ -36,6 +32,5 @@ class Doc:
         metadata={
             "name": "internationalPrice",
             "type": "Element",
-            "required": True,
         }
     )

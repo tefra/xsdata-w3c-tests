@@ -14,7 +14,6 @@ class C:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     any_element: list[object] = field(

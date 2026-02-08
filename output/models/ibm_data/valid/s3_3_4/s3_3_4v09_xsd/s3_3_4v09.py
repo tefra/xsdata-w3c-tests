@@ -44,13 +44,11 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b: Idrefs = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

@@ -11,12 +11,7 @@ class A:
         name = "a"
         namespace = "compositor"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)

@@ -11,11 +11,7 @@ class H:
         name = "H---"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -23,11 +19,7 @@ class H111:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -35,11 +27,7 @@ class Hhhh:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -48,11 +36,7 @@ class II:
         name = "I--I"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -60,11 +44,7 @@ class I11I:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -72,11 +52,7 @@ class IiiI:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -85,11 +61,7 @@ class JJ:
         name = "J-J-"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -97,11 +69,7 @@ class J1J1:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -109,11 +77,7 @@ class JjJj:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -122,11 +86,7 @@ class KKk:
         name = "K-KK"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -135,11 +95,7 @@ class K1Kk:
         name = "K1KK"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -148,11 +104,7 @@ class KkKk:
         name = "KkKK"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -161,11 +113,7 @@ class Ll:
         name = "LL--"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -174,11 +122,7 @@ class Ll11:
         name = "LL11"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -187,11 +131,7 @@ class Llll:
         name = "LLll"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -200,11 +140,7 @@ class MmM:
         name = "MM-M"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -213,11 +149,7 @@ class Mm1M:
         name = "MM1M"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -226,11 +158,7 @@ class MmmM:
         name = "MMmM"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -239,11 +167,7 @@ class Nnn:
         name = "NNN-"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -252,11 +176,7 @@ class Nnn1:
         name = "NNN1"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -265,11 +185,7 @@ class Nnnn:
         name = "NNNn"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -278,11 +194,7 @@ class Oooo:
         name = "OOOO"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -291,11 +203,7 @@ class Aaaa:
         name = "aaaa"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -304,11 +212,7 @@ class Bbb0:
         name = "bbb0"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -317,11 +221,7 @@ class BbbB:
         name = "bbbB"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -330,11 +230,7 @@ class Bbb:
         name = "bbb_"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -343,11 +239,7 @@ class Cc0C:
         name = "cc0c"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -356,11 +248,7 @@ class CcCc:
         name = "ccCc"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -369,11 +257,7 @@ class CcC:
         name = "cc_c"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -382,11 +266,7 @@ class Dd00:
         name = "dd00"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -395,11 +275,7 @@ class DdDd:
         name = "ddDD"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -408,11 +284,7 @@ class Dd:
         name = "dd__"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -421,11 +293,7 @@ class E0Ee:
         name = "e0ee"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -434,11 +302,7 @@ class EEee:
         name = "eEee"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -447,11 +311,7 @@ class EEe:
         name = "e_ee"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -460,11 +320,7 @@ class F0F0:
         name = "f0f0"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -473,11 +329,7 @@ class FFfF:
         name = "fFfF"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -486,11 +338,7 @@ class FF:
         name = "f_f_"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -499,11 +347,7 @@ class G000:
         name = "g000"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -512,11 +356,7 @@ class GGgg:
         name = "gGGG"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -525,11 +365,7 @@ class G:
         name = "g___"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -538,11 +374,7 @@ class P00P:
         name = "p00p"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -551,11 +383,7 @@ class PPpp:
         name = "pPPp"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -564,11 +392,7 @@ class PP:
         name = "p__p"
         namespace = "ElemDecl/name"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -580,298 +404,254 @@ class Root:
     aaaa: Aaaa = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     bbb_b: BbbB = field(
         metadata={
             "name": "bbbB",
             "type": "Element",
-            "required": True,
         }
     )
     cc_cc: CcCc = field(
         metadata={
             "name": "ccCc",
             "type": "Element",
-            "required": True,
         }
     )
     dd_dd: DdDd = field(
         metadata={
             "name": "ddDD",
             "type": "Element",
-            "required": True,
         }
     )
     e_eee: EEee = field(
         metadata={
             "name": "eEee",
             "type": "Element",
-            "required": True,
         }
     )
     f_ff_f: FFfF = field(
         metadata={
             "name": "fFfF",
             "type": "Element",
-            "required": True,
         }
     )
     p_ppp: PPpp = field(
         metadata={
             "name": "pPPp",
             "type": "Element",
-            "required": True,
         }
     )
     g_ggg: GGgg = field(
         metadata={
             "name": "gGGG",
             "type": "Element",
-            "required": True,
         }
     )
     hhhh: Hhhh = field(
         metadata={
             "name": "Hhhh",
             "type": "Element",
-            "required": True,
         }
     )
     iii_i: IiiI = field(
         metadata={
             "name": "IiiI",
             "type": "Element",
-            "required": True,
         }
     )
     jj_jj: JjJj = field(
         metadata={
             "name": "JjJj",
             "type": "Element",
-            "required": True,
         }
     )
     kk_kk: KkKk = field(
         metadata={
             "name": "KkKK",
             "type": "Element",
-            "required": True,
         }
     )
     llll: Llll = field(
         metadata={
             "name": "LLll",
             "type": "Element",
-            "required": True,
         }
     )
     mmm_m: MmmM = field(
         metadata={
             "name": "MMmM",
             "type": "Element",
-            "required": True,
         }
     )
     nnnn: Nnnn = field(
         metadata={
             "name": "NNNn",
             "type": "Element",
-            "required": True,
         }
     )
     oooo: Oooo = field(
         metadata={
             "name": "OOOO",
             "type": "Element",
-            "required": True,
         }
     )
     bbb0: Bbb0 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     cc0c: Cc0C = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     dd00: Dd00 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     e0ee: E0Ee = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     f0f0: F0F0 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     p00p: P00P = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     g000: G000 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     bbb: Bbb = field(
         metadata={
             "name": "bbb_",
             "type": "Element",
-            "required": True,
         }
     )
     cc_c: CcC = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     dd: Dd = field(
         metadata={
             "name": "dd__",
             "type": "Element",
-            "required": True,
         }
     )
     e_ee: EEe = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     f_f: FF = field(
         metadata={
             "name": "f_f_",
             "type": "Element",
-            "required": True,
         }
     )
     p_p: PP = field(
         metadata={
             "name": "p__p",
             "type": "Element",
-            "required": True,
         }
     )
     g: G = field(
         metadata={
             "name": "g___",
             "type": "Element",
-            "required": True,
         }
     )
     h111: H111 = field(
         metadata={
             "name": "H111",
             "type": "Element",
-            "required": True,
         }
     )
     i11_i: I11I = field(
         metadata={
             "name": "I11I",
             "type": "Element",
-            "required": True,
         }
     )
     j1_j1: J1J1 = field(
         metadata={
             "name": "J1J1",
             "type": "Element",
-            "required": True,
         }
     )
     k1_kk: K1Kk = field(
         metadata={
             "name": "K1KK",
             "type": "Element",
-            "required": True,
         }
     )
     ll11: Ll11 = field(
         metadata={
             "name": "LL11",
             "type": "Element",
-            "required": True,
         }
     )
     mm1_m: Mm1M = field(
         metadata={
             "name": "MM1M",
             "type": "Element",
-            "required": True,
         }
     )
     nnn1: Nnn1 = field(
         metadata={
             "name": "NNN1",
             "type": "Element",
-            "required": True,
         }
     )
     h: H = field(
         metadata={
             "name": "H---",
             "type": "Element",
-            "required": True,
         }
     )
     i_i: II = field(
         metadata={
             "name": "I--I",
             "type": "Element",
-            "required": True,
         }
     )
     j_j: JJ = field(
         metadata={
             "name": "J-J-",
             "type": "Element",
-            "required": True,
         }
     )
     k_kk: KKk = field(
         metadata={
             "name": "K-KK",
             "type": "Element",
-            "required": True,
         }
     )
     ll: Ll = field(
         metadata={
             "name": "LL--",
             "type": "Element",
-            "required": True,
         }
     )
     mm_m: MmM = field(
         metadata={
             "name": "MM-M",
             "type": "Element",
-            "required": True,
         }
     )
     nnn: Nnn = field(
         metadata={
             "name": "NNN-",
             "type": "Element",
-            "required": True,
         }
     )

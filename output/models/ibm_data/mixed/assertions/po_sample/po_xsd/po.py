@@ -107,39 +107,19 @@ class Buyer:
 
     @dataclass(kw_only=True)
     class FName:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class MiddlName:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class LName:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
     @dataclass(kw_only=True)
     class Establishment:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -157,7 +137,6 @@ class Order1(PoBusinessRules):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     billing_address: Address = field(
@@ -165,7 +144,6 @@ class Order1(PoBusinessRules):
             "name": "billing-address",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     shipping_address: Address = field(
@@ -173,14 +151,12 @@ class Order1(PoBusinessRules):
             "name": "shipping-address",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     email: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r".*@.*\..*",
         }
     )
@@ -197,7 +173,6 @@ class Order1(PoBusinessRules):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_inclusive": Decimal("0"),
         }
     )
@@ -206,7 +181,6 @@ class Order1(PoBusinessRules):
             "name": "bill-amount",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_inclusive": Decimal("0"),
         }
     )
@@ -214,13 +188,11 @@ class Order1(PoBusinessRules):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     id: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

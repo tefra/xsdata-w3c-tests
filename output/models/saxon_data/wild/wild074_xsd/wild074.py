@@ -22,12 +22,7 @@ class A2:
     class Meta:
         name = "a"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)

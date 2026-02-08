@@ -25,11 +25,7 @@ class Main:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)

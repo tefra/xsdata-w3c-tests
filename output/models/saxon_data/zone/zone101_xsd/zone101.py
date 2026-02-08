@@ -10,8 +10,4 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: XmlDateTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDateTime = field()

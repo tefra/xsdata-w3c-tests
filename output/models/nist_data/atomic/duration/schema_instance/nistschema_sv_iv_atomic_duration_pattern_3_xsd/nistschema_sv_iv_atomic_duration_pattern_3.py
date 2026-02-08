@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDurationPattern3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"P20\d\dY\d3M\d1DT\d4H\d7M\d6S",
         },
     )

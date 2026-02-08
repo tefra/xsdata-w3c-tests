@@ -13,7 +13,6 @@ class FooType:
             "name": "fooEle1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     foo_ele2: int = field(
@@ -21,7 +20,6 @@ class FooType:
             "name": "fooEle2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -36,7 +34,6 @@ class MyType(FooType):
             "name": "fooEle3",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -56,6 +53,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

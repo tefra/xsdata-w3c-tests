@@ -11,9 +11,4 @@ class GiftWrap:
         name = "giftWrap"
         namespace = "http://datypic.com/spc"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

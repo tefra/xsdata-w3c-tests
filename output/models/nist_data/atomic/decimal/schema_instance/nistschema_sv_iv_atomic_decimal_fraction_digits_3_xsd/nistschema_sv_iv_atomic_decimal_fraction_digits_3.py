@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalFractionDigits3:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "fraction_digits": 8,
         }
     )

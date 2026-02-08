@@ -102,8 +102,4 @@ class NistschemaSvIvListIntegerEnumeration2:
         name = "NISTSchema-SV-IV-list-integer-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-integer-enumeration-2-NS"
 
-    value: NistschemaSvIvListIntegerEnumeration2Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListIntegerEnumeration2Type = field()

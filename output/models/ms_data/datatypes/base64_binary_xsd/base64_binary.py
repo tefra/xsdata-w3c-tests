@@ -12,7 +12,6 @@ class ComplexfooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "format": "base64",
         }
     )
@@ -26,7 +25,6 @@ class SimpleTest:
     value: bytes = field(
         default=b"",
         metadata={
-            "required": True,
             "format": "base64",
         },
     )
@@ -47,13 +45,11 @@ class Root:
         metadata={
             "name": "complexTest",
             "type": "Element",
-            "required": True,
         }
     )
     simple_test: SimpleTest = field(
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
         }
     )

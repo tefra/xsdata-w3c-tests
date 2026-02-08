@@ -12,8 +12,4 @@ class Number:
         name = "number"
         namespace = "ElemDecl/targetNS"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()

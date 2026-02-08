@@ -10,11 +10,7 @@ class E:
     class Meta:
         name = "e"
 
-    value: XmlTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlTime = field()
 
 
 @dataclass(kw_only=True)
@@ -26,14 +22,12 @@ class Zing:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     f: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_element: None | object = field(

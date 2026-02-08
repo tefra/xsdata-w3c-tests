@@ -14,7 +14,6 @@ class Root:
 
     value: QName = field(
         metadata={
-            "required": True,
             "max_length": 5,
         }
     )

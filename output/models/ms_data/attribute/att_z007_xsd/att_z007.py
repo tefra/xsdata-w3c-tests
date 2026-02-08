@@ -62,7 +62,6 @@ class Three(Two):
     att1: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -75,18 +74,15 @@ class Doc:
     e1: One = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     e2: Two = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     e3: Three = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

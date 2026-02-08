@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicGMonthMaxExclusive5:
 
     value: XmlPeriod = field(
         metadata={
-            "required": True,
             "max_exclusive": XmlPeriod("--12"),
         }
     )

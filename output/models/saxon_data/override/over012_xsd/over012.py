@@ -11,18 +11,15 @@ class StructuredDate:
     year: int = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     month: int = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     day: int = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

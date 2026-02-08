@@ -26,14 +26,12 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e2: Bar = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

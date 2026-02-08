@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicDurationMaxExclusive5:
 
     value: XmlDuration = field(
         metadata={
-            "required": True,
             "max_exclusive": XmlDuration("P2030Y12M31DT23H59M59S"),
         }
     )

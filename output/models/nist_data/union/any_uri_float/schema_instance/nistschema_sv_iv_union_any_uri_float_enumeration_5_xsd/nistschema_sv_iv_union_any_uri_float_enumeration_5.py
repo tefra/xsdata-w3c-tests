@@ -30,8 +30,4 @@ class NistschemaSvIvUnionAnyUriFloatEnumeration5:
         name = "NISTSchema-SV-IV-union-anyURI-float-enumeration-5"
         namespace = "NISTSchema-SV-IV-union-anyURI-float-enumeration-5-NS"
 
-    value: NistschemaSvIvUnionAnyUriFloatEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvUnionAnyUriFloatEnumeration5Type = field()

@@ -13,11 +13,7 @@ class TestDate:
         name = "testDate"
         namespace = "http://www.tempuri.org"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()
 
 
 @dataclass(kw_only=True)
@@ -26,11 +22,7 @@ class TestGday:
         name = "testGDay"
         namespace = "http://www.tempuri.org"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -39,11 +31,7 @@ class TestGmonth:
         name = "testGMonth"
         namespace = "http://www.tempuri.org"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -52,11 +40,7 @@ class TestGmonthDay:
         name = "testGMonthDay"
         namespace = "http://www.tempuri.org"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -65,11 +49,7 @@ class TestGyear:
         name = "testGYear"
         namespace = "http://www.tempuri.org"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)
@@ -78,11 +58,7 @@ class TestGyearMonth:
         name = "testGYearMonth"
         namespace = "http://www.tempuri.org"
 
-    value: XmlPeriod = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlPeriod = field()
 
 
 @dataclass(kw_only=True)

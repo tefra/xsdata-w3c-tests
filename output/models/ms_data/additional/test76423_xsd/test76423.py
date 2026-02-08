@@ -20,13 +20,11 @@ class EventType:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     scope: ScopeType = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -42,20 +40,17 @@ class PropertyType:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     scope: ScopeType = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     type_value: str = field(
         metadata={
             "name": "type",
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -88,7 +83,6 @@ class ClassType:
     name: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     inherits: None | str = field(

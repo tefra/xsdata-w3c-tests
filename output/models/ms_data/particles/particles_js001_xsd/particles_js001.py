@@ -35,7 +35,6 @@ class R(B):
             "name": "impElem1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

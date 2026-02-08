@@ -15,7 +15,6 @@ class Keyname:
             "name": "Numid",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     numname: str = field(
@@ -23,7 +22,6 @@ class Keyname:
             "name": "Numname",
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     id: None | int = field(

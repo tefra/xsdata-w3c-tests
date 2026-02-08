@@ -26,7 +26,6 @@ class NistschemaSvIvAtomicHexBinaryEnumeration3:
 
     value: NistschemaSvIvAtomicHexBinaryEnumeration3Type = field(
         metadata={
-            "required": True,
             "format": "base16",
         }
     )

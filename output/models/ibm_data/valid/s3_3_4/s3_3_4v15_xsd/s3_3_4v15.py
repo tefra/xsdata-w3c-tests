@@ -30,6 +30,5 @@ class Wrapper:
     root: Root = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

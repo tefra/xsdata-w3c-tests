@@ -9,8 +9,4 @@ class Number:
     class Meta:
         name = "number"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()

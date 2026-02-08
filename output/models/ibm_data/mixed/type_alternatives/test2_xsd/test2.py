@@ -9,15 +9,10 @@ class XDecimal:
     class Meta:
         name = "X_Decimal"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
     kind: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -27,15 +22,10 @@ class XInt:
     class Meta:
         name = "X_Int"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     kind: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -45,16 +35,10 @@ class XString:
     class Meta:
         name = "X_String"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     kind: str = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

@@ -22,8 +22,4 @@ class NistschemaSvIvAtomicLongEnumeration5:
         name = "NISTSchema-SV-IV-atomic-long-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-long-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicLongEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicLongEnumeration5Type = field()

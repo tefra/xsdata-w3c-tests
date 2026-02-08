@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicNegativeIntegerMaxInclusive2:
 
     value: int = field(
         metadata={
-            "required": True,
             "max_inclusive": -922333322214573646,
         }
     )

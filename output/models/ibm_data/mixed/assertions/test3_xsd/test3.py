@@ -78,13 +78,11 @@ class Data:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     parent: ParentType = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

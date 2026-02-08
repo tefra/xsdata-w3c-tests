@@ -23,8 +23,4 @@ class NistschemaSvIvAtomicGYearEnumeration5:
         name = "NISTSchema-SV-IV-atomic-gYear-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-gYear-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicGYearEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicGYearEnumeration5Type = field()

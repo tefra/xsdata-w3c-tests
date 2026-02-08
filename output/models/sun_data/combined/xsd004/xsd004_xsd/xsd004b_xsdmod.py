@@ -11,12 +11,7 @@ class A:
         name = "a"
         namespace = "zot"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -25,12 +20,7 @@ class B:
         name = "b"
         namespace = "zot"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -39,9 +29,4 @@ class C:
         name = "c"
         namespace = "zot"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")

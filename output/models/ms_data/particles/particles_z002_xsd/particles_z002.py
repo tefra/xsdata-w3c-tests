@@ -96,20 +96,17 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     elem2: Derived2 = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     elem3: Derived3 = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

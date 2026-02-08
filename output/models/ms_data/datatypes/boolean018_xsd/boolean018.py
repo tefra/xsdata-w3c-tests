@@ -23,7 +23,6 @@ class ComplexfooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -33,11 +32,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: SimplefooType = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: SimplefooType = field()
 
 
 @dataclass(kw_only=True)
@@ -55,13 +50,11 @@ class Root:
         metadata={
             "name": "complexTest",
             "type": "Element",
-            "required": True,
         }
     )
     simple_test: SimpleTest = field(
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
         }
     )

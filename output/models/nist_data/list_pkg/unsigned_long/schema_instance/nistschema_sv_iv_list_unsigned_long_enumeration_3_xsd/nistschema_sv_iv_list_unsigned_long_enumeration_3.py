@@ -73,8 +73,4 @@ class NistschemaSvIvListUnsignedLongEnumeration3:
         name = "NISTSchema-SV-IV-list-unsignedLong-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-unsignedLong-enumeration-3-NS"
 
-    value: NistschemaSvIvListUnsignedLongEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListUnsignedLongEnumeration3Type = field()

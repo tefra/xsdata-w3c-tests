@@ -10,11 +10,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()
     evidence: None | object = field(
         default=None,
         metadata={

@@ -11,11 +11,7 @@ class Global:
     class Meta:
         namespace = "ElemDecl/typeDef"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
 
 
 @dataclass(kw_only=True)
@@ -28,7 +24,6 @@ class Root:
         metadata={
             "name": "Global",
             "type": "Element",
-            "required": True,
         }
     )
     local: Decimal = field(
@@ -36,6 +31,5 @@ class Root:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

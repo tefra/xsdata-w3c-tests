@@ -18,7 +18,6 @@ class Inner:
     x: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     y: None | object = field(

@@ -51,7 +51,6 @@ class FooType(MyType):
             "name": "myElement4",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     other_attributes: dict[str, str] = field(

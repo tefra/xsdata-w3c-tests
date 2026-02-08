@@ -28,8 +28,4 @@ class NistschemaSvIvAtomicNmtokenEnumeration1:
         name = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-1-NS"
 
-    value: NistschemaSvIvAtomicNmtokenEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicNmtokenEnumeration1Type = field()

@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicBooleanPattern5:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"[1]{1}",
         },
     )

@@ -26,11 +26,7 @@ class X:
         name = "x"
         namespace = "a"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)

@@ -39,6 +39,5 @@ class Root:
             "name": "Element",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

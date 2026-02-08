@@ -231,7 +231,6 @@ class Blockquote:
     p: P = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     role: None | object = field(
@@ -265,7 +264,6 @@ class Doc:
     title: Title = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     xsdextra: None | Xsdextra = field(

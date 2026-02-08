@@ -8,12 +8,7 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
     any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={

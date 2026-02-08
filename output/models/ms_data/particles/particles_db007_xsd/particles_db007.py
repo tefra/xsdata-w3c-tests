@@ -94,12 +94,10 @@ class Doc:
     elem1: Elem1 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     elem2: Elem2 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

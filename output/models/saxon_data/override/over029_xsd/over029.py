@@ -13,14 +13,12 @@ class ProductType:
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
-            "required": True,
         }
     )
     name: str = field(
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
-            "required": True,
         }
     )
     size: None | int = field(
@@ -53,7 +51,6 @@ class OrderType:
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
-            "required": True,
         }
     )
 

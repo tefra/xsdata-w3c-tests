@@ -140,12 +140,7 @@ class FromAnRe:
         name = "_from-an.re"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -154,12 +149,7 @@ class IsAllowFourAsToImp:
         name = "_is-allow.four-as_to-imp"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -168,12 +158,7 @@ class UsedF:
         name = "_used.f"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -182,12 +167,7 @@ class AapproachInformationForMetrologyJointFileTheseI:
         name = "aapproach_information_for-metrology-joint.file-these_i"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -196,12 +176,7 @@ class AasTheInformationRetrievalOnlyImplementationTech:
         name = "aas.the.information.retrieval_only-implementation-tech"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -210,12 +185,7 @@ class Asolutions:
         name = "asolutions_"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -224,12 +194,7 @@ class BandAndYears20AndAndHavi:
         name = "band-and-years-20_and.and.havi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -238,12 +203,7 @@ class DtheOfMethodsA:
         name = "dthe.of_methods.a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -252,12 +212,7 @@ class DwillIfOfToTheUsedWithLookingT:
         name = "dwill.if_of.to.the-used.with.looking_t"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -266,12 +221,7 @@ class EbothManual:
         name = "eboth.manual"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -280,12 +230,7 @@ class EcanInteroperabilit:
         name = "ecan_interoperabilit"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -294,12 +239,7 @@ class EprocessTheNewcomer:
         name = "eprocess_the-newcomer"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -308,12 +248,7 @@ class GconstituentHasHasAutomatingSoftwareTechnologiesWillAn:
         name = "gconstituent.has_has.automating.software-technologies-will-an"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -322,12 +257,7 @@ class ItoTheseBeenUtilitiesModelsDataBottlenecksToInfor:
         name = "ito.these-been.utilities.models-data-bottlenecks_to_infor"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -336,12 +266,7 @@ class JinternationalInformationT:
         name = "jinternational.information-t"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -350,12 +275,7 @@ class LenforcementServicesLackin:
         name = "lenforcement_services-lackin"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -364,12 +284,7 @@ class MissuesEIndustryFromDef:
         name = "missues_e_industry-from_def"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -378,12 +293,7 @@ class Q:
         name = "q"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -392,12 +302,7 @@ class ScommerceThroughDefineManipulationGroupsOfD:
         name = "scommerce_through.define.manipulation.groups.of.d"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -406,12 +311,7 @@ class Uregi:
         name = "uregi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -420,12 +320,7 @@ class VbusinessAndForCreationAndInformationAi:
         name = "vbusiness.and_for.creation_and_information-ai"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -434,12 +329,7 @@ class WvirtuallyDevicesContributeForPartnershipsEnsureEnsu:
         name = "wvirtually_devices-contribute_for_partnerships-ensure.ensu"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -448,12 +338,7 @@ class Xconformance:
         name = "xconformance"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -462,12 +347,7 @@ class XregistryToComputerTheSubjectBackAndThese:
         name = "xregistry-to.computer.the_subject-back_and-these_"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -476,12 +356,7 @@ class XwhichIsDocum:
         name = "xwhich-is-docum"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -490,8 +365,4 @@ class NistschemaSvIvListQnameEnumeration1:
         name = "NISTSchema-SV-IV-list-QName-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
 
-    value: NistschemaSvIvListQnameEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListQnameEnumeration1Type = field()

@@ -22,8 +22,4 @@ class NistschemaSvIvAtomicIntegerEnumeration5:
         name = "NISTSchema-SV-IV-atomic-integer-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-integer-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicIntegerEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicIntegerEnumeration5Type = field()

@@ -11,11 +11,7 @@ class A:
         name = "a"
         namespace = "a"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -24,11 +20,7 @@ class B:
         name = "b"
         namespace = "a"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -37,11 +29,7 @@ class C:
         name = "c"
         namespace = "a"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)
@@ -50,11 +38,7 @@ class D:
         name = "d"
         namespace = "a"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
 
 
 @dataclass(kw_only=True)

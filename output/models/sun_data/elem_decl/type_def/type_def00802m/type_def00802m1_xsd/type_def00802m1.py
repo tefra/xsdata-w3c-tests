@@ -13,7 +13,6 @@ class Element:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"1|0",
         },
     )
@@ -29,6 +28,5 @@ class Root:
         metadata={
             "name": "Element",
             "type": "Element",
-            "required": True,
         }
     )

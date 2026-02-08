@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicNormalizedStringMinLength1:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "min_length": 0,
         },
     )

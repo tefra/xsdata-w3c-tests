@@ -70,8 +70,4 @@ class NistschemaSvIvListTimeEnumeration5:
         name = "NISTSchema-SV-IV-list-time-enumeration-5"
         namespace = "NISTSchema-SV-IV-list-time-enumeration-5-NS"
 
-    value: NistschemaSvIvListTimeEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListTimeEnumeration5Type = field()

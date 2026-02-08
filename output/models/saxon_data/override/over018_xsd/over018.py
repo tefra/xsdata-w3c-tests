@@ -13,8 +13,4 @@ class Doc:
         name = "doc"
         namespace = "http://example.com/over018"
 
-    value: XmlDate = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDate = field()

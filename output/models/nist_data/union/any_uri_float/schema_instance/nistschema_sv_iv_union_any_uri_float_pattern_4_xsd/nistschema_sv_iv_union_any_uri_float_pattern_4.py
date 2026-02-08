@@ -14,7 +14,6 @@ class NistschemaSvIvUnionAnyUriFloatPattern4:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\c{3,6}://(\c{1,5}\.){1,4}\c{3}",
         },
     )

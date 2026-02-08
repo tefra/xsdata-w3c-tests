@@ -82,8 +82,4 @@ class NistschemaSvIvListStringEnumeration4:
         name = "NISTSchema-SV-IV-list-string-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-string-enumeration-4-NS"
 
-    value: NistschemaSvIvListStringEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListStringEnumeration4Type = field()

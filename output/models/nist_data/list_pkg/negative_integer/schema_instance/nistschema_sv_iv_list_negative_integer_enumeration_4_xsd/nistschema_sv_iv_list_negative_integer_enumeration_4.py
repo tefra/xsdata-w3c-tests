@@ -101,8 +101,4 @@ class NistschemaSvIvListNegativeIntegerEnumeration4:
         name = "NISTSchema-SV-IV-list-negativeInteger-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-negativeInteger-enumeration-4-NS"
 
-    value: NistschemaSvIvListNegativeIntegerEnumeration4Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListNegativeIntegerEnumeration4Type = field()

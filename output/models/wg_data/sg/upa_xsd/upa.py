@@ -11,12 +11,7 @@ class E:
         name = "e"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)

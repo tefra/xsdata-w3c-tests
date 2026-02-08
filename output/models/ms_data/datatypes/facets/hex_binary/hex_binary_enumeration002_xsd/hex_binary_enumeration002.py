@@ -17,7 +17,6 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "format": "base16",
         }
     )

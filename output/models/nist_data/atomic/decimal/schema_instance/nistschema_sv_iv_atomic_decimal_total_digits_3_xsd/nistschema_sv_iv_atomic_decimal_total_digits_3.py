@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalTotalDigits3:
 
     value: Decimal = field(
         metadata={
-            "required": True,
             "total_digits": 9,
         }
     )

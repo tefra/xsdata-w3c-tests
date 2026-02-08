@@ -23,8 +23,4 @@ class NistschemaSvIvAtomicIntEnumeration3:
         name = "NISTSchema-SV-IV-atomic-int-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-int-enumeration-3-NS"
 
-    value: NistschemaSvIvAtomicIntEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicIntEnumeration3Type = field()

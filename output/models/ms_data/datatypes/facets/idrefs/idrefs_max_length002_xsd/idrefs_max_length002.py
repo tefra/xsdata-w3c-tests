@@ -32,7 +32,6 @@ class FooType:
     foo: Foo = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     id2_attr: None | str = field(

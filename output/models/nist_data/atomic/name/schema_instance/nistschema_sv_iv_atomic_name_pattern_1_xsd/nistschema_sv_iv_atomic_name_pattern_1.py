@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicNamePattern1:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\i\c{45}",
         },
     )

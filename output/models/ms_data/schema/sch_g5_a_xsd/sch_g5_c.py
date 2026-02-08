@@ -14,14 +14,12 @@ class CtC:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     a2: int = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

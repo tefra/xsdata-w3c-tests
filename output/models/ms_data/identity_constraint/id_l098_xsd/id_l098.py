@@ -10,11 +10,7 @@ class Ttype:
     class Meta:
         name = "ttype"
 
-    value: bool = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: bool = field()
     row: None | str = field(
         default=None,
         metadata={
@@ -29,11 +25,7 @@ class Utype:
     class Meta:
         name = "utype"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     row: None | str = field(
         default=None,
         metadata={

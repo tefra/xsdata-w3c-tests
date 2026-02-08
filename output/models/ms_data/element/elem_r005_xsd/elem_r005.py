@@ -14,14 +14,12 @@ class Usaddress:
         metadata={
             "type": "Element",
             "namespace": "testNS",
-            "required": True,
         }
     )
     street: str = field(
         metadata={
             "type": "Element",
             "namespace": "testNS",
-            "required": True,
         }
     )
     country: str = field(
@@ -38,12 +36,7 @@ class Comment:
         name = "comment"
         namespace = "testNS"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -53,7 +46,6 @@ class PurchaseOrderType:
             "name": "shipTo",
             "type": "Element",
             "namespace": "testNS",
-            "required": True,
         }
     )
     bill_to: Usaddress = field(
@@ -61,7 +53,6 @@ class PurchaseOrderType:
             "name": "billTo",
             "type": "Element",
             "namespace": "testNS",
-            "required": True,
         }
     )
     comment: None | Comment = field(

@@ -12,7 +12,6 @@ class Bar:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -27,7 +26,6 @@ class Foo:
             "name": "e1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e1: str = field(
@@ -35,7 +33,6 @@ class Foo:
             "wrapper": "e2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

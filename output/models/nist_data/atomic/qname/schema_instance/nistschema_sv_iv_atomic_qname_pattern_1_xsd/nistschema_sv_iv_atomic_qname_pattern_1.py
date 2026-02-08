@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicQnamePattern1:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{40}",
         },
     )

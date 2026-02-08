@@ -8,11 +8,7 @@ class ComType:
     class Meta:
         name = "comType"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()
     attr: None | str = field(
         default=None,
         metadata={

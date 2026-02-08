@@ -44,7 +44,6 @@ class E1:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "length": 4,
         },
     )
@@ -66,7 +65,6 @@ class M3:
     att: int = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

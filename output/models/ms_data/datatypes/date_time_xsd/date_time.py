@@ -14,7 +14,6 @@ class ComplexfooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -24,11 +23,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: XmlDateTime = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDateTime = field()
 
 
 @dataclass(kw_only=True)
@@ -46,13 +41,11 @@ class Root:
         metadata={
             "name": "complexTest",
             "type": "Element",
-            "required": True,
         }
     )
     simple_test: SimpleTest = field(
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
         }
     )

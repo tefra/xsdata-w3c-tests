@@ -78,8 +78,4 @@ class NistschemaSvIvListShortEnumeration1:
         name = "NISTSchema-SV-IV-list-short-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-short-enumeration-1-NS"
 
-    value: NistschemaSvIvListShortEnumeration1Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvListShortEnumeration1Type = field()

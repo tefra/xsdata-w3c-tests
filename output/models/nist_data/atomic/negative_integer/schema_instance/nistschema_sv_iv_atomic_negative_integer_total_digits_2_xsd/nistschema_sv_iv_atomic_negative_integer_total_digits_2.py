@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicNegativeIntegerTotalDigits2:
 
     value: int = field(
         metadata={
-            "required": True,
             "total_digits": 5,
         }
     )

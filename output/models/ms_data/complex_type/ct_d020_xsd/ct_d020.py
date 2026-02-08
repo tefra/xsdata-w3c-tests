@@ -9,11 +9,7 @@ class MyType:
     class Meta:
         name = "myType"
 
-    value: Decimal = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: Decimal = field()
 
 
 @dataclass(kw_only=True)

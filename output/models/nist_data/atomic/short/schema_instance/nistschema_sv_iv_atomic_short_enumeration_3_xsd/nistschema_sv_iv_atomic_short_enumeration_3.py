@@ -20,8 +20,4 @@ class NistschemaSvIvAtomicShortEnumeration3:
         name = "NISTSchema-SV-IV-atomic-short-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-short-enumeration-3-NS"
 
-    value: NistschemaSvIvAtomicShortEnumeration3Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicShortEnumeration3Type = field()

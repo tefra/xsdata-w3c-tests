@@ -15,7 +15,6 @@ class ElementWithAttr:
         metadata={
             "type": "Attribute",
             "namespace": "AttrUse/required",
-            "required": True,
         }
     )
 

@@ -46,14 +46,12 @@ class Tabletype:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     r: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

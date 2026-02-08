@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicTimeMinInclusive2:
 
     value: XmlTime = field(
         metadata={
-            "required": True,
             "min_inclusive": XmlTime(21, 11, 44, 0),
         }
     )

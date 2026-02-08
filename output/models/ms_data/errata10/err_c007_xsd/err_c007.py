@@ -35,8 +35,4 @@ class TestContent:
         name = "testContent"
         namespace = "http://www.tempuri.org"
 
-    value: int = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: int = field()

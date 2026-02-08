@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicUnsignedShortMaxInclusive5:
 
     value: int = field(
         metadata={
-            "required": True,
             "max_inclusive": 65535,
         }
     )

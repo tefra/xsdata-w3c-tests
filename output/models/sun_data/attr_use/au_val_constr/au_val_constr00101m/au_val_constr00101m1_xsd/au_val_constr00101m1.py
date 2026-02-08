@@ -31,6 +31,5 @@ class Root:
         metadata={
             "name": "elementWithAttr",
             "type": "Element",
-            "required": True,
         }
     )

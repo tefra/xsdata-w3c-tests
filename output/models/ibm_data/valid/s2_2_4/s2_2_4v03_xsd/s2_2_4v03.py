@@ -56,14 +56,12 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     hi2: T0 = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

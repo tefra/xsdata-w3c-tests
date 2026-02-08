@@ -16,11 +16,7 @@ class A:
         name = "a"
         namespace = "foo"
 
-    value: St = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: St = field()
 
 
 @dataclass(kw_only=True)
@@ -32,6 +28,5 @@ class Doc:
     a: A = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

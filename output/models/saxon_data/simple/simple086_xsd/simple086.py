@@ -10,8 +10,4 @@ class Elem:
     class Meta:
         name = "elem"
 
-    value: XmlDuration = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: XmlDuration = field()

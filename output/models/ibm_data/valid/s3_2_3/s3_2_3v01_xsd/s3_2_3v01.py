@@ -34,6 +34,5 @@ class Root:
     element1: Type1 = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

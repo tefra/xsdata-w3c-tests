@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicNcnamePattern3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"[\i-[:]][\c-[:]]{27}",
         },
     )

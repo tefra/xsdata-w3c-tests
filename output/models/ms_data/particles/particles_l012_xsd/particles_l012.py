@@ -122,7 +122,6 @@ class R(B):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     d1: None | object = field(

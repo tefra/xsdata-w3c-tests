@@ -44,7 +44,6 @@ class FooType(Foo):
             "name": "myEle4",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

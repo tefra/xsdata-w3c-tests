@@ -17,7 +17,6 @@ class NistschemaSvIvAtomicNonNegativeIntegerFractionDigits1:
 
     value: int = field(
         metadata={
-            "required": True,
             "fraction_digits": 0,
         }
     )

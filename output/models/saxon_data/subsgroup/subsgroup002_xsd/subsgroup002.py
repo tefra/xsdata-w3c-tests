@@ -8,12 +8,7 @@ class AppendixContent:
     class Meta:
         name = "appendixContent"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -21,12 +16,7 @@ class ChapContent:
     class Meta:
         name = "chapContent"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -48,12 +38,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="")
 
 
 @dataclass(kw_only=True)
@@ -90,12 +75,10 @@ class Doc:
     body: Body = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     back: Back = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

@@ -14,7 +14,6 @@ class NistschemaSvIvUnionDurationDecimalPattern4:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"P\d\d47Y\d3M1\dDT\d9H2\dM2\dS",
         },
     )

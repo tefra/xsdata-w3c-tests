@@ -13,7 +13,6 @@ class FooTest:
             "name": "myElem_1",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_elem_2: int = field(
@@ -21,7 +20,6 @@ class FooTest:
             "name": "myElem_2",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     my_attr: None | str = field(
@@ -42,6 +40,5 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
         }
     )

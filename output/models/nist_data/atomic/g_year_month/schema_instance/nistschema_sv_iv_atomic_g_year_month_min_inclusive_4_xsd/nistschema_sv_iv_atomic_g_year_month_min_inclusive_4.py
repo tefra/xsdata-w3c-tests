@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicGYearMonthMinInclusive4:
 
     value: XmlPeriod = field(
         metadata={
-            "required": True,
             "min_inclusive": XmlPeriod("1988-05"),
         }
     )

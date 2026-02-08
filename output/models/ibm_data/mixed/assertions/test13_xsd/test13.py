@@ -10,6 +10,5 @@ class Example:
             "name": "even-number",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

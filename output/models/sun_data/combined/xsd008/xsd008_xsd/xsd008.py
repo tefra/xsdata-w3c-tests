@@ -20,7 +20,6 @@ class Facet:
     value: object = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -33,7 +32,6 @@ class LongType(Facet):
     value: int = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 
@@ -47,7 +45,6 @@ class YesNo(Facet):
     value: bool = field(
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

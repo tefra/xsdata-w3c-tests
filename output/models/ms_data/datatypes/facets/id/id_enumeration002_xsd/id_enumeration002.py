@@ -17,18 +17,12 @@ class FooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
     @dataclass(kw_only=True)
     class Foo:
-        value: str = field(
-            default="",
-            metadata={
-                "required": True,
-            },
-        )
+        value: str = field(default="")
         attr_test: None | FooAttrTest = field(
             default=None,
             metadata={

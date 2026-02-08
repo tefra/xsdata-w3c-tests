@@ -13,7 +13,6 @@ class Test:
 
     value: float = field(
         metadata={
-            "required": True,
             "max_inclusive": 100.0,
         }
     )

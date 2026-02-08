@@ -22,8 +22,4 @@ class NistschemaSvIvAtomicDoubleEnumeration5:
         name = "NISTSchema-SV-IV-atomic-double-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-double-enumeration-5-NS"
 
-    value: NistschemaSvIvAtomicDoubleEnumeration5Type = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: NistschemaSvIvAtomicDoubleEnumeration5Type = field()

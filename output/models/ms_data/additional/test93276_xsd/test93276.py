@@ -15,7 +15,6 @@ class T0020V1Type:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 

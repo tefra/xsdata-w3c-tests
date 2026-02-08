@@ -13,7 +13,6 @@ class Computer1:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     local_element: list[object] = field(

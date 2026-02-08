@@ -44,7 +44,6 @@ class Root:
         value: bool | str = field(
             default="",
             metadata={
-                "required": True,
                 "min_length": 5,
             },
         )

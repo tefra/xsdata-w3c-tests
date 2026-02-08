@@ -14,7 +14,6 @@ class NistschemaSvIvUnionDurationDecimalPattern3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\-\d{10}\.\d{3}",
         },
     )

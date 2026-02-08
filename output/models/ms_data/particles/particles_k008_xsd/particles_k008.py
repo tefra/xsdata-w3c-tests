@@ -24,7 +24,6 @@ class B:
             "name": "impElem1",
             "type": "Element",
             "namespace": "http://importedXSD",
-            "required": True,
         }
     )
     a2: None | object = field(

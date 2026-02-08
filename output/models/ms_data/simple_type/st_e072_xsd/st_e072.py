@@ -21,6 +21,5 @@ class Doc:
     root: Root = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

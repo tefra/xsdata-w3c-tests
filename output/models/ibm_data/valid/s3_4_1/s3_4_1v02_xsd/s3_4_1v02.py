@@ -21,7 +21,6 @@ class C:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -63,7 +62,6 @@ class E:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -85,20 +83,17 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     q: D = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     r: E = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

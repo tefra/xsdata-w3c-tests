@@ -18,7 +18,6 @@ class A2:
 
     value: int = field(
         metadata={
-            "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
         }
@@ -39,7 +38,6 @@ class B2:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "min_length": 0,
             "max_length": 10,
         },
@@ -81,11 +79,7 @@ class A3:
     class Meta:
         name = "a"
 
-    value: A1 = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: A1 = field()
 
 
 @dataclass(kw_only=True)
@@ -93,11 +87,7 @@ class B3:
     class Meta:
         name = "b"
 
-    value: B1 = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: B1 = field()
 
 
 @dataclass(kw_only=True)
@@ -131,11 +121,7 @@ class Ra:
     class Meta:
         name = "ra"
 
-    value: RA1 = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: RA1 = field()
 
 
 @dataclass(kw_only=True)
@@ -143,11 +129,7 @@ class Ua:
     class Meta:
         name = "ua"
 
-    value: UnionA = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: UnionA = field()
 
 
 @dataclass(kw_only=True)
@@ -155,11 +137,7 @@ class Uab:
     class Meta:
         name = "uab"
 
-    value: UnionAb = field(
-        metadata={
-            "required": True,
-        }
-    )
+    value: UnionAb = field()
 
 
 @dataclass(kw_only=True)

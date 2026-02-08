@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicAnyUriMinLength3:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "min_length": 36,
         },
     )

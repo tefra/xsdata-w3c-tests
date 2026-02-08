@@ -11,13 +11,7 @@ class A1:
         name = "a1"
         namespace = "a"
 
-    value: str = field(
-        init=False,
-        default="a1",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(init=False, default="a1")
 
 
 @dataclass(kw_only=True)
@@ -26,9 +20,4 @@ class A2:
         name = "a2"
         namespace = "a"
 
-    value: str = field(
-        default="a2",
-        metadata={
-            "required": True,
-        },
-    )
+    value: str = field(default="a2")

@@ -15,7 +15,6 @@ class NistschemaSvIvAtomicGYearMonthMaxExclusive2:
 
     value: XmlPeriod = field(
         metadata={
-            "required": True,
             "max_exclusive": XmlPeriod("1983-06"),
         }
     )

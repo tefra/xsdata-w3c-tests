@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalPattern5:
     value: str = field(
         default="",
         metadata={
-            "required": True,
             "pattern": r"\d{5}\.\d{13}",
         },
     )

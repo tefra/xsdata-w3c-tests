@@ -12,7 +12,6 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     min: None | int = field(

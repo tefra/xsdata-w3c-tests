@@ -12,7 +12,6 @@ class Kid:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     val: None | str = field(
@@ -32,7 +31,6 @@ class Uid:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     val: None | str = field(

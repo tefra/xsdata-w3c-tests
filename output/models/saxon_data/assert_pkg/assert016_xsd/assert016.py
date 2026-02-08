@@ -13,7 +13,6 @@ class DatedEvent:
     d: XmlDate = field(
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

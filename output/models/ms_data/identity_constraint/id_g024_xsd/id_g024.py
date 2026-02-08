@@ -12,14 +12,12 @@ class Tabletype:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     c: str = field(
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

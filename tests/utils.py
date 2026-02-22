@@ -1,4 +1,5 @@
 import functools
+import importlib
 import inspect
 import logging
 import os
@@ -11,10 +12,12 @@ from click.testing import CliRunner
 from lxml import etree
 from xsdata.cli import cli
 from xsdata.formats.dataclass.context import XmlContext
+from xsdata.formats.dataclass.filters import Filters
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import PycodeSerializer
 from xsdata.formats.dataclass.serializers import XmlSerializer
 from xsdata.formats.dataclass.serializers.config import SerializerConfig
+from xsdata.models.config import GeneratorConfig
 from xsdata.utils import text
 from xsdata.utils.testing import load_class
 
@@ -25,6 +28,7 @@ w3c = root.joinpath("w3c")
 output = root.joinpath("output")
 os.chdir(w3c.parent)
 config = SerializerConfig(indent="  ")
+filters = Filters(GeneratorConfig())
 
 
 def assert_bindings(
@@ -45,13 +49,15 @@ def assert_bindings(
     schema_path = w3c.joinpath(schema)
     source = str(schema_path)
 
-    clazz = generate_models(source, package, class_name, output_format, structure_style)
-
     if mode == "build":
+        result = generate_models(
+            source, package, class_name, output_format, structure_style
+        )
+        if isinstance(result, Exception):
+            raise result
         return
 
-    if isinstance(clazz, Exception):
-        raise clazz
+    clazz = import_class(package, class_name)
 
     models_package = None
     if clazz is not None:
@@ -121,6 +127,21 @@ def assert_xml_bindings(
 def assert_valid(validator, tree):
     __tracebackhide__ = True
     validator.validate(tree)
+
+
+def import_class(package: str, class_name: str) -> Any:
+    """Import a class from the committed models generated in build mode.
+
+    The package name goes through the generator's naming conventions, e.g.
+    reserved words get a `_pkg` suffix. The package __init__ re-exports
+    every generated class, regardless of the structure style.
+    Returns None when the schema produced no models.
+    """
+    try:
+        module = importlib.import_module(filters.package_name(package))
+        return getattr(module, class_name)
+    except (ModuleNotFoundError, AttributeError):
+        return None
 
 
 @functools.lru_cache(maxsize=5)

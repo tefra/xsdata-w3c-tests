@@ -18,6 +18,13 @@ $ pytest -n 4  --mode xsd --runxfail --save-output
 
 Results: **5** failed, **14580** passed, **89** skipped, **16** warnings
 
+XSD mode imports the models committed under `output/`, it doesn't run the code
+generator. After xsdata changes, rebuild the models and commit the diff:
+
+```terminal
+$ pytest -n auto --mode build
+```
+
 The save output option will store the output xml document. The xml mode's drawback is
 that it doesn't do any quality checks that all elements and values actually match the
 original document.

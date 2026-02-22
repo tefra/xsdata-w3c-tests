@@ -47,7 +47,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para_or_bezzle: list[StructuredDate | QName] = field(
+    para_or_bezzle: list[StructuredDate | NotaFooBar] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -58,7 +58,7 @@ class Doc:
                 },
                 {
                     "name": "bezzle",
-                    "type": QName,
+                    "type": NotaFooBar,
                 },
             ),
         },

@@ -3899,7 +3899,6 @@ def test_over015_over015_v01_xml(mode, save_output, output_format):
     )
 
 
-@pytest.mark.xfail
 def test_over015_over015_v02_xml(mode, save_output, output_format):
     """
     Override a notation Override a notation

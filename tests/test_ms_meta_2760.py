@@ -11579,7 +11579,8 @@ def test_st_e066_st_e066_v(mode, save_output, output_format):
 def test_st_e065_st_e065_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (16)
+    Value (16) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE065.xsd",
@@ -11596,7 +11597,8 @@ def test_st_e065_st_e065_v(mode, save_output, output_format):
 def test_st_e064_st_e064_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (15)
+    Value (15) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE064.xsd",
@@ -11613,7 +11615,8 @@ def test_st_e064_st_e064_v(mode, save_output, output_format):
 def test_st_e062_st_e062_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (13)
+    Value (13) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE062.xsd",
@@ -11630,7 +11633,8 @@ def test_st_e062_st_e062_v(mode, save_output, output_format):
 def test_st_e061_st_e061_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (12)
+    Value (12) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE061.xsd",
@@ -11647,7 +11651,8 @@ def test_st_e061_st_e061_v(mode, save_output, output_format):
 def test_st_e060_st_e060_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (11)
+    Value (11) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE060.xsd",
@@ -11664,7 +11669,8 @@ def test_st_e060_st_e060_v(mode, save_output, output_format):
 def test_st_e059_st_e059_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (10)
+    Value (10) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE059.xsd",
@@ -11681,7 +11687,8 @@ def test_st_e059_st_e059_v(mode, save_output, output_format):
 def test_st_e058_st_e058_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (9)
+    Value (9) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE058.xsd",
@@ -11698,7 +11705,8 @@ def test_st_e058_st_e058_v(mode, save_output, output_format):
 def test_st_e057_st_e057_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
-    Value (8)
+    Value (8) Modified by Michael Kay 2026-04-01: see issue
+    https://github.com/w3c/xsdtests/issues/12
     """
     assert_bindings(
         schema="msData/simpleType/stE057.xsd",

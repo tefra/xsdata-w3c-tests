@@ -1,8 +1,10 @@
+import fcntl
 import functools
 import importlib
 import inspect
 import logging
 import os
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -152,30 +154,40 @@ def generate_models(
     output_format: str,
     structure_style: str,
 ):
-    runner = CliRunner()
-    result = runner.invoke(
-        cli,
-        [
-            "generate",
-            xsd,
-            "-ss",
-            structure_style,
-            "-p",
-            package,
-            "-o",
-            output_format,
-            "--compound-fields",
-            "--wrapper-fields",
-        ],
-    )
+    """Generate the models for the schema and load the root class.
 
-    if result.exception:
-        return result.exception
+    Tests sharing a schema can run on different xdist workers at the same
+    time. A lock per package serializes them, otherwise one worker can
+    rewrite the files while the other one is still running ruff on them.
+    """
+    lock = Path(tempfile.gettempdir()).joinpath(f"xsdata-w3c-{package}.lock")
+    with lock.open("w") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
 
-    try:
-        return load_class(result.output, class_name)
-    except ModuleNotFoundError:
-        return None
+        runner = CliRunner()
+        result = runner.invoke(
+            cli,
+            [
+                "generate",
+                xsd,
+                "-ss",
+                structure_style,
+                "-p",
+                package,
+                "-o",
+                output_format,
+                "--compound-fields",
+                "--wrapper-fields",
+            ],
+        )
+
+        if result.exception:
+            return result.exception
+
+        try:
+            return load_class(result.output, class_name)
+        except ModuleNotFoundError:
+            return None
 
 
 @functools.lru_cache(maxsize=5)

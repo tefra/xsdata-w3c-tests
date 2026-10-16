@@ -28,7 +28,7 @@ jobs:
           pytest -n auto --mode build
       - name: Check models are up to date
         run: |
-          git status --porcelain output
+          git diff --exit-code output
           test -z "$(git status --porcelain output)"
 
   tests:

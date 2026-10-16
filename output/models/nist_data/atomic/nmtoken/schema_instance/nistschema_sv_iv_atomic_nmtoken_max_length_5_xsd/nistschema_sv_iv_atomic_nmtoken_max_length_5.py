@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNmtokenMaxLength5:
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 64,
-        },
+        }
     )

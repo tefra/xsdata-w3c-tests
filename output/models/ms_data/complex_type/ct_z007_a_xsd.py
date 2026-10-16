@@ -8,7 +8,7 @@ class Address:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -16,7 +16,7 @@ class City:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -33,10 +33,9 @@ class Zip:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{5}(-\d{4})?",
-        },
+        }
     )
 
 
@@ -45,7 +44,7 @@ class FirstName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -53,7 +52,7 @@ class LastName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -61,7 +60,7 @@ class PhoneNumber:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

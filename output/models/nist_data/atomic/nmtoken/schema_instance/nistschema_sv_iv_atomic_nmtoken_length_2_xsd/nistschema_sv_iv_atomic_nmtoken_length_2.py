@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNmtokenLength2:
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-length-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 38,
-        },
+        }
     )

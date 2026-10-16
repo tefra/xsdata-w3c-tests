@@ -42,10 +42,9 @@ class E1:
         name = "e1"
 
     value: str = field(
-        default="",
         metadata={
             "length": 4,
-        },
+        }
     )
 
 

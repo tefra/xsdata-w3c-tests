@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNmtokenMinLength4:
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-minLength-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 33,
-        },
+        }
     )

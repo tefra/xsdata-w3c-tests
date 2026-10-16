@@ -8,7 +8,7 @@ class MyBase:
     class Meta:
         name = "myBase"
 
-    value: str = field(default="")
+    value: str = field()
     a: None | int = field(
         default=None,
         metadata={

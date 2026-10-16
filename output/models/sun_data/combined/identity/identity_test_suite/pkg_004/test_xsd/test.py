@@ -31,11 +31,11 @@ class Scope:
 
     @dataclass(kw_only=True)
     class Key:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class Ref:
-        value: str = field(default="")
+        value: str = field()
 
 
 @dataclass(kw_only=True)

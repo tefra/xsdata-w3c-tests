@@ -11,4 +11,4 @@ class A:
         name = "a"
         namespace = "systemId"
 
-    value: str = field(default="")
+    value: str = field()

@@ -12,8 +12,7 @@ class NistschemaSvIvUnionGMonthDayGYearMonthPattern4:
         namespace = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-pattern-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"18\d\d-\d0",
-        },
+        }
     )

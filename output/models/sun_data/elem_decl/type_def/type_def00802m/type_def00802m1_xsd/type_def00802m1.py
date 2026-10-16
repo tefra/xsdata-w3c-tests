@@ -11,10 +11,9 @@ class Element:
         namespace = "ElemDecl/typeDef"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"1|0",
-        },
+        }
     )
 
 

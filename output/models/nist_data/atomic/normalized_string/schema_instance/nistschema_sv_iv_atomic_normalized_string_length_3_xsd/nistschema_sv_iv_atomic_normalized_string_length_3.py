@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNormalizedStringLength3:
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-length-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 916,
-        },
+        }
     )

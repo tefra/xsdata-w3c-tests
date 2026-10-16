@@ -9,10 +9,9 @@ class Para:
         name = "para"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[0-9]+-[0-9]+-[0-9]+",
-        },
+        }
     )
 
 
@@ -22,8 +21,7 @@ class Para2:
         name = "para2"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[0-9]+-[0-9]+-[0-9]+",
-        },
+        }
     )

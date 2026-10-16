@@ -11,7 +11,7 @@ class Foo:
         name = "foo"
         namespace = "http://foobar"
 
-    value: str = field(default="")
+    value: str = field()
     target_namespace_w3_org_1999_xhtml_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={

@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicAnyUriLength4:
         namespace = "NISTSchema-SV-IV-atomic-anyURI-length-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 12,
-        },
+        }
     )

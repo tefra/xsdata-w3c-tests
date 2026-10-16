@@ -71,10 +71,9 @@ class MessageTypeBase64(MessageType):
         },
     )
     value: bytes = field(
-        default=b"",
         metadata={
             "format": "base64",
-        },
+        }
     )
 
 
@@ -119,7 +118,7 @@ class MessageTypeString(MessageType):
             "type": "Ignore",
         },
     )
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -41,7 +41,7 @@ class Ttype:
 
     @dataclass(kw_only=True)
     class Row:
-        value: str = field(default="")
+        value: str = field()
         x: None | str = field(
             default=None,
             metadata={
@@ -52,7 +52,7 @@ class Ttype:
 
     @dataclass(kw_only=True)
     class Ref:
-        value: str = field(default="")
+        value: str = field()
         y: None | str = field(
             default=None,
             metadata={

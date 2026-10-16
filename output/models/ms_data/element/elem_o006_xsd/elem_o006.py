@@ -10,11 +10,10 @@ class FooTest:
         nillable = True
 
     value: None | str = field(
-        default="",
         metadata={
             "min_length": 3,
             "nillable": True,
-        },
+        }
     )
 
 

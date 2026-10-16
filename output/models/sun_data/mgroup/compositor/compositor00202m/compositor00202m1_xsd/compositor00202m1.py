@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "compositor"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

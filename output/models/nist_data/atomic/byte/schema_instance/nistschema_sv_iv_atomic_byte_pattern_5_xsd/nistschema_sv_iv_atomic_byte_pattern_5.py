@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicBytePattern5:
         namespace = "NISTSchema-SV-IV-atomic-byte-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{3}",
-        },
+        }
     )

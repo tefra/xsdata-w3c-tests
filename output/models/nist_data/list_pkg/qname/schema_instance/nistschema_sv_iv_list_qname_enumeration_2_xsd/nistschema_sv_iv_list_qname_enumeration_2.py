@@ -182,7 +182,7 @@ class FourAn:
         name = "_four_an"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -191,7 +191,7 @@ class ThatRegist:
         name = "_that.regist"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -200,7 +200,7 @@ class UponOfCalledEnableOf:
         name = "_upon.of-called-enable-of"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -211,7 +211,7 @@ class UsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
         )
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -220,7 +220,7 @@ class WithFedWi:
         name = "_with.fed_wi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -229,7 +229,7 @@ class BcreationPervasiveComplexAndWir:
         name = "bcreation.pervasive_complex-and-wir"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -238,7 +238,7 @@ class BexchangeMustCor:
         name = "bexchange.must_cor"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -247,7 +247,7 @@ class CandAmongDiscoverL:
         name = "cand-among.discover.l"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -256,7 +256,7 @@ class EwasTheToNecessaryT:
         name = "ewas-the-to-necessary_t"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -265,7 +265,7 @@ class FeliminateGenerationAndTh:
         name = "feliminate.generation-and_th"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -274,7 +274,7 @@ class GcertainTheRe:
         name = "gcertain.the_re"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -283,7 +283,7 @@ class GparticipatingRetrievesToComputer:
         name = "gparticipating_retrieves_to-computer"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -292,7 +292,7 @@ class IpartnersToIn:
         name = "ipartners.to_in"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -301,7 +301,7 @@ class JapplicationA:
         name = "japplication.a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -310,7 +310,7 @@ class KandPervasiveAndHasRelatedToAT:
         name = "kand-pervasive.and.has-related.to-a-t"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -319,7 +319,7 @@ class KgenerationRetrievesSimulationUsedAndOfApproachOfMade:
         name = "kgeneration.retrieves.simulation.used.and.of.approach-of_made"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -328,7 +328,7 @@ class LbothIndustryGPopularByAAndTheAndContainingMatch:
         name = "lboth-industry.g.popular_by_a_and.the_and.containing_match-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -337,7 +337,7 @@ class LtoAndAmbiguitiesShiftInternationalTestItsFirst:
         name = "lto-and_ambiguities.shift_international-test_its-first-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -346,7 +346,7 @@ class MincludingGainTheAOr:
         name = "mincluding_gain_the.a-or"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -355,7 +355,7 @@ class OandComputingOfInformationComputi:
         name = "oand.computing_of-information-computi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -364,7 +364,7 @@ class QofHelpAsAsFocusingExer:
         name = "qof.help_as.as_focusing-exer"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -373,7 +373,7 @@ class QtheMaintainedTheseForDevelopmentToOfVocabu:
         name = "qthe.maintained-these.for-development.to.of-vocabu"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -382,7 +382,7 @@ class QtheOfConformanceAOfABusinessDependabilityAdoptio:
         name = "qthe_of-conformance.a_of-a.business.dependability.adoptio"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -391,7 +391,7 @@ class Rele:
         name = "rele"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -400,7 +400,7 @@ class RprovidesFileThroughByAndFor:
         name = "rprovides.file-through_by-and_for"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -409,7 +409,7 @@ class SaddressingCreatingTheOrganizationsComputingStandardsFo:
         name = "saddressing-creating.the-organizations.computing_standards_fo"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -418,7 +418,7 @@ class SprocessObtainedA:
         name = "sprocess_obtained-a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -427,7 +427,7 @@ class SsAndAndBrowsersFromInd:
         name = "ss.and-and.browsers_from_ind"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -436,7 +436,7 @@ class StoOfKnownAEnterpr:
         name = "sto-of_known.a-enterpr"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -445,7 +445,7 @@ class UbetterDesignedInformationHeterogeneousForAllowBac:
         name = "ubetter_designed-information-heterogeneous_for-allow-bac"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -454,7 +454,7 @@ class VspecificationsRequestingDesktop:
         name = "vspecifications.requesting.desktop-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -463,7 +463,7 @@ class WfileSi:
         name = "wfile-si"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -472,7 +472,7 @@ class WsIsTheNetworksComputing5TheHete:
         name = "ws_is_the-networks.computing.5.the_hete"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -481,7 +481,7 @@ class XdefineToolsCanMustIndustriesCreateB:
         name = "xdefine-tools_can-must-industries_create_b"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -490,7 +490,7 @@ class XparticularlyIsLanguageProfilesBeOffe:
         name = "xparticularly.is_language.profiles-be-offe"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

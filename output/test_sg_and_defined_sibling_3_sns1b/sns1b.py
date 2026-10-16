@@ -11,13 +11,13 @@ obj = Test(
             value='Test case for interaction of substitution groups and \n   #definedSibling.'
         ),
         N(
-
+            value=''
         ),
         S1(
-
+            value=''
         ),
         B(
-
+            value=''
         ),
     ]
 )

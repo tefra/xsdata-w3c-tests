@@ -7,7 +7,7 @@ __NAMESPACE__ = "derivationMethod"
 
 @dataclass(kw_only=True)
 class A:
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

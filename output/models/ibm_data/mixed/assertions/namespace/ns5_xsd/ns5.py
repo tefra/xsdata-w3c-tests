@@ -9,7 +9,7 @@ class TestType:
     class Meta:
         name = "TEST_TYPE"
 
-    value: str = field(default="")
+    value: str = field()
     any_attributes: dict[str, str] = field(
         default_factory=dict,
         metadata={

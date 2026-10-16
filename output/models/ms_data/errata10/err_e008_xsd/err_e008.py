@@ -11,7 +11,7 @@ class TestToken:
         name = "testToken"
         namespace = "http://www.tempuri.org"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

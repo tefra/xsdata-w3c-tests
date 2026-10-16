@@ -11,4 +11,4 @@ class Para:
         name = "para"
         namespace = "http://example.com/over018"
 
-    value: str = field(default="")
+    value: str = field()

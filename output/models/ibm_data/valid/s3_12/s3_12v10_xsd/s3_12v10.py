@@ -10,7 +10,7 @@ class DimType:
     class Meta:
         name = "dimType"
 
-    value: str = field(default="")
+    value: str = field()
     length: None | object = field(
         default=None,
         metadata={

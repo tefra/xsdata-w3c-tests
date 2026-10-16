@@ -8,7 +8,7 @@ class R:
     class Meta:
         name = "r"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -16,7 +16,7 @@ class R2:
     class Meta:
         name = "r2"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -24,7 +24,7 @@ class Rtype:
     class Meta:
         name = "rtype"
 
-    value: str = field(default="")
+    value: str = field()
     val: None | str = field(
         default=None,
         metadata={

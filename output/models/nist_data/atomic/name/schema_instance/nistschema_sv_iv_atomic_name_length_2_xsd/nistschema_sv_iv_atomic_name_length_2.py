@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNameLength2:
         namespace = "NISTSchema-SV-IV-atomic-Name-length-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 8,
-        },
+        }
     )

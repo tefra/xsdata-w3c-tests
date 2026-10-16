@@ -16,7 +16,7 @@ class Ttype:
     class Meta:
         name = "ttype"
 
-    value: str = field(default="")
+    value: str = field()
     col: None | str = field(
         default=None,
         metadata={

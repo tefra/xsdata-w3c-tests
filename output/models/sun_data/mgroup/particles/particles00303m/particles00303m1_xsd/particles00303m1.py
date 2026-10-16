@@ -51,8 +51,8 @@ class A:
 
     @dataclass(kw_only=True)
     class Name:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class Type:
-        value: str = field(default="")
+        value: str = field()

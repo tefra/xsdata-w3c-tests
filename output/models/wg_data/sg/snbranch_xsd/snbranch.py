@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -20,7 +20,7 @@ class B:
         name = "b"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -29,7 +29,7 @@ class C:
         name = "c"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -38,7 +38,7 @@ class E:
         name = "e"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -47,7 +47,7 @@ class N:
         name = "n"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -56,7 +56,7 @@ class N1:
         name = "n1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -65,7 +65,7 @@ class S:
         name = "s"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -74,7 +74,7 @@ class S1:
         name = "s1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

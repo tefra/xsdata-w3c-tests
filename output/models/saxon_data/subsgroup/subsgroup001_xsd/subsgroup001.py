@@ -36,7 +36,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -12,8 +12,7 @@ class A:
         namespace = "foo"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[b|c]+",
-        },
+        }
     )

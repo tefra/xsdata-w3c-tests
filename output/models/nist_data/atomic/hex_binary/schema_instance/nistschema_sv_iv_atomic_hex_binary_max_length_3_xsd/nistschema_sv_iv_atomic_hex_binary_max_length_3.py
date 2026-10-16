@@ -12,9 +12,8 @@ class NistschemaSvIvAtomicHexBinaryMaxLength3:
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-maxLength-3-NS"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "max_length": 7,
             "format": "base16",
-        },
+        }
     )

@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNcnamePattern1:
         namespace = "NISTSchema-SV-IV-atomic-NCName-pattern-1-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[\i-[:]][\c-[:]]{16}",
-        },
+        }
     )

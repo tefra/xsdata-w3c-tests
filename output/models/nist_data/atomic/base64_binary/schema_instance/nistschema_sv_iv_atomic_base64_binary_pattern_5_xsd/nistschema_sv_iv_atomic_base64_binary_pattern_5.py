@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicBase64BinaryPattern5:
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[a-zA-Z0-9+/]{60}",
-        },
+        }
     )

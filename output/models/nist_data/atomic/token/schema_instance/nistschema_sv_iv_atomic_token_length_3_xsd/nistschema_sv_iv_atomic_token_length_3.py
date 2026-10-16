@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicTokenLength3:
         namespace = "NISTSchema-SV-IV-atomic-token-length-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 662,
-        },
+        }
     )

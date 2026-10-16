@@ -8,6 +8,7 @@ obj = Doc(
         Part(
             chap=[
                 Chap(
+                    value='',
                     de=''
                 ),
             ],
@@ -16,6 +17,7 @@ obj = Doc(
         Part(
             chap=[
                 Chap(
+                    value='',
                     de=''
                 ),
             ],

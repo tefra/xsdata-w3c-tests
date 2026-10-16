@@ -9,8 +9,7 @@ class E:
         name = "e"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[a-z-[m-n]]*",
-        },
+        }
     )

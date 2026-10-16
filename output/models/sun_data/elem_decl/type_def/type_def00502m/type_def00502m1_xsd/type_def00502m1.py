@@ -11,10 +11,9 @@ class Global:
         namespace = "ElemDecl/typeDef"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"false",
-        },
+        }
     )
 
 
@@ -25,8 +24,7 @@ class Root:
         namespace = "ElemDecl/typeDef"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"false",
-        },
+        }
     )

@@ -4,6 +4,6 @@ from output.models.ms_data.particles.particles_if006_xsd.particles_if006 import 
 
 obj = Doc(
     e1_or_e2=Base.E1(
-
+        value=''
     )
 )

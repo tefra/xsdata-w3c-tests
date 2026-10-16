@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNormalizedStringPattern2:
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-pattern-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-Z]{2}\s11352",
-        },
+        }
     )

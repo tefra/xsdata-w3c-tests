@@ -9,10 +9,9 @@ class FooTest:
         name = "fooTest"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 3,
-        },
+        }
     )
 
 

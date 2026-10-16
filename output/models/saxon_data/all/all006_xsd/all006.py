@@ -11,10 +11,9 @@ class C1:
         name = "C"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r".*:00",
-        },
+        }
     )
 
 

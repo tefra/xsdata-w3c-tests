@@ -22,7 +22,7 @@ class Root:
 
     @dataclass(kw_only=True)
     class Person:
-        value: str = field(default="")
+        value: str = field()
         ssn: str = field(
             metadata={
                 "type": "Attribute",

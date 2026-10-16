@@ -12,8 +12,7 @@ class NistschemaSvIvUnionAnyUriFloatPattern5:
         namespace = "NISTSchema-SV-IV-union-anyURI-float-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{1}E\-\d{2}",
-        },
+        }
     )

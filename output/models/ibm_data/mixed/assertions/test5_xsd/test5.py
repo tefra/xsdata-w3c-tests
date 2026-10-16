@@ -8,4 +8,4 @@ class Value:
     class Meta:
         name = "value"
 
-    value: str = field(default="")
+    value: str = field()

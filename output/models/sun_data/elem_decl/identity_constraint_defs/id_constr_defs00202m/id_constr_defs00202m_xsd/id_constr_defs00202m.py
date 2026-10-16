@@ -24,7 +24,7 @@ class Root:
 
     @dataclass(kw_only=True)
     class Person:
-        value: str = field(default="")
+        value: str = field()
         birthday: None | XmlDate = field(
             default=None,
             metadata={

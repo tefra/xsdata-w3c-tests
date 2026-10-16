@@ -18,7 +18,7 @@ class A:
 
     @dataclass(kw_only=True)
     class Part:
-        value: str = field(default="")
+        value: str = field()
         number: None | int = field(
             default=None,
             metadata={

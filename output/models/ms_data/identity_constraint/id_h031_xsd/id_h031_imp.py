@@ -11,7 +11,7 @@ class Iid:
         name = "iid"
         namespace = "importNS"
 
-    value: str = field(default="")
+    value: str = field()
     val: None | str = field(
         default=None,
         metadata={

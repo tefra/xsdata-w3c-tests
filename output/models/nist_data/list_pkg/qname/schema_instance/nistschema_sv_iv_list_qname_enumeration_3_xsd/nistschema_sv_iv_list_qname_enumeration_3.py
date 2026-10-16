@@ -141,7 +141,7 @@ class CompetenceCommerceSeriesOfC:
         name = "_competence-commerce.series_of.c"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -150,7 +150,7 @@ class CorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
         name = "_correctness_of-interoperability-browsers_of_networks_as_a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -159,7 +159,7 @@ class FileFilterAReviewedThoseCreationWellFor:
         name = "_file-filter-a_reviewed.those.creation_well-for"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -168,7 +168,7 @@ class ThemSemanticsProblemsVirtuallyWideTheToolsTesti:
         name = "_them.semantics_problems.virtually.wide_the.tools_testi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -177,7 +177,7 @@ class ToInTheVirtuall:
         name = "_to_in_the-virtuall"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -186,7 +186,7 @@ class WillRepositoryEffectivelyObjectBuildWirelessMetrol:
         name = "_will.repository_effectively-object-build-wireless-metrol"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -195,7 +195,7 @@ class AandPrototypesWebWorkContributeHasTh:
         name = "aand-prototypes-web.work.contribute.has.th"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -204,7 +204,7 @@ class AtoBenefits:
         name = "ato.benefits"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -213,7 +213,7 @@ class BbyTheTheseTestByAndH:
         name = "bby.the_these_test.by-and-h"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -222,7 +222,7 @@ class HlandscapeOfIncludedIssuesVoice:
         name = "hlandscape_of-included_issues-voice"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -231,7 +231,7 @@ class IaMakeOfProcessWouldInLaunchingOfTheObjectTransac:
         name = "ia-make_of.process-would-in-launching-of-the_object.transac"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -240,7 +240,7 @@ class IforPartnersForIsAndUnbia:
         name = "ifor-partners-for.is_and.unbia"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -249,7 +249,7 @@ class J:
         name = "j"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -258,7 +258,7 @@ class JbeRecommendingAbilityStandardizationToTheToUsedAnd:
         name = "jbe_recommending-ability.standardization-to_the_to-used_and"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -267,7 +267,7 @@ class MfromInteract:
         name = "mfrom.interact"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -276,7 +276,7 @@ class Nan:
         name = "nan"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -285,7 +285,7 @@ class OvocabularyDifferent:
         name = "ovocabulary.different_"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -294,7 +294,7 @@ class QdesignAndSoftwareAndAndTheWas:
         name = "qdesign.and.software-and_and.the_was_"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -303,7 +303,7 @@ class RalsoToLibrariesPr:
         name = "ralso_to.libraries-pr"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -312,7 +312,7 @@ class RdependsA:
         name = "rdepends_a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -321,7 +321,7 @@ class TdesktopToRepositoryAsOfThatTheAreKnownProblemsOfG:
         name = "tdesktop.to-repository_as-of_that-the-are.known.problems-of.g"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -330,7 +330,7 @@ class TparticularToolsEntireReviewTechnologiesToToToAlre:
         name = "tparticular-tools.entire.review-technologies_to_to_to-alre"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -339,7 +339,7 @@ class WisN:
         name = "wis.n"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -348,7 +348,7 @@ class XanWithBu:
         name = "xan_with-bu"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -357,7 +357,7 @@ class XandRetrieveStan:
         name = "xand.retrieve-stan"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -366,7 +366,7 @@ class XwellChallenge:
         name = "xwell-challenge"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -375,7 +375,7 @@ class YspecificationsAsPervasiveWeb:
         name = "yspecifications-as.pervasive-web-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

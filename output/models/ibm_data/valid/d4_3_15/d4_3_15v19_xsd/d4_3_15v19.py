@@ -8,7 +8,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    value: str = field(default="")
+    value: str = field()
     attr: None | str = field(
         default=None,
         metadata={

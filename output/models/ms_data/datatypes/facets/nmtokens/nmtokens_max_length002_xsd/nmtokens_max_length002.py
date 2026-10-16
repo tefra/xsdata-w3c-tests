@@ -17,7 +17,7 @@ class FooType:
 
     @dataclass(kw_only=True)
     class Foo:
-        value: str = field(default="")
+        value: str = field()
         attr_test: list[str] = field(
             default_factory=list,
             metadata={

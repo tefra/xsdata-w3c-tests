@@ -8,7 +8,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(default="")
+    value: str = field()
     entity: str | int = field(
         default="entity1",
         metadata={

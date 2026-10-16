@@ -11,7 +11,7 @@ class Bar:
         name = "bar"
         namespace = "http://foobar"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicHexBinaryPattern2:
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-pattern-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[0-9A-F]{66}",
-        },
+        }
     )

@@ -23,7 +23,7 @@ class FooType:
 
     @dataclass(kw_only=True)
     class Foo:
-        value: str = field(default="")
+        value: str = field()
         attr_test: None | FooAttrTest = field(
             default=None,
             metadata={

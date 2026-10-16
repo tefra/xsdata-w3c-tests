@@ -11,10 +11,9 @@ class Global1:
         namespace = "ElemDecl/name"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"false",
-        },
+        }
     )
 
 
@@ -24,10 +23,9 @@ class Global2:
         namespace = "ElemDecl/name"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"false",
-        },
+        }
     )
 
 

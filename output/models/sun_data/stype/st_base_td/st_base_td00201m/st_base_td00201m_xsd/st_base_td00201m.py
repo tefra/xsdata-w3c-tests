@@ -12,8 +12,7 @@ class Test:
         namespace = "ST_baseTD"
 
     value: str = field(
-        default="",
         metadata={
             "length": 4,
-        },
+        }
     )

@@ -24,11 +24,10 @@ class Root:
     @dataclass(kw_only=True)
     class Child:
         value: str = field(
-            default="",
             metadata={
                 "min_length": 3,
                 "max_length": 10,
-            },
+            }
         )
         attr: None | str = field(
             default=None,

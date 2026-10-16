@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicLanguageLength3:
         namespace = "NISTSchema-SV-IV-atomic-language-length-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 10,
-        },
+        }
     )

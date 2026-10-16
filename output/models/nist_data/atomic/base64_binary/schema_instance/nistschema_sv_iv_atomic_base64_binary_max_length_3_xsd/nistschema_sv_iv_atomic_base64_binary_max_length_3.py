@@ -12,9 +12,8 @@ class NistschemaSvIvAtomicBase64BinaryMaxLength3:
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-maxLength-3-NS"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "max_length": 54,
             "format": "base64",
-        },
+        }
     )

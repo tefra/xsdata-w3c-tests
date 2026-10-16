@@ -40,11 +40,11 @@ class Root:
 
     @dataclass(kw_only=True)
     class Element:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class ElementRef:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class ElementRefs:

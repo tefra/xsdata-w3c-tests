@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicGMonthDayPattern4:
         namespace = "NISTSchema-SV-IV-atomic-gMonthDay-pattern-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"--\d3-0\d",
-        },
+        }
     )

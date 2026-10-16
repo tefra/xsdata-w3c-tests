@@ -12,7 +12,7 @@ class T:
         name = "t"
         namespace = "myNS.tempuri.org"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

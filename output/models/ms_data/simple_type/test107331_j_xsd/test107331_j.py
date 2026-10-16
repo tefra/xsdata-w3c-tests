@@ -17,7 +17,7 @@ class Anyuri:
     class Meta:
         name = "anyuri"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -81,7 +81,7 @@ class Entity:
     class Meta:
         name = "entity"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -98,10 +98,9 @@ class Hexbinary:
         name = "hexbinary"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "format": "base16",
-        },
+        }
     )
 
 
@@ -148,7 +147,7 @@ class String:
     class Meta:
         name = "string"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -21,7 +21,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

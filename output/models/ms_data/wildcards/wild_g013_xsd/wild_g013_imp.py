@@ -11,7 +11,7 @@ class B:
         name = "b"
         namespace = "http://www.w3.org/1999/xhtml"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

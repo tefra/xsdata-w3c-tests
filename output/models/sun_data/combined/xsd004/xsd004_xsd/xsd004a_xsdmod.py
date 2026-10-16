@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "bar"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -20,7 +20,7 @@ class B:
         name = "b"
         namespace = "bar"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -29,4 +29,4 @@ class C:
         name = "c"
         namespace = "bar"
 
-    value: str = field(default="")
+    value: str = field()

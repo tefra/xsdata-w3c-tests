@@ -31,7 +31,7 @@ obj = Root(
             value=1
         ),
         B2(
-
+            value=''
         ),
         B2(
             value='1234567890'

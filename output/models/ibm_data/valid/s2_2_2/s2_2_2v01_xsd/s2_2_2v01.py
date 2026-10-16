@@ -11,7 +11,7 @@ class Elem0:
         name = "elem0"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -20,7 +20,7 @@ class Elem1:
         name = "elem1"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -29,7 +29,7 @@ class Elem2:
         name = "elem2"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -38,7 +38,7 @@ class Elem3:
         name = "elem3"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

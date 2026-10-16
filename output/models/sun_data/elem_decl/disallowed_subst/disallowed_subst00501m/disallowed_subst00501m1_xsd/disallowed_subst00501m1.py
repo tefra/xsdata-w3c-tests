@@ -10,7 +10,7 @@ class Head:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -18,7 +18,7 @@ class Member1:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

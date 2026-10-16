@@ -12,8 +12,7 @@ class Test:
         namespace = "ST_facets"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"1*",
-        },
+        }
     )

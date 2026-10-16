@@ -8,7 +8,7 @@ class Ct:
     class Meta:
         name = "ct"
 
-    value: str = field(default="")
+    value: str = field()
     att1: bool | int | str = field(
         default=False,
         metadata={

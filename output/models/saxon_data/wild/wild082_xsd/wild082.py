@@ -8,7 +8,7 @@ class Zz:
     class Meta:
         name = "zz"
 
-    value: str = field(default="")
+    value: str = field()
     type_value: None | int = field(
         default=None,
         metadata={

@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicAnyUriPattern2:
         namespace = "NISTSchema-SV-IV-atomic-anyURI-pattern-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\c{3,6}://(\c{1,3}\.){1,4}\c{3}",
-        },
+        }
     )

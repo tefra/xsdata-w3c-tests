@@ -9,10 +9,9 @@ class FooTest:
         name = "fooTest"
 
     value: str = field(
-        default="",
         metadata={
             "white_space": "collapse",
-        },
+        }
     )
     my_attr: None | str = field(
         default=None,

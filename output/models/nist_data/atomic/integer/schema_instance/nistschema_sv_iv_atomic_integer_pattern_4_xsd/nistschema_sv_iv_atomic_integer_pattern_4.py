@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicIntegerPattern4:
         namespace = "NISTSchema-SV-IV-atomic-integer-pattern-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{5}",
-        },
+        }
     )

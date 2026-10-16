@@ -12,9 +12,8 @@ class NistschemaSvIvAtomicBase64BinaryLength1:
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-length-1-NS"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "length": 1,
             "format": "base64",
-        },
+        }
     )

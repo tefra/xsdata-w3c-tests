@@ -9,8 +9,7 @@ class Message:
         name = "message"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 25,
-        },
+        }
     )

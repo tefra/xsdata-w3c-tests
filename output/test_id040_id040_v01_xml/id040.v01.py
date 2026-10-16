@@ -8,15 +8,19 @@ obj = Doc(
         Doc.Chap(
             section=[
                 Chap.Section(
+                    value='',
                     nr=Decimal('1')
                 ),
                 Chap.Section(
+                    value='',
                     nr=Decimal('2')
                 ),
                 Chap.Section(
+                    value='',
                     nr=Decimal('3')
                 ),
                 Chap.Section(
+                    value='',
                     nr=Decimal('4')
                 ),
             ]
@@ -24,15 +28,19 @@ obj = Doc(
         Doc.Appx(
             section=[
                 Chap.Section(
+                    value='',
                     nr=Decimal('1')
                 ),
                 Chap.Section(
+                    value='',
                     nr=Decimal('2')
                 ),
                 Chap.Section(
+                    value='',
                     nr=Decimal('3')
                 ),
                 Chap.Section(
+                    value='',
                     nr=Decimal('4')
                 ),
             ]

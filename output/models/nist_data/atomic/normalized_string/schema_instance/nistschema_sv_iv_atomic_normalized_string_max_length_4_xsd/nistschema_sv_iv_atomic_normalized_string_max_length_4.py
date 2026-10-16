@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNormalizedStringMaxLength4:
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-maxLength-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 266,
-        },
+        }
     )

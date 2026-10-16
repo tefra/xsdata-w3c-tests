@@ -8,6 +8,6 @@ obj = Root(
         comp_foo=''
     ),
     simple_test=SimpleTest(
-
+        value=''
     )
 )

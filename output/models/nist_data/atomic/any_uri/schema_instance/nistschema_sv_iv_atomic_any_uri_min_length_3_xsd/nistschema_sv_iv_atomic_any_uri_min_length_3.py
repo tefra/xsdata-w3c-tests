@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicAnyUriMinLength3:
         namespace = "NISTSchema-SV-IV-atomic-anyURI-minLength-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 36,
-        },
+        }
     )

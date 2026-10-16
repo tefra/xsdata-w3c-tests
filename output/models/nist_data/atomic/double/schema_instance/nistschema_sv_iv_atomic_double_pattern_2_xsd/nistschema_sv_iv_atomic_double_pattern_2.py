@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicDoublePattern2:
         namespace = "NISTSchema-SV-IV-atomic-double-pattern-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{1}\.\d{4}E\-\d{2}",
-        },
+        }
     )

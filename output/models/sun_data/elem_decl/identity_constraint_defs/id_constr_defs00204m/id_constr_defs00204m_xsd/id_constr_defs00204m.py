@@ -22,7 +22,7 @@ class Root:
 
     @dataclass(kw_only=True)
     class Person:
-        value: str = field(default="")
+        value: str = field()
         parent: None | str = field(
             default=None,
             metadata={

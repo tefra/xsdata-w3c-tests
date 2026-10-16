@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicUnsignedLongPattern4:
         namespace = "NISTSchema-SV-IV-atomic-unsignedLong-pattern-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{13}",
-        },
+        }
     )

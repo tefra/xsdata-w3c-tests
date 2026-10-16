@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicBooleanPattern5:
         namespace = "NISTSchema-SV-IV-atomic-boolean-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[1]{1}",
-        },
+        }
     )

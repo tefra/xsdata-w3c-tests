@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNcnameLength3:
         namespace = "NISTSchema-SV-IV-atomic-NCName-length-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "length": 53,
-        },
+        }
     )

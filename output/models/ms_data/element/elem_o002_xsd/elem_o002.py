@@ -9,10 +9,9 @@ class FooTest:
         name = "fooTest"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[A-E]{1,2}",
-        },
+        }
     )
 
 

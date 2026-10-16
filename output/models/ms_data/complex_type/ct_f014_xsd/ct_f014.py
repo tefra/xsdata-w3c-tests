@@ -39,11 +39,11 @@ class MyType:
 
     @dataclass(kw_only=True)
     class MyElement:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class MyElement2:
-        value: str = field(default="")
+        value: str = field()
 
 
 @dataclass(kw_only=True)

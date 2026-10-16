@@ -12,10 +12,9 @@ class NistschemaSvIvAtomicIdPattern3:
         namespace = "NISTSchema-SV-IV-atomic-ID-pattern-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"[\i-[:]][\c-[:]]{18}",
-        },
+        }
     )
 
 

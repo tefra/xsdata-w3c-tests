@@ -58,11 +58,11 @@ class Foo:
 
     @dataclass(kw_only=True)
     class B:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class B2:
-        value: str = field(default="")
+        value: str = field()
 
 
 @dataclass(kw_only=True)

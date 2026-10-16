@@ -8,6 +8,6 @@ obj = Test(
         value='Test case for intreaction of substitution groups and \n   #definedSibling.'
     ),
     n=N(
-
+        value=''
     )
 )

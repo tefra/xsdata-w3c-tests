@@ -36,7 +36,7 @@ class Example:
 
     @dataclass(kw_only=True)
     class KindMesg:
-        value: str = field(default="")
+        value: str = field()
         kind: str = field(
             metadata={
                 "type": "Attribute",

@@ -56,7 +56,7 @@ class Ct4:
     class Meta:
         name = "ct4"
 
-    value: str = field(default="")
+    value: str = field()
     name: str = field(
         metadata={
             "type": "Attribute",

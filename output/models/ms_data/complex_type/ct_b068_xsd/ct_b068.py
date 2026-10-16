@@ -44,11 +44,11 @@ class FooType:
 
     @dataclass(kw_only=True)
     class MyElement:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class MyEle2:
-        value: str = field(default="")
+        value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -21,7 +21,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v02"
 
-    value: str = field(default="")
+    value: str = field()
     attrd_time_stamp_type: None | XmlDateTime = field(
         default=None,
         metadata={

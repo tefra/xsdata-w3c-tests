@@ -12,9 +12,8 @@ class NistschemaSvIvAtomicHexBinaryWhiteSpace1:
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-whiteSpace-1-NS"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "white_space": "collapse",
             "format": "base16",
-        },
+        }
     )

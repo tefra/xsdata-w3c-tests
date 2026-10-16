@@ -22,7 +22,7 @@ class Chap:
 
     @dataclass(kw_only=True)
     class Section:
-        value: str = field(default="")
+        value: str = field()
         nr: float = field(
             default=float("inf"),
             metadata={

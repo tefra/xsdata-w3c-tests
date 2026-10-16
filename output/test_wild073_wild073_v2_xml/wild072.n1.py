@@ -5,7 +5,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Root(
     a_or_a=A2(
-
+        value=''
     ),
     any_element=[
         AnyElement(

@@ -11,4 +11,4 @@ class Bar:
         name = "bar"
         namespace = "http://xsdtesting"
 
-    value: str = field(default="")
+    value: str = field()

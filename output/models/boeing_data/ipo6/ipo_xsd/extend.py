@@ -10,4 +10,4 @@ class ExternFirstElement:
     class Meta:
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(default="")
+    value: str = field()

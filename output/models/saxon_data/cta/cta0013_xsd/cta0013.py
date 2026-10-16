@@ -8,7 +8,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: str = field(default="")
+    value: str = field()
     de: None | object = field(
         default=None,
         metadata={

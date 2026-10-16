@@ -12,8 +12,7 @@ class Root:
         namespace = "ElemDecl/name"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"false",
-        },
+        }
     )

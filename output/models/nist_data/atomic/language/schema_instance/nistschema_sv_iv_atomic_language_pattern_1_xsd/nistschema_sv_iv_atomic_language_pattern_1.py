@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicLanguagePattern1:
         namespace = "NISTSchema-SV-IV-atomic-language-pattern-1-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*",
-        },
+        }
     )

@@ -12,9 +12,8 @@ class NistschemaSvIvAtomicHexBinaryMinLength4:
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-minLength-4-NS"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "min_length": 48,
             "format": "base16",
-        },
+        }
     )

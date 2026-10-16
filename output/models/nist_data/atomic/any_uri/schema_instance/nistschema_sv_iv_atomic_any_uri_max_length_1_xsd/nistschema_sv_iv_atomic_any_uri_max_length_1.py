@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicAnyUriMaxLength1:
         namespace = "NISTSchema-SV-IV-atomic-anyURI-maxLength-1-NS"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 11,
-        },
+        }
     )

@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicFloatPattern5:
         namespace = "NISTSchema-SV-IV-atomic-float-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{1}\.\d{7}E\-\d{2}",
-        },
+        }
     )

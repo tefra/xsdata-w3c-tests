@@ -11,4 +11,4 @@ class Salutation:
         name = "salutation"
         namespace = "http://www.example.com/add"
 
-    value: str = field(default="")
+    value: str = field()

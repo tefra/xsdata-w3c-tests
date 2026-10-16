@@ -38,7 +38,7 @@ class LanguagesAndTransformingTechnologiesIsImpa:
         name = "_languages-and-transforming.technologies.is_impa"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -47,7 +47,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -56,7 +56,7 @@ class TonAndItsT:
         name = "ton.and_its.t"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -65,7 +65,7 @@ class XstandardFileUseEa:
         name = "xstandard-file_use-ea"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -74,7 +74,7 @@ class YinvolvedEEffor:
         name = "yinvolved.e-effor"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

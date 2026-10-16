@@ -23,10 +23,9 @@ class SimpleTest:
         name = "simpleTest"
 
     value: bytes = field(
-        default=b"",
         metadata={
             "format": "base64",
-        },
+        }
     )
 
 

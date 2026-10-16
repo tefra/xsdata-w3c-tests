@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicDurationPattern3:
         namespace = "NISTSchema-SV-IV-atomic-duration-pattern-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"P20\d\dY\d3M\d1DT\d4H\d7M\d6S",
-        },
+        }
     )

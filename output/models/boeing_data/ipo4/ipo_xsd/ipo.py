@@ -45,7 +45,7 @@ class Comment:
         name = "comment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -54,7 +54,7 @@ class CustomerComment:
         name = "customerComment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -63,7 +63,7 @@ class ShipComment:
         name = "shipComment"
         namespace = "http://www.example.com/IPO"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

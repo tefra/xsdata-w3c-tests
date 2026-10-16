@@ -9,9 +9,8 @@ class Elem:
         name = "elem"
 
     value: str = field(
-        default="",
         metadata={
             "white_space": "collapse",
             "pattern": r"Hello world",
-        },
+        }
     )

@@ -8,7 +8,7 @@ class Uid:
     class Meta:
         name = "uid"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

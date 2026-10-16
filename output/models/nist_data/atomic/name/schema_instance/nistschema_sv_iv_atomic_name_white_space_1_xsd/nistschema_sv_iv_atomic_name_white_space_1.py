@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNameWhiteSpace1:
         namespace = "NISTSchema-SV-IV-atomic-Name-whiteSpace-1-NS"
 
     value: str = field(
-        default="",
         metadata={
             "white_space": "collapse",
-        },
+        }
     )

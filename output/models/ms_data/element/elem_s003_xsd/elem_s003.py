@@ -25,11 +25,10 @@ class Cs:
         name = "cs"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 1,
             "max_length": 2,
-        },
+        }
     )
     a: None | object = field(
         default=None,
@@ -46,11 +45,10 @@ class Fe1Valid:
         namespace = "http://xsdtesting"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 1,
             "max_length": 2,
-        },
+        }
     )
 
 
@@ -61,10 +59,9 @@ class FeValid:
         namespace = "http://xsdtesting"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 4,
-        },
+        }
     )
 
 

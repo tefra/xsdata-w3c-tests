@@ -35,7 +35,7 @@ class XString:
     class Meta:
         name = "X_String"
 
-    value: str = field(default="")
+    value: str = field()
     kind: str = field(
         metadata={
             "type": "Attribute",

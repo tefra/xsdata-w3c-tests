@@ -8,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: int | bool | str = field(default="")
+    value: int | bool | str = field()
     idref_attr: None | str = field(
         default=None,
         metadata={

@@ -5,7 +5,7 @@ from output.models.saxon_data.wild.wild073_xsd.wild073 import Root
 
 obj = Root(
     a_or_a=A2(
-
+        value=''
     ),
     any_element=[
         A1(

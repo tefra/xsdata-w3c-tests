@@ -8,8 +8,7 @@ __NAMESPACE__ = "ST_targetNS"
 @dataclass(kw_only=True)
 class Test:
     value: str = field(
-        default="",
         metadata={
             "pattern": r"1|2",
-        },
+        }
     )

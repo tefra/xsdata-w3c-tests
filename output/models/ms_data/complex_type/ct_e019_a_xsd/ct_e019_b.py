@@ -10,7 +10,7 @@ class Mytype1:
     class Meta:
         name = "mytype1"
 
-    value: str = field(default="")
+    value: str = field()
     attr_test1: None | int = field(
         default=None,
         metadata={

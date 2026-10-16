@@ -21,7 +21,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_26_v02"
 
-    value: str = field(default="")
+    value: str = field()
     ay_mdtype: None | XmlDuration = field(
         default=None,
         metadata={

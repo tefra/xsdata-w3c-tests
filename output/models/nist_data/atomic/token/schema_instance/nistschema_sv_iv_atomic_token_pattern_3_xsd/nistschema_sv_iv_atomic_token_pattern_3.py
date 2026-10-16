@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicTokenPattern3:
         namespace = "NISTSchema-SV-IV-atomic-token-pattern-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-Z]{2}\s13653",
-        },
+        }
     )

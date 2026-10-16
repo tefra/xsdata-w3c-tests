@@ -8,7 +8,7 @@ class Foo:
     class Meta:
         name = "_foo"
 
-    value: str = field(default="")
+    value: str = field()
     attr_test: None | object = field(
         default=None,
         metadata={

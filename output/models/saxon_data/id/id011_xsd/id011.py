@@ -8,7 +8,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(default="")
+    value: str = field()
     id: str = field(
         init=False,
         default="para001",

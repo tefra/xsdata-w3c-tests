@@ -9,11 +9,11 @@ obj = Test(
         value='Test case for interaction of substitution groups and \n   #definedSibling.'
     ),
     n=N(
-
+        value=''
     ),
     any_element=[
         N1(
-
+            value=''
         ),
     ]
 )

@@ -8,7 +8,7 @@ class Rtype:
     class Meta:
         name = "rtype"
 
-    value: str = field(default="")
+    value: str = field()
     val: None | str = field(
         default=None,
         metadata={

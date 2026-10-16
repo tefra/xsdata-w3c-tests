@@ -16,8 +16,7 @@ class Root:
         namespace = "a"
 
     value: str | TPredefinedLnclassEnum = field(
-        default="",
         metadata={
             "pattern": r"\p{Lu}+",
-        },
+        }
     )

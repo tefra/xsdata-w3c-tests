@@ -12,10 +12,9 @@ class NistschemaSvIvAtomicIdMaxLength3:
         namespace = "NISTSchema-SV-IV-atomic-ID-maxLength-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 58,
-        },
+        }
     )
 
 

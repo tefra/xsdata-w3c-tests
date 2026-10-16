@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicDatePattern5:
         namespace = "NISTSchema-SV-IV-atomic-date-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d\d44-\d2-\d5",
-        },
+        }
     )

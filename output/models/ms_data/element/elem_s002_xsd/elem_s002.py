@@ -25,11 +25,10 @@ class Cs:
         name = "cs"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 1,
             "max_length": 4,
-        },
+        }
     )
     a: None | object = field(
         default=None,

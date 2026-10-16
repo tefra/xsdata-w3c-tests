@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicNmtokenPattern4:
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-pattern-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\c{33}",
-        },
+        }
     )

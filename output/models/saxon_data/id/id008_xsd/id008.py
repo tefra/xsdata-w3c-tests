@@ -9,7 +9,7 @@ class PseudoId:
     class Meta:
         name = "pseudoID"
 
-    value: str = field(default="")
+    value: str = field()
     a: None | object = field(
         default=None,
         metadata={
@@ -23,7 +23,7 @@ class PseudoIdref:
     class Meta:
         name = "pseudoIDREF"
 
-    value: str = field(default="")
+    value: str = field()
     a: None | object = field(
         default=None,
         metadata={

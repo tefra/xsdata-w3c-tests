@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicUnsignedShortPattern5:
         namespace = "NISTSchema-SV-IV-atomic-unsignedShort-pattern-5-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d{5}",
-        },
+        }
     )

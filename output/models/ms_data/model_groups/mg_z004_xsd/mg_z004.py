@@ -48,24 +48,24 @@ class Root:
 
     @dataclass(kw_only=True)
     class A:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class B1:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class B2:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class B3:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class B4:
-        value: str = field(default="")
+        value: str = field()
 
     @dataclass(kw_only=True)
     class B5:
-        value: str = field(default="")
+        value: str = field()

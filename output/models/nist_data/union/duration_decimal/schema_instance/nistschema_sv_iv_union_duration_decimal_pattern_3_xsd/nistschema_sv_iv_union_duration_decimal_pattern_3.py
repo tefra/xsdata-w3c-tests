@@ -12,8 +12,7 @@ class NistschemaSvIvUnionDurationDecimalPattern3:
         namespace = "NISTSchema-SV-IV-union-duration-decimal-pattern-3-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\-\d{10}\.\d{3}",
-        },
+        }
     )

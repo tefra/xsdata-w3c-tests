@@ -21,7 +21,7 @@ class Ttype:
 
     @dataclass(kw_only=True)
     class Row:
-        value: str = field(default="")
+        value: str = field()
         col: None | str = field(
             default=None,
             metadata={

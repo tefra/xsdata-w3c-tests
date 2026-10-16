@@ -32,7 +32,7 @@ class ForBeProvideRelat:
         name = "_for.be_provide_relat"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -41,7 +41,7 @@ class ThoseToBusinessAndIssuesDataFor:
         name = "_those-to_business_and.issues-data.for"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -50,7 +50,7 @@ class RinfluenceCreateInformationReviewedAsRe:
         name = "rinfluence-create_information_reviewed_as.re"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -59,7 +59,7 @@ class WspecificationsEmergingThatAndIs:
         name = "wspecifications.emerging.that_and.is_"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

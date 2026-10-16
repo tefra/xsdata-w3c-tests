@@ -9,8 +9,7 @@ class Root:
         name = "root"
 
     value: str = field(
-        default="",
         metadata={
             "max_length": 25,
-        },
+        }
     )

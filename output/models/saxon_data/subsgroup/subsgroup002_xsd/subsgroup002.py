@@ -8,7 +8,7 @@ class AppendixContent:
     class Meta:
         name = "appendixContent"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -16,7 +16,7 @@ class ChapContent:
     class Meta:
         name = "chapContent"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -38,7 +38,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicGYearPattern4:
         namespace = "NISTSchema-SV-IV-atomic-gYear-pattern-4-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\d\d14",
-        },
+        }
     )

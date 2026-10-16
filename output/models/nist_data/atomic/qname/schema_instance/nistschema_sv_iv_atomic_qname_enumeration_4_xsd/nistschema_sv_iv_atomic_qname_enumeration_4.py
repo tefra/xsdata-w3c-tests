@@ -41,7 +41,7 @@ class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
         )
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -50,7 +50,7 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
         name = "etransforming-specific.emerging_is-developed.act_rela"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -59,7 +59,7 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
         name = "tmany-retrieval-with_language.both-be.results-is-of-b"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -68,7 +68,7 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -77,7 +77,7 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
         name = "yof_automatic-partnerships.and.set-series_is.key.e"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

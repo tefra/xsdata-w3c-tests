@@ -23,7 +23,7 @@ class Chap:
 
     @dataclass(kw_only=True)
     class Section:
-        value: str = field(default="")
+        value: str = field()
         nr: Decimal = field(
             metadata={
                 "type": "Attribute",

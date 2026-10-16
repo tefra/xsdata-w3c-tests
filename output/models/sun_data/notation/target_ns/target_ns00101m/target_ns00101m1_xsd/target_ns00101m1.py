@@ -11,4 +11,4 @@ class A:
         name = "a"
         namespace = "tck_test"
 
-    value: str = field(default="")
+    value: str = field()

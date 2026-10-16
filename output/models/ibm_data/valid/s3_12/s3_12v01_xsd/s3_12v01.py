@@ -55,7 +55,7 @@ class MixedTitleType(TitleType):
             "type": "Ignore",
         },
     )
-    value: int | str = field(default="")
+    value: int | str = field()
 
 
 @dataclass(kw_only=True)
@@ -70,7 +70,7 @@ class StringTitleType(TitleType):
             "type": "Ignore",
         },
     )
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

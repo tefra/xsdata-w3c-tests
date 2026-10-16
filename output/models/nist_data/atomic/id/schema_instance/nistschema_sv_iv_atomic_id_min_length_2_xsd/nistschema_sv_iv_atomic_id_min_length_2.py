@@ -12,10 +12,9 @@ class NistschemaSvIvAtomicIdMinLength2:
         namespace = "NISTSchema-SV-IV-atomic-ID-minLength-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 45,
-        },
+        }
     )
 
 

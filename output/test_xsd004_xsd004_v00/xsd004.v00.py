@@ -53,13 +53,13 @@ obj = Root(
         Root.StrictAny(
             any_element=[
                 C(
-
+                    value=''
                 ),
                 B(
-
+                    value=''
                 ),
                 C(
-
+                    value=''
                 ),
             ]
         ),

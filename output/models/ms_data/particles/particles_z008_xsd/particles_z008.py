@@ -10,7 +10,7 @@ class Head2:
     class Meta:
         namespace = "urn:my-namespace"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -18,7 +18,7 @@ class Member2:
     class Meta:
         namespace = "urn:my-namespace"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

@@ -11,4 +11,4 @@ class Bar:
         name = "bar"
         namespace = "http://foo"
 
-    value: str = field(default="")
+    value: str = field()

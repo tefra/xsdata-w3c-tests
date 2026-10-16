@@ -8,7 +8,7 @@ class Id:
     class Meta:
         name = "ID"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -16,7 +16,7 @@ class Idref:
     class Meta:
         name = "IDREF"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

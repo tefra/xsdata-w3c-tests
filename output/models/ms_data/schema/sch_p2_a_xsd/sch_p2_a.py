@@ -12,10 +12,9 @@ class E1:
         namespace = "ns-a"
 
     value: str = field(
-        default="",
         metadata={
             "min_length": 4,
-        },
+        }
     )
 
 

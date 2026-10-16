@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicLongPattern2:
         namespace = "NISTSchema-SV-IV-atomic-long-pattern-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"\-\d{9}",
-        },
+        }
     )

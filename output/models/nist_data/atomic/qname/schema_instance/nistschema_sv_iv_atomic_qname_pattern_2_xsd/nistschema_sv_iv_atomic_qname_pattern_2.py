@@ -12,8 +12,7 @@ class NistschemaSvIvAtomicQnamePattern2:
         namespace = "NISTSchema-SV-IV-atomic-QName-pattern-2-NS"
 
     value: str = field(
-        default="",
         metadata={
             "pattern": r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{20}",
-        },
+        }
     )

@@ -9,9 +9,9 @@ obj = Test(
         value='Test case for interaction of substitution groups and \n   #definedSibling.'
     ),
     s1_or_s=S(
-
+        value=''
     ),
     n=N(
-
+        value=''
     )
 )

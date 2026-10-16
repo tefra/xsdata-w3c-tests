@@ -33,7 +33,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)
@@ -42,7 +42,7 @@ class Ncreate:
         name = "ncreate"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: str = field(default="")
+    value: str = field()
 
 
 @dataclass(kw_only=True)

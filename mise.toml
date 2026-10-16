@@ -1,18 +1,14 @@
 [tools]
 python = "3.13"
-
+uv = "latest"
 
 [env]
 _.python.venv = { path = ".venv", create = true }
 
-
-[settings]
-python.venv_stdlib = true
-
 [tasks.install]
 description = "Install dependencies"
 alias = "i"
-run = "pip install -r requirements.txt"
+run = "uv pip install -r requirements.txt"
 
 [tasks.build]
 description = "Build all test models"
@@ -21,5 +17,5 @@ run = "pytest -n auto --mode build"
 
 [tasks.test]
 description = "Run all tests"
-alias = "b"
-run = "pytest -n auto --mode xsd tests --save-output --runxfail --save-output"
+alias = "t"
+run = "pytest -n auto --mode xsd tests --save-output --runxfail"

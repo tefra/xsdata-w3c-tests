@@ -4627,6 +4627,11 @@ obj = TestSet(
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (7)',
                             ]
                         ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
+                            ]
+                        ),
                     ]
                 ),
             ],
@@ -4678,6 +4683,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (8)',
+                            ]
+                        ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
                             ]
                         ),
                     ]
@@ -4733,6 +4743,11 @@ obj = TestSet(
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (9)',
                             ]
                         ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
+                            ]
+                        ),
                     ]
                 ),
             ],
@@ -4784,6 +4799,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (10)',
+                            ]
+                        ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
                             ]
                         ),
                     ]
@@ -4839,6 +4859,11 @@ obj = TestSet(
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (11)',
                             ]
                         ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
+                            ]
+                        ),
                     ]
                 ),
             ],
@@ -4890,6 +4915,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (12)',
+                            ]
+                        ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
                             ]
                         ),
                     ]
@@ -4945,6 +4975,11 @@ obj = TestSet(
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (13)',
                             ]
                         ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
+                            ]
+                        ),
                     ]
                 ),
             ],
@@ -4996,6 +5031,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (14)',
+                            ]
+                        ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
                             ]
                         ),
                     ]
@@ -5051,6 +5091,11 @@ obj = TestSet(
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (15)',
                             ]
                         ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
+                            ]
+                        ),
                     ]
                 ),
             ],
@@ -5102,6 +5147,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 'TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (16)',
+                            ]
+                        ),
+                        Documentation(
+                            content=[
+                                'Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12',
                             ]
                         ),
                     ]

@@ -894,15 +894,20 @@
     <annotation>
       <documentation>
         <Title>Override a notation</Title>
-        <Description>Override a notation. Was over015. See bug 14388</Description>
+        <Description>Override a notation. Was over015. See bug 14388.
+                    See also https://github.com/w3c/xsdtests/issues/12
+                Modified 2026-03-31. I (MHK) now take the view that this violates a schema
+                component constraint and the schema is therefore invalid, despite the
+                fact that the wording of the constraint has changed in 1.1, and despite
+                the argument made in 14388.</Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#override-schema"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"/>
     <schemaTest name="over027.xsd">
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Override/over027.xsd"/>
-      <expected validity="valid"/>
-      <current status="accepted" date="2010-05-05"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
     </schemaTest>
     <instanceTest name="over027.n01.xml">
       <annotation>

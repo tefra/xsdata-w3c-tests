@@ -2631,7 +2631,7 @@ obj = TestSet(
                                 ),
                                 AnyElement(
                                     qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
-                                    text='Override a notation. Was over015. See bug 14388'
+                                    text='Override a notation. Was over015. See bug 14388.\n                    See also https://github.com/w3c/xsdtests/issues/12\n                Modified 2026-03-31. I (MHK) now take the view that this violates a schema\n                component constraint and the schema is therefore invalid, despite the\n                fact that the wording of the constraint has changed in 1.1, and despite\n                the argument made in 14388.'
                                 ),
                             ]
                         ),
@@ -2654,12 +2654,12 @@ obj = TestSet(
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5)
+                    date=XmlDate(2026, 3, 31)
                 ),
                 name='over027.xsd'
             ),

@@ -1553,4 +1553,94 @@
       <current status="accepted" date="2023-09-14"/>
     </instanceTest>
   </testGroup>
+  <testGroup name="simple090">
+    <annotation>
+      <documentation>
+        <Title>xs:NOTATION not allowed as element type</Title>
+        <Description>Schema Component Constraint: enumeration facet value required for NOTATION
+                </Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/TR/xmlschema11-2/#NOTATION"/>
+    <schemaTest name="simple090.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple090.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="simple091">
+    <annotation>
+      <documentation>
+        <Title>xs:NOTATION not allowed as attribute type</Title>
+        <Description>Schema Component Constraint: enumeration facet value required for NOTATION
+                </Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/TR/xmlschema11-2/#NOTATION"/>
+    <schemaTest name="simple091.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple091.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="simple092">
+    <annotation>
+      <documentation>
+        <Title>xs:NOTATION not allowed as item type of list type</Title>
+        <Description>Schema Component Constraint: enumeration facet value required for NOTATION
+                </Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/TR/xmlschema11-2/#NOTATION"/>
+    <schemaTest name="simple092.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple092.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="simple093">
+    <annotation>
+      <documentation>
+        <Title>xs:NOTATION not allowed as member type of union type</Title>
+        <Description>Schema Component Constraint: enumeration facet value required for NOTATION
+                </Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/TR/xmlschema11-2/#NOTATION"/>
+    <schemaTest name="simple093.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple093.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="simple094">
+    <annotation>
+      <documentation>
+        <Title>Restricted xs:NOTATION must have an enumeration facet</Title>
+        <Description>Schema Component Constraint: enumeration facet value required for NOTATION
+                </Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/TR/xmlschema11-2/#NOTATION"/>
+    <schemaTest name="simple094.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple094.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="simple095">
+    <annotation>
+      <documentation>
+        <Title>Restricted xs:NOTATION must have an enumeration facet whose value must be a declared notation</Title>
+        <Description>Schema Component Constraint: enumeration facet value required for NOTATION
+                </Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/TR/xmlschema11-2/#NOTATION"/>
+    <schemaTest name="simple095.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple095.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2026-03-31"/>
+    </schemaTest>
+  </testGroup>
 </testSet>

@@ -1,9 +1,9 @@
 from output.models.saxon_data.override.over015_xsd import Doc
-from xml.etree.ElementTree import QName
+from output.models.saxon_data.override.over015_xsd import NotaFooBar
 
 
 obj = Doc(
     para_or_bezzle=[
-        QName("bez"),
+        NotaFooBar.BEZ,
     ]
 )

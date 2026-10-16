@@ -1404,6 +1404,7 @@
   <testGroup name="stE056">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (7)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE056">
@@ -1420,6 +1421,7 @@
   <testGroup name="stE057">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (8)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE057">
@@ -1436,6 +1438,7 @@
   <testGroup name="stE058">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (9)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE058">
@@ -1452,6 +1455,7 @@
   <testGroup name="stE059">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (10)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE059">
@@ -1468,6 +1472,7 @@
   <testGroup name="stE060">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (11)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE060">
@@ -1484,6 +1489,7 @@
   <testGroup name="stE061">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (12)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE061">
@@ -1500,6 +1506,7 @@
   <testGroup name="stE062">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (13)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE062">
@@ -1516,6 +1523,7 @@
   <testGroup name="stE063">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (14)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE063">
@@ -1532,6 +1540,7 @@
   <testGroup name="stE064">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (15)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE064">
@@ -1548,6 +1557,7 @@
   <testGroup name="stE065">
     <annotation>
       <documentation>TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (16)</documentation>
+      <documentation>Modified by Michael Kay 2026-04-01: see issue https://github.com/w3c/xsdtests/issues/12</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"/>
     <schemaTest name="stE065">

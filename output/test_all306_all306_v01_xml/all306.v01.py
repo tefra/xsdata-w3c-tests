@@ -6,9 +6,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     content=[
         B(
-            content=[
-                None,
-            ]
+
         ),
         'text',
         AnyElement(

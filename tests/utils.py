@@ -16,8 +16,7 @@ from xsdata.cli import cli
 from xsdata.formats.dataclass.context import XmlContext
 from xsdata.formats.dataclass.filters import Filters
 from xsdata.formats.dataclass.parsers import XmlParser
-from xsdata.formats.dataclass.serializers import PycodeSerializer
-from xsdata.formats.dataclass.serializers import XmlSerializer
+from xsdata.formats.dataclass.serializers import PycodeSerializer, XmlSerializer
 from xsdata.formats.dataclass.serializers.config import SerializerConfig
 from xsdata.models.config import GeneratorConfig
 from xsdata.utils import text
@@ -66,15 +65,12 @@ def assert_bindings(
         levels = package.count(".")
         models_package = ".".join(clazz.__module__.split(".")[: levels + 1])
 
-    try:
-        ns_map: dict[str | None, str] = {}
-        instance_path = w3c.joinpath(instance)
-        schema_path = w3c.joinpath(schema)
-        context = XmlContext(class_type=output_format, models_package=models_package)
-        parser = XmlParser(context=context)
-        obj = parser.from_path(instance_path, clazz, ns_map)
-    except Exception as e:
-        raise e
+    ns_map: dict[str | None, str] = {}
+    instance_path = w3c.joinpath(instance)
+    schema_path = w3c.joinpath(schema)
+    context = XmlContext(class_type=output_format, models_package=models_package)
+    parser = XmlParser(context=context)
+    obj = parser.from_path(instance_path, clazz, ns_map)
 
     save_path = None
     if save_output:
@@ -116,14 +112,14 @@ def assert_xml_bindings(
             save_path.with_suffix(".py").write_text(code)
 
         return assert_valid(schema_validator, xsdata_xml)
-    except Exception as e:
+    except Exception:
         try:
             original_tree = etree.parse(str(instance_path))
             assert_valid(schema_validator, original_tree)
-        except Exception:
+        except Exception:  # noqa: BLE001
             pytest.skip("Original instance failed to validate!")
 
-        raise e
+        raise
 
 
 def assert_valid(validator, tree):
@@ -202,5 +198,5 @@ def initialize_validator(path: Path, version: str):
             return xmlschema.XMLSchema11(str(path))
         else:
             return xmlschema.XMLSchema10(str(path))
-    except Exception:
+    except Exception:  # noqa: BLE001
         return None

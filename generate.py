@@ -1,10 +1,10 @@
 import json
 import textwrap
 from collections import defaultdict
+from collections.abc import Iterator
 from decimal import Decimal
 from enum import Enum
 from pathlib import Path
-from typing import Iterator
 from typing import NamedTuple
 
 from lxml import etree
@@ -13,11 +13,14 @@ from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.utils import text
 from xsdata.utils.namespaces import local_name
 
-from models.xsts import Expected, KnownToken
-from models.xsts import ExpectedOutcome
-from models.xsts import TestGroup
-from models.xsts import TestSet
-from models.xsts import TestSuite
+from models.xsts import (
+    Expected,
+    ExpectedOutcome,
+    KnownToken,
+    TestGroup,
+    TestSet,
+    TestSuite,
+)
 
 root = Path(__file__).absolute().parent
 w3c = root.joinpath("w3c")
@@ -43,7 +46,7 @@ def test_{name}(mode, save_output, output_format):
 """
 
 
-xfails = dict()
+xfails = {}
 lastfailed = root.joinpath(".pytest_cache/v/cache/lastfailed")
 if lastfailed.exists():
     with lastfailed.open() as f:
@@ -136,8 +139,7 @@ def fetch_test_cases() -> Iterator[TestCase]:
 
         test_set = parser.from_path(test_set_ref_path, TestSet)
         for test_group in reversed(test_set.test_group):
-            for test_case in make_test_cases(path, test_group):
-                yield test_case
+            yield from make_test_cases(path, test_group)
 
 
 def make_test_cases(path: Path, group: TestGroup):
@@ -207,7 +209,7 @@ def validity(expects: list[Expected]) -> Expected:
 
 
 def pick_version(versions: list[KnownToken | Decimal | str]):
-    choices = set(v.value if isinstance(v, Enum) else str(v) for v in versions)
+    choices = {v.value if isinstance(v, Enum) else str(v) for v in versions}
     if "1.1" in choices:
         return "1.1"
     elif "1.0" in choices:
@@ -245,7 +247,7 @@ def read_root_name(path: Path) -> str:
             return text.pascal_case(f"{name}_Type")
 
         return name
-    except Exception:
+    except Exception:  # noqa: BLE001
         return ""
 
 

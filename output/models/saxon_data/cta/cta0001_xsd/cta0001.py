@@ -1,13 +1,13 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 from typing import Any
 
 from xsdata.models.datatype import XmlDate, XmlTime
 
 
-class MessageTypeValue(Enum):
+class MessageTypeValue(StrEnum):
     STRING = "string"
     BASE64 = "base64"
     BINARY = "binary"

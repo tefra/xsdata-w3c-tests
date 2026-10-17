@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-2-NS"
 
 
-class NistschemaSvIvAtomicNameEnumeration2Type(Enum):
+class NistschemaSvIvAtomicNameEnumeration2Type(StrEnum):
     UOF_RETRIEVE_THE_PROVIDED_SPECIFIC_IN_SYSTEMS_ON_A_CHI = (
         "uof.retrieve:the_provided_specific_in_systems-on-a-chi"
     )

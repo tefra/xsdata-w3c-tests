@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -14,7 +14,7 @@ class E2:
     value: int = field()
 
 
-class MyType10Value(Enum):
+class MyType10Value(StrEnum):
     X = "x"
     Y = "y"
 

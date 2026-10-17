@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import Enum, StrEnum
 
 
-class ComplexfooTypeCompFoo(Enum):
+class ComplexfooTypeCompFoo(StrEnum):
     VALUE_0 = "0"
     VALUE_1 = "1"
 

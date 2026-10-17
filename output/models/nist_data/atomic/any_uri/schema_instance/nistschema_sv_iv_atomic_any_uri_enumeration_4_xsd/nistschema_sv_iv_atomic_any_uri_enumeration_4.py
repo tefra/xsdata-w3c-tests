@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicAnyUriEnumeration4Type(Enum):
+class NistschemaSvIvAtomicAnyUriEnumeration4Type(StrEnum):
     GOPHER_THESEDEFINE_ESCRIBESOF_HOSEINDUSTR_EDU = (
         "gopher://thesedefine.escribesof.hoseindustr.edu"
     )

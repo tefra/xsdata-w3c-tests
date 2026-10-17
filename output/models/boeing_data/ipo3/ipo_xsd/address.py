@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "http://www.example.com/add"
 
@@ -28,7 +28,7 @@ class AddressType:
     )
 
 
-class Usstate(Enum):
+class Usstate(StrEnum):
     AK = "AK"
     AL = "AL"
     AR = "AR"

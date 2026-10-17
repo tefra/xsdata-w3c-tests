@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from decimal import Decimal
-from enum import Enum
+from enum import StrEnum
 from typing import ForwardRef
 
 from xsdata.models.datatype import XmlDate
@@ -13,7 +13,7 @@ from output.models.boeing_data.ipo5.ipo_xsd.itematt import ItemShipBy
 __NAMESPACE__ = "http://www.example.com/IPO"
 
 
-class Usstate(Enum):
+class Usstate(StrEnum):
     AK = "AK"
     AL = "AL"
     AR = "AR"

@@ -1,14 +1,14 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 from output.models.boeing_data.ipo4.ipo_xsd.ipo import AddressType
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 
 
-class Usstate(Enum):
+class Usstate(StrEnum):
     AK = "AK"
     AL = "AL"
     AR = "AR"

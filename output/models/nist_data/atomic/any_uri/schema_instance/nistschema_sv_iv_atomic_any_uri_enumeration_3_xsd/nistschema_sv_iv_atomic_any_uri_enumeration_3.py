@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicAnyUriEnumeration3Type(Enum):
+class NistschemaSvIvAtomicAnyUriEnumeration3Type(StrEnum):
     HTTP_WWW_APISIN_COMPU_INGTE_COM = "http://www.APIsinCompu.ingte.com"
     TELNET_ACADEMI_ORG = "telnet://academi.org"
     GOPHER_THATOVER_JAV_THROUGHT_COM = "gopher://thatoverJav.throught.com"

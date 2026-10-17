@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import Enum, StrEnum
 
 
 class A1(Enum):
@@ -24,7 +24,7 @@ class A2:
     )
 
 
-class B1(Enum):
+class B1(StrEnum):
     A = "a"
     B = "b"
     C123456789 = "c123456789"

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-language-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicLanguageEnumeration4Type(Enum):
+class NistschemaSvIvAtomicLanguageEnumeration4Type(StrEnum):
     BR = "BR"
     CA = "CA"
     CO = "CO"

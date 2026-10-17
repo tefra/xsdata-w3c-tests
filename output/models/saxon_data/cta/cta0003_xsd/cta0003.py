@@ -2,12 +2,12 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from decimal import Decimal
-from enum import Enum
+from enum import IntEnum
 
 __NAMESPACE__ = "http://cta0002/"
 
 
-class TMin(Enum):
+class TMin(IntEnum):
     VALUE_0 = 0
     VALUE_1 = 1
 

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "http://foo.com"
 
 
-class SimpleType(Enum):
+class SimpleType(StrEnum):
     YES = "yes"
     NO = "no"
 

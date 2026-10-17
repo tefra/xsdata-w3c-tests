@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicNcnameEnumeration3Type(Enum):
+class NistschemaSvIvAtomicNcnameEnumeration3Type(StrEnum):
     UPROFILES_PA = "uprofiles.pa"
     CUSED_DE = "cused.de"
     YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I = (

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"
 
 
-class NistschemaSvIvAtomicAnyUriEnumeration2Type(Enum):
+class NistschemaSvIvAtomicAnyUriEnumeration2Type(StrEnum):
     FTP_FTP_RELATEDTOOL_AANDOFINVE_TICALOFEFF_RTHAVE_EC_EDU = (
         "ftp://ftp.relatedtool.aandofinve.ticalofeff.rthaveEC.edu"
     )

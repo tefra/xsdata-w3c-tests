@@ -1,17 +1,17 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "tns"
 
 
-class AddressTypeType(Enum):
+class AddressTypeType(StrEnum):
     BILLING = "billing"
     SHIPPING = "shipping"
 
 
-class CountryType(Enum):
+class CountryType(StrEnum):
     US = "us"
     CAN = "can"
 

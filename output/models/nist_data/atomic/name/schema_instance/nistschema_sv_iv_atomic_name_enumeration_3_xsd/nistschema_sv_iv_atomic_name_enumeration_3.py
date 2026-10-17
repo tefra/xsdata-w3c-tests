@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicNameEnumeration3Type(Enum):
+class NistschemaSvIvAtomicNameEnumeration3Type(StrEnum):
     UPROCESSORS_FOR_PUBLISHING_METHODS_FOR_AN_WITH_INCLUDED_IMPLEME = (
         "uprocessors:for.publishing:methods.for:an-with:included:impleme"
     )

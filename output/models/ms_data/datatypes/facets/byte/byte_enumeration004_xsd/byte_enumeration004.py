@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import IntEnum
 
 
-class FooTypeFoo(Enum):
+class FooTypeFoo(IntEnum):
     VALUE_MINUS_1 = -1
     VALUE_0 = 0
     VALUE_1_1 = 1

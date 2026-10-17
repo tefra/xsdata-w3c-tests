@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-1-NS"
 
 
-class NistschemaSvIvAtomicIdEnumeration1Type(Enum):
+class NistschemaSvIvAtomicIdEnumeration1Type(StrEnum):
     ITEMPLATES_RESOURCE = "itemplates.resource_"
     HORGANIZ = "horganiz"
     WORK_OF_IS_DOCUMENTS_RELATIONSHIPS_OF_AT_OBJECT = (

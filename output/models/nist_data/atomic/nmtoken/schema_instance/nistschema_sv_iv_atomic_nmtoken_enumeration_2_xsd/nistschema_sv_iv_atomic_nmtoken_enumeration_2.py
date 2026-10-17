@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-2-NS"
 
 
-class NistschemaSvIvAtomicNmtokenEnumeration2Type(Enum):
+class NistschemaSvIvAtomicNmtokenEnumeration2Type(StrEnum):
     LED_BACK_MUST_ITL_APPLICATIONS_EXCHA = (
         "led:back:must.ITL_applications:excha"
     )

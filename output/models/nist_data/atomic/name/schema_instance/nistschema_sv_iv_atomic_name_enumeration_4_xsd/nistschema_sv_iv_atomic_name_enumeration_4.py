@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicNameEnumeration4Type(Enum):
+class NistschemaSvIvAtomicNameEnumeration4Type(StrEnum):
     SPROVIDED_I = "sprovided:i"
     PRIGOROUS_MUST_THAN_S = "prigorous.must.than.s"
     JGENERATION_DEPLOYED_CONSISTENCY_VO = "jgeneration-deployed-consistency_vo"

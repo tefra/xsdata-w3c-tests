@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import IntEnum
 
 
 @dataclass(kw_only=True)
@@ -25,7 +25,7 @@ class Ct3:
     )
 
 
-class Ct4State(Enum):
+class Ct4State(IntEnum):
     VALUE_0 = 0
     VALUE_1 = 1
     VALUE_2 = 2

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import IntEnum, StrEnum
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-class Char(Enum):
+class Char(StrEnum):
     A = "a"
     B = "b"
     C = "c"
@@ -14,7 +14,7 @@ class Char(Enum):
     E = "e"
 
 
-class No(Enum):
+class No(IntEnum):
     VALUE_1 = 1
     VALUE_2 = 2
     VALUE_3 = 3

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicNormalizedStringEnumeration3Type(Enum):
+class NistschemaSvIvAtomicNormalizedStringEnumeration3Type(StrEnum):
     AND = "and"
     NIST = "NIST"
     ENABLING = "enabling"

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicNmtokenEnumeration3Type(Enum):
+class NistschemaSvIvAtomicNmtokenEnumeration3Type(StrEnum):
     NEEDED_AS_IS_FURTHERMORE_RETRIEVE_TO_MEANS_FIND = (
         "needed:as-is.Furthermore_retrieve-to.means.find"
     )

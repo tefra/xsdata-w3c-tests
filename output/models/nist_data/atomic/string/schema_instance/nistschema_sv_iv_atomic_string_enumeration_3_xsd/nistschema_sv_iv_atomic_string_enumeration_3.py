@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicStringEnumeration3Type(Enum):
+class NistschemaSvIvAtomicStringEnumeration3Type(StrEnum):
     SYNTAX = "syntax"
     THROUGH = "through"
     ONLY = "only"

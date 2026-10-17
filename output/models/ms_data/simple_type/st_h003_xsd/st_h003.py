@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 
-class ListOfStatesValue(Enum):
+class ListOfStatesValue(StrEnum):
     WA = "WA"
     OR = "OR"
     CA = "CA"

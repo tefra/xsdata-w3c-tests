@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-5-NS"
 
 
-class NistschemaSvIvAtomicAnyUriEnumeration5Type(Enum):
+class NistschemaSvIvAtomicAnyUriEnumeration5Type(StrEnum):
     MAILTO_OFDISCOVERYST_GROUPS_ATOOFOFWHICHISCREA_GOV = (
         "mailto:ofdiscoveryst@GroupsAtoofofwhichiscrea.gov"
     )

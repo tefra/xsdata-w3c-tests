@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "SType/ST_facets"
 
 
-class S(Enum):
+class S(StrEnum):
     AA111A2_AA = "aa111a2Aa"
     AA22_B3C = "aa22B3c"
     AA3_4 = "aa3-4_"

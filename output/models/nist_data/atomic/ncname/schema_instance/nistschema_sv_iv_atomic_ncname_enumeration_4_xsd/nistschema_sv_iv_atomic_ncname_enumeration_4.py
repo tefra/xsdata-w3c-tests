@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicNcnameEnumeration4Type(Enum):
+class NistschemaSvIvAtomicNcnameEnumeration4Type(StrEnum):
     XSTANDARDS_AND_ALL_DIFFERENT_SUCH_THE_PARTICULARLY_TRANSMIT_TO = (
         "xstandards-and-all-different-such.the_particularly.transmit_to"
     )

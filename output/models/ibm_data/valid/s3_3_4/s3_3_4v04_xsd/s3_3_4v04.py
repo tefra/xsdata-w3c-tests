@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 
-class Entities(Enum):
+class Entities(StrEnum):
     ASD_QWE = "asd qwe"
 
 

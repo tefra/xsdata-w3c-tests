@@ -1,21 +1,21 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 from output.models.common.xsts_xsd.xml import LangValue
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 
 
-class ActuateType(Enum):
+class ActuateType(StrEnum):
     ON_LOAD = "onLoad"
     ON_REQUEST = "onRequest"
     OTHER = "other"
     NONE = "none"
 
 
-class ShowType(Enum):
+class ShowType(StrEnum):
     NEW = "new"
     REPLACE = "replace"
     EMBED = "embed"
@@ -23,7 +23,7 @@ class ShowType(Enum):
     NONE = "none"
 
 
-class TypeType(Enum):
+class TypeType(StrEnum):
     SIMPLE = "simple"
     EXTENDED = "extended"
     TITLE = "title"

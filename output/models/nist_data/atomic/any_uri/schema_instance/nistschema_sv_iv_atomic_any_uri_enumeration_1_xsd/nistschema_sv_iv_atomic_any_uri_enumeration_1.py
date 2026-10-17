@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-1-NS"
 
 
-class NistschemaSvIvAtomicAnyUriEnumeration1Type(Enum):
+class NistschemaSvIvAtomicAnyUriEnumeration1Type(StrEnum):
     HTTP_THEISTE_COM = "http://Theiste.com"
     MAILTO_PROV_ORG = "mailto:@prov.org"
     FTP_H_COM = "ftp://h.com"

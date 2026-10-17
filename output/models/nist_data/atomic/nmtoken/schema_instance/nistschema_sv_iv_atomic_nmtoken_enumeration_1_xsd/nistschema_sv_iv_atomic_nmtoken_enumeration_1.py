@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-1-NS"
 
 
-class NistschemaSvIvAtomicNmtokenEnumeration1Type(Enum):
+class NistschemaSvIvAtomicNmtokenEnumeration1Type(StrEnum):
     INTERNET_WILL_THAT_TO_MAD = "Internet_will:_that:to_mad"
     COMPUTING_NSRL_CAN_A_TO_OF_MUST_PERV = (
         "computing-NSRL.can:a.to-of:must-perv"

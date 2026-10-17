@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 
-class FooTypeFoo(Enum):
+class FooTypeFoo(StrEnum):
     FOO = "foo"
     HTTP_WWW_MICROSOFT_COM = "http://www.microsoft.com"
     MAILTO_DAVEBROW_MICROSOFT_COM = "mailto:davebrow@microsoft.com"

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from decimal import Decimal
-from enum import Enum
+from enum import StrEnum
 
 from xsdata.models.datatype import XmlDate
 
@@ -41,7 +41,7 @@ class Appinfo:
     )
 
 
-class ExpectedOutcome(Enum):
+class ExpectedOutcome(StrEnum):
     """
     <div> <p> Enumerates the possible values for the prescribed outcome of
     a test.
@@ -115,7 +115,7 @@ class ExpectedOutcome(Enum):
     INVALID_LATENT = "invalid-latent"
 
 
-class KnownToken(Enum):
+class KnownToken(StrEnum):
     """
     <div> <p>Tokens to denote well-known (i.e. documented) versions,
     features, or implementation-defined behaviors, of XSD.</p> <p>The
@@ -148,7 +148,7 @@ class KnownToken(Enum):
     COMMENTS_AND_PIS_INCLUDED = "comments-and-PIs-included"
 
 
-class SchemaDocumentRefRole(Enum):
+class SchemaDocumentRefRole(StrEnum):
     PRINCIPAL = "principal"
     IMPORTED = "imported"
     INCLUDED = "included"
@@ -156,7 +156,7 @@ class SchemaDocumentRefRole(Enum):
     OVERRIDDEN = "overridden"
 
 
-class Status(Enum):
+class Status(StrEnum):
     SUBMITTED = "submitted"
     ACCEPTED = "accepted"
     STABLE = "stable"
@@ -165,7 +165,7 @@ class Status(Enum):
     DISPUTED_SPEC = "disputed-spec"
 
 
-class TestOutcome(Enum):
+class TestOutcome(StrEnum):
     """
     <div> <p> Enumerates the possible outcomes of running a test.
 
@@ -212,7 +212,7 @@ class TestOutcome(Enum):
     RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
 
 
-class TestSuiteResultsPublicationPermission(Enum):
+class TestSuiteResultsPublicationPermission(StrEnum):
     W3_C_MEMBERS = "W3C members"
     PUBLIC = "public"
 

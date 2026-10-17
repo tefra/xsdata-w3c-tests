@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicNmtokenEnumeration4Type(Enum):
+class NistschemaSvIvAtomicNmtokenEnumeration4Type(StrEnum):
     TRANS = "trans"
     OBJEC = "Objec"
     MUST_INVESTIGATORS_SIGNATURES_TOOLS_SOFTWARE_TO_THAT_AS_RO = (

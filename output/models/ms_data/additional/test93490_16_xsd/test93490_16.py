@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"
 
 
-class MapInfoTypeHideInactiveListBorder(Enum):
+class MapInfoTypeHideInactiveListBorder(StrEnum):
     TRUE = "true"
     FALSE = "false"
 
@@ -45,7 +45,7 @@ class SchemaType:
     )
 
 
-class TruefalseType(Enum):
+class TruefalseType(StrEnum):
     TRUE = "true"
     FALSE = "false"
 

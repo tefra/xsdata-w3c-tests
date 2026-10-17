@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 
-class AttRefAtt1(Enum):
+class AttRefAtt1(StrEnum):
     AK = "AK"
     AL = "AL"
     AR = "AR"

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from decimal import Decimal
-from enum import Enum
+from enum import StrEnum
 from typing import ForwardRef
 
 from xsdata.models.datatype import XmlDate
@@ -36,7 +36,7 @@ class AddressType:
     )
 
 
-class Usstate(Enum):
+class Usstate(StrEnum):
     AK = "AK"
     AL = "AL"
     AR = "AR"

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-2-NS"
 
 
-class NistschemaSvIvAtomicNcnameEnumeration2Type(Enum):
+class NistschemaSvIvAtomicNcnameEnumeration2Type(StrEnum):
     OSOFTWARE_WIDESPREAD_MUST_RE = "osoftware-widespread_must_re"
     VTO_SIGNIFICANT_GOVERNMENT_DISSEMINATE_INDUSTRY_A_OVER = (
         "vto.significant_government_disseminate.industry.a_over"

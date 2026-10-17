@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicTokenEnumeration4Type(Enum):
+class NistschemaSvIvAtomicTokenEnumeration4Type(StrEnum):
     PICO_CELLULAR = "pico-cellular"
     TO = "to"
     TECHNIQUES = "techniques"

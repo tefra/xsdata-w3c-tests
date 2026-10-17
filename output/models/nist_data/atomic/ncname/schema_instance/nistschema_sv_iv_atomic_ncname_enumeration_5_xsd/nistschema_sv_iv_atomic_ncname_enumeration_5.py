@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-5-NS"
 
 
-class NistschemaSvIvAtomicNcnameEnumeration5Type(Enum):
+class NistschemaSvIvAtomicNcnameEnumeration5Type(StrEnum):
     KOBJECT_TRANSACT_CONSTITUENT_OF_FILE_IS_WITHOUT_ABOUT_ARE_A_BE = (
         "kobject-transact-constituent_of_file.is_without_about_are_a.be"
     )

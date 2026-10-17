@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "1"
 
@@ -21,7 +21,7 @@ class Foo:
     )
 
 
-class St(Enum):
+class St(StrEnum):
     VALUE_2 = "2"
     VALUE_4 = "4"
     VALUE_5 = "5"

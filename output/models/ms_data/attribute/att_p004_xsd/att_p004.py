@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import IntEnum
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
-class MySimpleType(Enum):
+class MySimpleType(IntEnum):
     VALUE_1 = 1
     VALUE_2 = 2
     VALUE_3 = 3

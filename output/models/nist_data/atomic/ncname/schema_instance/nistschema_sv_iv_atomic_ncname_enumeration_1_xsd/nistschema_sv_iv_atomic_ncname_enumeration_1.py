@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-1-NS"
 
 
-class NistschemaSvIvAtomicNcnameEnumeration1Type(Enum):
+class NistschemaSvIvAtomicNcnameEnumeration1Type(StrEnum):
     IS_TESTING_REGISTRY_FOR_COME_POPULAR_NETWORKING_IS_BETWE = (
         "_is-testing.registry_for_come_popular-networking-is-betwe"
     )

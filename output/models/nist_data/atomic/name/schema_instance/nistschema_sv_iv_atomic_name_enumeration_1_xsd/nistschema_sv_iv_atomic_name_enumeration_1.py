@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-1-NS"
 
 
-class NistschemaSvIvAtomicNameEnumeration1Type(Enum):
+class NistschemaSvIvAtomicNameEnumeration1Type(StrEnum):
     PARTICULAR_AS_PARTICIPANTS_STANDARDIZATION_DAT = (
         "_particular:as_participants:standardization.dat"
     )

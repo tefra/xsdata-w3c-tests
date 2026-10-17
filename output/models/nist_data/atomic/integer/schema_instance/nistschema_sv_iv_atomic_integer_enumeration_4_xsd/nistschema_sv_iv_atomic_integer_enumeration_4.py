@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import IntEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-integer-enumeration-4-NS"
 
 
-class NistschemaSvIvAtomicIntegerEnumeration4Type(Enum):
+class NistschemaSvIvAtomicIntegerEnumeration4Type(IntEnum):
     VALUE_MINUS_1480745378756 = -1480745378756
     VALUE_MINUS_479 = -479
     VALUE_9967661580861324 = 9967661580861324

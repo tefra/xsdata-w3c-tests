@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-2-NS"
 
 
-class NistschemaSvIvAtomicIdEnumeration2Type(Enum):
+class NistschemaSvIvAtomicIdEnumeration2Type(StrEnum):
     JREQUESTING_METHODS_IN = "jrequesting-methods-in"
     PDATA_TECHNOLOGIES_WILL_THAT_THEIR_AT_ME = (
         "pdata_technologies-will-that_their-at_me"

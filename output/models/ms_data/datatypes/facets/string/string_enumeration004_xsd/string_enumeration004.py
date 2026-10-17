@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 
-class FooTypeFoo(Enum):
+class FooTypeFoo(StrEnum):
     FOO = "foo"
     VALUE_123 = "123"
     FOO123 = "foo123"

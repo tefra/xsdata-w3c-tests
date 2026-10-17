@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-3-NS"
 
 
-class NistschemaSvIvAtomicIdEnumeration3Type(Enum):
+class NistschemaSvIvAtomicIdEnumeration3Type(StrEnum):
     HIN_AND_SOFTWARE_HARDWARE_A = "hin.and-software-hardware-a"
     WTO_TO_THE_AND_APPR = "wto-to.the_and.appr"
     HINTEROPERABILITY_USED_REVOLUTION_METHODS_SYSTEMS_COST_ENA = (

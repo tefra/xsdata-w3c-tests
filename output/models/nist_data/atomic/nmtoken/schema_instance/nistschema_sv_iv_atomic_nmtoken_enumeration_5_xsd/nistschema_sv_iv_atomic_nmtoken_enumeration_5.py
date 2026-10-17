@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-5-NS"
 
 
-class NistschemaSvIvAtomicNmtokenEnumeration5Type(Enum):
+class NistschemaSvIvAtomicNmtokenEnumeration5Type(StrEnum):
     CROSS_OVER_RELATED_AMBIGUITIES_THE_EX = (
         "cross-over.related.ambiguities-The.Ex"
     )

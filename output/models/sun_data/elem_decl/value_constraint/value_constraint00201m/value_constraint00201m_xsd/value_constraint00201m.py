@@ -16,6 +16,7 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
+            "empty_value": "12",
             "min_occurs": 1,
         },
     )

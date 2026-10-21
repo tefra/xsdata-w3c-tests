@@ -10,6 +10,7 @@ class RegistryValueModOpSetType:
         metadata={
             "type": "Element",
             "namespace": "",
+            "empty_value": "reg_value_delete",
             "min_occurs": 2,
             "max_occurs": 2,
         },

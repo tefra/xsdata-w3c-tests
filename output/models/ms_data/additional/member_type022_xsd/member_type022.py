@@ -15,6 +15,7 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
+            "empty_value": "true",
             "min_occurs": 3,
             "max_occurs": 3,
         },

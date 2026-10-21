@@ -13,6 +13,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "empty_value": "fixed",
         },
     )
     att: str = field(

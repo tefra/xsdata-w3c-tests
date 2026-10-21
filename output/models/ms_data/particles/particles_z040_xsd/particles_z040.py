@@ -53,6 +53,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "empty_value": "e2",
             "max_occurs": 6,
             "sequence": 1,
         },

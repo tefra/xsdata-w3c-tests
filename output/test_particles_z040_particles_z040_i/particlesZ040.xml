@@ -2,7 +2,7 @@
 <doc xmlns:a="a" xmlns:b="b">
   <a>e1</a>
   <a:a1>a1</a:a1>
-  <b/>
+  <b>e2</b>
   <a:a1>a1</a:a1>
   <a:a1>a1</a:a1>
   <a:a1>a1</a:a1>

@@ -27,7 +27,7 @@ class Nillable2:
         nillable = True
         namespace = "foo"
 
-    value: list[int] = field(
+    value: None | list[int] = field(
         default_factory=list,
         metadata={
             "min_length": 2,

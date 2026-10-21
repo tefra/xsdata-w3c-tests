@@ -11,7 +11,7 @@ class Array:
     class Meta:
         namespace = "http://schemas.microsoft.com/2003/10/Serialization/"
 
-    item: list[object] = field(
+    item: list[None | object] = field(
         default_factory=list,
         metadata={
             "name": "Item",

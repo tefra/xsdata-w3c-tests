@@ -23,7 +23,7 @@ class Root:
     class Meta:
         name = "root"
 
-    uid: list[Uid] = field(
+    uid: list[None | Uid] = field(
         default_factory=list,
         metadata={
             "type": "Element",

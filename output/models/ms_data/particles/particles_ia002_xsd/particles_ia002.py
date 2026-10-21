@@ -31,7 +31,7 @@ class Base:
     class Meta:
         name = "base"
 
-    e1: list[T1] = field(
+    e1: list[None | T1] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -43,6 +43,12 @@ class T(Ttype):
         nillable = True
         namespace = "myNS.tempuri.org"
 
+    value: None | bool = field(
+        metadata={
+            "nillable": True,
+        }
+    )
+
 
 @dataclass(kw_only=True)
 class U(Utype):
@@ -50,6 +56,12 @@ class U(Utype):
         name = "u"
         nillable = True
         namespace = "myNS.tempuri.org"
+
+    value: None | Decimal = field(
+        metadata={
+            "nillable": True,
+        }
+    )
 
 
 @dataclass(kw_only=True)
